@@ -1,5 +1,4 @@
-baseURL = "https://tropyc-crypto.github.io/tropyc-alpha"
-publishDir = "docs"
+baseURL = "/"
 languageCode = "en-us"
 title = "Tropyc"
 theme = "kube"
