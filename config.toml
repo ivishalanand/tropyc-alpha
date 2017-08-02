@@ -1,0 +1,25 @@
+baseURL = "https://tropyc-crypto.github.io/tropyc-alpha"
+publishDir = "docs"
+languageCode = "en-us"
+title = "Tropyc"
+theme = "kube"
+description = "Tropyc - Crypto Community"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "Tropyc"
+  telegram = "Tropyc"
+  email = "myemail@myaddress.xxx"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "Faq"
+    weight = -100
+    url = "/faq/"
