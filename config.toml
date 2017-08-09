@@ -11,14 +11,22 @@ Paginate = 4
   email = "myemail@myaddress.xxx"
 
 [[menu.main]]
-    name = "Docs"
-    weight = -100
-    url = "/docs/"
+    name = "News"
+    weight = 10
+    url = "/news/"
 [[menu.main]]
-    name = "Blog"
-    weight = -100
-    url = "/blog/"
+    name = "Crypto 101"
+    weight = 20
+    url = "/crypto-101/"
 [[menu.main]]
-    name = "Faq"
-    weight = -100
-    url = "/faq/"
+    name = "Purchase"
+    weight = 30
+    url = "/purchase/"
+[[menu.main]]
+    name = "Tokens"
+    weight = 40
+    url = "/tokens/"
+[[menu.main]]
+    name = "Token sales"
+    weight = 50
+    url = "/token-sales/"
