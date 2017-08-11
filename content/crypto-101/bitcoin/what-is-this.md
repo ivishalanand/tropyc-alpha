@@ -9,7 +9,7 @@ bref = "Bref example"
 toc = true
 +++
 
-### Introduction
+## Introduction
 
 Bla Bla Bla
 

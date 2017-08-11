@@ -1,9 +1,8 @@
 baseURL = "https://tropyc.netlify.com"
 languageCode = "en-us"
 title = "Tropyc"
-theme = "kube"
 description = "Tropyc - Crypto Community"
-Paginate = 4
+Paginate = 3
 [Params]
   RSSLink = "/index.xml"
   author = "Tropyc"

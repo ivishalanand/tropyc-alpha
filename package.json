@@ -1,0 +1,29 @@
+{
+  "name": "tropyc",
+  "version": "1.0.0",
+  "description": "This is the alpha of the Tropyc website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tropyc-crypto/tropyc-alpha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tropyc-crypto/tropyc-alpha/issues"
+  },
+  "homepage": "https://github.com/tropyc-crypto/tropyc-alpha#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-hash": "^4.1.1",
+    "gulp-sass": "^3.1.0",
+    "tocbot": "^3.0.3"
+  },
+  "dependencies": {}
+}

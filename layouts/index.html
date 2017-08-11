@@ -2,53 +2,56 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-<div id="main">
-  <div id="hero">
-    <h1>{{.Title}}</h1>
-    <p>{{.Description}}</p>
-  </div>
-  <div class="message focus" data-component="message"> <span class="close small"></span>
-     Tropyc is currently still in <mark>alpha</mark>, a lot of new content and features are on the way, in the meantime make sure you join the community on telegram <a class="button inverted small" href="https://t.me/{{.Site.Params.telegram}}" target="_blank">Tropyc Telegram</a>
-  </div>
-  <div id="kube-features">
-    <div class="row gutters">
-      <div class="col col-4 item">
-        <figure>
-          <img alt="Baseline" height="48" src="/img/kube/icon-baseline.png" width="48">
-        </figure>
-        <h3>Feature 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro recusandae eligendi, dolores veniam illum tempore modi. </p>
-      </div>
-      <div class="col col-4 item">
-        <figure>
-          <img alt="Typography" height="48" src="/img/kube/icon-typo.png" width="48">
-        </figure>
-        <h3>Feature 2</h3>
-        <p>Error sequi ea consequatur illum, deserunt necessitatibus debitis et temporibus minima? Dolor, fuga, maiores!</p>
-      </div>
-      <div class="col col-4 item">
-        <figure>
-          <img alt="Minimalism" height="48" src="/img/kube/icon-minimalism.png" width="48">
-        </figure>
-        <h3>Feature 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum modi cumque odit? </p>
-      </div>
-    </div>
-    <div class="row gutters">
-      <div class="col col-4 item">
-        <h4>Feature 4</h4>
-        <p>Sint consequatur dolor, officiis ad quis laboriosam ducimus similique ab, accusantium delectus a aut cum nesciunt? Minus, explicabo.</p>
-      </div>
-      <div class="col col-4 item">
-        <h4>Feature 5</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, maxime minima perspiciatis molestias modi!</p>
-      </div>
-      <div class="col col-4 item">
-        <h4>Feature 6</h4>
-        <p>Voluptate quod, doloremque autem a earum, repellendus soluta vero excepturi nulla, sapiente, voluptates doloribus culpa nemo!</p>
-    </div>
-  </div>
-</div>
+<div class="container">
+	<div id="main">
+	  <div id="hero">
+	    <h1>{{.Title}}</h1>
+	    <p>{{.Description}}</p>
+	  </div>
+	  <div class="message focus" data-component="message"> <span class="close small"></span>
+	     Tropyc is currently still in <mark>alpha</mark>, a lot of new content and features are on the way, in the meantime make sure you join the community on telegram <a class="button inverted small" href="https://t.me/{{.Site.Params.telegram}}" target="_blank">Tropyc Telegram</a>
+	  </div>
+	  <div id="kube-features">
+	    <div class="row gutters">
+	      <div class="col col-4 item">
+	        <figure>
+	          <!-- <img alt="Baseline" height="48" src="" width="48"> -->
+	        </figure>
+	        <h3>Feature 1</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro recusandae eligendi, dolores veniam illum tempore modi. </p>
+	      </div>
+	      <div class="col col-4 item">
+	        <figure>
+	          <!-- <img alt="Typography" height="48" src="" width="48"> -->
+	        </figure>
+	        <h3>Feature 2</h3>
+	        <p>Error sequi ea consequatur illum, deserunt necessitatibus debitis et temporibus minima? Dolor, fuga, maiores!</p>
+	      </div>
+	      <div class="col col-4 item">
+	        <figure>
+	          <!-- <img alt="Minimalism" height="48" src="" width="48"> -->
+	        </figure>
+	        <h3>Feature 3</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum modi cumque odit? </p>
+	      </div>
+	    </div>
+	    <div class="row gutters">
+	      <div class="col col-4 item">
+	        <h4>Feature 4</h4>
+	        <p>Sint consequatur dolor, officiis ad quis laboriosam ducimus similique ab, accusantium delectus a aut cum nesciunt? Minus, explicabo.</p>
+	      </div>
+	      <div class="col col-4 item">
+	        <h4>Feature 5</h4>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, maxime minima perspiciatis molestias modi!</p>
+	      </div>
+	      <div class="col col-4 item">
+	        <h4>Feature 6</h4>
+	        <p>Voluptate quod, doloremque autem a earum, repellendus soluta vero excepturi nulla, sapiente, voluptates doloribus culpa nemo!</p>
+	    	</div>
+	  	</div>
+		</div>
+	</div>
 </div>
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}
+

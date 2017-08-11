@@ -1,0 +1,102 @@
+/* Main navbar */
+.navbar-tropyc {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-tropyc-brand {
+  img {
+    height: 50px;
+  }
+
+  &__name {
+    padding-left: 10px;
+    color: $brand-color;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+
+    @media (max-width: 927px) {
+      display: none;
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Right section */
+.navbar-tropyc-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-tropyc-item {
+  cursor: pointer;
+  padding: 0 30px;
+}
+
+/* Navbar link */
+.navbar-tropyc-link {
+  color: #616668;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar-tropyc-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* Navbar Button */
+.navbar-tropyc-button {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: $brand-color;
+
+  &:hover {
+    color: #fff;
+    background-color: #46905d;
+  }
+}
+
+/* Dropdown menu */
+.navbar-tropyc-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-tropyc-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-tropyc-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-tropyc-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}

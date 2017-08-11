@@ -4,8 +4,9 @@
 <head>
   {{ .Hugo.Generator }}
   <meta charset="utf-8">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
   {{ with .Description }}
@@ -34,33 +35,22 @@
 
   {{ partial "favicon" . }}
 
-  <link href="/css/font.css" rel="stylesheet" type="text/css">
-  <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
-  <link href="/css/kube.legenda.css" rel="stylesheet" type="text/css">
-  <link href="/css/highlight.css" rel="stylesheet" type="text/css">
-  <link href="/css/master.css" rel="stylesheet" type="text/css">
-  <link href="/css/kube.demo.css" rel="stylesheet" type="text/css">
-<!-- Your own theme here -->
- <link href="/css/custom.css" rel="stylesheet" type="text/css">
-<!-- js vendor -->
-  <script src="/js/jquery-2.1.4.min.js" type="text/javascript">
-  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
 
-  <script type="text/javascript" src="/js/tocbot.min.js"></script>
+
 </head>
-
-
-<body class="page-kube">
+<body>
   <header>{{ block "header" . }}{{ end }}</header>
   <main>{{ block "main" . }}{{ end }}</main>
   <footer>{{ block "footer" . }}{{ end }}</footer>
 
-
-  <script src="/js/kube.js" type="text/javascript">
-  </script>
-  <script src="/js/kube.legenda.js" type="text/javascript">
-  </script>
-  <script src="/js/master.js" type="text/javascript">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.9.3/umd/popper.min.js" integrity="sha384-knhBOwpf8/28D6ygAjJeb0STNDZqfPbKaWQ8wIz/xgSc0xXwKsKhNype8fmfMka2" crossorigin="anonymous"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="/js/{{ index .Site.Data.js.hash "main.js" }}" type="text/javascript"></script>
+  <script src="/js/{{ index .Site.Data.js.hash "tocbot.js" }}" type="text/javascript"></script>
   </script>
 </body>
 
