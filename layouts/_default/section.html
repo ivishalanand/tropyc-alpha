@@ -11,14 +11,14 @@
         {{ if .Sections }}
           {{ range .Sections }}
           <div class="col col-4 item">
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <h4><a href="{{ .URL }}">{{ .Title }}</a></h4>
             <p>{{ .Params.description }}</p>
           </div>
           {{ end }}
         {{ else }}
           {{ range .Data.Pages.ByWeight }}
           <div class="col col-4 item">
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <h4><a href="{{ .URL }}">{{ .Title }}</a></h4>
             <p>{{ .Params.description }}</p>
           </div>
           {{ end }}
