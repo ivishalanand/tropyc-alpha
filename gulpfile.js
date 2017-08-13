@@ -8,7 +8,7 @@ var gulp         = require("gulp"),
 gulp.task("scss", function () {
 
     //Delete our old css files
-    del(["static/css/**/*"])
+    del.sync(["static/css/**/*"])
 
     //compile hashed css files
     gulp.src("src/scss/**/*.scss")
@@ -27,7 +27,7 @@ gulp.task("scss", function () {
 
 // Hash images
 gulp.task("images", function () {
-    del(["static/images/**/*"])
+    del.sync(["static/images/**/*"])
     gulp.src("src/images/**/*")
         .pipe(hash())
         .pipe(gulp.dest("static/images"))
@@ -37,7 +37,7 @@ gulp.task("images", function () {
 
 // Hash javascript
 gulp.task("js", function () {
-    del(["static/js/**/*"])
+    del.sync(["static/js/**/*"])
     gulp.src("src/js/**/*")
         .pipe(hash())
         .pipe(gulp.dest("static/js"))

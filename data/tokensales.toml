@@ -1,0 +1,59 @@
+[civic]
+name = "Civic"
+risk = "Low"
+valuation = "$3.3 - $6.6 M"
+platform = "Ethereum"
+industry = "Identity"
+startDate = 2017-08-01
+endDate = 2017-08-31
+  [civic.links]
+  twitter = "civic"
+  reddit = "civic"
+  telegram = "civic"
+  github = "civic"
+  slack = "civic"
+
+[dimcoin]
+name = "Dimcoin"
+risk = "Mid"
+valuation = "$10 M"
+platform = "Native"
+industry = "Asset Management"
+startDate = 2017-08-01
+endDate = 2017-08-31
+  [dimcoin.links]
+  twitter = "dimcoin"
+  reddit = "dimcoin"
+  telegram = "dimcoin"
+  github = "dimcoin"
+  slack = "dimcoin"
+
+[suretly]
+name = "Suretly"
+risk = "High"
+valuation = "$10 - $66 M"
+platform = "Native"
+industry = "Loan"
+startDate = 2017-07-11
+endDate = 2017-08-11
+  [suretly.links]
+  twitter = "suretly"
+  reddit = "suretly"
+  telegram = "suretly"
+  github = "suretly"
+  slack = "suretly"
+
+[obsedian]
+name = "Obsedian"
+risk = "Low"
+valuation = "$14.8 M"
+platform = "Native"
+industry = "Messaging"
+startDate = 2017-07-15
+endDate = 2017-08-18
+  [obsedian.links]
+  twitter = "obsedian"
+  reddit = "obsedian"
+  telegram = "obsedian"
+  github = "obsedian"
+  slack = "obsedian"

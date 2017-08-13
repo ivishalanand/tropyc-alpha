@@ -1,11 +1,14 @@
 @charset 'UTF-8';
 
+@import 'abstracts/variables';
+@import 'bootstrap/scss/bootstrap';
 @import 'tocbot/src/scss/tocbot-core';
 @import 'tocbot/src/scss/tocbot-default-theme';
 
-
-@import 'abstracts/variables';
 @import 'base/base';
 @import 'base/fonts';
+@import 'components/hero';
+@import 'components/tables';
+@import 'components/token-sales';
 @import 'layout/header';
 @import 'layout/footer';

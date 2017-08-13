@@ -25,5 +25,7 @@
     "gulp-sass": "^3.1.0",
     "tocbot": "^3.0.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
 }

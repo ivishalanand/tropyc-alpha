@@ -18,7 +18,7 @@
 
   &__name {
     padding-left: 10px;
-    color: $brand-color;
+    color: $brand-primary;
     font-size: 24px;
     font-weight: bold;
     vertical-align: middle;
@@ -62,7 +62,7 @@
   font-size: 18px;
   font-weight: 500;
   color: #fff;
-  background-color: $brand-color;
+  background-color: $brand-primary;
 
   &:hover {
     color: #fff;

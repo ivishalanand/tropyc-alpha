@@ -1,0 +1,34 @@
+<table class="token-sales-table table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Token</th>
+      <th>Risk</th>
+      <th>Valuation*</th>
+      <th>Platform</th>
+      <th>Industry</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $.Site.Data.tokensales }}
+      <tr>
+        <td><img src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .name | lower) }}"> {{ .name }}</td>
+        <td>{{ .risk }}</td>
+        <td>{{ .valuation }}</td>
+        <td>{{ .platform }}</td>
+        <td>{{ .industry }}</td>
+        <td>{{ .startDate.Format "02/01/2006" }}</td>
+        <td>{{ .endDate.Format "02/01/2006" }}</td>
+        <td>
+          {{ if isset .links "twitter" }}<a href="https://twitter.com/{{ .links.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{{ end }}
+          {{ if isset .links "reddit" }}<a href="https://www.reddit.com/r/{{ .links.reddit }}" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>{{ end }}
+          {{ if isset .links "github" }}<a href="https://github.com/{{ .links.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>{{ end }}
+          {{ if isset .links "telegram" }}<a href="https://t.me/{{ .links.telegram }}" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>{{ end }}
+          {{ if isset .links "slack" }}<a href="https://{{ .links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack" aria-hidden="true"></i></a>{{ end }}
+        </td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>

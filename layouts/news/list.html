@@ -4,11 +4,11 @@
 {{ define "main" }}
 
 <div class="container">
-  <div id="hero" class="wrap">
+  <div class="hero">
     <h1>Voice of {{.Site.Params.author }} Team</h1>
       <p>Our vision, news and ideas, and whatever feels important.<br> <a href="https://t.me/{{.Site.Params.telegram}}" target="_blank">Join the community on Telegram</a></p>
   </div>
-  <ul id="posts">
+  <ul class="posts">
 
    {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
     <section>{{ partial "pagination" .}}</section>
