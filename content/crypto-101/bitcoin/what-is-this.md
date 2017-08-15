@@ -22,13 +22,64 @@ The first decentralised financial system that works.
 
 There are now two distinct economies
 
-###(divide in 2)
+### (divide in 2)
 Traditional = fiat currencies
 - issued by a government and a centralised financial authority. It has value because it is made legal tender by law.
 - transferred with personnal bank accounts, managed by third parties
 Example  = USD, GBP EUR, INR, CHINA
 
+Decentralised = Bitcoin, cryptocurrency and tokens
+- independent from any central banks, and yet Bitcoin manages to offer a safe and decentralised electronic cash system. The system is verified by digital signatures, secured by a trustless network consensus and runs on cryptography and algorithms.
+- users leverage encrypted signatures to transact without the need of a middle men
 
+
+In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.
+
+
+There are now over a thousand cryptocurrencies and cryptoassets.
+Bitcoin represents 52% (API call coinmarkercap) of the total market capitalisation
+
+### picture on the left
+One bitcoin is divisible to the 8th divisible pace.
+This means you can split a Bitcoin into 100,000,000 units aka Satoshi
+100,000,000 Satoshis = 1 Bitcoin
+
+
+### picture on the right
+There will be only 21 million bitcoin mined – and 99% of them will be available by 2031
+
+
+Bitcoin offers an alternative to our financial system, it removes the concept of a middle man in a monetary transaction. It's like sending money via e-mail. 
+
+
+Let's review some of its core featurs before we dig in further.
+
+### each bullet point has an icon on the right
+- Speed
+Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
+
+- Accessible
+Unlike bank accounts, there are no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
+You have complete control over your capital.
+
+- Safe
+Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
+
+- Cheap
+There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
+
+- Global
+Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
+
+- Private
+In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
+In other words, a wallet may not be clearly associated with the name’s owner
+
+- Trustless
+Unlike fiat, no one can print  additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
+
+- Transparent
+Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
 
 
 ### First steps
