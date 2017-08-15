@@ -9,9 +9,27 @@ bref = "Bref example"
 toc = true
 +++
 
-## Introduction
+## Digital gold
 
-Bla Bla Bla
+Bitcoin is open-source money.
+
+You can send money - digitally and securely 
+without relying on a third party (bank, payment gateway, card issuers)
+
+It is the first digital currency free that operates independently and securely from government control
+
+The first decentralised financial system that works.
+
+There are now two distinct economies
+
+###(divide in 2)
+Traditional = fiat currencies
+- issued by a government and a centralised financial authority. It has value because it is made legal tender by law.
+- transferred with personnal bank accounts, managed by third parties
+Example  = USD, GBP EUR, INR, CHINA
+
+
+
 
 ### First steps
 
