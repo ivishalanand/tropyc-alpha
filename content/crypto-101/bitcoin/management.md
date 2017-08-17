@@ -204,7 +204,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
       place a pic here
     </div>
     <div class="col">
-      blablabl 
+      Exchange cash with bitcoin ATMs. These kioskes are located in major cities and connect directly to the Bitcoin exchange.
     </div>
   </div>
 </div>
@@ -218,7 +218,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
   </div>
   <div class="row">
     <div class="col">
-      blabla
+      Bitcoin is digital money at the end of the day. You can purchase some from other peers as long as you trust your transactor.
     </div>
     <div class="col">
       place a pic here
@@ -276,10 +276,10 @@ Today, most of the services and goods are available for purchase through bitcoin
   </div>
   <div class="row">
     <div class="col">
-    Gift cards that accepts Bitcoin such as eGifter or Gyft, cryptocurrency enthusiasts can now access an even larger pool of merchants (Starbucks, DunkinDonuts, Walmart, Gap).
+    place a pic here
     </div>
     <div class="col">
-     blabla. 
+     Gift cards that accepts Bitcoin such as eGifter or Gyft, cryptocurrency enthusiasts can now access an even larger pool of merchants (Starbucks, DunkinDonuts, Walmart, Gap). 
     </div>
   </div>
 </div>
