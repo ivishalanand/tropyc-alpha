@@ -161,33 +161,84 @@ Bitcoin as a medium of exchange started on the dark-web to settle payments on ma
 
 ### infographie
 
-### 3 icons + text
+<div class="container">
+  <div class="row">
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      Store of wealth
+    </div>
+    <div class="col">
+      Unit of account
+    </div>
+    <div class="col">
+      Medium of exchanges
+    </div>
+  </div>
+     <div class="row">
+    <div class="col">
+      Yes to hedge against the fiat economy and alt-coins.
+    </div>
+    <div class="col">
+      Yes for cross-border or private transactions and no for low amount and domestic payments 
+    </div>
+    <div class="col">
+      Yes for cryptocurrency, still volatile for our economy.
+    </div>
+  </div>
+ </div>
 
-- Store of wealth
-Yes to hedge against the fiat economy.dark-web to settle payments on marketplaces. 
-
-- Medium of exchange
-Yes for cross-border transaction and not low amount fast payments 
-
-- Unit of account
-For cryptocurrencies otherwise no 
 
 ### Markets
 
-- Fiat 
+##### Fiat 
 Although it is possible to trade throughout the day investors and speculators will have to change exchanges throughout the day, as no exchange is open 24/7 and on weekends.
 
 Bankers typically switch between America, Europe and Asia to operate continuously
 
-- Crypto
+##### Crypto
 Cypto markets are open 24/7 non stop on independent exchanges and can therefore be traded whenever you feel like it.
+
 
 ### Price
 ### 2 icons + text
-- Volatility
-volatility ; the risk about the change in value of an asset
-- Liquidity
-Liquidity the ability to quickly buy or sell an asset without impacting the market price.
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      Volatility
+    </div>
+    <div class="col">
+      Liquidity
+    </div>
+  </div>
+    </div>
+    <div class="col">
+      Change in market value of an asset
+    </div>
+    <div class="col">
+      ability to quickly buy or sell an asset without impacting its market price.
+    </div>
+  </div>
+ </div>
+
 
 Bitcoin is the pioneer in digital money and is therefore witnessing aggressive growth in adoption because of its security feature and peer-to-peer philosophy. It is important to mention that prices are not stable and very volatile (compared to traditional currencies).
 
