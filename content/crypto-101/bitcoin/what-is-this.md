@@ -86,18 +86,39 @@ Let's review some of its core features before we dig in further.
 
 
 
-
-
-### each bullet point has an icon on the right
-- Speed
-Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
-
-- Accessible
-Unlike bank accounts, there are no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Accessible
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      add a pic
+    </div>
+    <div class="col">
+      Unlike bank accounts, there are no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
 You have complete control over your capital.
+    </div>
+  </div>
+</div>
 
-- Safe
-Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Safe
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
+
 
 - Cheap
 There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
@@ -116,8 +137,3 @@ Unlike fiat, no one can print  additional Bitcoins. The total amount is capped 
 Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
 
 
-### First steps
-
-Bla Bla Bla
-
-![Bitcoin](http://thestatelessman.com/wp-content/uploads/2013/05/bitcoin-logo-3d.jpg)
