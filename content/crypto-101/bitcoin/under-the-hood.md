@@ -9,6 +9,7 @@ bref = ""
 toc = true
 +++
 
+
 ## Systems
 
 <div class="container">
@@ -128,10 +129,10 @@ The network rewards miners in such a way, that they are incentivised to keep it 
   </div>
    <div class="row">
     <div class="col">
-      #####Transaction fees
+      Transaction fees
     </div>
     <div class="col">
-      #####Mining rewards
+      Mining rewards
     </div>
   <div class="row">
     <div class="col">
