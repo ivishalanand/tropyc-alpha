@@ -32,12 +32,43 @@ This means blabla
 Before considering bitcoin as a viable financial instrument, let's define its' possible use case. 
 
 ### 3 icons top + text
-- Currency
-Am I using Bitcoin to move value from one individual to another ? 
-- Commodity
-Am I investing in Bitcoin to store value and expect profit out of it? 
-- Index
-Is Bitcoin a way to hedge against the current economy?
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      Currency
+    </div>
+    <div class="col">
+      Commodity
+    </div>
+    <div class="col">
+      Index
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Am I using Bitcoin to move value from one individual to another ? 
+    </div>
+    <div class="col">
+      Am I investing in Bitcoin to store value and expect profit out of it? 
+    </div>
+    <div class="col">
+      Is Bitcoin a way to hedge against the current economy?
+    </div>
+  </div>
+</div>
+
 
 (ADD TEXT?)
 
@@ -47,13 +78,34 @@ Everyone can use bitcoin. However, unlike conventional currencies, most of bitco
  
 It is difficult to estimate the proportion of household money in the cryptocurrency economy, but anyone can check the amount of all public addresses on the blockchain: this data is available to all.
 
-### 3 icon + text
-- Store of wealth
-- Unit of account
-- Medium of exchanges
+<div class="container">
+  <div class="row">
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      Store of wealth
+    </div>
+    <div class="col">
+      Unit of account
+    </div>
+    <div class="col">
+      Medium of exchanges
+    </div>
+  </div>
+ </div>
 
 
-- Store of wealth
+### Store of wealth
+
 An efficient store of wealth will not see its value decrease in the long term. In other words, selecting an asset as a store of value is the same as forecasting asset demand.
 
 Precious metals, such as gold, have been historically efficient stores of wealth: they are durable, scarce, easy to identify and tough to forge.
@@ -65,24 +117,47 @@ However, unless a considerable share of the population perceives bitcoin as an e
 Amid unstable economy, fast-paced globalisation and new technology breakthroughs, no one can point an item and declare with high certainty: “This is and always be a great store of wealth”
 
 
-- Unit of account
+### Unit of account
 
 The unit of account is the currency of measure that will be used to represent the real value of an economy. It translates the value of an item into a quantifiable unit that will be considered as the convention.
 
 For this matter, you can consider US Dollars as the world currency, or bitcoin, or gold, or even oil. Depending on your point of view we can analyse events differently:
 
-### infographie 
 
-Because cryptocurrencies are still infamous globally, they do not represent a strong unit of account. However, it does not mean cryptocurrencies cannot fulfil this role in the future, it has all the required features to be so.
+<div class="container">
+  <div class="row">
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      economy measured in dollars
+    </div>
+    <div class="col">
+      economy measured in bitcoin
+    </div>
+  </div>
+ </div>
+ 
+
+Cryptocurrencies are still infamous globally compared to established government backed currencies : they do not represent a strong unit of account. However, it does not mean cryptocurrencies cannot fulfil this role in the future, it has all the required features to do so.
 
 That being said, in the cryptocurrency world, bitcoin IS the unit of account.
 
 
-- Medium of exchange
+### Medium of exchange
 
-The last and most important feature is already established. Fast, safe and low-cost transaction triggered the exponential demand for cryptocurrencies and made Bitcoin. There is no doubt that today digital currencies are outperforming conventional banking services in cross-border and high amount transactions. As for domestic and low amount settlements, card issuers and banks are faster cheapers for the consumer.
+The last and most important feature is already established. Fast, safe and low-cost transaction triggered the exponential demand for cryptocurrencies and made Bitcoin. 
+There is no doubt that today digital currencies are outperforming conventional banking services in cross-border and high amount transactions. 
+As for domestic and low amount settlements, card issuers and banks are faster cheapers for the consumer.
 
 Bitcoin as a medium of exchange started on the dark-web to settle payments on marketplaces. 
+
+
 
 ### infographie
 
