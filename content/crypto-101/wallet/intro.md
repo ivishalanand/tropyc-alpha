@@ -9,7 +9,7 @@ bref = ""
 toc = true
 +++
 
-## Crypto Vault
+# Introduction to wallets
 
 Cryptocurrency wallets let you receive, spend and monitor securely your assets on a software program by interacting with the blockchain. 
 It stores public and private keys and is the single medium of interaction between the user and different cryptocurrency blockchains.
@@ -25,22 +25,49 @@ Behind the scenes, the sender signs of the ownership of a cryptocurrency to the 
 
 ### infographie
 
-### Types of wallets
+## Types of wallets
 
 Now that we understand what wallets do and how they works, lets' review their categories 
 
-There are three different types of wallets, all of which will give you a different user experience and level of security:
+There are three different types of wallets, all of which will give you a different level of control, secrutiy and user experience.
 
-### 3 icons + text
-- Online
-Third party holds the digital currency. You hold a promise of payment back or IOU
-- Hot
-No middle man has access to our coins : coins are stored and held locally. However they are vulnerable to a physical and digital attack
-- Cold
-Coins stored locally in a system that never went online. Still vulnerable to physical attack
+<div class="container">
+  <div class="row">
+    <div class="col">
+     put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      Online
+    </div>
+    <div class="col">
+      Hot
+    </div>
+    <div class="col">
+      Cold
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Third party holds the digital currency. You hold a promise of payment back or IOU
+    </div>
+    <div class="col">
+      No middle man has access to our coins : coins are stored and held locally. However they are vulnerable to a physical and digital attack
+    </div>
+    <div class="col">
+      Coins stored locally in a system that never went online. Still vulnerable to physical attack
+    </div>
+  </div>
+</div>
 
-
-- Online
+### Online
 
 When storing your coins on an online wallet, such as an exchange, you do not own them anymore. As such, you hold an IOU from the third party.
 
@@ -50,15 +77,14 @@ The former represents the technology breakthrough of the decentralized blockchai
 
 WARNING You do not own crypto-assets stored on exchanges and online wallets, you only own a promise that a third party will transfer you your funds – nothing less, nothing more.
 
-
-- Hot
+### Hot
 
 Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their cryptoassets. The wealthy is stored locally rather than on a middle man's system.
 
 However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to a hacker or virus attack because it is virtually always connected to the blockchain.
 
 
-- Cold
+### Cold
 
 Finally, cold wallets are considered as locally stored in an “offline” system called air-gapped. They are not constantly connected to the internet making them impossible to compromise remotely if the system has been correctly set up.
 
