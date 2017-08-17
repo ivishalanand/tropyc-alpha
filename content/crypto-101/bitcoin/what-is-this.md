@@ -9,7 +9,7 @@ bref = "Bref example"
 toc = true
 +++
 
-# Digital gold
+## Digital gold
 
 Bitcoin is open-source money.
 
@@ -22,15 +22,31 @@ The first decentralised financial system that works.
 
 There are now two distinct economies
 
-### (divide in 2)
-Traditional = fiat currencies
-- issued by a government and a centralised financial authority. It has value because it is made legal tender by law.
-- transferred with personnal bank accounts, managed by third parties
-Example  = USD, GBP EUR, INR, CHINA
 
-Decentralised = Bitcoin, cryptocurrency and tokens
-- independent from any central banks, and yet Bitcoin manages to offer a safe and decentralised electronic cash system. The system is verified by digital signatures, secured by a trustless network consensus and runs on cryptography and algorithms.
-- users leverage encrypted signatures to transact without the need of a middle men
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Traditional economy = fiat currencies
+    </div>
+    <div class="col">
+      Decentralised ecosystem = Bitcoin, cryptocurrency and tokens
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      - issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
+      - transferred with personnal bank accounts, managed by third parties.
+      Example  = USD, GBP EUR, INR, CHINA
+    </div>
+    <div class="col">
+      - independent from any central banks, and yet Bitcoin manages to offer a safe and decentralised electronic cash system. 
+      The system is verified by digital signatures, secured by a trustless network consensus and runs on cryptography and algorithms.
+      - users leverage encrypted signatures to transact without the need of a middle men
+    </div>
+  </div>
+</div>
 
 
 In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.
