@@ -85,6 +85,21 @@ Let's review some of its core features before we dig in further.
 
 
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Speed
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
 
 <div class="container">
   <div class="row">
@@ -98,7 +113,7 @@ Let's review some of its core features before we dig in further.
     </div>
     <div class="col">
       Unlike bank accounts, there are no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
-You have complete control over your capital.
+      You have complete control over your capital.
     </div>
   </div>
 </div>
@@ -119,21 +134,88 @@ You have complete control over your capital.
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Cheap
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
 
-- Cheap
-There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Global
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
 
-- Global
-Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
 
-- Private
-In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Private
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
 In other words, a wallet may not be clearly associated with the name’s owner
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
 
-- Trustless
-Unlike fiat, no one can print  additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Trustless
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Unlike fiat, no one can print  additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
 
-- Transparent
-Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Transparent
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
+
+
 
 
