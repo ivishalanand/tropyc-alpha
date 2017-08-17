@@ -53,10 +53,10 @@ The main difference between fiat and bitcoin, is that the former can be printed 
   </div>
    <div class="row">
     <div class="col">
-      Printing fiat
+      ####Printing fiat
     </div>
     <div class="col">
-      Mining bitcoins
+      ####Mining bitcoins
     </div>
   </div>
   <div class="row">
@@ -91,13 +91,13 @@ Cryptocurrencies were once priced based on the prequeresites costs to run the bl
   </div>
    <div class="row">
     <div class="col">
-      Hardware
+      #####Hardware
     </div>
     <div class="col">
-      Energy
+      #####Energy
     </div>
     <div class="col">
-      Time
+      #####Time
     </div>
   </div>
   <div class="row">
@@ -117,8 +117,6 @@ Cryptocurrencies were once priced based on the prequeresites costs to run the bl
 The network rewards miners in such a way, that they are incentivised to keep it secure
 
 
-### 2 icon top + text
-
 <div class="container">
   <div class="row">
     <div class="col">
@@ -130,10 +128,10 @@ The network rewards miners in such a way, that they are incentivised to keep it 
   </div>
    <div class="row">
     <div class="col">
-      Transaction fees
+      #####Transaction fees
     </div>
     <div class="col">
-      Mining rewards
+      #####Mining rewards
     </div>
   <div class="row">
     <div class="col">
@@ -179,10 +177,10 @@ This offers two benefits to blockchain technology
   </div>
    <div class="row">
     <div class="col">
-      Transparency
+      #####Transparency
     </div>
     <div class="col">
-      Immutable
+      #####Immutable
     </div>
   <div class="row">
     <div class="col">
@@ -204,8 +202,6 @@ Every blocks are added on an immutable public distributed ledger, this is the bl
 
 A transaction does not exist until it is generated in a new block. In order to keep the network safe and secure, miners reaches a consensus.
 
-### 3 icon top + text
-
 
 <div class="container">
   <div class="row">
@@ -221,13 +217,13 @@ A transaction does not exist until it is generated in a new block. In order to k
   </div>
    <div class="row">
     <div class="col">
-      Sign
+      #####Sign
     </div>
     <div class="col">
-      Generate
+      #####Generate
     </div>
     <div class="col">
-      Verify
+      #####Verify
     </div>
   </div>
   <div class="row">
@@ -244,14 +240,18 @@ A transaction does not exist until it is generated in a new block. In order to k
 </div>
 
 
+
 #### Sign
+
 Alice builds a transaction from her wallet.
 She sets the recipient's public address and the amount
 The public address requires the corresponding private key to be accepted
 Alice signs the transaction with her private key that can be locked by a password.
 The transaction is the sent online to the bitcoin network and blockchain (via wallets)
 
+
 #### Generate
+
 Miners then create a new block from signed transaction and verify they are valid.
 
 The block data is then converted into a hash by miners.
@@ -260,7 +260,9 @@ A hash is a fixed-length string that holds large amounts of data. Each blocks ha
 
 This way, the network knows if a fake transaction was inserted in a previous block, because each block's hash is part of the formula that generate a new block
 
+
 #### Compete
+
 Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
 
 Hashing is blabla ? bla bli ! boom.
@@ -270,6 +272,7 @@ The network sets a tougher hash solution as more miners compete, this way blocks
 Under hood, the network sets every 2 weeks a hash target value : miners need to solve the problem by providing a valid hash inferior to the target.
 
 Retargeting makes hashing difficulty evolve with the number miners connected to the network.
+
 
 
 ### Methodology
