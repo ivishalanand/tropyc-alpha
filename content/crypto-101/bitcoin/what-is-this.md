@@ -9,7 +9,7 @@ bref = "Bref example"
 toc = true
 +++
 
-## Digital gold
+# Digital gold
 
 Bitcoin is open-source money.
 
