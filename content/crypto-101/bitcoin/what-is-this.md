@@ -16,13 +16,11 @@ Bitcoin is open-source money.
 You can send money - digitally and securely 
 without relying on a third party (bank, payment gateway, card issuers)
 
-It is the first digital currency free that operates independently and securely from government control
+It is the first digital currency free that operates  securely, independently and free from government control
 
 The first decentralised financial system that works.
 
 There are now two distinct economies
-
-
 
 
 <div class="container">
@@ -55,20 +53,40 @@ In 2008, Bitcoin was invented and mathematically proven by an anonymous author n
 There are now over a thousand cryptocurrencies and cryptoassets.
 Bitcoin represents 52% (API call coinmarkercap) of the total market capitalisation
 
-### picture on the left
-One bitcoin is divisible to the 8th divisible pace.
-This means you can split a Bitcoin into 100,000,000 units aka Satoshi
-100,000,000 Satoshis = 1 Bitcoin
 
 
-### picture on the right
-There will be only 21 million bitcoin mined – and 99% of them will be available by 2031
+<div class="container">
+  <div class="row">
+    <div class="col">
+      add a pic
+    </div>
+    <div class="col">
+      One bitcoin is divisible to the 8th divisible pace.
+      This means you can split a Bitcoin into 100,000,000 units aka Satoshi
+      100,000,000 Satoshis = 1 Bitcoin
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      There will be only 21 million bitcoin mined – and 99% of them will be available by 2031
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+</div>
 
 
-Bitcoin offers an alternative to our financial system, it removes the concept of a middle man in a monetary transaction. It's like sending money via e-mail. 
+Bitcoin offers an alternative to our financial system, it removes the concept of a middle man in a monetary transaction. 
+It's like sending money via e-mail. 
 
 
-Let's review some of its core featurs before we dig in further.
+Let's review some of its core features before we dig in further.
+
+
+
+
+
 
 ### each bullet point has an icon on the right
 - Speed
