@@ -126,7 +126,7 @@ Let's review some of its core features before we dig in further.
   </div>
   <div class="row">
     <div class="col">
-      Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
+     Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
     </div>
     <div class="col">
       add a pic
@@ -142,10 +142,10 @@ Let's review some of its core features before we dig in further.
   </div>
   <div class="row">
     <div class="col">
-      There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
+      add a pic
     </div>
     <div class="col">
-      add a pic
+      There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
     </div>
   </div>
 </div>
@@ -158,7 +158,7 @@ Let's review some of its core features before we dig in further.
   </div>
   <div class="row">
     <div class="col">
-      Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
+     Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
     </div>
     <div class="col">
       add a pic
@@ -175,11 +175,11 @@ Let's review some of its core features before we dig in further.
   </div>
   <div class="row">
     <div class="col">
-      In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
-In other words, a wallet may not be clearly associated with the name’s owner
+      add a pic
     </div>
     <div class="col">
-      add a pic
+      In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
+In other words, a wallet may not be clearly associated with the name’s owner
     </div>
   </div>
 </div>
@@ -208,10 +208,10 @@ In other words, a wallet may not be clearly associated with the name’s owner
   </div>
   <div class="row">
     <div class="col">
-      Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
+      add a pic
     </div>
     <div class="col">
-      add a pic
+      Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
     </div>
   </div>
 </div>
