@@ -116,12 +116,12 @@ put a pic here
   </div>
   <div class="row">
     <div class="col">
+      place a pic here
+    </div>
+    <div class="col">
       Each public address is associated with one single private key that unlocks the funds held on it.  
       The network performs a mathematical algorythm to verify whether the pair is correct
       You can generate endless public address and private key pairs.
-    </div>
-    <div class="col">
-      place a pic here
     </div>
   </div>
 </div>
@@ -246,7 +246,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 
 ### Spend
 
-An increasing number of merchants accept bitcoins as a form of payment, including some billion-dollar revenue powerhouses.
+
 Today, most of the services and goods are available for purchase through bitcoins
 
 
@@ -259,7 +259,7 @@ Today, most of the services and goods are available for purchase through bitcoin
   </div>
   <div class="row">
     <div class="col">
-      An increasing number of merchants accept bitcoins as a form of payment, including some billion-dollar revenue powerhouses. Today, most of the services and goods are available for purchase through bitcoins
+     An increasing number of merchants accept bitcoins as a form of payment, including some billion-dollar revenue powerhouses. Amazon, Microsoft, Expedia to name a few.
     </div>
     <div class="col">
       place a pic here
@@ -276,7 +276,7 @@ Today, most of the services and goods are available for purchase through bitcoin
   </div>
   <div class="row">
     <div class="col">
-      Gift cards that accepts Bitcoin such as eGifter or Gyft, cryptocurrency enthusiasts can now access an even larger pool of merchants (Starbucks, DunkinDonuts, Walmart, Gap).
+    Gift cards that accepts Bitcoin such as eGifter or Gyft, cryptocurrency enthusiasts can now access an even larger pool of merchants (Starbucks, DunkinDonuts, Walmart, Gap).
     </div>
     <div class="col">
      blabla. 
