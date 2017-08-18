@@ -1,5 +1,5 @@
 +++
-title = "Etherconomics"
+title = "Etherium Economics"
 date = 2017-08-02T17:16:21+02:00
 description = ""
 type = "doc"
@@ -9,7 +9,7 @@ bref = ""
 toc = true
 +++
 
-## Ethereum economics
+# Ethereum economics
 
 The Bitcoin network reaches consensus on its electronic payment system by leveraging miners’ computational power. Ethereum also gathers a similar network of computers to validate programs in a decentralised fashion – without the need of a middle man.
 
@@ -68,4 +68,6 @@ While Bitcoin has only one type of accounts (public addresses), Ethereum has two
 The former is controlled by a human being - just like with Bitcoin - while the latter, also referred to as “smart contract”, is governed by code.
 
 As such, contract accounts are very flexible : depending on how they are programmed, they can be controlled by a EOA (which is controlled by a human being) or disburse an amount to another contract account, all of which can be dependend on a fixed set of rules, terms and conditions hard coded in the program.
+
+add http://ethdocs.org/en/latest/introduction/what-is-ethereum.html
 
