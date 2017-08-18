@@ -122,5 +122,24 @@ Running each smart contracts on the network has a cost and it depends on the hor
 
 The same way ERP and CRM automates supply chain and client communication, smart contracts can automate any real-life interaction.
 
+### Ethereum Virtual Machine
+
+Ethereum allows its users to set different kinds of operations : not just limited to monetary transactions like with Bitcoin.
+
+At the epicentre of the Ethereum network sits the Ethereum Virtual Machine (EVM), the environment for smart contract development and execution. 
+
+The EVM has two main characteristics 
+* Turing complete : developers can create programs with more established and user-friendly coding languages such as Python or JavaScript.
+* Isolated : code and smart contracts running on top of the EVM does not have access to other applications on the network.
+
+Every nodes on the network (computers connected) runs the EVM and constantly updates the Ethereum database. This decentralised computation is actually far less efficient in terms of cost and speed than with a traditional hardware set-up. 
+Still, it offers valuable benefits :
+* constantly online with no down-time
+* high-level of fault tolerance
+* immutable and censorship resistant database
+
+Ethereum and its EVM are value-agnostic : developers are the one deciding how to use the platform. While Bitcoin is suited for peer-to-peer payments, Ethereum can automate interactions between stakeholders and coordinate community actions on its network. Using code, we can now design any types of operations between peers like scheduling a payout to an investor, giving a voting right to an organisation’s decisions, or coordinating a peer-to-peer online marketplace.
+Bitcoin changed the payment industry, Ethereum can very well change any industry where trust, immutability and security is important.
+
 
 
