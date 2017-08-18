@@ -9,7 +9,7 @@ bref = "Bref example"
 toc = true
 +++
 
-## Digital gold
+# Bitcoinm, digital gold
 
 Bitcoin is open-source money.
 
@@ -34,14 +34,14 @@ There are now two distinct economies
   </div>
   <div class="row">
     <div class="col">
-      - issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
-      - transferred with personnal bank accounts, managed by third parties.
+      * issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
+      * transferred with personnal bank accounts, managed by third parties.
       Example  = USD, GBP EUR, INR, CHINA
     </div>
     <div class="col">
-      - independent from any central banks, and yet Bitcoin manages to offer a safe and decentralised electronic cash system. 
+      * independent from any central banks, and yet Bitcoin manages to offer a safe and decentralised electronic cash system. 
       The system is verified by digital signatures, secured by a trustless network consensus and runs on cryptography and algorithms.
-      - users leverage encrypted signatures to transact without the need of a middle men
+      * users leverage encrypted signatures to transact without the need of a middle men
     </div>
   </div>
 </div>
