@@ -80,4 +80,93 @@ The hack had a huge impact on the cryptocurrency world and eventually led to a p
 By the 18th of June, approximately 3.6 million Ether got stolen from the decentralised fund. 
 In less than 48 hours, Ether price dropped from 20$ to 11$, and the DAO market capitalisation collapsed from 230 million USD to 85 million USD.
 
+The Ethereum foundation, the team of developers that both deployed the Ethereum network and the DAO, offered two solutions to fix the hack.
+
+### Soft fork
+<div class="container">
+  <div class="row">
+    <div class="col">
+     put a pic here
+    </div>
+    <div class="col">
+      A soft fix would freeze the assets of the Child DAO and subsequently the Ether stolen by the hacker. This solution required the network to accept the deployment of a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permission less and immutable, the only way to add a new rule is to convince 51% of all nodes to make the change happen
+    </div>
+   </div>
+ </div>
+
+### Hard fork
+<div class="container">
+  <div class="row">
+    <div class="col">
+     The second solution is more brutal :  the idea is to rewind blockchain back to a block before the DAO hack. The hard fork would therefore delete all transaction history that occurred after the attack and return to DAO token holders the Ether they invested in the project.  
+    </div>
+    <div class="col">
+     put a pic here
+    </div>
+   </div>
+ </div>
+ 
+ 
+ ## Response
+ 
+ Most Ethereum “influencers” from the foundation took a public stand for the hard fork, and proposed to rewind back to a block before the attack – something that was not well accepted in the cryptocurrency community.
+Because the hacker leveraged an anomaly and performed *valid actions* of the DAO’s smart contracts, this issue has become more of a philosophical question: 
+
+* Should we consider a blockchain immutable and irreversible no matter what? 
+* Or on the other hand, in case of a mistake or dispute, are we allowed to change the code and rewind back in time?
+
+What is the single source of truth? Code or People's interest?
+
+An obvious analogy would be with the global financial crisis of 2008, where banks took substantial risks - hoping for high returns - but when the economy crashed, they still got bailed out by the government. Such public policy can incentivise market players to make riskier investment decisions in the future. They might be thinking that no matter what, they will be rescued by public authorities in case something goes bad.
+
+Adopting a similar approach with the DAO, would rescue investors from the loosing their funds to the hacker, however the fact that the Ethereum Foundation developed and promoted the DAO as well as proposed a solution to the hack raises the issue of network centralisation. Ethereum aspires to become the global computer by introducing decentralised applications at scale – it should therefore not be controlled by any central authority.
+
+<div class="container">
+    <div class="col">
+      No Fork thanks
+    </div>
+    <div class="col">
+      Fork please
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      DAO token holders contributors knew it was an experimental investment opportunity that had significant risks. 
+      And in cryptocurrency, hacking IS the main risk.
+    </div>
+    <div class="col">
+      14% of the entity Ether supply was stolen by the hacker. The incurred loss might be “too big to fail” for Ethereum
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      A file that proves to the network that you are the owner of a public address's balance
+    </div>
+    <div class="col">
+      A string of as much characters that gives you access to your wallet
+    </div>
+  </div>
+</div>
+
+## The hard fork
+
+In July 2016, A majority Ethereum community ultimately decided to hard fork the blockchain and rewind back to a block before the DAO attack so that token holders could get their investment back. 
+The DAO held approximatelly 15% of the total supply of Ether till date, it was considered too big to fail and may have jeopardized the future of Ethereum.
+However, some developers disagreed with this decision and argued a blockchain should be tamper-proof and immutable. Therefore, some miners decided not to hard fork and continued to mine the Ethereum blockchain on which the attack occurred.
+
+Till date, there are now two Ethereum blockchains:
+*	Ethereum ETH, DAO attack was deleted from the records
+*	Ethereum ETC, DAO token holders lost all of their investment
+
+Anyone who held Ether before the split, had the same balance in Ethereum Classic after the split. For instance, if you had 100 ETH before the fork, you would hold 100 ETH and 100 ETC after the fork. 
+
+Exchanges were ultimately forced to list ETC as a tradable asset, because they were holding the ETC of every of their customers that held ETH tokens in their portfolio.
+
+The underlying question is whether or not ETC has tangible value and if so, how to price it. 
+
+This is still debatable topic, but as long as miners invest their time, energy and hardware on the network and people believe in the project, the Ethereum classic blockchain will have value.
+
+Because ETC is a copycat of the ETH blockchain, both tokens had identical utility at that time. Ethereum Classic forked from an open-source application, and is successful _because_ it is followed by developers, miners and enthusiasts. 
+While ETC started off from a new ideology, it is important to notify that miners allocated computational power, energy and time to network : it has become a tangible asset.
+
 
