@@ -23,8 +23,6 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 
 Bitcoin is a new kind of money that hold different fundamentals. Let's define its' possible use case as a form of money.
 
-### 3 icons top + text
-
 <div class="container">
   <div class="row">
     <div class="col">
@@ -154,7 +152,7 @@ At first, Bitcoin as a medium of exchange started on the dark-web to settle paym
 
 
 
-### infographie
+##### infographie
 
 <div class="container">
   <div class="row">
@@ -206,7 +204,6 @@ Cypto markets are open 24/7 non stop on independent exchanges and can therefore 
 
 
 ### Price
-### 2 icons + text
 
 <div class="container">
   <div class="row">
