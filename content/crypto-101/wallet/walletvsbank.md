@@ -11,9 +11,9 @@ toc = true
 
 # Digital wallets versus Bank accounts
 
-Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it offers an alternate monetary system to our economy, a decentralized one.
+Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it offers an alternate monetary system to our economy : a decentralized one.
 
-Governments and central banks have no authority towards the issuance of additional notes. the middle man loses its governing power in the equation: banks are redundant because you can be your own bank.
+Governments and central banks have no authority towards the issuance of additional notes. the middle man loses its governing power in the equation. banks have become redundant, because you can be your own bank.
 
 
 ## Ownership
@@ -25,7 +25,9 @@ Depositing funds on a bank account means trusting a centralised entity, banks to
 
 #### Crypto world
 
-In cryptocurrency, you have the flexibility to either keep full control over your wealth or trust a third party.
+In cryptocurrency, you have the flexibility to either 
+* keep full control over your wealth
+* trust a third party to store your capital
 
 A cold wallet lets you store your cryptocurrencies offline and keep an eye on it, while an online wallet gives you a similar centralised experience as with banks.
 
@@ -39,13 +41,13 @@ Beware, when storing your bitcoin on third party wallets, you do not "own" a bit
 #### Fiat economy
 The current payment infrastructure offers a lot of safety nets in case something goes wrong. Merchants, banks and consumers all can cancel a transaction after it has been confirmed. Examples include Electronic Payment Terminal, insurance, lost and stolen cards etc...
 
-However, refunds are sometimes  not possible in case of mistake, especially during inter bank wiring.
+However, refunds are sometimes not possible in case of mistake, especially during inter bank wiring.
 
 
 #### Crypto world
-There is no rewinding back once a transaction is signed, verified and confirmed. The blockchain is immutable* : there are no way cancel a transaction. In this sense, the network is non-repudiable
+There is no rewinding back once a transaction is signed, verified and confirmed. The blockchain is *immutable* : there are no way cancel a transaction. In this sense, the network is non-repudiable.
 
-Always verify the public address beforing sending a transaction otherwise bitcoin get lost forever. Also, when interacting with merchants and vendor, go through an e-scrow service : it adds a layer of protection to ensure the service / good is delivered.
+Always verify the public address beforing sending a transaction, otherwise your bitcoins will get lost forever. Also, when interacting with merchants and vendors, go through an e-scrow service : it adds a layer of protection to ensure the service / good is delivered.
 
 
 
@@ -53,18 +55,18 @@ Always verify the public address beforing sending a transaction otherwise bitcoi
 
 #### Fiat economy
 
-Card issuers, payment gateways, insurance even merchant are very open to refunding a transaction is something averse happened. 
-It is not only about solving discrepancies, but also part of improving customer experience. The fiat economy offers strong layers of protection against scams, fraud and mistakes.
+Card issuers, payment gateways, insurance and merchants are very open to refunding a transaction is something averse happened. 
+It is not only about solving discrepancies, but also part of improving the customer experience. The fiat economy offers strong layers of protection against scams, fraud and mistakes.
 
-That being said, wiring cash to an incorrect bank account might result in a loss of money and physical cash is always at the mercy of fraud or attack.
+That being said, wiring cash to an incorrect bank account might result in a loss of money and physical cash is always at the mercy of fraud or physical attack.
 
 
 #### Crypto world
 
-The cryptocurrency network is very new and populates many new-comers and opportunists. There are many scams and frauds in this eco-system leveraging the blockchain's immutability features.
+The cryptocurrency network is very new and populates many new-comers and opportunists. There are many scams and frauds in this eco-system that leverages the blockchain's immutability features.
 
 It is your responsibility to store your bitcoin and cryptocurrencies safely in a digital wallet. 
-Your bitcoins and cryptocurrencies can be vulnerable to theft if you haven't secured them well.
+Your bitcoins and cryptocurrencies are vulnerable to theft if you haven't secured them well.
 
 Check out our review of branded cold wallets here, and get live support from the tropyc team (here)
 
@@ -74,6 +76,7 @@ Be careful!
 ## Privacy
 
 #### Fiat economy
+
 Although cash remains the most private way to transact, it is restricted to only low amounts. 
 
 Electronic payment on the other side can manage higher amounts, but record the identity of all the stakeholders engaged in the transaction. This leaves a trace that can be audited by financial institutions, government and potentially hacked by malicious attackers
@@ -84,7 +87,7 @@ The bitcoin blockchain has imperfect knowledge over a user's identity : public a
 
 Users can detach their financial behaviour from their identity, if they want to protect their privacy.
 
-Centralised tools, such as tumbler and mixers, can increase the difficulty to trace back bitcoins to an individual while other  cryptocurrencies have an emphasis on web privacy and anonymomity.
+Centralised tools, such as tumbler and mixers, can increase the difficulty to trace back bitcoins to an individual while some  cryptocurrencies have an emphasis on web privacy and anonymomity.
 
 
 
@@ -118,7 +121,7 @@ A way to inject fresh capital into the economy is for the government to purchase
 There are two drawbacks
 
 * Inflation means the value of one currency unit gets lower
-* Quantitive easing may benefit more the higher income segments, since government inject capital by purchasing asset and debts in bulk from major financial institutions.
+* Quantitive easing (the act of printing fiat) may benefit more to the higher income segments, since government inject capital by purchasing asset and debts in bulk from major financial institutions.
 
 
 #### Crypto world
@@ -167,13 +170,13 @@ Fees = would not go above 10 USD.
 
 #### Fiat economy
 
-Fiat currencies are considered legal tender, meaning they are legally recognised by a public institutional to act as settle a financial obligation between parties.
+Fiat currencies are considered legal tender, meaning they are legally recognised by a public institutional to settle financial obligations between parties.
 
 There are underlying responsibilities, rules and duties when handling fiat money. You can be sanctionned if you decide not to follow them
 
-pay tax on your income and wealth
-abstain from purchasing illegal goods and services
-settle financial obligation if contractually agreed upon
+* pay tax on your income and wealth
+* abstain from purchasing illegal goods and services
+* settle financial obligation if contractually agreed upon
 
 
 #### Crypto world
