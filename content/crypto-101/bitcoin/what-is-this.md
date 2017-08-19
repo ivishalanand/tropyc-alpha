@@ -60,7 +60,9 @@ We can identify three main differences between them :
 
 * You are obliged to trust a third party (a bank) to hold your wealth with fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
-* Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in UK, RBI in India etc...). Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
+* Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
+
+* In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionnaly, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditionnal bank account as Know Your Customer (KYC) requirements are strict.
 
 #### table
 
