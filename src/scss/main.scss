@@ -8,7 +8,9 @@
 @import 'base/base';
 @import 'base/fonts';
 @import 'components/hero';
-@import 'components/tables';
-@import 'components/token-sales';
+@import 'components/token-table';
+@import 'components/card';
+@import 'pages/token-sales';
+@import 'pages/token-detail';
 @import 'layout/header';
 @import 'layout/footer';

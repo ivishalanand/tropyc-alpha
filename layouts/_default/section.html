@@ -9,27 +9,36 @@
         {{ .Params.bref | safeHTML }}
       </p>
     </div>
-    <div class="content">
+    <!-- <div class="content">
       {{ .Content }}
-    </div>
-    <div class="components">
-      <div class="row gutters">
+    </div> -->
+    <div class="container">
+      <div class="row">
         {{ if .Sections }}
           {{ range .Sections }}
-          <div class="col col-4 item">
-            <h4><a href="{{ .URL }}">{{ .Title }}</a></h4>
-            <p>{{ .Params.description }}</p>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://unsplash.it/200/?random');">
+              <div class="card-description">
+                <h2>{{ .Title }}</h2>
+                <p>{{ .Params.description }}</p>
+              </div>
+              <a class="card-link" href="{{ .URL }}" ></a>
+            </div>
           </div>
           {{ end }}
         {{ else }}
           {{ range .Data.Pages.ByWeight }}
-          <div class="col col-4 item">
-            <h4><a href="{{ .URL }}">{{ .Title }}</a></h4>
-            <p>{{ .Params.description }}</p>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://unsplash.it/200/?random');">
+              <div class="card-description">
+                <h2>{{ .Title }}</h2>
+                <p>{{ .Params.description }}</p>
+              </div>
+              <a class="card-link" href="{{ .URL }}" ></a>
+            </div>
           </div>
           {{ end }}
         {{ end }}
-
       </div>
     </div>
   </div>

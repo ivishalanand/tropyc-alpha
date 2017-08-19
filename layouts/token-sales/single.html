@@ -1,0 +1,109 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+
+{{ define "main" }}
+
+<div class="token-detail-content">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-2 hidden-xs-down">
+				<div class="token-id">
+					<h1>{{.Title }}</h1>
+					<img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
+				</div>
+			</div>
+
+			<div class="col-sm-10 col-xs-12">
+				<div class="token-overview">
+					<div class="row">
+						<div class="col-6 hidden-sm-up">
+							<div class="token-id">
+								<h1>{{.Title }}</h1>
+								<img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
+							</div>
+						</div>
+					</div>
+					<div class="token-spec">
+						<div class="label">Start</div>
+						<div>{{ .Params.startDate | dateFormat "02/01/2006" }}</div>
+					</div>
+					<div class="token-spec">
+						<div class="label">End</div>
+						<div>{{ .Params.endDate | dateFormat "02/01/2006" }}</div>
+					</div>
+					<div class="token-spec">
+						<div class="label">Crypto Value</div>
+						<div>{{ .Params.cryptoValuation }}</div>
+					</div>
+					<div class="token-spec">
+						<div class="label">Fiat Value</div>
+						<div>{{ .Params.fiatValuation }}</div>
+					</div>
+					<div class="token-spec">
+						<div class="label">Industry</div>
+						<div>{{ .Params.industry }}</div>
+					</div>
+					<div class="token-spec">
+						<div class="label">Founded</div>
+						<div>{{ .Params.founded }}</div>
+					</div>
+					<div class="token-spec">
+						<div class="label">Links</div>
+						<div>
+							{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
+							{{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
+							{{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
+							{{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
+							{{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="offset-sm-2 col-sm-10 col-xs-12">
+			<div class="token-description">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs nav-justified" role="tablist">
+				  <li class="nav-item">
+				    <a class="nav-link active" data-toggle="tab" href="#concept" role="tab">CONCEPT</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" data-toggle="tab" href="#trust" role="tab">TRUST</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" data-toggle="tab" href="#token" role="tab">TOKEN</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" data-toggle="tab" href="#deal" role="tab">DEAL</a>
+				  </li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+				  <div class="tab-pane active" id="concept" role="tabpanel">
+				  	<div class="label">Description</div>
+						<p>{{ .Description }}</p>
+				  	<div class="label">Features</div>
+				  	<ul>
+				  		{{ range .Params.features }}
+				  		<li>{{ . }}</li>
+				  		{{ end }}
+				  	</ul>
+				  </div>
+				  <div class="tab-pane" id="trust" role="tabpanel">Trust</div>
+				  <div class="tab-pane" id="token" role="tabpanel">Token</div>
+				  <div class="tab-pane" id="deal" role="tabpanel">Deal</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+{{ end }}
+{{ define "footer" }}
+	{{ partial "footer" . }}
+{{ end }}

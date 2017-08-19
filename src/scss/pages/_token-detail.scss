@@ -1,0 +1,33 @@
+.token-detail-content {
+  margin-top: 20px;
+}
+
+.token-overview {
+  margin: 50px 0;
+  padding: 40px;
+  border: 1px solid #CCC;
+  border-radius: .25rem;
+
+  .token-id {
+    margin-bottom: 30px;
+  }
+
+  .token-logo {
+    height: 70px;
+  }
+
+  .token-spec {
+    margin-bottom: 25px;
+  }
+}
+
+.token-description {
+
+  .tab-content {
+    padding: 30px;
+    border: solid #DDD;
+    border-width: 0 1px 1px 1px;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+  }
+}
