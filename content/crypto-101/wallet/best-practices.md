@@ -17,8 +17,9 @@ Handling digital currencies and their wallets comes with additional responsibili
 
 We advise you to set up at least two wallets:
 
-one hot wallet for daily expense that should not hold a huge chunk of your capital,
-one cold wallet to store the rest of your cryptoassets.
+* one hot wallet for daily expense that should not hold a huge chunk of your capital,
+* one cold wallet to store the rest of your cryptoassets.
+
 Always use your hot wallet when transacting with the outside. We advise to make your cold wallet only interact with your own wallets for an extra layer of security.
 
 Picture your hot wallet as your current account and cold wallet as your savings accounts
@@ -55,9 +56,9 @@ blabla
 
 
 
-## Public address
+## Cryptography pair
 
-Remember, a wallet can generate unlimited private keys and public addresses keys. (a wallet password does not need to be generate for each pairs). Because the blockchain is transparent, makes sure to never share a public address that has already been utilised with a third party.
+A wallet can generate unlimited private keys and public addresses combinations. (a wallet password does not need to be generate for each pairs). Because the blockchain is transparent, makes sure to never share a public address that has already been utilised with a third party.
 
 It is important to generate a new public addresses for every transaction, otherwise the person you transact with will match the public address' balance with your identity.
 
@@ -74,9 +75,9 @@ The password is a core component to the safety of your assets in a wallet. Your 
 * unique: should not be reused for other wallet or any login
 * random: no meaning and with all types of characters
 
-A good idea for extra security is to use Multiple Factor Authenticatio, an additional layer of protection for your account. There are three different authentication factors:  knowledge, possession or inherence. 
+A good idea for extra security is to use Multiple Factor Authentication, an additional layer of protection for your account. There are three different authentication factors:  _knowledge_, _possession_ and _inherence_. 
 Under the 2-FA framework, you have to present to 2 components of authentication to access your account.
-In most cases, a 2-FA encryption will work with a smartphone: you can access your wallet (or any encrypted account) only after entering successfully your password (knowledge) and insert a code generated from a mobile app
+In most cases, a 2-FA encryption will work with a smartphone: you can access your wallet (or any encrypted account) only after entering successfully your password (knowledge) and insert a code generated from a mobile app.
 
 WARNING SMS-based 2-FA are not considered secure.
 
@@ -84,9 +85,11 @@ WARNING SMS-based 2-FA are not considered secure.
 
 
 ## Centralisation
-### infographie
-Never store all your wealth in one wallet – hot or cold. In general, it is suitable to avoid storing sensitive information in a single location.
-Similarly, you do not want to store your back up and password next to your wallet
+
+##### infographie
+
+Never store all your wealth in one wallet – hot or cold. It's best to avoid storing all your wealth in a account.
+Similarly, you do not want to store your back up and password next to your wallet.
 
 <div class="container">
   <div class="row">
@@ -118,9 +121,11 @@ Similarly, you do not want to store your back up and password next to your walle
 
 ### infographie
 
-Never store all your wealth in one wallet – hot or cold. In general, it is suitable to avoid storing sensitive information in a single location.
+In case your wallet gets deleted, corrupted, lost or mislaid, you will also lose access to your to 
+private keys and therefore to all of your assets stored on your public addresses! 
 
-Similarly, you do not want to store your back up and password next to your digital wallets
+Back-up your wallet by making a copy of private key files in case something happens to your system and store it offline abd somewhere safe.
+
 
 
 ## Multisignature
