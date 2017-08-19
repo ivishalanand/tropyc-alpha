@@ -9,49 +9,76 @@ bref = "Bref example"
 toc = true
 +++
 
-# Bitcoinm, digital gold
+# What is Bitcoin ?
+
+## The first cryptocurrency
 
 Bitcoin is open-source money.
 
-You can send money - digitally and securely 
-without relying on a third party (bank, payment gateway, card issuers)
 
-It is the first digital currency free that operates  securely, independently and free from government control
+You can send money - digitally and securely without relying on a third party (bank, payment gateway, card issuers)
 
-The first decentralised financial system that works.
+
+It is the first currency free that operates securely, independently and free from government control. 
+
+Also known as cryptocurrency, these new kinds of financial instruments offer an alternative to central bank backed currencies.
+
+Bitcoin is simply put, the first decentralised financial system that works.
+
 
 There are now two distinct economies
 
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      Traditional economy = fiat currencies
-    </div>
-    <div class="col">
-      Decentralised ecosystem = Bitcoin, cryptocurrency and tokens
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      * issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
-      * transferred with personnal bank accounts, managed by third parties.
-      Example  = USD, GBP EUR, INR, CHINA
-    </div>
-    <div class="col">
-      * independent from any central banks, and yet Bitcoin manages to offer a safe and decentralised electronic cash system. 
-      The system is verified by digital signatures, secured by a trustless network consensus and runs on cryptography and algorithms.
-      * users leverage encrypted signatures to transact without the need of a middle men
-    </div>
-  </div>
-</div>
+### Traditional economy = fiat currencies
+
+* issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
+
+* can printed endlessly by a central bank.
+
+* transferred from and to personnal bank accounts, but managed by third parties (your bank)
+
+* No transparency and low privacy : government printed trillions of dollars since the 2008 financial crisis and yet there is low knowledge on how these funds are used. Credit cards companies, Tax authority and banks have access to all your financial life.
+
+Example  = USD, GBP, EUR, INR, CHINA
+
+
+### Decentralised ecosystem = Bitcoin, cryptocurrency and tokens
+
+* independent from any central banks, noone "owns" the Bitcoin network 
+ 
+* rate of emission (printing) is fixed, transparent and immutable. There will be only 21 million Bitcoin, not more than that.
+ 
+* users transact without the need of a middle men. It is secured by encrypted digital signature and runs on cryptography and algorithms.
+
+* Perfect transparency and flexible privacy : everyone has access to every transactions that occured on the network, and you can store your wealth anonymously at the same time.
+
+Example  = Bitcoin, Litecoin, Ether, Monero ...
+
+
+
+We can identify three main differences between them :
+
+* You are obliged to trust a third party (a bank) to hold your wealth with fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
+
+* Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in UK, RBI in India etc...). Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
+
+#### table
+
+
+
+
+## Creator
 
 
 In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.
 
+Supported by a team of developers, the bitcoin protocol came to notice in 2011 in mainstream media.
+
+It is the largest cryptocurrency by market capitalisation.
 
 There are now over a thousand cryptocurrencies and cryptoassets.
-Bitcoin represents 52% (API call coinmarkercap) of the total market capitalisation
+
+And Bitcoin represents 52% (API call coinmarkercap) of the total market capitalisation
 
 
 
@@ -78,10 +105,15 @@ Bitcoin represents 52% (API call coinmarkercap) of the total market capitalisati
 
 
 Bitcoin offers an alternative to our financial system, it removes the concept of a middle man in a monetary transaction. 
-It's like sending money via e-mail. 
+
+The same way we were able to send messages via e-mail without the need of a  middle man.
+
+You can now do the same ... but with money.
 
 
-Let's review some of its core features before we dig in further.
+## Features
+
+Let's review some of Bitcoin's core value propositions.
 
 
 
@@ -179,7 +211,7 @@ Let's review some of its core features before we dig in further.
     </div>
     <div class="col">
       In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
-In other words, a wallet may not be clearly associated with the name’s owner
+In other words, a wallet may not be clearly associated with a person's name.
     </div>
   </div>
 </div>
@@ -192,7 +224,7 @@ In other words, a wallet may not be clearly associated with the name’s owner
   </div>
   <div class="row">
     <div class="col">
-      Unlike fiat, no one can print  additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
+      Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
     </div>
     <div class="col">
       add a pic
