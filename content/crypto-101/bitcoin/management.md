@@ -9,7 +9,7 @@ bref = ""
 toc = true
 +++
 
-##Management
+# Bitcoin : transaction management
 
 <div class="container">
   <div class="row">
@@ -38,12 +38,12 @@ toc = true
 
 
 
-### Store
+## Store
 
 Bitcoins are recorded electronically on a wallet; 
 it operates the same way than with cash wallets, but digitally.
 
-The act of "sending a bitcoin" requires 3 things
+The act of "sending a bitcoin" requires 3 things :
 
 
 <div class="container">
@@ -87,14 +87,9 @@ What’s between you and a bitcoin
 
 put a pic here
 
-
+### Public address
 
 <div class="container">
-  <div class="row">
-    <div class="col">
-      Public address
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       A public address serves as the recipient crypto bank account : a bitcoin is held on a public address.
@@ -108,12 +103,10 @@ put a pic here
   </div>
 </div>
 
+
+### Private key
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-      Private key
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       place a pic here
@@ -127,12 +120,9 @@ put a pic here
 </div>
 
 
+### Password
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-      Password
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       Write down your wallet's password and make sure you have a back-up in case you lose.
@@ -143,6 +133,8 @@ put a pic here
     </div>
   </div>
 </div>
+
+Let's compare fiat currencies and Bitcoin on this matter :
 
 <div class="container">
   <div class="row">
@@ -163,28 +155,26 @@ put a pic here
   </div>
   <div class="row">
     <div class="col">
-      - Both the bank and the user have access to the account. Regulator can also step in and seize funds. 
+     Both the bank and the user have access to the account. Regulator can also step in and seize funds. 
     </div> 
     <div class="col">
-      - A single individual can store a private key and access funds digitally
+      A single individual can store a private key and access funds digitally. No middle man and impossible to seize funds without a private key and password.
     </div>
   </div>
 
 
-### Purchase
+## Purchase
 
 Owning a bitcoin has become easyer by the day. 
 Now that you want to get hold of some bitcoin, here are several ways to purchase some.
 
+
+### Exchange
+
 <div class="container">
   <div class="row">
     <div class="col">
-      Exchange
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      Just like the stock and bond market exchange, you can buy cryptocurrencies on a specialised cryptocurrency exchange
+      Just like the stock and bond market exchange, you can buy cryptocurrencies on a specialised cryptocurrency exchange. An exchange act a centralised marketplace and let you swap fiat with cryptocurrencies at a given rate - decided by the market.
     </div>
     <div class="col">
       place a pic here
@@ -193,32 +183,26 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 </div>
 
 
+### ATM
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-      ATM
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       place a pic here
     </div>
     <div class="col">
-      Exchange cash with bitcoin ATMs. These kioskes are located in major cities and connect directly to the Bitcoin exchange.
+      Exchange cash with bitcoin ATMs. These kioskes are located in major cities and connect you directly to the Bitcoin exchange.
     </div>
   </div>
 </div>
 
 
+### Over the counter 
+
 <div class="container">
   <div class="row">
     <div class="col">
-      Over-the-counter
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      Bitcoin is digital money at the end of the day. You can purchase some from other peers as long as you trust your transactor.
+      As opposed to centralised exchanges, you can join a dealers network and purchase some bitcoin over-the-counter. This method is usually utilised for large bulk purchase
     </div>
     <div class="col">
       place a pic here
@@ -227,39 +211,35 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 </div>
 
 
+### Peer-to-peer
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-      Peer-to-peer
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       place a pic here
     </div>
     <div class="col">
-     blabla. 
+     Bitcoin is digital cash at the end of the day. You can exchange some Bitcoin with fiat from friends and family, as long as you trust your transactor. There are risks of changing currencies with someone you do not know (physical attack ...), the same applies with bitcoin and cryptocurrencies.
     </div>
   </div>
 </div>
 
 
-### Spend
+
+## Spend
 
 
 Today, most of the services and goods are available for purchase through bitcoins
 
 
 
+### Merchants
+
+
 <div class="container">
   <div class="row">
     <div class="col">
-      Merchants
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-     An increasing number of merchants accept bitcoins as a form of payment, including some billion-dollar revenue powerhouses. Amazon, Microsoft, Expedia to name a few.
+     An increasing number of merchants accept bitcoins as a form of payment, including some billion dollar revenue powerhouses. Amazon, Microsoft, Expedia to name a few.
     </div>
     <div class="col">
       place a pic here
@@ -268,12 +248,11 @@ Today, most of the services and goods are available for purchase through bitcoin
 </div>
 
 
+
+###  Gift cards
+
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-      Gift cards
-    </div>
-  </div>
   <div class="row">
     <div class="col">
     place a pic here
@@ -285,7 +264,18 @@ Today, most of the services and goods are available for purchase through bitcoin
 </div>
 
 
-At first, bitcoin transactions thrived on online marketplaces that enabled the distribution of illicit goods and services and gambling platforms.
+### Marketplace
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+    At first, bitcoin transactions thrived on gambling platforms and online marketplaces that enabled the distribution of illicit goods and services. These platforms still exist and you safely get delivered any type of product. Be sure to check your legislation before ordering anything.
+    </div>
+    <div class="col">
+     place a pic here
+    </div>
+  </div>
+</div>
 
 Because Bitcoin has matured to a global market, more and more merchants are pushed to accept cryptocurrencies as a form of payment.
 It has utility.
