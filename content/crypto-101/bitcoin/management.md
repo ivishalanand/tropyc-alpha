@@ -1,5 +1,5 @@
 +++
-title = "Management"
+title = "Store, Buy and Spend"
 date = 2017-08-02T16:44:06+02:00
 description = ""
 type = "doc"
@@ -9,7 +9,7 @@ bref = ""
 toc = true
 +++
 
-# Bitcoin : transaction management
+# Bitcoin : store, buy and spend
 
 <div class="container">
   <div class="row">
@@ -163,7 +163,7 @@ Let's compare fiat currencies and Bitcoin on this matter :
   </div>
 
 
-## Purchase
+## Buy Bitcoin
 
 Owning a bitcoin has become easyer by the day. 
 Now that you want to get hold of some bitcoin, here are several ways to purchase some.
