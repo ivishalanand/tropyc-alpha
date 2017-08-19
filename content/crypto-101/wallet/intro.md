@@ -12,15 +12,19 @@ toc = true
 # Introduction to wallets
 
 Cryptocurrency wallets let you receive, spend and monitor securely your assets on a software program by interacting with the blockchain. 
-It stores public and private keys and is the single medium of interaction between the user and different cryptocurrency blockchains.
+It stores is the single medium of interaction between the user and different cryptocurrency blockchains.
 
-### infographie
+##### infographie
 
 Technically speaking, no physical object or digital files “stores” bitcoin or any cryptocurrencies: you cannot say “this computer, or this file has bitcoins”.
 
 In fact, digital wallets store records of transactions between different public addresses. Cryptocurrencies do not exist, all that exists is the transaction history stored on the blockchain.
 
-Behind the scenes, the sender signs of the ownership of a cryptocurrency to the recipient by matching the wallet’s private key with its blockchain public address. By doing so, the transaction is recorded and the two public address balances are then updated.
+Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptograhy. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded and the two public address balances are updated.
+
+
+
+
 
 
 ### infographie
@@ -29,7 +33,7 @@ Behind the scenes, the sender signs of the ownership of a cryptocurrency to the 
 
 Now that we understand what wallets do and how they works, lets' review their categories 
 
-There are three different types of wallets, all of which will give you a different level of control, secrutiy and user experience.
+There are three different types of wallets, all of which will give you a different level of control, security and user experience.
 
 <div class="container">
   <div class="row">
@@ -75,13 +79,14 @@ An IOU refers to “I owe you”: in the cryptocurrency world, either you have f
 
 The former represents the technology breakthrough of the decentralized blockchain, the latter is similar to the current centralised fiat economy.
 
-WARNING You do not own crypto-assets stored on exchanges and online wallets, you only own a promise that a third party will transfer you your funds – nothing less, nothing more.
+*WARNING!* You do not own crypto-assets stored on exchanges and online wallets, you only own a _promise_ that a third party will give you back your funds – nothing less, nothing more.
+
 
 ### Hot
 
-Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their cryptoassets. The wealthy is stored locally rather than on a middle man's system.
+Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their cryptoassets. The wealth is stored locally rather than on a middle man's system.
 
-However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to a hacker or virus attack because it is virtually always connected to the blockchain.
+However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers or virus attack because it is virtually always connected to the blockchain.
 
 
 ### Cold
@@ -90,6 +95,6 @@ Finally, cold wallets are considered as locally stored in an “offline” syste
 
 This level of security is achieved only when private keys are generated and stored in an offline environment.
 
-You can either make your own DIY cold wallet, (here's a guide to help) or follow our hard wallet product reviews here.
+You can either make your own DIY cold wallet or follow our hard wallet product reviews here.
 
 ### table
