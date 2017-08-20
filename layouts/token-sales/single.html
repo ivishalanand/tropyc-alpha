@@ -24,40 +24,56 @@
 							</div>
 						</div>
 					</div>
-					<div class="token-spec">
-						<div class="label">Start</div>
-						<div>{{ .Params.startDate | dateFormat "02/01/2006" }}</div>
-					</div>
-					<div class="token-spec">
-						<div class="label">End</div>
-						<div>{{ .Params.endDate | dateFormat "02/01/2006" }}</div>
-					</div>
-					<div class="token-spec">
-						<div class="label">Crypto Value</div>
-						<div>{{ .Params.cryptoValuation }}</div>
-					</div>
-					<div class="token-spec">
-						<div class="label">Fiat Value</div>
-						<div>{{ .Params.fiatValuation }}</div>
-					</div>
-					<div class="token-spec">
-						<div class="label">Industry</div>
-						<div>{{ .Params.industry }}</div>
-					</div>
-					<div class="token-spec">
-						<div class="label">Founded</div>
-						<div>{{ .Params.founded }}</div>
-					</div>
-					<div class="token-spec">
-						<div class="label">Links</div>
-						<div>
-							{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
-							{{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
-							{{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
-							{{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
-							{{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
-						</div>
-					</div>
+          <div class="row">
+            <div class="col-sm-6">
+    					<div class="token-spec">
+    						<div class="label">Start</div>
+    						<div>{{ .Params.startdate | dateFormat "02/01/2006" }}</div>
+    					</div>
+    					<div class="token-spec">
+    						<div class="label">End</div>
+    						<div>{{ .Params.enddate | dateFormat "02/01/2006" }}</div>
+    					</div>
+    					<div class="token-spec">
+    						<div class="label">Crypto Value</div>
+    						<div>{{ .Params.cryptovaluation }}</div>
+    					</div>
+    					<div class="token-spec">
+    						<div class="label">Fiat Value</div>
+    						<div>{{ .Params.fiatvaluation }}</div>
+    					</div>
+            </div>
+            <div class="col-sm-6">
+    					<div class="token-spec">
+    						<div class="label">Industry</div>
+    						<div>{{ .Params.industry }}</div>
+    					</div>
+    					<div class="token-spec">
+    						<div class="label">Founded</div>
+    						<div>{{ .Params.founded }}</div>
+    					</div>
+    					<div class="token-spec">
+    						<div class="label">Links</div>
+    						<div>
+    							{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
+    							{{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
+    							{{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
+    							{{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
+    							{{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
+    						</div>
+    					</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="text-center font-weight-bold">DEAL</div>
+              <div class="text-center font-weight-bold text-warning">{{ .Params.dealrating }}</div>
+            </div>
+            <div class="col-6">
+              <div class="text-center font-weight-bold">TRUST</div>
+              <div class="text-center font-weight-bold text-success">{{ .Params.trustrating }}</div>
+            </div>
+          </div>
 				</div>
 			</div>
 
@@ -83,19 +99,140 @@
 
 				<!-- Tab panes -->
 				<div class="tab-content">
+
 				  <div class="tab-pane active" id="concept" role="tabpanel">
 				  	<div class="label">Description</div>
 						<p>{{ .Description }}</p>
 				  	<div class="label">Features</div>
-				  	<ul>
-				  		{{ range .Params.features }}
-				  		<li>{{ . }}</li>
-				  		{{ end }}
-				  	</ul>
+				  	<p>{{ .Params.features | markdownify }}</p>
 				  </div>
-				  <div class="tab-pane" id="trust" role="tabpanel">Trust</div>
-				  <div class="tab-pane" id="token" role="tabpanel">Token</div>
-				  <div class="tab-pane" id="deal" role="tabpanel">Deal</div>
+
+				  <div class="tab-pane" id="trust" role="tabpanel">
+            <table class="table table-sm">
+              <tbody>
+                <tr>
+                  <td>Stage of the project</td>
+                  <td>{{ .Params.trust.stage }}</td>
+                </tr>
+                <tr>
+                  <td>Advisors</td>
+                  <td>{{ if .Params.trust.advisors }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+                <tr>
+                  <td>Partners</td>
+                  <td>{{ if .Params.trust.partners }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+                <tr>
+                  <td>Team identity</td>
+                  <td>{{ if .Params.trust.teamidentity }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+                <tr>
+                  <td>3rd party audit</td>
+                  <td>{{ if .Params.trust.audit }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+                <tr>
+                  <td>Disbursement date</td>
+                  <td>{{ .Params.trust.disbursementdate }}</td>
+                </tr>
+                <tr>
+                  <td>Refund</td>
+                  <td>{{ if .Params.trust.refund }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+				  <div class="tab-pane" id="token" role="tabpanel">
+            <table class="table table-sm">
+              <tbody>
+                <tr>
+                  <td>Asset-backed</td>
+                  <td>{{ if .Params.token.assetbacked }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+                <tr>
+                  <td>Functions</td>
+                  <td>{{ .Params.token.functions }}</td>
+                </tr>
+                <tr>
+                  <td>Pre-Mined</td>
+                  <td>{{ if .Params.token.premined }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+                <tr>
+                  <td>Consensus</td>
+                  <td>{{ .Params.token.consensus }}</td>
+                </tr>
+                <tr>
+                  <td>Similar</td>
+                  <td>{{ .Params.token.similar }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+				  <div class="tab-pane" id="deal" role="tabpanel">
+            <table class="deal-table table table-sm">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>CUT</th>
+                  <th>SUPPLY</th>
+                  <th>1 ETH</th>
+                  <th>1 ETH</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Pre-tokensale</td>
+                  <td>{{ .Params.deal.pretokensale.cut }}</td>
+                  <td>{{ .Params.deal.pretokensale.supply }}</td>
+                  <td>{{ .Params.deal.pretokensale.cryptovalue }}</td>
+                  <td>{{ .Params.deal.pretokensale.fiatvalue }}</td>
+                </tr>
+                <tr>
+                  <td>Tokensale</td>
+                  <td>{{ .Params.deal.tokensale.cut }}</td>
+                  <td>{{ .Params.deal.tokensale.supply }}</td>
+                  <td>{{ .Params.deal.tokensale.cryptovalue }}</td>
+                  <td>{{ .Params.deal.tokensale.fiatvalue }}</td>
+                </tr>
+                <tr>
+                  <td>Founders</td>
+                  <td>{{ .Params.deal.founders.cut }}</td>
+                  <td>{{ .Params.deal.founders.supply }}</td>
+                  <td>{{ .Params.deal.founders.cryptovalue }}</td>
+                  <td>{{ .Params.deal.founders.fiatvalue }}</td>
+                </tr>
+                <tr>
+                  <td>Early investors</td>
+                  <td>{{ .Params.deal.earlyinvestors.cut }}</td>
+                  <td>{{ .Params.deal.earlyinvestors.supply }}</td>
+                  <td>{{ .Params.deal.earlyinvestors.cryptovalue }}</td>
+                  <td>{{ .Params.deal.earlyinvestors.fiatvalue }}</td>
+                </tr>
+                <tr>
+                  <td>Affiliate</td>
+                  <td>{{ .Params.deal.affiliate.cut }}</td>
+                  <td>{{ .Params.deal.affiliate.supply }}</td>
+                  <td>{{ .Params.deal.affiliate.cryptovalue }}</td>
+                  <td>{{ .Params.deal.affiliate.fiatvalue }}</td>
+                </tr>
+                <tr>
+                  <td>Future emission</td>
+                  <td>{{ .Params.deal.futureemission.cut }}</td>
+                  <td>{{ .Params.deal.futureemission.supply }}</td>
+                  <td>{{ .Params.deal.futureemission.cryptovalue }}</td>
+                  <td>{{ .Params.deal.futureemission.fiatvalue }}</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>{{ .Params.deal.total.cut }}</td>
+                  <td>{{ .Params.deal.total.supply }}</td>
+                  <td>{{ .Params.deal.total.cryptovalue }}</td>
+                  <td>{{ .Params.deal.total.fiatvalue }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 				</div>
 			</div>
 		</div>
