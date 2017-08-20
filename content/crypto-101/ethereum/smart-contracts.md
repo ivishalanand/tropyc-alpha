@@ -31,6 +31,26 @@ It does not have to be a legal contract per se, rather, its aim is to minimise t
 
 Here’s a quick recap of the difference between both.
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+      put a pic here
+    </div>
+    <div class="col">
+      put a pic here
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      Formal or informal agreement
+    </div>
+    <div class="col">
+      Smart contract, computer program
+    </div>
+  </div>
+</div>
+ 
+  Picture here
 
 <div class="container">
   <div class="row">
