@@ -1,0 +1,29 @@
+[bitcoin]
+name = "Bitcoin"
+risk = "Low"
+valuation = "$3.3 - $6.6 M"
+platform = "Native"
+industry = "Identity"
+startDate = 2017-08-01
+endDate = 2017-08-31
+  [bitcoin.links]
+  twitter = "bitcoin"
+  reddit = "bitcoin"
+  telegram = "bitcoin"
+  github = "bitcoin"
+  slack = "bitcoin"
+
+[ethereum]
+name = "Ethereum"
+risk = "Mid"
+valuation = "$10 M"
+platform = "Native"
+industry = "Asset Management"
+startDate = 2017-08-01
+endDate = 2017-08-31
+  [ethereum.links]
+  twitter = "ethereum"
+  reddit = "ethereum"
+  telegram = "ethereum"
+  github = "ethereum"
+  slack = "ethereum"

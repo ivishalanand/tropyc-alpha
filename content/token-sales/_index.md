@@ -5,5 +5,5 @@ description = ""
 weight = 10
 draft = false
 bref = "Check out our curated list of Initial Coin Offerings. We've sorted out the fundamentals, just for you."
-toc = true
+toc = false
 +++
