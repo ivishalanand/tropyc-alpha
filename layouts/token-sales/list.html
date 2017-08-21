@@ -30,7 +30,7 @@
         <tbody>
           {{ range .Data.Pages.ByWeight }}
             <tr>
-              <td><a href="{{ .URL }}" class="token-link"><img src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">{{ .Params.name }}</a></td>
+              <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}');"><a href="{{ .URL }}" class="token-link">{{ .Params.name }}</a></td>
               <td class="text-uppercase">{{ .Params.risk }}</td>
               <td>{{ .Params.valuation }}</td>
               <td>{{ .Params.platform }}</td>

@@ -37,7 +37,7 @@ trustRating = "GOOD"
 	partners = false
 	teamIdentity = true
 	audit = false
-	wallet = true
+	multisigWallet = true
 	disbursementDate = "End of ICO"
 	refund = true
 

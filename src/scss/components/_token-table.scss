@@ -1,12 +1,13 @@
 .token-table {
   th ,td {
     text-align: center;
+    vertical-align: middle;
   }
 
-  img {
-    height: 30px;
-    margin-right: 5px;
-
+  .token-name {
+    background: no-repeat 10px center;
+    background-size: 40px;
+    padding-left: 60px !important;
   }
 
   .token-link {

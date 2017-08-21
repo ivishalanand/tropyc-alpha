@@ -2,23 +2,29 @@
   margin-top: 20px;
 }
 
+.token-id {
+  margin-bottom: 30px;
+}
+
+.token-title {
+  margin-top: 15px;
+  font-size: 30px;
+  text-align: center;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 20px;
+  }
+}
+
+.token-logo {
+  height: 70px;
+}
+
 .token-overview {
-  margin: 50px 0;
+  margin-bottom: 25px;
   padding: 40px;
   border: 1px solid #DDD;
   border-radius: .25rem;
-
-  .token-id {
-    margin-bottom: 30px;
-  }
-
-  .token-logo {
-    height: 70px;
-  }
-
-  .token-spec {
-    margin-bottom: 25px;
-  }
 }
 
 .token-description {
@@ -28,6 +34,37 @@
     border-width: 0 1px 1px 1px;
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
+  }
+
+  .nav-link {
+    background-color: #EFEFEF;
+    border-color: #DDD;
+  }
+}
+
+.table-overview, .table-trust, .table-token, .table-rating {
+  th, td {
+    border: none;
+  }
+}
+
+.table-rating {
+  th, td {
+    vertical-align: middle;
+  }
+
+  &__value {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  &__rating {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: 400;
   }
 }
 

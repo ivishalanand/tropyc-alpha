@@ -9,8 +9,8 @@
 
 			<div class="col-sm-2 hidden-xs-down">
 				<div class="token-id">
-					<h1>{{.Title }}</h1>
-					<img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
+          <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
+					<h1 class="token-title">{{.Title }}</h1>
 				</div>
 			</div>
 
@@ -26,52 +26,58 @@
 					</div>
           <div class="row">
             <div class="col-sm-6">
-    					<div class="token-spec">
-    						<div class="label">Start</div>
-    						<div>{{ .Params.startdate | dateFormat "02/01/2006" }}</div>
-    					</div>
-    					<div class="token-spec">
-    						<div class="label">End</div>
-    						<div>{{ .Params.enddate | dateFormat "02/01/2006" }}</div>
-    					</div>
-    					<div class="token-spec">
-    						<div class="label">Crypto Value</div>
-    						<div>{{ .Params.cryptovaluation }}</div>
-    					</div>
-    					<div class="token-spec">
-    						<div class="label">Fiat Value</div>
-    						<div>{{ .Params.fiatvaluation }}</div>
-    					</div>
+              <table class="table-overview table table-sm">
+                <tbody>
+                  <tr>
+                    <td class="label">Start</td>
+                    <td>{{ .Params.startdate | dateFormat "02/01/2006" }}</td>
+                  </tr>
+                  <tr>
+                    <td class="label">End</td>
+                    <td>{{ .Params.enddate | dateFormat "02/01/2006" }}</td>
+                  </tr>
+                  <tr>
+                    <td class="label">Crypto Value</td>
+                    <td>{{ .Params.cryptovaluation }}</td>
+                  </tr>
+                  <tr>
+                    <td class="label">Fiat Value</td>
+                    <td>{{ .Params.fiatvaluation }}</td>
+                  </tr>
+                  <tr>
+                    <td class="label">Industry</td>
+                    <td>{{ .Params.industry }}</td>
+                  </tr>
+                  <tr>
+                    <td class="label">Founded</td>
+                    <td>{{ .Params.founded }}</td>
+                  </tr>
+                  <tr>
+                    <td class="label">Links</td>
+                    <td>
+                      {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="col-sm-6">
-    					<div class="token-spec">
-    						<div class="label">Industry</div>
-    						<div>{{ .Params.industry }}</div>
-    					</div>
-    					<div class="token-spec">
-    						<div class="label">Founded</div>
-    						<div>{{ .Params.founded }}</div>
-    					</div>
-    					<div class="token-spec">
-    						<div class="label">Links</div>
-    						<div>
-    							{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
-    							{{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
-    							{{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
-    							{{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
-    							{{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
-    						</div>
-    					</div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="text-center font-weight-bold">DEAL</div>
-              <div class="text-center font-weight-bold text-warning">{{ .Params.dealrating }}</div>
-            </div>
-            <div class="col-6">
-              <div class="text-center font-weight-bold">TRUST</div>
-              <div class="text-center font-weight-bold text-success">{{ .Params.trustrating }}</div>
+              <table class="table-rating table table-sm">
+                <tbody>
+                  <tr>
+                    <td class="table-rating__value">DEAL</td>
+                    <td class="table-rating__rating text-warning">{{ .Params.dealrating }}</td>
+                  </tr>
+                  <tr>
+                    <td class="table-rating__value">TRUST</td>
+                    <td class="table-rating__rating text-success">{{ .Params.trustrating }}</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
 				</div>
@@ -108,7 +114,7 @@
 				  </div>
 
 				  <div class="tab-pane" id="trust" role="tabpanel">
-            <table class="table table-sm">
+            <table class="table-trust table table-sm">
               <tbody>
                 <tr>
                   <td>Stage of the project</td>
@@ -131,6 +137,10 @@
                   <td>{{ if .Params.trust.audit }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
                 </tr>
                 <tr>
+                  <td>Multi-sig wallet</td>
+                  <td>{{ if .Params.trust.multisigwallet }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</td>
+                </tr>
+                <tr>
                   <td>Disbursement date</td>
                   <td>{{ .Params.trust.disbursementdate }}</td>
                 </tr>
@@ -143,7 +153,7 @@
           </div>
 
 				  <div class="tab-pane" id="token" role="tabpanel">
-            <table class="table table-sm">
+            <table class="table-token table table-sm">
               <tbody>
                 <tr>
                   <td>Asset-backed</td>
