@@ -227,7 +227,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:               12 !default;
-$grid-gutter-width-base:     30px !default;
+$grid-gutter-width-base:     20px !default;
 $grid-gutter-widths: (
   xs: $grid-gutter-width-base,
   sm: $grid-gutter-width-base,
@@ -333,7 +333,7 @@ $transition-collapse:    height .35s ease !default;
 // Customizes the `.table` component with basic values, each used across all table variations.
 
 $table-cell-padding:            1.25rem;
-$table-sm-cell-padding:         .3rem !default;
+$table-sm-cell-padding:         .5rem !default;
 
 $table-bg:                      transparent !default;
 

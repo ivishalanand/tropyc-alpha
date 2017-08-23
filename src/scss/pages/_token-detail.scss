@@ -9,6 +9,7 @@
 .token-title {
   margin-top: 15px;
   font-size: 30px;
+  color: #6f8691;
   text-align: center;
 
   @include media-breakpoint-down(sm) {
@@ -22,14 +23,14 @@
 
 .token-overview {
   margin-bottom: 25px;
-  padding: 40px;
+  padding: 20px;
   border: 1px solid #DDD;
   border-radius: .25rem;
 }
 
 .token-description {
   .tab-content {
-    padding: 30px;
+    padding: 20px;
     border: solid #DDD;
     border-width: 0 1px 1px 1px;
     border-bottom-left-radius: .25rem;
@@ -58,6 +59,7 @@
     vertical-align: middle;
     font-size: 22px;
     font-weight: 400;
+    color: #6f8691;
   }
 
   &__rating {
@@ -65,11 +67,78 @@
     vertical-align: middle;
     font-size: 22px;
     font-weight: 400;
+    color: #6f8691;
   }
 }
 
 .deal-table {
+  @include media-breakpoint-down(sm) {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
   tbody > tr:last-child td {
     border-width: 2px;
+  }
+}
+
+.roadmap {
+  display: flex;
+  height: 300px;
+
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .roadmap-ideation, .roadmap-mvp, .roadmap-test, .roadmap-growth {
+    flex: 25%;
+    text-align: center;
+    border: 1px solid #DDD;
+    padding: 20px 0;
+    position: relative;
+
+      &::before {
+      content: "";
+      border: 2px solid #DDD;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 35%;
+    }
+  }
+
+  .roadmap-stage {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6f8691;
+  }
+
+  .roadmap-bottom-left {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 14px;
+
+    @include media-breakpoint-only(md) {
+      font-size: 12px;
+    }
+  }
+
+  .roadmap-bottom-right {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    font-size: 14px;
+
+    @include media-breakpoint-only(md) {
+      font-size: 12px;
+    }
   }
 }

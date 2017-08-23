@@ -1,29 +1,17 @@
 [bitcoin]
 name = "Bitcoin"
-risk = "Low"
-valuation = "$3.3 - $6.6 M"
-platform = "Native"
-industry = "Identity"
-startDate = 2017-08-01
-endDate = 2017-08-31
-  [bitcoin.links]
-  twitter = "bitcoin"
-  reddit = "bitcoin"
-  telegram = "bitcoin"
-  github = "bitcoin"
-  slack = "bitcoin"
+year = "2009"
+marketCap = "$6.6 M"
+priceUsd = "$4,000"
+industry = "Payment"
+type = "Currency"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
 
 [ethereum]
 name = "Ethereum"
-risk = "Mid"
-valuation = "$10 M"
-platform = "Native"
-industry = "Asset Management"
-startDate = 2017-08-01
-endDate = 2017-08-31
-  [ethereum.links]
-  twitter = "ethereum"
-  reddit = "ethereum"
-  telegram = "ethereum"
-  github = "ethereum"
-  slack = "ethereum"
+year = "2012"
+marketCap = "$4.6 M"
+priceUsd = "$400"
+industry = "Smart Contracts"
+type = "Currency"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"

@@ -82,4 +82,13 @@ trustRating = "GOOD"
     supply = "200,000,000"
     cryptovalue = "3,330,000"
     fiatvalue = "100 M"
+
+[roadmap]
+  website = true
+  whitepaper = true
+  initialCode = true
+  mvp = false
+  openDev = false
+  launch = false
+  community = false
 +++

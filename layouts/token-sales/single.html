@@ -7,20 +7,20 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-sm-2 hidden-xs-down">
+			<div class="col-lg-2 hidden-md-down">
 				<div class="token-id">
           <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
 					<h1 class="token-title">{{.Title }}</h1>
 				</div>
 			</div>
 
-			<div class="col-sm-10 col-xs-12">
+			<div class="col-lg-10">
 				<div class="token-overview">
 					<div class="row">
-						<div class="col-6 hidden-sm-up">
+						<div class="col-6 hidden-lg-up">
 							<div class="token-id">
 								<h1>{{.Title }}</h1>
-								<img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
+								<img class="token-logo img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
 							</div>
 						</div>
 					</div>
@@ -55,11 +55,14 @@
                   <tr>
                     <td class="label">Links</td>
                     <td>
-                      {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "website" }}<a href="{{ .Params.links.website }}">{{ .Params.links.website }}</a>{{ end }}
+                      <div class="mt-2">
+                        {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
+                        {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
+                        {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
+                        {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
+                        {{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      </div>
                     </td>
                   </tr>
                 </tbody>
@@ -85,22 +88,25 @@
 
 		</div>
 
-		<div class="offset-sm-2 col-sm-10 col-xs-12">
+		<div class="offset-lg-2 col-lg-10">
 			<div class="token-description">
 				<!-- Nav tabs -->
-				<ul class="nav nav-tabs nav-justified" role="tablist">
+				<ul class="nav nav-tabs nav-justified flex-column flex-sm-row" role="tablist">
 				  <li class="nav-item">
-				    <a class="nav-link active" data-toggle="tab" href="#concept" role="tab">CONCEPT</a>
+				    <a class="flex-sm-fill nav-link active" data-toggle="tab" href="#concept" role="tab">CONCEPT</a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" data-toggle="tab" href="#trust" role="tab">TRUST</a>
+				    <a class="flex-sm-fill nav-link" data-toggle="tab" href="#trust" role="tab">TRUST</a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" data-toggle="tab" href="#token" role="tab">TOKEN</a>
+				    <a class="flex-sm-fill nav-link" data-toggle="tab" href="#token" role="tab">TOKEN</a>
 				  </li>
 				  <li class="nav-item">
-				    <a class="nav-link" data-toggle="tab" href="#deal" role="tab">DEAL</a>
+				    <a class="flex-sm-fill nav-link" data-toggle="tab" href="#deal" role="tab">DEAL</a>
 				  </li>
+          <li class="nav-item">
+            <a class="flex-sm-fill nav-link" data-toggle="tab" href="#roadmap" role="tab">ROADMAP</a>
+          </li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -243,6 +249,72 @@
               </tbody>
             </table>
           </div>
+
+          <div class="tab-pane" id="roadmap" role="tabpanel">
+            <div class="roadmap">
+              <div class="roadmap-ideation">
+                <span class="roadmap-stage">IDEATION</span>
+                <div class="roadmap-bottom-left">
+                  <div>
+                    {{ if .Params.roadmap.website }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  Website
+                </div>
+                <div class="roadmap-bottom-right">
+                  <div>
+                    {{ if .Params.roadmap.whitepaper }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  Whitepaper
+                </div>
+              </div>
+              <div class="roadmap-mvp">
+                <span class="roadmap-stage">MVP</span>
+                <div class="roadmap-bottom-left">
+                  <div>
+                    {{ if .Params.roadmap.initialcode }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  Initial Code
+                </div>
+                <div class="roadmap-bottom-right">
+                  <div>
+                    {{ if .Params.roadmap.mvp }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  MVP
+                </div>
+              </div>
+              <div class="roadmap-test">
+                <span class="roadmap-stage">TEST</span>
+                <div class="roadmap-bottom-left">
+                  <div>
+                    {{ if .Params.roadmap.beta }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  Beta
+                </div>
+                <div class="roadmap-bottom-right">
+                  <div>
+                    {{ if .Params.roadmap.opendev }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  Open dev
+                </div>
+              </div>
+              <div class="roadmap-growth">
+                <span class="roadmap-stage">GROWTH</span>
+                <div class="roadmap-bottom-left">
+                  <div>
+                    {{ if .Params.roadmap.launch }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  Launch
+                </div>
+                <div class="roadmap-bottom-right">
+                  <div>
+                    {{ if .Params.roadmap.community }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
+                  </div>
+                  Community
+                </div>
+              </div>
+            </div>
+          </div>
+
 				</div>
 			</div>
 		</div>
