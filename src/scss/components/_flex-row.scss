@@ -1,0 +1,12 @@
+.flex-row {
+	display: flex;
+
+
+	.flex-col-1 {
+		flex: 0 0 50%;
+	}
+
+	.flex-col-2 {
+		flex: 0 0 50%;
+	}
+}

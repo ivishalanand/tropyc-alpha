@@ -1,0 +1,65 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<div class="container">
+  <div class="hero">
+    <h1>{{ .Title }}</h1>
+    <p>
+      {{ .Params.bref | safeHTML }}
+    </p>
+  </div>
+  <div class="content">
+    {{ .Content }}
+  </div>
+</div>
+<div class="main">
+  <div class="container-fluid">
+    <div class="row">
+    	{{ range $.Site.Data.exchanges }}
+      <div class="col-sm-6">
+        <div class="exchange-card card card-outline-primary mb-3">
+          <div class="card-block">
+            <h2 class="card-title text-center">{{ .name }}</h2>
+            <div class="exchange-specs">
+              <div class="flex-row mb-2">
+              	<div class="flex-col-1">Payment</div>
+              	<div class="flex-col-2">{{ .payment }}</div>
+              </div>
+              <div class="flex-row mb-2">
+              	<div class="flex-col-1">Fiat</div>
+              	<div class="flex-col-2">{{ .fiat }}</div>
+              </div>
+              <div class="flex-row mb-2">
+              	<div class="flex-col-1">Tokens</div>
+              	<div class="flex-col-2">{{ .tokens }}</div>
+              </div>
+              <div class="flex-row mb-2">
+              	<div class="flex-col-1">Founded</div>
+              	<div class="flex-col-2">{{ .founded }}</div>
+              </div>
+              <div class="flex-row mb-2">
+              	<div class="flex-col-1">Target</div>
+              	<div class="flex-col-2">{{ .target }}</div>
+              </div>
+              <div class="flex-row mb-2">
+              	<div class="flex-col-1">Fees</div>
+              	<div class="flex-col-2">{{ .fees }}</div>
+              </div>
+              <div class="flex-row mb-2">
+              	<div class="flex-col-1">Comments</div>
+              	<div class="flex-col-2">{{ .comments }}</div>
+              </div>
+            </div>
+            <div class="text-center">
+            	<a href="#" class="btn btn-primary btn-lg">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

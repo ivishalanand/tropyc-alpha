@@ -29,7 +29,7 @@
         <tbody>
           {{ range $.Site.Data.tokens }}
             <tr>
-              <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}');"><span class="label-emphasis">{{ .name }}</span></td>
+              <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .name | lower) }}');"><span class="label-emphasis">{{ .name }}</span></td>
               <td>{{ .year }}</td>
               <td class="label-emphasis">{{ .marketCap }}</td>
               <td class="label-emphasis">{{ .priceUsd }}</td>
