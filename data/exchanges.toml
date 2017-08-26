@@ -1,5 +1,7 @@
 [coinbase]
 name = "Coinbase"
+cornerIcon = "star"
+cornerText = "Popular"
 payment = "Bank transfer +"
 fiat = "USD, GBP, CAD"
 tokens = "Bitcoin, Ethereum, Litecoin"
@@ -10,6 +12,8 @@ comments = "Largest exchange in the world. Safe and well designed."
 
 [cexio]
 name = "CEX.io"
+cornerIcon = "star"
+cornerText = "Popular"
 payment = "Bank transfer +"
 fiat = "USD, GBP, CAD"
 tokens = "Bitcoin, Ethereum, Litecoin"
@@ -20,6 +24,8 @@ comments = "Largest exchange in the world. Safe and well designed."
 
 [localbitcoins]
 name = "Local Bitcoins"
+cornerIcon = "star"
+cornerText = "Cash"
 payment = "Bank transfer +"
 fiat = "USD, GBP, CAD"
 tokens = "Bitcoin, Ethereum, Litecoin"
@@ -30,6 +36,8 @@ comments = "Largest exchange in the world. Safe and well designed."
 
 [changelly]
 name = "Changelly"
+cornerIcon = "speed"
+cornerText = "Altcoin"
 payment = "Bank transfer +"
 fiat = "USD, GBP, CAD"
 tokens = "Bitcoin, Ethereum, Litecoin"

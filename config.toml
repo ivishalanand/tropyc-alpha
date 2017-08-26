@@ -18,9 +18,9 @@ Paginate = 3
     weight = 20
     url = "/crypto-101/"
 [[menu.main]]
-    name = "Exchange"
+    name = "Exchanges"
     weight = 30
-    url = "/exchange/"
+    url = "/exchanges/"
 [[menu.main]]
     name = "Tokens"
     weight = 40

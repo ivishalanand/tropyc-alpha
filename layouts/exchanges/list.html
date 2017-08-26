@@ -16,10 +16,17 @@
   <div class="container-fluid">
     <div class="row">
     	{{ range $.Site.Data.exchanges }}
-      <div class="col-sm-6">
+      <div class="col-md-6 col-xl-4">
         <div class="exchange-card card card-outline-primary mb-3">
+        	<div class="card-header">
+        		<div class="exchange-logo" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "exchange-logos/%s.png" .name | lower) }}')"></div>
+        		<h2 class="text-center">{{ .name }}</h2>
+        		<div class="corner-text" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "icons/%s.png" .cornerIcon | lower) }}')">
+       				{{ .cornerText }}
+       			</div>
+        	</div>
           <div class="card-block">
-            <h2 class="card-title text-center">{{ .name }}</h2>
+            <!-- <h2 class="card-title text-center">{{ .name }}</h2> -->
             <div class="exchange-specs">
               <div class="flex-row mb-2">
               	<div class="flex-col-1">Payment</div>
