@@ -7,7 +7,8 @@ draft = false
 
 name = "Civic"
 risk = "Low"
-valuation = "$3.3 - $6.6 M"
+cryptoValuation = "$10 M"
+fiatValuation = "$12 M"
 platform = "Ethereum"
 industry = "Identity"
 startDate = 2017-08-01

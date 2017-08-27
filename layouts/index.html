@@ -2,53 +2,79 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-<div class="container">
-	<div class="main">
-	  <div class="hero">
-	    <h1>{{.Title}}</h1>
-	    <p>{{.Description}}</p>
-	  </div>
-	  <div class="message focus" data-component="message"> <span class="close small"></span>
-	     Tropyc is currently still in <mark>alpha</mark>, a lot of new content and features are on the way, in the meantime make sure you join the community on telegram <a class="button inverted small" href="https://t.me/{{.Site.Params.telegram}}" target="_blank">Tropyc Telegram</a>
-	  </div>
-	  <div id="kube-features">
-	    <div class="row gutters">
-	      <div class="col col-4 item">
-	        <figure>
-	          <!-- <img alt="Baseline" height="48" src="" width="48"> -->
-	        </figure>
-	        <h3>Feature 1</h3>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro recusandae eligendi, dolores veniam illum tempore modi. </p>
-	      </div>
-	      <div class="col col-4 item">
-	        <figure>
-	          <!-- <img alt="Typography" height="48" src="" width="48"> -->
-	        </figure>
-	        <h3>Feature 2</h3>
-	        <p>Error sequi ea consequatur illum, deserunt necessitatibus debitis et temporibus minima? Dolor, fuga, maiores!</p>
-	      </div>
-	      <div class="col col-4 item">
-	        <figure>
-	          <!-- <img alt="Minimalism" height="48" src="" width="48"> -->
-	        </figure>
-	        <h3>Feature 3</h3>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum modi cumque odit? </p>
-	      </div>
-	    </div>
-	    <div class="row gutters">
-	      <div class="col col-4 item">
-	        <h4>Feature 4</h4>
-	        <p>Sint consequatur dolor, officiis ad quis laboriosam ducimus similique ab, accusantium delectus a aut cum nesciunt? Minus, explicabo.</p>
-	      </div>
-	      <div class="col col-4 item">
-	        <h4>Feature 5</h4>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, maxime minima perspiciatis molestias modi!</p>
-	      </div>
-	      <div class="col col-4 item">
-	        <h4>Feature 6</h4>
-	        <p>Voluptate quod, doloremque autem a earum, repellendus soluta vero excepturi nulla, sapiente, voluptates doloribus culpa nemo!</p>
-	    	</div>
-	  	</div>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.2) 0%, rgba(0,36,61,0.6) 50%), url('https://images.unsplash.com/photo-1499909694555-1ae5b7067b1a?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=');">
+  <div class="banner-content">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+    <a class="btn btn-primary btn-lg">Start now</a>
+  </div>
+</div>
+<div class="features">
+	<div class="featurebox">
+		<img class="feature-image" src="/images/{{ index $.Site.Data.images.hash "icons/live-chat.png" }}">
+		<div class="feature-name">Live chat</div>
+		<div class="feature-detail">Enjoy a 7/7 crypto experience with your personal analysts.</div>
+	</div>
+	<div class="featurebox">
+		<img class="feature-image" src="/images/{{ index $.Site.Data.images.hash "icons/tokensale.png" }}">
+		<div class="feature-name">Tokensale rating</div>
+		<div class="feature-detail">Access our token due diligence based on fundamentals.</div>
+	</div>
+	<div class="featurebox">
+		<img class="feature-image" src="/images/{{ index $.Site.Data.images.hash "icons/education.png" }}">
+		<div class="feature-name">Education</div>
+		<div class="feature-detail">Store your coins safely, find your exchange or design your portfolio.</div>
+	</div>
+</div>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">How it works</div>
+	<div class="titleborder"></div>
+</div>
+<div class="container instructions">
+	<div class="row">
+		<div class="col-sm-6">
+			<img class="img-fluid rounded mx-auto d-block mb-2" src="http://via.placeholder.com/400x400">
+		</div>
+		<div class="col-sm-6 stepbystep">
+			<div class="step">
+				<h3>Learn</h3>
+				<p>Get to know why crypto is a game changer and pick your exchange.</p>
+			</div>
+			<div class="step">
+				<h3>Check tokens</h3>
+				<p>Have a look at our handpicked coins and tokensales. We've sorted the fundamentals for you.</p>
+			</div>
+			<div class="step">
+				<h3>Go premium</h3>
+				<p>Get your personal crypto analyst 7/7 to learn, invest, design your portfolio and get alerts.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">The Crypto revolution</div>
+	<div class="titleborder"></div>
+</div>
+<div class="container funding-comparison">
+	<div class="row">
+		<div class="col-sm-6 comparison-points">
+			<div class="point">
+				<h3>Revolution</h3>
+				<p>Tokensales raise more funds than startups as per the 1st of August 2017.</p>
+			</div>
+			<div class="point">
+				<h3>Token</h3>
+				<p>Check our selection of tokens, we figured out their tokenomics just for you.</p>
+			</div>
+			<div class="point">
+				<h3>Scored</h3>
+				<p>Tropyc evaluates and filters tokensales before listing. We undertake a thorough analysis based on fundamentals.</p>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<img class="img-fluid rounded mx-auto d-block mt-3" src="http://via.placeholder.com/600x400">
 		</div>
 	</div>
 </div>

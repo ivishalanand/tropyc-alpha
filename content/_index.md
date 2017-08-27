@@ -1,5 +1,5 @@
 +++
-description = "Tropyc is a crypto community that helps you understand crypto and make better investments"
-title = "Tropyc - Crypto Community"
+description = "Your end-to-end crypto world platform. News, insights, education and rating"
+title = "Cryptocurrency made simple"
 draft = false
 +++

@@ -7,7 +7,8 @@ draft = false
 
 name = "Suretly"
 risk = "High"
-valuation = "$10 - $66 M"
+cryptoValuation = "$10 M"
+fiatValuation = "$12 M"
 platform = "Native"
 industry = "Loan"
 startDate = 2017-07-11

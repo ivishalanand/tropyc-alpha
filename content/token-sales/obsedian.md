@@ -7,7 +7,8 @@ draft = false
 
 name = "Obsedian"
 risk = "Low"
-valuation = "$14.8 M"
+cryptoValuation = "$10 M"
+fiatValuation = "$12 M"
 platform = "Native"
 industry = "Messaging"
 startDate = 2017-07-15

@@ -32,7 +32,7 @@
             <tr>
               <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Params.name }}</a></td>
               <td class="text-uppercase">{{ .Params.risk }}</td>
-              <td>{{ .Params.valuation }}</td>
+              <td>{{ .Params.fiatValuation }}</td>
               <td>{{ .Params.platform }}</td>
               <td>{{ .Params.industry }}</td>
               <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
