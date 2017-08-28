@@ -90,26 +90,26 @@
 // Start with assigning color names to specific hex values.
 $white:  #fff !default;
 $black:  #000 !default;
-$red:    #d9534f !default;
-$orange: #f0ad4e !default;
+$red:    #e74c3c !default;
+$orange: #e67e22 !default;
 $yellow: #ffd500 !default;
-$green:  #5cb85c !default;
-$blue:   #0275d8 !default;
-$teal:   #5bc0de !default;
+$green:  #2ecc71 !default;
+$blue:   #3498db !default;
+$teal:   #1abc9c !default;
 $pink:   #ff5b77 !default;
-$purple: #613d7c !default;
+$purple: #9b59b6 !default;
 
 // Create grayscale
 $gray-dark:                 #292b2c !default;
-$gray:                      #464a4c !default;
-$gray-light:                #636c72 !default;
-$gray-lighter:              #eceeef !default;
-$gray-lightest:             #f7f7f9 !default;
+$gray:                      #95a5a6 !default;
+$gray-light:                #bdc3c7 !default;
+$gray-lighter:              #ecf0f1 !default;
+$gray-lightest:             #ecf0f1 !default;
 
 // Reassign color vars to semantic color scheme
-$brand-primary:             #4bb96d;
+$brand-primary:             #2ecc71;
 $brand-success:             $green !default;
-$brand-info:                $teal !default;
+$brand-info:                $blue !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
 $brand-inverse:             $gray-dark !default;
@@ -240,7 +240,7 @@ $grid-gutter-widths: (
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;

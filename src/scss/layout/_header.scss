@@ -5,6 +5,7 @@
   transition: all 0.3s ease;
   height: 70px;
   padding: 0px 30px;
+  border-bottom: 1px solid #E2E8ED;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,7 +54,7 @@
   font-weight: 500;
 }
 .navbar-tropyc-link:hover {
-  color: #da552f;
+  color: $orange;
   text-decoration: none;
 }
 

@@ -1,17 +1,38 @@
-  <footer class="footer">
-    <nav>
-      <ul>
-        <li><span>Tropyc</span></li>
-        <li>
-          <a href="/company/">Company</a>
-        </li>
-        <li>
-          <a href="/news/">News</a>
-        </li>
-        <li>
-          <a href="https://t.me/{{.Site.Params.telegram}}" target="_blank">Join us on Telegram</a>
-        </li>
-      </ul>
-    </nav>
-    <p>&copy; 2017 Tropyc</p>
-  </footer>
+<footer role="contentinfo" class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-3">
+				<div class="footer-logo">
+					<a href="/" style="background-image: url('/images/{{ index $.Site.Data.images.hash "tropyc-logo.png" }}');">tropyc.</a>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<h3 class="footer-nav-title">Company</h3>
+				<ul class="footer-nav">
+					<li><a href="/contact/">Contact</a></li>
+					<li><a href="/about-us/">About</a></li>
+					<li><a href="/legal/">Legal</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<h3 class="footer-nav-title">Useful Links</h3>
+				<ul class="footer-nav">
+					<li><a href="/rating-framework/">Rating framework</a></li>
+					<li><a href="/disclaimer/">Disclaimer</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-12 col-md-3 col-social">
+				<ul class="footer-nav">
+					<li class="text-center"><a href="https://t.me/{{.Site.Params.telegram}}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a></li>
+					<li class="text-center"><a href="https://t.me/{{.Site.Params.facebook}}" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+					<li class="text-center"><a href="https://t.me/{{.Site.Params.twitter}}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<nav class="row">
+			<div class="col-xs-12 text-right">
+				<small class="copyright">&copy; 2017 Tropyc</small>
+			</div>
+		</nav>
+	</div>
+</footer>
