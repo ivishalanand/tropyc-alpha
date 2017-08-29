@@ -14,7 +14,7 @@ marketCap = ""
 priceUsd = ""
 industry = "Smart contract"
 type = "Currency"
-description = "Nicknamed Global Computer, it offers a platform and tools to develop Dapps and smart contracts"
+description = "Nicknamed Global Computer, platform and tools to develop Dapps and smart contracts"
 
 [litecoin]
 name = "Litecoin"
@@ -23,7 +23,7 @@ marketCap = ""
 priceUsd = ""
 industry = "Payment"
 type = "Currency"
-description = "Digital silver. Similar to Bitcoin with improved technical features"
+description = "Digital silver, similar to Bitcoin with improved technical features"
 
 [ethereumclassic]
 name = "Ethereum Classic"
@@ -41,7 +41,7 @@ marketCap = ""
 priceUsd = ""
 industry = "Interbank settlement"
 type = "Currency"
-description = "Working hands with hands with leading financial institutions"
+description = "Hands with hands with leading financial institutions"
 
 [nem]
 name = "NEM"
@@ -95,7 +95,7 @@ marketCap = ""
 priceUsd = ""
 industry = "Smart contract"
 type = "Currency"
-description = "Russian based blockchainplatform for crowdfunding, tokens and private sidechains"
+description = "Russian based blockchain for crowdfunding, tokens and private sidechains"
 
 [zcash]
 name = "Zcash"
@@ -131,7 +131,7 @@ marketCap = ""
 priceUsd = ""
 industry = "Payment"
 type = "Currency"
-description = "Started as a joke coin from a japanese dog meme, the shiba inu"
+description = "Started as a joke from a japanese dog meme, the shiba inu"
 
 [civic]
 name = "Civic"
@@ -149,7 +149,7 @@ marketCap = ""
 priceUsd = ""
 industry = "Prediction market"
 type = "Asset"
-description = "predective data marketplace: hunch game, insurance, finance price discovery"
+description = "Predective data marketplace: hunch game, insurance, finance price discovery"
 
 [bitshares]
 name = "BitShares"
