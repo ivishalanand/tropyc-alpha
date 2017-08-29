@@ -1,5 +1,5 @@
 .features {
-	margin-top: 20px;
+	margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -10,23 +10,23 @@
     width: 300px;
     flex-direction: column;
 
-    .feature-image {
+    img {
     	padding-top: 30px;
+    	height: 100px;
     }
 
-    .feature-name {
+    h2 {
+    	text-transform: uppercase;
     	padding-top: 15px;
     	text-align: center;
-    	font-size: 32px;
+    	font-size: 22px;
 	    color: $brand-primary;
-	    line-height: 32px;
+	    line-height: 22px;
 	    letter-spacing: 0.03em;
     }
 
-    .feature-detail {
+    p {
     	text-align: center;
-	    text-transform: uppercase;
-	    color: #787878;
 	    letter-spacing: 0.1em;
 	    margin-top: 15px;
 	    font-weight: 500;
@@ -58,7 +58,7 @@
 }
 
 .instructions, .funding-comparison {
-	margin-top: 35px;
+	margin-top: 60px;
 	margin-bottom: 60px;
 }
 

@@ -13,25 +13,21 @@
 
 /* Logo */
 .navbar-tropyc-brand {
-  img {
-    height: 50px;
-  }
+	> a {
+	  color: $brand-primary;
+	  font-size: 24px;
+	  font-weight: bold;
+	  line-height: 50px;
+	  background: no-repeat 10px center;
+	  background-size: 50px;
+	  padding-left: 70px;
+	  display: block;
 
-  &__name {
-    padding-left: 10px;
-    color: $brand-primary;
-    font-size: 24px;
-    font-weight: bold;
-    vertical-align: middle;
-
-    @media (max-width: 980px) {
-      display: none;
-    }
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
+	  &:hover {
+	  	color: $brand-primary;
+	  	text-decoration: none;
+	  }
+	}
 }
 
 /* Right section */
@@ -79,9 +75,8 @@
 }
 .navbar-tropyc-dropdown-menu li > a {
   transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
   line-height: 22px !important;
   padding: 10px 20px;
 }

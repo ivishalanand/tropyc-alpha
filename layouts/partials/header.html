@@ -1,23 +1,22 @@
 <div class="navbar-tropyc">
   <!-- Logo -->
-  <a href="/" title="home" class="navbar-tropyc-brand">
-    <img src="/images/{{ index $.Site.Data.images.hash "tropyc-logo.png" }}" alt="logo">
-    <span class="navbar-tropyc-brand__name">tropyc.</span>
-  </a>
+	<div class="navbar-tropyc-brand">
+		<a href="/" title="home" alt="logo" style="background-image: url('/images/{{ index $.Site.Data.images.hash "tropyc-logo.png" }}');">tropyc.</a>
+	</div>
 
   <!-- Right Navigation -->
-  <div class="navbar-tropyc-right hidden-sm-down">
+  <div class="navbar-tropyc-right hidden-md-down">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       <a href="{{ .URL }}" class="navbar-tropyc-item navbar-tropyc-link" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>{{ .Name }}</a>
     {{end}}
   </div>
   <div>
-    <a href="/premium/" class="hidden-sm-down btn navbar-tropyc-button">Premium</a>
+    <a href="/premium/" class="hidden-md-down btn navbar-tropyc-button">Premium</a>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-tropyc-item hidden-md-up">
+  <div class="navbar-tropyc-item hidden-lg-up">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-tropyc-dropdown-menu">

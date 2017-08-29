@@ -100,7 +100,7 @@ $pink:   #ff5b77 !default;
 $purple: #9b59b6 !default;
 
 // Create grayscale
-$gray-dark:                 #292b2c !default;
+$gray-dark:                 #787878 !default;
 $gray:                      #95a5a6 !default;
 $gray-light:                #bdc3c7 !default;
 $gray-lighter:              #ecf0f1 !default;
@@ -557,7 +557,7 @@ $form-icon-danger: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns
 // Dropdown menu container and contents.
 
 $dropdown-min-width:             10rem !default;
-$dropdown-padding-y:             .5rem !default;
+$dropdown-padding-y:             1rem !default;
 $dropdown-margin-top:            .125rem !default;
 $dropdown-bg:                    $white !default;
 $dropdown-border-color:          rgba($black,.15) !default;

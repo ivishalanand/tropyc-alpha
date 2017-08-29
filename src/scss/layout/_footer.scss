@@ -65,16 +65,26 @@
 		margin-top: 30px;
 
 		li {
-    	float: left!important;
+    	// float: left!important;
     	padding-left: 15px;
 
     	&:first-child {
 				padding-left: 0px;
     	}
+
+    	i {
+    		margin-right: 10px;
+    		vertical-align: middle;
+    	}
 		}
 	}
 
 	nav {
+		margin-top: 20px;
 		display: block;
+	}
+
+	.copyright {
+		margin-right: 10px;
 	}
 }
