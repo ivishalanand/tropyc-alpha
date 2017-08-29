@@ -5,13 +5,211 @@ marketCap = "$6.6 M"
 priceUsd = "$4,000"
 industry = "Payment"
 type = "Currency"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+description = "Digital gold. 1st blockchain and P2P electronic payment system. Unit of account of crypto"
 
 [ethereum]
 name = "Ethereum"
-year = "2012"
-marketCap = "$4.6 M"
-priceUsd = "$400"
-industry = "Smart Contracts"
+year = "2013"
+marketCap = ""
+priceUsd = ""
+industry = "Smart contract"
 type = "Currency"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+description = "Nicknamed Global Computer, it offers a platform and tools to develop Dapps and smart contracts"
+
+[litecoin]
+name = "Litecoin"
+year = "2011"
+marketCap = ""
+priceUsd = ""
+industry = "Payment"
+type = "Currency"
+description = "Digital silver. Similar to Bitcoin with improved technical features"
+
+[ethereumclassic]
+name = "Ethereum Classic"
+year = "2015"
+marketCap = ""
+priceUsd = ""
+industry = "Smart contract"
+type = "Currency"
+description = "Ethereum original chain, forked after the DAO hack"
+
+[ripple]
+name = "Ripple"
+year = "2014"
+marketCap = ""
+priceUsd = ""
+industry = "Interbank settlement"
+type = "Currency"
+description = "Working hands with hands with leading financial institutions"
+
+[nem]
+name = "NEM"
+year = "2015"
+marketCap = ""
+priceUsd = ""
+industry = "Blockchain as a Service"
+type = "Currency"
+description = "Public and private blockchain combination with a namedomain"
+
+[dash]
+name = "Dash"
+year = "2015"
+marketCap = ""
+priceUsd = ""
+industry = "Privacy"
+type = "Currency"
+description = "Privacy-focused coin with built-in mixer and PoS consensus"
+
+[neo]
+name = "NEO"
+year = "2016"
+marketCap = ""
+priceUsd = ""
+industry = "Smart contract"
+type = "Currency"
+description = "The Ethereum of China with programmig language compatibility"
+
+[monero]
+name = "Monero"
+year = "2014"
+marketCap = ""
+priceUsd = ""
+industry = "Privacy"
+type = "Currency"
+description = "Untraceable cryptocurrency leveraged for stealth transactions"
+
+[stratis]
+name = "Stratis"
+year = "2016"
+marketCap = ""
+priceUsd = ""
+industry = "Blockchain as a Service"
+type = "Currency"
+description = "Blockchain as a service platform implemented in Microsoft's Azure"
+
+[waves]
+name = "Waves"
+year = "2016"
+marketCap = ""
+priceUsd = ""
+industry = "Smart contract"
+type = "Currency"
+description = "Russian based blockchainplatform for crowdfunding, tokens and private sidechains"
+
+[zcash]
+name = "Zcash"
+year = "2016"
+marketCap = ""
+priceUsd = ""
+industry = "Private"
+type = "Currency"
+description = "Built with zero-knowledge proof, launched by a company earning 20% of mining rewards"
+
+[golem]
+name = "Golem"
+year = "2016"
+marketCap = ""
+priceUsd = ""
+industry = "Shared computation"
+type = "Asset"
+description = "Global marketplace for sharing idle computer work"
+
+[siacoin]
+name = "Sia Coin"
+year = "2015"
+marketCap = ""
+priceUsd = ""
+industry = "Shared storage"
+type = "Currency"
+description = "Distributed cloud file storage platform"
+
+[dogecoin]
+name = "Dogecoin"
+year = "2013"
+marketCap = ""
+priceUsd = ""
+industry = "Payment"
+type = "Currency"
+description = "Started as a joke coin from a japanese dog meme, the shiba inu"
+
+[civic]
+name = "Civic"
+year = "2017"
+marketCap = ""
+priceUsd = ""
+industry = "Identity"
+type = "Asset"
+description = "Identity verification and Know Your Customer compliance"
+
+[gnosis]
+name = "Gnosis"
+year = "2017"
+marketCap = ""
+priceUsd = ""
+industry = "Prediction market"
+type = "Asset"
+description = "predective data marketplace: hunch game, insurance, finance price discovery"
+
+[bitshares]
+name = "BitShares"
+year = "2015"
+marketCap = ""
+priceUsd = ""
+industry = "Asset management"
+type = "Currency"
+description = "Decentralised exchange and asset management platform"
+
+[digibyte]
+name = "DigiByte"
+year = "2015"
+marketCap = ""
+priceUsd = ""
+industry = "Payment"
+type = "Currency"
+description = "Decentralised payment netwok with lower block time than Bitcoin"
+
+[lisk]
+name = "Lisk"
+year = "2016"
+marketCap = ""
+priceUsd = ""
+industry = "Smart contract"
+type = "Currency"
+description = "Blockchain that enables creation of multiple sidechains"
+
+[bat]
+name = "Basic Attention Token"
+year = "2017"
+marketCap = ""
+priceUsd = ""
+industry = "Attention Economy"
+type = "Currency"
+description = "Blockchain based digital advertising with internet browser"
+
+[stellar]
+name = "Stellar Lumens"
+year = "2014"
+marketCap = ""
+priceUsd = ""
+industry = "Interbank settlement"
+type = "Currency"
+description = "Low cost payment network focused on micro transaction and cross-border settlement"
+
+[augur]
+name = "Augur"
+year = "2015"
+marketCap = ""
+priceUsd = ""
+industry = "Prediction market"
+type = "Asset"
+description = "Prediction market built on top of Ethereum"
+
+[Steem]
+name = "Steem"
+year = "2016"
+marketCap = ""
+priceUsd = ""
+industry = "Attention economy"
+type = "Currency"
+description = "Content platform that rewards contributors"
