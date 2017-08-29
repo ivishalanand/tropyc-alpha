@@ -188,16 +188,3 @@ tokens = "All"
 founded = "2017, China"
 target = "Experienced"
 comments = "Chinese-based exchange with low fees, many altcoin pairs and planned to become decentralised"
-
-
-
-[]
-name = ""
-cornerIcon = ""
-cornerText = ""
-payment = ""
-fiat = ""
-tokens = ""
-founded = ""
-target = ""
-comments = ""
