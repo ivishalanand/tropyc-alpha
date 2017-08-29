@@ -63,7 +63,7 @@ payment = "Token"
 fiat = "No"
 tokens = "All"
 founded = "2014, Unknown"
-target = "Trader"
+target = "Experienced"
 comments = "Largest altcoin exchange by volume with a large amount of altcoin pairs"
 
 
@@ -73,9 +73,9 @@ cornerIcon = "trader"
 cornerText = "Trader"
 payment = "Bank transfer, SEPA, Credit/Debit card"
 fiat = "USD, EUR, CAD"
-tokens = "BTC, ETH, LTC"
+tokens = "Bitcoin, Ethereum, Litecoin"
 founded = "2012, USA"
-target = "Trader"
+target = "Experienced"
 comments = "Coinbase exchange focused on traders and leverage"
 
 
@@ -105,6 +105,94 @@ comments = ""
 
 [coinmama]
 name = "Coin Mama"
+cornerIcon = "simple"
+cornerText = "Simple"
+payment = "Credit/Debit card, Western Union"
+fiat = "USD, EUR"
+tokens = "Bitcoin"
+founded = "2015, Israel"
+target = "First time"
+comments = "Fast and convenient exchange that accepts cards and Western Union deposits"
+
+
+[bitstamp]
+name = "Bitstamp"
+cornerIcon = "simple"
+cornerText = "Simple"
+payment = "Bank wire, SEPA"
+fiat = "USD, EUR"
+tokens = "Bitcoin, Ethereum, Litecoin, Ripple"
+founded = "2011, Luxembourg"
+target = "Anyone"
+comments = "First European exchange by volume, granted a full Euro license in Luxembourg"
+
+
+[coincorner]
+name = "Coin Corner"
+cornerIcon = "simple"
+cornerText = "Simple"
+payment = "Bank wire, SEPA, Credit/Debit card"
+fiat = "EUR, GBP"
+tokens = "Bitcoin"
+founded = "2014, UK"
+target = "First time"
+comments = "Convenient and fast bitcoin marketplace based out of Europe"
+
+
+[bitmex]
+name = "BitMEX"
+cornerIcon = "trader"
+cornerText = "Trader"
+payment = "Token"
+fiat = "No"
+tokens = "Most of high caps"
+founded = "2014, Seychelles"
+target = "Experienced"
+comments = "Cryptocurrency marging trading platform for experienced investors"
+
+
+
+[whaleclub]
+name = "Whaleclub"
+cornerIcon = "trader"
+cornerText = "Trader"
+payment = "Token"
+fiat = "No"
+tokens = "Bitcoin, Ethereum, Litecoin, Dash, Monero"
+founded = "2016, Hong Kong"
+target = "Experienced"
+comments = "Marging trading platform for experienced traders that offers more than cryptocurrencies : metals, stocks, bonds etc."
+
+
+
+[bitbay]
+name = "BitBay"
+cornerIcon = "simple"
+cornerText = "Simple"
+payment = "Bank wire, SEPA, Credit/Debit card"
+fiat = "USD, EUR, PLN"
+tokens = "Bitcoin, Ethereum, Litecoin, Lisk"
+founded = "Poland, 2014"
+target = "Enthusiast"
+comments = "Polish based exchanges with neat user experience and stront presence in European market"
+
+
+
+[binance]
+name = "Binance"
+cornerIcon = "altcoin"
+cornerText = "Altcoin"
+payment = "Token"
+fiat = "No"
+tokens = "All"
+founded = "2017, China"
+target = "Experienced"
+comments = "Chinese-based exchange with low fees, many altcoin pairs and planned to become decentralised"
+
+
+
+[]
+name = ""
 cornerIcon = ""
 cornerText = ""
 payment = ""
