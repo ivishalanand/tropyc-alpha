@@ -1,15 +1,11 @@
-<nav class="pagination pager align-center">
-            <hr>
-    <ul>
-           {{if .Paginator.HasPrev }}
-        <li class="prev"><a href="{{ .Paginator.Prev.URL }}">Previous</a></li>
-        {{ end }}
-        <li>
-
-        <a href="" class="button round small outline">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</a>
-        </li>
-            {{ if .Paginator.HasNext }}</a>
-        <li class="next"><a href="{{ .Paginator.Next.URL }}">Next</a></li>
-           {{ end }}
-    </ul>
+<nav class="pagination">
+  <ul>
+		{{if .Paginator.HasPrev }}
+			<li class="prev"><a href="{{ .Paginator.Prev.URL }}" class="btn btn-outline-warning">Previous</a></li>
+		{{ end }}
+		<li><a href="" class="btn btn-outline-warning">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</a></li>
+		{{ if .Paginator.HasNext }}</a>
+			<li class="next"><a href="{{ .Paginator.Next.URL }}" class="btn btn-outline-warning">Next</a></li>
+		{{ end }}
+  </ul>
 </nav>

@@ -1,0 +1,12 @@
+.pagination {
+	margin: 24px 0;
+  font-size: 14px;
+  justify-content: flex-end;
+
+	ul {
+		justify-content: center;
+		display: flex;
+		margin: 0;
+		list-style: none;
+	}
+}

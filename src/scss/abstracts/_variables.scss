@@ -100,7 +100,7 @@ $pink:   #ff5b77 !default;
 $purple: #9b59b6 !default;
 
 // Create grayscale
-$gray-dark:                 #787878 !default;
+$gray-dark:                 rgba(0,0,0,.8) !default;
 $gray:                      #95a5a6 !default;
 $gray-light:                #bdc3c7 !default;
 $gray-lighter:              #ecf0f1 !default;
@@ -340,7 +340,7 @@ $table-bg:                      transparent !default;
 $table-inverse-bg:              $gray-dark !default;
 $table-inverse-color:           $body-bg !default;
 
-$table-bg-accent:               rgba($brand-primary,.05) !default;
+$table-bg-accent:               rgba($gray,.05) !default;
 $table-bg-hover:                rgba($brand-primary,.09) !default;
 $table-bg-active:               $table-bg-hover !default;
 

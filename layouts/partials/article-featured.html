@@ -1,0 +1,16 @@
+<div class="article-featured">
+	<a href="{{ .Permalink }}" title="{{ .Title }}">
+		<div class="picture">
+			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | lower) }}" alt="{{ .Params.image }}">
+		</div>
+		<div class="article-meta">
+			<h3>
+			{{ .Title }}
+			{{ range .Params.categories }}
+				<div class="btn btn-outline-warning btn-sm float-right mx-2">{{ . }}</div>
+			{{ end }}
+			</h3>
+			<p>{{ .Date | dateFormat "January 2, 2006" }}</p>
+		</div>
+	</a>
+</div>

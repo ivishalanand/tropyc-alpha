@@ -1,7 +1,12 @@
 .token-table {
+  @include media-breakpoint-up(lg) {
+    display: table;
+  }
+
   th ,td {
     text-align: center;
     vertical-align: middle;
+    font-size: 14px;
   }
 
   th {

@@ -2,49 +2,48 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 <div class="container">
-  <div class="main">
-    <div class="hero">
-      <h1>{{ .Title }}</h1>
-      <p>
-        {{ .Params.bref | safeHTML }}
-      </p>
-    </div>
-    <div class="content">
-      {{ .Content }}
-    </div>
-    <div class="container">
-
-      <table class="token-table table table-responsive table-striped table-hover">
-        <thead>
-          <tr>
-            <th>Token</th>
-            <th>Year</th>
-            <th>Market Cap*</th>
-            <th>Price USD</th>
-            <th>Industry</th>
-            <th>Type</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          {{ range $.Site.Data.tokens }}
-            <tr>
-              <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .name | lower) }}');"><span class="label-emphasis">{{ .name }}</span></td>
-              <td>{{ .year }}</td>
-              <td class="label-emphasis">{{ .marketCap }}</td>
-              <td class="label-emphasis">{{ .priceUsd }}</td>
-              <td>{{ .industry }}</td>
-              <td>{{ .type }}</td>
-              <td class="token-description">{{ .description }}</td>
-            </tr>
-          {{ end }}
-        </tbody>
-      </table>
-      <!-- <p class="token-sales-disclaimer">We have an internal selection process to filter unattractive Tokensales.<br>
-      Listing is not endorsement - not to be considered as investment advice.</p> -->
-
-    </div>
+  <div class="hero">
+    <h1>{{ .Title }}</h1>
+    <p>
+      {{ .Params.bref | safeHTML }}
+    </p>
   </div>
+  <div class="content">
+    {{ .Content }}
+  </div>
+</div>
+
+<div class="container">
+
+  <table class="token-table table table-responsive table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Year</th>
+        <th>Market Cap*</th>
+        <th>Price USD</th>
+        <th>Industry</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range $.Site.Data.tokens }}
+        <tr>
+          <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .name | lower) }}');"><span class="label-emphasis">{{ .name }}</span></td>
+          <td>{{ .year }}</td>
+          <td class="label-emphasis">{{ .marketCap }}</td>
+          <td class="label-emphasis">{{ .priceUsd }}</td>
+          <td>{{ .industry }}</td>
+          <td>{{ .type }}</td>
+          <td class="token-description">{{ .description }}</td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  <!-- <p class="token-sales-disclaimer">We have an internal selection process to filter unattractive Tokensales.<br>
+  Listing is not endorsement - not to be considered as investment advice.</p> -->
+
 </div>
 {{ end }}
 

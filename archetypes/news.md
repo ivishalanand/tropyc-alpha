@@ -1,7 +1,9 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
-description = ""
-weight = 20
+categories = ["general"]
 draft = true
+description = ""
+weight = 10
+image = ""
 +++

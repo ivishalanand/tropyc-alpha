@@ -1,0 +1,17 @@
+<div class="article">
+	<div class="picture">
+		<a href="{{ .Permalink }}" title="{{ .Title }}">
+			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | lower) }}" alt="{{ .Params.image }}">
+		</a>
+	</div>
+	<div class="post-info">
+		<h3>
+			<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+			{{ range .Params.categories }}
+				<a href="/categories/{{ . }}" class="btn btn-outline-warning btn-sm float-right mx-2">{{ . }}</a>
+			{{ end }}
+		</h3>
+		<p class="date">{{ .Date | dateFormat "January 2, 2006" }}</p>
+		<p>{{ .Description }}</p>
+	</div>
+</div>

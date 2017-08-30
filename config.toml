@@ -7,7 +7,7 @@ Paginate = 3
   RSSLink = "/index.xml"
   author = "Tropyc"
   telegram = "Tropyc"
-  email = "myemail@myaddress.xxx"
+  email = "tropyc.crypto@gmail.com"
 
 [[menu.main]]
     name = "News"

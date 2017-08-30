@@ -2,7 +2,7 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.2) 0%, rgba(0,36,61,0.6) 50%), url('https://images.unsplash.com/photo-1499909694555-1ae5b7067b1a?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=');">
+<div class="banner" style="background-image: linear-gradient(-180deg, rgba(0,101,168,0.1) 0%, rgba(0,36,61,0.2) 50%), url('/images/{{ index $.Site.Data.images.hash "landing-page/background.png" }}');">
   <div class="banner-content">
     <h1>{{ .Title }}</h1>
     <p>{{ .Description }}</p>
@@ -11,19 +11,19 @@
 </div>
 <div class="features">
 	<div class="featurebox">
-		<img src="/images/{{ index $.Site.Data.images.hash "icons/live-chat.png" }}">
+		<img src="/images/{{ index $.Site.Data.images.hash "landing-page/chat.svg" }}">
 		<h2>Live chat</h2>
-		<p>Enjoy a 7/7 crypto experience with your personal analysts.</p>
+		<p>Get your personal crypto analyst 7/7.</p>
 	</div>
 	<div class="featurebox">
-		<img src="/images/{{ index $.Site.Data.images.hash "icons/tokensale.png" }}">
+		<img src="/images/{{ index $.Site.Data.images.hash "landing-page/star.svg" }}">
 		<h2>Tokensale rating</h2>
-		<p>Access our token due diligence based on fundamentals.</p>
+		<p>Evaluate projects with our ICO rating reports.</p>
 	</div>
 	<div class="featurebox">
-		<img src="/images/{{ index $.Site.Data.images.hash "icons/education.png" }}">
+		<img src="/images/{{ index $.Site.Data.images.hash "landing-page/light-bulb.svg" }}">
 		<h2>Education</h2>
-		<p>Store your coins safely, find your exchange or design your portfolio.</p>
+		<p>Learn how to purchase, store, manage and invest.</p>
 	</div>
 </div>
 <div class="title">
@@ -48,7 +48,7 @@
 			</div>
 		</div>
 		<div class="col-sm-6">
-			<img class="img-fluid rounded mx-auto d-block mb-2" src="http://via.placeholder.com/400x400">
+			<img class="img-fluid rounded mx-auto d-block mb-2" src="/images/{{ index $.Site.Data.images.hash "landing-page/phone.png" }}">
 		</div>
 	</div>
 </div>
@@ -60,7 +60,7 @@
 <div class="container funding-comparison">
 	<div class="row">
 		<div class="col-sm-6">
-			<img class="img-fluid rounded mx-auto d-block mt-3" src="http://via.placeholder.com/600x400">
+			<img class="img-fluid rounded mx-auto d-block mt-3" src="/images/{{ index $.Site.Data.images.hash "landing-page/chart.png" }}">
 		</div>
 		<div class="col-sm-6 comparison-points">
 			<div class="point">
