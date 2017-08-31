@@ -1,0 +1,90 @@
+.premium-packs {
+	min-height: 750px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 50%, #2ecc71 51%);
+	background: -webkit-linear-gradient(top, #ffffff 50%,#2ecc71 51%);
+	background: linear-gradient(to bottom, #ffffff 50%,#2ecc71 51%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2ecc71',GradientType=0 );
+	padding: 60px 0;
+
+	h1 {
+		margin-bottom: 60px;
+		color: $brand-primary;
+	}
+
+	h2 {
+		margin-top: 60px;
+		color: #FFF;
+	}
+
+	.premium-pack {
+		width: 100%;
+		height: 500px;
+		border-radius: 4px;
+		background: #FEFBFB;
+
+		h2 {
+			font-size: 2.5rem;
+		}
+
+		.price-details {
+
+			h3 {
+				font-size: 3rem;
+				font-weight: 400;
+
+				span {
+					font-size: 1rem;
+					font-weight: 300;
+				}
+			}
+
+			p {
+				position: relative;
+				margin-top: 15px;
+				padding-top: 15px;
+				text-align: center;
+				font-weight: 300;
+
+				&:before {
+					position: absolute;
+				  content: '';
+				  width: 90px;
+				  height: 2px;
+				  top: 0;
+				  left: 50%;
+				  margin-left: -45px;
+				  background: #CCC;
+				}
+			}
+		}
+
+		p {
+			font-size: 1.2rem;
+		}
+	}
+
+	.economy-pack {
+		border-top: 6px solid $blue;
+
+		h2 {
+			color: $blue;
+		}
+	}
+
+	.business-pack {
+		border-top: 6px solid $yellow;
+
+		h2 {
+			color: $yellow;
+		}
+	}
+
+	.first-class-pack {
+		border-top: 6px solid $red;
+
+		h2 {
+			color: $red;
+		}
+	}
+}

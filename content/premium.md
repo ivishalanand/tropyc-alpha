@@ -1,5 +1,6 @@
 +++
 title = "Premium"
-description = "Premium stuff here."
+description = "Book your tickets. Go premium."
+type = "Premium"
 +++
 

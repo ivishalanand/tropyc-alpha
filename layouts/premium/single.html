@@ -1,0 +1,48 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div class="premium-packs">
+  <h1 class="text-center">{{ .Description }}</h1>
+  <div class="container">
+  	<div class="row">
+  		<div class="col-xs-12 col-lg-4">
+  			<div class="premium-pack economy-pack d-flex flex-column justify-content-around align-items-center mb-3">
+  				<h2>Economy</h2>
+  				<div class="price-details">
+						<h3>$49<span>/month</span></h3>
+						<p class="small">3 months</p>
+  				</div>
+  				<p>First steps in the crypto world</p>
+  				<div class="btn btn-info btn-lg">Book</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-lg-4">
+  			<div class="premium-pack business-pack d-flex flex-column justify-content-around align-items-center mb-3">
+  				<h2>Business</h2>
+  				<div class="price-details">
+						<h3>$39<span>/month</span></h3>
+						<p class="small">6 months</p>
+  				</div>
+  				<p>Become crypto-educated</p>
+  				<div class="btn btn-warning btn-lg">Book</div>
+  			</div>
+  		</div>
+  		<div class="col-xs-12 col-lg-4">
+  			<div class="premium-pack first-class-pack d-flex flex-column justify-content-around align-items-center mb-3">
+  				<h2>First Class</h2>
+  				<div class="price-details">
+						<h3>$29<span>/month</span></h3>
+						<p class="small">12 months</p>
+  				</div>
+  				<p>The new way of investing</p>
+  				<div class="btn btn-danger btn-lg">Book</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <h2 class="text-center">Every ticket comes with</h2>
+</div>
+
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
