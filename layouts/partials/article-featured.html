@@ -1,5 +1,5 @@
 <div class="article-featured">
-	<a href="{{ .Permalink }}" title="{{ .Title }}">
+	<a href="{{ .URL }}" title="{{ .Title }}">
 		<div class="picture">
 			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | lower) }}" alt="{{ .Params.image }}">
 		</div>
