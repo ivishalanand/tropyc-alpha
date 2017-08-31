@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Tropyc"
 description = "Tropyc - Crypto Community"
 Paginate = 3
+
+disqusShortname = "tropyc"
+
 [Params]
   RSSLink = "/index.xml"
   author = "Tropyc"

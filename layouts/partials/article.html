@@ -4,7 +4,7 @@
 			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | lower) }}" alt="{{ .Params.image }}">
 		</a>
 	</div>
-	<div class="post-info">
+	<div class="article-info">
 		<h3>
 			<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
 			{{ range .Params.categories }}

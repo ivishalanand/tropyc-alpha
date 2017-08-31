@@ -39,7 +39,7 @@
 
     p {
     	font-size: 16px;
-    	color: $gray;
+    	color: $gray-light;
     }
 	}
 }
@@ -75,7 +75,7 @@
   	}
   }
 
-  .post-info {
+  .article-info {
     display: table-cell;
     vertical-align: top;
     padding-left: 15px;
