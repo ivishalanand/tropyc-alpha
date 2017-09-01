@@ -31,17 +31,21 @@ Tokens and their eco-syetem should be innovative in their fundamental functions 
 
 
 -	Year
+
 Only tokens older than 12 months are listed.
 
 
 -	Volume and presence
+
 Cryptocurrencies and tokenised assets should have a presence on major cryptocurrency exchanges with a high volume.
 
 
 -	Fundamentals
+
 The token distribution established during the initial coin offering of the token should be considered as fair and transparent between the founding team, token holders and other involved stakeholders (miners, early investors etc…)
 
 -	Hype
+
 The token’s community alongside with its communication channels (web application, social media, code repository, instant messaging) should be informative, transparent, and well maintained.
 
 
