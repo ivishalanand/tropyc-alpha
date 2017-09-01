@@ -1,4 +1,4 @@
 +++
-title = "Cryptocurrency made simple"
-description = "Your end-to-end crypto world platform. News, insights, education and rating"
+title = "Crypto made simple"
+description = "Personal cryptocurrency analysis and rating here for you 7/7"
 +++

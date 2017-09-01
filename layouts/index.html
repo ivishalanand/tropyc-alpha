@@ -6,7 +6,7 @@
   <div class="banner-content">
     <h1>{{ .Title }}</h1>
     <p>{{ .Description }}</p>
-    <a class="btn btn-primary btn-lg">Start now</a>
+    {{ partial "newsletter-inline-form" . }}
   </div>
 </div>
 <div class="features">
