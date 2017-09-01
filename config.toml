@@ -10,6 +10,8 @@ disqusShortname = "tropyc"
   RSSLink = "/index.xml"
   author = "Tropyc"
   telegram = "Tropyc"
+  facebook = "tropyc"
+  twitter = "tropyc_crypto"
   email = "tropyc.crypto@gmail.com"
 
 [[menu.main]]
