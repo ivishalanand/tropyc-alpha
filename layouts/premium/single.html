@@ -43,6 +43,56 @@
   </div>
   <h2 class="text-center">Every ticket comes with</h2>
 </div>
+<div class="pack-features">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-lg-4">
+					<div class="featurebox">
+						<img src="/images/{{ index $.Site.Data.images.hash "landing-page/chat.svg" }}">
+						<h2>7/7 Chat</h2>
+						<ul>
+							<li>Live cryptocurrency analyst</li>
+							<li>Find your best exchange</li>
+							<li>Screenshot walkthroughs</li>
+						</ul>
+					</div>
+			</div>
+			<div class="col-xs-12 col-lg-4">
+					<div class="featurebox">
+						<img src="/images/{{ index $.Site.Data.images.hash "landing-page/star.svg" }}">
+						<h2>Learn</h2>
+						<ul>
+							<li>Ins and outs of crypto</li>
+							<li>Safety and best practises</li>
+							<li>News and alerts</li>
+						</ul>
+					</div>
+			</div>
+			<div class="col-xs-12 col-lg-4">
+					<div class="featurebox">
+						<img src="/images/{{ index $.Site.Data.images.hash "landing-page/light-bulb.svg" }}">
+						<h2>Invest</h2>
+						<ul>
+							<li>Crypto fundamentals</li>
+							<li>Customised portfolio design</li>
+							<li>ICO rating reports</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="newsletter-bleed">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xs-12">
+				<h2>Get the latest insights</h2>
+				<p>Free news and alerts on ICOs and cryptocurrency</p>
+				{{ partial "newsletter-inline-form" . }}
+			</div>
+		</div>
+	</div>
+</div>
 
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}

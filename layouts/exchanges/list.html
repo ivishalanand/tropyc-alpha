@@ -12,55 +12,53 @@
     {{ .Content }}
   </div>
 </div>
-<div class="main">
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-    	{{ range $.Site.Data.exchanges }}
-      <div class="col-md-6 col-xl-5">
-        <div class="exchange-card card card-outline-primary mb-3">
-        	<div class="card-header">
-        		<div class="exchange-logo" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "exchange-logos/%s.png" .name | lower) }}')"></div>
-        		<h2 class="text-center">{{ .name }}</h2>
-        		<div class="corner-text" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "exchange-feature/%s.png" .cornerIcon | lower) }}')">
-       				{{ .cornerText }}
-       			</div>
-        	</div>
-          <div class="card-block">
-            <!-- <h2 class="card-title text-center">{{ .name }}</h2> -->
-            <div class="exchange-specs">
-              <div class="flex-row mb-2">
-              	<div class="flex-col-1">Payment</div>
-              	<div class="flex-col-2">{{ .payment }}</div>
-              </div>
-              <div class="flex-row mb-2">
-              	<div class="flex-col-1">Fiat</div>
-              	<div class="flex-col-2">{{ .fiat }}</div>
-              </div>
-              <div class="flex-row mb-2">
-              	<div class="flex-col-1">Tokens</div>
-              	<div class="flex-col-2">{{ .tokens }}</div>
-              </div>
-              <div class="flex-row mb-2">
-              	<div class="flex-col-1">Founded</div>
-              	<div class="flex-col-2">{{ .founded }}</div>
-              </div>
-              <div class="flex-row mb-2">
-              	<div class="flex-col-1">Target</div>
-              	<div class="flex-col-2">{{ .target }}</div>
-              </div>
-              <div class="flex-row mb-2">
-              	<div class="flex-col-1">Comments</div>
-              	<div class="flex-col-2">{{ .comments }}</div>
-              </div>
+<div class="container-fluid exchanges">
+  <div class="row justify-content-center">
+  	{{ range $.Site.Data.exchanges }}
+    <div class="col-md-6 col-xl-5">
+      <div class="exchange-card card card-outline-primary mb-3">
+      	<div class="card-header">
+    			<div class="exchange-logo" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "exchange-logos/%s.png" .name | lower) }}')"></div>
+    			<h2 class="text-center">{{ .name }}</h2>
+    			<div class="corner-text" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "exchange-feature/%s.png" .cornerIcon | lower) }}')">
+   				{{ .cornerText }}
+   				</div>
+      	</div>
+        <div class="card-block">
+          <!-- <h2 class="card-title text-center">{{ .name }}</h2> -->
+          <div class="exchange-specs">
+            <div class="flex-row mb-2">
+            	<div class="flex-col-1">Payment</div>
+            	<div class="flex-col-2">{{ .payment }}</div>
             </div>
-            <div class="text-center">
-            	<a href="#" class="btn btn-primary btn-lg">Sign Up</a>
+            <div class="flex-row mb-2">
+            	<div class="flex-col-1">Fiat</div>
+            	<div class="flex-col-2">{{ .fiat }}</div>
             </div>
+            <div class="flex-row mb-2">
+            	<div class="flex-col-1">Tokens</div>
+            	<div class="flex-col-2">{{ .tokens }}</div>
+            </div>
+            <div class="flex-row mb-2">
+            	<div class="flex-col-1">Founded</div>
+            	<div class="flex-col-2">{{ .founded }}</div>
+            </div>
+            <div class="flex-row mb-2">
+            	<div class="flex-col-1">Target</div>
+            	<div class="flex-col-2">{{ .target }}</div>
+            </div>
+            <div class="flex-row mb-2">
+            	<div class="flex-col-1">Comments</div>
+            	<div class="flex-col-2">{{ .comments }}</div>
+            </div>
+          </div>
+          <div class="text-center">
+          	<a href="#" class="btn btn-primary btn-lg">Sign Up</a>
           </div>
         </div>
       </div>
-      {{ end }}
     </div>
+    {{ end }}
   </div>
 </div>
 {{ end }}
