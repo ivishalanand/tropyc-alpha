@@ -2,7 +2,6 @@
 title = "What Is This"
 date = 2017-08-02T16:43:58+02:00
 description = "Description here"
-type = "doc"
 weight = 20
 draft = false
 bref = "Bref example"

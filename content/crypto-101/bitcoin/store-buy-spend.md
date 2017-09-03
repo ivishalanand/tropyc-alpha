@@ -2,7 +2,6 @@
 title = "Store, Buy and Spend"
 date = 2017-08-02T16:44:06+02:00
 description = ""
-type = "doc"
 weight = 20
 draft = false
 bref = ""

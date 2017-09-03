@@ -3,34 +3,15 @@
 
 {{ define "main" }}
 
-<div class="container-fluid">
-  <div class="row">
-  	<div class="col-lg-8">
-	  	<div class="news">
-
-  			{{ range .Paginator.Pages.ByDate }}
-		  		{{ partial "article" . }}
-				{{ end }}
-				<!-- <section>{{ partial "pagination" .}}</section> -->
-
-			</div>
-  	</div>
-  	<div class="col-lg-4 col-md-12 news-sidebar">
-  		<div class="newsletter-box">
-				<div class="font-weight-bold">Get the hottest crypto news and insights</div>
-			</div>
-  		<div class="social-links d-flex justify-content-around">
-				<a href="https://t.me/{{.Site.Params.telegram}}" target="_blank"><i class="fa fa-telegram fa-3x" aria-hidden="true"></i></a>
-				<a href="https://t.me/{{.Site.Params.facebook}}" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
-				<a href="https://t.me/{{.Site.Params.twitter}}" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-  		</div>
-  		<div class="categories">
-			  {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-			  	<a href="{{ .Permalink }}" class="btn btn-outline-warning m-1">{{ .Title}}</a>
-			  {{ end }}
-			</div>
-  	</div>
-  </div>
+<div class="container">
+	{{ $section := where .Data.Pages "Section" .Section }}
+	<section class="flex-ns flex-wrap justify-around mt5">
+	  {{ range  $section }}
+	    <div class="relative w-100  mb4 bg-white">
+	      {{ partial "summary.html" . }}
+	    </div>
+	  {{ end }}
+	</section>
 </div>
 
 {{ end }}

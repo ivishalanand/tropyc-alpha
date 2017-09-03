@@ -6,4 +6,5 @@ weight = 1
 draft = false
 bref = ""
 toc = true
+image = "bitcoin"
 +++
