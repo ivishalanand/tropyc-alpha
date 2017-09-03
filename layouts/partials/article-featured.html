@@ -1,7 +1,7 @@
 <div class="article-featured">
 	<a href="{{ .URL }}" title="{{ .Title }}">
 		<div class="picture">
-			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | lower) }}" alt="{{ .Params.image }}">
+			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | urlize) }}" alt="{{ .Params.image }}">
 		</div>
 		<div class="article-meta">
 			<h3>

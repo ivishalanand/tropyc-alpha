@@ -8,7 +8,7 @@
 		<div class="row no-gutters">
 			{{ range first 3 .Sections }}
 				<div class="col-xs-12 col-md-4">
-					<div class="section {{ (printf "%s-section" .Title | lower) }} d-flex flex-column justify-content-around align-items-center mb-3">
+					<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
 						<img class="img-fluid" src="/images/{{ index $.Site.Data.images.hash (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
 						<h2>{{ .Title }}</h2>
 						<ul>
@@ -24,7 +24,7 @@
 		<div class="row no-gutters">
 			{{ range last 3 .Sections }}
 				<div class="col-xs-12 col-md-4">
-					<div class="section {{ (printf "%s-section" .Title | lower) }} d-flex flex-column justify-content-around align-items-center mb-3">
+					<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
 						<img class="img-fluid" src="/images/{{ index $.Site.Data.images.hash (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
 						<h2>{{ .Title }}</h2>
 						<ul>

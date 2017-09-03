@@ -1,7 +1,7 @@
 <div class="article">
 	<div class="picture">
 		<a href="{{ .URL }}" title="{{ .Title }}">
-			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | lower) }}" alt="{{ .Params.image }}">
+			<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | urlize) }}" alt="{{ .Params.image }}">
 		</a>
 	</div>
 	<div class="article-info">

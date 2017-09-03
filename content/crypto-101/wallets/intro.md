@@ -21,11 +21,6 @@ In fact, digital wallets store records of transactions between different public 
 
 Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptograhy. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded and the two public address balances are updated.
 
-
-
-
-
-
 ### infographie
 
 ## Types of wallets

@@ -9,7 +9,7 @@
 
 			<div class="col-lg-2 hidden-md-down">
 				<div class="token-id">
-          <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
+          <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | urlize) }}">
 					<h1 class="token-title">{{.Title }}</h1>
 				</div>
 			</div>
@@ -20,7 +20,7 @@
 						<div class="col-6 hidden-lg-up">
 							<div class="token-id">
 								<h1>{{.Title }}</h1>
-								<img class="token-logo img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | lower) }}">
+								<img class="token-logo img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | urlize) }}">
 							</div>
 						</div>
 					</div>
