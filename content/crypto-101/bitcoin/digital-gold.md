@@ -1,34 +1,53 @@
 +++
-title = "What Is This"
+title = "Digital gold"
 date = 2017-08-02T16:43:58+02:00
 description = "Description here"
-weight = 20
+weight = 10
 draft = false
 bref = "Bref example"
 toc = true
 +++
 
-# What is Bitcoin ?
 
-## The first cryptocurrency
-
-Bitcoin is open-source money.
+## Bitcoin is the the first cryptocurrency
 
 
-You can send money - digitally and securely without relying on a third party (bank, payment gateway, card issuers)
+It's open-source money.
 
-
-It is the first currency free that operates securely, independently and free from government control. 
+You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates securely, independently and free from government control. 
 
 Also known as cryptocurrency, these new kinds of financial instruments offer an alternative to central bank backed currencies.
 
 Bitcoin is simply put, the first decentralised financial system that works.
 
 
-There are now two distinct economies
+There are now two distinct economies:
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      add a pic
+    </div>
+    <div class="col">
+      add a pic
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      Traditional economy, monitored by a central team within a government
+    </div>
+    <div class="col">
+      Crypto-economy, decentralised and permission-less
+    </div>
+  </div>
+</div>
+
+
 
 
 ### Traditional economy = fiat currencies
+
 
 * issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
 
@@ -41,7 +60,9 @@ There are now two distinct economies
 Example  = USD, GBP, EUR, INR, CHINA
 
 
+
 ### Decentralised ecosystem = Bitcoin, cryptocurrency and tokens
+
 
 * independent from any central banks, noone "owns" the Bitcoin network 
  
@@ -63,23 +84,23 @@ We can identify three main differences between them :
 
 * In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionnaly, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditionnal bank account as Know Your Customer (KYC) requirements are strict.
 
-#### table
+
+| Features               | Fiat                     | Crypto              |
+|------------------------|--------------------------|---------------------|
+| Emission rate          | Opaque and unpredictable | Accesible and fixed |
+| Trusting a third party | Mandatory                | Flexible            |
+| Privacy                | Low                      | High                |
+| Transparency           | Low                      | High                |
 
 
 
 
-## Creator
+## Founder
 
 
-In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.
-
-Supported by a team of developers, the bitcoin protocol came to notice in 2011 in mainstream media.
-
-It is the largest cryptocurrency by market capitalisation.
-
-There are now over a thousand cryptocurrencies and cryptoassets.
-
-And Bitcoin represents 52% (API call coinmarkercap) of the total market capitalisation
+In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”. 
+Supported by a team of developers and managed by Satoshi, the bitcoin protocol came to notice in 2011 in mainstream media.
+It is the most famous cryptocurrency and the largest one by market capitalisation. There are now over a thousand cryptocurrencies and cryptoassets.
 
 
 
@@ -106,13 +127,14 @@ And Bitcoin represents 52% (API call coinmarkercap) of the total market capitali
 
 
 Bitcoin offers an alternative to our financial system, it removes the concept of a middle man in a monetary transaction. 
-
-The same way we were able to send messages via e-mail without the need of a  middle man.
-
+he same way we were able to send messages via e-mail without the need of a  middle man.
 You can now do the same ... but with money.
 
 
+
+
 ## Features
+
 
 Let's review some of Bitcoin's core value propositions.
 
