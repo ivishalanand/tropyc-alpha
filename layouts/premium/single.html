@@ -82,17 +82,7 @@
 		</div>
 	</div>
 </div>
-<div class="newsletter-bleed">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-xs-12">
-				<h2>Get the latest insights</h2>
-				<p>Free news and alerts on ICOs and cryptocurrency</p>
-				{{ partial "newsletter-inline-form" . }}
-			</div>
-		</div>
-	</div>
-</div>
+{{ partial "newsletter-bleed" . }}
 
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}

@@ -1,0 +1,20 @@
+.contact {
+
+	.social-column {
+
+		@include media-breakpoint-down(sm) {
+			margin-top: 2rem;
+		}
+
+		ul {
+			margin-bottom: 0;
+    	padding-left: 0;
+    	list-style: none;
+		}
+
+		img {
+			height: 60px;
+			margin-right: 1rem;
+		}
+	}
+}
