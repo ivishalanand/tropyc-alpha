@@ -25,7 +25,7 @@ Bitcoin is a new kind of money that hold different fundamentals. Let's define it
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/infographics/info-btc2-1.png" class="img-fluid" alt="Logo" >}}
     </div>
     <div class="col">
       put a pic here
