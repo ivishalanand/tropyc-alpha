@@ -2,8 +2,6 @@
 
 @import 'abstracts/variables';
 @import 'bootstrap/scss/bootstrap';
-@import 'tocbot/src/scss/tocbot-core';
-@import 'tocbot/src/scss/tocbot-default-theme';
 
 @import 'base/base';
 @import 'base/fonts';
@@ -15,7 +13,7 @@
 @import 'components/pagination';
 @import 'components/newsletter-form';
 @import 'components/newsletter-bleed';
-@import 'pages/default-single';
+@import 'components/toc';
 @import 'pages/landing';
 @import 'pages/news-list';
 @import 'pages/news-single';

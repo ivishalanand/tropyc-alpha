@@ -9,17 +9,20 @@
       {{ .Params.bref | safeHTML }}
     </p>
   </div>
-  <div class="content">
-  {{ partial "toc" .}}
-
-  {{ .Content}}
+  <div class="row mb-5">
+  	<div class="col-12 col-md-3 push-md-9 sidebar">
+  		{{ partial "toc" .}}
+  	</div>
+  	<div class="col-12 col-md-9 pull-md-3 content">
+  		{{ .Content}}
+  	</div>
+  </div>
 
 <!-- Inject script tag in this template  -->
   {{if .Params.script}}
    {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
   {{ partial (string $script) .}}
   {{end }}
-  </div>
 </div>
 
 {{ end }}
