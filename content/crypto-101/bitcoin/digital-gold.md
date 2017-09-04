@@ -1,5 +1,5 @@
 +++
-title = "What Is This"
+title = "Digital gold"
 date = 2017-08-02T16:43:58+02:00
 description = "Description here"
 weight = 20
