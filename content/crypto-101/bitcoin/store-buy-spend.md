@@ -13,13 +13,13 @@ toc = true
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="vault" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="swap-currencies" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/wallet.svg" class="img-fluid" alt="wallet" >}}
     </div>
   </div>
    <div class="row">
@@ -48,13 +48,13 @@ The act of "sending a bitcoin" requires 3 things :
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/private-key.svg" class="img-fluid" alt="private-key" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
     </div>
   </div>
   <div class="row">
@@ -84,7 +84,7 @@ The act of "sending a bitcoin" requires 3 things :
 What’s between you and a bitcoin
 
 
-put a pic here
+{{< img src="crypto-101/infographics/info-btc2-1.png" class="img-fluid" alt="user-wallet-cryptography-bitcoin" >}}
 
 ### Public address
 
@@ -97,7 +97,7 @@ put a pic here
       Therefore, make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he’ll know how much you have!
     </div>
     <div class="col">
-      place a pic here
+      {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
     </div>
   </div>
 </div>
@@ -108,7 +108,7 @@ put a pic here
 <div class="container">
   <div class="row">
     <div class="col">
-      place a pic here
+      {{< img src="crypto-101/icons/private-key.svg" class="img-fluid" alt="private-key" >}}
     </div>
     <div class="col">
       Each public address is associated with one single private key that unlocks the funds held on it.  
@@ -128,7 +128,7 @@ put a pic here
       Losing your wallet password means losing your cryptocurrencies
     </div>
     <div class="col">
-      place a pic here
+      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
     </div>
   </div>
 </div>
@@ -146,11 +146,8 @@ Let's compare fiat currencies and Bitcoin on this matter :
   </div>
   <div class="row">
     <div class="col">
-      place a pic here
+      {{< img src="crypto-101/infographics/info-btc2-2.png" class="img-fluid" alt="fiat-crypto-bank-vs-wallet" >}}
     </div> 
-    <div class="col">
-      place a pic here
-    </div>
   </div>
   <div class="row">
     <div class="col">
@@ -176,7 +173,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
       Just like the stock and bond market exchange, you can buy cryptocurrencies on a specialised cryptocurrency exchange. An exchange act a centralised marketplace and let you swap fiat with cryptocurrencies at a given rate - decided by the market.
     </div>
     <div class="col">
-      place a pic here
+       {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="currency-swap" >}}
     </div>
   </div>
 </div>
@@ -187,7 +184,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 <div class="container">
   <div class="row">
     <div class="col">
-      place a pic here
+       {{< img src="crypto-101/icons/atm.svg" class="img-fluid" alt="atm" >}}
     </div>
     <div class="col">
       Exchange cash with bitcoin ATMs. These kioskes are located in major cities and connect you directly to the Bitcoin exchange.
@@ -204,7 +201,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
       As opposed to centralised exchanges, you can join a dealers network and purchase some bitcoin over-the-counter. This method is usually utilised for large bulk purchase
     </div>
     <div class="col">
-      place a pic here
+       {{< img src="crypto-101/icons/over-the-counter.svg" class="img-fluid" alt="merchant-selling-goods" >}}
     </div>
   </div>
 </div>
@@ -215,7 +212,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 <div class="container">
   <div class="row">
     <div class="col">
-      place a pic here
+       {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
     </div>
     <div class="col">
      Bitcoin is digital cash at the end of the day. You can exchange some Bitcoin with fiat from friends and family, as long as you trust your transactor. There are risks of changing currencies with someone you do not know (physical attack ...), the same applies with bitcoin and cryptocurrencies.
@@ -241,7 +238,7 @@ Today, most of the services and goods are available for purchase through bitcoin
      An increasing number of merchants accept bitcoins as a form of payment, including some billion dollar revenue powerhouses. Amazon, Microsoft, Expedia to name a few.
     </div>
     <div class="col">
-      place a pic here
+       {{< img src="crypto-101/icons/brands1.svg" class="img-fluid" alt="amazon-microsoft-expedia-shopify" >}}
     </div>
   </div>
 </div>
@@ -254,7 +251,7 @@ Today, most of the services and goods are available for purchase through bitcoin
 <div class="container">
   <div class="row">
     <div class="col">
-    place a pic here
+     {{< img src="crypto-101/icons/card.svg" class="img-fluid" alt="card" >}}
     </div>
     <div class="col">
      Gift cards that accepts Bitcoin such as eGifter or Gyft, cryptocurrency enthusiasts can now access an even larger pool of merchants (Starbucks, DunkinDonuts, Walmart, Gap). 
