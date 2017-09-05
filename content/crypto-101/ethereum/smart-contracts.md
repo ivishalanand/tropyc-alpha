@@ -2,7 +2,7 @@
 title = "Smart Contracts"
 date = 2017-08-02T17:16:29+02:00
 description = ""
-weight = 20
+weight = 30
 draft = false
 bref = ""
 toc = true
@@ -33,10 +33,10 @@ Here’s a quick recap of the difference between both.
 <div class="container">
   <div class="row">
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid" alt="smart-contract" >}}
     </div>
   </div>
    <div class="row">
@@ -47,11 +47,6 @@ Here’s a quick recap of the difference between both.
       Smart contract, computer program
     </div>
   </div>
-</div>
- 
-  Picture here
-
-<div class="container">
   <div class="row">
     <div class="col">
      If agreement is not honoured, the following can happen
@@ -65,6 +60,8 @@ Here’s a quick recap of the difference between both.
       Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions. Smart contract are flexible, they can be permissionless and / or immutable
     </div>
   </div>
+ </div>
+ 
  
 Ethereum allows developers to code smart contract on its platform thanks to its own programming language Solidity. 
 Rather than “smart contracts” which is a term introduced in the 1990s, Ethereum refers them as “automated agents” in its white paper, because it enables the issuance of large scale computational operations between users and other smart contracts.
@@ -93,13 +90,13 @@ At this point, there are 3 possible outcomes :
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/yes.svg" class="img-fluid" alt="yes" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/maybe.svg" class="img-fluid" alt="maybe" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/no.svg" class="img-fluid" alt="no" >}}
     </div>
   </div>
   <div class="row">
@@ -120,7 +117,10 @@ In an conventional agreement we can therefore affirm that,
 * Bob might breach the agreement
  
  
+ 
+ 
  #### Smart contract
+ 
  
 1. Alice and Bob create a smart contract that automates the terms of the agreement and tracks S&P performance
 2. Both send the money to the smart contract that will release fund either at the end of the month or when S&P reaches the pre-defined metric
@@ -140,6 +140,9 @@ Creating such interactions would typically require multiple smart contracts:
 Running each smart contracts on the network has a cost and it depends on the horse power required to execute it: this is when Ether transaction fees comes in the picture.
 
 The same way ERP and CRM automates supply chain and client communication, smart contracts can automate any real-life interaction.
+
+
+
 
 ### Ethereum Virtual Machine
 
