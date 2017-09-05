@@ -1,6 +1,6 @@
 +++
 title = "About Us"
-description = "We are the crypto community that supports you. We strive to offer our members the best content and support so that they can fully understand crypto and make better investments."
+description = "Tropyc is an independent news, research and advisory house committed to deliver impartial fundamentals of cryptocurrency to a wider audience."
 +++
 
 
@@ -17,8 +17,4 @@ Take a look at our resources, we made sure any crypto enthusiasts will find his 
 -	Follow market performance
 -	Assess Initial Coin Offerings
 
-
-
 Additionally, we deploy a team of analysts 7/7 that will answer any of your queries, support you in crypto related operations and conduct customised portfolio assessments.
-
-Tropyc is an independent news, research and advisory house committed to deliver impartial fundamentals of cryptocurrency to a wider audience.
