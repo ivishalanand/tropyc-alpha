@@ -4,11 +4,13 @@ date = 2017-08-02T17:16:21+02:00
 description = ""
 weight = 20
 draft = false
-bref = ""
+bref = "Ethereum : Chapter II"
 toc = true
 +++
 
+
 # Ethereum economics
+
 
 The Bitcoin network reaches consensus on its electronic payment system by leveraging miners’ computational power. Ethereum also gathers a similar network of computers to validate programs in a decentralised fashion – without the need of a middle man.
 
@@ -31,7 +33,7 @@ Today, the consensus mechanism is also based on Proof-of-Work; however, the Ethe
 
 Rather than reaching consensus by mining or allocating computer horse power to the network, Proof-of-Stake cryptocurrencies select the next block creator in a deterministic way : based on their wealth (stake in the currency). 
 There are no mining rewards in a Proof-of-Stake consensus : only transaction fees are here to incentivize miners.
-Mind that Ethereum is yet to deploy this methodology.
+Mind that Ethereum is yet to deploy this methodology, it is announced to start by November 2017
 
 
 
@@ -66,7 +68,5 @@ While Bitcoin has only one type of accounts (public addresses), Ethereum has two
 
 The former is controlled by a human being - just like with Bitcoin - while the latter, also referred to as “smart contract”, is governed by code.
 
-As such, contract accounts are very flexible : depending on how they are programmed, they can be controlled by a EOA (which is controlled by a human being) or disburse an amount to another contract account, all of which can be dependend on a fixed set of rules, terms and conditions hard coded in the program.
-
-add http://ethdocs.org/en/latest/introduction/what-is-ethereum.html
+As such, contract accounts are very flexible : depending on how they are programmed, they can be controlled by a EOA (which is controlled by a human being) or disburse an amount to another contract account, all of which can be dependend on a fixed set of rules, terms and conditions, hard coded in the program.
 
