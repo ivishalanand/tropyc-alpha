@@ -2,7 +2,7 @@
 title = "Wallet versus Bank account"
 date = 2017-08-02T17:15:31+02:00
 description = ""
-weight = 20
+weight = 30
 draft = false
 bref = ""
 toc = true
@@ -15,7 +15,17 @@ Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it o
 Governments and central banks have no authority towards the issuance of additional notes. the middle man loses its governing power in the equation. banks have become redundant, because you can be your own bank.
 
 
-## Ownership
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Ownership
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
+    </div>
+  </div>
+</div>
+
 
 #### Fiat economy
 
@@ -34,7 +44,16 @@ Beware, when storing your bitcoin on third party wallets, you do not "own" a bit
 
 
 
-## Immutability
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Immutability
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/blockchain.svg" class="img-fluid" alt="blockchain" >}}
+    </div>
+  </div>
+</div>
 
 
 #### Fiat economy
@@ -50,7 +69,19 @@ Always verify the public address beforing sending a transaction, otherwise your 
 
 
 
-## Safety
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Safety
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-inside-chat-bubble" >}}
+    </div>
+  </div>
+</div>
+
 
 #### Fiat economy
 
@@ -72,7 +103,19 @@ Check out our review of branded cold wallets here, and get live support from the
 Be careful!
 
 
-## Privacy
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Privacy
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="lock-password" >}}
+    </div>
+  </div>
+</div>
 
 #### Fiat economy
 
@@ -90,7 +133,17 @@ Centralised tools, such as tumbler and mixers, can increase the difficulty to tr
 
 
 
-## Transparency
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Transparency
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-gold" >}}
+    </div>
+  </div>
+</div>
+
 
 #### Fiat economy
 Only a few a stakeholders have access to the transaction and bank settlement history. Although accounts are yearly audited, there is no live feed available for the public to scrutinize.
@@ -105,10 +158,17 @@ The Bitcoin code and blockchain activity is open-source
 
 
 
-## Price
 
-### Inflation
-
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Price inflation
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="volatile" >}}
+    </div>
+  </div>
+</div>
 
 
 #### Fiat economy
@@ -132,7 +192,17 @@ The supply is not influenced by any externalities and not controlled by a centra
 As Bitcoin's notoriety and penetration is going up, Bitcoin are becoming more scarce.
 
 
-### Consumption
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Consumption
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/card.svg" class="img-fluid" alt="card" >}}
+    </div>
+  </div>
+</div>
+
 
 #### Fiat economy
 International card issuers such as Visa or MasterCard handle hundreds of millions of transactions per day. When purchasing a good or service in through them, the payment is fast, secure and quite cheap.
@@ -148,7 +218,17 @@ A bitcoin transaction takes 10 minutes to get recorded into a block, verified an
 However, new cryptocurrencies and blockchain startups have been very innovative in the space and are yet to mature.
 
 
-### Interbank settlement
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Interbank settlement
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="planet-spinning" >}}
+    </div>
+  </div>
+</div>
+
 
 #### Fiat economy
 The current payment technology can take up to 7 days execute a payment and incur heavy costs in some scenarios. Banks charges (hidden) fees and commissions on the conversion rate
@@ -165,7 +245,16 @@ Fees = would not go above 10 USD.
 
 
 
-## Law
+<div class="container">
+  <div class="row">
+    <div class="col">
+     ## Law
+    </div>
+    <div class="col">
+     {{< img src="crypto-101/icons/bank.svg" class="img-fluid" alt="institution" >}}
+    </div>
+  </div>
+</div>
 
 #### Fiat economy
 
