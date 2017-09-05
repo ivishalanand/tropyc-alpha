@@ -1,5 +1,5 @@
 +++
-title = "Etherium Economics"
+title = "Ethereconomics"
 date = 2017-08-02T17:16:21+02:00
 description = ""
 weight = 20
@@ -9,13 +9,15 @@ toc = true
 +++
 
 
-# Ethereum economics
-
 
 The Bitcoin network reaches consensus on its electronic payment system by leveraging miners’ computational power. Ethereum also gathers a similar network of computers to validate programs in a decentralised fashion – without the need of a middle man.
 
 
+
+
 ## Purpose
+
+
 
 Just like with Bitcoin, the Ethereum blockchain relies on its own currency. Here, miners compete to earn Ether, Ethereum’s currency. While Bitcoin aspires to become world’s money, Ether has a different function: it should be considered as the “fuel” of the network. 
 Developers and users pay transaction fees in Ether to run and operate applications on the Ethereum network. 
@@ -26,7 +28,12 @@ Bottom line is: Bitcoin has been nicknamed digital gold …
 Ether on the other hand is considered as “digital oil”.
 
 
+
+
+
 ## Consensus
+
+
 
 Ethereum miners secure the network and get rewared with new Ether, a similar way that in Bitcoin mining.
 Today, the consensus mechanism is also based on Proof-of-Work; however, the Ethereum developping team plans to transition from Proof-of-Work to Proof-of-Stake, by deploying an algorithm called Casper.
@@ -37,7 +44,11 @@ Mind that Ethereum is yet to deploy this methodology, it is announced to start b
 
 
 
+
+
 ## Supply
+
+
 
 Ether holds different functions than Bitcoin: its token economics are built to handle the Ethereum network and its aspirations. Rather than being capped at 21 million coins, Ether has no fixed supply limit and was introduced by of the first Initial Coin Offerings in fall 2014. Here’s how it was distributed
 
@@ -55,7 +66,11 @@ On a short term basis, Ether are "diluted" as the injection of 19 million units 
 
 
 
+
+
 ## Transaction and wallets
+
+
 
 Just like Bitcoin, Ethereum provides a safe, fast and reliable transaction management system with a few different features. 
 
