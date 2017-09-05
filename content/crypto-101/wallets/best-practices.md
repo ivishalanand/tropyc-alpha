@@ -9,11 +9,13 @@ toc = true
 +++
 
 
+
 Handling digital currencies and their wallets comes with additional responsibilities in order to stay safe
 
 
 
 ## Set-up
+
 
 
 We advise you to set up at least two wallets:
@@ -31,13 +33,13 @@ Picture your hot wallet as your current account and cold wallet as your savings 
 <div class="container">
   <div class="row">
     <div class="col">
-     {{< img src="crypto-101/icons/wallet-cold" class="img-fluid" alt="wallet-cold" >}}
+     {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/wallet-hot" class="img-fluid" alt="wallet-hot" >}}
+      {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/wallet-online" class="img-fluid" alt="wallet-online" >}}
+      {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
     </div>
   </div>
    <div class="row">
@@ -55,14 +57,20 @@ Picture your hot wallet as your current account and cold wallet as your savings 
 
 
 
+
+
 ## Cryptography pair
+
+
 
 A wallet can generate unlimited private keys and public addresses combinations. (a wallet password does not need to be generate for each pairs). Because the blockchain is transparent, makes sure to never share a public address that has already been utilised with a third party.
 
 It is important to generate a new public addresses for every transaction, otherwise the person you transact with will match the public address' balance with your identity.
 
 
-{{< img src="crypto-101/infographics/info-wal2-1" class="img-fluid" alt="public-address-single-use" >}}
+
+
+{{< img src="crypto-101/infographics/info-wal2-1.png" class="img-fluid" alt="public-address-single-use" >}}
 
 
 
@@ -82,18 +90,24 @@ In most cases, a 2-FA encryption will work with a smartphone: you can access you
 
 WARNING SMS-based 2-FA are not considered secure.
 
-{{< img src="crypto-101/infographics/info-wal2-2" class="img-fluid" alt="build-digital-vault" >}}
+{{< img src="crypto-101/infographics/info-wal2-2.png" class="img-fluid" alt="build-digital-vault" >}}
+
+
 
 
 
 ## Centralisation
 
 
-{{< img src="crypto-101/infographics/info-wal2-3" class="img-fluid" alt="wallet-like-bank-account" >}}
+
+{{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid" alt="wallet-like-bank-account" >}}
+
 
 
 Never store all your wealth in one wallet – hot or cold. It's best to avoid storing all your wealth in a account.
 Similarly, you do not want to store your back up and password next to your wallet.
+
+
 
 
 ------
@@ -128,6 +142,7 @@ Similarly, you do not want to store your back up and password next to your walle
 
 
 
+
 ## Back-up
 
 
@@ -135,7 +150,7 @@ Similarly, you do not want to store your back up and password next to your walle
 <div class="container">
   <div class="row">
     <div class="col">
-     {{< img src="crypto-101/icons/back-up" class="img-fluid" alt="saving-file" >}}
+     {{< img src="crypto-101/icons/back-up.svg" class="img-fluid" alt="saving-file" >}}
     </div>
     <div class="col">
       In case your wallet gets deleted, corrupted, lost or mislaid, you will also lose access to your to private keys and therefore to all of your assets stored on your public addresses! 
@@ -146,7 +161,12 @@ Back-up your wallet by making a copy of private key files in case something happ
 
 
 
+
+
 ## Multisignature
+
+
+
 <div class="container">
   <div class="row">
     <div class="col">
@@ -154,7 +174,7 @@ Back-up your wallet by making a copy of private key files in case something happ
 This feature can add an extra layer of protection if you want to share the wallet ownership without other partis. Very suitable for a family or a business account.
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/multi-sig" class="img-fluid" alt="multiple-private-keys" >}}
+      {{< img src="crypto-101/icons/multi-sig.svg" class="img-fluid" alt="multiple-private-keys" >}}
     </div>
   </div>
 </div>
