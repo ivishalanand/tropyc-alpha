@@ -4,7 +4,7 @@ date = 2017-08-02T17:14:16+02:00
 description = ""
 weight = 40
 draft = false
-bref = "Bitcoin: Chapter IV"
+bref = "Bitcoin : Chapter IV"
 toc = true
 +++
 
