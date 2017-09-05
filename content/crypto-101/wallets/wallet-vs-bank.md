@@ -13,10 +13,14 @@ Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it o
 Governments and central banks have no authority towards the issuance of additional notes. the middle man loses its governing power in the equation. banks have become redundant, because you can be your own bank.
 
 
+
+## Ownership
+
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Ownership
+     Are you in full control over your wealth?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
@@ -25,12 +29,12 @@ Governments and central banks have no authority towards the issuance of addition
 </div>
 
 
-#### Fiat economy
+##### Fiat
 
 Depositing funds on a bank account means trusting a centralised entity, banks to hold your wealth. They have the power to freeze your account, put consumer limits or delay access to funds. 
 
 
-#### Crypto world
+##### Crypto
 
 In cryptocurrency, you have the flexibility to either 
 * keep full control over your wealth
@@ -42,10 +46,15 @@ Beware, when storing your bitcoin on third party wallets, you do not "own" a bit
 
 
 
+
+
+## Immutability
+
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Immutability
+     Can you rewind back in time and get a refund?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/blockchain.svg" class="img-fluid" alt="blockchain" >}}
@@ -54,13 +63,19 @@ Beware, when storing your bitcoin on third party wallets, you do not "own" a bit
 </div>
 
 
-#### Fiat economy
+
+##### Fiat
+
+
 The current payment infrastructure offers a lot of safety nets in case something goes wrong. Merchants, banks and consumers all can cancel a transaction after it has been confirmed. Examples include Electronic Payment Terminal, insurance, lost and stolen cards etc...
 
 However, refunds are sometimes not possible in case of mistake, especially during inter bank wiring.
 
 
-#### Crypto world
+
+##### Crypto
+
+
 There is no rewinding back once a transaction is signed, verified and confirmed. The blockchain is *immutable* : there are no way cancel a transaction. In this sense, the network is non-repudiable.
 
 Always verify the public address beforing sending a transaction, otherwise your bitcoins will get lost forever. Also, when interacting with merchants and vendors, go through an e-scrow service : it adds a layer of protection to ensure the service / good is delivered.
@@ -69,10 +84,12 @@ Always verify the public address beforing sending a transaction, otherwise your 
 
 
 
+## Safety
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Safety
+     Are you safe from a digital attack?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-inside-chat-bubble" >}}
@@ -81,7 +98,9 @@ Always verify the public address beforing sending a transaction, otherwise your 
 </div>
 
 
-#### Fiat economy
+
+##### Fiat economy
+
 
 Card issuers, payment gateways, insurance and merchants are very open to refunding a transaction is something averse happened. 
 It is not only about solving discrepancies, but also part of improving the customer experience. The fiat economy offers strong layers of protection against scams, fraud and mistakes.
@@ -89,7 +108,9 @@ It is not only about solving discrepancies, but also part of improving the custo
 That being said, wiring cash to an incorrect bank account might result in a loss of money and physical cash is always at the mercy of fraud or physical attack.
 
 
-#### Crypto world
+
+##### Crypto
+
 
 The cryptocurrency network is very new and populates many new-comers and opportunists. There are many scams and frauds in this eco-system that leverages the blockchain's immutability features.
 
@@ -104,10 +125,12 @@ Be careful!
 
 
 
+## Privacy
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Privacy
+     Can dettach your identity from your financial behaviour?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="lock-password" >}}
@@ -115,14 +138,20 @@ Be careful!
   </div>
 </div>
 
-#### Fiat economy
+
+
+##### Fiat
+
 
 Although cash remains the most private way to transact, it is restricted to only low amounts. 
 
 Electronic payment on the other side can manage higher amounts, but record the identity of all the stakeholders engaged in the transaction. This leaves a trace that can be audited by financial institutions, government and potentially hacked by malicious attackers
 
 
-#### Crypto world
+
+##### Crypto
+
+
 The bitcoin blockchain has imperfect knowledge over a user's identity : public addresses are not easily linked back to an individual's identity. 
 
 Users can detach their financial behaviour from their identity, if they want to protect their privacy.
@@ -131,10 +160,14 @@ Centralised tools, such as tumbler and mixers, can increase the difficulty to tr
 
 
 
+
+
+## Transparency
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Transparency
+     Are you aware of the total supply of money and how it is managed?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-gold" >}}
@@ -143,13 +176,19 @@ Centralised tools, such as tumbler and mixers, can increase the difficulty to tr
 </div>
 
 
-#### Fiat economy
+
+##### Fiat
+
+
 Only a few a stakeholders have access to the transaction and bank settlement history. Although accounts are yearly audited, there is no live feed available for the public to scrutinize.
 
 The fiat economy is closed-source, only regulators and financial institutions can track all the electronic transaction on the network
 
 
-#### Crypto world
+
+##### Crypto
+
+
 The blockchain is a distributed public ledgers that anyone can access at any time. This gives full knowledge of all the transaction that occurred on the network.
 
 The Bitcoin code and blockchain activity is open-source
@@ -157,10 +196,13 @@ The Bitcoin code and blockchain activity is open-source
 
 
 
+
+## Price inflation
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Price inflation
+     Is your wealth getting diluted due to price inflation?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="volatile" >}}
@@ -169,7 +211,9 @@ The Bitcoin code and blockchain activity is open-source
 </div>
 
 
-#### Fiat economy
+
+##### Fiat
+
 
 The current monetary policy is inflationist : the government can print money endlessly in order to trigger consumption and keep the rise of prices in a target zone. 
 
@@ -181,7 +225,9 @@ There are two drawbacks
 * Quantitive easing (the act of printing fiat) may benefit more to the higher income segments, since government inject capital by purchasing asset and debts in bulk from major financial institutions.
 
 
-#### Crypto world
+
+##### Crypto
+
 
 The Bitcoin supply is capped at 21 million units : this means it is deflationist (not every cryptocurrency is deflationist). In order words, the amount of bitcoins added to the economy gets smaller and smaller as each year goes by.
 
@@ -190,10 +236,16 @@ The supply is not influenced by any externalities and not controlled by a centra
 As Bitcoin's notoriety and penetration is going up, Bitcoin are becoming more scarce.
 
 
+
+
+
+## Consumption
+
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Consumption
+     How easy is to issue low-amount transaction without a hassle?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/card.svg" class="img-fluid" alt="card" >}}
@@ -202,7 +254,10 @@ As Bitcoin's notoriety and penetration is going up, Bitcoin are becoming more sc
 </div>
 
 
-#### Fiat economy
+
+##### Fiat
+
+
 International card issuers such as Visa or MasterCard handle hundreds of millions of transactions per day. When purchasing a good or service in through them, the payment is fast, secure and quite cheap.
 
 Speed = seconds
@@ -210,16 +265,24 @@ Speed = seconds
 Fees = 0 to 2%
 
 
-#### Crypto world
+
+##### Crypto
+
+
 A bitcoin transaction takes 10 minutes to get recorded into a block, verified and added to the blockchain. Not the best scenario for merchants : waiting this amount of time to get the money cleared out creates a considerable risk... clients can't wait 10 minutes at the till.
 
 However, new cryptocurrencies and blockchain startups have been very innovative in the space and are yet to mature.
 
 
+
+
+
+## Interbank settlement
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Interbank settlement
+     How easy is it to issue high amount transactions globally?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="planet-spinning" >}}
@@ -228,12 +291,19 @@ However, new cryptocurrencies and blockchain startups have been very innovative 
 </div>
 
 
-#### Fiat economy
+
+##### Fiat
+
+
 The current payment technology can take up to 7 days execute a payment and incur heavy costs in some scenarios. Banks charges (hidden) fees and commissions on the conversion rate
 
 During an international transaction, money could not be shown on neither the sender and recipient sides for days. 
 
-#### Crypto world
+
+
+##### Crypto
+
+
 Cross-border payments are perfect for the bitcoin network. You can send wealth overseas at a minimal cost and very quickly.
 
 Speed = 10 min
@@ -243,10 +313,13 @@ Fees = would not go above 10 USD.
 
 
 
+
+## Law
+
 <div class="container">
   <div class="row">
     <div class="col">
-     ## Law
+     To what extent you are liable to financial behaviour?
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/bank.svg" class="img-fluid" alt="institution" >}}
@@ -254,7 +327,10 @@ Fees = would not go above 10 USD.
   </div>
 </div>
 
-#### Fiat economy
+
+
+##### Fiat
+
 
 Fiat currencies are considered legal tender, meaning they are legally recognised by a public institutional to settle financial obligations between parties.
 
@@ -265,7 +341,9 @@ There are underlying responsibilities, rules and duties when handling fiat money
 * settle financial obligation if contractually agreed upon
 
 
-#### Crypto world
+
+##### Crypto
+
 
 Depending on the country, Bitcoin has different legal status. While some countries like Bangladesh or Bolivia banned the use of bitcoin, Japan decided in 2017 to declare it as legal tender.
 
