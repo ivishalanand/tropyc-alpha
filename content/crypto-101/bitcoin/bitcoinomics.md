@@ -8,9 +8,8 @@ bref = "Bitcoin : Chapter IV"
 toc = true
 +++
 
-# Bitcoinomics
 
-Because cryptocurrencies follow a more decentralised model, the process of creating new bitcoin differs from the process of printing fiat money
+Because cryptocurrencies follow a more decentralised model, the process of creating new bitcoin differs from the process of printing fiat money.
 
 
 <div class="container">
@@ -39,7 +38,10 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 * Bitcoin are becoming more scare
 * It's monetary system is not inflationist like in fiat, but desinflationist
 
+
+
 Bitcoin is a new kind of money that hold different fundamentals. Let's define its' possible use case as a form of money.
+
 
 <div class="container">
   <div class="row">
@@ -79,11 +81,16 @@ Bitcoin is a new kind of money that hold different fundamentals. Let's define it
 
 
 
+
+
 ## Functions of bitcoin
+
+
 
 Everyone can use bitcoin. Unlike conventional currencies, most of bitcoin holders are individuals rather than institutions. Although Bitcoin is reaching new audiences by the day, would it be institutionalised investors or enthusiasts.
  
 It is difficult to estimate the proportion of household money in the cryptocurrency economy. That being said, anyone can look up the amount of every public addresses on the blockchain: the data is free and transparent.
+
 
 
 <div class="container">
@@ -112,7 +119,9 @@ It is difficult to estimate the proportion of household money in the cryptocurre
  </div>
 
 
+
 ### Store of wealth
+
 
 An efficient store of wealth will not see its value decrease in the long term. In other words, selecting an asset as a store of value is the same as forecasting an increase the asset demand.
 
@@ -126,7 +135,9 @@ Bitcoin has been a strong store of value since its existence: assessing its effi
 Amid unstable economy, fast-paced globalisation and new technology breakthroughs, no one can point an item and declare with high certainty: “This is and always be a great store of wealth” - same applies to Bitcoin.
 
 
+
 ### Unit of account
+
 
 The unit of account is the currency of measure that will be used to represent the real value of an economy. It translates the value of an item into a quantifiable unit that will be considered as the monetary convention.
 
@@ -142,7 +153,9 @@ Cryptocurrencies are still infamous globally compared to established government-
 It is important to note that in the cryptocurrency world, bitcoin IS the unit of account, as every alt coins are priced in BTC.
 
 
+
 ### Medium of exchange
+
 
 The last and most important feature is already proven and established. 
 Bitcoin's fast, safe and low-cost transaction triggered the exponential demand for cryptocurrencies and made Bitcoin what it is today. 
@@ -198,21 +211,34 @@ At first, Bitcoin as a medium of exchange started on the dark-web to settle paym
  </div>
 
 
+
+
+
 ### Markets
 
+
+
 ##### Fiat 
+
 
 Exchanges open 5 days per week and close on weekends and evening. It is possible to trade throughout the day but investors and speculators have to switch markets.
 
 Bankers typically switch between America, Europe and Asia to operate continuously.
 
 
+
 ##### Crypto
+
 
 Cypto markets are open 24/7 non stop on independent exchanges and can therefore be traded whenever you feel like it.
 
 
+
+
+
 ### Price
+
+
 
 <div class="container">
   <div class="row">
@@ -240,6 +266,7 @@ Cypto markets are open 24/7 non stop on independent exchanges and can therefore 
     </div>
   </div>
  </div>
+
 
 
 Bitcoin is the pioneer in digital money and is therefore witnessing aggressive growth thanks to its focus on privacy and peer-to-peer transactions. 
