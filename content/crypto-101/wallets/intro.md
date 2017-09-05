@@ -9,6 +9,9 @@ toc = true
 +++
 
 
+## Definition
+
+
 
 Cryptocurrency wallets let you receive, spend and monitor securely your assets on a software program by interacting with the blockchain. 
 It stores is the single medium of interaction between the user and different cryptocurrency blockchains.
