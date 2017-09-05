@@ -59,7 +59,9 @@ Picture your hot wallet as your current account and cold wallet as your savings 
 
 
 
+
 ## Cryptography pair
+
 
 
 
@@ -77,7 +79,10 @@ Since the blockchain tracks all transactions, sharing used public addresses for 
 
 
 
+
 ## Encryption
+
+
 
 
 The password is a core component to the safety of your assets in a wallet. Your password should include these features:
@@ -101,6 +106,7 @@ WARNING SMS-based 2-FA are not considered secure.
 
 
 ## Centralisation
+
 
 
 
@@ -144,6 +150,7 @@ Similarly, you do not want to store your back up and password next to your walle
 
 
 
+
 <div class="container">
   <div class="row">
     <div class="col">
@@ -161,6 +168,7 @@ Back-up your wallet by making a copy of private key files in case something happ
 
 
 ## Multisignature
+
 
 
 
