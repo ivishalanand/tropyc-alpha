@@ -2,9 +2,9 @@
 title = "Bitcoinomics"
 date = 2017-08-02T17:14:16+02:00
 description = ""
-weight = 20
+weight = 40
 draft = false
-bref = ""
+bref = "Bitcoin: Chapter IV"
 toc = true
 +++
 
