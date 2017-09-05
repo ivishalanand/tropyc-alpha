@@ -2,7 +2,7 @@
 title = "World Computer"
 date = 2017-08-02T17:16:06+02:00
 description = ""
-weight = 20
+weight = 10
 draft = false
 bref = ""
 toc = true
@@ -17,22 +17,26 @@ toc = true
 Ethereum addresses one of the core issues of the internet today: centralisation of authority and trusting a third party. The same way Bitcoin is disrupting financial services, Ethereum addresses one of internet’s core issue: internet centralisation.
 Let’s first have a look at how the world wide web operates compared to the decentralised model:
 
-#### infographie
+{{< img src="crypto-101/infographices/info-eth1-1.png" class="img-fluid" alt="centralised-vs-decentralised-internet" >}}
+
 
 The current world wide web framework stores most of the data locally. In other words, when you visit a website you trust a third party to 
+
 *	securely store your information (payment details, browsing history, passwords, identity…)
 *	keep it safe from attacks (hacks, leaks)
 *	avoid using it for illegitimate commercial purposes. (sell to third parties etc…) 
 
+
 The problem here, is that there are no ways of monitoring how your information is handled, if it is safe or not, and whether a third party tries to deceive you. 
 The NSA Snowden case and Wikileaks hack are just sample of what can happen to your personnal information.
+
 
 A decentralised system utilizes nodes (computers connected to the network) to validate transactions, instead of a centralised “cloud” servers owned by a third party. 
 This creates a trust less eco-system where the end-user does not have to trust one single entity. Rather, the information is cryptographically secured and distributed amongst all the participants of the network that verify its authenticity and record it on the blockchain.
 
 Today we store our data on the cloud of internet companies such as Google Drive, Dropbox, Amazon or Box. We can compare both models of online storage:
 
-#### infographie
+{{< img src="crypto-101/infographices/info-eth1-2.png" class="img-fluid" alt="cloud-storage-example" >}}
 
 
 Decentralisation offers _in theory_ a better file storage opportunity to the end-user: no third party has the control to view, edit, duplicate, delete or lock any files in the cloud
