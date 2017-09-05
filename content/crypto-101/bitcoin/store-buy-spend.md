@@ -46,7 +46,7 @@ The act of "sending a bitcoin" requires 3 things :
 
 
 <div class="container">
-  <div class="row">
+  <div class="row text-center mb-3">
     <div class="col">
      {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
     </div>
@@ -57,7 +57,7 @@ The act of "sending a bitcoin" requires 3 things :
      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
     </div>
   </div>
-  <div class="row">
+  <div class="row text-center mb-2">
     <div class="col">
       Public address
     </div>
@@ -68,15 +68,15 @@ The act of "sending a bitcoin" requires 3 things :
       Password
     </div>
   </div>
-  <div class="row">
+  <div class="row text-center">
     <div class="col">
-     A string of 26-35 characters, that holds bitcoin. Amount is publicly available on the blockchain
+     <small>A string of 26-35 characters, that holds bitcoin. Amount is publicly available on the blockchain</small>
     </div>
     <div class="col">
-      A file that proves to the network that you are the owner of a public address's balance
+      <small>A file that proves to the network that you are the owner of a public address's balance</small>
     </div>
     <div class="col">
-      A string of as much characters that gives you access to your wallet
+      <small>A string of as much characters that gives you access to your wallet</small>
     </div>
   </div>
 </div>

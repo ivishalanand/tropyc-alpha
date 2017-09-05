@@ -36,7 +36,40 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ## Interpretation
 
-table here
+<table class="table table-striped">
+	<thead>
+		<tr class="text-center font-weight-bold">
+			<td>Variable</td>
+			<td>Description</td>
+			<td>A</td>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Valuation</td>
+			<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+			<td>Fair valuation</td>
+			<td>Overvalued in fiat</td>
+			<td>Overvalued in fiat and crypto</td>
+		</tr>
+		<tr>
+			<td>Split</td>
+			<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+			<td>Transparent distribution</td>
+			<td>Cloudy distribution</td>
+			<td>Misleading distribution</td>
+		</tr>
+		<tr>
+			<td>Utility</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
 
 
