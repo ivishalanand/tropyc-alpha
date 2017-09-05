@@ -236,7 +236,7 @@ Let's review some of Bitcoin's core value propositions.
 <div class="container">
   <div class="row">
     <div class="col">
-      {{< img src="crypto-101/summary-icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
+      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
     </div>
     <div class="col">
       In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
@@ -255,7 +255,7 @@ In other words, a wallet may not be clearly associated with a person's name.
       Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
     </div>
     <div class="col">
-      {{< img src="crypto-101/summary-icons/trustless.svg" class="img-fluid" alt="ribbon-with-a-tick" >}}
+      {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="ribbon-with-a-tick" >}}
     </div>
   </div>
 </div>
@@ -267,7 +267,7 @@ In other words, a wallet may not be clearly associated with a person's name.
 <div class="container">
   <div class="row">
     <div class="col">
-      {{< img src="crypto-101/summary-icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
+      {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
     <div class="col">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
