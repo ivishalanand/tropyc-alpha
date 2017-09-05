@@ -12,7 +12,26 @@ toc = true
 
 Because cryptocurrencies follow a more decentralised model, the process of creating new bitcoin differs from the process of printing fiat money
 
-### chart supply + mining incentives
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Bitcoin supply emission rate
+    </div>
+    <div class="col">
+      Bitcoin rewards per blocks
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      {{< img src="crypto-101/charts/chart-btc-supply.png" class="img-fluid" alt="bitcoin-emission-rate" >}}
+    </div>
+    <div class="col">
+      {{< img src="crypto-101/charts/chart-btc-reward.png" class="img-fluid" alt="bitcoin-incentives-per-block" >}}
+    </div>
+  </div>
+</div>
+
 
 The rate of mining Bitcoin is predictable and known to everyone on the network.
 
@@ -25,13 +44,13 @@ Bitcoin is a new kind of money that hold different fundamentals. Let's define it
 <div class="container">
   <div class="row">
     <div class="col">
-     {{< img src="crypto-101/infographics/info-btc2-1.png" class="img-fluid" alt="Logo" >}}
+     {{< img src="crypto-101/icons/currency.svg" class="img-fluid" alt="gold-coins" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/commodity.svg" class="img-fluid" alt="pile-of-gold" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/index.svg" class="img-fluid" alt="percentage" >}}
     </div>
   </div>
    <div class="row">
@@ -59,7 +78,6 @@ Bitcoin is a new kind of money that hold different fundamentals. Let's define it
 </div>
 
 
-(ADD TEXT?)
 
 ## Functions of bitcoin
 
@@ -71,13 +89,13 @@ It is difficult to estimate the proportion of household money in the cryptocurre
 <div class="container">
   <div class="row">
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="coins-swapping" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
     </div>
   </div>
    <div class="row">
@@ -115,25 +133,9 @@ The unit of account is the currency of measure that will be used to represent th
 For this matter, you can consider US Dollars as the world currency, or bitcoin, or gold, or even oil. Depending on your point of view we can analyse events differently:
 
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      put a pic here
-    </div>
-    <div class="col">
-      put a pic here
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      economy measured in dollars
-    </div>
-    <div class="col">
-      economy measured in Bitcoins
-    </div>
-  </div>
- </div>
+{{< img src="crypto-101/charts/chart-eco-btcusd.png" class="img-fluid" alt="chart-world-gdp-btc-vs-usd" >}}
  
+The above illustrates the state of the economy of World Bank Group participants (170+ countries) since 2013. In USD, the economy is somewhate stable, however in Bitcoin the economy is collapsing.
 
 Cryptocurrencies are still infamous globally compared to established government-backed currencies : they do not represent a strong unit of account. However, it does not mean cryptocurrencies cannot fulfill this role in the future, it has all the required features to do so.
 
@@ -150,19 +152,24 @@ As for domestic and low amount settlements, card issuers and banks are faster an
 At first, Bitcoin as a medium of exchange started on the dark-web to settle payments on marketplaces because of its ability to dissociate someone's identity from money.
 
 
+{{< img src="crypto-101/infographics/info-btc4-1.png" class="img-fluid" alt="sending-money-overseas-btc-vs-usd" >}}
 
-##### infographie
+
+
+------------
+
+
 
 <div class="container">
   <div class="row">
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="coins-swapping" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
     </div>
   </div>
    <div class="row">
@@ -194,11 +201,14 @@ At first, Bitcoin as a medium of exchange started on the dark-web to settle paym
 ### Markets
 
 ##### Fiat 
+
 Exchanges open 5 days per week and close on weekends and evening. It is possible to trade throughout the day but investors and speculators have to switch markets.
 
 Bankers typically switch between America, Europe and Asia to operate continuously.
 
+
 ##### Crypto
+
 Cypto markets are open 24/7 non stop on independent exchanges and can therefore be traded whenever you feel like it.
 
 
@@ -207,10 +217,10 @@ Cypto markets are open 24/7 non stop on independent exchanges and can therefore 
 <div class="container">
   <div class="row">
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="chart-up-and-down" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/liquid.svg" class="img-fluid" alt="chart-supply-vs-demand" >}}
     </div>
   </div>
    <div class="row">
