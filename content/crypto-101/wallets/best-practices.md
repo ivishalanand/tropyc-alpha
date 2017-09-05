@@ -69,13 +69,15 @@ It is important to generate a new public addresses for every transaction, otherw
 
 
 
-
 {{< img src="crypto-101/infographics/info-wal2-1.png" class="img-fluid" alt="public-address-single-use" >}}
 
 
+Since the blockchain tracks all transactions, sharing used public addresses for payment means sharing your account balance to a third party
 
 
-### Encryption
+
+
+## Encryption
 
 
 The password is a core component to the safety of your assets in a wallet. Your password should include these features:
@@ -90,6 +92,8 @@ In most cases, a 2-FA encryption will work with a smartphone: you can access you
 
 WARNING SMS-based 2-FA are not considered secure.
 
+
+
 {{< img src="crypto-101/infographics/info-wal2-2.png" class="img-fluid" alt="build-digital-vault" >}}
 
 
@@ -100,18 +104,11 @@ WARNING SMS-based 2-FA are not considered secure.
 
 
 
-{{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid" alt="wallet-like-bank-account" >}}
-
-
-
 Never store all your wealth in one wallet – hot or cold. It's best to avoid storing all your wealth in a account.
 Similarly, you do not want to store your back up and password next to your wallet.
 
 
-
-
-------
-
+{{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid" alt="wallet-like-bank-account" >}}
 
 
 <div class="container">
