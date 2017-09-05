@@ -9,17 +9,17 @@ toc = true
 +++
 
 
-
-# Ethereum : Decentralised Autonomous Organisation
-
-
 Putting your money in a conventional investment management firm means trusting a third party with your wealth.
 At the end of the day, how do you know if your money is in safe hands? 
 It could potentially be a Ponzi scheme or worse the managers could flee with all the money and without notice.
 What’s the solution? 
 
 
+
+
 ## DAO Concept
+
+
 
 Imagine an investment management firm where shareholders do not have to trust any fund manager with their money: because shareholders would be the managers. 
 Well, this is exactly what a Decentralised Autonomous Organisation (DAO) can achieve.
@@ -28,14 +28,21 @@ It automates interactions within an organisation company would it be governance,
 Through a voting system, DAO members can interact amongst each other and manage the organisation’s funds without trusting anyone but other investors alike.
 
 
+
+
 {{< img src="crypto-101/infographics/info-eth4-1.png" class="img-fluid" alt="dao" >}}
+
+
 
 
 The same way bitcoin does not require a middle man in a transaction and offers an alternative to the current financial system, a DAO can make companies operate without a complex hierarchical system and manual processes. It digitalises and automates a pre-defined set of rules for organisations: it is not confined monetary interaction but should be considered for any sort of decision or governance problematic.
 The goal here is make decision making more transparent, efficient and collaborative.
 
 
+
 Since a DAO is built on programs, changing the purpose or some pre-defined operations can be deemed complex as the rules are hard-coded. In the event a smart contract has a glitch, developers may not be able to fix the issue. As such, depending on how they are built smart contracts can be immutable and therefore jeopardize the utility of a DAO.
+
+
 
 
 
@@ -67,7 +74,10 @@ The issue was not about the Ethereum network itself, but the smart contracts on 
 In fact, only one address held the entire DAO funds and were controlled by a smart contract, a red flag for most blockchain and cryptocurrency enthusiasts.
 
 
+
+
 ## DAO hack and fork
+
 
 Unfortunately, the vulnerability got exploited only weeks after the DAO launch. 
 An unknown attacker hacked the smart contract that held the funds and started draining Ether from the crowdsale.  
@@ -87,7 +97,11 @@ In less than 48 hours, Ether price dropped from 20$ to 11$, and the DAO market c
 
 The Ethereum foundation, the team of developers that both deployed the Ethereum network and the DAO, offered two solutions to fix the hack.
 
+
+
 ### Soft fork
+
+
 <div class="container">
   <div class="row">
     <div class="col">
@@ -99,7 +113,11 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
    </div>
  </div>
 
+
+
 ### Hard fork
+
+
 <div class="container">
   <div class="row">
     <div class="col">
@@ -112,7 +130,9 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
  </div>
  
  
+ 
  ## Response
+ 
  
  Most Ethereum “influencers” from the foundation took a public stand for the hard fork, and proposed to rewind back to a block before the attack – something that was not well accepted in the cryptocurrency community.
 Because the hacker leveraged an anomaly and performed *valid actions* of the DAO’s smart contracts, this issue has become more of a philosophical question: 
@@ -128,6 +148,7 @@ Adopting a similar approach with the DAO, would rescue investors from the loosin
 
 
 <div class="container">
+  <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/no-fork.svg" class="img-fluid" alt="no-fork" >}}
     </div>
@@ -156,7 +177,9 @@ Adopting a similar approach with the DAO, would rescue investors from the loosin
 
 
 
+
 ## The hard fork
+
 
 
 In July 2016, A majority Ethereum community ultimately decided to hard fork the blockchain and rewind back to a block before the DAO attack so that token holders could get their investment back. 

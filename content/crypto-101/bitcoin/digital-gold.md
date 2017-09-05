@@ -4,15 +4,16 @@ date = 2017-08-02T16:43:58+02:00
 description = "Description here"
 weight = 10
 draft = false
-bref = "Bitcoin, Chapter I"
+bref = "Bitcoin : Chapter I"
 toc = true
 +++
 
 
-## Bitcoin is the the first cryptocurrency
+## The first cryptocurrency
 
 
-It's open-source money.
+
+Bitcoin is open-source money.
 
 You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates securely, independently and free from government control. 
 
@@ -46,7 +47,8 @@ There are now two distinct economies:
 
 
 
-### Traditional economy = fiat currencies
+### Traditional or fiat economy
+
 
 
 * issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
@@ -61,7 +63,9 @@ Example  = USD, GBP, EUR, INR, CHINA
 
 
 
-### Decentralised ecosystem = Bitcoin, cryptocurrency and tokens
+
+### Decentralised or crypto economy
+
 
 
 * independent from any central banks, noone "owns" the Bitcoin network 
@@ -76,13 +80,17 @@ Example  = Bitcoin, Litecoin, Ether, Monero ...
 
 
 
+
 We can identify three main differences between them :
+
 
 * You are obliged to trust a third party (a bank) to hold your wealth with fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
 * Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
 
 * In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionnaly, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditionnal bank account as Know Your Customer (KYC) requirements are strict.
+
+
 
 
 | Features               | Fiat                     | Crypto              |
@@ -95,7 +103,9 @@ We can identify three main differences between them :
 
 
 
+
 ## Founder
+
 
 
 In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”. 
@@ -140,12 +150,9 @@ Let's review some of Bitcoin's core value propositions.
 
 
 
+### Speed
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-     Speed
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
@@ -156,12 +163,11 @@ Let's review some of Bitcoin's core value propositions.
   </div>
 </div>
 
+
+
+### Accessible 
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-     Accessible
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/accessible.svg" class="img-fluid" alt="door-open" >}}
@@ -172,6 +178,10 @@ Let's review some of Bitcoin's core value propositions.
     </div>
   </div>
 </div>
+
+
+
+### Safe
 
 <div class="container">
   <div class="row">
@@ -189,12 +199,11 @@ Let's review some of Bitcoin's core value propositions.
   </div>
 </div>
 
+
+
+### Cheap 
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-     Cheap
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/cheap.svg" class="img-fluid" alt="price-is-low" >}}
@@ -205,12 +214,11 @@ Let's review some of Bitcoin's core value propositions.
   </div>
 </div>
 
+
+
+### Global 
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-     Global
-    </div>
-  </div>
   <div class="row">
     <div class="col">
      Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
@@ -222,15 +230,13 @@ Let's review some of Bitcoin's core value propositions.
 </div>
 
 
+
+### Private
+
 <div class="container">
   <div class="row">
     <div class="col">
-     Private
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      {{< img src="crypto-101/summary-icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
+      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
     </div>
     <div class="col">
       In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
@@ -239,31 +245,29 @@ In other words, a wallet may not be clearly associated with a person's name.
   </div>
 </div>
 
+
+
+### Trustless
+
 <div class="container">
-  <div class="row">
-    <div class="col">
-     Trustless
-    </div>
-  </div>
   <div class="row">
     <div class="col">
       Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
     </div>
     <div class="col">
-      {{< img src="crypto-101/summary-icons/trustless.svg" class="img-fluid" alt="ribbon-with-a-tick" >}}
+      {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="ribbon-with-a-tick" >}}
     </div>
   </div>
 </div>
 
+
+
+### Transparent
+
 <div class="container">
   <div class="row">
     <div class="col">
-     Transparent
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      {{< img src="crypto-101/summary-icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
+      {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
     <div class="col">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.

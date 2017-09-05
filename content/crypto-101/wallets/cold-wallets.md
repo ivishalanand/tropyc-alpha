@@ -2,7 +2,7 @@
 title = "Cold wallets"
 date = 2017-08-02T17:15:14+02:00
 description = ""
-weight = 20
+weight = 40
 draft = false
 bref = "Wallet : Chapter IV"
 toc = true

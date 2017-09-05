@@ -4,12 +4,9 @@ date = 2017-08-02T17:14:00+02:00
 description = ""
 weight = 30
 draft = false
-bref = "Bitcoin: Chapter III"
+bref = "Bitcoin : Chapter III"
 toc = true
 +++
-
-
-# Bitcoin : under the hood
 
 
 <div class="container">
@@ -38,12 +35,19 @@ toc = true
 </div>
 
 
+
 ## Mining
+
+
 
 The main difference between fiat and bitcoin, is that the former can be printed without a limit while the latter is capped at 21 million.
 
 
+
+
 ### Printing fiat
+
+
 
 <div class="container">
   <div class="row">
@@ -57,8 +61,12 @@ The main difference between fiat and bitcoin, is that the former can be printed 
   </div>
  </div>
  
- 
+
+
+
 ### Mining Bitcoin
+
+
 
 <div class="container">
   <div class="row">
@@ -75,8 +83,7 @@ The main difference between fiat and bitcoin, is that the former can be printed 
  
  
 Cryptocurrencies were once priced based on the prequeresites costs to run the network or mining costs.
-
-Mining bitcoin and cryptocurrencies is a resource-draining activity that requires investment
+As such, mining bitcoin and cryptocurrencies is a resource-draining activity that requires investment from the fiat economy.
 
 
 
@@ -117,7 +124,11 @@ Mining bitcoin and cryptocurrencies is a resource-draining activity that require
 </div>
 
 
+
+
 The network rewards miners in such a way, that they are incentivised to keep it secure
+
+
 
 
 <div class="container">
@@ -147,17 +158,29 @@ The network rewards miners in such a way, that they are incentivised to keep it 
 </div>
 
 
+
+
+
 ## Blockchain
 
-A publicly available digital ledger that stores bitcoin, cryptocurrency and token information. 
+
+
+A blockchain is  publicly available and distributed digital ledger that stores bitcoin, cryptocurrency and token data and transaction information. 
+
+
 
 The bitcoin blockchain is a series of blocks that holds transaction data of approximately 10 minutes of network activity.
 Miners are the ones creating new blocks by solving a mathematical formula. 
 By doing so, the network rewards them with freshly mined bitcoin 
 
-{{< img src="crypto-101/infographics/info-bt3-1.png" class="img-fluid" alt="password-lock" >}} 
+
+
+{{< img src="crypto-101/infographics/info-btc3-1.png" class="img-fluid" alt="password-lock" >}} 
+
+
 
 Each blocks records the information of multiple transaction including
+
 * the time,
 * all transactions,
 * the sender's public address,
@@ -166,9 +189,11 @@ Each blocks records the information of multiple transaction including
 * the mining reward
 * an unique idcode called hash.
 
-  add a pic
+
+
   
-This offers two benefits to blockchain technology
+This offers two tangible benefits to blockchain technology compared to a centralised dataset:
+ 
  
  
 <div class="container">
@@ -198,20 +223,26 @@ This offers two benefits to blockchain technology
 </div>
   
 
+
 Every bitcoin transactions ever created and confirmed by the network are stored in a single block - depending on the transaction time. 
 Every blocks are added on an immutable public distributed ledger, this is the blockchain : a chronological combination of data blocks.
 
 
 
+
+
 ## Consensus
 
+
+
 A transaction does not exist until it is generated in a new block. In order to keep the network safe and secure, miners reaches a consensus.
+
 
 
 <div class="container">
   <div class="row">
     <div class="col">
-     {{< img src="crypto-101/icons/sign.svg" class="img-fluid" alt="pen-signature-document" >}}
+     {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
@@ -246,12 +277,15 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
+
 ### Sign
+
+
 
 <div class="container">
   <div class="row">
     <div class="col">
-     {{< img src="crypto-101/icons/sign.svg" class="img-fluid" alt="pen-signature-document" >}}
+     {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
     </div>
     <div class="col">
      Alice builds a transaction from her wallet.
@@ -265,7 +299,10 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
+
 ### Generate
+
+
 
 <div class="container">
   <div class="row">
@@ -287,17 +324,19 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 ### Compete
 
+
+
 <div class="container">
   <div class="row">
     <div class="col">
-     {{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="boxing-gloves" >}}
-    </div>
-    <div class="col">
-    Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
+     Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
     Hashing is the process of transforming an string of characters as input into a new string of fixed length as output using encryption through a hashing function. Miners need to gather different unconfirmed transactions (input) compute them into the hashing function set by the network and output a hash with a pre-determined conditions (starts with a certain amount of zeros)
     The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultanously.
     Under hood, the network sets every 2 weeks a hash target value : miners need to solve the problem by providing a valid hash inferior to the target.
     Retargeting makes hashing difficulty evolve with the number miners connected to the network.
+    </div>
+    <div class="col">
+    {{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="boxing-gloves" >}}
     </div>
   </div>
 </div>
@@ -307,6 +346,9 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 ## Methodology
+
+
+
 
 The method of incentivising resource-consuming activities in order to reach a network consensus is called Proof-Of-Work.
 
@@ -320,22 +362,19 @@ This ensures
 Here's a recap of the process : from initiating a transaction to getting it mined on the blockchain.
 
 
-
-#### Infographie
-
 <div class="container">
   <div class="row">
     <div class="col">
-     Signature
+     1 - Signature
     </div>
     <div class="col">
-      Mining
+     2 - Mining
     </div>
     <div class="col">
-      Compete
+     3 - Compete
     </div>
     <div class="col">
-      Blockchain
+     4 - Blockchain
     </div>
   </div>
 </div>

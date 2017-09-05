@@ -4,11 +4,10 @@ date = 2017-08-02T16:44:06+02:00
 description = ""
 weight = 20
 draft = false
-bref = "Bitcoin: Chapter II"
+bref = "Bitcoin : Chapter II"
 toc = true
 +++
 
-# Bitcoin : store, buy and spend
 
 <div class="container">
   <div class="row">
@@ -38,6 +37,8 @@ toc = true
 
 
 ## Store
+
+
 
 Bitcoins are recorded electronically on a wallet; 
 it operates the same way than with cash wallets, but digitally.
@@ -81,12 +82,19 @@ The act of "sending a bitcoin" requires 3 things :
   </div>
 </div>
 
+
 What’s between you and a bitcoin
 
 
 {{< img src="crypto-101/infographics/info-btc2-1.png" class="img-fluid" alt="user-wallet-cryptography-bitcoin" >}}
 
+
+
+
+
 ### Public address
+
+
 
 <div class="container">
   <div class="row">
@@ -103,7 +111,11 @@ What’s between you and a bitcoin
 </div>
 
 
+
+
 ### Private key
+
+
 
 <div class="container">
   <div class="row">
@@ -119,7 +131,11 @@ What’s between you and a bitcoin
 </div>
 
 
+
+
 ### Password
+
+
 
 <div class="container">
   <div class="row">
@@ -159,13 +175,20 @@ Let's compare fiat currencies and Bitcoin on this matter :
   </div>
 
 
+
+
 ## Buy Bitcoin
+
+
 
 Owning a bitcoin has become easyer by the day. 
 Now that you want to get hold of some bitcoin, here are several ways to purchase some.
 
 
+
+
 ### Exchange
+
 
 <div class="container">
   <div class="row">
@@ -179,7 +202,9 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 </div>
 
 
+
 ### ATM
+
 
 <div class="container">
   <div class="row">
@@ -193,7 +218,9 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 </div>
 
 
+
 ### Over the counter 
+
 
 <div class="container">
   <div class="row">
@@ -207,7 +234,9 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 </div>
 
 
+
 ### Peer-to-peer
+
 
 <div class="container">
   <div class="row">
@@ -222,7 +251,11 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 
 
 
+
+
 ## Spend
+
+
 
 
 Today, most of the services and goods are available for purchase through bitcoins
@@ -260,7 +293,9 @@ Today, most of the services and goods are available for purchase through bitcoin
 </div>
 
 
+
 ### Marketplace
+
 
 <div class="container">
   <div class="row">
@@ -268,10 +303,11 @@ Today, most of the services and goods are available for purchase through bitcoin
     At first, bitcoin transactions thrived on gambling platforms and online marketplaces that enabled the distribution of illicit goods and services. These platforms still exist and you safely get delivered any type of product. Be sure to check your legislation before ordering anything.
     </div>
     <div class="col">
-     place a pic here
+     {{< img src="crypto-101/icons/third-party.svg" class="img-fluid" alt="merchant-selling-from-kiosk" >}}
     </div>
   </div>
 </div>
+
 
 Because Bitcoin has matured to a global market, more and more merchants are pushed to accept cryptocurrencies as a form of payment.
 It has utility.
