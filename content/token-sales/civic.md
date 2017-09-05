@@ -6,9 +6,10 @@ weight = 20
 draft = false
 
 name = "Civic"
-risk = "Low"
-cryptoValuation = "$10 M"
-fiatValuation = "$12 M"
+trustRating = "A+"
+dealRating = "C-"
+softCap = "$10 M"
+hardCap = "$12 M"
 platform = "Ethereum"
 industry = "Identity"
 startDate = 2017-08-01
@@ -21,11 +22,9 @@ features = """
 - Feature 3
 """
 
-dealRating = "AVERAGE"
-trustRating = "GOOD"
-
 [links]
   twitter = "civic"
+  facebook = "civic"
   reddit = "civic"
   telegram = "civic"
   github = "civic"

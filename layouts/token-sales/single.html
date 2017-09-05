@@ -24,6 +24,7 @@
 							</div>
 						</div>
 					</div>
+					<h2 class="mb-3">Snapshot</h2>
           <div class="row">
             <div class="col-sm-6">
               <div class="overview">
@@ -34,14 +35,6 @@
                 <div class="flex-row">
                   <div class="flex-col-1 label">End</div>
                   <div class="flex-col-2">{{ .Params.enddate | dateFormat "02/01/2006" }}</div>
-                </div>
-                <div class="flex-row">
-                  <div class="flex-col-1 label">Crypto Value</div>
-                  <div class="flex-col-2">{{ .Params.cryptovaluation }}</div>
-                </div>
-                <div class="flex-row">
-                  <div class="flex-col-1 label">Fiat Value</div>
-                  <div class="flex-col-2">{{ .Params.fiatvaluation }}</div>
                 </div>
                 <div class="flex-row">
                   <div class="flex-col-1 label">Industry</div>
@@ -57,6 +50,7 @@
                     {{ if isset .Params.links "website" }}<a href="{{ .Params.links.website }}">{{ .Params.links.website }}</a>{{ end }}
                     <div class="mt-2">
                       {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>{{ end }}
                       {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
                       {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
                       {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
@@ -67,13 +61,21 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="flex-row mt-3 mb-3">
+              <div class="flex-row">
                 <div class="flex-col-1 indicator-value">DEAL</div>
                 <div class="flex-col-2 indicator-rating text-warning">{{ .Params.dealrating }}</div>
               </div>
-              <div class="flex-row">
+              <div class="flex-row mt-3">
                 <div class="flex-col-1 indicator-value">TRUST</div>
                 <div class="flex-col-2 indicator-rating text-success">{{ .Params.trustrating }}</div>
+              </div>
+              <div class="flex-row mt-3">
+                <div class="flex-col-1 indicator-value">SOFT CAP</div>
+                <div class="flex-col-2 indicator-rating">{{ .Params.softCap }}</div>
+              </div>
+              <div class="flex-row mt-3">
+                <div class="flex-col-1 indicator-value">HARD CAP</div>
+                <div class="flex-col-2 indicator-rating">{{ .Params.hardCap }}</div>
               </div>
             </div>
           </div>
@@ -119,16 +121,16 @@
 	            <div class="flex-col-2">{{ .Params.trust.stage }}</div>
 	          </div>
 	          <div class="flex-row mb-2">
-	            <div class="flex-col-1">Advisors</div>
-	            <div class="flex-col-2">{{ if .Params.trust.advisors }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
+	            <div class="flex-col-1">Team identity</div>
+	            <div class="flex-col-2">{{ if .Params.trust.teamidentity }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
 	          </div>
 	          <div class="flex-row mb-2">
 	            <div class="flex-col-1">Partners</div>
 	            <div class="flex-col-2">{{ if .Params.trust.partners }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
 	          </div>
 	          <div class="flex-row mb-2">
-	            <div class="flex-col-1">Team identity</div>
-	            <div class="flex-col-2">{{ if .Params.trust.teamidentity }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
+	            <div class="flex-col-1">Advisors</div>
+	            <div class="flex-col-2">{{ if .Params.trust.advisors }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
 	          </div>
 	          <div class="flex-row mb-2">
 	            <div class="flex-col-1">3rd party audit</div>
@@ -150,20 +152,20 @@
 
 				  <div class="tab-pane" id="token" role="tabpanel">
 	          <div class="flex-row mb-2">
-	            <div class="flex-col-1">Asset-backed</div>
-	            <div class="flex-col-2">{{ if .Params.token.assetbacked }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-	          </div>
-	          <div class="flex-row mb-2">
 	            <div class="flex-col-1">Functions</div>
 	            <div class="flex-col-2">{{ .Params.token.functions }}</div>
 	          </div>
 	          <div class="flex-row mb-2">
-	            <div class="flex-col-1">Pre-Mined</div>
-	            <div class="flex-col-2">{{ if .Params.token.premined }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-	          </div>
-	          <div class="flex-row mb-2">
 	            <div class="flex-col-1">Consensus</div>
 	            <div class="flex-col-2">{{ .Params.token.consensus }}</div>
+	          </div>
+	          <div class="flex-row mb-2">
+	            <div class="flex-col-1">Asset-backed</div>
+	            <div class="flex-col-2">{{ if .Params.token.assetbacked }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
+	          </div>
+	          <div class="flex-row mb-2">
+	            <div class="flex-col-1">Pre-Mined</div>
+	            <div class="flex-col-2">{{ if .Params.token.premined }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
 	          </div>
 	          <div class="flex-row mb-2">
 	            <div class="flex-col-1">Similar</div>

@@ -4,13 +4,13 @@
 
 .token-id {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .token-title {
   margin-top: 15px;
   font-size: 30px;
   color: #6f8691;
-  text-align: center;
 
   @include media-breakpoint-down(sm) {
     font-size: 20px;

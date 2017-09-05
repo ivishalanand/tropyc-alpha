@@ -18,7 +18,8 @@
     <thead>
       <tr>
         <th>Token</th>
-        <th>Risk</th>
+        <th>Trust</th>
+        <th>Deal</th>
         <th>Valuation*</th>
         <th>Platform</th>
         <th>Industry</th>
@@ -31,7 +32,8 @@
       {{ range .Data.Pages.ByWeight }}
         <tr>
           <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Params.name }}</a></td>
-          <td class="text-uppercase">{{ .Params.risk }}</td>
+          <td class="text-uppercase">{{ .Params.trustRating }}</td>
+          <td class="text-uppercase">{{ .Params.dealRating }}</td>
           <td>{{ .Params.fiatValuation }}</td>
           <td>{{ .Params.platform }}</td>
           <td>{{ .Params.industry }}</td>
