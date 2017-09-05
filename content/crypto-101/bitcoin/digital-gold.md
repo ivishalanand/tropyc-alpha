@@ -13,7 +13,7 @@ toc = true
 
 
 
-It's open-source money.
+Bitcoin is open-source money.
 
 You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates securely, independently and free from government control. 
 
