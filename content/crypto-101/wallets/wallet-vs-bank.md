@@ -1,14 +1,12 @@
 +++
-title = "Wallet versus Bank account"
+title = "Wallet vs Bank "
 date = 2017-08-02T17:15:31+02:00
 description = ""
 weight = 30
 draft = false
-bref = ""
+bref = "Wallet : Chapter III"
 toc = true
 +++
-
-# Digital wallets versus Bank accounts
 
 Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it offers an alternate monetary system to our economy : a decentralized one.
 
