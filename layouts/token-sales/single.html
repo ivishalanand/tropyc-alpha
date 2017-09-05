@@ -183,55 +183,15 @@
                 </tr>
               </thead>
               <tbody>
+              	{{ range .Params.deal }}
                 <tr>
-                  <td>Pre-tokensale</td>
-                  <td>{{ .Params.deal.pretokensale.cut }}</td>
-                  <td>{{ .Params.deal.pretokensale.supply }}</td>
-                  <td>{{ .Params.deal.pretokensale.cryptovalue }}</td>
-                  <td>{{ .Params.deal.pretokensale.fiatvalue }}</td>
+                  <td>{{ .distribution }}</td>
+                  <td>{{ .cut }}</td>
+                  <td>{{ .supply }}</td>
+                  <td>{{ .cryptovalue }}</td>
+                  <td>{{ .fiatvalue }}</td>
                 </tr>
-                <tr>
-                  <td>Tokensale</td>
-                  <td>{{ .Params.deal.tokensale.cut }}</td>
-                  <td>{{ .Params.deal.tokensale.supply }}</td>
-                  <td>{{ .Params.deal.tokensale.cryptovalue }}</td>
-                  <td>{{ .Params.deal.tokensale.fiatvalue }}</td>
-                </tr>
-                <tr>
-                  <td>Founders</td>
-                  <td>{{ .Params.deal.founders.cut }}</td>
-                  <td>{{ .Params.deal.founders.supply }}</td>
-                  <td>{{ .Params.deal.founders.cryptovalue }}</td>
-                  <td>{{ .Params.deal.founders.fiatvalue }}</td>
-                </tr>
-                <tr>
-                  <td>Early investors</td>
-                  <td>{{ .Params.deal.earlyinvestors.cut }}</td>
-                  <td>{{ .Params.deal.earlyinvestors.supply }}</td>
-                  <td>{{ .Params.deal.earlyinvestors.cryptovalue }}</td>
-                  <td>{{ .Params.deal.earlyinvestors.fiatvalue }}</td>
-                </tr>
-                <tr>
-                  <td>Affiliate</td>
-                  <td>{{ .Params.deal.affiliate.cut }}</td>
-                  <td>{{ .Params.deal.affiliate.supply }}</td>
-                  <td>{{ .Params.deal.affiliate.cryptovalue }}</td>
-                  <td>{{ .Params.deal.affiliate.fiatvalue }}</td>
-                </tr>
-                <tr>
-                  <td>Future emission</td>
-                  <td>{{ .Params.deal.futureemission.cut }}</td>
-                  <td>{{ .Params.deal.futureemission.supply }}</td>
-                  <td>{{ .Params.deal.futureemission.cryptovalue }}</td>
-                  <td>{{ .Params.deal.futureemission.fiatvalue }}</td>
-                </tr>
-                <tr>
-                  <td>Total</td>
-                  <td>{{ .Params.deal.total.cut }}</td>
-                  <td>{{ .Params.deal.total.supply }}</td>
-                  <td>{{ .Params.deal.total.cryptovalue }}</td>
-                  <td>{{ .Params.deal.total.fiatvalue }}</td>
-                </tr>
+                {{ end }}
               </tbody>
             </table>
           </div>

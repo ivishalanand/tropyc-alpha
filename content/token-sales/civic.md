@@ -50,36 +50,43 @@ trustRating = "GOOD"
 
 [deal]
   [deal.pretokensale]
+    distribution = "Pre-tokensale"
     cut = "12.5%"
     supply = "25,000,000"
     cryptovalue = "41,666"
     fiatvalue = "12.5 M"
   [deal.tokensale]
+    distribution = "Tokensale"
     cut = "65%"
     supply = "130,000,000"
     cryptovalue = "216,666"
     fiatvalue = "65 M"
   [deal.founders]
+    distribution = "Founders"
     cut = "15%"
     supply = "30,000,000"
     cryptovalue = "50,000"
     fiatvalue = "15 M"
   [deal.earlyInvestors]
+    distribution = "Early investors"
     cut = "2.5%"
     supply = "5,000,000"
     cryptovalue = "8,333"
     fiatvalue = "2.5 M"
   [deal.affiliate]
+    distribution = "Affiliate"
     cut = "5%"
     supply = "10,000,000"
     cryptovalue = "16,666"
     fiatvalue = "5 M"
   [deal.futureEmission]
+    distribution = "Future emission"
     cut = "0%"
     supply = "0"
     cryptovalue = "0"
     fiatvalue = "0"
   [deal.total]
+    distribution = "Total"
     cut = "100%"
     supply = "200,000,000"
     cryptovalue = "3,330,000"
