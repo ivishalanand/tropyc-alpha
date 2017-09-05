@@ -51,10 +51,10 @@ The act of "sending a bitcoin" requires 3 things :
      {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/private-key.svg" class="img-fluid" alt="private-key" >}}
+     {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="key" >}}
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
+     {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
     </div>
   </div>
   <div class="row">
@@ -108,7 +108,7 @@ What’s between you and a bitcoin
 <div class="container">
   <div class="row">
     <div class="col">
-      {{< img src="crypto-101/icons/private-key.svg" class="img-fluid" alt="private-key" >}}
+      {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="private-key" >}}
     </div>
     <div class="col">
       Each public address is associated with one single private key that unlocks the funds held on it.  
