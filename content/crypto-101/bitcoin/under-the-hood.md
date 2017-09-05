@@ -2,9 +2,9 @@
 title = "Under The Hood"
 date = 2017-08-02T17:14:00+02:00
 description = ""
-weight = 20
+weight = 30
 draft = false
-bref = ""
+bref = "Bitcoin: Chapter III"
 toc = true
 +++
 
@@ -15,13 +15,13 @@ toc = true
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+      {{< img src="crypto-101/icons/mining.svg" class="img-fluid" alt="mining" >}}
     </div>
     <div class="col">
-      put a pic here
+       {{< img src="crypto-101/icons/blockchain.svg" class="img-fluid" alt="blockchain" >}}
     </div>
     <div class="col">
-      put a pic here
+       {{< img src="crypto-101/icons/consensus.svg" class="img-fluid" alt="consensus" >}}
     </div>
   </div>
    <div class="row">
@@ -48,7 +48,7 @@ The main difference between fiat and bitcoin, is that the former can be printed 
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+      {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="printer-usd-dollars" >}}
     </div>
     <div class="col">
       In the current financial system, the amount of floating currencies is regulated by central banks – they can inject or remove money via a centralised system.
@@ -68,7 +68,7 @@ The main difference between fiat and bitcoin, is that the former can be printed 
       There will only be 21 million bitcoins ever mined.
     </div>
     <div class="col">
-      put a pic here
+       {{< img src="crypto-101/icons/mining.svg" class="img-fluid" alt="mining" >}}
     </div>
   </div>
  </div>
@@ -83,13 +83,13 @@ Mining bitcoin and cryptocurrencies is a resource-draining activity that require
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+       {{< img src="crypto-101/icons/hardware.svg" class="img-fluid" alt="servers" >}}
     </div>
     <div class="col">
-      put a pic here
+       {{< img src="crypto-101/icons/energy.svg" class="img-fluid" alt="thunder" >}}
     </div>
     <div class="col">
-      put a pic here
+       {{< img src="crypto-101/icons/time.svg" class="img-fluid" alt="sandbox" >}}
     </div>
   </div>
    <div class="row">
@@ -123,10 +123,10 @@ The network rewards miners in such a way, that they are incentivised to keep it 
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+      {{< img src="crypto-101/icons/transaction-fees.svg" class="img-fluid" alt="percentage-price" >}}
     </div>
     <div class="col">
-      put a pic here
+       {{< img src="crypto-101/icons/mining-rewards.svg" class="img-fluid" alt="gold-cup" >}}
     </div>
   </div>
    <div class="row">
@@ -155,7 +155,7 @@ The bitcoin blockchain is a series of blocks that holds transaction data of appr
 Miners are the ones creating new blocks by solving a mathematical formula. 
 By doing so, the network rewards them with freshly mined bitcoin 
 
-  add a pic  
+{{< img src="crypto-101/infographics/info-bt3-1.png" class="img-fluid" alt="password-lock" >}} 
 
 Each blocks records the information of multiple transaction including
 * the time,
@@ -174,10 +174,10 @@ This offers two benefits to blockchain technology
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-gold" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-inside-chat-bubble" >}}
     </div>
   </div>
    <div class="row">
@@ -211,13 +211,13 @@ A transaction does not exist until it is generated in a new block. In order to k
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/sign.svg" class="img-fluid" alt="pen-signature-document" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="boxing-gloves" >}}
     </div>
   </div>
    <div class="row">
@@ -248,35 +248,61 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 ### Sign
 
-Alice builds a transaction from her wallet.
-She sets the recipient's public address and the amount
-The public address requires the corresponding private key to be accepted
-Alice signs the transaction with her private key that can be locked by a password.
-The transaction is the sent online to the bitcoin network and blockchain (via wallets)
+<div class="container">
+  <div class="row">
+    <div class="col">
+     {{< img src="crypto-101/icons/sign.svg" class="img-fluid" alt="pen-signature-document" >}}
+    </div>
+    <div class="col">
+     Alice builds a transaction from her wallet.
+     She sets the recipient's public address and the amount
+     The public address requires the corresponding private key to be accepted
+     Alice signs the transaction with her private key that can be locked by a password.
+     The transaction is the sent online to the bitcoin network and blockchain (via wallets)
+    </div>
+  </div>
+</div>
+
 
 
 ### Generate
 
-Miners then create a new block from signed transaction and verify they are valid.
+<div class="container">
+  <div class="row">
+    <div class="col">
+     {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
+    </div>
+    <div class="col">
+    Miners then create a new block from signed transaction and verify they are valid.
+    The block data is then converted into a hash by miners.
+    A hash is a fixed-length string that holds large amounts of data. Each blocks has a unique hash because it has a unique set of data. 
+    Changing one variable in the data will change the hash completely.
+    This way, the network knows if a fake transaction was inserted in a previous block, because each block's hash is part of the formula that generate a new block
+    </div>
+  </div>
+</div>
 
-The block data is then converted into a hash by miners.
 
-A hash is a fixed-length string that holds large amounts of data. Each blocks has a unique hash because it has a unique set of data. Changing one variable in the data will change the hash completely.
-
-This way, the network knows if a fake transaction was inserted in a previous block, because each block's hash is part of the formula that generate a new block
 
 
 ### Compete
 
-Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
+<div class="container">
+  <div class="row">
+    <div class="col">
+     {{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="boxing-gloves" >}}
+    </div>
+    <div class="col">
+    Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
+    Hashing is the process of transforming an string of characters as input into a new string of fixed length as output using encryption through a hashing function. Miners need to gather different unconfirmed transactions (input) compute them into the hashing function set by the network and output a hash with a pre-determined conditions (starts with a certain amount of zeros)
+    The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultanously.
+    Under hood, the network sets every 2 weeks a hash target value : miners need to solve the problem by providing a valid hash inferior to the target.
+    Retargeting makes hashing difficulty evolve with the number miners connected to the network.
+    </div>
+  </div>
+</div>
 
-Hashing is blabla ? bla bli ! boom.
 
-The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultanously.
-
-Under hood, the network sets every 2 weeks a hash target value : miners need to solve the problem by providing a valid hash inferior to the target.
-
-Retargeting makes hashing difficulty evolve with the number miners connected to the network.
 
 
 
@@ -292,6 +318,9 @@ This ensures
 * safely prove ownership of a digital asset in a distributed and public network.
 
 Here's a recap of the process : from initiating a transaction to getting it mined on the blockchain.
+
+
+
 #### Infographie
 
 <div class="container">
@@ -311,7 +340,7 @@ Here's a recap of the process : from initiating a transaction to getting it mine
   </div>
 </div>
   
-  put pic here
+  {{< img src="crypto-101/infographics/info-btc3-2.png" class="img-fluid" alt="from-signature-to-blockchain" >}}
   
 <div class="container">
   <div class="row">
