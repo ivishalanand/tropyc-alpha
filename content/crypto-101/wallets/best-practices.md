@@ -4,15 +4,19 @@ date = 2017-08-02T17:15:06+02:00
 description = ""
 weight = 20
 draft = false
-bref = ""
+bref = "Wallets : Chapter II"
 toc = true
 +++
 
 # Wallet : best practices
 
+
 Handling digital currencies and their wallets comes with additional responsibilities in order to stay safe
 
+
+
 ## Set-up
+
 
 We advise you to set up at least two wallets:
 
@@ -23,21 +27,19 @@ Always use your hot wallet when transacting with the outside. We advise to make 
 
 Picture your hot wallet as your current account and cold wallet as your savings accounts
 
-##### table
 
-blabla
 
 
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/wallet-cold" class="img-fluid" alt="wallet-cold" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/wallet-hot" class="img-fluid" alt="wallet-hot" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/wallet-online" class="img-fluid" alt="wallet-online" >}}
     </div>
   </div>
    <div class="row">
@@ -61,12 +63,14 @@ A wallet can generate unlimited private keys and public addresses combinations. 
 
 It is important to generate a new public addresses for every transaction, otherwise the person you transact with will match the public address' balance with your identity.
 
-### Infographie
 
-One new address for each payment
+{{< img src="crypto-101/infographics/info-wal2-1" class="img-fluid" alt="public-address-single-use" >}}
+
+
 
 
 ### Encryption
+
 
 The password is a core component to the safety of your assets in a wallet. Your password should include these features:
 
@@ -80,15 +84,23 @@ In most cases, a 2-FA encryption will work with a smartphone: you can access you
 
 WARNING SMS-based 2-FA are not considered secure.
 
-##### infographie
+{{< img src="crypto-101/infographics/info-wal2-2" class="img-fluid" alt="build-digital-vault" >}}
+
 
 
 ## Centralisation
 
-##### infographie
+
+{{< img src="crypto-101/infographics/info-wal2-3" class="img-fluid" alt="wallet-like-bank-account" >}}
+
 
 Never store all your wealth in one wallet – hot or cold. It's best to avoid storing all your wealth in a account.
 Similarly, you do not want to store your back up and password next to your wallet.
+
+
+------
+
+
 
 <div class="container">
   <div class="row">
@@ -116,19 +128,36 @@ Similarly, you do not want to store your back up and password next to your walle
 </div>
 
 
+
+
 ## Back-up
 
-### infographie
 
-In case your wallet gets deleted, corrupted, lost or mislaid, you will also lose access to your to 
-private keys and therefore to all of your assets stored on your public addresses! 
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+     {{< img src="crypto-101/icons/back-up" class="img-fluid" alt="saving-file" >}}
+    </div>
+    <div class="col">
+      In case your wallet gets deleted, corrupted, lost or mislaid, you will also lose access to your to private keys and therefore to all of your assets stored on your public addresses! 
 Back-up your wallet by making a copy of private key files in case something happens to your system and store it offline abd somewhere safe.
+    </div>
+  </div>
+</div>
 
 
 
 ## Multisignature
-
-Multi-sig addresses give the ability to share ownership of a public key between several users. In order to send coins out of the wallet, the transactions require all the keys of the involved users.
-
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Multi-sig addresses give the ability to share ownership of a public key between several users. In order to send coins out of the wallet, the transactions require all the keys of the involved users.
 This feature can add an extra layer of protection if you want to share the wallet ownership without other partis. Very suitable for a family or a business account.
+    </div>
+    <div class="col">
+      {{< img src="crypto-101/icons/multi-sig" class="img-fluid" alt="multiple-private-keys" >}}
+    </div>
+  </div>
+</div>
+
