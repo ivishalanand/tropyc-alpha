@@ -13,7 +13,7 @@ toc = true
 Cryptocurrency wallets let you receive, spend and monitor securely your assets on a software program by interacting with the blockchain. 
 It stores is the single medium of interaction between the user and different cryptocurrency blockchains.
 
-##### infographie
+{{< img src="crypto-101/infographics/info-wal1-1" class="img-fluid" alt="from-wallet-to-blockchain" >}}
 
 Technically speaking, no physical object or digital files “stores” bitcoin or any cryptocurrencies: you cannot say “this computer, or this file has bitcoins”.
 
@@ -32,13 +32,13 @@ There are three different types of wallets, all of which will give you a differe
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
     </div>
     <div class="col">
-      put a pic here
+     {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
     </div>
   </div>
    <div class="row">
@@ -65,6 +65,9 @@ There are three different types of wallets, all of which will give you a differe
   </div>
 </div>
 
+
+
+
 ### Online
 
 When storing your coins on an online wallet, such as an exchange, you do not own them anymore. As such, you hold an IOU from the third party.
@@ -76,11 +79,13 @@ The former represents the technology breakthrough of the decentralized blockchai
 *WARNING!* You do not own crypto-assets stored on exchanges and online wallets, you only own a _promise_ that a third party will give you back your funds – nothing less, nothing more.
 
 
+
 ### Hot
 
 Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their cryptoassets. The wealth is stored locally rather than on a middle man's system.
 
 However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers or virus attack because it is virtually always connected to the blockchain.
+
 
 
 ### Cold
@@ -91,4 +96,11 @@ This level of security is achieved only when private keys are generated and stor
 
 You can either make your own DIY cold wallet or follow our hard wallet product reviews here.
 
-### table
+
+
+|        | I Owe U                               | Hot                      | Cold            |
+|--------|---------------------------------------|--------------------------|-----------------|
+| Use    | Cash wallet                           | Current account          | Savings account |
+| Risk   | Centralisation, hack, physical attack | Hack and Physical attack | Physical attack |
+| Safety | - - -                                 | +                        | +++             |
+
