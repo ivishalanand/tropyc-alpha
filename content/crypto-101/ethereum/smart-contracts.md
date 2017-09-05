@@ -8,11 +8,13 @@ bref = ""
 toc = true
 +++
 
-# Smart contract
 
 ## Differentiation
 
-### Conventional contracts
+
+
+#### Conventional contracts
+
 
 Conventional contracts are agreements that define stakeholder relationships on a wide range of domains, would it be related to a transaction, inheritance or consumption. 
 
@@ -20,7 +22,10 @@ Typically, valid standard contracts are enforceable by the law, meaning if you d
 However, you are not physically forced to honour the contract, there is definitely a trust factor to consider before entering a contractual relationship. Going legal on someone, is at the end of the day, an inefficient and resource draining exercise that (most) people would like to avoid.
 The current legal and judiciairy system may resolve a litigation in the matter of years, sometimes decades in some jurisdiction.
 
-### Smart contracts
+
+
+#### Smart contracts
+
 
 Smart contracts try to solve this issue by automating the terms of a contract with a few lines of code. 
 They are computer programs that execute pre-defined contractual conditions, at a certain point in time, to ensure an agreement is ultimately honoured. 
@@ -63,21 +68,32 @@ Here’s a quick recap of the difference between both.
  </div>
  
  
+ 
 Ethereum allows developers to code smart contract on its platform thanks to its own programming language Solidity. 
 Rather than “smart contracts” which is a term introduced in the 1990s, Ethereum refers them as “automated agents” in its white paper, because it enables the issuance of large scale computational operations between users and other smart contracts.
 
 
+
+
+
 ### Case study
+
 
 This might be hard to conceptualise at first so let’s have a look at a real life smart contract adaptation:
 
+
+
 #### Problem
+
 
 Alice and Bob decide to bet a fraction of their savings on the occurrence of an event. 
 Alice wins the bet If the S&P 500 reaches its lowest 10 year performance in the next month
 15 days after, Bob loses. 
 
+
+
 #### Conventional agreement
+
 
 1. Alice and Bob enter an agreement (handshake, contract)
 2. They decide that the loser will pay the winner after the event
@@ -93,7 +109,7 @@ At this point, there are 3 possible outcomes :
      {{< img src="crypto-101/icons/yes.svg" class="img-fluid" alt="yes" >}}
     </div>
     <div class="col">
-     {{< img src="crypto-101/icons/maybe.svg" class="img-fluid" alt="maybe" >}}
+     {{< img src="crypto-101/icons/three-dots.svg" class="img-fluid" alt="maybe" >}}
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/no.svg" class="img-fluid" alt="no" >}}
@@ -112,6 +128,7 @@ At this point, there are 3 possible outcomes :
   </div>
 </div>
  
+ 
 In an conventional agreement we can therefore affirm that,
 * Alice and Bob have to manually track the event
 * Bob might breach the agreement
@@ -119,7 +136,7 @@ In an conventional agreement we can therefore affirm that,
  
  
  
- #### Smart contract
+#### Smart contract
  
  
 1. Alice and Bob create a smart contract that automates the terms of the agreement and tracks S&P performance
@@ -144,7 +161,9 @@ The same way ERP and CRM automates supply chain and client communication, smart 
 
 
 
+
 ### Ethereum Virtual Machine
+
 
 Ethereum allows its users to set different kinds of operations : not just limited to monetary transactions like with Bitcoin.
 
