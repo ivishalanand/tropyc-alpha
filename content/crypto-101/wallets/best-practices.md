@@ -8,8 +8,6 @@ bref = "Wallets : Chapter II"
 toc = true
 +++
 
-# Wallet : best practices
-
 
 Handling digital currencies and their wallets comes with additional responsibilities in order to stay safe
 
