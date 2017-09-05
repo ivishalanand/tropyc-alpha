@@ -9,7 +9,8 @@ toc = true
 +++
 
 
-## Bitcoin is the the first cryptocurrency
+## The first cryptocurrency
+
 
 
 It's open-source money.
@@ -46,7 +47,7 @@ There are now two distinct economies:
 
 
 
-### Traditional economy = fiat currencies
+### Traditional or fiat economy
 
 
 * issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
@@ -61,7 +62,7 @@ Example  = USD, GBP, EUR, INR, CHINA
 
 
 
-### Decentralised ecosystem = Bitcoin, cryptocurrency and tokens
+### Decentralised or crypto economy
 
 
 * independent from any central banks, noone "owns" the Bitcoin network 
