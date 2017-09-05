@@ -1,19 +1,23 @@
 +++
-title = "Dao"
+title = "Decentralised Autonomous Organisation"
 date = 2017-08-02T17:16:36+02:00
 description = ""
-weight = 20
+weight = 40
 draft = false
-bref = ""
+bref = "Ethereum : Chapter IV"
 toc = true
 +++
 
+
+
 # Ethereum : Decentralised Autonomous Organisation
+
 
 Putting your money in a conventional investment management firm means trusting a third party with your wealth.
 At the end of the day, how do you know if your money is in safe hands? 
 It could potentially be a Ponzi scheme or worse the managers could flee with all the money and without notice.
 What’s the solution? 
+
 
 ## DAO Concept
 
@@ -23,11 +27,13 @@ A Decentralised Autonomous Organisation is a leader-less entity that is run on a
 It automates interactions within an organisation company would it be governance, profit sharing or portfolio management. 
 Through a voting system, DAO members can interact amongst each other and manage the organisation’s funds without trusting anyone but other investors alike.
 
-#### Infographie
+
+{{< img src="crypto-101/infographics/info-eth4-1.png" class="img-fluid" alt="dao" >}}
 
 
 The same way bitcoin does not require a middle man in a transaction and offers an alternative to the current financial system, a DAO can make companies operate without a complex hierarchical system and manual processes. It digitalises and automates a pre-defined set of rules for organisations: it is not confined monetary interaction but should be considered for any sort of decision or governance problematic.
 The goal here is make decision making more transparent, efficient and collaborative.
+
 
 Since a DAO is built on programs, changing the purpose or some pre-defined operations can be deemed complex as the rules are hard-coded. In the event a smart contract has a glitch, developers may not be able to fix the issue. As such, depending on how they are built smart contracts can be immutable and therefore jeopardize the utility of a DAO.
 
@@ -85,7 +91,7 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/soft-fork.svg" class="img-fluid" alt="soft-fork" >}}
     </div>
     <div class="col">
       A soft fix would freeze the assets of the Child DAO and subsequently the Ether stolen by the hacker. This solution required the network to accept the deployment of a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permission less and immutable, the only way to add a new rule is to convince 51% of all nodes to make the change happen
@@ -100,7 +106,7 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
      The second solution is more brutal :  the idea is to rewind blockchain back to a block before the DAO hack. The hard fork would therefore delete all transaction history that occurred after the attack and return to DAO token holders the Ether they invested in the project.  
     </div>
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/hard-fork.svg" class="img-fluid" alt="hard-fork" >}}
     </div>
    </div>
  </div>
@@ -120,7 +126,16 @@ An obvious analogy would be with the global financial crisis of 2008, where bank
 
 Adopting a similar approach with the DAO, would rescue investors from the loosing their funds to the hacker, however the fact that the Ethereum Foundation developed and promoted the DAO as well as proposed a solution to the hack raises the issue of network centralisation. Ethereum aspires to become the global computer by introducing decentralised applications at scale – it should therefore not be controlled by any central authority.
 
+
 <div class="container">
+    <div class="col">
+      {{< img src="crypto-101/icons/no-fork.svg" class="img-fluid" alt="no-fork" >}}
+    </div>
+    <div class="col">
+      {{< img src="crypto-101/icons/fork-please.svg" class="img-fluid" alt="fork-please" >}}
+    </div>
+  </div>
+  <div class="row">
     <div class="col">
       No Fork thanks
     </div>
@@ -137,17 +152,12 @@ Adopting a similar approach with the DAO, would rescue investors from the loosin
       14% of the entity Ether supply was stolen by the hacker. The incurred loss might be “too big to fail” for Ethereum
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      A file that proves to the network that you are the owner of a public address's balance
-    </div>
-    <div class="col">
-      A string of as much characters that gives you access to your wallet
-    </div>
-  </div>
 </div>
 
+
+
 ## The hard fork
+
 
 In July 2016, A majority Ethereum community ultimately decided to hard fork the blockchain and rewind back to a block before the DAO attack so that token holders could get their investment back. 
 The DAO held approximatelly 15% of the total supply of Ether till date, it was considered too big to fail and may have jeopardized the future of Ethereum.
