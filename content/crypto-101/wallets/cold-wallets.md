@@ -4,7 +4,7 @@ date = 2017-08-02T17:15:14+02:00
 description = ""
 weight = 20
 draft = false
-bref = ""
+bref = "Wallet : Chapter IV"
 toc = true
 +++
 
@@ -20,13 +20,13 @@ Here all the different cold wallets
 <div class="container">
   <div class="row">
     <div class="col">
-     put a pic here
+     {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="certification-tick" >}}
     </div>
     <div class="col">
-      put a pic here
+      {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="planet-spinning" >}}
     </div>
   </div>
    <div class="row">
