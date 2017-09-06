@@ -96,6 +96,7 @@ features = """
   whitepaper = true
   initialCode = true
   mvp = false
+  beta = false
   openDev = false
   launch = false
   community = false
