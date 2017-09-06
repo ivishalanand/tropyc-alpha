@@ -1,39 +1,38 @@
 +++
 title = "Civic"
 date = 2017-08-13T17:30:02+02:00
-description = ""
+description = "KickICO is an end-to-end cryptocurrency marketplace with a working platform integrated on a blockchain"
 weight = 20
 draft = false
 
-name = "Civic"
-trustRating = "A+"
-dealRating = "C-"
+name = "Kick ICO"
+trustRating = "A"
+dealRating = "B"
 softCap = "$10 M"
 hardCap = "$12 M"
-platform = "Ethereum"
-industry = "Identity"
+platform = "Native"
+industry = "crowdfunding"
 startDate = 2017-08-01
 endDate = 2017-08-31
-founded = "Singapore, 2016"
+founded = "Russia, 2017"
 
 features = """
-- Feature 1
-- Feature 2
-- Feature 3
+- crowdfunding and crowdinvesting platform for projects and venture
+- cryptocurrency fund reserved by the Bancor network
 """
 
 [links]
-  twitter = "civic"
-  facebook = "civic"
-  reddit = "civic"
-  telegram = "civic"
-  github = "civic"
-  slack = "civic"
+  twitter = "https://twitter.com/KICKICOplatform"
+  facebook = "https://www.facebook.com/kickicoplatform/"
+  reddit = "https://www.reddit.com/r/KickICO/"
+  telegram = "https://t.me/kickico"
+  github = "https://github.com/kickico"
+  
 
 [trust]
-  stage = "Pre-MVP"
+  stage = "Beta"
   advisors = true
-  partners = false
+  partners = true
   teamIdentity = true
   audit = false
   wallet = true
@@ -41,55 +40,49 @@ features = """
   refund = true
 
 [token]
-  assetBacked = true
-  functions = "Currency, Incentive"
+  assetBacked = false
+  functions = "Currency, Access, Incentive"
   premined = false
   consensus = "Proof-of-Stake"
-  similar = "N/A"
+  similar = "Neufund"
 
 [deal]
   [deal.pretokensale]
     distribution = "Pre-tokensale"
-    cut = "12.5%"
-    supply = "25,000,000"
+    cut = "7.3%"
+    supply = "60,000,000"
     cryptovalue = "41,666"
-    fiatvalue = "12.5 M"
+    fiatvalue = "API"
   [deal.tokensale]
     distribution = "Tokensale"
-    cut = "65%"
-    supply = "130,000,000"
+    cut = "72.7%"
+    supply = "600,000,000"
     cryptovalue = "216,666"
-    fiatvalue = "65 M"
+    fiatvalue = "API"
   [deal.founders]
     distribution = "Founders"
-    cut = "15%"
-    supply = "30,000,000"
+    cut = "9.1%"
+    supply = "75,000,000"
     cryptovalue = "50,000"
-    fiatvalue = "15 M"
+    fiatvalue = "API"
   [deal.earlyInvestors]
     distribution = "Early investors"
-    cut = "2.5%"
-    supply = "5,000,000"
+    cut = "4.5%"
+    supply = "37,500,000"
     cryptovalue = "8,333"
-    fiatvalue = "2.5 M"
+    fiatvalue = "API"
   [deal.affiliate]
-    distribution = "Affiliate"
-    cut = "5%"
-    supply = "10,000,000"
+    distribution = "Operations"
+    cut = "6.4%"
+    supply = "52,500,000"
     cryptovalue = "16,666"
-    fiatvalue = "5 M"
-  [deal.futureEmission]
-    distribution = "Future emission"
-    cut = "0%"
-    supply = "0"
-    cryptovalue = "0"
-    fiatvalue = "0"
+    fiatvalue = "API"
   [deal.total]
     distribution = "Total"
     cut = "100%"
-    supply = "200,000,000"
-    cryptovalue = "3,330,000"
-    fiatvalue = "100 M"
+    supply = "825,000,000"
+    cryptovalue = "137,500"
+    fiatvalue = "API"
 
 [roadmap]
   website = true
