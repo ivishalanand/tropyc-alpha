@@ -6,15 +6,15 @@ weight = 20
 draft = false
 
 name = "Civic"
-trustRating = "A+"
-dealRating = "C-"
-softCap = "$10 M"
-hardCap = "$12 M"
-platform = "Ethereum"
-industry = "Identity"
+trustRating = ""
+dealRating = ""
+softCap = ""
+hardCap = ""
+platform = ""
+industry = ""
 startDate = 2017-08-01
 endDate = 2017-08-31
-founded = "Singapore, 2016"
+founded = "Tropyc, 2016"
 
 features = """
 - Feature 1
@@ -31,7 +31,7 @@ features = """
   slack = "civic"
 
 [trust]
-  stage = "Pre-MVP"
+  stage = ""
   advisors = true
   partners = false
   teamIdentity = true
@@ -41,7 +41,7 @@ features = """
   refund = true
 
 [token]
-  assetBacked = true
+  assetBacked = false
   functions = "Currency, Incentive"
   premined = false
   consensus = "Proof-of-Stake"
