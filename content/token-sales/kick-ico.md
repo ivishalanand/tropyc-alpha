@@ -49,46 +49,47 @@ features = """
 [deal]
   [deal.pretokensale]
     distribution = "Pre-tokensale"
-    cut = "7.3%"
+    cut = "12.2%"
     supply = "60,000,000"
-    cryptovalue = "41,666"
+    cryptovalue = "20,000"
     fiatvalue = "API"
   [deal.tokensale]
     distribution = "Tokensale"
-    cut = "72.7%"
-    supply = "600,000,000"
-    cryptovalue = "216,666"
+    cut = "60.6%"
+    supply = "300,000,000"
+    cryptovalue = "100,000"
     fiatvalue = "API"
   [deal.founders]
     distribution = "Founders"
     cut = "9.1%"
-    supply = "75,000,000"
-    cryptovalue = "50,000"
+    supply = "45,000,000"
+    cryptovalue = "15,000"
     fiatvalue = "API"
   [deal.earlyInvestors]
     distribution = "Early investors"
-    cut = "4.5%"
-    supply = "37,500,000"
-    cryptovalue = "8,333"
+    cut = "8.1%"
+    supply = "40,000,000"
+    cryptovalue = "13,333"
     fiatvalue = "API"
   [deal.affiliate]
     distribution = "Operations"
-    cut = "6.4%"
-    supply = "52,500,000"
-    cryptovalue = "16,666"
+    cut = "10%"
+    supply = "50,000,000"
+    cryptovalue = "3,333"
     fiatvalue = "API"
   [deal.total]
     distribution = "Total"
     cut = "100%"
-    supply = "825,000,000"
-    cryptovalue = "137,500"
+    supply = "495,000,000"
+    cryptovalue = "165,000"
     fiatvalue = "API"
 
 [roadmap]
   website = true
   whitepaper = true
   initialCode = true
-  mvp = false
+  mvp = true
+  beta = true
   openDev = false
   launch = false
   community = false
