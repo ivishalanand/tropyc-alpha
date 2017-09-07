@@ -11,7 +11,7 @@ dealRating = "C-"
 softCap = "$10 M"
 hardCap = "$12 M"
 platform = "Ethereum"
-industry = "Identity"
+industry = "P2P marketplace"
 startDate = 2017-08-04
 endDate = 2017-10-04
 founded = "France, 2017"
@@ -27,9 +27,6 @@ features = """
   twitter = "https://twitter.com/TheAgoraICO"
   facebook = "https://www.facebook.com/TheAgoraICO/"
   reddit = "https://www.reddit.com/r/TheAgoraMarketplace/"
-  telegram = "civic"
-  github = "civic"
-  slack = "civic"
 
 [trust]
   stage = "Ideation"
