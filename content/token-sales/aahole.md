@@ -23,6 +23,7 @@ features = """
 """
 
 [links]
+  website = "https://www.ahoole.com"
   twitter = "https://twitter.com/Ahooleeman"
   facebook = "https://www.facebook.com/ahooleeman/"
   telegram = "https://t.me/ahooleecommunityeng"
@@ -30,7 +31,7 @@ features = """
 [trust]
   stage = "Alpha product"
   advisors = true
-  partners = TRUE
+  partners = true
   teamIdentity = true
   audit = false
   wallet = true

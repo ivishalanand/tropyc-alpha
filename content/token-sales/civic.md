@@ -23,12 +23,12 @@ features = """
 """
 
 [links]
+  website = "https://www.civic.com"
   twitter = "civic"
   facebook = "civic"
   reddit = "civic"
   telegram = "civic"
   github = "civic"
-  slack = "civic"
 
 [trust]
   stage = "Pre-MVP"
