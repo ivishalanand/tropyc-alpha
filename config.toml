@@ -4,6 +4,7 @@ title = "Tropyc"
 description = "Tropyc - Crypto Community"
 Paginate = 3
 
+googleAnalytics = "UA-106154604-1"
 disqusShortname = "tropyc"
 
 [Params]
