@@ -19,24 +19,38 @@
 
 	.premium-pack {
 		width: 100%;
-		height: 500px;
+		min-height: 550px;
 		border-radius: 4px;
 		background: #FEFBFB;
 
 		h2 {
+			margin-top: 2rem;
 			font-size: 2.5rem;
 		}
 
+		.highlight {
+			text-transform: uppercase;;
+			background: $gray-lighter;
+			padding: 0.5rem 2rem;
+			font-size: 0.9rem;
+			font-weight: 500;
+			letter-spacing: 0.03em;
+		}
+
+		ul {
+			letter-spacing: 0.03em;
+
+			li {
+				margin-top: 1rem;
+			}
+		}
+
 		.price-details {
+			margin-top: 1rem;
 
 			h3 {
 				font-size: 3rem;
 				font-weight: 400;
-
-				span {
-					font-size: 1rem;
-					font-weight: 300;
-				}
 			}
 
 			p {
@@ -105,27 +119,9 @@
     	height: 100px;
     }
 
-    h2 {
-    	text-transform: uppercase;
-    	padding-top: 15px;
-    	font-size: 22px;
-	    color: $orange;
-	    line-height: 22px;
-	    letter-spacing: 0.03em;
-    }
-
-    ul {
-    	list-style: none;
-	    margin-bottom: 0;
-  		padding-left: 0;
-    }
-
-    li {
+    p {
+    	margin-top: 2rem;
     	text-align: center;
-	    letter-spacing: 0.1em;
-	    margin-top: 15px;
-	    font-weight: 500;
-	    font-size: 15px;
     }
 	}
 }

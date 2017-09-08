@@ -27,7 +27,6 @@
       </tr>
     </thead>
     <tbody>
-
     	{{ $dataTokens := getJSON "https://api.coinmarketcap.com/v1/ticker/" }}
       {{ range $.Site.Data.tokens }}
 	        <tr>
@@ -49,6 +48,7 @@
   </table>
 
 </div>
+{{ partial "newsletter-bleed" . }}
 {{ end }}
 
 {{ define "footer"}} {{ partial "footer" .}} {{end}}

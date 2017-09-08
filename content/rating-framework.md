@@ -36,7 +36,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ## Interpretation
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -78,7 +78,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Token
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -116,7 +116,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Roadmap
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -154,7 +154,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Use-case
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -192,7 +192,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Safety
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -230,7 +230,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Team
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -272,7 +272,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Distribution
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -311,7 +311,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Economics
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -350,7 +350,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 
 ### Awareness
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>
@@ -390,7 +390,7 @@ Tropyc’s ICO analysis and rating is not an endorsement to the project and shou
 ### Longevity
 
 
-<table class="table table-striped">
+<table class="table table-sm table-striped">
 	<thead>
 		<tr class="text-center font-weight-bold">
 			<td>VARIABLE</td>

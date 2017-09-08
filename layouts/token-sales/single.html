@@ -179,8 +179,8 @@
                   <th></th>
                   <th>CUT</th>
                   <th>SUPPLY</th>
-                  <th>1 ETH</th>
-                  <th>1 ETH</th>
+                  <th>ETH</th>
+                  <!-- <th>1 ETH</th> -->
                 </tr>
               </thead>
               <tbody>
@@ -190,7 +190,7 @@
                   <td>{{ .cut }}</td>
                   <td>{{ .supply }}</td>
                   <td>{{ .cryptovalue }}</td>
-                  <td>{{ .fiatvalue }}</td>
+                  <!-- <td>{{ .fiatvalue }}</td> -->
                 </tr>
                 {{ end }}
               </tbody>
@@ -273,6 +273,7 @@
 		</div>
 
 	</div>
+	{{ partial "newsletter-bleed" . }}
 </div>
 
 {{ end }}

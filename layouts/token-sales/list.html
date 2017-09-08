@@ -29,12 +29,12 @@
       </tr>
     </thead>
     <tbody>
-      {{ range .Data.Pages.ByWeight }}
+      {{ range .Data.Pages.ByParam "endDate" }}
         <tr>
           <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Params.name }}</a></td>
           <td class="text-uppercase">{{ .Params.trustRating }}</td>
           <td class="text-uppercase">{{ .Params.dealRating }}</td>
-          <td>{{ .Params.fiatValuation }}</td>
+          <td>{{ .Params.hardCap }}</td>
           <td>{{ .Params.platform }}</td>
           <td>{{ .Params.industry }}</td>
           <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
@@ -56,7 +56,7 @@
   Listing is not endorsement - not to be considered as investment advice.</p>
 
 </div>
-
+{{ partial "newsletter-bleed" . }}
 
 {{ end }}
 
