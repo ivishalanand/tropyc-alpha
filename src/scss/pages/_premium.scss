@@ -41,7 +41,15 @@
 			letter-spacing: 0.03em;
 
 			li {
-				margin-top: 1rem;
+				margin-top: 1.5rem;
+				list-style-type: none;
+			}
+		}
+
+		.collapsed-list {
+			li {
+				font-size: 0.8rem;
+				color: $gray-light;
 			}
 		}
 
