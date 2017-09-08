@@ -27,58 +27,56 @@
 		<p>Learn how to purchase, store, manage and invest.</p>
 	</div>
 </div>
-<div class="title">
-	<div class="titleborder"></div>
-	<div class="titlelabel">How it works</div>
-	<div class="titleborder"></div>
-</div>
-<div class="container instructions">
-	<div class="row">
-		<div class="col-sm-6 stepbystep">
-			<div class="step">
-				<h3>Learn</h3>
-				<p>Get to know why crypto is a game changer and pick your exchange.</p>
+<div class="instructions">
+	<div class="container">
+		<h2>How Premium works</h2>
+		<div class="row">
+			<div class="col-sm-6 d-flex flex-column justify-content-around">
+					<div class="step">
+						<h3>Step-by-step</h3>
+						<p>We're here to guide you with screenshots and customised support, whether to find your exchange, invest in an ICO or set-up your cold wallet.</p>
+					</div>
+					<div class="step">
+						<h3>Design your portfolio</h3>
+						<p>Together we'll build a portfolio that best suits your needs, risk aversion and future expectations - based on our token analysis.</p>
+					</div>
+					<div class="step">
+						<h3>ICOs scored</h3>
+						<p>Tropyc performs extensive due diligence on tokensales we choose to list. Get a detailed analysis of the best ICOs available on the market.</p>
+					</div>
 			</div>
-			<div class="step">
-				<h3>Check tokens</h3>
-				<p>Have a look at our handpicked coins and tokensales. We've sorted the fundamentals for you.</p>
-			</div>
-			<div class="step">
-				<h3>Go premium</h3>
-				<p>Get your personal crypto analyst 7/7 to learn, invest, design your portfolio and get alerts.</p>
-			</div>
-		</div>
-		<div class="col-sm-6">
-			<img class="img-fluid rounded mx-auto d-block mb-2" src="/images/{{ index $.Site.Data.images.hash "landing-page/phone.png" }}">
-		</div>
-	</div>
-</div>
-<div class="title">
-	<div class="titleborder"></div>
-	<div class="titlelabel">The Crypto revolution</div>
-	<div class="titleborder"></div>
-</div>
-<div class="container funding-comparison">
-	<div class="row">
-		<div class="col-sm-6">
-			<img class="img-fluid rounded mx-auto d-block mt-3" src="/images/{{ index $.Site.Data.images.hash "landing-page/chart.png" }}">
-		</div>
-		<div class="col-sm-6 comparison-points">
-			<div class="point">
-				<h3>Revolution</h3>
-				<p>Tokensales raise more funds than startups as per the 1st of August 2017.</p>
-			</div>
-			<div class="point">
-				<h3>Token</h3>
-				<p>Check our selection of tokens, we figured out their tokenomics just for you.</p>
-			</div>
-			<div class="point">
-				<h3>Scored</h3>
-				<p>Tropyc evaluates and filters tokensales before listing. We undertake a thorough analysis based on fundamentals.</p>
+			<div class="col-sm-6">
+				<img class="img-fluid rounded mx-auto d-block" src="/images/{{ index $.Site.Data.images.hash "landing-page/phone.png" }}">
 			</div>
 		</div>
 	</div>
 </div>
+<div class="funding-comparison">
+	<div class="container">
+		<h2><span class="red">Startup funds raised</span> vs. <span class="green">Initial Coin Offerings</span></h2>
+		<p>in millions of dollars</p>
+		<div class="row">
+			<div class="col-sm-6">
+				<img class="img-fluid rounded mx-auto d-block mt-3" src="/images/{{ index $.Site.Data.images.hash "landing-page/chart.png" }}">
+			</div>
+			<div class="col-sm-6 d-flex flex-column justify-content-around">
+				<div class="point">
+					<h2>Revolution</h2>
+					<p>Tokensales raise more funds than startups as per the 1st of August 2017.</p>
+				</div>
+				<div class="point">
+					<h2>Tokenomics</h2>
+					<p>Check our database of tokens, we figured out their tokenomics just for you.</p>
+				</div>
+				<div class="point">
+					<h2>Rating</h2>
+					<p>Tropyc evaluates and filters tokensales before listing. We undertake a thorough analysis based on fundamentals.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ partial "newsletter-bleed" . }}
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}
 
