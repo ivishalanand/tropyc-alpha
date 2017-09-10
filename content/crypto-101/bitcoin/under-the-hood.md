@@ -9,6 +9,7 @@ toc = true
 +++
 
 
+
 <div class="container">
   <div class="row">
     <div class="col">
@@ -40,7 +41,7 @@ toc = true
 
 
 
-The main difference between fiat and bitcoin, is that the former can be printed without a limit while the latter is capped at 21 million.
+The main difference between fiat and Bitcoin is that the former can be printed without a limit while the latter is capped at 21 million.
 
 
 
@@ -55,8 +56,8 @@ The main difference between fiat and bitcoin, is that the former can be printed 
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="printer-usd-dollars" >}}
     </div>
     <div class="col">
-      In the current financial system, the amount of floating currencies is regulated by central banks – they can inject or remove money via a centralised system.
-      The amount of fiat money is uncapped as Central Banks have the power to print an unlimited supply.e
+      In the current financial system, floating currencies are regulated by central banks – they can inject or remove money via a centralised system.
+      The amount of fiat money is uncapped as Central Banks have the power to print an unlimited supply.
     </div>
   </div>
  </div>
@@ -72,7 +73,7 @@ The main difference between fiat and bitcoin, is that the former can be printed 
   <div class="row">
     <div class="col">
      The creation of Bitcoin is decentralised, transparent and follows an immutable mathematical formula
-      Bitcoin are not printed but "mined" by computers plugged on the network.
+      Bitcoins are not printed but "mined" by computers plugged on the network.
       There will only be 21 million bitcoins ever mined.
     </div>
     <div class="col">
@@ -82,8 +83,8 @@ The main difference between fiat and bitcoin, is that the former can be printed 
  </div>
  
  
-Cryptocurrencies were once priced based on the prequeresites costs to run the network or mining costs.
-As such, mining bitcoin and cryptocurrencies is a resource-draining activity that requires investment from the fiat economy.
+Cryptocurrencies were once priced based on the prerequisites costs to run the network or mining costs.
+As such, mining Bitcoin and cryptocurrencies is a resource-draining activity that requires investment from the fiat economy.
 
 
 
@@ -165,13 +166,13 @@ The network rewards miners in such a way, that they are incentivised to keep it 
 
 
 
-A blockchain is  publicly available and distributed digital ledger that stores bitcoin, cryptocurrency and token data and transaction information. 
+A blockchain is a publicly available and distributed digital ledger that stores Bitcoin, cryptocurrency and token data and transaction information. 
 
 
 
-The bitcoin blockchain is a series of blocks that holds transaction data of approximately 10 minutes of network activity.
+The Bitcoin blockchain is a series of blocks that holds transaction data of approximately 10 minutes of network activity.
 Miners are the ones creating new blocks by solving a mathematical formula. 
-By doing so, the network rewards them with freshly mined bitcoin 
+By doing so, the network rewards them with freshly mined Bitcoin 
 
 
 
@@ -179,7 +180,7 @@ By doing so, the network rewards them with freshly mined bitcoin
 
 
 
-Each blocks records the information of multiple transaction including
+Each block records the information of multiple transactions including
 
 * the time,
 * all transactions,
@@ -187,7 +188,7 @@ Each blocks records the information of multiple transaction including
 * the recipient's public address,
 * the amount
 * the mining reward
-* an unique idcode called hash.
+* a unique id code called hash.
 
 
 
@@ -224,8 +225,8 @@ This offers two tangible benefits to blockchain technology compared to a central
   
 
 
-Every bitcoin transactions ever created and confirmed by the network are stored in a single block - depending on the transaction time. 
-Every blocks are added on an immutable public distributed ledger, this is the blockchain : a chronological combination of data blocks.
+Every Bitcoin transactions ever created and confirmed by the network are stored in a single block - depending on the transaction time. 
+Every block is added on an immutable public distributed ledger, this is the blockchain: a chronological combination of data blocks.
 
 
 
@@ -235,7 +236,7 @@ Every blocks are added on an immutable public distributed ledger, this is the bl
 
 
 
-A transaction does not exist until it is generated in a new block. In order to keep the network safe and secure, miners reaches a consensus.
+A transaction does not exist until it is generated in a new block. In order to keep the network safe and secure, miners reach a consensus.
 
 
 
@@ -312,9 +313,9 @@ A transaction does not exist until it is generated in a new block. In order to k
     <div class="col">
     Miners then create a new block from signed transaction and verify they are valid.
     The block data is then converted into a hash by miners.
-    A hash is a fixed-length string that holds large amounts of data. Each blocks has a unique hash because it has a unique set of data. 
+    A hash is a fixed-length string that holds large amounts of data. Each block has a unique hash because it has a unique set of data. 
     Changing one variable in the data will change the hash completely.
-    This way, the network knows if a fake transaction was inserted in a previous block, because each block's hash is part of the formula that generate a new block
+    This way, the network knows if a fake transaction was inserted in a previous block because each block's hash is part of the formula that generates a new block
     </div>
   </div>
 </div>
@@ -330,9 +331,9 @@ A transaction does not exist until it is generated in a new block. In order to k
   <div class="row">
     <div class="col">
      Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
-    Hashing is the process of transforming an string of characters as input into a new string of fixed length as output using encryption through a hashing function. Miners need to gather different unconfirmed transactions (input) compute them into the hashing function set by the network and output a hash with a pre-determined conditions (starts with a certain amount of zeros)
-    The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultanously.
-    Under hood, the network sets every 2 weeks a hash target value : miners need to solve the problem by providing a valid hash inferior to the target.
+    Hashing is the process of transforming a string of characters as input into a new string of fixed length as output using encryption through a hashing function. Miners need to gather different unconfirmed transactions (input) compute them into the hashing function set by the network and output a hash with pre-determined conditions (starts with a certain amount of zeros)
+    The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultaneously.
+    Under the hood, the network sets every 2 weeks a hash target value: miners need to solve the problem by providing a valid hash inferior to the target.
     Retargeting makes hashing difficulty evolve with the number miners connected to the network.
     </div>
     <div class="col">
@@ -354,12 +355,12 @@ The method of incentivising resource-consuming activities in order to reach a ne
 
 This ensures
 
-* generation of bitcoin is known to everyone
-* creation of blocks occurs approximately every 10 minutes.
-* miner incentivisation to secure the network
-* safely prove ownership of a digital asset in a distributed and public network.
+* Bitcoin emission rate is transparent.
+* Creation of blocks occurs approximately every 10 minutes.
+* Miners are incentivised to secure the network.
+* Digital assets are secured on a distributed and public network.
 
-Here's a recap of the process : from initiating a transaction to getting it mined on the blockchain.
+Here's a recap of the process: from initiating a transaction to getting it mined on the blockchain.
 
 
 <div class="container">
@@ -398,14 +399,14 @@ Here's a recap of the process : from initiating a transaction to getting it mine
   </div>
 </div>
 
-Miners are tasked with solving a mathematical problem before getting rewarded by the network. If it take more resources to solve a problem than to verify it, this is called Proof-of-Work.
-Because the number of miners plugged on the Bitcoin network constantly varies, the mining difficult adjusts itself to the network.
+Miners are tasked with solving a mathematical problem before getting rewarded by the network. If it takes more resources to solve a problem than to verify it, this is called Proof-of-Work.
+Because the number of miners plugged on the Bitcoin network constantly varies, the mining difficulty adjusts itself to the network.
 
 Every 2016 blocks, the mining difficulty changes so that the previous 2016 blocks mined would be mined in exactly two weeks from then. On average, 2016 blocks in two weeks represents one block every 10 minutes.
 
 1. If more miners join the network, then the time to mine one single block reduces.
 2. If blocks are getting mined faster, then the mining difficulty will have to increase.
-3. When mining difficulte increased, then miners need to more time to solve the Proof-Of-Work problem
+3. When mining difficulty increased, then miners need more time to solve the Proof-Of-Work problem
 4. The time to mine one single block increases.
 
 The Bitcoin network automatically adjusts its difficulty to the network, in order to keep mining one block every 10 minutes.
