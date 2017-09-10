@@ -10,7 +10,7 @@ toc = true
 
 # Cold wallet
 
-Cold wallets protects your coins and tokens from online threats. In fact, your private keys are offline, locally stored in an “air-gapped” device. Because your assets are not connected to the internet, they are impossible  to compromise digitally.
+Cold wallets protect your coins and tokens from online threats. In fact, your private keys are offline, locally stored in an “air-gapped” device. Because your assets are not connected to the internet, they are impossible to compromise digitally.
 
 This level of security is achieved only when private keys are generated and stored in an offline environment.
 
@@ -49,7 +49,7 @@ Here all the different cold wallets
 There are multiple secure and well-designed cold wallets to store your coins at an affordable price. 
 They hold your cryptocurrency private keys in an offline environment and make your overall user experience convenient.
 
-Depending on the price range, products can provice a screened device, a software application and compatibility to various cryptocurrencies.
+Depending on the price range, products can provide a screened device, a software application and compatibility to various cryptocurrencies.
 
 If you don't have the time or the desire to build your own cold wallet, you can check out our handpicked lists of branded wallets below.
 
@@ -67,14 +67,15 @@ If you don't have the time or the desire to build your own cold wallet, you can 
 
 Making your own cold wallet is not as complicated as it sounds. Do It Yourself cold wallets let you build a network of cold wallets at minimal costs. All you need is a pen drive and a computer and follow clinically a few steps. 
 
-Go Premium : you'll get a handy guide and our team will be here 7/7 to support you.
+Go Premium: you'll get a handy guide and our team will be here 7/7 to support you.
 
 
 
 ## Paper wallets
 
-Similarly, you can print your own cold wallet on paper. It  holds all the necessary information to access cryptocurrencies on a sheet of paper : a public address and a private key.
+Similarly, you can print your own cold wallet on paper. It holds all the necessary information to access cryptocurrencies on a sheet of paper: a public address and a private key.
 
 For obvious reasons, paper cold wallets are less durable than devices cold wallets, so be sure to store the sheet in a dry place.
+
 
 
