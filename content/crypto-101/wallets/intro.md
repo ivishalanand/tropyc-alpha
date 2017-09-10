@@ -14,13 +14,13 @@ toc = true
 
 
 Cryptocurrency wallets let you receive, spend and monitor securely your assets on a software program by interacting with the blockchain. 
-It stores is the single medium of interaction between the user and different cryptocurrency blockchains.
+It is the single medium of interaction between the user and different cryptocurrency blockchains.
 
-Technically speaking, no physical object or digital files “stores” bitcoin or any cryptocurrencies: you cannot say “this computer, or this file has bitcoins”.
+Technically speaking, no physical object or digital files “stores” Bitcoin or any cryptocurrencies: you cannot say “this computer, or this file has bitcoins”.
 
 In fact, digital wallets store records of transactions between different public addresses. Cryptocurrencies do not exist, all that exists is the transaction history stored on the blockchain.
 
-Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptograhy. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded and the two public address balances are updated.
+Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded and the two public address balances are updated.
 
 
 
@@ -49,7 +49,7 @@ Behind the scenes, the sender proves to the network that he is the owner of a cr
 
 
 
-Now that we understand what wallets do and how they works, lets' review their categories 
+Now that we understand what wallets do and how they work, lets' review their categories 
 
 There are three different types of wallets, all of which will give you a different level of control, security and user experience.
 
@@ -81,7 +81,7 @@ There are three different types of wallets, all of which will give you a differe
       Third party holds the digital currency. You hold a promise of payment back or IOU
     </div>
     <div class="col">
-      No middle man has access to our coins : coins are stored and held locally. However they are vulnerable to a physical and digital attack
+      No middle man has access to our coins: coins are stored and held locally. However, they are vulnerable to a physical and digital attack
     </div>
     <div class="col">
       Coins stored locally in a system that never went online. Still vulnerable to physical attack
@@ -109,7 +109,7 @@ The former represents the technology breakthrough of the decentralized blockchai
 ### Hot
 
 
-Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their cryptoassets. The wealth is stored locally rather than on a middle man's system.
+Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their crypto assets. The wealth is stored locally rather than on a middle man's system.
 
 However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers or virus attack because it is virtually always connected to the blockchain.
 
