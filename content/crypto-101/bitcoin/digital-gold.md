@@ -91,14 +91,38 @@ We can identify three main differences between them :
 * In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
 
-
-
-| Features               | Fiat                     | Crypto              |
-|------------------------|--------------------------|---------------------|
-| Emission rate          | Opaque and unpredictable | Accessible and fixed |
-| Trusting a third party | Mandatory                | Flexible            |
-| Privacy                | Low                      | High                |
-| Transparency           | Low                      | High                |
+</table>
+<table class="table table-sm table-striped">
+    <thead>
+        <tr class="text-center font-weight-bold">
+            <td>FEATURES</td>
+            <td>FIAT</td>
+            <td>CRYPTO</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Emission rate</td>
+            <td>Opaque and unpredictable</td>
+            <td>Accessible and fixed</td>
+        </tr>
+        <tr>
+            <td>Trusting a third party</td>
+            <td>Mandatory</td>
+            <td>Flexible</td>
+        </tr>
+        <tr>
+            <td>Privacy</td>
+            <td>Low</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Transparency</td>
+            <td>Low</td>
+            <td>High</td>
+        </tr>
+    </tbody>
+</table>
 
 
 
