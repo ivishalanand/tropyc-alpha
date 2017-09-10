@@ -11,7 +11,7 @@ toc = true
 
 ## Centralisation of internet
 
-Ethereum addresses one of the core issues of the internet today: centralisation of authority and trusting a third party. The same way Bitcoin is disrupting financial services, Ethereum addresses one of internet’s core issue: internet centralisation.
+Ethereum addresses one of the core issues of the internet today: centralisation of authority and trusting a third party. The same way Bitcoin is disrupting financial services, Ethereum addresses one of the internet’s core issue: internet centralisation.
 Let’s first have a look at how the world wide web operates compared to the decentralised model:
 
 {{< img src="crypto-101/infographics/info-eth1-1.png" class="img-fluid" alt="centralised-vs-decentralised-internet" >}}
@@ -20,13 +20,13 @@ Let’s first have a look at how the world wide web operates compared to the dec
 
 The current world wide web framework stores most of the data locally. In other words, when you visit a website you trust a third party to 
 
-*	securely store your information (payment details, browsing history, passwords, identity…)
-*	keep it safe from attacks (hacks, leaks)
-*	avoid using it for illegitimate commercial purposes. (sell to third parties etc…) 
+*    securely store your information (payment details, browsing history, passwords, identity…)
+*    keep it safe from attacks (hacks, leaks)
+*    avoid using it for illegitimate commercial purposes. (sell to third parties etc…) 
 
 
-The problem here, is that there are no ways of monitoring how your information is handled, if it is safe or not, and whether a third party tries to deceive you. 
-The NSA Snowden case and Wikileaks hack are just sample of what can happen to your personnal information.
+The problem here is that there are no ways of monitoring how your information is handled if it is safe or not, and whether a third party tries to deceive you. 
+The NSA Snowden case and Wikileaks hack are just samples of what can happen to your personal information.
 
 
 A decentralised system utilizes nodes (computers connected to the network) to validate transactions, instead of a centralised “cloud” servers owned by a third party. 
@@ -50,7 +50,7 @@ This methodology can be applied to every product and services. Ethereum aspires 
 
 
 Bitcoin is the first use case of blockchain technology and has without any doubt disrupted the banking and financial services sector. However, Bitcoin is just one of the possible application of a blockchain: the first cryptocurrencies acted as peer-to-peer digital currencies and were therefore limited to financial operations.
-At this time, building decentralised blockchain applications required strong skillsets in cryptography, computer science, economics and whatnot.
+At this time, building decentralised blockchain applications required strong skill sets in cryptography, computer science, economics and whatnot.
 
 
 Ethereum changed that.
@@ -74,16 +74,17 @@ How?
 Ethereum is famous for introducing programming tools on top of its blockchain to make developer’s life easier.
 
 
-*	**Smart contracts**: programs that can run transparently, in a trust less environment without any middle man. In other words, with smart contracts, you can program stakeholder relationships and automate interactions between themselves
+* **Smart contracts**: programs that can run transparently, in a trust less environment without any middle man. In other words, with smart contracts, you can program stakeholder relationships and automate interactions between themselves
 
 
-*	**Tokensale and Initial Coin Offering infrastructure**: simplified framework to issue tokens, design the economics (supply, mining …) and plan the crowdfunding exercise (timeline, amount sought …) 
+* **Tokensale and Initial Coin Offering infrastructure**: a simplified framework to issue tokens, design the economics (supply, mining …) and plan the crowd funding exercise (timeline, amount sought …) 
 
-*	**Decentralised Autonomous Organisation (DAO)** : automation of stakeholder relationships within an organisation such as voting for governance, profit distribution or asset management.
+* **Decentralised Autonomous Organisation (DAO)**: 
+automation of stakeholder relationships within an organisation such as voting for governance, profit distribution or asset management.
 
-*	**Decentralised browsers**: the new internet will be decentralised … in order to surf on the web 3.0 a decentralised browser is necessary.
+* **Decentralised browsers**: the new internet will be decentralised … in order to surf the web 3.0 a decentralised browser is necessary.
 
-* **Programming language**: Solidity is the ethereum language that can deploy DApps and smart contracts on the network. Ethereum gathers an active community that shares libraries, coding frameworks and contract development examples
+* **Programming language**: Solidity is the Ethereum language that can deploy DApps and smart contracts on the network. Ethereum gathers an active community that shares libraries, coding frameworks and contract development examples
 
 
 
@@ -92,8 +93,8 @@ Ethereum is famous for introducing programming tools on top of its blockchain to
 
 
 
-How did a decentralised world computer developed on a blockchain managed to go so big? Well, because it is centralised.
+How did a decentralised world computer developed on a blockchain manage to go so big? Well, because it is centralised.
 
-The Ethereum Network is being developed and maintened by the Ethereum Foundation a non for profit based (legally) out of Switzerland.
+The Ethereum Network is being developed and maintained by the Ethereum Foundation a non-for-profit based (legally) out of Switzerland.
 
 In 2013, Vitalik Buterin, 19, first proposed Ethereum as a decentralised mining cum software development platform. Although he is not the Executive Director of the foundation, he quickly became the young face of the Ethereum revolution. 
