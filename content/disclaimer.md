@@ -25,7 +25,7 @@ Our beta listing framework for cryptocurrencies and tokenized assets is dependen
 
 
 
--    Market capitalisation
+* Market capitalisation
 
 
 No low and middle market capitalisation coins are considered in the listing. 
@@ -33,35 +33,35 @@ As the aim is to gather the established coins in the crypto space, our database 
 
 
 
--    Disruption
+* Disruption
 
 
 Tokens and their eco-system should be innovative in their fundamental functions and have a high disruption factor to global markets. Additionally, tokens should deliver a tangible utility to its holder.
 
 
 
--    Year
+* Year
 
 
 Only tokens older than 12 months are listed.
 
 
 
--    Volume and presence
+* Volume and presence
 
 
 Cryptocurrencies and tokenized assets should have a presence on major cryptocurrency exchanges with a high volume.
 
 
 
--    Fundamentals
+* Fundamentals
 
 
 The token distribution established during the initial coin offering of the token should be considered as fair and transparent between the founding team, token holders and other involved stakeholders (miners, early investors etc…)
 
 
 
--    Hype
+* Hype
 
 
 The token’s community alongside with its communication channels (web application, social media, code repository, instant messaging) should be informative, transparent, and well maintained.
