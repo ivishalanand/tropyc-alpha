@@ -17,7 +17,7 @@ Bitcoin is open-source money.
 
 You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates securely, independently and free from government control. 
 
-Also known as cryptocurrency, these new kinds of financial instruments offer an alternative to central bank backed currencies.
+Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to central bank backed currencies.
 
 Bitcoin is simply put, the first decentralised financial system that works.
 
@@ -53,11 +53,11 @@ There are now two distinct economies:
 
 * issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
 
-* can printed endlessly by a central bank.
+* can be printed endlessly by a central bank.
 
-* transferred from and to personnal bank accounts, but managed by third parties (your bank)
+* transferred from and to personal bank accounts, but managed by third parties (your bank)
 
-* No transparency and low privacy : government printed trillions of dollars since the 2008 financial crisis and yet there is low knowledge on how these funds are used. Credit cards companies, Tax authority and banks have access to all your financial life.
+* No transparency and low privacy: government printed trillions of dollars since the 2008 financial crisis and yet there is low knowledge on how these funds are used. Credit cards companies, Tax authority and banks have access to all your financial life.
 
 Example  = USD, GBP, EUR, INR, CHINA
 
@@ -68,13 +68,13 @@ Example  = USD, GBP, EUR, INR, CHINA
 
 
 
-* independent from any central banks, noone "owns" the Bitcoin network 
+* independent from any central banks, no one "owns" the Bitcoin network 
  
 * rate of emission (printing) is fixed, transparent and immutable. There will be only 21 million Bitcoin, not more than that.
  
-* users transact without the need of a middle men. It is secured by encrypted digital signature and runs on cryptography and algorithms.
+* users transact without the need of middle men. It is secured by encrypted digital signature and runs on cryptography and algorithms.
 
-* Perfect transparency and flexible privacy : everyone has access to every transactions that occured on the network, and you can store your wealth anonymously at the same time.
+* Perfect transparency and flexible privacy: everyone has access to every transaction that occurred on the network, and you can store your wealth anonymously at the same time.
 
 Example  = Bitcoin, Litecoin, Ether, Monero ...
 
@@ -84,18 +84,18 @@ Example  = Bitcoin, Litecoin, Ether, Monero ...
 We can identify three main differences between them :
 
 
-* You are obliged to trust a third party (a bank) to hold your wealth with fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
+* You are obliged to trust a third party (a bank) to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
-* Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
+* Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
 
-* In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionnaly, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditionnal bank account as Know Your Customer (KYC) requirements are strict.
+* In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
 
 
 
 | Features               | Fiat                     | Crypto              |
 |------------------------|--------------------------|---------------------|
-| Emission rate          | Opaque and unpredictable | Accesible and fixed |
+| Emission rate          | Opaque and unpredictable | Accessible and fixed |
 | Trusting a third party | Mandatory                | Flexible            |
 | Privacy                | Low                      | High                |
 | Transparency           | Low                      | High                |
@@ -109,8 +109,8 @@ We can identify three main differences between them :
 
 
 In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”. 
-Supported by a team of developers and managed by Satoshi, the bitcoin protocol came to notice in 2011 in mainstream media.
-It is the most famous cryptocurrency and the largest one by market capitalisation. There are now over a thousand cryptocurrencies and cryptoassets.
+Supported by a team of developers and managed by Satoshi, the Bitcoin protocol came to notice in 2011 in mainstream media.
+It is the most famous cryptocurrency and the largest one by market capitalisation. There are now over a thousand cryptocurrencies and crypto assets.
 
 
 
@@ -137,7 +137,7 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
 
 
 Bitcoin offers an alternative to our financial system, it removes the concept of a middle man in a monetary transaction. 
-he same way we were able to send messages via e-mail without the need of a  middle man.
+The same way we were able to send messages via e-mail without the need of a  middle man.
 You can now do the same ... but with money.
 
 
@@ -173,7 +173,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/accessible.svg" class="img-fluid" alt="door-open" >}}
     </div>
     <div class="col">
-      Unlike bank accounts, there are no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
+      Unlike bank accounts, there is no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
       You have complete control over your capital.
     </div>
   </div>
@@ -239,7 +239,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
     </div>
     <div class="col">
-      In Bitcoin, we have  perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
+      In Bitcoin, we have perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
 In other words, a wallet may not be clearly associated with a person's name.
     </div>
   </div>
