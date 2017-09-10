@@ -125,11 +125,35 @@ This level of security is achieved only when private keys are generated and stor
 
 You can either make your own DIY cold wallet or follow our hard wallet product reviews here.
 
-
-
-|        | I Owe U                               | Hot                      | Cold            |
-|--------|---------------------------------------|--------------------------|-----------------|
-| Use    | Cash wallet                           | Current account          | Savings account |
-| Risk   | Centralisation, hack, physical attack | Hack and Physical attack | Physical attack |
-| Safety | - - -                                 | +                        | +++             |
+</table>
+<table class="table table-sm table-striped">
+    <thead>
+        <tr class="text-center font-weight-bold">
+            <td> </td>
+            <td>I OWE U</td>
+            <td>HOT</td>
+            <td>COLD</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Use</td>
+            <td>Cash wallet</td>
+            <td>Current account</td>
+            <td>Saving account</td>
+        </tr>
+        <tr>
+            <td>Risk</td>
+            <td>Centralisation, hack, physical attack</td>
+            <td>Hack and physical attack</td>
+            <td>Physical attack</td>
+        </tr>
+        <tr>
+            <td>Safety</td>
+            <td>- - -</td>
+            <td>+</td>
+            <td>+ + +</td>
+        </tr>
+    </tbody>
+</table>
 
