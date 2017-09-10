@@ -40,8 +40,7 @@ toc = true
 
 
 
-Bitcoins are recorded electronically on a wallet; 
-it operates the same way than with cash wallets, but digitally.
+Bitcoins are recorded electronically on wallets; it operates the same way than with cash wallets, but digitally.
 
 The act of "sending a bitcoin" requires 3 things :
 
@@ -83,7 +82,7 @@ The act of "sending a bitcoin" requires 3 things :
 </div>
 
 
-What’s between you and a bitcoin
+What’s between you and a Bitcoin
 
 
 {{< img src="crypto-101/infographics/info-btc2-1.png" class="img-fluid" alt="user-wallet-cryptography-bitcoin" >}}
@@ -99,9 +98,9 @@ What’s between you and a bitcoin
 <div class="container">
   <div class="row">
     <div class="col">
-      A public address serves as the recipient crypto bank account : a bitcoin is held on a public address.
-      All the transaction information between public address are available to everyone online on a decentalised ledger
-      This means everyone know how much bitcoin a public address holds. 
+      A public address serves as the recipient crypto bank account: a Bitcoin is held on a public address.
+      All the transaction information between public address are available to everyone online on a decentralised ledger
+      This means everyone knows how much Bitcoins a public address holds. 
       Therefore, make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he’ll know how much you have!
     </div>
     <div class="col">
@@ -181,7 +180,7 @@ Let's compare fiat currencies and Bitcoin on this matter :
 
 
 
-Owning a bitcoin has become easyer by the day. 
+Owning a Bitcoin has become easier by the day. 
 Now that you want to get hold of some bitcoin, here are several ways to purchase some.
 
 
@@ -193,7 +192,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 <div class="container">
   <div class="row">
     <div class="col">
-      Just like the stock and bond market exchange, you can buy cryptocurrencies on a specialised cryptocurrency exchange. An exchange act a centralised marketplace and let you swap fiat with cryptocurrencies at a given rate - decided by the market.
+      Just like the stock and bond market exchange, you can buy cryptocurrencies on a specialised cryptocurrency exchange. An exchange acts a centralised marketplace and lets you swap fiat with cryptocurrencies at a given rate - decided by the market.
     </div>
     <div class="col">
        {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="currency-swap" >}}
@@ -225,7 +224,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 <div class="container">
   <div class="row">
     <div class="col">
-      As opposed to centralised exchanges, you can join a dealers network and purchase some bitcoin over-the-counter. This method is usually utilised for large bulk purchase
+      As opposed to centralised exchanges, you can join a dealers network and purchase some Bitcoin over-the-counter. This method is usually utilised for large bulk purchase
     </div>
     <div class="col">
        {{< img src="crypto-101/icons/over-the-counter.svg" class="img-fluid" alt="merchant-selling-goods" >}}
