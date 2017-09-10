@@ -51,13 +51,69 @@ Depending on the price range, products can provide a screened device, a software
 
 If you don't have the time or the desire to build your own cold wallet, you can check out our handpicked lists of branded wallets below.
 
-| Picture | Wallet      | Device      | Altcoins | Price | Buy |
-|---------|-------------|-------------|----------|-------|-----|
-|         | Ledger Blue | Touchscreen | Yes      | 229€  |     |
-|         | Trezor      | Screen      | Yes      | 89€   |     |
-|         | Ledger Nano | Screen      | Yes      | 58€   |     |
-|         | KeepKey     | Screen      | No       | $99   |     |
-|         | OpenDime    | Pen-drive   | No       | $12   |     |
+<table class="table table-sm table-striped">
+    <thead>
+        <tr class="text-center font-weight-bold">
+            <td>PICTURE</td>
+            <td>WALLET</td>
+            <td>DEVICE</td>
+            <td>ALTCOINS</td>
+            <td>PRICE</td>
+            <td>PRICE</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>PIC</td>
+            <td>Ledger Blue</td>
+            <td>Touchscreen</td>
+            <td>Yes</td>
+            <td>229€</td>
+            <td>CART PIC</td>
+        </tr>
+        <tr>
+            <td>PIC</td>
+            <td>Trezor</td>
+            <td>Screen</td>
+            <td>Yes</td>
+            <td>89€</td>
+            <td>CART PIC</td>
+        </tr>
+        <tr>
+            <td>PIC</td>
+            <td>Ledger Nano</td>
+            <td>Screen</td>
+            <td>Yes</td>
+            <td>58€</td>
+            <td>CART PIC</td>
+        </tr>
+         <tr>
+            <td>PIC</td>
+            <td>KeepKey</td>
+            <td>Screen</td>
+            <td>No</td>
+            <td>$99</td>
+            <td>CART PIC</td>
+        </tr>
+        <tr>
+            <td>PIC</td>
+            <td>OpenDime</td>
+            <td>Pen-drive</td>
+            <td>No</td>
+            <td>$12</td>
+            <td>CART PIC</td>
+        </tr>
+         <tr>
+            <td>PIC</td>
+            <td>Digital Bitbox</td>
+            <td>Pen-drive</td>
+            <td>No</td>
+            <td>78€</td>
+            <td>CART PIC</td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 
