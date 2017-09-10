@@ -8,8 +8,6 @@ bref = "Wallet : Chapter IV"
 toc = true
 +++
 
-# Cold wallet
-
 Cold wallets protect your coins and tokens from online threats. In fact, your private keys are offline, locally stored in an “air-gapped” device. Because your assets are not connected to the internet, they are impossible to compromise digitally.
 
 This level of security is achieved only when private keys are generated and stored in an offline environment.
