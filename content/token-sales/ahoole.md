@@ -1,11 +1,11 @@
 +++
-title = "Ahoole"
+title = "Ahoolee"
 date = 2017-08-13T17:30:02+02:00
 description = "Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoole's blockchain application"
 weight = 20
 draft = false
 
-name = "Ahoole"
+name = "Ahoolee"
 trustRating = "A"
 dealRating = "B-"
 softCap = "$10 M"
