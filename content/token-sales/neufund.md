@@ -1,7 +1,7 @@
 +++
 title = "Neufund"
 date = 2017-08-13T17:30:02+02:00
-description = ""
+description = "Equity and legal fundraising platform that let investors stay in control of their assets"
 weight = 20
 draft = false
 
@@ -12,14 +12,14 @@ softCap = "N/A"
 hardCap = "N/A"
 platform = "native"
 industry = "crowdfunding"
-startDate = 2017-08-01
-endDate = 2017-08-31
-founded = "Tropyc, 2016"
+startDate = 2017-10-01
+endDate = 2017-10-31
+founded = "Germany, 2017"
 
 features = """
-- Initial 
-- Feature 2
-- Feature 3
+- Equity and legal crowdfunding marketplace
+- ICBM let token holders stay in control over their capital
+- Allows any kind of companies raise funds
 """
 
 [links]
@@ -27,9 +27,10 @@ features = """
   twitter = "https://twitter.com/neufundorg"
   facebook = "https://www.facebook.com/neufundorg/"
   reddit = "https://www.reddit.com/r/neufund/"
+  github = "https://github.com/neufund"
 
 [trust]
-  stage = ""
+  stage = "Beta"
   advisors = true
   partners = true
   teamIdentity = true
@@ -40,7 +41,7 @@ features = """
 
 [token]
   assetBacked = false
-  functions = "Currency, Incentive"
+  functions = "Ownership, Currency, Access"
   premined = false
   consensus = "Proof-of-Stake"
   similar = "KickICO"
