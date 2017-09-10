@@ -9,7 +9,7 @@ toc = true
 +++
 
 
-Because cryptocurrencies follow a more decentralised model, the process of creating new bitcoin differs from the process of printing fiat money.
+Because cryptocurrencies follow a more decentralised model, the process of creating new Bitcoin differs from the process of printing fiat money.
 
 
 <div class="container">
@@ -35,8 +35,8 @@ Because cryptocurrencies follow a more decentralised model, the process of creat
 The rate of mining Bitcoin is predictable and known to everyone on the network.
 
 * Externalities cannot vary the issuance of bitcoin
-* Bitcoin are becoming more scare
-* It's monetary system is not inflationist like in fiat, but desinflationist
+* Bitcoins are becoming more scare
+* Its monetary system is not inflationist like in fiat, but dis-inflationist
 
 
 
@@ -83,13 +83,11 @@ Bitcoin is a new kind of money that hold different fundamentals. Let's define it
 
 
 
-## Functions of bitcoin
+## Functions of Bitcoin
 
 
 
-Everyone can use bitcoin. Unlike conventional currencies, most of bitcoin holders are individuals rather than institutions. Although Bitcoin is reaching new audiences by the day, would it be institutionalised investors or enthusiasts.
- 
-It is difficult to estimate the proportion of household money in the cryptocurrency economy. That being said, anyone can look up the amount of every public addresses on the blockchain: the data is free and transparent.
+Everyone can use Bitcoin. Unlike conventional currencies, most of Bitcoin holders are individuals rather than institutions. Although Bitcoin is reaching new audiences by the day, would it be institutionalised investors or enthusiasts, it is difficult to estimate the proportion of household money in the cryptocurrency economy. That being said, anyone can look up the amount of every public address on the blockchain: the data is free and transparent.
 
 
 
@@ -129,7 +127,7 @@ Precious metals, such as gold, have been historically efficient stores of wealth
 
 Nicknamed the “digital gold” by Nathaniel Popper, Bitcoin holds similar characteristics, making it an eligible candidate for a new kind of store of value.
 
-Unless a considerable share of the population perceives bitcoin as an efficient store of wealth (just like gold), defining it as _efficient_ is debatable and controversial. 
+Unless a considerable share of the population perceives Bitcoin as an efficient store of wealth (just like gold), defining it as _efficient_ is debatable and controversial. 
 Bitcoin has been a strong store of value since its existence: assessing its efficiency should always be relative to another class of assets.
 
 Amid unstable economy, fast-paced globalisation and new technology breakthroughs, no one can point an item and declare with high certainty: “This is and always be a great store of wealth” - same applies to Bitcoin.
@@ -146,11 +144,11 @@ For this matter, you can consider US Dollars as the world currency, or bitcoin, 
 
 {{< img src="crypto-101/charts/chart-eco-btcusd.png" class="img-fluid" alt="chart-world-gdp-btc-vs-usd" >}}
  
-The above illustrates the state of the economy of World Bank Group participants (170+ countries) since 2013. In USD, the economy is somewhate stable, however in Bitcoin the economy is collapsing.
+The above illustrates the state of the economy of World Bank Group participants (170+ countries) since 2013. In USD, the economy is somewhat stable, however, in Bitcoin, the economy is collapsing.
 
-Cryptocurrencies are still infamous globally compared to established government-backed currencies : they do not represent a strong unit of account. However, it does not mean cryptocurrencies cannot fulfill this role in the future, it has all the required features to do so.
+Cryptocurrencies are still infamous globally compared to established government-backed currencies: they do not represent a strong unit of account. However, it does not mean cryptocurrencies cannot fulfil this role in the future, it has all the required features to do so.
 
-It is important to note that in the cryptocurrency world, bitcoin IS the unit of account, as every alt coins are priced in BTC.
+It is important to note that in the cryptocurrency world, Bitcoin IS the unit of account, as every alt coins are priced in BTC.
 
 
 
@@ -230,7 +228,7 @@ Bankers typically switch between America, Europe and Asia to operate continuousl
 ##### Crypto
 
 
-Cypto markets are open 24/7 non stop on independent exchanges and can therefore be traded whenever you feel like it.
+Cryptocurrency markets are open 24/7 non-stop on independent exchanges and can be traded whenever you feel like it.
 
 
 
@@ -269,8 +267,8 @@ Cypto markets are open 24/7 non stop on independent exchanges and can therefore 
 
 
 
-Bitcoin is the pioneer in digital money and is therefore witnessing aggressive growth thanks to its focus on privacy and peer-to-peer transactions. 
+Bitcoin is the pioneer in digital money and is, therefore, witnessing aggressive growth thanks to its focus on privacy and peer-to-peer transactions. 
 
-Prices are not stable and very volatile, compared to traditional currencies. It is not uncommon to witness a 50% price variation in a couple of weeks. A similar pattern in fiat currencies would shaken up the global economy.
+Prices are not stable and very volatile, compared to traditional currencies. It is not uncommon to witness a 50% price variation in a couple of weeks. A similar pattern in fiat currencies would shake up the global economy.
 
 At first, the daily volume of transactions and exchange from fiat money to cryptocurrency were very low, making cryptocurrencies illiquid. But Bitcoin has established itself as the leading cryptocurrency, it is now very liquid - the same cannot be said for other cryptocurrencies.
