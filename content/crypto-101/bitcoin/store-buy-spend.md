@@ -9,27 +9,19 @@ toc = true
 +++
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="vault" >}}
+     <p class="font-weight-bold">Store</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="swap-currencies" >}}
+     <p class="font-weight-bold">Purchase</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/wallet.svg" class="img-fluid" alt="wallet" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Store
-    </div>
-    <div class="col">
-      Purchase
-    </div>
-    <div class="col">
-      Spend
+     <p class="font-weight-bold">Spend</p>
     </div>
   </div>
 </div>

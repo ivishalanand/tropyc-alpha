@@ -12,20 +12,14 @@ toc = true
 Because cryptocurrencies follow a more decentralised model, the process of creating new Bitcoin differs from the process of printing fiat money.
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row text-center">
     <div class="col">
-     Bitcoin supply emission rate
-    </div>
-    <div class="col">
-      Bitcoin rewards per blocks
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
+      <p class="font-weight-bold">Bitcoin supply emission rate</p>
       {{< img src="crypto-101/charts/chart-btc-supply.png" class="img-fluid" alt="bitcoin-emission-rate" >}}
     </div>
     <div class="col">
+      <p class="font-weight-bold">Bitcoin rewards per blocks</p>
       {{< img src="crypto-101/charts/chart-btc-reward.png" class="img-fluid" alt="bitcoin-incentives-per-block" >}}
     </div>
   </div>
@@ -43,38 +37,22 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 Bitcoin is a new kind of money that hold different fundamentals. Let's define its' possible use case as a form of money.
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/currency.svg" class="img-fluid" alt="gold-coins" >}}
+     <p class="font-weight-bold mt-2">Currency</p>
+     <p class="small">Am I using Bitcoin to move value from one individual to another ?</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/commodity.svg" class="img-fluid" alt="pile-of-gold" >}}
+      <p class="font-weight-bold mt-2">Commodity</p>
+      <p class="small">Am I investing in Bitcoin to store value and expect profit out of it?</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/index.svg" class="img-fluid" alt="percentage" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Currency
-    </div>
-    <div class="col">
-      Commodity
-    </div>
-    <div class="col">
-      Index
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      Am I using Bitcoin to move value from one individual to another ? 
-    </div>
-    <div class="col">
-      Am I investing in Bitcoin to store value and expect profit out of it? 
-    </div>
-    <div class="col">
-      Is Bitcoin a way to hedge against the current economy?
+      <p class="font-weight-bold mt-2">Index</p>
+      <p class="small">Is Bitcoin a way to hedge against the current economy?</p>
     </div>
   </div>
 </div>
@@ -91,27 +69,19 @@ Everyone can use Bitcoin. Unlike conventional currencies, most of Bitcoin holder
 
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
+      <p class="font-weight-bold mt-2">Store of wealth</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="coins-swapping" >}}
+      <p class="font-weight-bold mt-2">Unit of account</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Store of wealth
-    </div>
-    <div class="col">
-      Unit of account
-    </div>
-    <div class="col">
-      Medium of exchanges
+      <p class="font-weight-bold mt-2">Medium of exchanges</p>
     </div>
   </div>
  </div>
@@ -171,39 +141,23 @@ At first, Bitcoin as a medium of exchange started on the dark-web to settle paym
 
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
+      <p class="font-weight-bold mt-2">Store of wealth</p>
+      <p class="small">Yes to hedge against the fiat economy and alt coins.</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="coins-swapping" >}}
+      <p class="font-weight-bold mt-2">Unit of account</p>
+      <p class="small">Yes for cross-border, mid to high amount, and private transactions.
+      No for low amount and domestic payments</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Store of wealth
-    </div>
-    <div class="col">
-      Unit of account
-    </div>
-    <div class="col">
-      Medium of exchanges
-    </div>
-  </div>
-     <div class="row">
-    <div class="col">
-      Yes to hedge against the fiat economy and alt coins.
-    </div>
-    <div class="col">
-      Yes for cross-border, mid to high amount, and private transactions.
-      No for low amount and domestic payments 
-    </div>
-    <div class="col">
-      Yes for the cryptocurrency eco-system. Still volatile for our economy.
+      <p class="font-weight-bold mt-2">Medium of exchanges</p>
+      <p class="small">Yes for the cryptocurrency eco-system. Still volatile for our economy.</p>
     </div>
   </div>
  </div>
@@ -238,31 +192,18 @@ Cryptocurrency markets are open 24/7 non-stop on independent exchanges and can b
 
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="chart-up-and-down" >}}
+      <p class="font-weight-bold mt-2">Volatility</p>
+      <p>Change in market value of an asset</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/liquid.svg" class="img-fluid" alt="chart-supply-vs-demand" >}}
+      <p class="font-weight-bold mt-2">Liquidity</p>
+      <p>Ability to quickly buy or sell an asset without impacting its market price.</p>
     </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Volatility
-    </div>
-    <div class="col">
-      Liquidity
-    </div>
-  </div>
-    </div>
-    <div class="col">
-      Change in market value of an asset
-    </div>
-    <div class="col">
-      ability to quickly buy or sell an asset without impacting its market price.
-    </div>
-  </div>
  </div>
 
 

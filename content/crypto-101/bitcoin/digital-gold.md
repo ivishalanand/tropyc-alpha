@@ -25,21 +25,15 @@ Bitcoin is simply put, the first decentralised financial system that works.
 There are now two distinct economies:
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer-dollar" >}}
+      <p class="font-weight-bold">Traditional economy, monitored by a central team within a government</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/decentralised-eco.svg" class="img-fluid" alt="Decentralised-economy" >}}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      Traditional economy, monitored by a central team within a government
-    </div>
-    <div class="col">
-      Crypto-economy, decentralised and permission-less
+      <p class="font-weight-bold">Crypto-economy, decentralised and permission-less</p>
     </div>
   </div>
 </div>
@@ -51,11 +45,11 @@ There are now two distinct economies:
 
 
 
-* issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
+* Issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
 
-* can be printed endlessly by a central bank.
+* Can printed endlessly by a central bank.
 
-* transferred from and to personal bank accounts, but managed by third parties (your bank)
+* Transferred from and to personnal bank accounts, but managed by third parties (your bank)
 
 * No transparency and low privacy: government printed trillions of dollars since the 2008 financial crisis and yet there is low knowledge on how these funds are used. Credit cards companies, Tax authority and banks have access to all your financial life.
 
@@ -68,11 +62,11 @@ Example  = USD, GBP, EUR, INR, CHINA
 
 
 
-* independent from any central banks, no one "owns" the Bitcoin network 
+* Independent from any central banks, noone "owns" the Bitcoin network 
  
-* rate of emission (printing) is fixed, transparent and immutable. There will be only 21 million Bitcoin, not more than that.
+* Rate of emission (printing) is fixed, transparent and immutable. There will be only 21 million Bitcoin, not more than that.
  
-* users transact without the need of middle men. It is secured by encrypted digital signature and runs on cryptography and algorithms.
+* Users transact without the need of a middle men. It is secured by encrypted digital signature and runs on cryptography and algorithms.
 
 * Perfect transparency and flexible privacy: everyone has access to every transaction that occurred on the network, and you can store your wealth anonymously at the same time.
 
@@ -124,10 +118,6 @@ We can identify three main differences between them :
     </tbody>
 </table>
 
-
-
-
-
 ## Founder
 
 
@@ -138,10 +128,10 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
 
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center">
     <div class="col">
-      {{< img src="crypto-101/icons/bitcoin-satoshi.svg" class="img-fluid" alt="Bitcoin-includes-a-lot-of-satoshis" >}}
+      {{< img src="crypto-101/icons/bitcoin-satoshi.png" class="img-fluid" alt="Bitcoin-includes-a-lot-of-satoshis" >}}
     </div>
     <div class="col">
       One bitcoin is divisible to the 8th divisible pace.
@@ -149,7 +139,7 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
       100,000,000 Satoshis = 1 Bitcoin
     </div>
   </div>
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col">
       There will be only 21 million bitcoin mined – and 99% of them will be available by 2031
     </div>
@@ -173,11 +163,10 @@ You can now do the same ... but with money.
 Let's review some of Bitcoin's core value propositions.
 
 
-
 ### Speed
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
     </div>
@@ -191,8 +180,8 @@ Let's review some of Bitcoin's core value propositions.
 
 ### Accessible 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
       {{< img src="crypto-101/icons/accessible.svg" class="img-fluid" alt="door-open" >}}
     </div>
@@ -207,13 +196,8 @@ Let's review some of Bitcoin's core value propositions.
 
 ### Safe
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-     Safe
-    </div>
-  </div>
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
      Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
     </div>
@@ -227,8 +211,8 @@ Let's review some of Bitcoin's core value propositions.
 
 ### Cheap 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
       {{< img src="crypto-101/icons/cheap.svg" class="img-fluid" alt="price-is-low" >}}
     </div>
@@ -242,8 +226,8 @@ Let's review some of Bitcoin's core value propositions.
 
 ### Global 
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
      Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
     </div>
@@ -257,8 +241,8 @@ Let's review some of Bitcoin's core value propositions.
 
 ### Private
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
       {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
     </div>
@@ -273,8 +257,8 @@ In other words, a wallet may not be clearly associated with a person's name.
 
 ### Trustless
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
       Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
     </div>
@@ -288,8 +272,8 @@ In other words, a wallet may not be clearly associated with a person's name.
 
 ### Transparent
 
-<div class="container">
-  <div class="row">
+<div class="container my-3">
+  <div class="row align-items-center text-center">
     <div class="col">
       {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
