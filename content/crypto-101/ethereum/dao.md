@@ -1,10 +1,10 @@
 +++
 title = "DAO"
 date = 2017-08-02T17:16:36+02:00
-description = ""
+description = "Decentralised Autonomous Organisations offer an alternative to traditional asset management firms. However, The DAO was a failure and led to a major event in the crypto world:  a hard fork."
 weight = 40
 draft = false
-bref = "Ethereum : Chapter IV"
+bref = "Ethereum, Chapter IV"
 toc = true
 +++
 
