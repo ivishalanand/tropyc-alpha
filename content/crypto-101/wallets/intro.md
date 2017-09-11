@@ -1,10 +1,10 @@
 +++
 title = "Intro"
 date = 2017-08-02T17:14:47+02:00
-description = "Bitcoins are stored in digital wallets, learn the basics of cryptography and the different types of wallets you can use"
+description = "Bitcoins are stored in digital wallets, learn the basics of cryptography and the different types of wallets you can use."
 weight = 10
 draft = false
-bref = "Wallet: Chapter I"
+bref = "Wallet, Chapter I"
 toc = true
 +++
 
