@@ -4,7 +4,7 @@ date = 2017-08-02T17:16:06+02:00
 description = "As Bitcoin offers an alternative to money, Ethereum introduces a new form of internet, where applications are decentralised and independent."
 weight = 10
 draft = false
-bref = "Ethereum: Chapter I"
+bref = "Ethereum, Chapter I"
 toc = true
 +++
 
