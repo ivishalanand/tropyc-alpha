@@ -9,7 +9,7 @@ toc = true
 +++
 
 
-Because cryptocurrencies follow a more decentralised model, the process of creating new Bitcoin differs from the process of printing fiat money.
+Bitcoin and other cryptocurrencies'Because cryptocurrencies follow a more decentralised model, the process of creating new Bitcoin differs from the process of printing fiat money.
 
 
 <div class="container my-3">
@@ -18,12 +18,20 @@ Because cryptocurrencies follow a more decentralised model, the process of creat
       <p class="font-weight-bold">Bitcoin supply emission rate</p>
       {{< img src="crypto-101/charts/chart-btc-supply.png" class="img-fluid" alt="bitcoin-emission-rate" >}}
     </div>
+   </div>
+   
+Bitcoin emission rate is known to everyone: the number of new Bitcoin generated per block decreases with time. Every ten minutes, the blockchain records this information : the amount of new bitcoins and whom it is rewarded to.
+
+
+<div class="container mt-1 my-3">
+    <div class="row text-center">
     <div class="col">
       <p class="font-weight-bold">Bitcoin rewards per blocks</p>
       {{< img src="crypto-101/charts/chart-btc-reward.png" class="img-fluid" alt="bitcoin-incentives-per-block" >}}
     </div>
   </div>
 </div>
+Miners earn return on investment by new Bitcoin created and transactions fees. As the mining incentivisation stays constant, transaction fees increases over time while block rewards reduce.
 
 
 The rate of mining Bitcoin is predictable and known to everyone on the network.
@@ -77,11 +85,11 @@ Everyone can use Bitcoin. Unlike conventional currencies, most of Bitcoin holder
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="coins-swapping" >}}
-      <p class="font-weight-bold mt-2">Unit of account</p>
+      <p class="font-weight-bold mt-2">Medium of exchanges</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
-      <p class="font-weight-bold mt-2">Medium of exchanges</p>
+      <p class="font-weight-bold mt-2">Unit of account</p>
     </div>
   </div>
  </div>
@@ -151,7 +159,7 @@ At first, Bitcoin as a medium of exchange started on the dark-web to settle paym
     <div class="col">
       {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="coins-swapping" >}}
       <p class="font-weight-bold mt-2">Unit of account</p>
-      <p class="small">Yes for cross-border, mid to high amount, and private transactions.
+      <p class="small">Yes for cross-border, mid to high amount, and private transactions.  
       No for low amount and domestic payments</p>
     </div>
     <div class="col">
