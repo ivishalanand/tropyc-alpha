@@ -52,17 +52,18 @@ Now that we understand what wallets do and how they work, lets' review their cat
 
 There are three different types of wallets, all of which will give you a different level of control, security and user experience.
 
-<div class="container my-4">
+<div class="container my-4 align-items-center">
   <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
      <p class="font-weight-bold mt-2">Online</p>
-     <p class="small">Third party holds the digital currency. You hold a promise of payment back or IOU</p>
+     <p class="small">Third party holds private keys. You hold a promise of payment, or IOU</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
      <p class="font-weight-bold mt-2">Hot</p>
-     <p class="small">No middle man has access to your assets: coins are stored and held locally. However, they are vulnerable to a physical and digital attack</p>
+     <p class="small">Private keysare stored locally.   
+     You're in control, but vulnerable to physical and online attacks</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
