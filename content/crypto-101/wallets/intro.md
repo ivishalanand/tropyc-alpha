@@ -24,13 +24,13 @@ Behind the scenes, the sender proves to the network that he is the owner of a cr
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
     <div class="col">
      {{< img src="crypto-101/infographics/info-wal1-1.png" class="img-fluid" alt="from-wallet-to-blockchain" >}}
     </div>
   </div>
-   <div class="row">
+   <div class="row text-center">
     <div class="col">
       Password and 2 Factor Authentitification protect the access to a wallet
     </div>
@@ -44,7 +44,6 @@ Behind the scenes, the sender proves to the network that he is the owner of a cr
 
 
 
-
 ## Types of wallets
 
 
@@ -53,38 +52,22 @@ Now that we understand what wallets do and how they work, lets' review their cat
 
 There are three different types of wallets, all of which will give you a different level of control, security and user experience.
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
+     <p class="font-weight-bold mt-2">Online</p>
+     <p class="small">Third party holds the digital currency. You hold a promise of payment back or IOU</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
+     <p class="font-weight-bold mt-2">Hot</p>
+     <p class="small">No middle man has access to your assets: coins are stored and held locally. However, they are vulnerable to a physical and digital attack</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Online
-    </div>
-    <div class="col">
-      Hot
-    </div>
-    <div class="col">
-      Cold
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      Third party holds the digital currency. You hold a promise of payment back or IOU
-    </div>
-    <div class="col">
-      No middle man has access to our coins: coins are stored and held locally. However, they are vulnerable to a physical and digital attack
-    </div>
-    <div class="col">
-      Coins stored locally in a system that never went online. Still vulnerable to physical attack
+     <p class="font-weight-bold mt-2">Cold</p>
+     <p class="small">Coins stored locally in a system that are never online. Still vulnerable to physical attack.</p>
     </div>
   </div>
 </div>
