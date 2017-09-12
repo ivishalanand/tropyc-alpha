@@ -19,22 +19,22 @@ You can send money - digitally and securely - without relying on a third party (
 
 Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to central bank backed currencies.
 
-Bitcoin is simply put, the first decentralised financial system that works.
+Bitcoin is simply put, the **first decentralised financial system that works.**
 
 
-There are now two distinct economies:
+<p class="font-weight-bold">There are now two distinct economies:</p>
 
 
 <div class="container mt-5 my-3">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer-dollar" >}}
-      <p class="font-weight-bold">Traditional economy 
+      <p class="font-weight-bold">Traditional economy </p>
       <p class="small">monitored by a central team within a government</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/decentralised-eco.svg" class="img-fluid" alt="Decentralised-economy" >}}
-      <p class="font-weight-bold">Crypto-economy
+      <p class="font-weight-bold">Crypto-economy</p>
       <p class="small">decentralised and permission-less</p>
     </div>
   </div>
