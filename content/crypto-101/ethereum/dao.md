@@ -103,13 +103,13 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
 ### Soft fork
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
      {{< img src="crypto-101/icons/soft-fork.svg" class="img-fluid" alt="soft-fork" >}}
     </div>
-    <div class="col">
-      A soft fork would freeze the assets of the Child DAO and the Ethers stolen by the hacker. This solution required the network to accept the deployment of a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permission less and immutable, the only way to add a new rule is to convince 51% of all nodes to make the change happen
+    <div class="col text-center">
+      <p class="small">A soft fork would freeze the assets of the Child DAO and the Ethers stolen by the hacker. This solution required the network to accept the deployment of a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permission less and immutable, the only way to add a new rule is to convince 51% of all nodes to make the change happen.</p>
     </div>
    </div>
  </div>
@@ -119,12 +119,12 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
 ### Hard fork
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
-     The second solution is more brutal :  the idea is to rewind blockchain back to a block before the DAO hack. The hard fork would therefore delete all transaction history that occurred after the attack and return to DAO token holders the Ether they invested in the project.  
+    <div class="col text-left">
+     <p class="small">The second solution is more brutal :  the idea is to rewind blockchain back to a block before the DAO hack. The hard fork would therefore delete all transaction history that occurred after the attack and return to DAO token holders the Ether they invested in the project.</p>  
     </div>
-    <div class="col">
+    <div class="col text-center">
      {{< img src="crypto-101/icons/hard-fork.svg" class="img-fluid" alt="hard-fork" >}}
     </div>
    </div>
@@ -148,30 +148,18 @@ An obvious analogy would be with the global financial crisis of 2008, where bank
 Adopting a similar approach with the DAO, would rescue investors from the losing their funds to the hacker, however the fact that the Ethereum Foundation developed and promoted the DAO as well as proposed a solution to the hack raises the issue of network centralization. Ethereum aspires to become the global computer by introducing decentralised applications at scale – it should therefore not be controlled by any central authority.
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/no-fork.svg" class="img-fluid" alt="no-fork" >}}
+      <p class="font-weight-bold mt-2">No Fork thanks</p>
+      <p class="small">DAO token holders contributors knew it was an experimental investment opportunity that had significant risks. 
+      And in cryptocurrency, hacking IS the main risk.</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/fork-please.svg" class="img-fluid" alt="fork-please" >}}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      No Fork thanks
-    </div>
-    <div class="col">
-      Fork please
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      DAO token holders contributors knew it was an experimental investment opportunity that had significant risks. 
-      And in cryptocurrency, hacking IS the main risk.
-    </div>
-    <div class="col">
-      14% of the entity Ether supply was stolen by the hacker. The incurred loss might be “too big to fail” for Ethereum
+      <p class="font-weight-bold mt-2">Fork please</p>
+      <p class="small">14% of the entity Ether supply was stolen by the hacker. The incurred loss might be “too big to fail” for Ethereum</p>
     </div>
   </div>
 </div>
