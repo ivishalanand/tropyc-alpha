@@ -9,7 +9,7 @@
 
 			<div class="col-lg-2 hidden-md-down">
 				<div class="token-id">
-          <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | urlize) }}">
+          <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Title | urlize) }}">
 					<h1 class="token-title">{{.Title }}</h1>
 				</div>
 			</div>
@@ -20,11 +20,11 @@
 						<div class="col-6 hidden-lg-up">
 							<div class="token-id">
 								<h1>{{.Title }}</h1>
-								<img class="token-logo img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Params.name | urlize) }}">
+								<img class="token-logo img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Title | urlize) }}">
 							</div>
 						</div>
 					</div>
-					<h2 class="mb-3">Snapshot</h2>
+					<h2>Snapshot</h2>
           <div class="row">
             <div class="col-sm-6">
               <div class="overview">
@@ -37,8 +37,16 @@
                   <div class="flex-col-2">{{ .Params.enddate | dateFormat "02/01/2006" }}</div>
                 </div>
                 <div class="flex-row">
+                  <div class="flex-col-1 label">Platform</div>
+                  <div class="flex-col-2">{{ .Params.platform }}</div>
+                </div>
+                <div class="flex-row">
                   <div class="flex-col-1 label">Industry</div>
                   <div class="flex-col-2">{{ .Params.industry }}</div>
+                </div>
+                <div class="flex-row">
+                  <div class="flex-col-1 label">Currency accepted</div>
+                  <div class="flex-col-2">{{ .Params.currencyAccepted }}</div>
                 </div>
                 <div class="flex-row">
                   <div class="flex-col-1 label">Founded</div>
@@ -49,11 +57,11 @@
                   <div class="flex-col-2">
                     {{ if isset .Params.links "website" }}<a href="{{ .Params.links.website }}">{{ .Params.links.website }}</a>{{ end }}
                     <div class="mt-2">
-                      {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank" class="mx-1"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank" class="mx-1"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank" class="mx-1"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank" class="mx-1"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
+                      {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank" class="mx-1"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
                     </div>
                   </div>
                 </div>
@@ -179,12 +187,12 @@
                   <th></th>
                   <th>CUT</th>
                   <th>SUPPLY</th>
-                  <th>ETH</th>
+                  <th>{{ .Params.deal.headers.cryptoHeader }}</th>
                   <!-- <th>1 ETH</th> -->
                 </tr>
               </thead>
               <tbody>
-              	{{ range .Params.deal }}
+              	{{ range .Params.deal.rows }}
                 <tr>
                   <td>{{ .distribution }}</td>
                   <td>{{ .cut }}</td>

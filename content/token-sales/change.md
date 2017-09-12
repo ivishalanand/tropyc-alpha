@@ -5,13 +5,13 @@ description = "Change aspires to become the global cryptocurrency bank, deliveri
 weight = 20
 draft = false
 
-name = "Change"
 trustRating = "B"
 dealRating = "C+"
 softCap = ""
 hardCap = ""
 platform = "Ethereum"
 industry = "financial services"
+currencyAccepted = ""
 startDate = 2017-09-16
 endDate = 2017-10-16
 founded = "Tropyc, 2016"
@@ -35,7 +35,6 @@ features = """
   audit = false
   wallet = true
   disbursementDate = "up to 4 weeks after ICO"
-  refund = true
 
 [token]
   assetBacked = false
@@ -45,42 +44,45 @@ features = """
   similar = "Monaco, TenX, Tokencard"
 
 [deal]
-  [deal.tokensale]
-    distribution = "Tokensale"
-    cut = "40%"
-    supply = "100,000,000"
-    cryptovalue = "200,000"
-    fiatvalue = "API"
-  [deal.founders]
-    distribution = "Founders"
-    cut = "15%"
-    supply = "37,500,000"
-    cryptovalue = "75,000"
-    fiatvalue = "API"
-  [deal.earlyInvestors]
-    distribution = "Early investors"
-    cut = "10%"
-    supply = "25,000,000"
-    cryptovalue = "50,000"
-    fiatvalue = "API"
-  [deal.affiliate]
-    distribution = "Development"
-    cut = "20%"
-    supply = "50,000,000"
-    cryptovalue = "100,000"
-    fiatvalue = "API"
-  [deal.futureEmission]
-    distribution = "Future"
-    cut = "15%"
-    supply = "37,500,000"
-    cryptovalue = "50,000"
-    fiatvalue = "API"
-  [deal.total]
-    distribution = "Total"
-    cut = "100%"
-    supply = "250,000,000"
-    cryptovalue = "500,000"
-    fiatvalue = "API"
+  [deal.headers]
+    cryptoHeader = "ETH"
+  [deal.rows]
+    [deal.rows.tokensale]
+      distribution = "Tokensale"
+      cut = "40%"
+      supply = "100,000,000"
+      cryptovalue = "200,000"
+      fiatvalue = "API"
+    [deal.rows.founders]
+      distribution = "Founders"
+      cut = "15%"
+      supply = "37,500,000"
+      cryptovalue = "75,000"
+      fiatvalue = "API"
+    [deal.rows.earlyInvestors]
+      distribution = "Early investors"
+      cut = "10%"
+      supply = "25,000,000"
+      cryptovalue = "50,000"
+      fiatvalue = "API"
+    [deal.rows.affiliate]
+      distribution = "Development"
+      cut = "20%"
+      supply = "50,000,000"
+      cryptovalue = "100,000"
+      fiatvalue = "API"
+    [deal.rows.futureEmission]
+      distribution = "Future"
+      cut = "15%"
+      supply = "37,500,000"
+      cryptovalue = "50,000"
+      fiatvalue = "API"
+    [deal.rows.total]
+      distribution = "Total"
+      cut = "100%"
+      supply = "250,000,000"
+      cryptovalue = "500,000"
+      fiatvalue = "API"
 
 [roadmap]
   website = true

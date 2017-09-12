@@ -5,6 +5,10 @@
 .token-id {
   margin-bottom: 30px;
   text-align: center;
+
+   @include media-breakpoint-down(md) {
+    text-align: left;
+  }
 }
 
 .token-title {
@@ -26,6 +30,11 @@
   padding: 20px;
   border: 1px solid #DDD;
   border-radius: .25rem;
+
+  h2 {
+  	margin-bottom: 2rem;
+  	color: #6f8691;
+  }
 }
 
 .token-description {
@@ -48,7 +57,7 @@
 .indicator-value {
   text-align: center;
   vertical-align: middle;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #6f8691;
 }
@@ -56,8 +65,8 @@
 .indicator-rating {
   text-align: center;
   vertical-align: middle;
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 500;
   color: #6f8691;
 }
 

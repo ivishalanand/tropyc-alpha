@@ -5,13 +5,13 @@ description = "Real Estate Asset Ledger is a blockchain crowdfunding platform fo
 weight = 20
 draft = false
 
-name = "REAL"
 trustRating = "A+"
 dealRating = "C-"
 softCap = "$10 M"
 hardCap = "$12 M"
 platform = "Ethereum"
 industry = "Real estate"
+currencyAccepted = ""
 startDate = 2017-08-29
 endDate = 2017-09-30
 founded = "Singapore, 2017"
@@ -35,7 +35,6 @@ features = """
   audit = false
   wallet = true
   disbursementDate = "End of ICO"
-  refund = true
 
 [token]
   assetBacked = true
@@ -45,30 +44,33 @@ features = """
   similar = "N/A"
 
 [deal]
-  [deal.tokensale]
-    distribution = "Tokensale"
-    cut = "51%"
-    supply = "50,000,000"
-    cryptovalue = "100,000"
-    fiatvalue = "API"
-  [deal.founders]
-    distribution = "Founders"
-    cut = "20%"
-    supply = "19,607,843"
-    cryptovalue = "39,215"
-    fiatvalue = "API"
-  [deal.earlyInvestors]
-    distribution = "Reserve"
-    cut = "29%"
-    supply = "28,431,372"
-    cryptovalue = "56,863"
-    fiatvalue = "API"
-  [deal.total]
-    distribution = "Total"
-    cut = "100%"
-    supply = "98,039,215"
-    cryptovalue = "196,078"
-    fiatvalue = "API"
+  [deal.headers]
+    cryptoHeader = "ETH"
+  [deal.rows]
+    [deal.rows.tokensale]
+      distribution = "Tokensale"
+      cut = "51%"
+      supply = "50,000,000"
+      cryptovalue = "100,000"
+      fiatvalue = "API"
+    [deal.rows.founders]
+      distribution = "Founders"
+      cut = "20%"
+      supply = "19,607,843"
+      cryptovalue = "39,215"
+      fiatvalue = "API"
+    [deal.rows.earlyInvestors]
+      distribution = "Reserve"
+      cut = "29%"
+      supply = "28,431,372"
+      cryptovalue = "56,863"
+      fiatvalue = "API"
+    [deal.rows.total]
+      distribution = "Total"
+      cut = "100%"
+      supply = "98,039,215"
+      cryptovalue = "196,078"
+      fiatvalue = "API"
 
 [roadmap]
   website = true
