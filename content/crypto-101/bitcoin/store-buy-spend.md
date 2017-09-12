@@ -12,7 +12,7 @@ toc = true
 <div class="container my-3">
   <div class="row text-center">
     <div class="col">
-     {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="vault" >}}
+     {{< img src="crypto-101/icons/vault.svg" class="img-fluid" alt="vault" >}}
      <p class="font-weight-bold">Store</p>
     </div>
     <div class="col">
@@ -37,41 +37,26 @@ Bitcoins are recorded electronically on wallets; it operates the same way than w
 The act of "sending a bitcoin" requires 3 things :
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row text-center mb-3">
     <div class="col">
      {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
+     <p class="font-weight-bold">Public address</p>
+     <p class="small">A string of 26-35 characters, that holds bitcoin. Amount is publicly available on the blockchain</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="key" >}}
+     <p class="font-weight-bold">Private key</p>
+     <p class="small">A file that proves to the network that you are the owner of a public address's balance</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
-    </div>
-  </div>
-  <div class="row text-center mb-2">
-    <div class="col">
-      Public address
-    </div>
-    <div class="col">
-      Private key
-    </div>
-    <div class="col">
-      Password
-    </div>
-  </div>
-  <div class="row text-center">
-    <div class="col">
-     <small>A string of 26-35 characters, that holds bitcoin. Amount is publicly available on the blockchain</small>
-    </div>
-    <div class="col">
-      <small>A file that proves to the network that you are the owner of a public address's balance</small>
-    </div>
-    <div class="col">
-      <small>A string of as much characters that gives you access to your wallet</small>
+     <p class="font-weight-bold">assword</p>
+     <p class="small">A string of as much characters that gives you access to your wallet</p>
     </div>
   </div>
 </div>
+
 
 
 What’s between you and a Bitcoin
@@ -87,7 +72,7 @@ What’s between you and a Bitcoin
 
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
     <div class="col">
       A public address serves as the recipient crypto bank account: a Bitcoin is held on a public address.
@@ -95,7 +80,7 @@ What’s between you and a Bitcoin
       This means everyone knows how much Bitcoins a public address holds. 
       Therefore, make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he’ll know how much you have!
     </div>
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
     </div>
   </div>
@@ -108,7 +93,7 @@ What’s between you and a Bitcoin
 
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="private-key" >}}
@@ -128,7 +113,7 @@ What’s between you and a Bitcoin
 
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
     <div class="col">
       Write down your wallet's password and make sure you have a back-up in case you lose.
