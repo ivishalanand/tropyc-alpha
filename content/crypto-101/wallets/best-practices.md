@@ -30,27 +30,19 @@ Picture your hot wallet as your current account and cold wallet as your savings 
 
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
+     <p class="font-weight-bold mt-2">Cold wallet = savings account</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
+      <p class="font-weight-bold mt-2">Hot wallet = current account</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Cold wallet = savings account
-    </div>
-    <div class="col">
-      Hot wallet = current account
-    </div>
-    <div class="col">
-      Online wallet = very short term storing
+      <p class="font-weight-bold mt-2">Online wallet = very short term storing</p>
     </div>
   </div>
 </div>
@@ -117,46 +109,34 @@ Similarly, you do not want to store your back up and password next to your walle
 {{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid" alt="wallet-like-bank-account" >}}
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
-     Exchange
+     <p class="font-weight-bold mt-2">Exchange</p>
+     <p class="small">Exhanges hold your private keys. Therefore you only hold an IOU</p>
     </div>
     <div class="col">
-      Hot wallet
+      <p class="font-weight-bold mt-2">Hot wallet</p>
+      <p class="small">Hot wallets are at the epicentre of your transaction management system</p>
     </div>
     <div class="col">
-      Cold wallet
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-    Exhanges hold your private keys. Therefore you only hold an IOU
-    </div>
-    <div class="col">
-    Hot wallets are at the epicentre of your transaction management system
-    </div>
-    <div class="col">
-    Cold wallets only interacts with hot wallets
-    </div>
+      <p class="font-weight-bold mt-2">Cold wallet</p>
+      <p class="small">Cold wallets only interacts with hot wallets</p>
+   </div>
   </div>
 </div>
-
-
 
 
 
 ## Back-up
 
 
-
-
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
      {{< img src="crypto-101/icons/back-up.svg" class="img-fluid" alt="saving-file" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       In case your wallet gets deleted, corrupted, lost or mislaid, you will also lose access to your to private keys and therefore to all of your assets stored on your public addresses! 
 Back up your wallet by making a copy of private key files in case something happens to your system and store it offline and somewhere safe.
     </div>
@@ -172,13 +152,13 @@ Back up your wallet by making a copy of private key files in case something happ
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
      Multi-sig addresses give the ability to share ownership of a public key between several users. In order to send coins out of the wallet, the transactions require all the keys of the involved users.
 This feature can add an extra layer of protection if you want to share the wallet ownership without other parties. Very suitable for a family or a business account.
     </div>
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/multi-sig.svg" class="img-fluid" alt="multiple-private-keys" >}}
     </div>
   </div>
