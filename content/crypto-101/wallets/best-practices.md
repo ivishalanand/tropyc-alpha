@@ -10,7 +10,7 @@ toc = true
 
 
 
-Handling digital currencies and their wallets comes with additional responsibilities in order to stay safe
+> "In crypto, you're in control of your wealth, but this luxury comes with extra responsibilities"
 
 
 
@@ -42,7 +42,7 @@ Picture your hot wallet as your current account and cold wallet as your savings 
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
-      <p class="font-weight-bold mt-2">Online wallet = very short term storing</p>
+      <p class="font-weight-bold mt-2">Online wallet = short term</p>
     </div>
   </div>
 </div>
@@ -57,7 +57,7 @@ Picture your hot wallet as your current account and cold wallet as your savings 
 
 
 
-A wallet can generate unlimited private keys and public addresses combinations. (a wallet password does not need to be generated for each pair). Because the blockchain is transparent, makes sure to never share a public address that has already been utilised with a third party.
+A wallet can generate an unlimited amount of private key and public address combinations. However, a wallet (and it's password) does not need to be generated for every pair. Because the blockchain is transparent, make sure to never share a public address that has already been utilised with a third party.
 
 It is important to generate new public addresses for every transaction, otherwise, the person you transact with will match the public address' balance with your identity.
 
@@ -66,7 +66,7 @@ It is important to generate new public addresses for every transaction, otherwis
 {{< img src="crypto-101/infographics/info-wal2-1.png" class="img-fluid" alt="public-address-single-use" >}}
 
 
-Since the blockchain tracks all transactions, sharing used public addresses for payment means sharing your account balance to a third party
+Since the blockchain tracks all transactions, sharing used public addresses for payment means sharing your account balance to a third party.
 
 
 
@@ -76,8 +76,7 @@ Since the blockchain tracks all transactions, sharing used public addresses for 
 
 
 
-
-The password is a core component to the safety of your assets in a wallet. Your password should include these features:
+Setting up a wallet password is mandatory if you want to store your coins safely. The password should follow t:
 
 * length: minimum of 12 characters
 * unique: should not be reused for other wallet or any login
@@ -121,7 +120,7 @@ Similarly, you do not want to store your back up and password next to your walle
     </div>
     <div class="col">
       <p class="font-weight-bold mt-2">Cold wallet</p>
-      <p class="small">Cold wallets only interacts with hot wallets</p>
+      <p class="small">Cold wallets only interacts with your own hot wallets</p>
    </div>
   </div>
 </div>
@@ -133,10 +132,10 @@ Similarly, you do not want to store your back up and password next to your walle
 
 <div class="container my-4">
   <div class="row">
-    <div class="col text-center">
+    <div class="col col-sm-6 col-md-4 text-center">
      {{< img src="crypto-101/icons/back-up.svg" class="img-fluid" alt="saving-file" >}}
     </div>
-    <div class="col text-left">
+    <div class="col col-sm-6 col-md-8 text-center">
       In case your wallet gets deleted, corrupted, lost or mislaid, you will also lose access to your to private keys and therefore to all of your assets stored on your public addresses! 
 Back up your wallet by making a copy of private key files in case something happens to your system and store it offline and somewhere safe.
     </div>
@@ -154,11 +153,11 @@ Back up your wallet by making a copy of private key files in case something happ
 
 <div class="container my-4">
   <div class="row">
-    <div class="col text-left">
+    <div class="col col-sm-6 col-md-8 text-left">
      Multi-sig addresses give the ability to share ownership of a public key between several users. In order to send coins out of the wallet, the transactions require all the keys of the involved users.
 This feature can add an extra layer of protection if you want to share the wallet ownership without other parties. Very suitable for a family or a business account.
     </div>
-    <div class="col text-center">
+    <div class="col col-sm-6 col-md-4 text-center">
       {{< img src="crypto-101/icons/multi-sig.svg" class="img-fluid" alt="multiple-private-keys" >}}
     </div>
   </div>
