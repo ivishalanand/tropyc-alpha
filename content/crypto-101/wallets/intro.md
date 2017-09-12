@@ -32,13 +32,13 @@ Behind the scenes, the sender proves to the network that he is the owner of a cr
   </div>
    <div class="row text-center">
     <div class="col">
-      Password and 2 Factor Authentitification protect the access to a wallet
+      <p class="small">Password and 2 Factor Authentitification protect the access to a wallet</p>
     </div>
     <div class="col">
-      Wallet can generate several public and private key pairs. Each of these paris are unique
+      <p class="small">Wallet can generate several public and private key pairs. Each of these paris are unique</p>
     </div>
     <div class="col">
-      Wallet sends the transaction to the network for confirmation 
+      <p class="small">Wallet sends the transaction to the network for confirmation</p>
     </div>
 </div>
 
