@@ -205,7 +205,7 @@ Cryptocurrency markets are open 24/7 non-stop on independent exchanges and can b
     <div class="col">
       {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="chart-up-and-down" >}}
       <p class="font-weight-bold mt-2">Volatility</p>
-      <p class="small">Change in market value of an asset</p>
+      <p class="small">Periodic and sudden changes in market price of a given asset</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/liquid.svg" class="img-fluid" alt="chart-supply-vs-demand" >}}
