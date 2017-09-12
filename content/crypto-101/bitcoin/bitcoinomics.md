@@ -31,7 +31,7 @@ Bitcoin emission rate is known to everyone: the number of new Bitcoin generated 
     </div>
   </div>
 </div>
-Miners earn return on investment by new Bitcoin created and transactions fees. As the mining incentivisation stays constant, transaction fees increases over time while block rewards reduce.
+Miners earn return on investment by new Bitcoin created and transactions fees. As the mining incentivisation stays constant, transaction fees increases over time while block rewards reduce.  
 
 
 The rate of mining Bitcoin is predictable and known to everyone on the network.
