@@ -74,7 +74,7 @@ What’s between you and a Bitcoin
 
 <div class="container my-3">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
       A public address serves as the recipient crypto bank account: a Bitcoin is held on a public address.
       All the transaction information between public address are available to everyone online on a decentralised ledger
       This means everyone knows how much Bitcoins a public address holds. 
@@ -95,10 +95,10 @@ What’s between you and a Bitcoin
 
 <div class="container my-3">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="private-key" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       Each public address is associated with one single private key that unlocks the funds held on it.  
       The network performs a mathematical algorythm to verify whether the pair is correct
       You can generate endless public address and private key pairs.
@@ -115,11 +115,11 @@ What’s between you and a Bitcoin
 
 <div class="container my-3">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
       Write down your wallet's password and make sure you have a back-up in case you lose.
       Losing your wallet password means losing your cryptocurrencies
     </div>
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
     </div>
   </div>
@@ -127,26 +127,18 @@ What’s between you and a Bitcoin
 
 Let's compare fiat currencies and Bitcoin on this matter :
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
-    <div class="col">
-      Fiat
-    </div> 
-    <div class="col">
-      Bitcoin
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/infographics/info-btc2-2.png" class="img-fluid" alt="fiat-crypto-bank-vs-wallet" >}}
     </div> 
   </div>
-  <div class="row">
+  <div class="row text-center small">
     <div class="col">
-     Both the bank and the user have access to the account. Regulator can also step in and seize funds. 
+     <em>Both banks and their retail customers have to bank accounts. Regulators can also step in and freeze/seize an account.</em>
     </div> 
     <div class="col">
-      A single individual can store a private key and access funds digitally. No middle man and impossible to seize funds without a private key and password.
+      <em>A single individual can store a private key and access funds digitally. No middle man and it is impossible to seize funds without a private keys</em>
     </div>
   </div>
 
@@ -166,12 +158,12 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 ### Exchange
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
       Just like the stock and bond market exchange, you can buy cryptocurrencies on a specialised cryptocurrency exchange. An exchange acts a centralised marketplace and lets you swap fiat with cryptocurrencies at a given rate - decided by the market.
     </div>
-    <div class="col">
+    <div class="col text-center">
        {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="currency-swap" >}}
     </div>
   </div>
@@ -182,12 +174,12 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 ### ATM
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
        {{< img src="crypto-101/icons/atm.svg" class="img-fluid" alt="atm" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       Exchange cash with bitcoin ATMs. These kioskes are located in major cities and connect you directly to the Bitcoin exchange.
     </div>
   </div>
@@ -198,12 +190,12 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 ### Over the counter 
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
       As opposed to centralised exchanges, you can join a dealers network and purchase some Bitcoin over-the-counter. This method is usually utilised for large bulk purchase
     </div>
-    <div class="col">
+    <div class="col text-center">
        {{< img src="crypto-101/icons/over-the-counter.svg" class="img-fluid" alt="merchant-selling-goods" >}}
     </div>
   </div>
@@ -214,12 +206,12 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 ### Peer-to-peer
 
 
-<div class="container">
+<div class="container my-3">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
        {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
      Bitcoin is digital cash at the end of the day. You can exchange some Bitcoin with fiat from friends and family, as long as you trust your transactor. There are risks of changing currencies with someone you do not know (physical attack ...), the same applies with bitcoin and cryptocurrencies.
     </div>
   </div>
@@ -243,10 +235,10 @@ Today, most of the services and goods are available for purchase through bitcoin
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
      An increasing number of merchants accept bitcoins as a form of payment, including some billion dollar revenue powerhouses. Amazon, Microsoft, Expedia to name a few.
     </div>
-    <div class="col">
+    <div class="col text-center">
        {{< img src="crypto-101/icons/brands1.svg" class="img-fluid" alt="amazon-microsoft-expedia-shopify" >}}
     </div>
   </div>
@@ -259,10 +251,10 @@ Today, most of the services and goods are available for purchase through bitcoin
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
      {{< img src="crypto-101/icons/card.svg" class="img-fluid" alt="card" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
      Gift cards that accepts Bitcoin such as eGifter or Gyft, cryptocurrency enthusiasts can now access an even larger pool of merchants (Starbucks, DunkinDonuts, Walmart, Gap). 
     </div>
   </div>
@@ -275,10 +267,10 @@ Today, most of the services and goods are available for purchase through bitcoin
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
     At first, bitcoin transactions thrived on gambling platforms and online marketplaces that enabled the distribution of illicit goods and services. These platforms still exist and you safely get delivered any type of product. Be sure to check your legislation before ordering anything.
     </div>
-    <div class="col">
+    <div class="col text-center">
      {{< img src="crypto-101/icons/third-party.svg" class="img-fluid" alt="merchant-selling-from-kiosk" >}}
     </div>
   </div>
