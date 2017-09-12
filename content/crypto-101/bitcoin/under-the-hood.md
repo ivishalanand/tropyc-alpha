@@ -11,7 +11,7 @@ toc = true
 
 
 <div class="container my-4">
-  <div class="row">
+  <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/mining.svg" class="img-fluid" alt="mining" >}}
       <p class="font-weight-bold">Mining</p>
