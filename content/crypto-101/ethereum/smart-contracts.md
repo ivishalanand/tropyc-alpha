@@ -35,34 +35,22 @@ It does not have to be a legal contract per se, rather, its aim is to minimise t
 
 Here’s a quick recap of the difference between both.
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
-    </div>
-    <div class="col">
-      {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid" alt="smart-contract" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Formal or informal agreement
-    </div>
-    <div class="col">
-      Smart contract, computer program
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-     If agreement is not honoured, the following can happen
+      <p class="font-weight-bold mt-2">Formal or informal agreement</p>
+      <p class="small">If agreement is not honoured, the following can happen
       * Reminder
       * Follow – up
       * (Renegotiation)
       * Legal recourse
-      * Settlement in the future
+      * Settlement in the future</p>
     </div>
     <div class="col">
-      Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions. Smart contract are flexible, they can be permissionless and / or immutable
+      {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid" alt="smart-contract" >}}
+      <p class="font-weight-bold mt-2">Smart contract, computer program</p>
+      <p class="small">Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions. Smart contract are flexible, they can be permissionless and / or immutable</p>
     </div>
   </div>
  </div>
@@ -107,23 +95,15 @@ At this point, there are 3 possible outcomes :
   <div class="row">
     <div class="col">
      {{< img src="crypto-101/icons/yes.svg" class="img-fluid" alt="yes" >}}
+     <p class="font-weight-bold">A. Bob pays up</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/three-dots.svg" class="img-fluid" alt="maybe" >}}
+     <p class="font-weight-bold">B. Bob delays payment</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/no.svg" class="img-fluid" alt="no" >}}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      A. Bob pays up
-    </div>
-    <div class="col">
-      B. Bob delays payment
-    </div>
-    <div class="col">
-      C. Bob refuses to pay out
+     <p class="font-weight-bold">C. Bob refuses to pay out</p>
     </div>
   </div>
 </div>
