@@ -168,11 +168,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Speed
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col  text-left">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
     </div>
-    <div class="col">
+    <div class="col  text-center">
       {{< img src="crypto-101/icons/speed.svg" class="img-fluid" alt="rocket" >}}
     </div>
   </div>
@@ -183,11 +183,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Accessible 
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col  text-center">
       {{< img src="crypto-101/icons/accessible.svg" class="img-fluid" alt="door-open" >}}
     </div>
-    <div class="col">
+    <div class="col  text-left">
       Unlike bank accounts, there is no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
       You have complete control over your capital.
     </div>
@@ -199,11 +199,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Safe
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-left">
      Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
     </div>
-    <div class="col">
+    <div class="col  text-center">
       {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="vault" >}}
     </div>
   </div>
@@ -214,11 +214,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Cheap 
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/cheap.svg" class="img-fluid" alt="price-is-low" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
     </div>
   </div>
@@ -229,11 +229,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Global 
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-left">
      Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
     </div>
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="earth-spinning" >}}
     </div>
   </div>
@@ -244,11 +244,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Private
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       In Bitcoin, we have perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
 In other words, a wallet may not be clearly associated with a person's name.
     </div>
@@ -260,11 +260,11 @@ In other words, a wallet may not be clearly associated with a person's name.
 ### Trustless
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-left">
       Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
     </div>
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="ribbon-with-a-tick" >}}
     </div>
   </div>
@@ -276,10 +276,10 @@ In other words, a wallet may not be clearly associated with a person's name.
 
 <div class="container my-3">
   <div class="row align-items-center text-center">
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
     </div>
   </div>
