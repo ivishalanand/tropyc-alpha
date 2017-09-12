@@ -1,6 +1,6 @@
 [coinbase]
 name = "Coinbase"
-cornerIcon = "star"
+cornerIcon = "popular"
 cornerText = "Popular"
 payment = "Bank transfer, SEPA, Credit/Debit card"
 fiat = "USD, EUR, GBP, CAD"
@@ -13,7 +13,7 @@ affiliateLink = "https://www.coinbase.com/join/59abb5ab6c9e6700d36656d6"
 
 [cex]
 name = "CEX"
-cornerIcon = "star"
+cornerIcon = "popular"
 cornerText = "Popular"
 payment = "Bank transfer, SEPA, Credit/Debit card"
 fiat = "USD, EUR, GBP, RUB"
@@ -52,7 +52,7 @@ affiliateLink = "https://changelly.com?ref_id=bb1148b05d23"
 
 [kraken]
 name = "Kraken"
-cornerIcon = "star"
+cornerIcon = "popular"
 cornerText = "Popular"
 payment = "Bank transfer, SEPA, Tokens"
 fiat = "USD, EUR, GBP, CAD, JPY"
