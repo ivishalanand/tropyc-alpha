@@ -25,15 +25,17 @@ Bitcoin is simply put, the first decentralised financial system that works.
 There are now two distinct economies:
 
 
-<div class="container my-3">
+<div class="container mt-5 my-3">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer-dollar" >}}
-      <p class="font-weight-bold">Traditional economy, monitored by a central team within a government</p>
+      <p class="font-weight-bold">Traditional economy 
+      <p class="small">monitored by a central team within a government</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/decentralised-eco.svg" class="img-fluid" alt="Decentralised-economy" >}}
-      <p class="font-weight-bold">Crypto-economy, decentralised and permission-less</p>
+      <p class="font-weight-bold">Crypto-economy
+      <p class="small">decentralised and permission-less</p>
     </div>
   </div>
 </div>
@@ -78,11 +80,11 @@ Example  = Bitcoin, Litecoin, Ether, Monero ...
 We can identify three main differences between them :
 
 
-* You are obliged to trust a third party (a bank) to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
+1 - You are obliged to trust a third party (a bank) to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
-* Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
+2 - Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
 
-* In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
+3 - In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
 
 </table>
