@@ -17,8 +17,8 @@ Governments and central banks have no authority towards the issuance of addition
 ## Ownership
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      Are you in full control over your wealth?
     </div>
@@ -51,8 +51,8 @@ Beware, when storing your Bitcoin on third party wallets, you do not "own" a bit
 ## Immutability
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      Can you rewind back in time and get a refund?
     </div>
@@ -86,8 +86,8 @@ Always verify the public address before sending a transaction, otherwise, your b
 
 ## Safety
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      Are you safe from a digital attack?
     </div>
@@ -127,8 +127,8 @@ Be careful!
 
 ## Privacy
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      Can dettach your identity from your financial behaviour?
     </div>
@@ -164,8 +164,8 @@ Centralised tools, such as tumbler and mixers, can increase the difficulty to tr
 
 ## Transparency
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      Are you aware of the total supply of money and how it is managed?
     </div>
@@ -199,8 +199,8 @@ The Bitcoin code and blockchain activity is open-source
 
 ## Price inflation
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      Is your wealth getting diluted due to price inflation?
     </div>
@@ -242,8 +242,8 @@ As Bitcoin's market penetration is going up, Bitcoins are becoming more and more
 ## Consumption
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      How easy is to issue low-amount transaction without a hassle?
     </div>
@@ -279,8 +279,8 @@ However, new cryptocurrencies and blockchain startups have been very innovative 
 
 ## Interbank settlement
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      How easy is it to issue high amount transactions globally?
     </div>
@@ -316,8 +316,8 @@ Fees = would not go above 10 USD.
 
 ## Law
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      To what extent you are liable to financial behaviour?
     </div>
