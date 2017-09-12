@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>store-of-wealth</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="store-of-wealth" fill-rule="nonzero">
+            <g id="ingot" transform="translate(4.000000, 26.000000)">
+                <g id="Group" transform="translate(7.000000, 1.000000)" fill="#FED322">
+                    <polygon id="Shape" points="118.409475 48.5846479 77.9115649 48.5846479 65.5 96.9727528 130.82104 96.9727528"></polygon>
+                    <polygon id="Shape" points="53.0884351 48.5846479 12.5905251 48.5846479 0.178960251 96.9727528 65.5 96.9727528"></polygon>
+                    <polygon id="Shape" points="85.748818 0.196906367 45.251182 0.196906367 32.8396172 48.5846479 98.1603828 48.5846479"></polygon>
+                </g>
+                <g id="Group" transform="translate(7.000000, 0.000000)" fill="#EEBF00">
+                    <polygon id="Shape" points="64.6873492 0.196906367 44.7378631 0.196906367 32.4670922 48.5846479 64.6873492 48.5846479"></polygon>
+                    <polygon id="Shape" points="32.3974581 48.5846479 12.4477011 48.5846479 0.176930168 96.9727528 32.3974581 96.9727528"></polygon>
+                    <polygon id="Shape" points="96.9078771 48.5846479 76.9581201 48.5846479 64.6873492 96.9727528 96.9078771 96.9727528"></polygon>
+                </g>
+                <path d="M137.665629,97 L125.370645,48.5 L105.312021,48.5 L93.0170371,0 L49.9829629,0 L37.6879785,48.5 L17.6293555,48.5 L5.33437109,97 L2,97 L141,97 L137.665629,97 Z M133.364773,97 L74.3429844,97 L85.2533984,53.9620808 L106.696863,53.9620808 L122.454359,53.9620808 L133.364773,97 Z M71.5,91.2480648 L62.0477285,53.9624449 L80.952,53.9624449 L71.5,91.2480648 Z M52.899248,5.46208077 L90.1004805,5.46208077 L101.010895,48.5 L82.3368418,48.5 L60.6631582,48.5 L41.9891055,48.5 L52.899248,5.46208077 Z M20.5459121,53.9620808 L36.3034082,53.9620808 L57.746873,53.9620808 L68.6572871,97 L9.63549805,97 L20.5459121,53.9620808 Z" id="Shape" fill="#333333"></path>
+                <rect id="Rectangle-path" fill="#333333" x="0" y="97" width="142" height="9" rx="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
