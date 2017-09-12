@@ -70,11 +70,11 @@
             <div class="col-sm-6">
               <div class="flex-row">
                 <div class="flex-col-1 indicator-value">DEAL</div>
-                <div class="flex-col-2 indicator-rating text-warning">{{ .Params.dealrating }}</div>
+                <div class="flex-col-2 indicator-rating text-warning">{{ partial "rating" .Params.dealrating }}</div>
               </div>
               <div class="flex-row mt-3">
                 <div class="flex-col-1 indicator-value">TRUST</div>
-                <div class="flex-col-2 indicator-rating text-success">{{ .Params.trustrating }}</div>
+                <div class="flex-col-2 indicator-rating text-success">{{ partial "rating" .Params.trustrating }}</div>
               </div>
               <div class="flex-row mt-3">
                 <div class="flex-col-1 indicator-value">SOFT CAP</div>

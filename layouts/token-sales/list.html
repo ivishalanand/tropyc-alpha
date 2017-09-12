@@ -32,8 +32,8 @@
       {{ range .Data.Pages.ByParam "endDate" }}
         <tr>
           <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
-          <td class="text-uppercase">{{ .Params.trustRating }}</td>
-          <td class="text-uppercase">{{ .Params.dealRating }}</td>
+          <td class="text-uppercase">{{ partial "rating" .Params.trustRating }}</td>
+          <td class="text-uppercase">{{ partial "rating" .Params.dealRating }}</td>
           <td>{{ .Params.hardCap }}</td>
           <td>{{ .Params.platform }}</td>
           <td>{{ .Params.industry }}</td>
