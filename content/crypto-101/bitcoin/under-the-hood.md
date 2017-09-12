@@ -10,27 +10,19 @@ toc = true
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/mining.svg" class="img-fluid" alt="mining" >}}
+      <p class="font-weight-bold">Mining</p>
     </div>
     <div class="col">
        {{< img src="crypto-101/icons/blockchain.svg" class="img-fluid" alt="blockchain" >}}
+       <p class="font-weight-bold">Blockchain</p>
     </div>
     <div class="col">
        {{< img src="crypto-101/icons/consensus.svg" class="img-fluid" alt="consensus" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Mining
-    </div>
-    <div class="col">
-      Blockchain
-    </div>
-    <div class="col">
-      Consensus
+       <p class="font-weight-bold">Consensus</p>
     </div>
   </div>
 </div>
@@ -50,14 +42,13 @@ The main difference between fiat and Bitcoin is that the former can be printed w
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="printer-usd-dollars" >}}
     </div>
-    <div class="col">
-      In the current financial system, floating currencies are regulated by central banks – they can inject or remove money via a centralised system.
-      The amount of fiat money is uncapped as Central Banks have the power to print an unlimited supply.
+    <div class="col text-left">
+      In the current financial system, floating currencies are regulated by central banks – they can inject or remove money via a centralised system. The amount of fiat money is uncapped as Central Banks have the power to print an unlimited supply.
     </div>
   </div>
  </div>
@@ -69,14 +60,14 @@ The main difference between fiat and Bitcoin is that the former can be printed w
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-left">
      The creation of Bitcoin is decentralised, transparent and follows an immutable mathematical formula
       Bitcoins are not printed but "mined" by computers plugged on the network.
       There will only be 21 million bitcoins ever mined.
     </div>
-    <div class="col">
+    <div class="col text-center">
        {{< img src="crypto-101/icons/mining.svg" class="img-fluid" alt="mining" >}}
     </div>
   </div>
@@ -88,38 +79,22 @@ As such, mining Bitcoin and cryptocurrencies is a resource-draining activity tha
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
     <div class="col">
        {{< img src="crypto-101/icons/hardware.svg" class="img-fluid" alt="servers" >}}
+       <p class="font-weight-bold">Hardware</p>
+       <p class="small">Miners allocate their computer horse power to the network : the more powerful the installation, the better the performance.</p>
     </div>
     <div class="col">
        {{< img src="crypto-101/icons/energy.svg" class="img-fluid" alt="thunder" >}}
+       <p class="font-weight-bold">Energy</p>
+       <p class="small">Computer equipment consumes power to function continuously. Energy is the main operational expense miners incur.
     </div>
     <div class="col">
        {{< img src="crypto-101/icons/time.svg" class="img-fluid" alt="sandbox" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Hardware
-    </div>
-    <div class="col">
-      Energy
-    </div>
-    <div class="col">
-      Time
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      Miners allocate their computer horse power to the network : the more powerful the installation, the better the performance
-    </div>
-    <div class="col">
-      Computer equipment consumes power to function continuously. Energy is the main operational expense miners face
-    </div>
-    <div class="col">
-      Resources could be allocated to another network. Miners invest not only their equipment but their time to the task
+       <p class="font-weight-bold">Time</p>
+       <p class="small">Resources could be allocated to another network. Miners invest not only their equipment but their time to the task.</p>
     </div>
   </div>
 </div>
@@ -132,28 +107,17 @@ The network rewards miners in such a way, that they are incentivised to keep it 
 
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/transaction-fees.svg" class="img-fluid" alt="percentage-price" >}}
+      <p class="font-weight-bold">Transaction fees</p>
+      <p class="small">Issuing a transaction incurs a small fee, given to miners.</p>
     </div>
     <div class="col">
        {{< img src="crypto-101/icons/mining-rewards.svg" class="img-fluid" alt="gold-cup" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Transaction fees
-    </div>
-    <div class="col">
-      Mining rewards
-    </div>
-  <div class="row">
-    <div class="col">
-      Issuing a transaction incurs a small fee, given to miners.
-    </div>
-    <div class="col">
-      When a new block is generated, new bitcoins are mined and rewarded to the best miners
+       <p class="font-weight-bold">Mining rewards</p>
+       <p class="small">When a new block is generated, new bitcoins are mined and rewarded to the best miners</p>
     </div>
   </div>
 </div>
@@ -197,28 +161,17 @@ This offers two tangible benefits to blockchain technology compared to a central
  
  
  
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-gold" >}}
+     <p class="font-weight-bold">Transparency</p>
+     <p class="small">Issuing a transaction incurs a small fee, given to miners.</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-inside-chat-bubble" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Transparency
-    </div>
-    <div class="col">
-      Immutable
-    </div>
-  <div class="row">
-    <div class="col">
-      Issuing a transaction incurs a small fee, given to miners.
-    </div>
-    <div class="col">
-      When a new block is generated, new bitcoins are mined and rewarded to the best miners
+     <p class="font-weight-bold">Immutable</p>
+     <p class="small">When a new block is generated, new bitcoins are mined and rewarded to the best miners.</p>
     </div>
   </div>
 </div>
@@ -243,35 +196,19 @@ A transaction does not exist until it is generated in a new block. In order to k
 <div class="container">
   <div class="row">
     <div class="col">
-     {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
+      {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
+      <p class="font-weight-bold">Sign</p>
+      <p class="small">Alice wants to send money to Bob.</p>
     </div>
     <div class="col">
-     {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
+      {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
+      <p class="font-weight-bold">Generate</p>
+      <p class="small">Miners gather data and create their own block.</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="boxing-gloves" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Sign
-    </div>
-    <div class="col">
-      Generate
-    </div>
-    <div class="col">
-      Verify
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      Alice wants to send money to Bob.
-    </div>
-    <div class="col">
-      Miners gather data and create their own block.
-    </div>
-    <div class="col">
-      All miners compete to get their block issued on the blockchain.
+      <p class="font-weight-bold">Verify</p>
+      <p class="small">All miners compete to get their block issued on the blockchain.</p>
     </div>
   </div>
 </div>
@@ -283,17 +220,17 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
      {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
     </div>
-    <div class="col">
-     Alice builds a transaction from her wallet.
-     She sets the recipient's public address and the amount
-     The public address requires the corresponding private key to be accepted
-     Alice signs the transaction with her private key that can be locked by a password.
-     The transaction is the sent online to the bitcoin network and blockchain (via wallets)
+    <div class="col text-left">
+     1 - Alice issues a transaction from her wallet.
+     2 - She sets the recipient's public address and the amount.
+     3 - The public address requires the corresponding private key to be accepted.
+     4 - Alice signs the transaction with her private key that can be locked by a password.
+     5 - The transaction is the sent online to the bitcoin network and blockchain (via wallets).
     </div>
   </div>
 </div>
@@ -305,12 +242,12 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
      {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
     Miners then create a new block from signed transaction and verify they are valid.
     The block data is then converted into a hash by miners.
     A hash is a fixed-length string that holds large amounts of data. Each block has a unique hash because it has a unique set of data. 
@@ -327,16 +264,16 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
-<div class="container">
+<div class="container my-4">
   <div class="row">
-    <div class="col">
+    <div class="col text-left font-weight-bold">
      Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
     Hashing is the process of transforming a string of characters as input into a new string of fixed length as output using encryption through a hashing function. Miners need to gather different unconfirmed transactions (input) compute them into the hashing function set by the network and output a hash with pre-determined conditions (starts with a certain amount of zeros)
     The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultaneously.
     Under the hood, the network sets every 2 weeks a hash target value: miners need to solve the problem by providing a valid hash inferior to the target.
     Retargeting makes hashing difficulty evolve with the number miners connected to the network.
     </div>
-    <div class="col">
+    <div class="col text-center">
     {{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="boxing-gloves" >}}
     </div>
   </div>
@@ -363,8 +300,8 @@ This ensures
 Here's a recap of the process: from initiating a transaction to getting it mined on the blockchain.
 
 
-<div class="container">
-  <div class="row">
+<div class="container my-4">
+  <div class="row text-center font-weight-bold">
     <div class="col">
      1 - Signature
     </div>
@@ -383,7 +320,7 @@ Here's a recap of the process: from initiating a transaction to getting it mined
   {{< img src="crypto-101/infographics/info-btc3-2.png" class="img-fluid" alt="from-signature-to-blockchain" >}}
   
 <div class="container">
-  <div class="row">
+  <div class="row text-center small">
     <div class="col">
      Transaction is signed and sent to the network
     </div>
