@@ -19,21 +19,23 @@ You can send money - digitally and securely - without relying on a third party (
 
 Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to central bank backed currencies.
 
-Bitcoin is simply put, the first decentralised financial system that works.
+Bitcoin is simply put, the **first decentralised financial system that works.**
 
 
-There are now two distinct economies:
+<p class="font-weight-bold">There are now two distinct economies:</p>
 
 
-<div class="container my-3">
+<div class="container mt-5 my-3">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer-dollar" >}}
-      <p class="font-weight-bold">Traditional economy, monitored by a central team within a government</p>
+      <p class="font-weight-bold">Traditional economy </p>
+      <p class="small">monitored by a central team within a government</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/decentralised-eco.svg" class="img-fluid" alt="Decentralised-economy" >}}
-      <p class="font-weight-bold">Crypto-economy, decentralised and permission-less</p>
+      <p class="font-weight-bold">Crypto-economy</p>
+      <p class="small">decentralised and permission-less</p>
     </div>
   </div>
 </div>
@@ -78,11 +80,11 @@ Example  = Bitcoin, Litecoin, Ether, Monero ...
 We can identify three main differences between them :
 
 
-* You are obliged to trust a third party (a bank) to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
+1 - You are obliged to trust a third party (a bank) to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
-* Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
+2 - Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
 
-* In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
+3 - In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
 
 </table>
@@ -166,11 +168,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Speed
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col  text-left">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
     </div>
-    <div class="col">
+    <div class="col  text-center">
       {{< img src="crypto-101/icons/speed.svg" class="img-fluid" alt="rocket" >}}
     </div>
   </div>
@@ -181,11 +183,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Accessible 
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col  text-center">
       {{< img src="crypto-101/icons/accessible.svg" class="img-fluid" alt="door-open" >}}
     </div>
-    <div class="col">
+    <div class="col  text-left">
       Unlike bank accounts, there is no prerequisites, screening process, charging structures, consumer limits, nor account freezing.
       You have complete control over your capital.
     </div>
@@ -197,11 +199,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Safe
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-left">
      Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.
     </div>
-    <div class="col">
+    <div class="col  text-center">
       {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="vault" >}}
     </div>
   </div>
@@ -212,11 +214,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Cheap 
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/cheap.svg" class="img-fluid" alt="price-is-low" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat
     </div>
   </div>
@@ -227,11 +229,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Global 
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-left">
      Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees..
     </div>
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="earth-spinning" >}}
     </div>
   </div>
@@ -242,11 +244,11 @@ Let's review some of Bitcoin's core value propositions.
 ### Private
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       In Bitcoin, we have perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.
 In other words, a wallet may not be clearly associated with a person's name.
     </div>
@@ -258,11 +260,11 @@ In other words, a wallet may not be clearly associated with a person's name.
 ### Trustless
 
 <div class="container my-3">
-  <div class="row align-items-center text-center">
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col text-left">
       Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.
     </div>
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="ribbon-with-a-tick" >}}
     </div>
   </div>
@@ -274,10 +276,10 @@ In other words, a wallet may not be clearly associated with a person's name.
 
 <div class="container my-3">
   <div class="row align-items-center text-center">
-    <div class="col">
+    <div class="col text-center">
       {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
-    <div class="col">
+    <div class="col text-left">
       Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.
     </div>
   </div>
