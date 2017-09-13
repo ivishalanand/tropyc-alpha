@@ -9,9 +9,9 @@ toc = true
 +++
 
 
-
-> "In crypto, you're in control of your wealth, but this luxury comes with extra responsibilities"
-
+<blockquote>
+<p>"In crypto, you're in control of your wealth, but this luxury comes with extra responsibilities."</p>
+</blockquote>
 
 
 ## Set-up
@@ -34,15 +34,18 @@ Picture your hot wallet as your current account and cold wallet as your savings 
   <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
-     <p class="font-weight-bold mt-2">Cold wallet = savings account</p>
+     <p class="font-weight-bold mt-2">Cold wallet</p>
+     <p class="small text">savings account</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
-      <p class="font-weight-bold mt-2">Hot wallet = current account</p>
+      <p class="font-weight-bold mt-2">Hot wallet</p>
+      <p class="small text">current account</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
-      <p class="font-weight-bold mt-2">Online wallet = short term</p>
+      <p class="font-weight-bold mt-2">Online wallet</p>
+      <p class="small text">short term</p>
     </div>
   </div>
 </div>
@@ -135,9 +138,9 @@ Similarly, you do not want to store your back up and password next to your walle
     <div class="col col-sm-6 col-md-4 text-center">
      {{< img src="crypto-101/icons/back-up.svg" class="img-fluid" alt="saving-file" >}}
     </div>
-    <div class="col col-sm-6 col-md-8 text-center">
-      In case your wallet gets deleted, corrupted, lost or mislaid, you will also lose access to your to private keys and therefore to all of your assets stored on your public addresses! 
-Back up your wallet by making a copy of private key files in case something happens to your system and store it offline and somewhere safe.
+    <div class="col col-sm-6 col-md-8 text-left">
+      <p>In case your wallet gets deleted, corrupted, lost or mislaid, you will lose access to your to private keys. This means, you'll lose access to all your coins stored on your public addresses! </p>
+      <p>Back up your wallet by making a copy of private key files in case something happens to your system and store it offline and somewhere safe.</p>
     </div>
   </div>
 </div>
@@ -154,8 +157,10 @@ Back up your wallet by making a copy of private key files in case something happ
 <div class="container my-4">
   <div class="row">
     <div class="col col-sm-6 col-md-8 text-left">
-     Multi-sig addresses give the ability to share ownership of a public key between several users. In order to send coins out of the wallet, the transactions require all the keys of the involved users.
-This feature can add an extra layer of protection if you want to share the wallet ownership without other parties. Very suitable for a family or a business account.
+     <p>Multi-sig addresses give the ability to share ownership of a public key between several users. 
+     <p>In order to send coins out of the wallet, the transactions require all the keys of the involved users.
+     <p>This feature can add an extra layer of protection if you want to share the wallet ownership without other parties. 
+     Very suitable for a family and a business accounts.</p>
     </div>
     <div class="col col-sm-6 col-md-4 text-center">
       {{< img src="crypto-101/icons/multi-sig.svg" class="img-fluid" alt="multiple-private-keys" >}}
