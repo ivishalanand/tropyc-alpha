@@ -86,7 +86,7 @@ Nothing could be done as altering smart contracts code is not that easy once it�
 Some attempted to separate the funds by pitching a project to the DAO, but this required token holders to vote and reach consensus: an action that was not feasible in such short notice.
 Smart contracts are autonomous agents, independent from any third party or centralised influence: once deployed, the code is the ultimate decision maker.
 
-As such, the attacker was technically speaking _following the DAO rules_ (hard coded in smart contracts) that were introduced by the Ethereum Foundation team. 
+As such, the attacker was technically speaking, **_following the DAO rules_** (hard coded in smart contracts) that were introduced by the Ethereum Foundation team. 
 For the Ethereum network, this action was valid as it was deemed correct by the smart contracts, however, for the investors, it was clearly a programming mistake.
 
 He or She moved the funds to a copycat DAO, nicknamed “The Child DAO” – where all stolen Ether were locked for a 28-day crowdsale period (as it was a replica of the original DAO). 
@@ -104,12 +104,12 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
 
 
 <div class="container my-4">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-center">
      {{< img src="crypto-101/icons/soft-fork.svg" class="img-fluid" alt="soft-fork" >}}
     </div>
     <div class="col text-center">
-      <p class="small">A soft fork would freeze the assets of the Child DAO and the Ethers stolen by the hacker. This solution required the network to accept the deployment of a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permission less and immutable, the only way to add a new rule is to convince 51% of all nodes to make the change happen.</p>
+      <p>A soft fork would freeze the assets of the Child DAO and the Ethers stolen by the hacker. This solution required the network to accept the deployment of a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permission less and immutable, the only way to add a new rule is to convince 51% of all nodes to make the change happen.</p>
     </div>
    </div>
  </div>
@@ -120,9 +120,9 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
 
 
 <div class="container my-4">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-left">
-     <p class="small">The second solution is more brutal :  the idea is to rewind blockchain back to a block before the DAO hack. The hard fork would therefore delete all transaction history that occurred after the attack and return to DAO token holders the Ether they invested in the project.</p>  
+     <p>The second solution is more brutal :  the idea is to rewind blockchain back to a block before the DAO hack. The hard fork would therefore delete all transaction history that occurred after the attack and return to DAO token holders the Ether they invested in the project.</p>  
     </div>
     <div class="col text-center">
      {{< img src="crypto-101/icons/hard-fork.svg" class="img-fluid" alt="hard-fork" >}}
@@ -149,17 +149,18 @@ Adopting a similar approach with the DAO, would rescue investors from the losing
 
 
 <div class="container my-4">
-  <div class="row text-center">
+  <div class="row text-center align-items-center">
     <div class="col">
       {{< img src="crypto-101/icons/no-fork.svg" class="img-fluid" alt="no-fork" >}}
       <p class="font-weight-bold mt-2">No Fork thanks</p>
-      <p class="small">DAO token holders contributors knew it was an experimental investment opportunity that had significant risks. 
-      And in cryptocurrency, hacking IS the main risk.</p>
+      <p class="small">DAO token holders contributors knew it was an experimental project. </p>
+      <p class="small">In cryptocurrency, hacking **IS** the main risk.</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/fork-please.svg" class="img-fluid" alt="fork-please" >}}
       <p class="font-weight-bold mt-2">Fork please</p>
-      <p class="small">14% of the entity Ether supply was stolen by the hacker. The incurred loss might be “too big to fail” for Ethereum</p>
+      <p class="small">14% of the entity Ether supply was stolen by the hacker.</p>
+      <p class="small">The incurred loss might be _“too big to fail”_ for Ethereum</p>
     </div>
   </div>
 </div>
@@ -176,8 +177,9 @@ The DAO held approximately 15% of the total supply of Ether till date, it was co
 However, some developers disagreed with this decision and argued a blockchain should be tamper-proof and immutable. Therefore, some miners decided not to hard fork and continued to mine the Ethereum blockchain on which the attack occurred.
 
 Till date, there are now two Ethereum blockchains:
-*    Ethereum ETH, DAO attack was deleted from the records
-*    Ethereum ETC, DAO token holders lost all of their investment
+
+* Ethereum ETH, DAO attack was deleted from the records.
+* Ethereum ETC, DAO token holders lost all of their investment.
 
 Anyone who held Ether before the split had the same balance in Ethereum Classic after the split. For instance, if you had 100 ETH before the fork, you would hold 100 ETH and 100 ETC after the fork. 
 
