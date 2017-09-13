@@ -16,26 +16,18 @@ Here all the different cold wallets
 
 
 <div class="container">
-  <div class="row">
+  <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
+     <p class="font-weight-bold mt-2">Branded wallets</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="certification-tick" >}}
+      <p class="font-weight-bold mt-2">Do it yourself</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="planet-spinning" >}}
-    </div>
-  </div>
-   <div class="row">
-    <div class="col">
-      Branded wallets
-    </div>
-    <div class="col">
-      Do it yourself
-    </div>
-    <div class="col">
-      Paper wallets
+      <p class="font-weight-bold mt-2">Paper wallets</p>
     </div>
   </div>
 </div>
@@ -64,53 +56,46 @@ If you don't have the time or the desire to build your own cold wallet, you can 
     </thead>
     <tbody>
         <tr>
-            <td>PIC</td>
-            <td>Ledger Blue</td>
-            <td>Touchscreen</td>
-            <td>Yes</td>
-            <td>229€</td>
-            <td>CART PIC</td>
+            <td class="text-center">PIC</td>
+            <td class="text-left">Ledger Blue</td>
+            <td class="text-center">Touchscreen</td>
+            <td class="text-center">Yes</td>
+            <td class="text-center">229€</td>
+            <td class="text-center">CART PIC</td>
         </tr>
         <tr>
-            <td>PIC</td>
-            <td>Trezor</td>
-            <td>Screen</td>
-            <td>Yes</td>
-            <td>89€</td>
-            <td>CART PIC</td>
+            <td class="text-center">PIC</td>
+            <td class="text-left">Trezor</td>
+            <td class="text-center">Screen</td>
+            <td class="text-center">Yes</td>
+            <td class="text-center">89€</td>
+            <td class="text-center">CART PIC</td>
         </tr>
         <tr>
-            <td>PIC</td>
-            <td>Ledger Nano</td>
-            <td>Screen</td>
-            <td>Yes</td>
-            <td>58€</td>
-            <td>CART PIC</td>
+            <td class="text-center">PIC</td>
+            <td class="text-left">Ledger Nano</td>
+            <td class="text-center">Screen</td>
+            <td class="text-center">Yes</td>
+            <td class="text-center">58€</td>
+            <td class="text-center">CART PIC</td>
         </tr>
          <tr>
-            <td>PIC</td>
-            <td>KeepKey</td>
-            <td>Screen</td>
-            <td>No</td>
-            <td>$99</td>
-            <td>CART PIC</td>
+            <td class="text-center">PIC</td>
+            <td class="text-left">KeepKey</td>
+            <td class="text-center">Screen</td>
+            <td class="text-center">No</td>
+            <td class="text-center">$99</td>
+            <td class="text-center">CART PIC</td>
         </tr>
         <tr>
-            <td>PIC</td>
-            <td>OpenDime</td>
-            <td>Pen-drive</td>
-            <td>No</td>
-            <td>$12</td>
-            <td>CART PIC</td>
+            <td class="text-center">PIC</td>
+            <td class="text-left">OpenDime</td>
+            <td class="text-center">Pen-drive</td>
+            <td class="text-center">No</td>
+            <td class="text-center">$12</td>
+            <td class="text-center">CART PIC</td>
         </tr>
          <tr>
-            <td>PIC</td>
-            <td>Digital Bitbox</td>
-            <td>Pen-drive</td>
-            <td>No</td>
-            <td>78€</td>
-            <td>CART PIC</td>
-        </tr>
     </tbody>
 </table>
 
