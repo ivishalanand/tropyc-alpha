@@ -13,19 +13,18 @@ toc = true
 
 
 
-Bitcoin is open-source money.
+> "Bitcoin is open-source money."
 
-You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates securely, independently and free from government control. 
-
+You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates securely, independently and free from government control.  
 Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to central bank backed currencies.
 
-Bitcoin is simply put, the **first decentralised financial system that works.**
+To put it simple, Bitcoin is the **first decentralised financial system that works.**
 
 
-<p class="font-weight-bold">There are now two distinct economies:</p>
+<p class="font-weight-bold text-center mt-2">There are now two distinct economies:</p>
 
 
-<div class="container mt-5 my-3">
+<div class="container mt-5 my-4">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer-dollar" >}}
@@ -47,13 +46,17 @@ Bitcoin is simply put, the **first decentralised financial system that works.**
 
 
 
-* Issued and regulated by a government, a centralised financial authority. It has value because it is made legal tender by law.
+* Issued and regulated by a government, a centralised financial authority. 
 
-* Can printed endlessly by a central bank.
+* It has value because it is made legal tender by law.
 
-* Transferred from and to personnal bank accounts, but managed by third parties (your bank)
+* Central bank can print fiat money endlessly and without any limit.
 
-* No transparency and low privacy: government printed trillions of dollars since the 2008 financial crisis and yet there is low knowledge on how these funds are used. Credit cards companies, Tax authority and banks have access to all your financial life.
+* Transferred from and to personnal bank accounts, but managed by third parties (your bank).
+
+* No transparency: after 2008,  trillions of dollars were printed, and yet there is low knowledge on how it is used. 
+
+* Low Privacy: payment companies, tax regulators and banks all have access to your financial life.
 
 Example  = USD, GBP, EUR, INR, CHINA
 
@@ -64,31 +67,38 @@ Example  = USD, GBP, EUR, INR, CHINA
 
 
 
-* Independent from any central banks, noone "owns" the Bitcoin network 
+* Independent from any central banks, noone "owns" the Bitcoin network.
  
-* Rate of emission (printing) is fixed, transparent and immutable. There will be only 21 million Bitcoin, not more than that.
+* Rate of emission is fixed, transparent and immutable. There will be 21 million Bitcoin, not more than that.
  
-* Users transact without the need of a middle men. It is secured by encrypted digital signature and runs on cryptography and algorithms.
+* Users transact without the need of a middle men or a third party. 
 
-* Perfect transparency and flexible privacy: everyone has access to every transaction that occurred on the network, and you can store your wealth anonymously at the same time.
+* Transactions are secured by encrypted digital signature and made possible by cryptography and algorithms.
+
+* Perfect transparency: everyone has access to every transaction that occurred on the network,
+
+* Flexible privacy: you can chose to store your wealth anonymously.
 
 Example  = Bitcoin, Litecoin, Ether, Monero ...
 
 
 
 
-We can identify three main differences between them :
+<p class="font-weight-bold text-center mt-4 my-2"> We can identify three main differences between them:</p>
 
 
 1 - You are obliged to trust a third party (a bank) to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
-2 - Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...). On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
+2 - Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...).   
+On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
 
-3 - In fiat, we are not aware how freshly printed money is spent by governments and large financial institutions. Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called the blockchain. Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
+3 - In fiat, we are not aware of how freshly printed money is spent by governments and large financial institutions.  
+Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called *the blockchain*.  
+Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
 
 </table>
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped my-4">
     <thead>
         <tr class="text-center font-weight-bold">
             <td>FEATURES</td>
@@ -125,7 +135,7 @@ We can identify three main differences between them :
 
 
 In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”. 
-Supported by a team of developers and managed by Satoshi, the Bitcoin protocol came to notice in 2011 in mainstream media.
+Supported by a team of developers and managed by Satoshi, the Bitcoin protocol came to notice in 2011 in mainstream media.  
 It is the most famous cryptocurrency and the largest one by market capitalisation. There are now over a thousand cryptocurrencies and crypto assets.
 
 
@@ -136,9 +146,8 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
       {{< img src="crypto-101/icons/bitcoin-satoshi.png" class="img-fluid" alt="Bitcoin-includes-a-lot-of-satoshis" >}}
     </div>
     <div class="col">
-      One bitcoin is divisible to the 8th divisible pace.
-      This means you can split a Bitcoin into 100,000,000 units aka Satoshi
-      100,000,000 Satoshis = 1 Bitcoin
+      One bitcoin is divisible to the 8th divisible pace.  
+      This means you can split a Bitcoin into 100,000,000 units, aka Satoshi.
     </div>
   </div>
   <div class="row align-items-center">
