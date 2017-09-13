@@ -40,18 +40,18 @@ Here’s a quick recap of the difference between both.
     <div class="col text-center">
       {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
       <p class="font-weight-bold mt-2 text-center">Formal or informal agreement</p>
-      <p class="small text-center">If agreement is not honoured, the following can happen</p>
-      <p class="small text-left">* Reminder</p>
-      <p class="small text-left">* Follow – up</p>
-      <p class="small text-left">* Renegotiation</p>
-      <p class="small text-left">* Legal recourse</p>
-      <p class="small text-left">* Settlement in the future</p>
+      <ul><li class="small text-center">If agreement is not honoured, the following can happen</p>
+      <li class="small text-left">1 - Reminder</li>
+      <li class="small text-left">2 - Follow – up</li>
+      <li class="small text-left">3 - Renegotiation</li>
+      <li class="small text-left">4 - Legal recourse</li>
+      <li class="small text-left">5 - Settlement in the future</li></ul>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid" alt="smart-contract" >}}
       <p class="font-weight-bold mt-2 text-center">Smart contract, computer program</p>
       <p class="small text-left">Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions.</p>
-      <p class="small text-left">Smart contract are flexible, they can be permissionless and / or immutable</p>
+      <p class="small text-left">Smart contracts are flexible, they can be permissionless and / or immutable</p>
     </div>
   </div>
  </div>
