@@ -18,10 +18,10 @@ toc = true
 You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates securely, independently and free from government control.  
 Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to central bank backed currencies.
 
-To put it simple, Bitcoin is the **first decentralised financial system that works.**
+To put it simple, Bitcoin is the first decentralised financial system that works.
 
 
-<p class="font-weight-bold text-center mt-2">There are now two distinct economies:</p>
+<p class="font-weight-bold text-center mt-5">There are now two distinct economies:</p>
 
 
 <div class="container mt-5 my-4">
@@ -69,7 +69,8 @@ Example  = USD, GBP, EUR, INR, CHINA
 
 * Independent from any central banks, noone "owns" the Bitcoin network.
  
-* Rate of emission is fixed, transparent and immutable. There will be 21 million Bitcoin, not more than that.
+* Rate of emission is fixed, transparent and immutable. 
+<p>There will be 21 million Bitcoin, not more than that.</p>
  
 * Users transact without the need of a middle men or a third party. 
 
@@ -108,24 +109,24 @@ Additionally, Bitcoin holders have the choice to dissociate their wealth and the
     </thead>
     <tbody>
         <tr>
-            <td>Emission rate</td>
-            <td>Opaque and unpredictable</td>
-            <td>Accessible and fixed</td>
+            <td class="text-left">Emission rate</td>
+            <td class="text-center">Opaque and unpredictable</td>
+            <td class="text-center">Accessible and fixed</td>
         </tr>
         <tr>
-            <td>Trusting a third party</td>
-            <td>Mandatory</td>
-            <td>Flexible</td>
+            <td class="text-left">Trusting a third party</td>
+            <td class="text-center">Mandatory</td>
+            <td class="text-center">Flexible</td>
         </tr>
         <tr>
-            <td>Privacy</td>
-            <td>Low</td>
-            <td>High</td>
+            <td class="text-left">Privacy</td>
+            <td class="text-center">Low</td>
+            <td class="text-center">High</td>
         </tr>
         <tr>
-            <td>Transparency</td>
-            <td>Low</td>
-            <td>High</td>
+            <td class="text-left">Transparency</td>
+            <td class="text-center">Low</td>
+            <td class="text-center">High</td>
         </tr>
     </tbody>
 </table>
