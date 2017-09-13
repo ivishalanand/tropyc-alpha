@@ -40,8 +40,8 @@ Here’s a quick recap of the difference between both.
     <div class="col text-center">
       {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
       <p class="font-weight-bold mt-2 text-center">Formal or informal agreement</p>
-      <ul><li class="small text-center">If agreement is not honoured, the following can happen</p>
-      <li class="small text-left">1 - Reminder</li>
+      <p class="small text-center">If agreement is not honoured, the following can happen</p>
+      <ul><li class="small text-left">1 - Reminder</li>
       <li class="small text-left">2 - Follow – up</li>
       <li class="small text-left">3 - Renegotiation</li>
       <li class="small text-left">4 - Legal recourse</li>
@@ -51,7 +51,8 @@ Here’s a quick recap of the difference between both.
       {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid" alt="smart-contract" >}}
       <p class="font-weight-bold mt-2 text-center">Smart contract, computer program</p>
       <p class="small text-left">Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions.</p>
-      <p class="small text-left">Smart contracts are flexible, they can be permissionless and / or immutable</p>
+      <p class="small text-left">Smart contracts are flexible, they can be</p>
+      <p class="small text-left">permissionless or immutable</p>
     </div>
   </div>
  </div>
