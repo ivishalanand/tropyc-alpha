@@ -80,7 +80,7 @@ As such, mining Bitcoin and cryptocurrencies is a resource-draining activity tha
 
 
 <div class="container my-4">
-  <div class="row">
+  <div class="row text center">
     <div class="col">
        {{< img src="crypto-101/icons/hardware.svg" class="img-fluid" alt="servers" >}}
        <p class="font-weight-bold">Hardware</p>
@@ -102,7 +102,7 @@ As such, mining Bitcoin and cryptocurrencies is a resource-draining activity tha
 
 
 
-The network rewards miners in such a way, that they are incentivised to keep it secure
+<p class="font-weight-bold text-center mt-4">The network rewards miners in such a way, that they are incentivised to keep it secure.</p>
 
 
 
@@ -117,7 +117,7 @@ The network rewards miners in such a way, that they are incentivised to keep it 
     <div class="col">
        {{< img src="crypto-101/icons/mining-rewards.svg" class="img-fluid" alt="gold-cup" >}}
        <p class="font-weight-bold">Mining rewards</p>
-       <p class="small">When a new block is generated, new bitcoins are mined and rewarded to the best miners</p>
+       <p class="small">New blocks generates new bitcoins, rewarded to the best miners</p>
     </div>
   </div>
 </div>
@@ -157,7 +157,7 @@ Each block records the information of multiple transactions including
 
 
   
-This offers two tangible benefits to blockchain technology compared to a centralised dataset:
+<p class="font-weight-bold text-center mt-4">This offers two tangible benefits to blockchain technology compared to a centralised dataset:</p>
  
  
  
@@ -166,12 +166,12 @@ This offers two tangible benefits to blockchain technology compared to a central
     <div class="col">
      {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-gold" >}}
      <p class="font-weight-bold">Transparency</p>
-     <p class="small">Issuing a transaction incurs a small fee, given to miners.</p>
+     <p class="small">Perfect knowledge of transaction information.</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-inside-chat-bubble" >}}
      <p class="font-weight-bold">Immutable</p>
-     <p class="small">When a new block is generated, new bitcoins are mined and rewarded to the best miners.</p>
+     <p class="small">Once a block is recorded it becomes permanent.</p>
     </div>
   </div>
 </div>
@@ -193,12 +193,12 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
-<div class="container">
+<div class="container my-4 text-center">
   <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
       <p class="font-weight-bold">Sign</p>
-      <p class="small">Alice wants to send money to Bob.</p>
+      <p class="small">Alice wants to send money to Bob via Bitcoin.</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
@@ -221,11 +221,12 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 <div class="container my-4">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-center">
      {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
     </div>
-    <div class="col text-left">
+    <div class="col text-left"> 
+    
      1 - Alice issues a transaction from her wallet.
      2 - She sets the recipient's public address and the amount.
      3 - The public address requires the corresponding private key to be accepted.
@@ -243,16 +244,17 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 <div class="container my-4">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-center">
      {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
     </div>
     <div class="col text-left">
-    Miners then create a new block from signed transaction and verify they are valid.
-    The block data is then converted into a hash by miners.
+    
+    Miners then create a new block from signed transaction and verify they are valid.  
+    The block's data is then converted into a hash by miners.  
     A hash is a fixed-length string that holds large amounts of data. Each block has a unique hash because it has a unique set of data. 
-    Changing one variable in the data will change the hash completely.
-    This way, the network knows if a fake transaction was inserted in a previous block because each block's hash is part of the formula that generates a new block
+    Changing one variable in the data will change the hash.  
+    This way, the network knows if a fake transaction was inserted in a previous block because each block's hash is part of the formula that generates a new block.
     </div>
   </div>
 </div>
@@ -265,10 +267,10 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 <div class="container my-4">
-  <div class="row">
-    <div class="col text-left font-weight-bold">
+  <div class="row align-items-center">
+    <div class="col text-left">
      Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.
-    Hashing is the process of transforming a string of characters as input into a new string of fixed length as output using encryption through a hashing function. Miners need to gather different unconfirmed transactions (input) compute them into the hashing function set by the network and output a hash with pre-determined conditions (starts with a certain amount of zeros)
+   Miners need to gather different unconfirmed transactions (input) compute them into a hashing function set by the network and create a new hash (output) with pre-determined conditions (starts with a certain amount of zeros).
     The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultaneously.
     Under the hood, the network sets every 2 weeks a hash target value: miners need to solve the problem by providing a valid hash inferior to the target.
     Retargeting makes hashing difficulty evolve with the number miners connected to the network.
@@ -297,7 +299,9 @@ This ensures
 * Miners are incentivised to secure the network.
 * Digital assets are secured on a distributed and public network.
 
-Here's a recap of the process: from initiating a transaction to getting it mined on the blockchain.
+
+
+<p class="mt-3">Here's a recap of the process: from initiating a transaction to getting it mined on the blockchain.</p>
 
 
 <div class="container my-4">
@@ -317,12 +321,12 @@ Here's a recap of the process: from initiating a transaction to getting it mined
   </div>
 </div>
   
-  {{< img src="crypto-101/infographics/info-btc3-2.png" class="img-fluid" alt="from-signature-to-blockchain" >}}
+  <p class="my-4 text-center">{{< img src="crypto-101/infographics/info-btc3-2.png" class="img-fluid" alt="from-signature-to-blockchain" >}}</p>
   
-<div class="container">
+<div class="container my-4">
   <div class="row text-center small">
     <div class="col">
-     Transaction is signed and sent to the network
+     Transaction is signed and sent to the network by a wallet
     </div>
     <div class="col">
       Unconfirmed transaction wait to be added in the next block by miners
