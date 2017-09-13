@@ -135,7 +135,7 @@ You can either make your own DIY cold wallet or follow our hard wallet product r
             <td>Hack and physical attack</td>
             <td>Physical attack</td>
         </tr class="text-center">
-        <tr>
+        <tr class="text-center">
             <td>Safety</td>
             <td>- - -</td>
             <td>+</td>
