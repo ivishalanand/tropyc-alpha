@@ -72,7 +72,7 @@ The act of "sending a bitcoin" requires 3 things :
 
 
 
-<div class="container my-3">
+<div class="container my-4 align-items-center">
   <div class="row">
     <div class="col text-left">
       A public address serves as the recipient crypto bank account: a Bitcoin is held on a public address.
@@ -93,7 +93,7 @@ The act of "sending a bitcoin" requires 3 things :
 
 
 
-<div class="container my-3">
+<div class="container my-4 align-items-center">
   <div class="row">
     <div class="col text-center">
       {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="private-key" >}}
@@ -113,7 +113,7 @@ The act of "sending a bitcoin" requires 3 things :
 
 
 
-<div class="container my-3">
+<div class="container my-4 align-items-center">
   <div class="row">
     <div class="col text-left">
       Write down your wallet's password and make sure you have a back-up in case you lose.
@@ -125,9 +125,10 @@ The act of "sending a bitcoin" requires 3 things :
   </div>
 </div>
 
+
 <p class="font-weight-bold text-center mt-4">Let's compare fiat currencies and Bitcoin on this matter :</p>
 
-<div class="container my-3">
+<div class="container my-4">
   <div class="row">
     <div class="col text-center">
       {{< img src="crypto-101/infographics/info-btc2-2.png" class="img-fluid" alt="fiat-crypto-bank-vs-wallet" >}}
@@ -135,10 +136,12 @@ The act of "sending a bitcoin" requires 3 things :
   </div>
   <div class="row text-center small">
     <div class="col">
-     <em>Both banks and their retail customers have to bank accounts. Regulators can also step in and freeze/seize an account.</em>
+     <em>Both banks and their retail customers have access bank accounts.</em>
+     <em>Regulators can also step in and freeze/seize an account.</em>
     </div> 
     <div class="col">
-      <em>A single individual can store a private key and access funds digitally. No middle man and it is impossible to seize funds without a private keys</em>
+      <em>A single individual can store a private key and access funds digitally.</em>
+      <em>No middle man and it is impossible to seize funds without a private keys</em>
     </div>
   </div>
 
@@ -159,7 +162,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 
 
 <div class="container my-3">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-left">
       Just like the stock and bond market exchange, you can buy cryptocurrencies on a specialised cryptocurrency exchange. An exchange acts a centralised marketplace and lets you swap fiat with cryptocurrencies at a given rate - decided by the market.
     </div>
@@ -175,7 +178,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 
 
 <div class="container my-3">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-center">
        {{< img src="crypto-101/icons/atm.svg" class="img-fluid" alt="atm" >}}
     </div>
@@ -191,7 +194,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 
 
 <div class="container my-3">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-left">
       As opposed to centralised exchanges, you can join a dealers network and purchase some Bitcoin over-the-counter. This method is usually utilised for large bulk purchase
     </div>
@@ -207,7 +210,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 
 
 <div class="container my-3">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-center">
        {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
     </div>
@@ -234,7 +237,7 @@ Today, most of the services and goods are available for purchase through bitcoin
 
 
 <div class="container">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-left">
      An increasing number of merchants accept bitcoins as a form of payment, including some billion dollar revenue powerhouses. Amazon, Microsoft, Expedia to name a few.
     </div>
@@ -250,7 +253,7 @@ Today, most of the services and goods are available for purchase through bitcoin
 
 
 <div class="container">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-center">
      {{< img src="crypto-101/icons/card.svg" class="img-fluid" alt="card" >}}
     </div>
@@ -266,7 +269,7 @@ Today, most of the services and goods are available for purchase through bitcoin
 
 
 <div class="container">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col text-left">
     At first, bitcoin transactions thrived on gambling platforms and online marketplaces that enabled the distribution of illicit goods and services. These platforms still exist and you safely get delivered any type of product. Be sure to check your legislation before ordering anything.
     </div>
