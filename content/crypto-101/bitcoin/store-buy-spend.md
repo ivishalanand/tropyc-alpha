@@ -59,7 +59,7 @@ The act of "sending a bitcoin" requires 3 things :
 
 
 
-<p class="font-weight-bold text-center">What’s between you and a Bitcoin</p>
+<p class="font-weight-bold text-center mt-4">What’s between you and a Bitcoin</p>
 
 
 {{< img src="crypto-101/infographics/info-btc2-1.png" class="img-fluid" alt="user-wallet-cryptography-bitcoin" >}}
@@ -125,7 +125,7 @@ The act of "sending a bitcoin" requires 3 things :
   </div>
 </div>
 
-<p class="font-weight-bold text-center">Let's compare fiat currencies and Bitcoin on this matter :</p>
+<p class="font-weight-bold text-center mt-4">Let's compare fiat currencies and Bitcoin on this matter :</p>
 
 <div class="container my-3">
   <div class="row">
