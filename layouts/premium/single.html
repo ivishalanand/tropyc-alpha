@@ -3,9 +3,8 @@
 {{ define "main"}}
 
 <div class="premium-packs">
-  <h1 class="text-center">{{ .Description }}</h1>
   <div class="container">
-  	<div class="row">
+  	<div class="row no-gutters">
   		<div class="col-xs-12 col-lg-4">
   			<div class="premium-pack economy-pack d-flex flex-column justify-content-around align-items-center mb-3">
   				<h2>Economy</h2>
@@ -64,7 +63,7 @@
 						<p class="small">6 months</p>
   				</div>
   				<button
-					    class="snipcart-add-item btn btn-warning btn-lg font-weight-bold mb-3"
+					    class="snipcart-add-item btn btn-warning text-white btn-lg font-weight-bold mb-3"
 					    data-item-id="2"
 					    data-item-name="Business Ticket"
 					    data-item-price="239.00"
@@ -113,31 +112,6 @@
   		</div>
   	</div>
   </div>
-  <h2 class="text-center">Every ticket comes with</h2>
-</div>
-<div class="pack-features">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-lg-4">
-					<div class="featurebox">
-						<img src="/images/{{ index $.Site.Data.images.hash "landing-page/chat.svg" }}">
-						<p>7/7 chat support with screenshots</p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-lg-4">
-					<div class="featurebox">
-						<img src="/images/{{ index $.Site.Data.images.hash "landing-page/star.svg" }}">
-						<p>Design your portfolio and set up your digital vault</p>
-					</div>
-			</div>
-			<div class="col-xs-12 col-lg-4">
-					<div class="featurebox">
-						<img src="/images/{{ index $.Site.Data.images.hash "landing-page/light-bulb.svg" }}">
-						<p>Customised classes and news on Bitcoin, crypto and blockchain</p>
-					</div>
-			</div>
-		</div>
-	</div>
 </div>
 {{ partial "newsletter-bleed" . }}
 
