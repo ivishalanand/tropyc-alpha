@@ -6,9 +6,33 @@
   <div class="banner-content">
     <h1>{{ .Title }}</h1>
     <p>{{ .Description }}</p>
-    <p>Subscribe to our newsletter and get a free ICO report</p>
-    {{ partial "newsletter-inline-form" . }}
+    {{ partial "newsletter-banner-form" . }}
   </div>
+</div>
+<div class="container-fluid top-bleed">
+	<div class="row h-100 text-center align-items-center">
+		<div class="col-sm-6 col-md-3 top-item">
+			<div>First steps in crypto</div>
+			<div class="text-success">We're here for you</div>
+		</div>
+		<div class="col-sm-6 col-md-3 top-item">
+			<div>The revolution is here</div>
+			<div class="text-success">Learn the basics</div>
+		</div>
+		<div class="col-sm-6 col-md-3 top-item">
+			<div>With crypto, you're in control</div>
+			<div class="text-success">Lock your assets</div>
+		</div>
+		<div class="col-sm-6 col-md-3 top-item">
+			<div>Customised portfolio solutions</div>
+			<div class="text-success">Assess opportunities</div>
+		</div>
+	</div>
+</div>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">What is Tropyc Premium ?</div>
+	<div class="titleborder"></div>
 </div>
 <div class="features">
 	<div class="featurebox">
@@ -22,14 +46,21 @@
 		<p>Evaluate projects with our ICO rating reports.</p>
 	</div>
 	<div class="featurebox">
-		<img src="/images/{{ index $.Site.Data.images.hash "landing-page/light-bulb.svg" }}">
+		<img src="/images/{{ index $.Site.Data.images.hash "landing-page/portfolio.svg" }}">
 		<h2>Education</h2>
 		<p>Learn how to purchase, store, manage and invest.</p>
 	</div>
 </div>
+<div class="bleed d-flex align-items-center justify-content-center">
+	<h2>Crypto and bitcoin aren't easy to understand so we're here for you 7/7.</h2>
+</div>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">What is 7/7 support ?</div>
+	<div class="titleborder"></div>
+</div>
 <div class="instructions">
 	<div class="container">
-		<h2>How Premium works</h2>
 		<div class="row">
 			<div class="col-sm-6 d-flex flex-column justify-content-around">
 					<div class="step">
@@ -51,10 +82,17 @@
 		</div>
 	</div>
 </div>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">Why tokensales and ICOs ?</div>
+	<div class="titleborder"></div>
+</div>
 <div class="funding-comparison">
+	<div class="funding-title d-flex flex-column justify-content-center">
+		<h2><span class="text-danger">Startup funds raised</span> vs. <span class="text-success">Initial Coin Offerings</span></h2>
+		<p class="mt-2">in millions of dollars</p>
+	</div>
 	<div class="container">
-		<h2><span class="red">Startup funds raised</span> vs. <span class="green">Initial Coin Offerings</span></h2>
-		<p>in millions of dollars</p>
 		<div class="row">
 			<div class="col-sm-6">
 				<img class="img-fluid rounded mx-auto d-block mt-3" src="/images/{{ index $.Site.Data.images.hash "landing-page/chart.png" }}">

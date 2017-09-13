@@ -14,7 +14,7 @@
 /* Logo */
 .navbar-tropyc-brand {
 	> a {
-	  color: $brand-primary;
+	  color: theme-color("primary");
 	  font-size: 24px;
 	  font-weight: bold;
 	  line-height: 50px;
@@ -24,7 +24,7 @@
 	  display: block;
 
 	  &:hover {
-	  	color: $brand-primary;
+	  	color: theme-color("primary");
 	  	text-decoration: none;
 	  }
 	}
@@ -59,7 +59,7 @@
   font-size: 18px;
   font-weight: 500;
   color: #fff;
-  background-color: $brand-primary;
+  background-color: theme-color("primary");
 
   &:hover {
     color: #fff;

@@ -16,7 +16,7 @@
 	    display: block;
 
 	    &:hover {
-	    	color: $brand-primary;
+	    	color: theme-color("primary");
 	    	text-decoration: none;
 	    }
   	}
@@ -54,7 +54,7 @@
 	    display: inline-block;
 
 	    &:hover {
-	    	color: $brand-primary;
+	    	color: theme-color("primary");
 	    	text-decoration: none;
 	    }
     }

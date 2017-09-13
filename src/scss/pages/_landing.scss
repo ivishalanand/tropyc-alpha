@@ -1,5 +1,47 @@
+.top-bleed {
+	background: #F8FAFA;
+	border: 1px solid #BDC3C7;
+	height: 100px;
+
+	@include media-breakpoint-down(sm) {
+  	height: auto;
+  }
+
+	.top-item {
+		&:not(:last-child) {
+			border-right: 1px solid #e2e2e2;
+		}
+
+		div:first-child {
+			font-size: 14px;
+    	color: #9D9D9D;
+		}
+
+		div:last-child {
+			font-size: 16px;
+    	color: theme-color("primary");
+		}
+	}
+}
+
+.bleed {
+	height: 250px;
+	background: theme-color("primary");
+
+	h2 {
+		color: #FFF;
+		text-align: center;
+		line-height: 2;
+
+		@include media-breakpoint-up(lg) {
+	  	line-height: 2.5;
+	  	width: 50%;
+	  }
+	}
+}
+
 .features {
-	margin-top: 30px;
+	margin: 30px 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -14,67 +56,56 @@
 
     img {
     	padding-top: 30px;
-    	height: 100px;
+    	height: 150px;
     }
 
     h2 {
     	text-transform: uppercase;
     	padding-top: 15px;
     	font-size: 22px;
-	    color: $orange;
+	    color: $green;
 	    line-height: 22px;
-	    letter-spacing: 0.03em;
     }
 
     p {
     	text-align: center;
-	    letter-spacing: 0.1em;
 	    margin-top: 15px;
 	    font-size: 15px;
     }
   }
 }
 
-// .title {
-//   margin-top: 70px;
-//   display: flex;
-//   width: 100%;
+.title {
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  width: 80%;
 
-//   .titleborder {
-//   	flex: 1;
-//     border-top: 1px solid #EEE;
-//     margin-top: 8px;
-//   }
+  .titleborder {
+  	flex: 1;
+    border-top: 3px solid $yellow;
+    margin-top: 8px;
+  }
 
-//   .titlelabel {
-//   	line-height: 20px;
-//   	margin: 0 20px;
-//   	text-transform: uppercase;
-//     color: #787878;
-//     letter-spacing: 0.1em;
-//     font-weight: 500;
-//     font-size: 15px;
-//   }
-// }
+  .titlelabel {
+  	line-height: 20px;
+  	margin: 0 80px;
+    color: #787878;
+    font-size: 1.2rem;
+  }
+}
 
 .instructions, .funding-comparison {
-	margin-top: 90px;
-	margin-bottom: 90px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .instructions {
-	background: $brand-primary;
 	padding-top: 2rem;
 
-	h2 {
-		color: #FFF;
-		text-align: center;
-		font-size: 3rem;
-		margin-bottom: 2rem;
-	}
-
-	h3, p {
-		color: #FFF;
+	h3 {
+		color: theme-color("primary");
 	}
 
 	.step:last-child {
@@ -84,36 +115,38 @@
 
 .funding-comparison {
 
+	.funding-title {
+		height: 200px;
+		margin: 30px 0;
+		background: #F8FAFA;
+		border: 1px solid #BDC3C7;
+	}
+
 	h2 {
 		text-align: center;
-
-		.red {
-			color: $red;
-		}
-
-		.green {
-			color: $green;
-		}
 	}
 
 	p {
 		text-align: center;
 		font-weight: 500;
 	}
+
+	.point h2 {
+		text-align: left;
+		color: theme-color("primary");
+	}
 }
 
 .step, .point {
-	max-width: 400px;
 
 	h3 {
 		font-size: 2rem;
-    letter-spacing: 0.05em;
     margin: 15px 0;
     font-weight: 500;
 	}
 
 	p {
-		margin: 10px 0;
+		margin: 10px 0 10px 20px;
 		font-size: 1.1rem;
 		font-weight: 300;
 		text-align: justify;

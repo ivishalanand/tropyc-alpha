@@ -9,7 +9,7 @@
 
 	h1 {
 		margin-bottom: 90px;
-		color: $brand-primary;
+		color: theme-color("primary");
 	}
 
 	h2 {
@@ -30,7 +30,7 @@
 
 		.highlight {
 			text-transform: uppercase;;
-			background: $gray-lighter;
+			background: $gray-400;
 			padding: 0.5rem 2rem;
 			font-size: 0.9rem;
 			font-weight: 500;
@@ -49,7 +49,7 @@
 		.collapsed-list {
 			li {
 				font-size: 0.8rem;
-				color: $gray-light;
+				color: $gray-400;
 			}
 		}
 

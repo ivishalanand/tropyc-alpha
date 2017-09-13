@@ -1,4 +1,4 @@
 +++
 title = "Crypto made simple"
-description = "Personal cryptocurrency analysis and rating here for you 7/7"
+description = "Hire your 7/7 cryptocurrency analyst"
 +++
