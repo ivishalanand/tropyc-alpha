@@ -33,8 +33,8 @@
 	          <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .name | urlize) }}');"><span class="label-emphasis">{{ .name }}</span></td>
 	          <td>{{ .year }}</td>
 	          {{ range where $dataTokens "name" .name }}
-	          	<td class="label-emphasis">${{ lang.NumFmt 0 .market_cap_usd }}</td>
-	          	<td class="label-emphasis">${{ lang.NumFmt 2 .price_usd }}</td>
+	          	<td class="label-emphasis market-cap">${{ lang.NumFmt 0 .market_cap_usd }}</td>
+	          	<td class="label-emphasis price">${{ lang.NumFmt 2 .price_usd }}</td>
 	          {{ else }}
 	          	<td class="label-emphasis">N/A</td>
 	          	<td class="label-emphasis">N/A</td>

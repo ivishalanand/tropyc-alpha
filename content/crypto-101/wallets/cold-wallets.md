@@ -56,44 +56,44 @@ If you don't have the time or the desire to build your own cold wallet, you can 
     </thead>
     <tbody>
         <tr>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/ledger-blue.png" class="img-fluid" alt="ledger-blue" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/ledger-blue.png" class="img-fluid" alt="ledger-blue" >}}</td>
             <td class="text-left">Ledger Blue</td>
             <td class="text-center">Touchscreen</td>
             <td class="text-center">Yes</td>
             <td class="text-center">229€</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
         </tr>
         <tr>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/trezor.png" class="img-fluid" alt="trezor" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/trezor.png" class="img-fluid" alt="trezor" >}}</td>
             <td class="text-left">Trezor</td>
             <td class="text-center">Screen</td>
             <td class="text-center">Yes</td>
             <td class="text-center">89€</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
         </tr>
         <tr>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/ledger-nano.png" class="img-fluid" alt="ledger-nano" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/ledger-nano.png" class="img-fluid" alt="ledger-nano" >}}</td>
             <td class="text-left">Ledger Nano</td>
             <td class="text-center">Screen</td>
             <td class="text-center">Yes</td>
             <td class="text-center">58€</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
         </tr>
          <tr>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/keepkey.png" class="img-fluid" alt="keepkey" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/keepkey.png" class="img-fluid" alt="keepkey" >}}</td>
             <td class="text-left">KeepKey</td>
             <td class="text-center">Screen</td>
             <td class="text-center">No</td>
             <td class="text-center">$99</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
         </tr>
         <tr>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/open-dime.png" class="img-fluid" alt="open-dime" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/open-dime.png" class="img-fluid" alt="open-dime" >}}</td>
             <td class="text-left">OpenDime</td>
             <td class="text-center">Pen-drive</td>
             <td class="text-center">No</td>
             <td class="text-center">$12</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pic/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
         </tr>
          <tr>
     </tbody>

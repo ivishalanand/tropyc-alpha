@@ -20,12 +20,15 @@
 	  line-height: 50px;
 	  background: no-repeat 10px center;
 	  background-size: 50px;
-	  padding-left: 70px;
 	  display: block;
 
 	  &:hover {
-	  	color: theme-color("primary");
+	  	color: darken(theme-color("primary"), 5%);
 	  	text-decoration: none;
+	  }
+
+	  img {
+	  	height: 60px;
 	  }
 	}
 }
@@ -45,9 +48,9 @@
 
 /* Navbar link */
 .navbar-tropyc-link {
-  color: #616668;
+  color: #333;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .navbar-tropyc-link:hover {
   color: $orange;
@@ -57,13 +60,13 @@
 /* Navbar Button */
 .navbar-tropyc-button {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   background-color: theme-color("primary");
 
   &:hover {
     color: #fff;
-    background-color: #46905d;
+    background-color: darken(theme-color("primary"), 5%);
   }
 }
 
@@ -75,7 +78,7 @@
 }
 .navbar-tropyc-dropdown-menu li > a {
   transition: color 0.3s ease;
-  font-weight: 300 !important;
+  font-weight: 500 !important;
   font-size: 16px !important;
   line-height: 22px !important;
   padding: 10px 20px;

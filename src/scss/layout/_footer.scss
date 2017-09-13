@@ -12,13 +12,16 @@
 	    margin-bottom: 50px;
 	    background: no-repeat 10px center;
 	    background-size: 50px;
-	    padding-left: 70px;
 	    display: block;
 
 	    &:hover {
 	    	color: theme-color("primary");
 	    	text-decoration: none;
 	    }
+
+  	  img {
+	  		height: 60px;
+	  	}
   	}
 	}
 

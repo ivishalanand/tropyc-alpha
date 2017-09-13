@@ -1,11 +1,11 @@
 +++
-title = "Wallet vs Bank "
+title = "Wallet vs Bank"
 date = 2017-08-02T17:15:31+02:00
 description = "Understand the difference between traditional bank accounts and cryptocurrency wallets. Holding crypto means additional responsibility so stay aware!"
 weight = 30
 draft = false
 bref = "Wallets, Chapter III"
-toc = true
+toc = false
 +++
 
 Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it offers an alternate monetary system to our economy: a decentralized one.
