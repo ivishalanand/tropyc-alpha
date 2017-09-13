@@ -13,7 +13,7 @@ toc = true
 
 
 
-#### Conventional contracts
+### Conventional contracts
 
 
 Conventional contracts are agreements that define stakeholder relationships on a wide range of domains, would it be related to a transaction, inheritance or consumption. 
@@ -24,7 +24,7 @@ The current legal and judiciary system may resolve a litigation in a matter of y
 
 
 
-#### Smart contracts
+### Smart contracts
 
 
 Smart contracts try to solve this issue by automating the terms of a contract with a few lines of code. 
@@ -38,19 +38,20 @@ Here’s a quick recap of the difference between both.
 <div class="container my-4">
   <div class="row">
     <div class="col">
-      {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
-      <p class="font-weight-bold mt-2">Formal or informal agreement</p>
-      <p class="small">If agreement is not honoured, the following can happen
-      * Reminder
-      * Follow – up
-      * (Renegotiation)
-      * Legal recourse
-      * Settlement in the future</p>
+      {{< img src="crypto-101/icons/handshake.svg" class="img-fluid text-center" alt="handshake" >}}
+      <p class="font-weight-bold mt-2 text-center">Formal or informal agreement</p>
+      <p class="small text-center">If agreement is not honoured, the following can happen</p>
+      <p class="small text-left">* Reminder</p>
+      <p class="small text-left">* Follow – up</p>
+      <p class="small text-left">* Renegotiation</p>
+      <p class="small text-left">* Legal recourse</p>
+      <p class="small text-left">* Settlement in the future</p>
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid" alt="smart-contract" >}}
-      <p class="font-weight-bold mt-2">Smart contract, computer program</p>
-      <p class="small">Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions. Smart contract are flexible, they can be permissionless and / or immutable</p>
+      {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid text-center" alt="smart-contract" >}}
+      <p class="font-weight-bold mt-2 text-center">Smart contract, computer program</p>
+      <p class="small text-left">Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions.</p>
+      <p class="small text-left">Smart contract are flexible, they can be permissionless and / or immutable</p>
     </div>
   </div>
  </div>
@@ -92,7 +93,7 @@ At this point, there are 3 possible outcomes :
 
 
 <div class="container">
-  <div class="row">
+  <div class="row align-items-centre">
     <div class="col">
      {{< img src="crypto-101/icons/yes.svg" class="img-fluid" alt="yes" >}}
      <p class="font-weight-bold">A. Bob pays up</p>
@@ -110,6 +111,7 @@ At this point, there are 3 possible outcomes :
  
  
 In a conventional agreement, we can, therefore, affirm that,
+
 * Alice and Bob have to manually track the event
 * Bob might breach the agreement
  
@@ -125,11 +127,15 @@ In a conventional agreement, we can, therefore, affirm that,
 
 Here, the smart contract releases the funds automatically to Alice.
 
+
 Programming the bet on a smart contract offers two tangible benefits:
+
 *    Alice and Bob does not need to track the S&P 500. A smart contract automates this task and rewards the winner accordingly. 
 * They send the money to the smart contract, that disburses directly to the winner. It reduces any risk of bad faith in an agreement and avoids any disputes
 
+
 Creating such interactions would typically require multiple smart contracts: 
+
 * check S&P 500 performance,
 * set the conditions of the bet (deadline, participants, etc..)
 * hold the money and disburse to the winner based on the above.
@@ -150,14 +156,21 @@ Ethereum allows its users to set different kinds of operations: not just limited
 At the epicentre of the Ethereum network sits the Ethereum Virtual Machine (EVM), the environment for smart contract development and execution. 
 
 The EVM has two main characteristics 
+
 * Turing complete: developers can create programs with more established and user-friendly coding languages such as Python or JavaScript.
 * Isolated: code and smart contracts running on top of the EVM does not have access to other applications on the network.
 
 Every node on the network (computers connected) runs the EVM and constantly updates the Ethereum database. This decentralised computation is actually far less efficient in terms of cost and speed than with a traditional hardware set-up. 
+
+
 Still, it offers valuable benefits :
+
 * constantly online with no downtime
 * high-level of fault tolerance
 * immutable and censorship resistant database
 
-Ethereum and its EVM are value-agnostic: developers are the one deciding how to use the platform. While Bitcoin is suited for peer-to-peer payments, Ethereum can automate interactions between stakeholders and coordinate community actions on its network. Using code, we can now design any types of operations between peers like scheduling a payout to an investor, giving a voting right to an organisation’s decisions, or coordinating a peer-to-peer online marketplace.
+Ethereum and its EVM are value-agnostic: developers are the one deciding how to use the platform. While Bitcoin is suited for peer-to-peer payments, Ethereum can automate interactions between stakeholders and coordinate community actions on its network. 
+
+Using code, we can now design any types of operations between peers like scheduling a payout to an investor, giving a voting right to an organisation’s decisions, or coordinating a peer-to-peer online marketplace.
+
 Bitcoin changed the payment industry, Ethereum can very well change any industry where trust, immutability and security are important.
