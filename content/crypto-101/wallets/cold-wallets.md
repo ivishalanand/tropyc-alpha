@@ -47,11 +47,11 @@ If you don't have the time or the desire to build your own cold wallet, you can 
     <thead>
         <tr class="text-center font-weight-bold">
             <td></td>
-            <td>WALLET</td>
-            <td>DEVICE</td>
-            <td>ALTCOINS</td>
-            <td>PRICE</td>
-            <td>PRICE</td>
+            <td class="text-left">WALLET</td>
+            <td class="text-center">DEVICE</td>
+            <td class="text-center">ALTCOINS</td>
+            <td class="text-center">PRICE</td>
+            <td></td>
         </tr>
     </thead>
     <tbody>
@@ -77,7 +77,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center">Screen</td>
             <td class="text-center">Yes</td>
             <td class="text-center">58€</td>
-            <td class="text-center">CART PIC</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pic/cart.png" class="img-fluid" alt="cart" >}}</td>
         </tr>
          <tr>
             <td class="text-center">{{< img src="crypto-101/wallet-pic/keepkey.png" class="img-fluid" alt="keepkey" >}}</td>
