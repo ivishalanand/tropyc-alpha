@@ -13,28 +13,24 @@ Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it o
 Governments and central banks have no authority towards the issuance of additional notes. the middle man loses its governing power in the equation. banks have become redundant because you can be your own bank.
 
 
-
-## Ownership
-
-
 <div class="container my-4">
-  <div class="row text-left align-items-center">
-    <div class="col-sm-6 col-md-3">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Ownership</h2> 
+     <p><small>Are you in full control over your wealth?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
      {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
-    </div>
-    <div class="col-sm-6 col-md-9">
-     Are you in full control over your wealth?
     </div>
   </div>
 </div>
 
-
-##### Fiat
+### Fiat
 
 Depositing funds into a bank account means trusting a centralised entity, (banks) to hold your wealth. They have the power to freeze your account, put consumer limits or delay access to funds. 
 
 
-##### Crypto
+### Crypto
 
 In cryptocurrency, you have the flexibility to either 
 
@@ -49,12 +45,12 @@ Beware, when storing your Bitcoin on third party wallets, you do not "own" a bit
 
 
 <div class="container my-4">
-  <div class="row">
-    <div class="col">
-     <h2><p>Immutability</p> 
-     <p><small>Can you rewind back in time and get a refund?</small></p></h2> 
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Immutability</h2> 
+     <p><small>Can you rewind back in time and get a refund?</small></p> 
      </div>
-    <div class="col">
+    <div class="col col-md-8 text-left">
      {{< img src="crypto-101/icons/blockchain.svg" class="img-fluid" alt="blockchain" >}}
     </div>
   </div>
@@ -63,7 +59,7 @@ Beware, when storing your Bitcoin on third party wallets, you do not "own" a bit
 
 
 
-##### Fiat
+### Fiat
 
 
 The current payment infrastructure offers a lot of safety nets in case something goes wrong. Merchants, banks and consumers all can cancel a transaction after it has been confirmed. Examples include Electronic Payment Terminal, insurance, lost and stolen cards etc...
@@ -72,7 +68,7 @@ However, refunds are sometimes not possible in case of mistake, especially durin
 
 
 
-##### Crypto
+### Crypto
 
 
 There is no rewinding back once a transaction is signed, verified and confirmed. The blockchain is *immutable*: there is no way to cancel a transaction. In this sense, the network is non-repudiable.
@@ -81,16 +77,13 @@ Always verify the public address before sending a transaction, otherwise, your b
 
 
 
-
-
-## Safety
-
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     Are you safe from a digital attack?
-    </div>
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Safety</h2> 
+     <p><small>Are you safe from a digital attack?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-inside-chat-bubble" >}}
     </div>
   </div>
@@ -98,7 +91,7 @@ Always verify the public address before sending a transaction, otherwise, your b
 
 
 
-##### Fiat economy
+### Fiat economy
 
 
 Card issuers, payment gateways, insurance and merchants are very open to refunding a transaction is something adverse happened. 
@@ -108,7 +101,7 @@ That being said, wiring cash to an incorrect bank account might result in a loss
 
 
 
-##### Crypto
+### Crypto
 
 
 The cryptocurrency network is very new and populates many new-comers and opportunists. There are many scams and frauds in this ecosystem that leverages the blockchain's immutability features.
@@ -123,23 +116,20 @@ Be careful!
 
 
 
-
-## Privacy
-
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     Can dettach your identity from your financial behaviour?
-    </div>
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Privacy</h2> 
+     <p><small>Can you dettach your identity from your financial behaviour?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="lock-password" >}}
     </div>
   </div>
 </div>
 
 
-
-##### Fiat
+### Fiat
 
 
 Although cash remains the most private way to transact, it is restricted to only low amounts. 
@@ -148,7 +138,7 @@ Electronic payment on the other side can manage higher amounts but record the id
 
 
 
-##### Crypto
+### Crypto
 
 
 The Bitcoin blockchain has imperfect knowledge over a user's identity: public addresses are not easily linked back to an individual's identity. 
@@ -160,23 +150,20 @@ Centralised tools, such as tumbler and mixers, can increase the difficulty to tr
 
 
 
-
-## Transparency
-
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     Are you aware of the total supply of money and how it is managed?
-    </div>
-    <div class="col">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Transparency</h2> 
+     <p><small>Are you aware of the total supply of money and how it is managed?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
      {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-gold" >}}
     </div>
   </div>
 </div>
 
 
-
-##### Fiat
+### Fiat
 
 
 Only a few a stakeholders have access to the transaction and bank settlement history. Although accounts are yearly audited, there is no live feed available for the public to scrutinize.
@@ -185,7 +172,7 @@ The fiat economy is closed-source, only regulators and financial institutions ca
 
 
 
-##### Crypto
+### Crypto
 
 
 The blockchain is a distributed public ledger that anyone can access at any time. This gives full knowledge of all the transaction that occurred on the network.
@@ -196,19 +183,18 @@ The Bitcoin code and blockchain activity is open-source
 
 
 
-## Price inflation
 
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     Is your wealth getting diluted due to price inflation?
-    </div>
-    <div class="col">
-     {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="volatile" >}}
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Price inflation</h2> 
+     <p><small>Is your wealth getting diluted due to price inflation?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
+          {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="volatile" >}}
     </div>
   </div>
 </div>
-
 
 
 ##### Fiat
@@ -238,23 +224,22 @@ As Bitcoin's market penetration is going up, Bitcoins are becoming more and more
 
 
 
-## Consumption
-
 
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     How easy is to issue low-amount transaction without a hassle?
-    </div>
-    <div class="col">
-     {{< img src="crypto-101/icons/card.svg" class="img-fluid" alt="card" >}}
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Consumption</h2> 
+     <p><small>How easy is to issue low-amount transaction without a hassle?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
+          {{< img src="crypto-101/icons/card.svg" class="img-fluid" alt="card" >}}
     </div>
   </div>
 </div>
 
 
 
-##### Fiat
+### Fiat
 
 
 International card issuers such as Visa or MasterCard handle hundreds of millions of transactions per day. When purchasing a good or service in through them, the payment is fast, secure and quite cheap.
@@ -265,7 +250,7 @@ Fees = 0 to 2%
 
 
 
-##### Crypto
+### Crypto
 
 
 A Bitcoin transaction takes 10 minutes to get recorded into a block, verified and added to the blockchain. Not the best scenario for merchants: waiting this amount of time to get the money cleared out creates a considerable risk... clients can't wait 10 minutes at the till.
@@ -274,24 +259,20 @@ However, new cryptocurrencies and blockchain startups have been very innovative 
 
 
 
-
-
-## Interbank settlement
-
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     How easy is it to issue high amount transactions globally?
-    </div>
-    <div class="col">
-     {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="planet-spinning" >}}
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Interbank settlement</h2> 
+     <p><small>How easy is it to issue high amount transactions globally?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
+          {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="planet-spinning" >}}
     </div>
   </div>
 </div>
 
 
-
-##### Fiat
+### Fiat
 
 
 The current payment technology can take up to 7 days execute a payment and incur heavy costs in some scenarios. Banks charges (hidden) fees and commissions on the conversion rate
@@ -300,7 +281,7 @@ During an international transaction, money could not be shown on both the sender
 
 
 
-##### Crypto
+### Crypto
 
 
 Cross-border payments are perfect for the Bitcoin network. You can send wealth overseas at a minimal cost and very quickly.
@@ -311,24 +292,19 @@ Fees = would not go above 10 USD.
 
 
 
-
-
-## Law
-
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     To what extent you are liable to financial behaviour?
-    </div>
-    <div class="col">
-     {{< img src="crypto-101/icons/bank.svg" class="img-fluid" alt="institution" >}}
+  <div class="row align-items-center">
+    <div class="col-md-4 text-left">
+     <h2>Law</h2> 
+     <p><small>To what extent you are liable to financial behaviour?</small></p> 
+     </div>
+    <div class="col col-md-8 text-left">
+          {{< img src="crypto-101/icons/bank.svg" class="img-fluid" alt="institution" >}}
     </div>
   </div>
 </div>
 
-
-
-##### Fiat
+### Fiat
 
 
 Fiat currencies are considered a legal tender, meaning they are legally recognised by a public institutional to settle financial obligations between parties.
@@ -341,7 +317,7 @@ There are underlying responsibilities, rules and duties when handling fiat money
 
 
 
-##### Crypto
+### Crypto
 
 
 Depending on the country, Bitcoin has different legal status. While some countries like Bangladesh or Bolivia banned the use of bitcoin, Japan decided in 2017 to declare it as legal tender.
