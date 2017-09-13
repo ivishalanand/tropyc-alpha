@@ -37,8 +37,8 @@ Here’s a quick recap of the difference between both.
 
 <div class="container my-4">
   <div class="row">
-    <div class="col">
-      {{< img src="crypto-101/icons/handshake.svg" class="img-fluid text-center" alt="handshake" >}}
+    <div class="col text-center">
+      {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="handshake" >}}
       <p class="font-weight-bold mt-2 text-center">Formal or informal agreement</p>
       <p class="small text-center">If agreement is not honoured, the following can happen</p>
       <p class="small text-left">* Reminder</p>
@@ -47,8 +47,8 @@ Here’s a quick recap of the difference between both.
       <p class="small text-left">* Legal recourse</p>
       <p class="small text-left">* Settlement in the future</p>
     </div>
-    <div class="col">
-      {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid text-center" alt="smart-contract" >}}
+    <div class="col text-center">
+      {{< img src="crypto-101/icons/smart-contract.svg" class="img-fluid" alt="smart-contract" >}}
       <p class="font-weight-bold mt-2 text-center">Smart contract, computer program</p>
       <p class="small text-left">Agreement is always honoured : a smart contract will automate the tasks as per initial terms and conditions.</p>
       <p class="small text-left">Smart contract are flexible, they can be permissionless and / or immutable</p>
@@ -93,7 +93,7 @@ At this point, there are 3 possible outcomes :
 
 
 <div class="container">
-  <div class="row align-items-centre">
+  <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/yes.svg" class="img-fluid" alt="yes" >}}
      <p class="font-weight-bold">A. Bob pays up</p>
