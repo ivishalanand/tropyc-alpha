@@ -81,9 +81,9 @@ Since the blockchain tracks all transactions, sharing used public addresses for 
 
 Setting up a wallet password is mandatory if you want to store your coins safely. The password should follow t:
 
-* length: minimum of 12 characters
-* unique: should not be reused for other wallet or any login
-* random: no meaning and with all types of characters
+* **length**: minimum of 12 characters
+* **unique**: should not be reused for other wallet or any login
+* **random**: no meaning and with all types of characters
 
 A good idea for extra security is to use Multiple Factor Authentication, an additional layer of protection for your account. There are three different authentication factors:  _knowledge_, _possession_ and _inherence_. 
 Under the 2-FA framework, you have to present to 2 components of authentication to access your account.
