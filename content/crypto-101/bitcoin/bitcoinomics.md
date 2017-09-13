@@ -12,7 +12,7 @@ toc = true
 Bitcoin and other cryptocurrencies'Because cryptocurrencies follow a more decentralised model, the process of creating new Bitcoin differs from the process of printing fiat money.
 
 
-<div class="container my-3">
+<div class="container my-4">
   <div class="row text-center">
     <div class="col">
       <p class="font-weight-bold">Bitcoin supply emission rate</p>
@@ -23,7 +23,7 @@ Bitcoin and other cryptocurrencies'Because cryptocurrencies follow a more decent
 Bitcoin emission rate is known to everyone: the number of new Bitcoin generated per block decreases with time. Every ten minutes, the blockchain records this information : the amount of new bitcoins and whom it is rewarded to.
 
 
-<div class="container mt-1 my-3">
+<div class="container mt-1 my-4">
     <div class="row text-center">
     <div class="col">
       <p class="font-weight-bold">Bitcoin rewards per blocks</p>
@@ -31,10 +31,11 @@ Bitcoin emission rate is known to everyone: the number of new Bitcoin generated 
     </div>
   </div>
 </div>
+
+
 Miners earn return on investment by new Bitcoin created and transactions fees. As the mining incentivisation stays constant, transaction fees increases over time while block rewards reduce.  
 
-
-The rate of mining Bitcoin is predictable and known to everyone on the network.
+The rate of mining Bitcoin is predictable and known to everyone on the network.  
 
 * Externalities cannot vary the issuance of bitcoin
 * Bitcoins are becoming more scare
@@ -42,10 +43,11 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 
 
 
-Bitcoin is a new kind of money that hold different fundamentals. Let's define its' possible use case as a form of money.
+<p class="text-center mt-4">Bitcoin is a new kind of money that hold different fundamentals.</p> 
+<p class="text-center">Let's define its' possible use case as a form of money.</p>
 
 
-<div class="container my-3">
+<div class="container my-4">
   <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/currency.svg" class="img-fluid" alt="gold-coins" >}}
@@ -77,7 +79,7 @@ Everyone can use Bitcoin. Unlike conventional currencies, most of Bitcoin holder
 
 
 
-<div class="container my-3">
+<div class="container my-4">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
@@ -145,7 +147,7 @@ At first, Bitcoin as a medium of exchange started on the dark-web to settle paym
 
 
 
-------------
+
 
 
 
@@ -159,8 +161,8 @@ At first, Bitcoin as a medium of exchange started on the dark-web to settle paym
     <div class="col">
       {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="coins-swapping" >}}
       <p class="font-weight-bold mt-2">Unit of account</p>
-      <p class="small">Yes for cross-border, mid to high amount, and private transactions.  
-      No for low amount and domestic payments</p>
+      <p class="small">Yes for cross-border, mid to high amount, and private transactions.</p>
+      <p class="small">No for low amount and domestic payments</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
@@ -205,12 +207,14 @@ Cryptocurrency markets are open 24/7 non-stop on independent exchanges and can b
     <div class="col">
       {{< img src="crypto-101/icons/volatile.svg" class="img-fluid" alt="chart-up-and-down" >}}
       <p class="font-weight-bold mt-2">Volatility</p>
-      <p class="small">Periodic and sudden changes in market price of a given asset</p>
+      <p class="small">Periodic and sudden changes in market price</p>
+      <p class="small">of a given asset</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/liquid.svg" class="img-fluid" alt="chart-supply-vs-demand" >}}
       <p class="font-weight-bold mt-2">Liquidity</p>
-      <p class="small">Ability to quickly buy or sell an asset without impacting its market price.</p>
+      <p class="small">Ability to quickly buy or sell an asset without</p>
+      <p class="small">impacting its market price.</p>
     </div>
  </div>
 
