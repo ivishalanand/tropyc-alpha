@@ -57,18 +57,20 @@ There are three different types of wallets, all of which will give you a differe
     <div class="col">
      {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
      <p class="font-weight-bold mt-2">Online</p>
-     <p class="small">Third party holds private keys. You hold a promise of payment, or IOU</p>
+     <p class="small">Third party holds private keys</p>
+     <p class="small">You hold a promise of payment when requested, or IOU</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
      <p class="font-weight-bold mt-2">Hot</p>
-     <p class="small">Private keysare stored locally.   
-     You're in control, but vulnerable to physical and online attacks</p>
+     <p class="small">Private keys are stored locally.</p>
+     <p class="small">You're in control, but vulnerable to physical and online attacks</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
      <p class="font-weight-bold mt-2">Cold</p>
-     <p class="small">Coins stored locally in a system that are never online. Still vulnerable to physical attack.</p>
+     <p class="small">Keys stored on an offline environment</p>
+     <p class="small">Safe from online threats, still vulnerable to physical attacks.</p>
     </div>
   </div>
 </div>
@@ -85,7 +87,8 @@ An IOU refers to “I owe you”: in the cryptocurrency world, either you have f
 
 The former represents the technology breakthrough of the decentralized blockchain, the latter is similar to the current centralised fiat economy.
 
-*WARNING!* You do not own crypto-assets stored on exchanges and online wallets, you only own a _promise_ that a third party will give you back your funds – nothing less, nothing more.
+<p> **WARNING!** <em> You do not own crypto-assets stored on exchanges and online wallets,</p>
+<p>you only own a **promise** that a third party will give you back your funds – nothing less, nothing more.</em></p>
 
 
 
@@ -120,18 +123,18 @@ You can either make your own DIY cold wallet or follow our hard wallet product r
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr class="text-center">
             <td>Use</td>
             <td>Cash wallet</td>
             <td>Current account</td>
             <td>Saving account</td>
         </tr>
-        <tr>
+        <tr class="text-center">
             <td>Risk</td>
             <td>Centralisation, hack, physical attack</td>
             <td>Hack and physical attack</td>
             <td>Physical attack</td>
-        </tr>
+        </tr class="text-center">
         <tr>
             <td>Safety</td>
             <td>- - -</td>
