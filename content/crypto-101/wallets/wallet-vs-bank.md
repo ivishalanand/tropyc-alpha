@@ -18,12 +18,12 @@ Governments and central banks have no authority towards the issuance of addition
 
 
 <div class="container my-4">
-  <div class="row text-center">
-    <div class="col">
-     Are you in full control over your wealth?
-    </div>
-    <div class="col">
+  <div class="row text-left align-items-center">
+    <div class="col-sm-6 col-md-3">
      {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
+    </div>
+    <div class="col-sm-6 col-md-9">
+     Are you in full control over your wealth?
     </div>
   </div>
 </div>
@@ -31,36 +31,35 @@ Governments and central banks have no authority towards the issuance of addition
 
 ##### Fiat
 
-Depositing funds into a bank account means trusting a centralised entity, banks to hold your wealth. They have the power to freeze your account, put consumer limits or delay access to funds. 
+Depositing funds into a bank account means trusting a centralised entity, (banks) to hold your wealth. They have the power to freeze your account, put consumer limits or delay access to funds. 
 
 
 ##### Crypto
 
 In cryptocurrency, you have the flexibility to either 
+
 * keep full control over your wealth
 * trust a third party to store your capital
 
 A cold wallet lets you store your cryptocurrencies offline and keep an eye on it, while an online wallet gives you a similar centralised experience as with banks.
 
-Beware, when storing your Bitcoin on third party wallets, you do not "own" a bitcoin, but own an "IOU": you assume the third party is trustworthy enough to send you your Bitcoin at your request!
+Beware, when storing your Bitcoin on third party wallets, you do not "own" a bitcoin, but own an "IOU": you assume the third party is trustworthy enough, to send you your Bitcoin when requested!
 
 
-
-
-
-## Immutability
 
 
 <div class="container my-4">
-  <div class="row text-center">
+  <div class="row">
     <div class="col">
-     Can you rewind back in time and get a refund?
-    </div>
+     <h2><p>Immutability</p> 
+     <p><small>Can you rewind back in time and get a refund?</small></p></h2> 
+     </div>
     <div class="col">
      {{< img src="crypto-101/icons/blockchain.svg" class="img-fluid" alt="blockchain" >}}
     </div>
   </div>
 </div>
+
 
 
 
