@@ -43,7 +43,7 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 
 
 
-<p class="text-center mt-4">Bitcoin is a new kind of money that hold different fundamentals.</p> 
+<p class="text-center">Bitcoin is a new kind of money that hold different fundamentals.</p> 
 <p class="text-center">Let's define its' possible use case as a form of money.</p>
 
 
