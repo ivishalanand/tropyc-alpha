@@ -14,7 +14,7 @@ industry = "financial services"
 currencyAccepted = ""
 startDate = 2017-09-16
 endDate = 2017-10-16
-founded = "Tropyc, 2016"
+founded = "Singapore, 2017"
 
 features = """
 - Cryptocurrency payment card
