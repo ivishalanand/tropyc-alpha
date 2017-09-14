@@ -3,10 +3,10 @@ title = "Zloadr"
 date = 2017-08-13T17:30:02+02:00
 description = "Zloadr is a viral news and media publishing platform that amplifies news worthy content with the help of influencers and bounty hunters."
 weight = 20
-draft = true
+draft = false
 
-trustRating = "B"
-dealRating = "B-"
+trustRating = "B-"
+dealRating = "C"
 softCap = "N/A"
 hardCap = "$31 M"
 platform = "Ethereum"
@@ -17,9 +17,9 @@ endDate = 2017-10-31
 founded = "Tropyc, 2016"
 
 features = """
-- Feature 1
-- Feature 2
-- Feature 3
+- Content writers, editors, influencers and advertisers meet on one decentralised digital publishing platform
+- Business accepts both fiat and cryptocurrency and sells access to marketplace on a monthly subsicription
+- Publishers can encrypto their content, transfer ownserhip, earn royaltees.
 """
 
 [links]
@@ -41,10 +41,10 @@ features = """
 
 [token]
   assetBacked = false
-  functions = "Currency, Incentive"
+  functions = "Access, Currency, Reward"
   premined = false
   consensus = "Proof-of-Stake"
-  similar = "N/A"
+  similar = "Steemit"
 
 [deal]
   [deal.headers]
