@@ -6,9 +6,9 @@ weight = 20
 draft = false
 
 trustRating = "B+"
-dealRating = ""
-softCap = ""
-hardCap = ""
+dealRating = "B+"
+softCap = "N/A"
+hardCap = "$10 M"
 platform = "Expanse & Ethereum"
 industry = "crowdfunding"
 currencyAccepted = EXP, BTC, LTC, ETH"
@@ -49,19 +49,24 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    cryptoHeader = "USD"
   [deal.rows]
     [deal.rows.pretokensale]
-      distribution = "Pre-tokensale"
-      cut = "12.5%"
-      supply = "25,000,000"
-      cryptovalue = "41,666"
+      distribution = "Exclusive Tokensale"
+      cut = "10%"
+      supply = "12,500,000"
+      cryptovalue = "1,000,000"
     [deal.rows.tokensale]
-      distribution = "Tokensale"
-      cut = "65%"
-      supply = "130,000,000"
-      cryptovalue = "216,666"
+      distribution = "Pre-tokensale"
+      cut = "10%"
+      supply = "11,1111,111"
+      cryptovalue = "1,000,000"
     [deal.rows.founders]
+      distribution = "Tokensale"
+      cut = "80%"
+      supply = "76,388,889"
+      cryptovalue = "8,000,000"
+    [deal.rows.earlyInvestors]
       distribution = "Founders"
       cut = "0%"
       supply = "0"
@@ -70,7 +75,7 @@ features = """
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
-      cryptovalue = "3,330,000"
+      cryptovalue = "10,000,000"
 
 [roadmap]
   website = true
