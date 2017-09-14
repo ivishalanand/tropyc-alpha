@@ -7,8 +7,8 @@ draft = false
 
 trustRating = "A"
 dealRating = "A-"
-softCap = ""
-hardCap = ""
+softCap = "N/A"
+hardCap = "$17.8 M"
 platform = "Ethereum"
 industry = "Music & events"
 currencyAccepted = ""
@@ -47,38 +47,33 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    cryptoHeader = "USD"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "60%"
       supply = "120,000,000"
-      cryptovalue = "38,040"
-      fiatvalue = "10,714,285"
+      cryptovalue = "$10,714,285"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "16%"
       supply = "32,000,000"
-      cryptovalue = "10,144"
-      fiatvalue = "2,857,142"
+      cryptovalue = "2,857,143"
     [deal.rows.earlyInvestors]
       distribution = "Early investors"
       cut = "17%"
       supply = "34,000,000"
-      cryptovalue = "10,778"
-      fiatvalue = "3,035,714"
+      cryptovalue = "2,142,857"
     [deal.rows.futureEmission]
       distribution = "Future emission"
       cut = "7%"
       supply = "14,000,000"
-      cryptovalue = "4,438"
-      fiatvalue = "1,250,000"
+      cryptovalue = "2,142,857"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "200,000,000"
-      cryptovalue = "63,400"
-      fiatvalue = "17,857,141"
+      cryptovalue = "17,857,142"
 
 [roadmap]
   website = true
