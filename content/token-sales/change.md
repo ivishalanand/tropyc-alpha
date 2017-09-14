@@ -23,6 +23,7 @@ features = """
 """
 
 [links]
+  website = "https://change-bank.com/"
   twitter = "https://twitter.com/changefinance"
   facebook = "https://www.facebook.com/changefinance/"
   telegram = "https://t.me/ChangeBank"
