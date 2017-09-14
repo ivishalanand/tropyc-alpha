@@ -7,8 +7,8 @@ draft = false
 
 trustRating = "C+"
 dealRating = "C-"
-softCap = "$10 M"
-hardCap = "$12 M"
+softCap = "500ETH"
+hardCap = "N/A"
 platform = "Ethereum"
 industry = "P2P marketplace"
 currencyAccepted = ""
