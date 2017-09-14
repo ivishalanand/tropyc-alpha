@@ -11,7 +11,7 @@ softCap = "N/A"
 hardCap = "$45M"
 platform = "Native"
 industry = "Data marketplace"
-currencyAccepted = ""
+currencyAccepted = "BTC, ETH"
 startDate = 2017-09-11
 endDate = 2017-09-11
 founded = "N/A, 2017"
@@ -22,6 +22,7 @@ features = """
 """
 
 [links]
+  website ="https://www.enigma.co/"
   twitter = "https://twitter.com/enigmaMPC"
   reddit = "https://www.reddit.com/r/enigmacatalyst/"
   telegram = "https://t.me/enigmacatalyst"
