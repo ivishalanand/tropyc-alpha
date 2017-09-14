@@ -7,7 +7,7 @@ draft = false
 
 trustRating = "A+"
 dealRating = "A+"
-softCap = ""
+softCap = "N/A"
 hardCap = "$15 M"
 platform = "Ethereum"
 industry = "Asset management"
