@@ -1,8 +1,7 @@
 +++
 title = "Under The Hood"
-date = 2017-08-02T17:14:00+02:00
+date = 2017-08-02T17:00:00+02:00
 description = "Bitcoin offers a secure environment for transaction thanks to blockchain technology, here, you'll learn how the system works and what's under the hood."
-weight = 30
 draft = false
 bref = "Bitcoin, Chapter III"
 toc = true
@@ -225,8 +224,6 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 ### Sign
-
-<div class="col-sm-6 col-md-8 text-left">
 
 <div class="container my-4">
   <div class="row align-items-center">

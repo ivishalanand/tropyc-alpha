@@ -2,7 +2,6 @@
 title = "Ethereconomics"
 date = 2017-08-02T17:16:21+02:00
 description = "Similar to Bitcoin, Ether is a cryptocurrency built on top of a blockchain. While Bitcoin is the digital gold, Ether is considered as the digital oil."
-weight = 20
 draft = false
 bref = "Ethereum, Chapter II"
 toc = true

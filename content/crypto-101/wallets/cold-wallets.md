@@ -1,8 +1,7 @@
 +++
 title = "Cold wallets"
-date = 2017-08-02T17:15:14+02:00
+date = 2017-08-02T17:16:14+02:00
 description = "Check our review of cold wallets: from branded products to paper and Do It Yourself wallets."
-weight = 40
 draft = false
 bref = "Wallets, Chapter IV"
 toc = true

@@ -12,7 +12,7 @@
 						<img class="img-fluid" src="/images/{{ index $.Site.Data.images.hash (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
 						<h2>{{ .Title }}</h2>
 						<ul>
-							{{ range .Data.Pages.ByWeight }}
+							{{ range .Data.Pages.ByDate }}
 							<li><a href="{{ .URL }}">{{ .Title }}</a></li>
 							{{ end }}
 						</ul>
@@ -28,7 +28,7 @@
 						<img class="img-fluid" src="/images/{{ index $.Site.Data.images.hash (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
 						<h2>{{ .Title }}</h2>
 						<ul>
-							{{ range .Data.Pages.ByWeight }}
+							{{ range .Data.Pages.ByDate }}
 							<li><a class="disabled" href="#" disabled>{{ .Title }} <i class="fa fa-ticket" aria-hidden="true"></i></a></li>
 							{{ end }}
 						</ul>
