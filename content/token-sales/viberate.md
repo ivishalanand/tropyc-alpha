@@ -1,5 +1,5 @@
 +++
-title = "Vibrate"
+title = "Viberate"
 date = 2017-08-13T17:30:02+02:00
 description = "Viberate is music talent marketplace linking every stakeholders in the music and event industry. Artists, agent, bookers, venues and fans can all connect on a single end-to-end event management platform "
 weight = 20
@@ -14,7 +14,7 @@ industry = "music, events"
 currencyAccepted = ""
 startDate = 2017-09-05
 endDate = 2017-09-05
-founded = "Tropyc, 2016"
+founded = "Slovenia, 2016"
 
 features = """
 - Artist and event database system
