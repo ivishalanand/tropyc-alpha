@@ -7,13 +7,13 @@ draft = false
 
 trustRating = "A-"
 dealRating = "B+"
-softCap = "$10 M"
-hardCap = "$12 M"
+softCap = "N/A"
+hardCap = "$45M"
 platform = "Native"
 industry = "Data marketplace"
-currencyAccepted = ""
+currencyAccepted = "BTC, ETH"
 startDate = 2017-09-11
-endDate = 2017-09-21
+endDate = 2017-09-11
 founded = "N/A, 2017"
 
 features = """
@@ -22,6 +22,7 @@ features = """
 """
 
 [links]
+  website ="https://www.enigma.co/"
   twitter = "https://twitter.com/enigmaMPC"
   reddit = "https://www.reddit.com/r/enigmacatalyst/"
   telegram = "https://t.me/enigmacatalyst"
@@ -51,26 +52,22 @@ features = """
       distribution = "Tokensale"
       cut = "50%"
       supply = "50,000,000"
-      cryptovalue = "API"
-      fiatvalue = "30,000,000"
+      cryptovalue = "45,000,000"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "25%"
       supply = "25,000,000"
-      cryptovalue = "API"
-      fiatvalue = "15,000,000"
+      cryptovalue = "22,500,000"
     [deal.rows.futureEmission]
       distribution = "Future emission"
       cut = "25%"
       supply = "25,000,000"
-      cryptovalue = "API"
-      fiatvalue = "15,000,000"
+      cryptovalue = "22,500,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
-      cryptovalue = ""
-      fiatvalue = "60,000,000"
+      cryptovalue = "90,000,000"
 
 [roadmap]
   website = true

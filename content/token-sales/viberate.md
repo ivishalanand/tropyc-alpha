@@ -1,5 +1,5 @@
 +++
-title = "Vibrate"
+title = "Viberate"
 date = 2017-08-13T17:30:02+02:00
 description = "Viberate is music talent marketplace linking every stakeholders in the music and event industry. Artists, agent, bookers, venues and fans can all connect on a single end-to-end event management platform "
 weight = 20
@@ -7,14 +7,14 @@ draft = false
 
 trustRating = "A"
 dealRating = "A-"
-softCap = ""
-hardCap = ""
+softCap = "N/A"
+hardCap = "$17.8 M"
 platform = "Ethereum"
-industry = "music, events"
-currencyAccepted = ""
+industry = "Music & events"
+currencyAccepted = "BTC, ETH"
 startDate = 2017-09-05
 endDate = 2017-09-05
-founded = "Tropyc, 2016"
+founded = "Slovenia, 2016"
 
 features = """
 - Artist and event database system
@@ -47,38 +47,33 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    cryptoHeader = "USD"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "60%"
       supply = "120,000,000"
-      cryptovalue = "38,040"
-      fiatvalue = "10,714,285"
+      cryptovalue = "$10,714,285"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "16%"
       supply = "32,000,000"
-      cryptovalue = "10,144"
-      fiatvalue = "2,857,142"
+      cryptovalue = "2,857,143"
     [deal.rows.earlyInvestors]
       distribution = "Early investors"
       cut = "17%"
       supply = "34,000,000"
-      cryptovalue = "10,778"
-      fiatvalue = "3,035,714"
+      cryptovalue = "2,142,857"
     [deal.rows.futureEmission]
       distribution = "Future emission"
       cut = "7%"
       supply = "14,000,000"
-      cryptovalue = "4,438"
-      fiatvalue = "1,250,000"
+      cryptovalue = "2,142,857"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "200,000,000"
-      cryptovalue = "63,400"
-      fiatvalue = "17,857,141"
+      cryptovalue = "17,857,142"
 
 [roadmap]
   website = true

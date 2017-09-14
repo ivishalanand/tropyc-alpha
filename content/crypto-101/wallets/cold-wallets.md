@@ -60,7 +60,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center">Touchscreen</td>
             <td class="text-center">Yes</td>
             <td class="text-center">229€</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</td>
         </tr>
         <tr>
             <td class="text-center">{{< img src="crypto-101/wallet-pics/trezor.png" class="img-fluid" alt="trezor" >}}</td>
@@ -68,7 +68,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center">Screen</td>
             <td class="text-center">Yes</td>
             <td class="text-center">89€</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</td>
         </tr>
         <tr>
             <td class="text-center">{{< img src="crypto-101/wallet-pics/ledger-nano.png" class="img-fluid" alt="ledger-nano" >}}</td>
@@ -76,7 +76,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center">Screen</td>
             <td class="text-center">Yes</td>
             <td class="text-center">58€</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</td>
         </tr>
          <tr>
             <td class="text-center">{{< img src="crypto-101/wallet-pics/keepkey.png" class="img-fluid" alt="keepkey" >}}</td>
@@ -84,7 +84,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center">Screen</td>
             <td class="text-center">No</td>
             <td class="text-center">$99</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</td>
         </tr>
         <tr>
             <td class="text-center">{{< img src="crypto-101/wallet-pics/open-dime.png" class="img-fluid" alt="open-dime" >}}</td>
@@ -92,7 +92,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center">Pen-drive</td>
             <td class="text-center">No</td>
             <td class="text-center">$12</td>
-            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.png" class="img-fluid" alt="cart" >}}</td>
+            <td class="text-center">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</td>
         </tr>
          <tr>
     </tbody>

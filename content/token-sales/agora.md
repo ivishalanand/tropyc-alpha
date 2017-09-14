@@ -7,19 +7,19 @@ draft = false
 
 trustRating = "C+"
 dealRating = "C-"
-softCap = "$10 M"
-hardCap = "$12 M"
+softCap = "500ETH"
+hardCap = "N/A"
 platform = "Ethereum"
 industry = "P2P marketplace"
-currencyAccepted = ""
+currencyAccepted = "ETH"
 startDate = 2017-08-04
 endDate = 2017-10-04
 founded = "France, 2017"
 
 features = """
-- Feature 1
-- Feature 2
-- Feature 3
+- decentralised peer-to-peer marketplace
+- enables sellors and buyers to connect on Agora's upcoming platform
+- token holders will earn an incentives from the transaction fees
 """
 
 [links]
@@ -53,19 +53,16 @@ features = """
       cut = "83.33%"
       supply = "250000"
       cryptovalue = "500"
-      fiatvalue = "API"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "16.67%"
       supply = "41675"
       cryptovalue = "83"
-      fiatvalue = "API"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "291675"
       cryptovalue = "583"
-      fiatvalue = "API"
 
 [roadmap]
   website = true

@@ -7,11 +7,11 @@ draft = false
 
 trustRating = "A"
 dealRating = "B"
-softCap = "$10 M"
-hardCap = "$12 M"
+softCap = "82.5k ETH"
+hardCap = "165k ETH"
 platform = "Native"
 industry = "Crowdfunding"
-currencyAccepted = ""
+currencyAccepted = "ETH"
 startDate = 2017-08-01
 endDate = 2017-08-31
 founded = "Russia, 2017"
@@ -22,6 +22,7 @@ features = """
 """
 
 [links]
+  website = "https://www.kickico.com/"
   twitter = "https://twitter.com/KICKICOplatform"
   facebook = "https://www.facebook.com/kickicoplatform/"
   reddit = "https://www.reddit.com/r/KickICO/"
@@ -54,37 +55,31 @@ features = """
       cut = "12.2%"
       supply = "60,000,000"
       cryptovalue = "20,000"
-      fiatvalue = "API"
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "60.6%"
       supply = "300,000,000"
       cryptovalue = "100,000"
-      fiatvalue = "API"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "9.1%"
       supply = "45,000,000"
       cryptovalue = "15,000"
-      fiatvalue = "API"
     [deal.rows.earlyInvestors]
       distribution = "Early investors"
       cut = "8.1%"
       supply = "40,000,000"
       cryptovalue = "13,333"
-      fiatvalue = "API"
     [deal.rows.affiliate]
       distribution = "Operations"
       cut = "10%"
       supply = "50,000,000"
       cryptovalue = "3,333"
-      fiatvalue = "API"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "495,000,000"
       cryptovalue = "165,000"
-      fiatvalue = "API"
 
 [roadmap]
   website = true

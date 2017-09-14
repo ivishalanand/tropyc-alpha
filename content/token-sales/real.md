@@ -11,7 +11,7 @@ softCap = "$10 M"
 hardCap = "$12 M"
 platform = "Ethereum"
 industry = "Real estate"
-currencyAccepted = ""
+currencyAccepted = "ETH"
 startDate = 2017-08-29
 endDate = 2017-09-30
 founded = "Singapore, 2017"
@@ -23,9 +23,11 @@ features = """
 """
 
 [links]
+  website = "https://www.real.markets/"
   twitter = "https://twitter.com/real_token"
   facebook = "https://www.facebook.com/realestateassetledger"
   telegram = "https://t.me/joinchat/EuKMRkMXRcL6Rg5KUNQ4Mg"
+  github = "https://github.com/RealEstateAssetLedger/real_contract"
 
 [trust]
   stage = "MVP"
@@ -52,25 +54,22 @@ features = """
       cut = "51%"
       supply = "50,000,000"
       cryptovalue = "100,000"
-      fiatvalue = "API"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "20%"
       supply = "19,607,843"
       cryptovalue = "39,215"
-      fiatvalue = "API"
     [deal.rows.earlyInvestors]
       distribution = "Reserve"
       cut = "29%"
       supply = "28,431,372"
       cryptovalue = "56,863"
-      fiatvalue = "API"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "98,039,215"
       cryptovalue = "196,078"
-      fiatvalue = "API"
+
 
 [roadmap]
   website = true

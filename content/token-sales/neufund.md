@@ -3,7 +3,7 @@ title = "Neufund"
 date = 2017-08-13T17:30:02+02:00
 description = "Equity and legal fundraising platform that let investors stay in control of their assets"
 weight = 20
-draft = false
+draft = true
 
 trustRating = "A+"
 dealRating = "A+"

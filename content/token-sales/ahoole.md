@@ -1,17 +1,17 @@
 +++
 title = "Ahoolee"
 date = 2017-08-13T17:30:02+02:00
-description = "Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoole's blockchain application"
+description = "ICO is over. Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoole's blockchain application"
 weight = 20
 draft = false
 
 trustRating = "A"
 dealRating = "B-"
-softCap = "$10 M"
-hardCap = "$12 M"
+softCap = "$1 M"
+hardCap = "$3.75 M"
 platform = "Ethereum"
 industry = "Search engine"
-currencyAccepted = ""
+currencyAccepted = "ETH"
 startDate = 2017-08-28
 endDate = 2017-09-11
 founded = "Russia, 2017"
@@ -46,44 +46,38 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    cryptoHeader = "USD"
   [deal.rows]
     [deal.rows.pretokensale]
       distribution = "Pre-tokensale"
       cut = "10%"
-      supply = "10,000,000"
+      supply = "375,000"
       cryptovalue = "4,545"
-      fiatvalue = "API"
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "25%"
-      supply = "25,000,000"
+      supply = "937,500"
       cryptovalue = "11,364"
-      fiatvalue = "API"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "15%"
-      supply = "30,000,000"
+      supply = "562,500"
       cryptovalue = "6,818"
-      fiatvalue = "API"
     [deal.rows.affiliate]
       distribution = "Future tokensale"
       cut = "30%"
-      supply = "10,000,000"
+      supply = "1,125,000"
       cryptovalue = "13,635"
-      fiatvalue = "API"
     [deal.rows.futureEmission]
       distribution = "Future emission"
       cut = "20%"
       supply = "20,000,000"
-      cryptovalue = "9,090"
-      fiatvalue = "API"
+      cryptovalue = "750,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
-      cryptovalue = "45,450"
-      fiatvalue = "API"
+      cryptovalue = "$3,750,000"
 
 [roadmap]
   website = true
