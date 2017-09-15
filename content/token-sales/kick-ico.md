@@ -7,8 +7,8 @@ draft = false
 
 trustRating = "A"
 dealRating = "B"
-softCap = "82.5k ETH"
-hardCap = "165k ETH"
+softCap = "82.5 K ETH"
+hardCap = "165 K ETH"
 platform = "Native"
 industry = "Crowdfunding"
 currencyAccepted = "ETH"
