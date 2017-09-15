@@ -5,7 +5,7 @@
   <div class="hero">
     <h1>{{ .Title }}</h1>
     <p>
-      {{ .Params.bref | safeHTML }}
+      {{ .Params.bref | markdownify }}
     </p>
   </div>
   <div class="content">
@@ -14,7 +14,7 @@
 </div>
 <div class="container-fluid exchanges">
   <div class="row justify-content-center">
-  	{{ range $.Site.Data.exchanges }}
+  	{{ range sort .Site.Data.exchanges "weight" "asc" }}
     <div class="col-md-6 col-xl-5">
       <div class="exchange-card card card-outline-primary mb-3">
       	<div class="card-header">
@@ -53,8 +53,8 @@
             </div>
           </div>
           <div class="text-center">
-          	<a href="{{ .affiliateLink }}" target="_blank" class="btn btn-primary btn-lg">Go</a>
-          </div>
+          	<a href="{{ .affiliateLink }}" target="_blank" class="btn btn-primary btn-lg mb-2">Go</a>
+        	</div>
         </div>
       </div>
     </div>

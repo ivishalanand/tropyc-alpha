@@ -1,4 +1,5 @@
 [coinbase]
+weight = 10
 name = "Coinbase"
 cornerIcon = "popular"
 cornerText = "Popular"
@@ -10,34 +11,8 @@ target = "Anyone"
 comments = "Largest exchange in the world. Safe and well designed"
 affiliateLink = "https://www.coinbase.com/join/59abb5ab6c9e6700d36656d6"
 
-
-[cex]
-name = "CEX"
-cornerIcon = "popular"
-cornerText = "Popular"
-payment = "Bank transfer, SEPA, Credit/Debit card"
-fiat = "USD, EUR, GBP, RUB"
-tokens = "Bitcoin, Ethereum"
-founded = "2013, UK"
-target = "Anyone"
-comments = "Fast, reliable and well-designed European-based exchange"
-affiliateLink = "https://cex.io/r/0/up108516576/0/"
-
-
-[localbitcoins]
-name = "Local Bitcoins"
-cornerIcon = "cash"
-cornerText = "Cash"
-payment = "Cash"
-fiat = "All"
-tokens = "Bitcoin"
-founded = "2012, Finland"
-target = "Anyone"
-comments = "Local over-the-counter platform that enables private and cash transactions"
-affiliateLink = "https://localbitcoins.com/?ch=esux"
-
-
 [changelly]
+weight = 20
 name = "Changelly"
 cornerIcon = "altcoin"
 cornerText = "Altcoin"
@@ -49,125 +24,21 @@ target = "Enthusiast"
 comments = "Fast alt-coin exchange without the need to register"
 affiliateLink = "https://changelly.com?ref_id=bb1148b05d23"
 
-
-[kraken]
-name = "Kraken"
+[cex]
+weight = 30
+name = "CEX"
 cornerIcon = "popular"
 cornerText = "Popular"
-payment = "Bank transfer, SEPA, Tokens"
-fiat = "USD, EUR, GBP, CAD, JPY"
-tokens = "Most of high caps"
-founded = "2013, USA"
-target = "Enthusiast"
-comments = "US-based exchange with a focus on European market offering a wide range of altcoins"
-affiliateLink = "https://www.kraken.com"
-
-
-[poloniex]
-name = "Poloniex"
-cornerIcon = "altcoin"
-cornerText = "Altcoin"
-payment = "Token"
-fiat = "No"
-tokens = "All"
-founded = "2014, Unknown"
-target = "Experienced"
-comments = "Largest altcoin exchange by volume with a large amount of altcoin pairs"
-affiliateLink = "https://poloniex.com"
-
-
-[gdax]
-name = "GDAX"
-cornerIcon = "trader"
-cornerText = "Trader"
 payment = "Bank transfer, SEPA, Credit/Debit card"
-fiat = "USD, EUR, CAD"
-tokens = "Bitcoin, Ethereum, Litecoin"
-founded = "2012, USA"
-target = "Experienced"
-comments = "Coinbase exchange focused on traders and leverage"
-affiliateLink = "https://www.gdax.com"
-
-
-[shapeshift]
-name = "ShapeShift"
-cornerIcon = "altcoin"
-cornerText = "Altcoin"
-payment = "Tokens"
-fiat = "No"
-tokens = "All"
-founded = "2013, Switzerland"
-target = "Enthusiast"
-comments = "Easy to use and super fast altcoin exchange platform"
-affiliateLink = "https://shapeshift.io"
-
-
-[bisq]
-name = "Bisq"
-cornerIcon = "decentralised"
-cornerText = "Decentralised"
-payment = "Tokens"
-fiat = "No"
-tokens = "All"
-founded = "2016"
-target = "Enthusiast"
-comments = "Bisq formerly known as Bitsquare is the first decentralised alt-coin exchange. It runs on their own software."
-affiliateLink = "https://bisq.io"
-
-
-[coinmama]
-name = "Coin Mama"
-cornerIcon = "simple"
-cornerText = "Simple"
-payment = "Credit/Debit card, Western Union"
-fiat = "USD, EUR"
-tokens = "Bitcoin"
-founded = "2015, Israel"
-target = "First time"
-comments = "Fast and convenient exchange that accepts cards and Western Union deposits"
-affiliateLink = "https://www.Coinmama.com/?ref=tropyc."
-
-
-[bitstamp]
-name = "Bitstamp"
-cornerIcon = "simple"
-cornerText = "Simple"
-payment = "Bank wire, SEPA"
-fiat = "USD, EUR"
-tokens = "Bitcoin, Ethereum, Litecoin, Ripple"
-founded = "2011, Luxembourg"
+fiat = "USD, EUR, GBP, RUB"
+tokens = "Bitcoin, Ethereum"
+founded = "2013, UK"
 target = "Anyone"
-comments = "First European exchange by volume, granted a full Euro license in Luxembourg"
-affiliateLink = "https://www.bitstamp.net"
-
-
-[coincorner]
-name = "Coin Corner"
-cornerIcon = "simple"
-cornerText = "Simple"
-payment = "Bank wire, SEPA, Credit/Debit card"
-fiat = "EUR, GBP"
-tokens = "Bitcoin"
-founded = "2014, UK"
-target = "First time"
-comments = "Convenient and fast bitcoin marketplace based out of Europe"
-affiliateLink = "https://www.coincorner.com"
-
-
-[bitmex]
-name = "BitMEX"
-cornerIcon = "trader"
-cornerText = "Trader"
-payment = "Token"
-fiat = "No"
-tokens = "Most of high caps"
-founded = "2014, Seychelles"
-target = "Experienced"
-comments = "Cryptocurrency marging trading platform for experienced investors"
-affiliateLink = "https://www.bitmex.com/register/Xmh8mp"
-
+comments = "Fast, reliable and well-designed European-based exchange"
+affiliateLink = "https://cex.io/r/0/up108516576/0/"
 
 [whaleclub]
+weight = 40
 name = "Whaleclub"
 cornerIcon = "trader"
 cornerText = "Trader"
@@ -179,8 +50,138 @@ target = "Experienced"
 comments = "Marging trading platform for experienced traders that offers more than cryptocurrencies : metals, stocks, bonds etc."
 affiliateLink = "https://whaleclub.co/join/UZYqb"
 
+[localbitcoins]
+weight = 50
+name = "Local Bitcoins"
+cornerIcon = "cash"
+cornerText = "Cash"
+payment = "Cash"
+fiat = "All"
+tokens = "Bitcoin"
+founded = "2012, Finland"
+target = "Anyone"
+comments = "Local over-the-counter platform that enables private and cash transactions"
+affiliateLink = "https://localbitcoins.com/?ch=esux"
+
+[kraken]
+weight = 50
+name = "Kraken"
+cornerIcon = "popular"
+cornerText = "Popular"
+payment = "Bank transfer, SEPA, Tokens"
+fiat = "USD, EUR, GBP, CAD, JPY"
+tokens = "Most of high caps"
+founded = "2013, USA"
+target = "Enthusiast"
+comments = "US-based exchange with a focus on European market offering a wide range of altcoins"
+affiliateLink = "https://www.kraken.com"
+
+[poloniex]
+weight = 50
+name = "Poloniex"
+cornerIcon = "altcoin"
+cornerText = "Altcoin"
+payment = "Token"
+fiat = "No"
+tokens = "All"
+founded = "2014, Unknown"
+target = "Experienced"
+comments = "Largest altcoin exchange by volume with a large amount of altcoin pairs"
+affiliateLink = "https://poloniex.com"
+
+[gdax]
+weight = 50
+name = "GDAX"
+cornerIcon = "trader"
+cornerText = "Trader"
+payment = "Bank transfer, SEPA, Credit/Debit card"
+fiat = "USD, EUR, CAD"
+tokens = "Bitcoin, Ethereum, Litecoin"
+founded = "2012, USA"
+target = "Experienced"
+comments = "Coinbase exchange focused on traders and leverage"
+affiliateLink = "https://www.gdax.com"
+
+[shapeshift]
+weight = 50
+name = "ShapeShift"
+cornerIcon = "altcoin"
+cornerText = "Altcoin"
+payment = "Tokens"
+fiat = "No"
+tokens = "All"
+founded = "2013, Switzerland"
+target = "Enthusiast"
+comments = "Easy to use and super fast altcoin exchange platform"
+affiliateLink = "https://shapeshift.io"
+
+[bisq]
+weight = 50
+name = "Bisq"
+cornerIcon = "decentralised"
+cornerText = "Decentralised"
+payment = "Tokens"
+fiat = "No"
+tokens = "All"
+founded = "2016"
+target = "Enthusiast"
+comments = "Bisq formerly known as Bitsquare is the first decentralised alt-coin exchange. It runs on their own software."
+affiliateLink = "https://bisq.io"
+
+[coinmama]
+weight = 50
+name = "Coin Mama"
+cornerIcon = "simple"
+cornerText = "Simple"
+payment = "Credit/Debit card, Western Union"
+fiat = "USD, EUR"
+tokens = "Bitcoin"
+founded = "2015, Israel"
+target = "First time"
+comments = "Fast and convenient exchange that accepts cards and Western Union deposits"
+affiliateLink = "https://www.Coinmama.com/?ref=tropyc."
+
+[bitstamp]
+weight = 50
+name = "Bitstamp"
+cornerIcon = "simple"
+cornerText = "Simple"
+payment = "Bank wire, SEPA"
+fiat = "USD, EUR"
+tokens = "Bitcoin, Ethereum, Litecoin, Ripple"
+founded = "2011, Luxembourg"
+target = "Anyone"
+comments = "First European exchange by volume, granted a full Euro license in Luxembourg"
+affiliateLink = "https://www.bitstamp.net"
+
+[coincorner]
+weight = 50
+name = "Coin Corner"
+cornerIcon = "simple"
+cornerText = "Simple"
+payment = "Bank wire, SEPA, Credit/Debit card"
+fiat = "EUR, GBP"
+tokens = "Bitcoin"
+founded = "2014, UK"
+target = "First time"
+comments = "Convenient and fast bitcoin marketplace based out of Europe"
+affiliateLink = "https://www.coincorner.com"
+
+[bitmex]
+weight = 50
+name = "BitMEX"
+cornerIcon = "trader"
+cornerText = "Trader"
+payment = "Token"
+fiat = "No"
+tokens = "Most of high caps"
+founded = "2014, Seychelles"
+target = "Experienced"
+comments = "Cryptocurrency marging trading platform for experienced investors"
+affiliateLink = "https://www.bitmex.com/register/Xmh8mp"
 
 [bitbay]
+weight = 50
 name = "BitBay"
 cornerIcon = "simple"
 cornerText = "Simple"
@@ -192,8 +193,8 @@ target = "Enthusiast"
 comments = "Polish based exchanges with neat user experience and stront presence in European market"
 affiliateLink = "https://affiliate.bitbay.net/144118"
 
-
 [binance]
+weight = 50
 name = "Binance"
 cornerIcon = "altcoin"
 cornerText = "Altcoin"

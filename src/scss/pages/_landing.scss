@@ -14,7 +14,7 @@
 
 		div:first-child {
 			font-size: 14px;
-    	color: #9D9D9D;
+    	color: #7F8C8D;
 		}
 
 		div:last-child {
@@ -60,7 +60,6 @@
     }
 
     h2 {
-    	text-transform: uppercase;
     	padding-top: 15px;
     	font-size: 22px;
 	    color: $green;
@@ -69,8 +68,8 @@
 
     p {
     	text-align: center;
-	    margin-top: 15px;
 	    font-size: 15px;
+	    color: #7F8C8D;
     }
   }
 }
@@ -91,14 +90,14 @@
   .titlelabel {
   	line-height: 20px;
   	margin: 0 80px;
-    color: #787878;
+    color: #7F8C8D;
     font-size: 1.2rem;
   }
 }
 
 .instructions, .funding-comparison {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .instructions {
@@ -116,10 +115,8 @@
 .funding-comparison {
 
 	.funding-title {
-		height: 200px;
+		height: 150px;
 		margin: 30px 0;
-		background: #F8FAFA;
-		border: 1px solid #BDC3C7;
 	}
 
 	h2 {
@@ -127,8 +124,10 @@
 	}
 
 	p {
+		font-family: "Montserrat";
 		text-align: center;
 		font-weight: 500;
+		font-size: 1.2rem;
 	}
 
 	.point h2 {
