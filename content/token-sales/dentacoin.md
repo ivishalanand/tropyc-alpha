@@ -6,7 +6,7 @@ weight = 20
 draft = false
 
 trustRating = "A-"
-dealRating = "B"
+dealRating = "C"
 softCap = "N/A"
 hardCap = ""
 platform = "Ethereum"
@@ -22,6 +22,7 @@ features = """
 - Patient database to better understand the impact of specific treatment methods
 - Interactive aftercare mobile app, to educate users on best practices
 - Plans to implement a dental insurance scheme
+- Total token supply valuation is at $1bn
 """
 
 [links]
