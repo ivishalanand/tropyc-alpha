@@ -13,7 +13,7 @@
 	</div>
 	<div class="categories">
 	  {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-	  	<a href="{{ .URL }}" class="btn btn-info m-1">{{ .Title}}</a>
+	  	<a href="{{ .URL }}" class="btn m-1 btn-{{ .Title | lower }}">{{ .Title | upper }}</a>
 	  {{ end }}
 	</div>
 </div>

@@ -27,8 +27,10 @@ features = """
   twitter = "civic"
   facebook = "civic"
   reddit = "civic"
-  telegram = "civic"
   github = "civic"
+  telegram = "civic"
+  slack = "civic"
+  medium = ""
 
 [trust]
   stage = ""
@@ -47,6 +49,8 @@ features = """
   similar = "N/A"
 
 [deal]
+  [deal.info]
+    recap = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
   [deal.headers]
     cryptoHeader = "ETH"
   [deal.rows]

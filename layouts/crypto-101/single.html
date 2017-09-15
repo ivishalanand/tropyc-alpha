@@ -14,25 +14,19 @@
   		{{ partial "toc" .}}
   	</div>
   	<div class="col-12 col-lg-9 order-2 order-lg-1 content">
-  		<div class="row">
-  			<div class="col-md-2">
-  				{{ partial "share-links" . }}
-  			</div>
-  			<div class="col-md-10">
-  				{{ .Content}}
+			{{ partial "share-links" . }}
+			{{ .Content}}
 
-  				<div class="text-center mt-5">
-						{{ if .PrevInSection }}
-						  <a href="{{ .PrevInSection.URL }}">Prev <i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-						{{ end }}
-						{{ if and .PrevInSection .NextInSection }} | {{ end }}
-						{{ if .NextInSection }}
-						  <a href="{{ .NextInSection.URL }}"><i class="fa fa-chevron-right" aria-hidden="true"></i> Next</a>
-						{{ end }}
-					</div>
+			<div class="text-center mt-5">
+				{{ if .PrevInSection }}
+				  <a href="{{ .PrevInSection.URL }}">Prev <i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+				{{ end }}
+				{{ if and .PrevInSection .NextInSection }} | {{ end }}
+				{{ if .NextInSection }}
+				  <a href="{{ .NextInSection.URL }}"><i class="fa fa-chevron-right" aria-hidden="true"></i> Next</a>
+				{{ end }}
+			</div>
 
-  			</div>
-  		</div>
   	</div>
   </div>
 

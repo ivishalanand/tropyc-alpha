@@ -32,9 +32,13 @@
     li {
 			text-align: center;
 	    margin-top: 2rem;
-	    font-weight: 500;
-	    font-size: 1.1rem;
+	    font-weight: 600;
+	    font-size: 1.2rem;
 	    margin-bottom: 2rem;
+	    font-family: "Montserrat";
+	    a {
+	    	color: $gray-600;
+	    }
     }
 
     .disabled {

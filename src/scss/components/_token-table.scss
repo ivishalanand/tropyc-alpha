@@ -9,6 +9,13 @@
     font-size: 14px;
     padding-top: 1.5rem;
     padding-bottom: 1.25rem;
+
+    a {
+    	color: $gray-900;
+    	&:hover {
+    		color: $gray-900;
+    	}
+    }
   }
 
   th {
@@ -35,10 +42,22 @@
 
   .token-social-links {
     min-width: 70px;
+
+  	a {
+    	color: $gray-600;
+    }
   }
 
   .token-description {
     font-size: 12px;
     text-align: justify;
+  }
+
+  .ico-ended {
+  	padding: 1rem 3rem;
+  	border: 1px solid $gray-200;
+  	border-radius: 10px;
+  	background: $gray-100;
+  	color: $blue;
   }
 }

@@ -1,10 +1,4 @@
 /** Social Share Button CSS **/
-#social-share {
-	position: sticky;
-	top: 10px;
-	margin-bottom: 20px;
-}
-
 #social-share ul {
 	margin: 0;
 	padding: 0;
@@ -12,12 +6,9 @@
 }
 
 #social-share .icons li {
+	display: inline-block;
 	padding: 0 !important;
 	padding-bottom: 10px !important;
-
-  @include media-breakpoint-down(md) {
-    display: inline-block;
-  }
 }
 
 #social-share ul li p {
@@ -60,7 +51,6 @@
 .share-btn.google-plus { background: #dd4b39; }
 .share-btn.facebook    { background: #3B5998; }
 .share-btn.linkedin    { background: #4875B4; }
-.share-btn.stumbleupon { background: #EB4823; }
 .share-btn.reddit      { background: #ff5700; }
 .share-btn.email       { background: #444444; }
 
@@ -68,6 +58,5 @@
 .share-btn.google-plus:hover { background: #c64333; }
 .share-btn.facebook:hover    { background: #2f4779; }
 .share-btn.linkedin:hover    { background: #4069a2; }
-.share-btn.stumbleupon:hover { background: #d3401f; }
 .share-btn.reddit:hover      { background: #e54e00; }
 .share-btn.email:hover       { background: #363636; }

@@ -3,23 +3,23 @@
 
 {{ define "main" }}
 
-<div class="container-fluid">
+<div class="container">
   <div class="row">
   	<div class="col-lg-8">
 	  	<div class="news">
 
-  			{{ range first 1 .Paginator.Pages.ByWeight }}
+  			{{ range first 1 .Pages.ByWeight }}
 					{{ partial "article-featured" . }}
 				{{ end }}
 
-  			{{ range .Paginator.Pages.ByDate }}
+  			{{ range after 1 .Pages }}
 		  		{{ partial "article" . }}
 				{{ end }}
 				<!-- <section>{{ partial "pagination" .}}</section> -->
 
 			</div>
   	</div>
-  	<div class="col-lg-4 col-md-12">
+  	<div class="col-lg-4 d-none d-lg-block">
 			{{ partial "news-sidebar" . }}
   	</div>
   </div>

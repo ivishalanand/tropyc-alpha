@@ -1,0 +1,23 @@
+.btn-altcoin, .btn-bitcoin, .btn-ico, .btn-guide {
+	color: #FFF;
+
+	&:hover {
+		color: #FFF;
+	}
+}
+
+.btn-altcoin {
+	background: $blue;
+}
+
+.btn-bitcoin {
+	background: $yellow;
+}
+
+.btn-ico {
+	background: $green;
+}
+
+.btn-guide {
+	background: $purple;
+}

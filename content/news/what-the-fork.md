@@ -4,7 +4,7 @@ date = 2017-08-30T20:07:03+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Bitcoin Cash is a new software version of the original chain"
-weight = 5
+weight = 20
 image = "fork"
 +++
 

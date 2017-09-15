@@ -4,7 +4,7 @@ date = 2017-08-30T18:35:39+02:00
 categories = ["ICO"]
 draft = false
 description = "ICOs raise more funds than startups: no more market entry barriers for crowd funding and investing."
-weight = 10
+weight = 20
 image = "ico"
 +++
 
