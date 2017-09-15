@@ -20,7 +20,7 @@
 	    }
 
   	  img {
-	  		height: 60px;
+	  		height: 40px;
 	  	}
   	}
 	}
@@ -64,13 +64,15 @@
 	}
 
 	.col-social {
-		margin-top: 1rem;
+		margin-top: 45px;
 
 		li {
-    	padding-left: 2rem;
+    	a {
+    		margin-bottom: 0;
+    	}
 
     	img {
-				height: 50px;
+				height: 40px;
     		margin-right: 1rem;
     	}
 		}
