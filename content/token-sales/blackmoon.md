@@ -3,7 +3,7 @@ title = "Blackmoon"
 date = 2017-08-13T17:30:02+02:00
 description = "Asset management and crowdfunding platform that enables the creation and management of tokenised funds"
 weight = 20
-draft = true
+draft = false
 
 trustRating = "A"
 dealRating = "A"
