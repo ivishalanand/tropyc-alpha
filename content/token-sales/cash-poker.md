@@ -1,14 +1,14 @@
 +++
 title = "Cash Poker"
 date = 2017-08-13T17:30:02+02:00
-description = "Offline and online poker gaming platform, team has experience in both online and offline poker services. Pre-tokensale to tokensale total token valuation increased ten fold in of 2 months  "
+description = "Offline and online poker gaming platform, team has experience in both online and offline poker services. Pre-tokensale to tokensale total token valuation increased ten fold in of 2 months"
 weight = 20
 draft = false
 
 trustRating = "B+"
 dealRating = "B-"
 softCap = ""
-hardCap = "340,000 ETH"
+hardCap = "340 K ETH"
 platform = "Ethereum"
 industry = "Gaming"
 currencyAccepted = "BTC, ETH, WAVES, Fiat"
