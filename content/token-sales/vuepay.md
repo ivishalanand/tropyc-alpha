@@ -5,7 +5,7 @@ description = "P2P platform where advertisers can directly target potential cust
 weight = 20
 draft = false
 
-trustRating = ""
+trustRating = "B-"
 dealRating = "C"
 softCap = "N/A"
 hardCap = "500k ETH"
