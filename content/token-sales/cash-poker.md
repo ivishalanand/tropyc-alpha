@@ -33,7 +33,7 @@ features = """
 [trust]
   stage = "MVP"
   advisors = true
-  partners = trur
+  partners = true
   teamIdentity = true
   audit = true
   wallet = true

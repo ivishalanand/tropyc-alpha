@@ -11,8 +11,8 @@ softCap = "N/A"
 hardCap = "$10 M"
 platform = "Expanse & Ethereum"
 industry = "crowdfunding"
-currencyAccepted = EXP, BTC, LTC, ETH"
-startDate = 2017-09-014
+currencyAccepted = "EXP, BTC, LTC, ETH"
+startDate = 2017-09-14
 endDate = 2017-11-30
 founded = ", "
 

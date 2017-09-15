@@ -1,8 +1,7 @@
 +++
 title = "Paragon"
 date = 2017-08-13T17:30:02+02:00
-description = "Paragon introduces both an online and offline cannabis platform that will gather cannabis enthusiasts, track the lifecycle of products and incorporate US regulation compliance and medical industry processes onto its blockchain.
-Funds will be initially spent on real estate."
+description = "Paragon introduces both an online and offline cannabis platform that will gather cannabis enthusiasts, track the lifecycle of products and incorporate US regulation compliance and medical industry processes onto its blockchain. Funds will be initially spent on real estate."
 weight = 20
 draft = false
 
