@@ -3,11 +3,11 @@ title = "Dentacoin"
 date = 2017-08-13T17:30:02+02:00
 description = "Blockchain solution for the global dental industry."
 weight = 20
-draft = true
+draft = false
 
-trustRating = ""
-dealRating = ""
-softCap = ""
+trustRating = "A-"
+dealRating = "B"
+softCap = "N/A"
 hardCap = ""
 platform = "Ethereum"
 industry = "Medical"
@@ -40,7 +40,7 @@ features = """
   teamIdentity = true
   audit = false
   wallet = false
-  disbursementDate = "End of ICO"
+  disbursementDate = "01/11/2017"
 
 [token]
   assetBacked = false
@@ -51,43 +51,43 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    cryptoHeader = "USD"
   [deal.rows]
     [deal.rows.pretokensale]
       distribution = "Pre-tokensale"
       cut = "1%"
       supply = "80,000,000,000"
-      cryptovalue = "41,666"
+      cryptovalue = "$9,378,400"
     [deal.rows.tokensale]
       distribution = "Tokensale"
-      cut = "65%"
-      supply = "130,000,000"
-      cryptovalue = "216,666"
+      cut = "3%"
+      supply = "240,000,000,000"
+      cryptovalue = "$28,135,200"
     [deal.rows.founders]
       distribution = "Founders"
-      cut = "15%"
-      supply = "30,000,000"
-      cryptovalue = "50,000"
+      cut = "7.4%"
+      supply = "592,000,000,000"
+      cryptovalue = "$69,400,160"
     [deal.rows.earlyInvestors]
-      distribution = "Early investors"
-      cut = "2.5%"
-      supply = "5,000,000"
-      cryptovalue = "8,333"
+      distribution = "Legal entity"
+      cut = "7.5%"
+      supply = "600,000,000,000"
+      cryptovalue = "$70,338,000"
     [deal.rows.affiliate]
-      distribution = "Affiliate"
+      distribution = "Reserve"
       cut = "5%"
-      supply = "10,000,000"
-      cryptovalue = "16,666"
+      supply = "400,000,000,000"
+      cryptovalue = "$46,892,000"
     [deal.rows.futureEmission]
       distribution = "Future emission"
-      cut = "0%"
-      supply = "0"
-      cryptovalue = "0"
+      cut = "76.1%"
+      supply = "6,088,000,000,000"
+      cryptovalue = "$713,696,240"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
-      supply = "8,000,000,000,000"
-      cryptovalue = ""
+      supply = "80,000,000,000,000"
+      cryptovalue = "$937,840,000"
 
 
 [roadmap]
