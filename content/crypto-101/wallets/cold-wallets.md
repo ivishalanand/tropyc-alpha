@@ -113,7 +113,7 @@ Go Premium: you'll get a handy guide and our team will be here 7/7 to support yo
 
 Similarly, you can print your own cold wallet on paper. It holds all the necessary information to access cryptocurrencies on a sheet of paper: a public address and a private key.
 
-For obvious reasons, paper cold wallets are less durable than devices cold wallets, so be sure to store the sheet in a dry place.
+For obvious reasons, paper cold wallets are less durable than hardware cold wallets, so be sure to store them in a dry place.
 
 
 
