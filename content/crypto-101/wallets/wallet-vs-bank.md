@@ -14,12 +14,12 @@ Governments and central banks have no authority towards the issuance of addition
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col-md-8 text-left">
+    <div class="col-md-3 text-center">
      {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="pile-of-gold" >}}
      </div>
-    <div class="col col-md-4 text-center">
+    <div class="col-md-9 text-left">
     <h2>Ownership</h2> 
-     <p class = "small font-italic">Are you in full control over your wealth?</p> 
+     <p class = "font-italic">Are you in full control over your wealth?</p> 
     </div>
   </div>
 </div>
@@ -45,12 +45,12 @@ Beware, when storing your Bitcoin on third party wallets, you do not "own" a bit
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col-md-8 text-left">
+    <div class="col-md-3 text-center">
      {{< img src="crypto-101/icons/blockchain.svg" class="img-fluid" alt="blockchain" >}}
      </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-9 text-left">
       <h2>Immutability</h2> 
-     <p class = "small font-italic">Can you rewind back in time and get a refund?</p> 
+     <p class = "font-italic">Can you rewind back in time and get a refund?</p> 
     </div>
   </div>
 </div>
@@ -78,12 +78,12 @@ Always verify the public address before sending a transaction, otherwise, your b
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col-md-8 text-left">
+    <div class="col-md-3 text-center">
     {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-inside-chat-bubble" >}}
      </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-9 text-left">
       <h2>Safety</h2> 
-     <p class = "small font-italic">Are you safe from a digital attack?</p> 
+     <p class = "font-italic">Are you safe from a digital attack?</p> 
     </div>
   </div>
 </div>
@@ -117,12 +117,12 @@ Be careful!
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col-md-8 text-left">
+    <div class="col-md-3 text-center">
      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="lock-password" >}}
      </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-9 text-left">
     <h2>Privacy</h2> 
-     <p class = "small font-italic">Can you dettach your identity from your financial behaviour?</p> 
+     <p class = "font-italic">Can you dettach your identity from your financial behaviour?</p> 
     </div>
   </div>
 </div>
@@ -151,10 +151,10 @@ Centralised tools, such as tumbler and mixers, can increase the difficulty to tr
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col-md-8 text-left">
+    <div class="col-md-3 text-center">
     {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-gold" >}}
      </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-9 text-left">
       <h2>Transparency</h2> 
      <p class = "small font-italic">Are you aware of the total supply of money and how it is managed?</p> 
     </div>
@@ -190,7 +190,7 @@ The Bitcoin code and blockchain activity is open-source
      </div>
     <div class="col-4 text-center">
     <div class="col-md-9 text-left">
-     <p class = "small font-italic">Is your wealth getting diluted due to price inflation?</p> 
+     <p class = "font-italic">Is your wealth getting diluted due to price inflation?</p> 
     </div>
   </div>
 </div>
@@ -231,7 +231,7 @@ As Bitcoin's market penetration is going up, Bitcoins are becoming more and more
      </div>
     <div class="col-md-9 text-left">
     <h2>Consumption</h2> 
-    <p class = "small font-italic">How easy is to issue low-amount transaction without a hassle?</p> 
+    <p class = "font-italic">How easy is to issue low-amount transaction without a hassle?</p> 
     </div>   
   </div>
 </div>
@@ -265,7 +265,7 @@ However, new cryptocurrencies and blockchain startups have been very innovative 
      </div>
     <div class="col-md-9 text-left">
      <h2>Interbank settlement</h2> 
-    <p class = "small font-italic">How easy is it to issue high amount transactions globally?</p> 
+    <p class = "font-italic">How easy is it to issue high amount transactions globally?</p> 
           
     </div>
   </div>
@@ -299,7 +299,7 @@ Fees = would not go above 10 USD.
      </div>
     <div class="col-md-9 text-left">
           <h2>Law</h2> 
-     <p class = "small font-italic">To what extent you are liable to financial behaviour?</p> 
+     <p class = "font-italic">To what extent you are liable to financial behaviour?</p> 
     </div>
   </div>
 </div>
