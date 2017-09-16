@@ -233,11 +233,11 @@ A transaction does not exist until it is generated in a new block. In order to k
     </div>
     <div class="col-sm-6 col-md-8 text-left"> 
     <h3>Sign</h3>
-     <p class="small">1 - Alice issues a transaction from her wallet.</p>
-     <p class="small">2 - She sets the recipient's public address and the amount.</p>
-     <p class="small">3 - The public address requires the corresponding private key to be accepted.</p>
-     <p class="small">4 - Alice signs the transaction with her private key that can be locked by a password.</p>
-     <p class="small">5 - The transaction is the sent online to the bitcoin network and blockchain (via wallets).</p>
+     <p>1 - Alice issues a transaction from her wallet.</p>
+     <p>2 - She sets the recipient's public address and the amount.</p>
+     <p>3 - The public address requires the corresponding private key to be accepted.</p>
+     <p>4 - Alice signs the transaction with her private key that can be locked by a password.</p>
+     <p>5 - The transaction is the sent online to the bitcoin network and blockchain (via wallets).</p>
     </div>
   </div>
 </div>
@@ -252,15 +252,15 @@ A transaction does not exist until it is generated in a new block. In order to k
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col-sm-6 col-md-4 text-center">
-     {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
+    <h3>Generate</h3>
+    <p>Miners then create a new block from signed transaction and verify they are valid.</p>
+    <p>The block's data is then converted into a hash by miners.</p>
+    <p >A hash is a fixed-length string that holds large amounts of data.</p>
+    <p>Each block has a unique hash because it has a unique set of data. Changing one variable in the data will change the hash.</p>
+    <p>This way, the network knows if a fake transaction was inserted in a previous block because each block's hash is part of the formula that generates a new block.</p>
     </div>
     <div class="col-sm-6 col-md-8 text-left">
-   <h3>Generate</h3>
-    <p class="small">Miners then create a new block from signed transaction and verify they are valid.</p>
-    <p class="small">The block's data is then converted into a hash by miners.</p>
-    <p class="small">A hash is a fixed-length string that holds large amounts of data.</p>
-    <p class="small">Each block has a unique hash because it has a unique set of data. Changing one variable in the data will change the hash.</p>
-    <p class="small">This way, the network knows if a fake transaction was inserted in a previous block because each block's hash is part of the formula that generates a new block.</p>
+   {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
     </div>
   </div>
 </div>
@@ -279,8 +279,8 @@ A transaction does not exist until it is generated in a new block. In order to k
     </div>
     <div class="col-sm-6 col-md-8 text-center">
     <h3>Compete</h3>
-    <p class="small">Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.</p>
-   <p class="small">Miners need to gather different unconfirmed transactions (input) compute them into a hashing function set by the network and create a new hash (output) with pre-determined conditions (starts with a certain amount of zeros).</p>
+    <p>Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.</p>
+   <p>Miners need to gather different unconfirmed transactions (input) compute them into a hashing function set by the network and create a new hash (output) with pre-determined conditions (starts with a certain amount of zeros).</p>
     </div>
   </div>
 </div>
