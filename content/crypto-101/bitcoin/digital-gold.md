@@ -179,7 +179,7 @@ Let's review some of Bitcoin's core value propositions.
 <div class="container my-3">
   <div class="row align-items-center">
     <div class="col  text-left">
-      <h3>Speed</h>
+      <h3>Speed</h3>
       <p>Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.</p>
     </div>
     <div class="col  text-center">
@@ -197,7 +197,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/accessible.svg" class="img-fluid" alt="door-open" >}}
     </div>
     <div class="col  text-left">
-    <h3>Accessible </h>
+    <h3>Accessible </h3>
       <p>Unlike bank accounts, there is no prerequisites, screening process, charging structures, consumer limits, nor account freezing.</p>  
       You have complete control over your capital.</p>
     </div>
@@ -206,12 +206,12 @@ Let's review some of Bitcoin's core value propositions.
 
 
 
-### Safe
+
 
 <div class="container my-3">
   <div class="row align-items-center">
     <div class="col text-left">
-    <h3>Safe</h>
+    <h3>Safe</h3>
      <p>Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.</p>
     </div>
     <div class="col  text-center">
@@ -229,7 +229,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/cheap.svg" class="img-fluid" alt="price-is-low" >}}
     </div>
     <div class="col text-left">
-    <h3>Cheap</h>
+    <h3>Cheap</h3>
       <p>There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat.</p>
     </div>
   </div>
@@ -241,7 +241,7 @@ Let's review some of Bitcoin's core value propositions.
 <div class="container my-3">
   <div class="row align-items-center">
     <div class="col text-left">
-    <h3>Global</h>
+    <h3>Global</h3>
      <p>Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees...</p>
     </div>
     <div class="col text-center">
@@ -259,7 +259,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
     </div>
     <div class="col text-left">
-    <h3>Private</h>
+    <h3>Private</h3>
       <p>In Bitcoin, we have perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.</p>
 In other words, a wallet may not be clearly associated with a person's name.</p>
     </div>
@@ -272,7 +272,7 @@ In other words, a wallet may not be clearly associated with a person's name.</p>
 <div class="container my-3">
   <div class="row align-items-center">
     <div class="col text-left">
-    <h3>Trustless</h>
+    <h3>Trustless</h3>
       <p>Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.</p>
     </div>
     <div class="col text-center">
@@ -291,7 +291,7 @@ In other words, a wallet may not be clearly associated with a person's name.</p>
       {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
     <div class="col text-left">
-    <h3>Transparent</h>
+    <h3>Transparent</h3>
       <p>Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.</p>
     </div>
   </div>
