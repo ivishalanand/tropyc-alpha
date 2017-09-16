@@ -60,7 +60,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center align-middle">Touchscreen</td>
             <td class="text-center align-middle">Yes</td>
             <td class="text-center align-middle">229€</td>
-            <td class="text-center align-middle"><a href="#" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
+            <td class="text-center align-middle"><a href="#" target="https://www.ledgerwallet.com/r/11b4?path=/products/ledger-blue&tracker=MY_TRACKER">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
         </tr>
         <tr>
             <td class="text-center align-middle">{{< img src="crypto-101/wallet-pics/trezor.png" class="img-fluid" alt="trezor" >}}</td>
@@ -68,7 +68,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center align-middle">Screen</td>
             <td class="text-center align-middle">Yes</td>
             <td class="text-center align-middle">89€</td>
-            <td class="text-center align-middle"><a href="#" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
+            <td class="text-center align-middle"><a href="#" target="https://shop.trezor.io/">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
         </tr>
         <tr>
             <td class="text-center align-middle">{{< img src="crypto-101/wallet-pics/ledger-nano.png" class="img-fluid" alt="ledger-nano" >}}</td>
@@ -76,7 +76,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center align-middle">Screen</td>
             <td class="text-center align-middle">Yes</td>
             <td class="text-center align-middle">58€</td>
-            <td class="text-center align-middle"><a href="#" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
+            <td class="text-center align-middle"><a href="#" target="https://www.ledgerwallet.com/r/11b4?path=/products/ledger-nano-s&tracker=MY_TRACKER">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
         </tr>
          <tr>
             <td class="text-center align-middle">{{< img src="crypto-101/wallet-pics/keepkey.png" class="img-fluid" alt="keepkey" >}}</td>
@@ -84,7 +84,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center align-middle">Screen</td>
             <td class="text-center align-middle">No</td>
             <td class="text-center align-middle">$99</td>
-            <td class="text-center align-middle"><a href="#" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
+            <td class="text-center align-middle"><a href="#" target="https://www.keepkey.com/">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
         </tr>
         <tr>
             <td class="text-center align-middle">{{< img src="crypto-101/wallet-pics/open-dime.png" class="img-fluid" alt="open-dime" >}}</td>
@@ -92,7 +92,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center align-middle">Pen-drive</td>
             <td class="text-center align-middle">No</td>
             <td class="text-center align-middle">$12</td>
-            <td class="text-center align-middle"><a href="#" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
+            <td class="text-center align-middle"><a href="#" target="https://opendime.com">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
         </tr>
          <tr>
     </tbody>
