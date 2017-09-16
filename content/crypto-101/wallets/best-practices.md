@@ -129,7 +129,7 @@ Similarly, you do not want to store your back up and password next to your walle
 
 
 
-## Back-up
+
 
 
 <div class="container my-4">
@@ -138,6 +138,7 @@ Similarly, you do not want to store your back up and password next to your walle
      {{< img src="crypto-101/icons/back-up.svg" class="img-fluid" alt="saving-file" >}}
     </div>
     <div class="col col-sm-6 col-md-8 text-left">
+    <h2>Back-up</h2>
       <p>In case your wallet gets deleted, corrupted, lost or mislaid, you will lose access to your to private keys. This means, you'll lose access to all your coins stored on your public addresses! </p>
       <p>Back up your wallet by making a copy of private key files in case something happens to your system and store it offline and somewhere safe.</p>
     </div>
@@ -148,7 +149,6 @@ Similarly, you do not want to store your back up and password next to your walle
 
 
 
-## Multisignature
 
 
 
@@ -156,6 +156,7 @@ Similarly, you do not want to store your back up and password next to your walle
 <div class="container my-4">
   <div class="row">
     <div class="col col-sm-6 col-md-8 text-left">
+    <h2>Multisignature</h>
      <p>Multi-sig addresses give the ability to share ownership of a public key between several users. 
      <p>In order to send coins out of the wallet, the transactions require all the keys of the involved users.
      <p>This feature can add an extra layer of protection if you want to share the wallet ownership without other parties. 
