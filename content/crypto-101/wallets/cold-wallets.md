@@ -60,7 +60,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
             <td class="text-center align-middle">Touchscreen</td>
             <td class="text-center align-middle">Yes</td>
             <td class="text-center align-middle">229€</td>
-            <td class="text-center align-middle"><a href="#" target="https://www.ledgerwallet.com/r/11b4?path=/products/ledger-blue&tracker=MY_TRACKER">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
+            <td class="text-center align-middle"><a href="https://www.ledgerwallet.com/r/11b4?path=/products/ledger-blue&tracker=MY_TRACKER" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="cart" >}}</a></td>
         </tr>
         <tr>
             <td class="text-center align-middle">{{< img src="crypto-101/wallet-pics/trezor.png" class="img-fluid" alt="trezor" >}}</td>
