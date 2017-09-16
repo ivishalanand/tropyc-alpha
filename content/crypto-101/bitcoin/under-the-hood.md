@@ -37,7 +37,7 @@ The main difference between fiat and Bitcoin is that the former can be printed w
 
 
 
-### Printing fiat
+
 
 
 
@@ -47,6 +47,7 @@ The main difference between fiat and Bitcoin is that the former can be printed w
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="printer-usd-dollars" >}}
     </div>
     <div class="col text-left">
+    <h3>Printing fiat</h3>
       In the current financial system, floating currencies are regulated by central banks – they can inject or remove money via a centralised system. The amount of fiat money is uncapped as Central Banks have the power to print an unlimited supply.
     </div>
   </div>
@@ -55,13 +56,14 @@ The main difference between fiat and Bitcoin is that the former can be printed w
 
 
 
-### Mining Bitcoin
+
 
 
 
 <div class="container my-4">
   <div class="row">
     <div class="col text-left">
+    <h3>Mining Bitcoin</h3>
      The creation of Bitcoin is decentralised, transparent and follows an immutable mathematical formula
       Bitcoins are not printed but "mined" by computers plugged on the network.
       There will only be 21 million bitcoins ever mined.
@@ -223,7 +225,6 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
-### Sign
 
 <div class="container my-4">
   <div class="row align-items-center">
@@ -231,6 +232,7 @@ A transaction does not exist until it is generated in a new block. In order to k
      {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="pen-signature-document" >}}
     </div>
     <div class="col-sm-6 col-md-8 text-left"> 
+    <h3>Sign</h3>
      <p class="small">1 - Alice issues a transaction from her wallet.</p>
      <p class="small">2 - She sets the recipient's public address and the amount.</p>
      <p class="small">3 - The public address requires the corresponding private key to be accepted.</p>
@@ -243,7 +245,7 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
-### Generate
+
 
 
 
@@ -253,6 +255,7 @@ A transaction does not exist until it is generated in a new block. In order to k
      {{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="production-line" >}}
     </div>
     <div class="col-sm-6 col-md-8 text-left">
+   <h3>Generate</h3>
     <p class="small">Miners then create a new block from signed transaction and verify they are valid.</p>
     <p class="small">The block's data is then converted into a hash by miners.</p>
     <p class="small">A hash is a fixed-length string that holds large amounts of data.</p>
@@ -265,7 +268,7 @@ A transaction does not exist until it is generated in a new block. In order to k
 
 
 
-### Compete
+
 
 
 
@@ -275,6 +278,7 @@ A transaction does not exist until it is generated in a new block. In order to k
     {{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="boxing-gloves" >}}
     </div>
     <div class="col-sm-6 col-md-8 text-center">
+    <h3>Compete</h3>
     <p class="small">Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.</p>
    <p class="small">Miners need to gather different unconfirmed transactions (input) compute them into a hashing function set by the network and create a new hash (output) with pre-determined conditions (starts with a certain amount of zeros).</p>
     </div>
