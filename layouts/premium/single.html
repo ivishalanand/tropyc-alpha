@@ -27,16 +27,20 @@
 						<h3>$149</h3>
 						<p class="small">3 months</p>
   				</div>
-  				<button
-					    class="snipcart-add-item btn btn-info btn-lg font-weight-bold mb-3"
-					    data-item-id="1"
-					    data-item-name="Economy Ticket"
-					    data-item-price="149.00"
-					    data-item-weight="10"
-					    data-item-url="https://tropyc-staging.netlify.com/premium"
-					    data-item-description="Tropyc Premium Subscription - Economy Ticket">
-					    <i class="fa fa-paper-plane" aria-hidden="true"></i> BOOK
-					</button>
+  				<form action="https://wt-1546b2a2cd9d040b9935724bcca1bcc0-0.run.webtask.io/premium-economy" method="POST">
+					  <script
+					    src="https://checkout.stripe.com/checkout.js"
+					    class="stripe-button"
+					    data-key="pk_test_pa5Ulsn3WF1qkhuuFitTFQpo"
+					    data-image="/images/{{ index $.Site.Data.images.hash "tropyc/tropyc-logo.png" }}"
+					    data-name="Tropyc Premium"
+					    data-description="Subscription - Economy - 3 Months"
+					    data-amount="14900"
+					    data-locale="auto"
+					    data-panel-label="Buy Ticket"
+					    data-label="Buy Economy Ticket">
+					  </script>
+					</form>
 					<a target="_blank" class="mb-3" rel="nofollow" href="https://coingate.com/pay/tropyc-economy"><img alt="CoinGate Payment Button" src="https://static.coingate.com/images/buttons/1.png" /></a>
   			</div>
   		</div>
@@ -62,16 +66,20 @@
 						<h3>$249</h3>
 						<p class="small">6 months</p>
   				</div>
-  				<button
-					    class="snipcart-add-item btn btn-warning text-white btn-lg font-weight-bold mb-3"
-					    data-item-id="2"
-					    data-item-name="Business Ticket"
-					    data-item-price="239.00"
-					    data-item-weight="20"
-					    data-item-url="https://tropyc-staging.netlify.com/premium"
-					    data-item-description="Tropyc Premium Subscription - Business Ticket">
-					    <i class="fa fa-plane" aria-hidden="true"></i> BOOK
-					</button>
+  				<form action="https://wt-1546b2a2cd9d040b9935724bcca1bcc0-0.run.webtask.io/premium-business" method="POST">
+					  <script
+					    src="https://checkout.stripe.com/checkout.js"
+					    class="stripe-button"
+					    data-key="pk_test_pa5Ulsn3WF1qkhuuFitTFQpo"
+					    data-image="/images/{{ index $.Site.Data.images.hash "tropyc/tropyc-logo.png" }}"
+					    data-name="Tropyc Premium"
+					    data-description="Subscription - Business - 6 Months"
+					    data-amount="24900"
+					    data-locale="auto"
+					    data-panel-label="Buy Ticket"
+					    data-label="Buy Business Ticket">
+					  </script>
+					</form>
 					<a target="_blank" class="mb-3" rel="nofollow" href="https://coingate.com/pay/tropyc-business"><img alt="CoinGate Payment Button" src="https://static.coingate.com/images/buttons/1.png" /></a>
   			</div>
   		</div>
@@ -97,16 +105,20 @@
 						<h3>$399</h3>
 						<p class="small">12 months</p>
   				</div>
-  				<button
-					    class="snipcart-add-item btn btn-danger btn-lg font-weight-bold mb-3"
-					    data-item-id="3"
-					    data-item-name="First Class Ticket"
-					    data-item-price="359.00"
-					    data-item-weight="30"
-					    data-item-url="https://tropyc-staging.netlify.com/premium"
-					    data-item-description="Tropyc Premium Subscription - First Class Ticket">
-					    <i class="fa fa-fighter-jet" aria-hidden="true"></i> BOOK
-					</button>
+  				<form action="https://wt-1546b2a2cd9d040b9935724bcca1bcc0-0.run.webtask.io/premium-first-class" method="POST">
+					  <script
+					    src="https://checkout.stripe.com/checkout.js"
+					    class="stripe-button"
+					    data-key="pk_test_pa5Ulsn3WF1qkhuuFitTFQpo"
+					    data-image="/images/{{ index $.Site.Data.images.hash "tropyc/tropyc-logo.png" }}"
+					    data-name="Tropyc Premium"
+					    data-description="Subscription - First Class - 12 Months"
+					    data-amount="39900"
+					    data-locale="auto"
+					    data-panel-label="Buy Ticket"
+					    data-label="Buy First Class Ticket">
+					  </script>
+					</form>
 					<a target="_blank" class="mb-3" rel="nofollow" href="https://coingate.com/pay/tropyc-first-class"><img alt="CoinGate Payment Button" src="https://static.coingate.com/images/buttons/1.png" /></a>
   			</div>
   		</div>
