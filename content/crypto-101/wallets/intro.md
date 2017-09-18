@@ -15,7 +15,7 @@ toc = true
 Cryptocurrency wallets let you receive, spend and monitor your assets securely on a software program by interacting with the blockchain. 
 It is the single medium of interaction between the user and different cryptocurrency blockchains.
 
-In fact, digital wallets store _records of transactions_ between different public addresses. All that exists is the transaction history recorded on the blockchain.
+In fact, digital wallets store _records of transactions_ between various public addresses. All that exists is the transaction history recorded on the blockchain.
 
 Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
 
@@ -146,4 +146,3 @@ You can either make your DIY cold wallet or follow our hard wallet product revie
         </tr>
     </tbody>
 </table>
-
