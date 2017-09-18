@@ -64,17 +64,17 @@ features = """
       cut = "11.33%"
       supply = "17,000,000"
       cryptovalue = "1,496,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.advisors]
       distribution = "Advisors"
       cut = "2%"
       supply = "3,000,000"
       cryptovalue = "264,000"
-    [deal.rows.affiliate]
+    [deal.rows.reserves]
       distribution = "Reserve"
       cut = "2%"
       supply = "3,000,000"
       cryptovalue = "264,000"
-    [deal.rows.futureEmission]
+    [deal.rows.fbounty]
       distribution = "Bounty"
       cut = "1.33%"
       supply = "2,000,000"
