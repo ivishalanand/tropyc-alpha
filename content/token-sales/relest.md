@@ -59,11 +59,11 @@ features = """
       distribution = "Founders"
       cut = "15%"
       cryptovalue = "3,000,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.reserve]
       distribution = "Reserve"
       cut = "12%"
       cryptovalue = "2,400,000"
-    [deal.rows.affiliate]
+    [deal.rows.bounties]
       distribution = "Bounties"
       cut = "3%"
       cryptovalue = "600,000"
