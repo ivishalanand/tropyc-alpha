@@ -153,7 +153,7 @@ By doing so, the network rewards them with freshly mined Bitcoin
 Each block records the information of multiple transactions including
 
 * the time,
-* all transactions,
+* transaction ids,
 * the sender's public address,
 * the recipient's public address,
 * the amount
@@ -184,8 +184,8 @@ Each block records the information of multiple transactions including
   
 
 
-Every Bitcoin transactions ever created and confirmed by the network are stored in a single block - depending on the transaction time. 
-Every block is added on an immutable public distributed ledger, this is the blockchain: a chronological combination of data blocks.
+Each blockchain block stores every Bitcoin transactions that were created and confirmed by the network during a ten minute period.
+Once a new block is mined, it is added to an immutable public distributed ledger; this is the blockchain: a chronological combination of data blocks.
 
 
 
@@ -195,7 +195,7 @@ Every block is added on an immutable public distributed ledger, this is the bloc
 
 
 
-A transaction does not exist until it is generated in a new block. In order to keep the network safe and secure, miners reach a consensus.
+A transaction does not exist until block records it. To keep the network safe and secure, miners have to reach a consensus regarding transaction verification.
 
 
 
@@ -234,10 +234,10 @@ A transaction does not exist until it is generated in a new block. In order to k
     <div class="col-sm-6 col-md-8 text-left"> 
     <h3>Sign</h3>
      <p>1 - Alice issues a transaction from her wallet.</p>
-     <p>2 - She sets the recipient's public address and the amount.</p>
-     <p>3 - The public address requires the corresponding private key to be accepted.</p>
-     <p>4 - Alice signs the transaction with her private key that can be locked by a password.</p>
-     <p>5 - The transaction is the sent online to the bitcoin network and blockchain (via wallets).</p>
+     <p>2 - She sets the recipient's public address and the amount to disburse.</p>
+     <p>3 - The public address requires a signature from the corresponding private key in order to be accepted.</p>
+     <p>4 - Alice signs the transaction with her private key, stored in a wallet, that can be locked by a password.</p>
+     <p>5 - The transaction is the sent online to the bitcoin network and blockchain (via the wallet).</p>
     </div>
   </div>
 </div>
@@ -280,14 +280,14 @@ A transaction does not exist until it is generated in a new block. In order to k
     <div class="col-sm-6 col-md-8 text-center">
     <h3>Compete</h3>
     <p>Once miners have a valid block and hash, they compete amongst each other to get their block added to the blockchain by solving a mathematical formula that involves hashing.</p>
-   <p>Miners need to gather different unconfirmed transactions (input) compute them into a hashing function set by the network and create a new hash (output) with pre-determined conditions (starts with a certain amount of zeros).</p>
+   <p>Miners need to gather different unconfirmed transactions (input) compute them into a hashing function set by an algorithm and create a new hash (output) with pre-determined conditions (starts with a certain amount of zeros).</p>
     </div>
   </div>
 </div>
 
 
-The network sets a tougher hash solution as more miners compete, this way blocks are generated in a similar fashion, and not all bitcoins are mined simultaneously.  
-Under the hood, the network sets every 2 weeks a hash target value: miners need to solve the problem by providing a valid hash inferior to the target.  
+As more miners compete for rewards the hash problem gets tougher and tougher, this way, the difficulty to mine a block adjusts itself with the number of miners working.
+Under the hood, the network sets every two weeks a new hash target value: miners need to solve the problem by providing a valid hash inferior to the target.  
 Retargeting makes hashing difficulty evolve with the number miners connected to the network.
  
  
@@ -298,15 +298,14 @@ Retargeting makes hashing difficulty evolve with the number miners connected to 
 
 
 
-The method of incentivising resource-consuming activities in order to reach a network consensus is called Proof-Of-Work.
+The method of incentivising resource-consuming activities to reach a network consensus is called Proof-Of-Work.
 
 This ensures
 
 * Bitcoin emission rate is transparent.
 * Creation of blocks occurs approximately every 10 minutes.
 * Miners are incentivised to secure the network.
-* Digital assets are secured on a distributed and public network.
-
+* Transactions of digital assets are safe and trustless
 
 
 <p class="mt-3">Here's a recap of the process: from initiating a transaction to getting it mined on the blockchain.</p>
@@ -334,7 +333,7 @@ This ensures
 <div class="container my-4">
   <div class="row text-center small">
     <div class="col">
-     Transaction is signed and sent to the network by a wallet
+     Transaction is signed and then sent to the network by a wallet
     </div>
     <div class="col">
       Unconfirmed transaction wait to be added in the next block by miners
@@ -348,8 +347,8 @@ This ensures
   </div>
 </div>
 
-Miners are tasked with solving a mathematical problem before getting rewarded by the network. If it takes more resources to solve a problem than to verify it, this is called Proof-of-Work.
-Because the number of miners plugged on the Bitcoin network constantly varies, the mining difficulty adjusts itself to the network.
+Miners have to resolve a mathematical problem before getting rewarded by the network. If it takes more resources to solve a problem than to verify it, this is called Proof-of-Work.
+Because the number of miners plugged on the Bitcoin network varies, the mining difficulty adjusts itself to the network.
 
 Every 2016 blocks, the mining difficulty changes so that the previous 2016 blocks mined would be mined in exactly two weeks from then. On average, 2016 blocks in two weeks represents one block every 10 minutes.
 
