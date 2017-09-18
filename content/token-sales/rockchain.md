@@ -60,7 +60,7 @@ features = """
       cut = "80%"
       supply = "80,000,000"
       cryptovalue = "100,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.bounty]
       distribution = "Bounty"
       cut = "1%"
       supply = "1,250"
