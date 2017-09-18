@@ -1,5 +1,5 @@
 +++
-title = "Cash Poker"
+title = "Cash Poker Pro"
 date = 2017-08-13T17:30:02+02:00
 description = "Offline and online poker gaming platform, team has experience in both online and offline poker services. Pre-tokensale to tokensale total token valuation increased ten fold in of 2 months"
 weight = 20
@@ -7,13 +7,13 @@ draft = false
 
 trustRating = "B+"
 dealRating = "B-"
-softCap = ""
+softCap = "N/A"
 hardCap = "340 K ETH"
 platform = "Ethereum"
 industry = "Gaming"
 currencyAccepted = "BTC, ETH, WAVES, Fiat"
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = 2017-10-26
+endDate = 2017-11-26
 founded = "Cyprus, 2015"
 
 features = """
@@ -70,7 +70,7 @@ features = """
       cut = "10%"
       supply = "5,000,000"
       cryptovalue = "34,000"
-    [deal.rows.affiliate]
+    [deal.rows.miners]
       distribution = "Miners"
       cut = "10%"
       supply = "10,000,000"

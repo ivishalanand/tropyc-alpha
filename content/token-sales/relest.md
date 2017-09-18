@@ -3,7 +3,7 @@ title = "Relest"
 date = 2017-08-13T17:30:02+02:00
 description = "Real estate rental auction platform for landlords, tenants and realtors at the ideation phase. The product plans to introduce several features such as 3D viewing, direct payment and data-driven optimal price  "
 weight = 20
-draft = true
+draft = false
 
 trustRating = "B"
 dealRating = "C+"
@@ -59,11 +59,11 @@ features = """
       distribution = "Founders"
       cut = "15%"
       cryptovalue = "3,000,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.reserve]
       distribution = "Reserve"
       cut = "12%"
       cryptovalue = "2,400,000"
-    [deal.rows.affiliate]
+    [deal.rows.bounties]
       distribution = "Bounties"
       cut = "3%"
       cryptovalue = "600,000"

@@ -51,22 +51,22 @@ features = """
   [deal.headers]
     cryptoHeader = "USD"
   [deal.rows]
-    [deal.rows.pretokensale]
+    [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "50%"
       supply = "100,000,000"
       cryptovalue = "41,666"
-    [deal.rows.tokensale]
+    [deal.rows.futureTokensale]
       distribution = "Future Tokensale"
       cut = "25%"
       supply = "50,000,000"
       cryptovalue = "216,666"
-    [deal.rows.founders]
+    [deal.rows.reserve]
       distribution = "Reserve"
       cut = "20%"
       supply = "40,000,000"
       cryptovalue = "40,000,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.community]
       distribution = "Community"
       cut = "5%"
       supply = "10,000,000"

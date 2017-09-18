@@ -62,7 +62,7 @@ features = """
       cut = "20%"
       supply = "12,000,000"
       cryptovalue = "12,000,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.reserve]
       distribution = "Reserve"
       cut = "30%"
       supply = "18,000,000"

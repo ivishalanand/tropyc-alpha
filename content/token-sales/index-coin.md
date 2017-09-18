@@ -3,10 +3,10 @@ title = "Index Coin"
 date = 2017-08-13T17:30:02+02:00
 description = "The Digital Currency Index Coin tracks the performance of the Top 30 Digital Currencies evaluated by their market cap and project scope, to enable users improved portfolio diversification."
 weight = 20
-draft = true
+draft = false
 
 trustRating = "B-"
-dealRating = "B"
+dealRating = "C"
 softCap = "$300 K"
 hardCap = "$20 M"
 platform = "Ethereum"
@@ -31,7 +31,7 @@ features = """
   github = "https://github.com/DigitalCurrencyIndex/XIC"
 
 [trust]
-  stage = "MVP"
+  stage = "pre-MVP"
   advisors = true
   partners = false
   teamIdentity = true
@@ -60,7 +60,7 @@ features = """
       cut = "10%"
       supply = "20,000,000"
       cryptovalue = "2,000,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.dividends]
       distribution = "Dividends"
       cut = "20%"
       supply = "40,000,000"
@@ -76,7 +76,7 @@ features = """
   website = true
   whitepaper = true
   initialCode = true
-  mvp = true
+  mvp = false
   beta = false
   openDev = false
   launch = false

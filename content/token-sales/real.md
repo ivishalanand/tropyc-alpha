@@ -1,7 +1,7 @@
 +++
 title = "REAL"
 date = 2017-08-13T17:30:02+02:00
-description = "Real Estate Asset Ledger is a blockchain crowdfunding platform for real estate assets that enables the investment into real assets by purchasing participations"
+description = "Real Estate Asset Ledger is a blockchain crowdfunding platform that enables the investment into real assets by purchasing participations"
 weight = 20
 draft = false
 
@@ -59,7 +59,7 @@ features = """
       cut = "20%"
       supply = "19,607,843"
       cryptovalue = "39,215"
-    [deal.rows.earlyInvestors]
+    [deal.rows.reserve]
       distribution = "Reserve"
       cut = "29%"
       supply = "28,431,372"

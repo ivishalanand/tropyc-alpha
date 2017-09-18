@@ -12,8 +12,8 @@ hardCap = "$937 M"
 platform = "Ethereum"
 industry = "Medical"
 currencyAccepted = "ETH"
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = 2017-10-01
+endDate = 2017-11-01
 founded = "The Netherlands, 2017"
 
 features = """
@@ -69,12 +69,12 @@ features = """
       cut = "7.4%"
       supply = "592,000,000,000"
       cryptovalue = "$69,400,160"
-    [deal.rows.earlyInvestors]
+    [deal.rows.legalEntity]
       distribution = "Legal entity"
       cut = "7.5%"
       supply = "600,000,000,000"
       cryptovalue = "$70,338,000"
-    [deal.rows.affiliate]
+    [deal.rows.reserve]
       distribution = "Reserve"
       cut = "5%"
       supply = "400,000,000,000"

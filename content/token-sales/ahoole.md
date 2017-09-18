@@ -63,7 +63,7 @@ features = """
       cut = "15%"
       supply = "562,500"
       cryptovalue = "6,818"
-    [deal.rows.affiliate]
+    [deal.rows.futureTokensale]
       distribution = "Future tokensale"
       cut = "30%"
       supply = "1,125,000"

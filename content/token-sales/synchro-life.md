@@ -3,7 +3,7 @@ title = "Synchro Life"
 date = 2017-08-13T17:30:02+02:00
 description = "Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear"
 weight = 20
-draft = true
+draft = false
 
 trustRating = "A-"
 dealRating = "B-"
@@ -51,15 +51,15 @@ features = """
   [deal.headers]
     cryptoHeader = "ETH"
   [deal.rows]
-    [deal.rows.pretokensale]
+    [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "55%"
       supply = "55,000,000"
-    [deal.rows.tokensale]
+    [deal.rows.founders]
       distribution = "Founders"
       cut = "9.5%"
       supply = "9,500,000"
-    [deal.rows.founders]
+    [deal.rows.development]
       distribution = "Development"
       cut = "9.5%"
       supply = "9,500,000"
@@ -67,11 +67,11 @@ features = """
       distribution = "Early investors"
       cut = "5%"
       supply = "5,000,000"
-    [deal.rows.affiliate]
+    [deal.rows.reward]
       distribution = "Reward pool"
       cut = "20%"
       supply = "20,000,000"
-    [deal.rows.futureEmission]
+    [deal.rows.bounty]
       distribution = "Bounty"
       cut = "1%"
       supply = "1,000,000"

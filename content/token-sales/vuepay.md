@@ -52,22 +52,22 @@ features = """
   [deal.headers]
     cryptoHeader = "ETH"
   [deal.rows]
-    [deal.rows.pretokensale]
+    [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "40%"
       supply = "200,000"
       cryptovalue = ""
-    [deal.rows.tokensale]
+    [deal.rows.founders]
       distribution = "Founders"
       cut = "40%"
       supply = "200,000"
       cryptovalue = ""
-    [deal.rows.founders]
+    [deal.rows.development]
       distribution = "Development"
       cut = "10%"
       supply = "50,000"
       cryptovalue = ""
-    [deal.rows.earlyInvestors]
+    [deal.rows.legalEntity]
       distribution = "Legal entity"
       cut = "5%"
       supply = "25,000"

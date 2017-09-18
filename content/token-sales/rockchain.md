@@ -3,7 +3,7 @@ title = "Rockchain"
 date = 2017-08-13T17:30:02+02:00
 description = "Data infrastructure project built on top of Ethereum built to work with private data securely"
 weight = 20
-draft = true
+draft = false
 
 trustRating = "B+"
 dealRating = "A-"
@@ -60,7 +60,7 @@ features = """
       cut = "80%"
       supply = "80,000,000"
       cryptovalue = "100,000"
-    [deal.rows.earlyInvestors]
+    [deal.rows.bounty]
       distribution = "Bounty"
       cut = "1%"
       supply = "1,250"

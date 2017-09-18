@@ -66,12 +66,12 @@ features = """
       cut = "3.8%"
       supply = "57,000,000"
       cryptovalue = "570,000"
-    [deal.rows.affiliate]
+    [deal.rows.reward]
       distribution = "Reward"
       cut = "1%"
       supply = "15,000,000"
       cryptovalue = "150,000"
-    [deal.rows.futureEmission]
+    [deal.rows.currentUsers]
       distribution = "Current forecasters"
       cut = "0.2%"
       supply = "3,000,000"
