@@ -1,5 +1,5 @@
 +++
-title = "Cash Poker"
+title = "Cash Poker Pro"
 date = 2017-08-13T17:30:02+02:00
 description = "Offline and online poker gaming platform, team has experience in both online and offline poker services. Pre-tokensale to tokensale total token valuation increased ten fold in of 2 months"
 weight = 20
