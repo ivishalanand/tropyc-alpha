@@ -99,7 +99,6 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
 
 
 
-### Soft fork
 
 
 <div class="container my-4">
@@ -108,6 +107,7 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
      {{< img src="crypto-101/icons/soft-fork.svg" class="img-fluid" alt="soft-fork" >}}
     </div>
     <div class="col text-center">
+    <h3>Soft fork</h3>
       <p>A soft fork would freeze the assets of the Child DAO and the Ethers stolen by the hacker. This solution required the network to accept the deployment of a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permission less and immutable, the only way to add a new rule is to convince 51% of all nodes to make the change happen.</p>
     </div>
    </div>
@@ -115,12 +115,12 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
 
 
 
-### Hard fork
 
 
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col text-left">
+    <h3>Hard fork</h3>
      <p>The second solution is more brutal :  the idea is to rewind blockchain back to a block before the DAO hack. The hard fork would therefore delete all transaction history that occurred after the attack and return to DAO token holders the Ether they invested in the project.</p>  
     </div>
     <div class="col text-center">
