@@ -3,7 +3,7 @@ title = "Rockchain"
 date = 2017-08-13T17:30:02+02:00
 description = "Data infrastructure project built on top of Ethereum built to work with private data securely"
 weight = 20
-draft = true
+draft = false
 
 trustRating = "B+"
 dealRating = "A-"
