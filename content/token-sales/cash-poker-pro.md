@@ -12,8 +12,8 @@ hardCap = "340 K ETH"
 platform = "Ethereum"
 industry = "Gaming"
 currencyAccepted = "BTC, ETH, WAVES, Fiat"
-startDate = 2017-10-01
-endDate = 2017-11-01
+startDate = 2017-10-26
+endDate = 2017-11-26
 founded = "Cyprus, 2015"
 
 features = """
