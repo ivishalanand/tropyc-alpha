@@ -3,7 +3,7 @@ title = "Relest"
 date = 2017-08-13T17:30:02+02:00
 description = "Real estate rental auction platform for landlords, tenants and realtors at the ideation phase. The product plans to introduce several features such as 3D viewing, direct payment and data-driven optimal price  "
 weight = 20
-draft = true
+draft = false
 
 trustRating = "B"
 dealRating = "C+"
