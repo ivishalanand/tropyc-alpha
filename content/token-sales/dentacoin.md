@@ -12,8 +12,8 @@ hardCap = "$937 M"
 platform = "Ethereum"
 industry = "Medical"
 currencyAccepted = "ETH"
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = 2017-10-01
+endDate = 2017-11-01
 founded = "The Netherlands, 2017"
 
 features = """
