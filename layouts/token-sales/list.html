@@ -20,40 +20,30 @@
         <th>Token</th>
         <th>Trust</th>
         <th>Deal</th>
-        <th>Valuation*</th>
+        <th>Valuation</th>
+        <th>Cut</th>
         <th>Platform</th>
         <th>Industry</th>
         <th>Start</th>
         <th>End</th>
-        <th>Links</th>
       </tr>
     </thead>
     <tbody>
-      {{ range .Data.Pages.ByParam "endDate" }}
+      {{ range (.Data.Pages.ByParam "endDate").Reverse }}
         <tr>
           <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
-          <td class="text-uppercase">{{ partial "rating" .Params.trustRating }}</td>
-          <td class="text-uppercase">{{ partial "rating" .Params.dealRating }}</td>
+          <td>{{ partial "rating" .Params.trustRating }}</td>
+          <td>{{ partial "rating" .Params.dealRating }}</td>
           <td>{{ .Params.hardCap }}</td>
+          <td>{{ .Params.deal.rows.tokensale.cut }}</td>
           <td>{{ .Params.platform }}</td>
           <td>{{ .Params.industry }}</td>
           {{ if ((.Params.enddate).After now) }}
 	          <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
           	<td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>
           {{ else }}
-          	<td colspan="2"><span class="ico-ended">End</span></td>
+          	<td colspan="2"><span class="ico-ended">Ended</span></td>
           {{ end }}
-          <td>
-            <div class="token-social-links">
-              {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>{{ end }}
-              {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank" class="mx-1"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>{{ end }}
-              {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a>{{ end }}
-              {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>{{ end }}
-              {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><i class="fa fa-telegram fa-lg" aria-hidden="true"></i></a>{{ end }}
-              {{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-lg" aria-hidden="true"></i></a>{{ end }}
-              {{ if isset .Params.links "medium" }}<a href="https://https://medium.com/{{ .Params.links.medium }}" target="_blank"><i class="fa fa-medium fa-lg" aria-hidden="true"></i></a>{{ end }}
-            </div>
-          </td>
         </tr>
       {{ end }}
     </tbody>

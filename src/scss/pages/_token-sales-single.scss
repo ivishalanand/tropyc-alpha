@@ -80,6 +80,14 @@
   tbody > tr:last-child td {
     border-width: 2px;
   }
+
+  .tokensale-row {
+		color: $green;
+  }
+
+  .total-row {
+  	font-weight: 600;
+  }
 }
 
 .roadmap {

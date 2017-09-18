@@ -52,15 +52,6 @@
                   <div class="flex-col-1 label">Links</div>
                   <div class="flex-col-2">
                     {{ if isset .Params.links "website" }}<a href="{{ .Params.links.website }}">{{ .Params.links.website }}</a>{{ end }}
-                    <div class="token-social-links mt-2">
-                      {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank" class="mx-1"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank" class="mx-1"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank" class="mx-1"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank" class="mx-1"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank" class="mx-1"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
-                      {{ if isset .Params.links "medium" }}<a href="https://https://medium.com/{{ .Params.links.medium }}" target="_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>{{ end }}
-                    </div>
                   </div>
                 </div>
               </div>
@@ -81,6 +72,15 @@
               <div class="flex-row mt-3">
                 <div class="flex-col-1 indicator-value">HARD CAP</div>
                 <div class="flex-col-2 indicator-rating">{{ .Params.hardCap }}</div>
+              </div>
+              <div class="token-social-links text-center mt-3">
+                {{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank" class="mx-1"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
+                {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank" class="mx-1"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>{{ end }}
+                {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank" class="mx-1"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
+                {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank" class="mx-1"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
+                {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank" class="mx-1"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
+                {{ if isset .Params.links "slack" }}<a href="https://{{ .Params.links.slack }}.slack.com/" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
+                {{ if isset .Params.links "medium" }}<a href="https://https://medium.com/{{ .Params.links.medium }}" target="_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>{{ end }}
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
               </thead>
               <tbody>
               	{{ range .Params.deal.rows }}
-                <tr>
+                <tr class="{{ .distribution | urlize }}-row">
                   <td>{{ .distribution }}</td>
                   <td>{{ .cut }}</td>
                   <td>{{ .supply }}</td>

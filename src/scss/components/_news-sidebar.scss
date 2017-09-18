@@ -1,16 +1,22 @@
 .news-sidebar {
   position: sticky;
   top: 10px;
-	padding-top: 40px;
+	padding-top: 30px;
 	text-align: center;
 
-	.newsletter-form {
-		padding: 40px;
-		background: #2c3e50;
+	.newsletter-box {
+		height: 350px;
+		background: $gray-100;
+		padding: 20px;
+
+		p {
+			font-weight: bold;
+			font-size: 1.3rem;
+		}
 	}
 
 	.social-links {
-		margin-top: 20px;
+		margin-bottom: 1rem;
 
 		img {
 			height: 60px;

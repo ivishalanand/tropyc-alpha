@@ -23,10 +23,20 @@
   }
 
   .token-name {
-    background: no-repeat 10px center;
+    background: no-repeat 5px center;
     background-size: 40px;
-    padding-left: 60px !important;
+    padding-left: 50px !important;
+    font-weight: 600;
+
+    a {
+    	font-weight: 600;
+    }
   }
+
+ .rating {
+ 	font-family: "Montserrat";
+ 	font-weight: 600;
+ }
 
   .market-cap {
   	color: #01bf86;
