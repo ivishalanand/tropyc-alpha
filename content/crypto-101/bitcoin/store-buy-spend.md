@@ -31,7 +31,7 @@ toc = true
 
 
 
-Bitcoins are recorded electronically on wallets; it operates the same way than with cash wallets, but digitally.
+Bitcoins are stored electronically on digital wallets; it operates the same way than with cash purse, but digitally.
 
 The act of "sending a bitcoin" requires 3 things :
 
@@ -73,10 +73,9 @@ The act of "sending a bitcoin" requires 3 things :
   <div class="row">
     <div class="col text-left">
       <h3>Public address</h3>
-      A public address serves as the recipient crypto bank account: a Bitcoin is held on a public address.
-      All the transaction information between public address are available to everyone online on a decentralised ledger
-      This means everyone knows how much Bitcoins a public address holds. 
-      Therefore, make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he’ll know how much you have!
+      A public address stores Bitcoin and is used to send and receive funds. In other words, a public address serves as a cryptocurrency bank account.
+      All the transaction information between public addresses are available to everyone, and accessible online on a decentralised ledger called the blockchain.
+      Therefore, everyone knows how much Bitcoins a public address holds. Make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he/she’ll know how much you have!
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
@@ -96,9 +95,9 @@ The act of "sending a bitcoin" requires 3 things :
     </div>
     <div class="col text-left">
       <h3>Private key</h3>
-      Each public address is associated with one single private key that unlocks the funds held on it.  
-      The network performs a mathematical algorythm to verify whether the pair is correct
-      You can generate endless public address and private key pairs.
+      Each public address is associated with a private key that unlocks the funds held on it.  In this sense, only the owner of funds stored in a public address has access to the associated private key. 
+      When a transaction is issued, the network performs a mathematical algorithm to verify whether the pair is correct.  If a private key is made public, then the funds are compromised and unsafe - as anyone could issue a transaction.
+      You can generate unlimited public address and private key pairs.
     </div>
   </div>
 </div>
@@ -190,7 +189,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
   <div class="row align-items-center">
     <div class="col text-left">
     <h3>Over the counter</h3>
-      As opposed to centralised exchanges, you can join a dealers network and purchase some Bitcoin over-the-counter. This method is usually utilised for large bulk purchase
+      As opposed to centralised exchanges, you can join a dealers network and purchase some Bitcoin over-the-counter. This method is useful for large bulk purchases.
     </div>
     <div class="col text-center">
        {{< img src="crypto-101/icons/over-the-counter.svg" class="img-fluid" alt="merchant-selling-goods" >}}
@@ -277,4 +276,3 @@ Today, most of the services and goods are available for purchase through bitcoin
 
 Because Bitcoin has matured to a global market, more and more merchants are pushed to accept cryptocurrencies as a form of payment.
 It has utility.
-
