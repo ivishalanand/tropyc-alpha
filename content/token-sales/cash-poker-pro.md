@@ -7,13 +7,13 @@ draft = false
 
 trustRating = "B+"
 dealRating = "B-"
-softCap = ""
+softCap = "N/A"
 hardCap = "340 K ETH"
 platform = "Ethereum"
 industry = "Gaming"
 currencyAccepted = "BTC, ETH, WAVES, Fiat"
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = 2017-10-01
+endDate = 2017-11-01
 founded = "Cyprus, 2015"
 
 features = """
