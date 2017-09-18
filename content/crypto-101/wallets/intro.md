@@ -12,15 +12,17 @@ toc = true
 
 
 
-Cryptocurrency wallets let you receive, spend and monitor securely your assets on a software program by interacting with the blockchain. 
+Cryptocurrency wallets let you receive, spend and monitor your assets securely on a software program by interacting with the blockchain. 
 It is the single medium of interaction between the user and different cryptocurrency blockchains.
 
-Technically speaking, no physical object or digital files “stores” Bitcoin or any cryptocurrencies: you cannot say “this computer, or this file has bitcoins”.
+In fact, digital wallets store _records of transactions_ between different public addresses. All that exists is the transaction history recorded on the blockchain.
 
-In fact, digital wallets store records of transactions between different public addresses. Cryptocurrencies do not exist, all that exists is the transaction history stored on the blockchain.
+Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
 
-Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded and the two public address balances are updated.
+Technically speaking, no physical object or digital files “store” Bitcoin or any cryptocurrencies.
 
+* you cannot say “this computer or this file has bitcoins”.
+* but you can say "this computer or this file stores a private key that can give me access to Bitcoins."
 
 
 <div class="container my-4">
@@ -84,7 +86,9 @@ When storing your coins on an online wallet, such as an exchange, you do not own
 
 An IOU refers to “I owe you”: in the cryptocurrency world, either you have full control over your private keys, or you trust a third party to store them.
 
-The former represents the technology breakthrough of the decentralized blockchain, the latter is similar to the current centralised fiat economy.
+The decentralised blockchain is a technology breakthrough because it allows users to hold their private key without an intermediary.
+Trusting a third party in cryptocurrency is similar to the current centralised fiat economy.
+
 
 <p> **WARNING!** <em> You do not own crypto-assets stored on exchanges and online wallets,</p>
 <p>you only own a **promise** that a third party will give you back your funds – nothing less, nothing more.</em></p>
@@ -95,9 +99,9 @@ The former represents the technology breakthrough of the decentralized blockchai
 ### Hot
 
 
-Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their crypto assets. The wealth is stored locally rather than on a middle man's system.
+Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their crypto assets. The wealth is stored locally rather than on a middleman's system.
 
-However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers or virus attack because it is virtually always connected to the blockchain.
+However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers and viruses because they are connected to the internet.
 
 
 
@@ -105,11 +109,11 @@ However, although hot wallets enjoy improved safety features, a hot wallet (desk
 ### Cold
 
 
-Finally, cold wallets are considered as locally stored in an “offline” system called air-gapped. They are not constantly connected to the internet making them impossible to compromise remotely if the system has been correctly set up.
+Finally, cold wallets store cryptocurrencies and assets in an “offline” system also known as "air-gapped". They are never connected to the web making it impossible to compromise remotely if the system has been correctly setup.
 
-This level of security is achieved only when private keys are generated and stored in an offline environment.
+This level of security is possible only when private keys are generated and stored in an offline environment.
 
-You can either make your own DIY cold wallet or follow our hard wallet product reviews here.
+You can either make your DIY cold wallet or follow our hard wallet product reviews here.
 
 </table>
 <table class="table table-sm table-striped">
