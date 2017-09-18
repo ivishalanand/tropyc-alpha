@@ -15,10 +15,12 @@ toc = true
 ### Conventional contracts
 
 
-Conventional contracts are agreements that define stakeholder relationships on a wide range of domains, would it be related to a transaction, inheritance or consumption. 
+Conventional contracts are agreements that define stakeholder relationships, would it be related to a transaction, inheritance or consumption. 
 
-Typically, valid standard contracts are enforceable by the law, meaning if you decide not to honour the terms of the contract, a legal action can be taken upon you. 
-However, you are not physically forced to honour the contract, there is definitely a trust factor to consider before entering a contractual relationship. Going legal on someone is at the end of the day, an inefficient and resource draining exercise that (most) people would like to avoid.
+Typically, valid standard contracts are enforceable by the law, meaning if you decide not to honour the terms of the contract, you are vulnerable to legal recourse.   
+
+However, you are not physically forced: there is a trust factor to consider before entering a contractual relationship with a peer.  
+Going legal is at the end of the day, an inefficient and resource draining exercise that (most) people would like to avoid.
 The current legal and judiciary system may resolve a litigation in a matter of years, sometimes decades in some jurisdiction.
 
 
@@ -26,11 +28,12 @@ The current legal and judiciary system may resolve a litigation in a matter of y
 ### Smart contracts
 
 
-Smart contracts try to solve this issue by automating the terms of a contract with a few lines of code. 
-They are computer programs that execute pre-defined contractual conditions, at a certain point in time, to ensure an agreement is ultimately honoured. 
-In other words, a smart contract is a programmed transaction protocol that runs a desired operation depending on hard coded scenarios.
+Smart contracts try to solve this issue by automating the terms of an agreement with a few lines of code. 
+They are computer programs that execute pre-defined contractual conditions, at a certain point in time, to ensure an agreement is ultimately honoured.  
 
-It does not have to be a legal contract per se, rather, its aim is to minimise the risks of bad faith, make sure an agreement is honoured and automate tasks. 
+In other words, a smart contract is a programmed transaction protocol that runs the desired operation depending on hard-coded scenarios.
+
+It does not have to be a legal contract per se, rather, it aims to minimise the risks of bad faith, make sure an agreement is honoured and automate tasks. 
 
 Here’s a quick recap of the difference between both.
 
@@ -58,8 +61,8 @@ Here’s a quick recap of the difference between both.
  
  
  
-Ethereum allows developers to code smart contract on its platform thanks to its own programming language Solidity. 
-Rather than “smart contracts” which is a term introduced in the 1990s, Ethereum refers them as “automated agents” in its white paper, because it enables the issuance of large scale computational operations between users and other smart contracts.
+Ethereum allows developers to smart code contract on its platform thanks to its programming language Solidity. 
+Rather than “smart contracts” which is a term introduced in the 1990s, Ethereum refers them as “automated agents” in its white paper, because it enables the issuance of large-scale computational operations between users and other smart contracts.
 
 
 
@@ -68,7 +71,7 @@ Rather than “smart contracts” which is a term introduced in the 1990s, Ether
 ### Case study
 
 
-This might be hard to conceptualise at first so let’s have a look at a real life smart contract adaptation:
+It might be hard to conceptualise at first so let’s have a look at a real-life smart contract adaptation:
 
 
 
@@ -112,7 +115,7 @@ At this point, there are 3 possible outcomes :
  
 In a conventional agreement, we can, therefore, affirm that,
 
-* Alice and Bob have to manually track the event
+* Alice and Bob have to track the event manually
 * Bob might breach the agreement
  
  
@@ -130,17 +133,17 @@ Here, the smart contract releases the funds automatically to Alice.
 
 Programming the bet on a smart contract offers two tangible benefits:
 
-*    Alice and Bob does not need to track the S&P 500. A smart contract automates this task and rewards the winner accordingly. 
-* They send the money to the smart contract, that disburses directly to the winner. It reduces any risk of bad faith in an agreement and avoids any disputes
+* Alice and Bob does not need to track the S&P 500. A smart contract automates this task and rewards the winner accordingly. 
+* They send the money to the smart contract, which disburses directly to the winner. It reduces any risk of bad faith in an agreement and avoids any disputes
 
 
 Creating such interactions would typically require multiple smart contracts: 
 
 * check S&P 500 performance,
-* set the conditions of the bet (deadline, participants, etc..)
+* set the conditions of the bet (deadline, participants, etc.)
 * hold the money and disburse to the winner based on the above.
 
-Running each smart contracts on the network has a cost and it depends on the horse power required to execute it: this is when Ether transaction fees come in the picture.
+Running each smart contracts on the network has a cost, and it depends on the horsepower required to execute it: this is when Ether transaction fees come in the picture.
 
 The same way ERP and CRM automate supply chain and client communication, smart contracts can automate any real-life interaction.
 
@@ -157,17 +160,17 @@ At the epicentre of the Ethereum network sits the Ethereum Virtual Machine (EVM)
 
 The EVM has two main characteristics 
 
-* Turing complete: developers can create programs with more established and user-friendly coding languages such as Python or JavaScript.
+* Turing complete: developers can create programs with more traditional and user-friendly coding languages such as Python or JavaScript.
 * Isolated: code and smart contracts running on top of the EVM does not have access to other applications on the network.
 
-Every node on the network (computers connected) runs the EVM and constantly updates the Ethereum database. This decentralised computation is actually far less efficient in terms of cost and speed than with a traditional hardware set-up. 
+Every node on the network (computers connected) runs the EVM and regularly updates the Ethereum database. This decentralised computation is far less efficient concerning cost and speed than with a traditional hardware set-up. 
 
 
 Still, it offers valuable benefits :
 
-* constantly online with no downtime
+* continuously online with no downtime
 * high-level of fault tolerance
-* immutable and censorship resistant database
+* immutable and censorship-resistant database
 
 Ethereum and its EVM are value-agnostic: developers are the one deciding how to use the platform. While Bitcoin is suited for peer-to-peer payments, Ethereum can automate interactions between stakeholders and coordinate community actions on its network. 
 
