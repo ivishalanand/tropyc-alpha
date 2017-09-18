@@ -70,7 +70,7 @@ features = """
       cut = "8.1%"
       supply = "40,000,000"
       cryptovalue = "13,333"
-    [deal.rows.affiliate]
+    [deal.rows.development]
       distribution = "Operations"
       cut = "10%"
       supply = "50,000,000"
