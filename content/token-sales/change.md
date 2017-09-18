@@ -61,7 +61,7 @@ features = """
       distribution = "Early investors"
       cut = "10%"
       supply = "25,000,000"
-    [deal.rows.affiliate]
+    [deal.rows.development]
       distribution = "Development"
       cut = "20%"
       supply = "50,000,000"
