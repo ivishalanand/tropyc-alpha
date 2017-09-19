@@ -1,3 +1,21 @@
+.header-alert {
+	background: $yellow;
+	text-align: center;
+	padding: 10px 0;
+
+	img {
+		height: 25px;
+		vertical-align: text-top;
+	}
+
+	a {
+		color: white;
+		font-weight: 700;
+		font-size: 1.1rem;
+		text-decoration: none;
+	}
+}
+
 .top-bleed {
 	background: #F8FAFA;
 	border: 1px solid #BDC3C7;
@@ -40,8 +58,12 @@
 	}
 }
 
+.customer-timeline {
+	margin: 60px 0;
+}
+
 .features {
-	margin: 30px 0;
+	margin: 50px 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -77,9 +99,14 @@
 .title {
 	margin-left: auto;
 	margin-right: auto;
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
   width: 80%;
+
+	@include media-breakpoint-down(sm) {
+		width: 90%;
+	}
 
   .titleborder {
   	flex: 1;
@@ -92,6 +119,11 @@
   	margin: 0 80px;
     color: $gray-600;
     font-size: 1.2rem;
+
+  	@include media-breakpoint-down(sm) {
+			font-size: 1rem;
+			margin: 0 40px;
+		}
   }
 }
 

@@ -9,7 +9,7 @@
 
 			<div class="col-lg-2 d-none d-lg-block">
 				<div class="token-id">
-          <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Title | urlize) }}">
+          <img class="img-fluid img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s-128.png" .Title | urlize) }}">
 					<h1 class="token-title">{{.Title }}</h1>
 				</div>
 			</div>
@@ -18,7 +18,7 @@
 				<div class="token-overview">
 					<div class="token-id d-lg-none">
 						<h1 class="token-title">{{.Title }}</h1>
-						<img class="token-logo img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s.png" .Title | urlize) }}">
+						<img class="token-logo img-thumbnail" src="/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s-128.png" .Title | urlize) }}">
 					</div>
 					<h2>Snapshot</h2>
           <div class="row">
@@ -202,7 +202,12 @@
           <div class="tab-pane" id="roadmap" role="tabpanel">
             <div class="roadmap">
               <div class="roadmap-ideation">
-                <span class="roadmap-stage">IDEATION</span>
+                <div class="roadmap-stage">IDEATION</div>
+                {{ if and .Params.roadmap.website .Params.roadmap.whitepaper }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/ideation-green.svg" }}">
+                {{ else }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/ideation-mono.svg" }}">
+                {{ end }}
                 <div class="roadmap-bottom-left">
                   <div>
                     {{ if .Params.roadmap.website }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
@@ -217,7 +222,12 @@
                 </div>
               </div>
               <div class="roadmap-mvp">
-                <span class="roadmap-stage">MVP</span>
+                <div class="roadmap-stage">MVP</div>
+                {{ if and .Params.roadmap.initialcode .Params.roadmap.mvp }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/mvp-green.svg" }}">
+                {{ else }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/mvp-mono.svg" }}">
+                {{ end }}
                 <div class="roadmap-bottom-left">
                   <div>
                     {{ if .Params.roadmap.initialcode }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
@@ -232,7 +242,12 @@
                 </div>
               </div>
               <div class="roadmap-test">
-                <span class="roadmap-stage">TEST</span>
+                <div class="roadmap-stage">TEST</div>
+                {{ if and .Params.roadmap.beta .Params.roadmap.opendev }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/test-green.svg" }}">
+                {{ else }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/test-mono.svg" }}">
+                {{ end }}
                 <div class="roadmap-bottom-left">
                   <div>
                     {{ if .Params.roadmap.beta }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
@@ -247,7 +262,12 @@
                 </div>
               </div>
               <div class="roadmap-growth">
-                <span class="roadmap-stage">GROWTH</span>
+                <div class="roadmap-stage">GROWTH</div>
+                {{ if and .Params.roadmap.launch .Params.roadmap.community }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/growth-green.svg" }}">
+                {{ else }}
+                	<img class="roadmap-image" src="/images/{{ index $.Site.Data.images.hash "roadmap-tokensale/growth-mono.svg" }}">
+                {{ end }}
                 <div class="roadmap-bottom-left">
                   <div>
                     {{ if .Params.roadmap.launch }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}

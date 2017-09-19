@@ -2,6 +2,9 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
+<div class="header-alert">
+	<a href="https://t.me/Tropyc101" target="_blank"><img src="/images/{{ index $.Site.Data.images.hash "social-media/telegram.svg" }}"> Have a chat with us on Telegram!</a>
+</div>
 <div class="banner" style="background-image: linear-gradient(-180deg, rgba(0,101,168,0.1) 0%, rgba(0,36,61,0.2) 50%), url('/images/{{ index $.Site.Data.images.hash "landing-page/background.png" }}');">
   <div class="banner-content">
     <h1>{{ .Title }}</h1>
@@ -51,8 +54,15 @@
 		<p>Learn how to purchase, store, manage and invest</p>
 	</div>
 </div>
-<div class="bleed d-flex align-items-center justify-content-center">
-	<h2>Crypto and bitcoin aren't easy to understand so we're here for you 7/7.</h2>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">Who is it for ? Everyone !</div>
+	<div class="titleborder"></div>
+</div>
+<div class="container">
+	<div class="customer-timeline">
+		<img class="img-fluid d-block mx-auto" src="/images/{{ index $.Site.Data.images.hash "landing-page/customer-timeline.png" }}">
+	</div>
 </div>
 <div class="title">
 	<div class="titleborder"></div>
@@ -77,7 +87,7 @@
 					</div>
 			</div>
 			<div class="col-sm-6">
-				<img class="img-fluid rounded mx-auto d-block" src="/images/{{ index $.Site.Data.images.hash "landing-page/phone.png" }}">
+				<img class="img-fluid" src="/images/{{ index $.Site.Data.images.hash "landing-page/phone.png" }}">
 			</div>
 		</div>
 	</div>
@@ -95,7 +105,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<img class="img-fluid rounded mx-auto d-block mt-3" src="/images/{{ index $.Site.Data.images.hash "landing-page/chart.png" }}">
+				<img class="img-fluid mt-3" src="/images/{{ index $.Site.Data.images.hash "landing-page/chart.png" }}">
 			</div>
 			<div class="col-sm-6 d-flex flex-column justify-content-around">
 				<div class="point">

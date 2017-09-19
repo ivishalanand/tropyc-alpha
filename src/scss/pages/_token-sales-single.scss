@@ -106,25 +106,35 @@
     padding: 20px 0;
     position: relative;
 
-      &::before {
-      content: "";
-      border: 2px solid #DDD;
-      border-radius: 50%;
-      width: 45px;
-      height: 45px;
-      position: absolute;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-      top: 35%;
-    }
+    //   &::before {
+    //   content: "";
+    //   border: 2px solid #DDD;
+    //   border-radius: 50%;
+    //   width: 45px;
+    //   height: 45px;
+    //   position: absolute;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    //   left: 0;
+    //   right: 0;
+    //   top: 35%;
+    // }
   }
 
   .roadmap-stage {
     font-size: 16px;
     font-weight: 400;
     color: #6f8691;
+  }
+
+  .roadmap-image {
+  	position: absolute;
+  	margin-left: auto;
+  	margin-right: auto;
+  	left: 0;
+    right: 0;
+    top: 30%;
+  	height: 80px;
   }
 
   .roadmap-bottom-left {
