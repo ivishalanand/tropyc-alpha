@@ -2,8 +2,9 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-<div class="header-alert">
-	<a href="https://t.me/Tropyc101" target="_blank"><img src="/images/{{ index $.Site.Data.images.hash "social-media/telegram.svg" }}"> Have a chat with us on Telegram!</a>
+<div class="top-alert alert alert-info alert-dismissible text-center" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  Have a <strong>chat</strong> with us on <a href="https://t.me/Tropyc101" target="_blank" class="alert-link">Telegram</a> <i class="fa fa-telegram" aria-hidden="true"></i>
 </div>
 <div class="banner" style="background-image: linear-gradient(-180deg, rgba(0,101,168,0.1) 0%, rgba(0,36,61,0.2) 50%), url('/images/{{ index $.Site.Data.images.hash "landing-page/background.png" }}');">
   <div class="banner-content">
@@ -12,51 +13,9 @@
     {{ partial "newsletter-banner-form" . }}
   </div>
 </div>
-<div class="container-fluid top-bleed">
-	<div class="row h-100 text-center align-items-center">
-		<div class="col-sm-6 col-md-3 top-item">
-			<div>First steps in crypto</div>
-			<div class="text-success">We're here for you</div>
-		</div>
-		<div class="col-sm-6 col-md-3 top-item">
-			<div>The revolution is here</div>
-			<div class="text-success">Learn the basics</div>
-		</div>
-		<div class="col-sm-6 col-md-3 top-item">
-			<div>With crypto, you're in control</div>
-			<div class="text-success">Lock your assets</div>
-		</div>
-		<div class="col-sm-6 col-md-3 top-item">
-			<div>Customised portfolio solutions</div>
-			<div class="text-success">Assess opportunities</div>
-		</div>
-	</div>
-</div>
 <div class="title">
 	<div class="titleborder"></div>
 	<div class="titlelabel">What is Tropyc Premium ?</div>
-	<div class="titleborder"></div>
-</div>
-<div class="features">
-	<div class="featurebox">
-		<img src="/images/{{ index $.Site.Data.images.hash "tropyc/chat.svg" }}">
-		<h2>Live chat</h2>
-		<p>Get your personal crypto analyst 7/7</p>
-	</div>
-	<div class="featurebox">
-		<img src="/images/{{ index $.Site.Data.images.hash "tropyc/star.svg" }}">
-		<h2>Tokensale Rating</h2>
-		<p>Evaluate projects with our ICO rating reports</p>
-	</div>
-	<div class="featurebox">
-		<img src="/images/{{ index $.Site.Data.images.hash "tropyc/portfolio.svg" }}">
-		<h2>Portfolio</h2>
-		<p>Learn how to purchase, store, manage and invest</p>
-	</div>
-</div>
-<div class="title">
-	<div class="titleborder"></div>
-	<div class="titlelabel">Who is it for ? Everyone !</div>
 	<div class="titleborder"></div>
 </div>
 <div class="container">
@@ -66,7 +25,7 @@
 </div>
 <div class="title">
 	<div class="titleborder"></div>
-	<div class="titlelabel">What is 7/7 support ?</div>
+	<div class="titlelabel">How it works ?</div>
 	<div class="titleborder"></div>
 </div>
 <div class="instructions">

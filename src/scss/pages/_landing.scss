@@ -1,44 +1,13 @@
-.header-alert {
-	background: $yellow;
-	text-align: center;
-	padding: 10px 0;
+.top-alert {
+	margin-bottom: 0;
+	background-color: $yellow;
+	border-color: darken($yellow, 5%);
+	border-radius: 0;
 
-	img {
-		height: 25px;
-		vertical-align: text-top;
-	}
-
-	a {
-		color: white;
-		font-weight: 700;
-		font-size: 1.1rem;
-		text-decoration: none;
-	}
-}
-
-.top-bleed {
-	background: #F8FAFA;
-	border: 1px solid #BDC3C7;
-	height: 100px;
-
-	@include media-breakpoint-down(sm) {
-  	height: auto;
-  }
-
-	.top-item {
-		&:not(:last-child) {
-			border-right: 1px solid #e2e2e2;
-		}
-
-		div:first-child {
-			font-size: 14px;
-    	color: $gray-600;
-		}
-
-		div:last-child {
-			font-size: 16px;
-    	color: theme-color("primary");
-		}
+	.close {
+		top: 0;
+		right: 1rem;
+		padding: 0;
 	}
 }
 
@@ -62,40 +31,6 @@
 	margin: 60px 0;
 }
 
-.features {
-	margin: 50px 0;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-
-  .featurebox {
-  	margin-left: auto;
-  	margin-right: auto;
-  	display: flex;
-    align-items: center;
-    width: 300px;
-    flex-direction: column;
-
-    img {
-    	padding-top: 30px;
-    	height: 120px;
-    }
-
-    h2 {
-    	padding-top: 15px;
-    	font-size: 22px;
-	    color: $green;
-	    line-height: 22px;
-    }
-
-    p {
-    	text-align: center;
-	    font-size: 15px;
-	    color: $gray-600;
-    }
-  }
-}
-
 .title {
 	margin-left: auto;
 	margin-right: auto;
@@ -110,7 +45,7 @@
 
   .titleborder {
   	flex: 1;
-    border-top: 3px solid $yellow;
+    border-top: 2px solid $yellow;
     margin-top: 8px;
   }
 
@@ -118,7 +53,9 @@
   	line-height: 20px;
   	margin: 0 80px;
     color: $gray-600;
-    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+    text-transform: uppercase;
 
   	@include media-breakpoint-down(sm) {
 			font-size: 1rem;
@@ -136,7 +73,7 @@
 	padding-top: 2rem;
 
 	h3 {
-		color: theme-color("primary");
+		color: $gray-600;
 	}
 
 	.step:last-child {
@@ -164,7 +101,7 @@
 
 	.point h2 {
 		text-align: left;
-		color: theme-color("primary");
+		color: $gray-600;
 	}
 }
 
@@ -177,6 +114,7 @@
 	}
 
 	p {
+		width: 80%;
 		margin: 10px 0 10px 20px;
 		font-size: 1.1rem;
 		font-weight: 300;
