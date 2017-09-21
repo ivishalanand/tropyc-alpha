@@ -19,12 +19,12 @@ toc = true
 
 We advise you to set up at least two wallets:
 
-* one hot wallet for daily expense that should not hold a huge chunk of your capital,
+* one hot wallet for daily expenses, that should not hold a huge chunk of your capital.
 * one cold wallet to store the rest of your crypto assets.
 
 Always use your hot wallet when transacting with the outside. We advise you to make your cold wallet only interact with your own wallets for an extra layer of security.
 
-Picture your hot wallet as your current account and cold wallet as your savings accounts
+Picture your hot wallet as your current account and cold wallet as your savings accounts.
 
 
 
@@ -59,7 +59,7 @@ Picture your hot wallet as your current account and cold wallet as your savings 
 
 
 
-A wallet can generate an unlimited amount of private key and public address combinations. However, a wallet (and it's password) does not need to be generated for every pair.  
+A wallet can generate an unlimited amount of private key and public address combinations. However, a wallet (and its password) does not need to be generated for every pair.  
 Because the blockchain is transparent, make sure never to share a public address that has already been shared with a third party.
 
 It is important to generate new public addresses for every transaction; otherwise, the person you transact with will match the public address' balance with your identity.
@@ -79,17 +79,18 @@ Since the blockchain tracks all transactions, sharing used public addresses for 
 
 
 
-Setting up a wallet password is mandatory if you want to store your coins safely. The password should follow t:
+Setting up a wallet password is mandatory if you want to store your crypto safely. Be sure your password follows the below features:
 
 * **length**: minimum of 12 characters.
 * **unique**: never been used before.
 * **random**: no meaning and with all types of characters.
 
 A good idea for extra security is to use Multiple Factor Authentication, an additional layer of protection for your account. There are three different authentication factors:  _knowledge_, _possession_ and _inherence_. 
-Under the 2-FA framework, you have to present to 2 components of authentication to access your account.
-In most cases, a 2-FA encryption will work with a smartphone: you can access your wallet (or any encrypted account) only after entering your password (knowledge) successfully and insert a code generated from a mobile app.
+Under the 2-FA framework, you have to present two components of authentication to access your account.  
 
-WARNING SMS-based 2-FA is not considered secure.
+In most cases, a 2-FA encryption will work with a smartphone: you can access your wallet (or any encrypted account) only after entering your password (knowledge) successfully and insert a code generated from a mobile app (possession)
+
+WARNING SMS-based 2-FA is not considered safe, use certified applications.
 
 
 
@@ -104,8 +105,10 @@ WARNING SMS-based 2-FA is not considered secure.
 
 
 
-Never store all your wealth in one wallet – hot or cold. It's best to avoid storing all your money in an account.
-Similarly, you do not want to keep your backup and password next to your wallet.
+It's best to avoid storing all of your money in one bank account : the same applies with crypto and wallets (hot or cold).  
+Similarly, you do not want to keep your backup and password next to your wallet in case something happens.
+
+It's best to set up several crypto transaction management system like the below.
 
 
 {{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid" alt="wallet-like-bank-account" >}}
@@ -140,8 +143,8 @@ Similarly, you do not want to keep your backup and password next to your wallet.
     </div>
     <div class="col col-sm-6 col-md-8 text-left">
     <h2>Back-up</h2>
-      <p>In case your wallet gets deleted, corrupted, lost or mislaid, you will lose access to your to private keys. It means you'll lose access to all your coins stored in your public addresses! </p>
-      <p>Back up your wallet by making a copy of private key files in case something happens to your system and store it offline and somewhere safe.</p>
+      <p>In case your wallet gets deleted, corrupted, lost or mislaid, you will lose access to your private keys. It means you'll lose access to all of your crypto stored in your public addresses! </p>
+      <p>Back up your wallet by making a copy of your private keys in case something happens to your system. Store them offline and somewhere safe.</p>
     </div>
   </div>
 </div>
