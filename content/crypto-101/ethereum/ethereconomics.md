@@ -10,8 +10,7 @@ toc = true
 
 
 
-The Bitcoin network reaches consensus on its electronic payment system by leveraging miners’ computational power. Ethereum also gathers a similar network of computers to validate programs in a decentralised fashion – without the need for a middleman.
-
+The Bitcoin network reaches consensus on its electronic payment system by leveraging miners’ memory computing power. Ethereum also gathers a similar network of computers to validate programs in a decentralised fashion.
 
 
 
@@ -24,8 +23,8 @@ Developers and users pay transaction fees in Ether to run and operate decentrali
 
 It incentivises deployment of efficient DApps (less code means less file size means fewer fees) and creates an eco-system that rewards contributors. 
 
-Bottom line is: Bitcoin is nicknamed digital gold,
-Ether, on the other hand, is considered as “digital oil”.
+Bottom line is: Bitcoin is nicknamed **digital gold**,  
+Ether, on the other hand, is considered as **digital oil**.
 
 
 
@@ -35,12 +34,11 @@ Ether, on the other hand, is considered as “digital oil”.
 
 
 
-Ethereum miners secure the network and get rewarded with new Ether, a similar way that in Bitcoin mining.
-The consensus mechanism has been following Proof-of-Work;  Etherum has now shifted to a Proof-of-Stake, after the Metropolis hard fork.
+Similarly to Bitcoin miners, Ethereum miners secure the network and get rewarded with new Ether.
+The consensus mechanism has been following Proof-of-Work since inception relying on both CPU and memory computing power; however, Etherum has now shifted to a Proof-of-Stake based consensus, after the Metropolis hard fork.
 
-Rather than reaching consensus by mining or allocating computer horsepower to the network, Proof-of-Stake cryptocurrencies select the next block creator in a deterministic way: based on their wealth (stake in the currency). 
-There are no mining rewards in a Proof-of-Stake consensus: only transaction fees are here to incentivise miners.
-Mind that Ethereum is yet to deploy this methodology, it is announced to start by November 2017
+Rather than reaching consensus by mining or allocating computer horsepower to the network, Proof-of-Stake cryptocurrencies select the next block creator in a deterministic way: based on their wealth and how much they willing to stake (locked on a node).  
+Mind that Ethereum is yet to deploy this methodology: it is announced to start by November 2017.
 
 
 
@@ -50,19 +48,20 @@ Mind that Ethereum is yet to deploy this methodology, it is announced to start b
 
 
 
-Ether holds different functions than Bitcoin: its token economics are built to handle the Ethereum network and its aspirations. Rather than being capped at 21 million coins, Ether has no fixed supply limit and was introduced by of the first Initial Coin Offerings in fall 2014. Here’s how it was distributed
+Ether has different monetary functions than Bitcoin: its token economics are built to handle the Ethereum network and its aspirations.  
+Rather than being capped at 21 million units, Ether has no fixed supply limit and was introduced by one of the first Initial Coin Offerings during fall 2014. Here’s how it was distributed:
 
-*    60 million Ether to the investors during ICO
-*    12 million Ether (20% of the above) for the developers, founders and early backers
-*    5 Ether mined on each new confirmed block: every 16 seconds approximately
-*    2-3 Ether are sometimes rewarded to miners who generated a correct block that was not added to the chain.
+*    60 million Ether to the ICO investors.
+*    12 million Ether (20% of the above) for the developers, founders and early backers.
+*    5 Ether mined on each new confirmed block: every 16 seconds approximately.
+*    2-3 Ether are sometimes rewarded to miners who generate a correct block which was not added to the chain.
 
 
 In this framework, 18 million Ether are added to the token supply per annum. 
-If this rate of generation stays permanent, the inflation will reduce every year and newly issued Ether would replace any coins lost in the network (deleted wallets, incorrect address etc…). 
-However, Ethereum is switching to a Proof-of-Stake consensus: token supply fundamentals are expected to change but should not be _increased_, rather _decreased as per the founding team’s communication.
+If this rate of generation stays permanent, the inflation will reduce every year and newly issued Ether would replace any one lost on the network (deleted wallets, incorrect address etc…). 
+However, Ethereum is switching to a Proof-of-Stake consensus: token supply fundamentals are expected to change but should not be _increased_, rather _decreased_ as per the founding team’s communication.
 
-On a short-term basis, Ether are "diluted" as the injection of 19 million units per annum has a significant impact on the total supply. Comprehend this token fundamental before investing into Ethereum.
+On a short-term basis, Ether are "diluted" as the injection of 19 million units per annum has a significant impact on the total supply. Comprehend these token economic fundamentals before investing into Ethereum.
 
 
 
@@ -74,11 +73,13 @@ On a short-term basis, Ether are "diluted" as the injection of 19 million units 
 
 Just like Bitcoin, Ethereum provides a safe, fast and reliable transaction management system with a few different features. 
 
-Bitcoin blockchain holds a database of all transactions that occurred on the network whereas the Ethereum blockchain tracks the state of every account in a single block
+Similarly to Bitcoin, Ethereum blocks hold a database of all transactions that occurred after the previous block.
+
+Furthermore, the Ethereum blockchain issues a new block every 20-30 seconds, while Bitcoin and Litecoin blocks are generated every 10 and 2.5 minutes respectively.
 
 While Bitcoin has only one type of accounts (public addresses), Ethereum has two :
 
-- Externally Owned Accounts (EOA) - unlocked by private keys, similar than with Bitcoin
+- Externally Owned Accounts (EOA) - unlocked by private keys, similar than with Bitcoin.
 - Contract Accounts - designed by a smart contract and unlocked by a pre-defined EOA’s private key.
 
 The former is controlled by a human being - just like with Bitcoin - while the latter, also referred to as “smart contract”, is governed by code.
