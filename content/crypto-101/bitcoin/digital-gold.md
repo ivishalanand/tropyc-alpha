@@ -1,5 +1,5 @@
 +++
-title = "Digital gold"
+title = "Digital Gold"
 date = 2017-08-02T15:00:00+02:00
 description = "Learn the fundamentals of Bitcoin, the first cryptocurrency, why it is a game changer and how it is compared with fiat currencies."
 draft = false
@@ -14,8 +14,8 @@ toc = true
 
 > "Bitcoin is open-source money."
 
-You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency free that operates safely, independently and free from government control.  
-Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to central bank backed currencies.
+You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency that operates safely and independently from government authority.  
+Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to currencies controlled by central banks.
 
 To put it simply, Bitcoin is the first decentralised financial system that works.
 
@@ -28,12 +28,12 @@ To put it simply, Bitcoin is the first decentralised financial system that works
     <div class="col">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer-dollar" >}}
       <p class="font-weight-bold">Traditional economy </p>
-      <p class="small">monitored by a central team within a government</p>
+      <p class="small">Monitored by a central team within a government</p>
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/decentralised-eco.svg" class="img-fluid" alt="Decentralised-economy" >}}
       <p class="font-weight-bold">Crypto-economy</p>
-      <p class="small">decentralised and permission-less</p>
+      <p class="small">Open-source, decentralised and permissionless</p>
     </div>
   </div>
 </div>
@@ -49,7 +49,7 @@ To put it simply, Bitcoin is the first decentralised financial system that works
 
 * It has value because the law makes it legal tender.
 
-* Central bank can print fiat money endlessly and without any limit.
+* Central banks can print fiat money endlessly and without any limit.
 
 * Transferred from and to personal bank accounts, but managed by third parties (your bank).
 
@@ -57,7 +57,7 @@ To put it simply, Bitcoin is the first decentralised financial system that works
 
 * Low Privacy: payment companies, tax regulators and banks all have access to your financial life.
 
-Example  = USD, GBP, EUR, INR, CHINA
+Example  = USD, GBP, EUR, INR, CNY
 
 
 
@@ -69,13 +69,13 @@ Example  = USD, GBP, EUR, INR, CHINA
 * Independent from any central banks, no one "owns" the Bitcoin network.
  
 * Rate of emission is fixed, transparent and immutable. 
-<p>There will be 21 million Bitcoin, not more than that.</p>
+<p>There will be 21 million Bitcoins, not more than that.</p>
  
 * Users transact without the need of middle men or a third party. 
 
 * Transactions are secured by encrypted digital signature and made possible by cryptography and algorithms.
 
-* Perfect transparency: everyone has access to every transaction that occurred on the network,
+* Perfect transparency: everyone has access to every transaction that occurred on the network.
 
 * Flexible privacy: you can choose to store your wealth anonymously.
 
@@ -152,7 +152,7 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
   </div>
   <div class="row align-items-center">
     <div class="col">
-      There will be only 21 million bitcoin mined – and 99% of them will be available by 2031
+      There will be only 21 million Bitcoins mined – and 99% of them will be available by 2031.
     </div>
     <div class="col">
       {{< img src="crypto-101/charts/chart-btc-supply.png" class="img-fluid" alt="chart-btc-supply-emission" >}}
@@ -161,7 +161,7 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
 </div>
 
 
-Bitcoin offers an alternative to our financial system; it removes the concept of a middleman in a monetary transaction. 
+Bitcoin offers an alternative to our financial system: it removes the concept of a middleman in a monetary transaction. 
 It is the same way we were able to send messages via e-mail without the need for a third party postal service.
 You can now do the same ... but with money.
 
@@ -180,7 +180,7 @@ Let's review some of Bitcoin's core value propositions.
   <div class="row align-items-center">
     <div class="col  text-left">
       <h3>Speed</h3>
-      <p>Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.</p>
+      <p>Sending bitcoin to anyone as quick as you can send an e-mail, without the need of banks or transaction agents.</p>
     </div>
     <div class="col  text-center">
       {{< img src="crypto-101/icons/speed.svg" class="img-fluid" alt="rocket" >}}
@@ -212,7 +212,7 @@ Let's review some of Bitcoin's core value propositions.
   <div class="row align-items-center">
     <div class="col text-left">
     <h3>Safe</h3>
-     <p>Bitcoin are held digitally by its owner and no one else. Traditional bank accounts are vulnerable to currency inflation and a financial institution bankruptcy.</p>
+     <p>Only the ones having access to wallets own the Bitcoins stored in it, and no one else. On the other hand, funds stored in a traditional bank accounts are vulnerable to bank insolvency, freeze, seize and inflation.</p>
     </div>
     <div class="col  text-center">
       {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="vault" >}}
@@ -230,7 +230,7 @@ Let's review some of Bitcoin's core value propositions.
     </div>
     <div class="col text-left">
     <h3>Cheap</h3>
-      <p>There are no brokers or third party agents involved in the process, making the transactions fees considerably lower and more straightforward than in fiat.</p>
+      <p>There are no brokers or third party agents involved in the process, making the transaction fees considerably lower and more straightforward than in fiat.</p>
     </div>
   </div>
 </div>
@@ -253,21 +253,6 @@ Let's review some of Bitcoin's core value propositions.
 
 
 
-<div class="container my-3">
-  <div class="row align-items-center">
-    <div class="col text-center">
-      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
-    </div>
-    <div class="col text-left">
-    <h3>Private</h3>
-      <p>In Bitcoin, we have perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.</p>
-In other words, a wallet may not be clearly associated with a person's name.</p>
-    </div>
-  </div>
-</div>
-
-
-
 
 <div class="container my-3">
   <div class="row align-items-center">
@@ -286,13 +271,30 @@ In other words, a wallet may not be clearly associated with a person's name.</p>
 
 
 <div class="container my-3">
+  <div class="row align-items-center">
+    <div class="col text-center">
+      {{< img src="crypto-101/icons/lock.svg" class="img-fluid" alt="lock-chat-bubble" >}}
+    </div>
+    <div class="col text-left">
+    <h3>Private</h3>
+      <p>In Bitcoin, we have perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity.</p>
+In other words, a wallet may not be clearly associated with a person's name.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container my-3">
   <div class="row align-items-center text-center">
     <div class="col text-center">
       {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
     <div class="col text-left">
     <h3>Transparent</h3>
-      <p>Sending bitcoin to anyone as quick as you can send an e-mail, without the help of a bank or transaction agent.</p>
+      <p>The Bitcoin blockchain records every transaction on an open-source distributed ledger along with the funds stored in every public address. Everyone knows how many Bitcoin are kept in wallets and when an operation occurs.</p>
     </div>
   </div>
 </div>
