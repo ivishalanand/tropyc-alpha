@@ -8,7 +8,7 @@ toc = true
 +++
 
 
-<div class="container my-3">
+<div class="container my-4 mt-5">
   <div class="row text-center">
     <div class="col">
      {{< img src="crypto-101/icons/vault.svg" class="img-fluid" alt="vault" >}}
@@ -31,7 +31,7 @@ toc = true
 
 
 
-Bitcoins are stored electronically on digital wallets; it operates the same way than with cash purse, but digitally.
+Bitcoins are stored electronically in digital wallets, similarly to how we store cash in traditional wallets.  
 
 The act of "sending a bitcoin" requires 3 things :
 
@@ -41,17 +41,17 @@ The act of "sending a bitcoin" requires 3 things :
     <div class="col">
      {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
      <p class="font-weight-bold">Public address</p>
-     <p class="small">A string of 26-35 characters, that holds bitcoin. Amount is publicly available on the blockchain</p>
+     <p class="small">A string of 26-35 characters that holds Bitcoin. The amount of Bitcoins kept on any public address is available on the blockchain</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="key" >}}
      <p class="font-weight-bold">Private key</p>
-     <p class="small">A file that proves to the network that you are the owner of a public address's balance</p>
+     <p class="small">A string that proves to the network that you are the owner of a public address's balance</p>
     </div>
     <div class="col">
      {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
      <p class="font-weight-bold">Password</p>
-     <p class="small">A string of as much characters that gives you access to your wallet</p>
+     <p class="small">Optional. If you store your private keys in an encrypted key file in a wallet, it is a string of as many characters that gives access to private keys</p>
     </div>
   </div>
 </div>
@@ -73,9 +73,9 @@ The act of "sending a bitcoin" requires 3 things :
   <div class="row">
     <div class="col text-left">
       <h3>Public address</h3>
-      A public address stores Bitcoin and is used to send and receive funds. In other words, a public address serves as a cryptocurrency bank account.
-      All the transaction information between public addresses are available to everyone, and accessible online on a decentralised ledger called the blockchain.
-      Therefore, everyone knows how much Bitcoins a public address holds. Make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he/she’ll know how much you have!
+      <p>A public address stores Bitcoin and is used to send and receive funds. In other words, a public address serves as a cryptocurrency bank account.</p>
+      <p>All the transaction information between public addresses are available to everyone, and accessible online on a decentralised ledger called the blockchain.</p>
+      <p>Therefore, everyone knows how much Bitcoins a public address holds. Make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he/she’ll know how much you have!</p>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="mailbox" >}}
@@ -95,9 +95,9 @@ The act of "sending a bitcoin" requires 3 things :
     </div>
     <div class="col text-left">
       <h3>Private key</h3>
-      Each public address is associated with a private key that unlocks the funds held on it.  In this sense, only the owner of funds stored in a public address has access to the associated private key. 
-      When a transaction is issued, the network performs a mathematical algorithm to verify whether the pair is correct.  If a private key is made public, then the funds are compromised and unsafe - as anyone could issue a transaction.
-      You can generate unlimited public address and private key pairs.
+      <p>Each public address is associated with a private key that unlocks the funds held on it.  In this sense, only the owner of funds stored in a public address has access to the associated private key.</p>
+      <p>When a transaction is issued, the network performs a mathematical algorithm to verify whether the pair is correct.  If a private key is made public, then the funds are compromised and unsafe - as anyone could issue a transaction.</p>
+      <p>You can generate unlimited public address and private key pairs.</p>
     </div>
   </div>
 </div>
@@ -111,8 +111,10 @@ The act of "sending a bitcoin" requires 3 things :
   <div class="row">
     <div class="col text-left">
      <h3>Password</h3>
-      Write down your wallet's password and make sure you have a back-up in case you lose.
-      Losing your wallet password means losing your cryptocurrencies.
+      <p>Most wallets store private keys in a encrypted key file system that can be unlocked with a password of your choice. As such, you don't need a password to issue a transaction to the network. 
+      <p>Additionally, you may set up a 2-factor authentification on another device for an extra layer of protection. </p>
+      <p>Write down your wallet's password, keep it safe and make sure you have a back-up in case you lose it.</p>
+      <p>Forgetting your wallet's password means losing access to your private keys and therefore, your Bitcoins.</p>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="password-lock" >}}
@@ -131,12 +133,12 @@ The act of "sending a bitcoin" requires 3 things :
   </div>
   <div class="row text-center small">
     <div class="col">
-     <em>Both banks and their retail customers have access bank accounts.</em>
-     <em>Regulators can also step in and freeze/seize an account.</em>
+     <p>Both you and your bank have access to your account.</p>
+     <p>Regulators can also step in and freeze/seize funds.</p>
     </div> 
     <div class="col">
-      <em>A single individual can store a private key and access funds digitally.</em>
-      <em>No middle man and it is impossible to seize funds without a private keys</em>
+      <p>A single individual can store a private key and access funds digitally.</p>
+      <p>No need for an intermediary, and noone can seize funds without private keys</p>
     </div>
   </div>
 
@@ -147,7 +149,7 @@ The act of "sending a bitcoin" requires 3 things :
 
 
 
-Owning a Bitcoin has become easier by the day. 
+Owning Bitcoins has become easier by the day. 
 Now that you want to get hold of some bitcoin, here are several ways to purchase some.
 
 
@@ -176,7 +178,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
     </div>
     <div class="col text-left">
     <h3>ATM</h3>
-      Exchange cash with bitcoin ATMs. These kioskes are located in major cities and connect you directly to the Bitcoin exchange.
+      Purchase Bitcoin with new generation cryptocurrency ATMs. These kiosks are located in major urban hubs and let you buy Bitcoins without any Know Your Customer (KYC) verification.
     </div>
   </div>
 </div>
@@ -223,7 +225,7 @@ Now that you want to get hold of some bitcoin, here are several ways to purchase
 
 
 
-Today, most of the services and goods are available for purchase through bitcoins
+Today, you can buy anything you want with Bitcoins.
 
 
 
@@ -233,7 +235,8 @@ Today, most of the services and goods are available for purchase through bitcoin
   <div class="row align-items-center">
     <div class="col text-left">
     <h3>Merchants</h3>
-     An increasing number of merchants accept bitcoins as a form of payment, including some billion dollar revenue powerhouses. Amazon, Microsoft, Expedia to name a few.
+     <p>An increasing number of merchants accept bitcoins as a form of payment, including some billion dollar revenue powerhouses.</p> 
+     <p>Amazon, Microsoft, Expedia to name a few.</p>
     </div>
     <div class="col text-center">
        {{< img src="crypto-101/icons/brands1.svg" class="img-fluid" alt="amazon-microsoft-expedia-shopify" >}}
@@ -252,7 +255,8 @@ Today, most of the services and goods are available for purchase through bitcoin
     </div>
     <div class="col text-left">
     <h3>Gift cards</h3>
-     Gift cards that accepts Bitcoin such as eGifter or Gyft, cryptocurrency enthusiasts can now access an even larger pool of merchants (Starbucks, DunkinDonuts, Walmart, Gap). 
+     <p>You can purchase many gift cards with Bicoins, such as eGifter or Gyft.</p>
+     <p>With them, you can now access an even larger pool of merchants including Starbucks, DunkinDonuts, Walmart or Gap.</p>
     </div>
   </div>
 </div>
@@ -265,7 +269,8 @@ Today, most of the services and goods are available for purchase through bitcoin
   <div class="row align-items-center">
     <div class="col text-left">
     <h3>Marketplace</h3>
-    At first, bitcoin transactions thrived on gambling platforms and online marketplaces that enabled the distribution of illicit goods and services. These platforms still exist and you safely get delivered any type of product. Be sure to check your legislation before ordering anything.
+    <p>At first, Bitcoin transactions started off on illegal marketplaces and gambling platforms. Today, most of them are still up and running, meaning you can get delivered any illicit products, including narcotics or weapons.</p>
+    <p>Be sure to check your legislation before ordering anything.</p>
     </div>
     <div class="col text-center">
      {{< img src="crypto-101/icons/third-party.svg" class="img-fluid" alt="merchant-selling-from-kiosk" >}}
@@ -274,5 +279,4 @@ Today, most of the services and goods are available for purchase through bitcoin
 </div>
 
 
-Because Bitcoin has matured to a global market, more and more merchants are pushed to accept cryptocurrencies as a form of payment.
-It has utility.
+Because Bitcoin has matured to a global market, more and more merchants are encouraged to accept cryptocurrencies as a form of payment.
