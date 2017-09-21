@@ -7,11 +7,11 @@ bref = "Wallets, Chapter IV"
 toc = true
 +++
 
-Cold wallets protect your coins and tokens from online threats. In fact, your private keys are offline, locally stored in an “air-gapped” device. Because your assets are not connected to the internet, they are impossible to compromise digitally.
+Cold wallets protect your Bitcoin and tokens from online threats. In fact, your private keys are offline, locally stored in an “air-gapped” device. Because your assets are not connected to the internet, they are impossible to compromise _digitally_.
 
-This level of security is achieved only when private keys are generated and stored in an offline environment.
+This level of security is achieved only when private keys are generated **and** stored in an offline environment.
 
-Here all the different cold wallets
+Here all the different cold wallets:
 
 
 <div class="container">
@@ -34,13 +34,15 @@ Here all the different cold wallets
 
 
 
-## Branded wallets
-There are multiple secure and well-designed cold wallets to store your coins at an affordable price. 
+## Branded wallets 
+
+
+There are multiple secure and well-designed cold wallets to store your crypto at an affordable price. 
 They hold your cryptocurrency private keys in an offline environment and make your overall user experience convenient.
 
-Depending on the price range, products can provide a screened device, a software application and compatibility to various cryptocurrencies.
+Depending on the price range, products can provide a screened device, a software application and even store various cryptocurrencies.
 
-If you don't have the time or the desire to build your own cold wallet, you can check out our handpicked lists of branded wallets below.
+If you don't have the time or energy to build your own cold wallet, you can check out our handpicked lists of branded wallets below.
 
 <table class="table table-sm table-striped">
     <thead>
@@ -103,7 +105,7 @@ If you don't have the time or the desire to build your own cold wallet, you can 
 
 ## Do It Yourself
 
-Making your own cold wallet is not as complicated as it sounds. Do It Yourself cold wallets let you build a network of cold wallets at minimal costs. All you need is a pen drive and a computer and follow clinically a few steps. 
+Making your own cold wallet is not as complicated as it sounds. Do It Yourself cold wallets let you build a network of cold wallets at minimal costs. All you need is a pen drive, a computer and to follow clinically a few steps. 
 
 Go Premium: you'll get a handy guide and our team will be here 7/7 to support you.
 
@@ -113,7 +115,14 @@ Go Premium: you'll get a handy guide and our team will be here 7/7 to support yo
 
 Similarly, you can print your own cold wallet on paper. It holds all the necessary information to access cryptocurrencies on a sheet of paper: a public address and a private key.
 
+Create your Bitcoin or Litecoin address in 5 simple steps.
+
+* Go to Bitaddress.org or Liteaddress.org for Bitcoin and Litecoin respectively.
+* After creating some randomness (with BitAddress, not LiteAddress) you will have a public address and a private key.
+* Click on "paper wallet" on the top of the navigation bar.
+* Select the number of addresses you wish to create. Click on "generate" and "print".
+* Save it as a PDF or print directly in hard format.
+
+Congrats, you are now the proud owner of a paper wallet!  
+
 For obvious reasons, paper cold wallets are less durable than hardware cold wallets, so be sure to store them in a dry place.
-
-
-
