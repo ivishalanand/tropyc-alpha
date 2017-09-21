@@ -1,11 +1,11 @@
 .crypto-101 {
 	min-height: 1500px;
 	background: #ffffff;
-	background: -moz-linear-gradient(top, #ffffff 35%, theme-color("primary") 35%, theme-color("primary") 83%, #ffffff 83%);
-	background: -webkit-linear-gradient(top, #ffffff 35%,theme-color("primary") 35%,theme-color("primary") 83%,#ffffff 83%);
-	background: linear-gradient(to bottom, #ffffff 35%,theme-color("primary") 35%,theme-color("primary") 83%,#ffffff 83%);
+	background: -moz-linear-gradient(top, #ffffff 26%, theme-color("primary") 26%, theme-color("primary") 83%, #ffffff 83%);
+	background: -webkit-linear-gradient(top, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%,#ffffff 83%);
+	background: linear-gradient(to bottom, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%,#ffffff 83%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-	padding: 90px 0;
+	padding: 30px 0;
 
 	h1 {
 		margin-bottom: 120px;

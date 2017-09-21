@@ -2,8 +2,15 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
+<div class="container">
+  <div class="hero">
+    <h1>{{ .Title }}</h1>
+    <p>
+      {{ .Params.bref | markdownify }}
+    </p>
+  </div>
+</div>
 <div class="crypto-101">
-	<h1 class="text-center">{{ .Description }}</h1>
 	<div class="container">
 		<div class="row no-gutters">
 			{{ range first 3 .Sections }}
