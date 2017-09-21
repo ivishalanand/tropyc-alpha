@@ -17,15 +17,15 @@ Here all the different cold wallets
 <div class="container">
   <div class="row text-center">
     <div class="col">
-     {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="bag-of-money" >}}
+     {{< img src="crypto-101/icons/wallet-branded.svg" class="img-fluid" alt="wallet-branded" >}}
      <p class="font-weight-bold mt-2">Branded wallets</p>
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="certification-tick" >}}
+      {{< img src="crypto-101/icons/wallet-diy.svg" class="img-fluid" alt="wallet-diy" >}}
       <p class="font-weight-bold mt-2">Do it yourself</p>
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="planet-spinning" >}}
+      {{< img src="crypto-101/icons/wallet-paper.svg" class="img-fluid" alt="wallet-paper" >}}
       <p class="font-weight-bold mt-2">Paper wallets</p>
     </div>
   </div>
