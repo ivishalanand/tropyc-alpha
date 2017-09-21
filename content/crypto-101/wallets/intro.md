@@ -17,9 +17,9 @@ It is the single medium of interaction between the user and different cryptocurr
 
 In fact, digital wallets store _records of transactions_ between various public addresses. All that exists is the transaction history recorded on the blockchain.
 
-Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency wallet through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
+Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency account through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
 
-Technically speaking, no physical object or digital files “store” Bitcoin or any cryptocurrencies.
+Technically speaking, no physical object or digital file “stores” Bitcoin or any cryptocurrencies.
 
 * you cannot say “this computer or this file has bitcoins”.
 * but you can say "this computer or this file stores a private key that can give me access to Bitcoins."
@@ -36,7 +36,7 @@ Technically speaking, no physical object or digital files “store” Bitcoin or
       <p class="small">Password and 2 Factor Authentitification protect the access to a wallet</p>
     </div>
     <div class="col">
-      <p class="small">Wallet can generate several public and private key pairs. Each of these paris are unique</p>
+      <p class="small">Wallet can generate several public and private key pairs. Each of these pairs are unique</p>
     </div>
     <div class="col">
       <p class="small">Wallet sends the transaction to the network for confirmation</p>
@@ -49,7 +49,7 @@ Technically speaking, no physical object or digital files “store” Bitcoin or
 
 
 
-Now that we understand what wallets do and how they work, lets' review their categories 
+Now that we understand what wallets do and how they work, let's review their categories:
 
 There are three different types of wallets, all of which will give you a different level of control, security and user experience.
 
@@ -70,7 +70,7 @@ There are three different types of wallets, all of which will give you a differe
     <div class="col">
      {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
      <p class="font-weight-bold mt-2">Cold</p>
-     <p class="small">Keys stored on an offline environment</p>
+     <p class="small">Keys are stored on an offline environment</p>
      <p class="small">Safe from online threats, still vulnerable to physical attacks.</p>
     </div>
   </div>
@@ -82,11 +82,11 @@ There are three different types of wallets, all of which will give you a differe
 ### Online
 
 
-When storing your coins on an online wallet, such as an exchange, you do not own them anymore. As such, you hold an IOU from the third party.
+When storing your cryptocurrencies on an online wallet, such as an exchange, you do not own them per se. As such, you hold an IOU from the third party.
 
 An IOU refers to “I owe you”: in the cryptocurrency world, either you have full control over your private keys, or you trust a third party to store them.
 
-The decentralised blockchain is a technology breakthrough because it allows users to hold their private key without an intermediary.
+Bitcoin is a technology breakthrough because it allows users to hold wealth by restricting the access to their private keys, without the need of an intermediary.
 Trusting a third party in cryptocurrency is similar to the current centralised fiat economy.
 
 
@@ -99,9 +99,10 @@ Trusting a third party in cryptocurrency is similar to the current centralised f
 ### Hot
 
 
-Hot wallets owners have full ownership of their coins, without the necessity to trust any third parties with their crypto assets. The wealth is stored locally rather than on a middleman's system.
+Hot wallets owners have full ownership over their digital money, as they do not require to trust any third parties. As such, private keys are stored locally rather than on a middleman's system.
 
 However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers and viruses because they are connected to the internet.
+An attacker can still take hold of your private keys if you haven't secured them well on your device.
 
 
 
@@ -111,9 +112,9 @@ However, although hot wallets enjoy improved safety features, a hot wallet (desk
 
 Finally, cold wallets store cryptocurrencies and assets in an “offline” system also known as "air-gapped". They are never connected to the web making it impossible to compromise remotely if the system has been correctly setup.
 
-This level of security is possible only when private keys are generated and stored in an offline environment.
+This level of security is possible only when private keys are generated **and** stored in an offline environment.
 
-You can either make your DIY cold wallet or follow our hard wallet product reviews here.
+You can either make your DIY cold wallet or follow our hard wallet product reviews **here.** (hyperlink)
 
 </table>
 <table class="table table-sm table-striped">
