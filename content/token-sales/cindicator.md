@@ -51,7 +51,7 @@ features = """
   [deal.headers]
     cryptoHeader = "USD"
   [deal.rows]
-    [deal.rows.pretokensale]
+    [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "75%"
       supply = "1,125,000,000"
