@@ -97,7 +97,7 @@ For this matter, you can regard US Dollars as the world currency, or bitcoin, or
 
 The above illustrates the state of the economy of World Bank Group participants (170+ countries) since 2013. In USD, the economy is somewhat stable, however, in Bitcoin, the economy is collapsing.
 
-Cryptocurrencies are still infamous globally compared to established government-backed currencies: they are not a good unit of account to value our economy because prices goods and services in Bitcoin are unstable.
+Cryptocurrencies are still infamous globally compared to established government-backed currencies: they are not a good unit of account to value our economy because prices of goods and services in Bitcoin are unstable.
 
 However, it does not mean cryptocurrencies cannot fulfil this role in the future; it has all the required features to do so.
 
