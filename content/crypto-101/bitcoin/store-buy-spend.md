@@ -85,7 +85,7 @@ The act of "sending a bitcoin" requires 3 things :
   <div class="row align-items-center">
     <div class="col text-left">
      	<h3>Password</h3>
-      <p>Most wallets protect your private keys by encryption with a passphrase. In order to unlock the wallet and get access to private keys, you need to provide a password. Paper wallets are an exception, as they are to put it simple a sheet of paper with both a private key and public address. As such, technically speaking you do not need a password to issue a Bitcoin transaction but rather to unlock the access to private keys stored in a wallet.
+      <p>Most wallets protect your private keys by encryption with a passphrase. In order to unlock the wallet and get access to private keys, you need to provide a password. Paper wallets are an exception, as they are to put it simply just a sheet of paper with both a private key and a public address. Technically speaking you do not need a password to issue a Bitcoin transaction but rather to unlock the access to private keys stored in a wallet.
       <p>Write down your private key / passphrase, keep it safe and make sure you have a back-up in case you lose it.</p>
       <p>Without backup, forgetting your wallet's password means losing access to your private keys and therefore your Bitcoins.</p>
       <p>In addition to passwords, you may set up 2-Factor Authentication on another device if you wish an extra layer of protection. </p>
