@@ -104,6 +104,6 @@ Cryptocurrencies offer a tangible alternative to fiat and the banking system :
 * There is currently no use-case of Reserve Fractional Banking - this does not mean it will not emerge in the upcoming years.
 
 
-Now that you better understand how the banking world works, maybe it's time to invest in cryptocurrencies? 
+Now that you better understand how the banking world works, maybe it's time to invest in cryptocurrencies?   
 Go Premium, we'll be here for you 7/7.
 
