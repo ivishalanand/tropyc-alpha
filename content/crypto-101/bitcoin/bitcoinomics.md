@@ -97,7 +97,7 @@ For this matter, you can regard US Dollars as the world currency, or bitcoin, or
 
 The above illustrates the state of the economy of World Bank Group participants (170+ countries) since 2013. In USD, the economy is somewhat stable, however, in Bitcoin, the economy is collapsing.
 
-Cryptocurrencies are still infamous globally compared to established government-backed currencies: they are not a good unit of account to value our economy because prices goods and services in Bitcoin are unstable.
+Cryptocurrencies are still infamous globally compared to established government-backed currencies: they are not a good unit of account to value our economy because prices of goods and services in Bitcoin are unstable.
 
 However, it does not mean cryptocurrencies cannot fulfil this role in the future; it has all the required features to do so.
 
@@ -107,10 +107,10 @@ It is important to note that in the cryptocurrency world, Bitcoin IS the unit of
 
 The last and most important feature of money is the ability to transfer value from one peer to another. Bitcoin is a perfect medium of exchange thanks to its core features we reviewed in Chapter I.
 Bitcoin's fast, safe and low-cost transactions triggered the exponential demand for cryptocurrencies and made Bitcoin what it is today.  
-There is no doubt that today, digital currencies are outperforming conventional banking services in cross-border and high amount settlements.  
+There is no doubt that digital currencies are outperforming conventional banking services in cross-border and high amount settlements.  
 As for domestic and low ticket transactions, debit and credit card as well as mobile money are all faster and cheaper for consumers.
 
-At first, Bitcoin as a medium of exchange started on the dark web. Its primary use was for settling payments on illegal marketplaces to order illicit goods. Indeed, Bitcoin's ability to dissociate someone's identity with financial transactions made it the perfect "drug money".  
+At first, Bitcoin as a medium of exchange started on the dark web. Its primary use was for settling payments on illegal marketplaces to order illicit goods. Bitcoin's ability to dissociate someone's identity with financial transactions made it the perfect "drug money".  
 Today, many well-reputable merchants have integrated Bitcoin as a form of payment.
 
 {{< img src="crypto-101/infographics/info-btc4-1.png" class="img-fluid" alt="Sending money overseas BTC vs USD" >}}
@@ -140,7 +140,7 @@ Today, many well-reputable merchants have integrated Bitcoin as a form of paymen
 
 #### Fiat 
 
-Exchanges are opened five days per week but closed on weekends and evenings. It is possible to trade throughout the day, but investors and speculators have to switch markets.
+Exchanges are opened five days per week but close on weekends and evenings. It is possible to trade throughout the day, but investors and speculators have to switch markets.
 
 Bankers typically alternate between America, Europe and Asia to operate continuously.
 
