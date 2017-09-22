@@ -60,7 +60,7 @@ As such, mining Bitcoin and cryptocurrencies is a resource-draining activity tha
     <div class="col">
        {{< img src="crypto-101/icons/hardware.svg" class="img-fluid" alt="Servers" >}}
        <p class="font-weight-bold">Hardware</p>
-       <p class="small">Miners allocate their computational power to the network.</p>
+       <p class="small">Miners allocate their computing power to the network.</p>
        <p class="small">The more powerful the installation, the better the performance.</p>
     </div>
     <div class="col">
@@ -135,7 +135,7 @@ Once a new block is mined, it is added to an immutable public distributed ledger
 
 ## Consensus
 
-A transaction does not exist until recorded in a block. To keep the network safe and secure, miners have to reach a consensus regarding transaction verification.
+A transaction does not exist until recorded in a block. To keep the network safe and secure, miners have to reach a consensus before accepting a transaction.
 
 <div class="container my-4 text-center">
   <div class="row">
@@ -257,7 +257,7 @@ This ensures:
   </div>
 </div>
 
-Miners have to resolve a mathematical problem before getting rewarded by the network. If it takes more resources to solve a problem than to verify it, this is called Proof-of-Work.  
+Miners have to resolve a mathematical problem before getting rewarded by the network. If it takes more resources to solve a problem than to verify it, the system can be a Proof-of-Work economic measure.
 Because the number of miners plugged on the Bitcoin network varies, the mining difficulty adjusts itself to the network.
 
 Every 2016 blocks, the mining difficulty changes so that the previous 2016 blocks mined would be mined in exactly two weeks from then. On average, 2016 blocks in two weeks represents one block every 10 minutes.
@@ -265,6 +265,6 @@ Every 2016 blocks, the mining difficulty changes so that the previous 2016 block
 1. If more miners join the network, then the time to mine one single block reduces.
 2. If blocks are getting mined faster, then the mining difficulty will have to increase.
 3. When mining difficulty is increased, then miners need more time to solve the Proof-Of-Work problem.
-4. The time to mine one single block increases.
+4. Then the time to mine one single block increases.
 
 The Bitcoin network automatically adjusts its difficulty in order to keep mining one block every 10 minutes.

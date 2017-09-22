@@ -44,7 +44,7 @@ The act of "sending a bitcoin" requires 3 things :
     <div class="col">
      	{{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="Password lock" >}}
      	<p class="font-weight-bold">Password</p>
-     	<p class="small">Optional. If you store your private keys in a wallet that has encryption, you must provide your password (a string of characters) to unlock your wallet</p>
+     	<p class="small">Optional. If you store your private keys in a wallet that is encrypted, in order to unlock it, you need to input a predefined password (a string of characters)</p>
     </div>
   </div>
 </div>
@@ -75,7 +75,7 @@ The act of "sending a bitcoin" requires 3 things :
     <div class="col text-left">
       <h3>Private key</h3>
       <p>Each public address is associated with a private key that unlocks the funds held on it.  In this sense, only the owner of funds stored in a public address has access to the associated private key.</p>
-      <p>When a transaction is issued, the network performs a mathematical algorithm to verify whether the pair is correct. If a private key is made public then the funds are compromised and unsafe - as anyone could issue a transaction.</p>
+      <p>When a transaction is issued, the network performs a mathematical algorithm to verify whether the pair is correct. If a private key is made public then the funds are compromised - as anyone could issue a transaction.</p>
       <p>You can generate unlimited public address and private key pairs.</p>
     </div>
   </div>
@@ -85,10 +85,10 @@ The act of "sending a bitcoin" requires 3 things :
   <div class="row align-items-center">
     <div class="col text-left">
      	<h3>Password</h3>
-      <p>Most wallets while storing your private keys, allow to potect them by encryption meaning that to unlock the wallet you must provide your password. An exception is the paper wallet which is a document where is printed the public and private keys that make up the wallet and usually a QR code to scan. The sensitive details are often folded up and securely taped shut to stay hidden. As such, you don't need a password to issue a transaction to the network but to unlock your wallet containing the private key.
-      <p>Additionally, you may set up 2-Factor Authentication on another device for an extra layer of protection. </p>
+      <p>Most wallets protect your private keys by encryption with a passphrase. In order to unlock the wallet and get access to private keys, you need to provide a password. Paper wallets are an exception, as they are to put it simply just a sheet of paper with both a private key and a public address. Technically speaking you do not need a password to issue a Bitcoin transaction but rather to unlock the access to private keys stored in a wallet.
       <p>Write down your private key / passphrase, keep it safe and make sure you have a back-up in case you lose it.</p>
       <p>Without backup, forgetting your wallet's password means losing access to your private keys and therefore your Bitcoins.</p>
+      <p>In addition to passwords, you may set up 2-Factor Authentication on another device if you wish an extra layer of protection. </p>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="Password lock" >}}

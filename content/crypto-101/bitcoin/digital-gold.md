@@ -109,7 +109,7 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
       {{< img src="crypto-101/icons/bitcoin-satoshi.png" class="img-fluid" alt="Bitcoin includes a lot of satoshis" >}}
     </div>
     <div class="col">
-      One bitcoin can be divided to the 8th divisible pace.
+      One bitcoin is divisible to the 8th pace.
       This means you can split a Bitcoin into 100,000,000 units, aka Satoshi.
     </div>
   </div>

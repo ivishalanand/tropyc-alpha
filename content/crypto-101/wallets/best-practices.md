@@ -114,7 +114,7 @@ It's best to set up several crypto transaction management systems like the below
     <div class="col col-sm-6 col-md-8 text-left">
     <h2>Multisignature</h2>
      <p>Multi-sig addresses give the ability to share ownership of a Bitcoin address between several users by having up to 15 associated private keys.</p>
-     <p>In order to use coins out of the wallet, the transactions require signature from multiple key holders, sometimes all of them.</p>
+     <p>In order to send coins out of the wallet, the transactions require signature from multiple private key holders, depending on how it has been set up.</p>
      <p>This feature can add an extra layer of protection if you want to share the wallet ownership with other parties. Ideal for a family or a business account.</p>
     </div>
     <div class="col col-sm-6 col-md-4 text-center">

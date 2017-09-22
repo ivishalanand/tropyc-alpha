@@ -77,10 +77,10 @@ Always verify the public address before sending a transaction; otherwise, your B
 ### Fiat economy
 
 Card issuers, payment gateways, insurance and merchants are very open to refunding a transaction if something adverse happened. 
-It is not only about solving discrepancies but also part of improving the customer experience.  
+It is not only about solving discrepancies but also part of improving customer experience.  
 The fiat economy offers several layers of protection against scams, fraud and mistakes.
 
-That being said, wiring cash to an incorrect bank account might result in a loss of money, and physical cash is always at the mercy of fraud or physical attacks.
+That being said, wiring cash to an incorrect bank account might result in a loss of money, and physical cash is always at the mercy of physical attacks.
 
 ### Crypto
 
@@ -109,16 +109,16 @@ Be careful!
 
 Although cash remains the most private way to transact, it is only suitable for lower amounts. 
 
-Electronic payment on the other side can manage higher amounts but record the identity of all the stakeholders engaged in the transaction. This leaves a trace that can be audited by financial institutions and governments.
+On the other hand, electronic payments can handle higher amounts but record the identity of all the stakeholders engaged in the transaction. This leaves a trace that can be audited by financial institutions and governments.
 Furthermore, electronic payment systems are vulnerable to hacks and thefts.
 
 ### Crypto
 
-The Bitcoin blockchain has imperfect knowledge of a user's identity: public addresses are not easily linked back to an individual's identity.
+The Bitcoin blockchain has imperfect knowledge of a user's identity, meaning public addresses are not easily linked back to an individual's identity.
 
-Users have the flexibility to detach their financial behaviour from their identity if they want to protect their privacy.
+Users have the flexibility to detach their financial behaviour from their identity if they want to stay private.
 
-Centralised tools, such as tumbler and mixers, can increase the difficulty of tracing back Bitcoins to an individual while other cryptocurrencies have an emphasis on web privacy and anonymity.
+Centralised tools, such as tumbler and mixers, can increase the difficulty of tracing back Bitcoins to an individual. Moreover, privacy-focused cryptocurrencies have recently emerged and can help users achieve full anonymity, check out our review [here] (/news/privacy-focused-tokens “Privacy Focused Tokens”)
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -134,7 +134,7 @@ Centralised tools, such as tumbler and mixers, can increase the difficulty of tr
 
 ### Fiat
 
-Only few stakeholders have access to the transaction and bank settlement history. Although account audit occurs on a yearly basis, there is no live feed available for the public to scrutinise.
+Only few stakeholders have access to transaction and bank settlement history. Although account audit occurs on a yearly basis, there is no live feed available for the public to scrutinise.
 
 The fiat economy is closed-source, only regulators and financial institutions have access to some extent to bank accounts and their transactions.
 
@@ -217,13 +217,13 @@ However, new cryptocurrencies and blockchain startups have been very innovative 
 
 ### Fiat
 
-The current payment technology, SWIFT, can take up to 7 days to execute a payment and incurs massive costs in some scenarios. Also banks often charge (hidden) fees and commissions on the conversion rate.
+The current payment technology, SWIFT, can take up to 7 days to execute a payment and incurs massive costs in some scenarios. Also, banks often charge (hidden) fees and commissions on the conversion rate.
 
-When an international transaction occurs, money could be missing on both the sender and recipient bank accounts for several days. This is due to interbank settlement process, where the money has to be wired to several banks before arrival.
+When an international transaction occurs, money could be missing on both the sender and recipient bank accounts for several days. This is due to interbank settlement processes, where the money has to be wired to several banks before arrival.
 
 ### Crypto
 
-Cross-border payments are perfect for the Bitcoin network. You can send wealth overseas at a minimal cost and very quickly.
+The Bitcoin network is perfect for cross border transactions and settlements. You can transfer value overseas at a minimal cost and very quickly.
 
 Speed = 10 min
 
@@ -243,7 +243,7 @@ Fees = would not go above 10 USD.
 
 ### Fiat
 
-Fiat currencies are considered a legal tender, meaning they are legally recognised by a public institution to settle financial obligations between parties.
+Fiat currencies are considered legal tender, meaning they are legally recognised by public institutions to settle financial obligations between parties.
 
 There are rules to follow when handling fiat money: trespassing them can lead to legal recourse.
 
@@ -253,10 +253,10 @@ There are rules to follow when handling fiat money: trespassing them can lead to
 
 ### Crypto
 
-Depending on the country, Bitcoin has different legal status. While some countries like Bangladesh or Bolivia banned the use of Bitcoin, Japan decided in 2017 to declare it as legal tender.
+Depending on the country, Bitcoin has different legal statuses. While some countries like Bangladesh or Bolivia banned the use of Bitcoin, Japan decided in 2017 to declare it as legal tender.
 
 Bitcoin has historically been assimilated to online drug trafficking and money laundering activities because of its privacy features and ease of settling cross-border payments. 
 
-Still, most of the countries have no solid regulatory and legal framework put in place for digital currencies. By doing so, they are tolerating its drawbacks regarding money laundering issues with the risk of hampering innovation.
+Still, most of the countries have no solid legal framework put in place for digital currencies. The lack of regulation is somewhat beneficial as it does not hamper any innovation in the industry. However, some money laundering activities and illegal transactions might be occurring on the network of well established cryptocurrencies.
 
 The same way the Internet was at first unregulated, cryptocurrencies enjoy a grey zone legal status in most countries.
