@@ -8,7 +8,7 @@ toc = true
 +++
 
 
-Bitcoin and cryptocurrencies follow a decentralised economic model: unlike the process of printing money, Bitcoin issuance rate is transparent, immutable and fair.
+Bitcoin and cryptocurrencies follow a decentralised economic model: unlike the process of printing money, Bitcoins' issuance rate is transparent, immutable and fair.
 
 <div class="container my-4">
   <div class="row text-center">
@@ -32,13 +32,13 @@ Every ten minutes, the blockchain records the number of new Bitcoins created and
 </div>
 
 
-Miners earn their return on investment on transactions fees and new Bitcoins added to the total supply. As the mining incentivisation stays constant, transaction fees increase over time while block rewards inversely correlated.  
+Miners earn their return on investment both on transactions fees and new Bitcoins added to the total supply. As the mining incentivisation stays constant, transaction fees increase over time while block rewards are inversely correlated.  
 
 The rate of mining Bitcoin is predictable and known to everyone on the network.  
 
-* Externalities cannot vary the issuance of bitcoin
-* Bitcoins are becoming more and more scarce
-* Its monetary system is not inflationist like in fiat, but dis-inflationist
+* Externalities cannot vary the issuance of bitcoin.
+* Bitcoins are becoming more and more scarce.
+* Its monetary system is not inflationist like in fiat, but dis-inflationist.
 
 
 
@@ -109,7 +109,7 @@ Precious metals, such as gold, have been historically efficient stores of wealth
 Nicknamed the “digital gold” by Nathaniel Popper, Bitcoin holds similar characteristics, making it an eligible candidate for a new kind of store of value.
 
 Unless a considerable share of the population perceives Bitcoin as an efficient store of wealth (just like gold), defining it as _efficient_ is debatable and controversial.  
-Bitcoin's prices have sorned since its existence: assessing its efficiency should always be relative to another class of assets.
+Bitcoin's prices have soared since its existence, therefore assessing its efficiency should always be relative to another class of assets.
 
 Amid unstable economy, fast-paced globalisation and new technology breakthroughs, no one can point an item and declare with high certainty: “This is and always will be a great store of wealth” - the same applies to Bitcoin.
 
@@ -129,7 +129,7 @@ For this matter, you can regard US Dollars as the world currency, or bitcoin, or
 The above illustrates the state of the economy of World Bank Group participants (170+ countries) since 2013. In USD, the economy is somewhat stable, however, in Bitcoin, the economy is collapsing.
 
 
-Cryptocurrencies are still infamous globally compared to established government-backed currencies: they are not a good unit of account to value our economy.  
+Cryptocurrencies are still infamous globally compared to established government-backed currencies: they are not a good unit of account to value our economy because prices goods and services in Bitcoin are unstable.
 
 However, it does not mean cryptocurrencies cannot fulfil this role in the future; it has all the required features to do so.
 
@@ -189,9 +189,9 @@ Today, many well-reputable merchants have integrated Bitcoin as a form of paymen
 #### Fiat 
 
 
-Exchanges open five days per week but shut down on weekend and evening times. It is possible to trade throughout the day, but investors and speculators have to switch markets.
+Exchanges are opened five days per week but shut down on weekends and evenings. It is possible to trade throughout the day, but investors and speculators have to switch markets.
 
-Bankers typically switch between America, Europe and Asia to operate continuously.
+Bankers typically alternate between America, Europe and Asia to operate continuously.
 
 
 
@@ -226,8 +226,8 @@ Cryptocurrency markets are open 24/7 non-stop on online exchanges: you can trade
 
 
 
-Bitcoin is the pioneer in digital money and is, therefore, witnessing tremendous growth. Thanks to its flexibility on privacy, peer-to-peer transactions, scarcity and hedge against the fiat economy, Bitcoin offers an attractive investment opportunity and fulfils to some extent the functions of money.
+Bitcoin has pioneered digital money and is therefore witnessing tremendous growth. Thanks to its flexibility towards privacy, its peer-to-peer transactions, supply scarcity and hedging opportunity against the fiat economy, Bitcoin offers an attractive investment opportunity and fulfils to some extent the functions of money.
 
-Prices are not stable and very volatile, compared to traditional currencies. It is not uncommon to witness a 50% price variation in a couple of weeks. A similar pattern in fiat currencies would shake up the global economy.
+Prices are not stable and very volatile compared to traditional currencies: it is not uncommon to witness a 50% price variation in a couple of weeks. A similar pattern in fiat currencies would shake up the global economy.
 
 At first, the daily volume of exchange trades from fiat to cryptocurrency were ridicule, making cryptocurrencies illiquid. But Bitcoin has established itself as the leading cryptocurrency: it is now very liquid, however, the same cannot be said for other cryptocurrencies.
