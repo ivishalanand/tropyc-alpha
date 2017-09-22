@@ -105,13 +105,13 @@ The Bitcoin blockchain is a series of blocks that holds transaction data of appr
 
 Each block records the information of multiple transactions including:
 
-* the time
-* transaction ids
-* the sender's public address
-* the recipient's public address
-* the amount
-* the mining reward
-* a unique id code called hash
+* The time
+* Transaction ids
+* The sender's public address
+* The recipient's public address
+* The amount
+* The mining reward
+* A unique id code called hash
 
 <p class="font-weight-bold text-center mt-4">This offers two tangible benefits to blockchain technology compared to a centralised dataset:</p>
 

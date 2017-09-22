@@ -7,33 +7,25 @@ bref = "Wallets, Chapter I"
 toc = true
 +++
 
-
 ## Definition
-
-
 
 Cryptocurrency wallets let you receive, spend and monitor your assets securely on a software program by interacting with the blockchain. 
 It is the single medium of interaction between the user and different cryptocurrency blockchains.
 
 In fact, digital wallets store _records of transactions_ between various public addresses. All that exists is the transaction history recorded on the blockchain.
 
-Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency account through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) with its unique private key. After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
+Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency account through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) and the associated unique private key. After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
 
 Technically speaking, no physical object or digital file “stores” Bitcoin or any cryptocurrencies.
 
-* you cannot say “this computer or this file has bitcoins”.
-* but you can say "this computer or this file stores a private key that can give me access to Bitcoins."
-
+* You cannot say “this computer or this file has bitcoins”.
+* But you can say "this computer or this file stores a private key that gives me access to Bitcoins."
 
 <div class="container my-4">
-  <div class="row">
+  {{< img src="crypto-101/infographics/info-wal1-1.png" class="img-fluid" alt="From wallet to blockchain" >}}
+  <div class="row text-center">
     <div class="col">
-     {{< img src="crypto-101/infographics/info-wal1-1.png" class="img-fluid" alt="from-wallet-to-blockchain" >}}
-    </div>
-  </div>
-   <div class="row text-center">
-    <div class="col">
-      <p class="small">Password and 2 Factor Authentitification protect the access to a wallet</p>
+      <p class="small">Password and 2 Factor Authentication protect the access to a wallet</p>
     </div>
     <div class="col">
       <p class="small">Wallet can generate several public and private key pairs. Each of these pairs are unique</p>
@@ -41,13 +33,10 @@ Technically speaking, no physical object or digital file “stores” Bitcoin or
     <div class="col">
       <p class="small">Wallet sends the transaction to the network for confirmation</p>
     </div>
+  </div>
 </div>
 
-
-
 ## Types of wallets
-
-
 
 Now that we understand what wallets do and how they work, let's review their categories:
 
@@ -56,31 +45,27 @@ There are three different types of wallets, all of which will give you a differe
 <div class="container my-4 align-items-center">
   <div class="row text-center">
     <div class="col">
-     {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="wallet-online" >}}
-     <p class="font-weight-bold mt-2">Online</p>
-     <p class="small">Third party holds private keys</p>
-     <p class="small">You hold a promise of payment when requested, or IOU</p>
+      {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="Online wallet" >}}
+      <p class="font-weight-bold mt-2">Online</p>
+      <p class="small">Third party holds private keys</p>
+      <p class="small">You hold a promise of payment when requested, or IOU</p>
     </div>
     <div class="col">
-     {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="wallet-hot" >}}
-     <p class="font-weight-bold mt-2">Hot</p>
-     <p class="small">Private keys are stored locally.</p>
-     <p class="small">You're in control, but vulnerable to physical and online attacks</p>
+      {{< img src="crypto-101/icons/wallet-hot.svg" class="img-fluid" alt="Hot wallet" >}}
+      <p class="font-weight-bold mt-2">Hot</p>
+      <p class="small">Private keys are stored locally.</p>
+      <p class="small">You're in control, but vulnerable to physical and online attacks</p>
     </div>
     <div class="col">
-     {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="wallet-cold" >}}
-     <p class="font-weight-bold mt-2">Cold</p>
-     <p class="small">Keys are stored on an offline environment</p>
-     <p class="small">Safe from online threats, still vulnerable to physical attacks.</p>
+      {{< img src="crypto-101/icons/wallet-cold.svg" class="img-fluid" alt="Cold wallet" >}}
+      <p class="font-weight-bold mt-2">Cold</p>
+      <p class="small">Keys are stored in an offline environment</p>
+      <p class="small">Safe from online threats, still vulnerable to physical attacks.</p>
     </div>
   </div>
 </div>
 
-
-
-
 ### Online
-
 
 When storing your cryptocurrencies on an online wallet, such as an exchange, you do not own them per se. As such, you hold an IOU from the third party.
 
@@ -89,61 +74,50 @@ An IOU refers to “I owe you”: in the cryptocurrency world, either you have f
 Bitcoin is a technology breakthrough because it allows users to hold wealth by restricting the access to their private keys, without the need of an intermediary.
 Trusting a third party in cryptocurrency is similar to the current centralised fiat economy.
 
-
-<p> **WARNING!** <em> You do not own crypto-assets stored on exchanges and online wallets,</p>
-<p>you only own a **promise** that a third party will give you back your funds – nothing less, nothing more.</em></p>
-
-
-
+**WARNING! You do not own crypto-assets stored on exchanges and online wallets, you only own a promise that a third party will give you back your funds – nothing less, nothing more.**
 
 ### Hot
 
-
-Hot wallets owners have full ownership over their digital money, as they do not require to trust any third parties. As such, private keys are stored locally rather than on a middleman's system.
+Hot wallet owners have full ownership over their digital money, as they do not require to trust any third parties. As such, private keys are stored locally rather than on a middleman's system.
 
 However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers and viruses because they are connected to the internet.
 An attacker can still take hold of your private keys if you haven't secured them well on your device.
 
-
-
-
 ### Cold
-
 
 Finally, cold wallets store cryptocurrencies and assets in an “offline” system also known as "air-gapped". They are never connected to the web making it impossible to compromise remotely if the system has been correctly setup.
 
 This level of security is possible only when private keys are generated **and** stored in an offline environment.
 
-You can either make your DIY cold wallet or follow our hard wallet product reviews **here.** (hyperlink)
+You can either make your DIY cold wallet or follow our hard wallet product reviews [here](../cold-wallets "Cold Wallets").
 
-</table>
-<table class="table table-sm table-striped">
-    <thead>
-        <tr class="text-center font-weight-bold">
-            <td> </td>
-            <td>I OWE U</td>
-            <td>HOT</td>
-            <td>COLD</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="text-center">
-            <td>Use</td>
-            <td>Cash wallet</td>
-            <td>Current account</td>
-            <td>Saving account</td>
-        </tr>
-        <tr class="text-center">
-            <td>Risk</td>
-            <td>Centralisation, hack, physical attack</td>
-            <td>Hack and physical attack</td>
-            <td>Physical attack</td>
-        </tr class="text-center">
-        <tr class="text-center">
-            <td>Safety</td>
-            <td>- - -</td>
-            <td>+</td>
-            <td>+ + +</td>
-        </tr>
-    </tbody>
+<table class="table table-sm table-striped my-4">
+  <thead>
+    <tr class="text-center font-weight-bold">
+      <td> </td>
+      <td>I OWE U</td>
+      <td>HOT</td>
+      <td>COLD</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="text-center">
+      <td>Use</td>
+      <td>Cash wallet</td>
+      <td>Current account</td>
+      <td>Saving account</td>
+    </tr>
+    <tr class="text-center">
+      <td>Risk</td>
+      <td>Centralisation, hack, physical attack</td>
+      <td>Hack and physical attack</td>
+      <td>Physical attack</td>
+    </tr>
+    <tr class="text-center">
+      <td>Safety</td>
+      <td>- - -</td>
+      <td>+</td>
+      <td>+ + +</td>
+    </tr>
+  </tbody>
 </table>
