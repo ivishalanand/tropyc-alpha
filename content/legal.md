@@ -56,7 +56,7 @@ We shall not be liable to you or to any third-party for any modification, price 
 
 Tropyc does not give any investment advice, all of our consultation, insights and research should only be considered as educational content.
 
-Tropyc premium is available exclusively online through the website. Our product offers 7/7 chat through a third party instant messaging application. We reserve the right at any time to modify the platform where communication occurs without notice and are not liable for any discrepancies occurring on the messaging application.
+Tropyc premium is available exclusively online through the website. Our product offers 7/7 chat through third party instant messaging applications. We reserve the right at any time to modify the platform where communication occurs without notice and are not liable for any discrepancies occurring on the messaging application.
 
 Having access to a cryptocurrency analyst throughout the week does not entitle you to spam our teams  - we reserve the right not to answer every of your queries if Tropyc considers them as inappropriate, illegal or repetitive. 
 
@@ -64,8 +64,9 @@ Having access to a cryptocurrency analyst throughout the week does not entitle y
 
 Every Tropyc premium account is limited to one single individual, we reserve the right to cancel a subscription if we come to notice that one subscription is being used by more than one individual.
 
+We reserve the right but are not obligated, to limit the sales of our products or services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis.  
 
-We reserve the right but are not obligated, to limit the sales of our products or Services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or services that we offer. All descriptions of products or product pricing are subject to change at any time without notice, at the sole discretion of us. We reserve the right to discontinue any product at any time. Any offer for any product or service made on this site is void where prohibited.
+All descriptions of products or product pricing are subject to change at any time without notice, at the sole discretion of us. We reserve the right to discontinue any product at any time. Any offer for any product or service made on this site is void where prohibited.
 
 We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.
 
@@ -119,7 +120,18 @@ We undertake no obligation to update, amend or clarify information in the Servic
 
 ## SECTION 12 - PROHIBITED USES
 
-You are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.
+You are prohibited from using the site or its content:  
+(a) for any unlawful purpose;  
+(b) to solicit others to perform or participate in any unlawful acts;  
+(c) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances;  
+(d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others;  
+(e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability;  
+(f) to submit false or misleading information;  
+(g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet;  
+(h) to collect or track the personal information of others;  
+(i) to spam, phish, pharm, pretext, spider, crawl, or scrape;  
+(j) for any obscene or immoral purpose; 
+(k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.
 
 
 ## SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY

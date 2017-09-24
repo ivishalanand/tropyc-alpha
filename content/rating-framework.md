@@ -5,76 +5,63 @@ description = "Understand Tropyc's tokensale scoring sheet"
 
 ## Definition
 
-Tropyc rates tokensales based on two marks: TRUST and DEAL.
+Tropyc rates tokensales based on two marks: TRUST and DEAL.  
 
+The TRUST mark evaluates the risk of fraud and assesses the project’s credibility to go through a fundraising round.  
+It is divided into 5 sub-marks :
 
-The TRUST mark evaluates the risk of fraud and assesses the project’s credibility to go through a fundraising round. It is divided into 5 sub-marks :
+* **Token**: Fair transaction of a utile token between investors and founders.
+* **Roadmap**: Communicate well the present and future project affairs.
+* **Use-case**: Eco-system that aspires to become sustainable and decentralised.
+* **Safety**: Ability to create a responsible environment for investment.
+* **Team**: Founding team is professional and fit to raise funds.
 
-* Token: Fair transaction of a utile token between investors and founders
-* Roadmap: Communicate well the present and future project affairs
-* Use-case: Eco-system that aspires to become sustainable and decentralised
-* Safety: Ability to create a responsible environment for investment
-* Team: Founding team is professional and fit to raise funds
-
-
-The DEAL mark evaluates the project as a potential investment vehicle and how well it will perform in a non-speculative way. It is divided into 4 sub-marks :
+The DEAL mark evaluates the project as a potential investment vehicle and assesses how well it will perform in a non-speculative way.  
+It is divided into 4 sub-marks :
  
-* Distribution: Fair round of fundraising between investors and founders
-* Economics: Concept is economically viable and has growth potential
-* Awareness: Quality of brand image and how well it is perceived
-* Longevity: Project has the resources to deliver and meet targets
-
+* **Distribution**: Fair round of fundraising between investors and founders.
+* **Economics**: Concept is economically viable and has growth potential.
+* **Awareness**: Quality of brand image and how well it is perceived.
+* **Longevity**: Project has the resources to deliver and meet targets.
 
 The DEAL mark is a function of the TRUST mark:
 
-* low TRUST mark means low DEAL mark
-* high TRUST mark does not necessarily mean high DEAL mark
+* low TRUST mark means low DEAL mark.
+* high TRUST mark does not necessarily mean high DEAL mark.
 
-Tropyc’s ICO analysis and rating is not an endorsement of the project and should not be considered as investment advice. Our intent is to make the ICO screening process less confusing and more transparent for investors.
-
-
+Tropyc’s ICO analysis and rating is not an endorsement for any projects and should not be considered as investment advice.  
+Our intent is to make the ICO screening process less confusing and more transparent for investors.
 
 ## Interpretation
 
 <table class="table table-sm table-striped">
     <thead>
         <tr class="text-center font-weight-bold">
-            <td>VARIABLE</td>
-            <td>DESCRIPTION</td>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
+            <td></td>
+            <td>TRUST</td>
+            <td>DEAL</td>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Valuation</td>
-            <td>Fiat and crypto valuation are in line with fundamentals and the project’s value</td>
-            <td>Fair valuation</td>
-            <td>Overvalued in fiat</td>
-            <td>Overvalued in fiat and crypto</td>
+            <td>A</td>
+            <td>Safe environment</td>
+            <td>Strong project</td>
         </tr>
         <tr>
-            <td>Split</td>
-            <td>Tokensale distribution are clearly defined, easy to understand and publicly available</td>
-            <td>Transparent distribution</td>
-            <td>Cloudy distribution</td>
-            <td>Misleading distribution</td>
+            <td>B</td>
+            <td>Questionable tokensale</td>
+            <td>Average opportunity</td>
         </tr>
         <tr>
-            <td>Utility</td>
-            <td>The token has well-defined functions and gives tangible utility to its holder</td>
-            <td>Tangible utility</td>
-            <td>Potential utility</td>
-            <td>No utility</td>
+            <td>C</td>
+            <td>Risk of fraud</td>
+            <td>Risky investment</td>
         </tr>
     </tbody>
 </table>
 
-
-
 ## TRUST mark
-
 
 ### Token
 
@@ -256,8 +243,8 @@ Tropyc’s ICO analysis and rating is not an endorsement of the project and shou
             <td>Nothing</td>
         </tr>
         <tr>
-            <td>Communication</td>
-            <td>Responsive, content rich and professional community management</td>
+            <td>Public relations</td>
+            <td>Well-designed content rich and professional community management</td>
             <td>3 features</td>
             <td>2 features</td>
             <td>1 feature</td>
@@ -340,7 +327,7 @@ Tropyc’s ICO analysis and rating is not an endorsement of the project and shou
             <td>Disruption</td>
             <td>Potential to disrupt markets at scale</td>
             <td>Game-change</td>
-            <td>Blurry prospected</td>
+            <td>Blurry prospects</td>
             <td>Low potential</td>
         </tr>
     </tbody>
@@ -362,13 +349,6 @@ Tropyc’s ICO analysis and rating is not an endorsement of the project and shou
     </thead>
     <tbody>
         <tr>
-            <td>Transparency</td>
-            <td>Bona fide and professionalism in public relations</td>
-            <td>High level of transparency</td>
-            <td>Missing indicators</td>
-            <td>Opaque relationship</td>
-        </tr>
-        <tr>
             <td>Branding</td>
             <td>Well designed, lean and clean branding materials</td>
             <td>Strong branding</td>
@@ -381,6 +361,13 @@ Tropyc’s ICO analysis and rating is not an endorsement of the project and shou
             <td>3 features</td>
             <td>2 features</td>
             <td>1 feature</td>
+        </tr>
+        <tr>
+            <td>Transparency</td>
+            <td>Bona fide and professionalism in public relations</td>
+            <td>High level of transparency</td>
+            <td>Missing indicators</td>
+            <td>Opaque relationship</td>
         </tr>
     </tbody>
 </table>
