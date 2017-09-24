@@ -174,7 +174,7 @@ Today, you can buy anything you want with Bitcoins.
     <div class="col text-left">
     	<h3>Merchants</h3>
      	<p>An increasing number of merchants accept bitcoins as a form of payment, including some billion dollar revenue powerhouses.</p>
-     	<p>Amazon, Microsoft, Expedia to name a few.</p>
+     	<p>Shopify, Microsoft, Expedia to name a few.</p>
     </div>
     <div class="col text-center">
     	{{< img src="crypto-101/icons/brands1.svg" class="img-fluid" alt="Amazon Microsoft Expedia Shopify" >}}
