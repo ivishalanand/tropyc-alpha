@@ -177,7 +177,7 @@ Today, you can buy anything you want with Bitcoins.
      	<p>Shopify, Microsoft, Expedia to name a few.</p>
     </div>
     <div class="col text-center">
-    	{{< img src="crypto-101/icons/brands1.svg" class="img-fluid" alt="Amazon Microsoft Expedia Shopify" >}}
+    	{{< img src="crypto-101/icons/brands1.svg" class="img-fluid" alt="Microsoft Expedia Dell Shopify" >}}
     </div>
   </div>
 </div>
