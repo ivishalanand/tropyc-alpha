@@ -1,7 +1,7 @@
 +++
-title = "Purchase some crypto"
+title = "Exchanges"
 date = 2017-08-02T16:43:27+02:00
-description = "Tropyc's selection of exchanges is the best way to compare platforms and find the best way to purchase cryptocurrencies."
+description = ""
 weight = 10
 draft = false
 bref = """
