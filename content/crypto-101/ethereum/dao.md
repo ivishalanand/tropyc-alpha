@@ -122,7 +122,7 @@ Ethereum aspires to become the global computer by introducing decentralised appl
       {{< img src="crypto-101/icons/fork-please.svg" class="img-fluid" alt="Fork please" >}}
       <p class="font-weight-bold mt-2">Fork please</p>
       <p class="small">14% of the entire Ether supply was stolen by the hacker.</p>
-      <p class="small">The incurred loss might be <b>too big to fail</b> for Ethereum.</p>
+      <p class="small">The loss would have a severe impact on Ethereum. The DAO is too big to fail.</p>
     </div>
   </div>
 </div>
