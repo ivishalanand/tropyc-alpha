@@ -3,54 +3,57 @@ title = "Variable Description"
 description = "Understand the crypto keywords we use and how we differientate them."
 +++
 
-The cryptocurrency market is at a nascent stage, tropyc attempts to better structure the screening process of crypto investment by providing fundamentals to end users.
+ The cryptocurrency market is at a nascent stage making definition of some keywords somewhat confusing for beginners.  
+We ate tropyc attempt to make crypto user's life easyer by delivering the fundamentals of crypto-economcis.
 
-Tokens and coins are often seen as interchangeable although some researchers, businesses, institutions and enthusiasts differentiate coins from tokens based on their functionalities and the utility they provide to their holders. 
+For the past decade, tokens and coins are often seen as interchangeable although some researchers, businesses, institutions and enthusiasts differentiate coins from tokens based on their functionalities and the utility they provide to their holders. Often, a coin is reffered to a token with solely payment attributes.
  
-At this stage, there are no **official definitions of tokensale, initial coin offerings, tokens and coins.**
+At this stage, there are no **official definitions of tokens, coins, initial coin offerings and tokensales.**
 
-Because we are at the beginning of the crypto economy, Tropyc has decided not differentiate a token and a coin and therefore considers tokensale, initial coin offering and crowdsale as interchangeable. Rather, our focus is to differentiate tokens and how they are introduced based on their function and utility.
+Because we are at the beginning of the crypto economy, Tropyc has decided not to differentiate a token and a coin and therefore considers tokensale, initial coin offering and crowdsale as interchangeable.  
+Rather, our focus is to differentiate tokens on their function and the utility they provide to their holders.
 
 
 Below are definitions of every variable we list on our tokensale description page - mind that it is subject to change.
 
 ## Snapshot
 
-* **Start / End**: date for which the tokensale is open to investment
+* **Start / End**: Date for which the tokensale is open to investment.
 
-* **Industry**: Classification that refers to the project's activity
+* **Industry**: Classification that refers to the project's activity.
 
 * **Founded**: Year and place where the company is registered and incorporated.
 
-* **Platform**: Blockchain on top of which the token is developed. A native platform means the token has its own blockchain
+* **Platform**: Blockchain on top of which token is issued. A native platform means the token has its own blockchain.
 
 * **Type**: Either it is a **cryptocurrency** meaning its value is derived from the blockchain on which it is built on, or a **crypto asset** meaning its value is not derived from its blockchain.
 
-* **DEAL / TRUST**: Kindly refer to a Rating framework
+* **DEAL / TRUST**: Kindly refer to a [rating framework] (../rating-framework/).
 
-* **Soft / Hard cap**: Minimum/Maximum total token supply valuation in a cryptocurrency, depending on the investment sought during the tokensale. We are not evaluating the tokensale fundraising objective but rather the entire token eco-system.
+* **Soft / Hard cap**: Minimum/maximum total token supply valuation in either a cryptocurrency or in dollars, depending on the investment sought during the tokensale.  
+We are not evaluating the tokensale fundraising objective but rather the entire token supply.
 
 
 ## Concept
 
 * **Description**: one liner of the project, what it is and what it is trying to achieve.
 
-* **Features**: Value propositions of the project and unique selling points
+* **Features**: Value propositions of the project and unique selling points.
 
 
 ## Trust
 
-* **Stage of the project**: the stage in the product life cycle: Ideation, MVP, Beta, Launch.
+* **Stage of the project**: The stage in the product life cycle: Ideation, MVP, Beta, Launch.
 
-* **Team identity**: whether founders have revealed their identity.
+* **Team identity**: Whether founders have revealed their identity.
 
-* **Partners**: whether the project has relevant partnerships.
+* **Partners**: Whether the project has relevant partnerships.
 
 * **Advisors**: whether the project has relevant advisors.
 
-* **3rd party audit**: whether the project has hired a third-party auditor for code and wallet security.
+* **3rd party audit**: Whether the project has hired a third-party auditor for code.
 
-* **Multi-sig wallet**: whether the project has put in place multi-sig wallet in order to secure funds from the tokensale.
+* **Multi-sig wallet**: Whether the project has put in place multi-sig wallet in order to secure funds from the tokensale.
 
 * **Disbursement date**: Date when the token will be released and issued to investors.
 
@@ -59,11 +62,11 @@ Below are definitions of every variable we list on our tokensale description pag
 
 * **Functions**: Functionalities of the token that gives value to its holders, for now, we have identified the following: access, fuel, currency, incentive, ownership, governance, asset-backed.
 
-* **Consensus**: how the blockchain is kept secured. It can be Proof-of-Work, Proof-of-Stake, Proof-of-Service, Proof-of-Activity, Proof-of-Burn, Delegated Proof of Stake, Byzantine Fault Tolerance alternative, 
+* **Consensus**: How the blockchain is kept secured. It can be Proof-of-Work, Proof-of-Stake, Proof-of-Service, Proof-of-Activity, Proof-of-Burn, Delegated Proof of Stake, Byzantine Fault Tolerance.
 
-* **Asset-backed**: whether the token is considered as a tokenised assets.
+* **Asset-backed**: Whether the token is considered as a tokenised assets.
 
-* **Pre-mine**: whether the token has been mined before the tokensale
+* **Pre-mine**: Whether the token has been mined before the tokensale.
 
 * **Similar**: Tokens that have similar features and from the same industry.
 
