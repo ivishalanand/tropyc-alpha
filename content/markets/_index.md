@@ -1,7 +1,7 @@
 +++
-title = "Established cryptocurrencies' market data"
+title = "Markets"
 date = 2017-08-02T16:43:34+02:00
-description = "Here's a list of all major cryptocurrencies and cryptoassets. Tropyc considers them as established and high cap tokens."
+description = ""
 weight = 10
 draft = false
 bref = """
