@@ -1,6 +1,6 @@
 +++
-title = "Token Sale Variables"
-description = "Definition of token"
+title = "Variable Description"
+description = "Understand the crypto keywords we use and how we differientate them."
 +++
 
 The cryptocurrency market is at a nascent stage, tropyc attempts to better structure the screening process of crypto investment by providing fundamentals to end users.
