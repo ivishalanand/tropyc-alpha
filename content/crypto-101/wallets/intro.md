@@ -94,10 +94,10 @@ You can either make your DIY cold wallet or follow our hard wallet product revie
 <table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
-      <td> </td>
-      <td>I OWE U</td>
-      <td>HOT</td>
-      <td>COLD</td>
+      <th> </th>
+      <th>I OWE U</th>
+      <th>HOT</th>
+      <th>COLD</th>
     </tr>
   </thead>
   <tbody>

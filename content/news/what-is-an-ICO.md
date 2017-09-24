@@ -8,7 +8,7 @@ weight = 20
 image = "ico"
 +++
 
-_Disclaimer: Tropyc has decided to consider the words tokensales, initial coin offerings and crowdsale interchangeable, read out why. [memo] (/variables)
+_Disclaimer: Tropyc has decided to consider the words tokensales, initial coin offerings and crowdsale interchangeable, read out why [here](/variable-description)._
 
 ## Basics
 

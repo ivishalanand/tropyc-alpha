@@ -8,9 +8,7 @@ weight = 20
 image = "privacy"
 +++
 
-
-
-  The major utility of cryptocurrencies has been to help users dissociate their identity from their financial behavior. While Bitcoin is not an _anonymous_ crypto but rather _pseudonymous_, it still is a more private form of money than fiat.  
+The major utility of cryptocurrencies has been to help users dissociate their identity from their financial behavior. While Bitcoin is not an _anonymous_ crypto but rather _pseudonymous_, it still is a more private form of money than fiat.  
 As such, Bitcoin boomed when the first online marketplace for illicit goods, Silkroad, started off. Users can order narcotics, fake identification papers and even weapons on such platforms via the dark web.  
 While Bitcoin’s intrinsic functions do not offer any anonymous features, Silkroad customers and the likes use tumblers or mixers located on the dark web to partially anonymize their transactions. By doing so, users have to trust a third party to shuffle their Bitcoins and re-issue them to a new public address.  
 This has never been an optimal service as it is not considered “trustless” or decentralized. Furthermore, some blockchain analysis experts affirm that "mixed" and "tumbled" Bitcoins can virtually be traced back to the original owner.  

@@ -68,32 +68,32 @@ Additionally, Bitcoin holders have the choice to dissociate their wealth and the
 <table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
-	    <td>FEATURES</td>
-	    <td>FIAT</td>
-	    <td>CRYPTO</td>
+      <th>FEATURES</th>
+      <th>FIAT</th>
+      <th>CRYPTO</th>
     </tr>
   </thead>
   <tbody>
-	  <tr>
-	    <td class="text-left">Emission rate</td>
-	    <td class="text-center">Opaque and unpredictable</td>
-	    <td class="text-center">Accessible and fixed</td>
-	  </tr>
-	  <tr>
-	    <td class="text-left">Trusting a third party</td>
-	    <td class="text-center">Mandatory</td>
-	    <td class="text-center">Flexible</td>
-	  </tr>
-	  <tr>
-	    <td class="text-left">Privacy</td>
-	    <td class="text-center">Low</td>
-	    <td class="text-center">High</td>
-	  </tr>
-	  <tr>
-	    <td class="text-left">Transparency</td>
-	    <td class="text-center">Low</td>
-	    <td class="text-center">High</td>
-	  </tr>
+    <tr>
+      <td class="text-left">Emission rate</td>
+      <td class="text-center">Opaque and unpredictable</td>
+      <td class="text-center">Accessible and fixed</td>
+    </tr>
+    <tr>
+      <td class="text-left">Trusting a third party</td>
+      <td class="text-center">Mandatory</td>
+      <td class="text-center">Flexible</td>
+    </tr>
+    <tr>
+      <td class="text-left">Privacy</td>
+      <td class="text-center">Low</td>
+      <td class="text-center">High</td>
+    </tr>
+    <tr>
+      <td class="text-left">Transparency</td>
+      <td class="text-center">Low</td>
+      <td class="text-center">High</td>
+    </tr>
   </tbody>
 </table>
 
@@ -149,7 +149,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/accessible.svg" class="img-fluid" alt="Door Open" >}}
     </div>
     <div class="col text-left">
-    	<h3>Accessible </h3>
+      <h3>Accessible </h3>
       <p>Unlike bank accounts, there is no prerequisites, screening process, charging structures, consumer limits, nor account freezing. You have complete control over your capital.</p>
     </div>
   </div>
@@ -158,8 +158,8 @@ Let's review some of Bitcoin's core value propositions.
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col text-left">
-    	<h3>Safe</h3>
-     	<p>Only the ones having access to wallets own the Bitcoins stored in it, and no one else. On the other hand, funds stored in a traditional bank accounts are vulnerable to bank insolvency, freeze, seize and inflation.</p>
+      <h3>Safe</h3>
+      <p>Only the ones having access to wallets own the Bitcoins stored in it, and no one else. On the other hand, funds stored in a traditional bank accounts are vulnerable to bank insolvency, freeze, seize and inflation.</p>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="Vault" >}}
@@ -173,7 +173,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/cheap.svg" class="img-fluid" alt="Price is low" >}}
     </div>
     <div class="col text-left">
-    	<h3>Cheap</h3>
+      <h3>Cheap</h3>
       <p>There are no brokers or third party agents involved in the process, making the transaction fees considerably lower and more straightforward than in fiat.</p>
     </div>
   </div>
@@ -182,8 +182,8 @@ Let's review some of Bitcoin's core value propositions.
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col text-left">
-   		<h3>Global</h3>
-    	<p>Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees...</p>
+      <h3>Global</h3>
+      <p>Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees...</p>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="Earth spinning" >}}
@@ -197,8 +197,8 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/trustless.svg" class="img-fluid" alt="Ribbon with a tick" >}}
     </div>
     <div class="col text-left">
-    	<h3>Trustless</h3>
-    	<p>Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.</p>
+      <h3>Trustless</h3>
+      <p>Unlike fiat, no one can print additional Bitcoins. The total amount is capped to 21 million, its issuance is planned and transparent.</p>
     </div>
   </div>
 </div>
@@ -206,7 +206,7 @@ Let's review some of Bitcoin's core value propositions.
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col text-left">
-    	<h3>Private</h3>
+      <h3>Private</h3>
       <p>In Bitcoin, we have perfect knowledge of all the information regarding transactions (amount, sender, recipient) but with imperfect knowledge of identity. In other words, a wallet may not be clearly associated with a person's name.</p>
     </div>
     <div class="col text-center">
@@ -221,7 +221,7 @@ Let's review some of Bitcoin's core value propositions.
       {{< img src="crypto-101/icons/transparent.svg" class="img-fluid" alt="magnifying-glass-with-gold" >}}
     </div>
     <div class="col text-left">
-    	<h3>Transparent</h3>
+      <h3>Transparent</h3>
       <p>The Bitcoin blockchain records every transaction on an open-source distributed ledger along with the funds stored in every public address. Everyone knows how many Bitcoin are kept in wallets and when an operation occurs.</p>
     </div>
   </div>

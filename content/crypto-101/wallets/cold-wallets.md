@@ -42,12 +42,12 @@ If you don't have the time or energy to build your own cold wallet, you can chec
 <table class="table table-sm table-striped">
   <thead>
     <tr class="text-center font-weight-bold">
-      <td></td>
-      <td class="text-left">WALLET</td>
-      <td class="text-center">DEVICE</td>
-      <td class="text-center">ALTCOINS</td>
-      <td class="text-center">PRICE</td>
-      <td></td>
+      <th></th>
+      <th class="text-left">WALLET</th>
+      <th class="text-center">DEVICE</th>
+      <th class="text-center">ALTCOINS</th>
+      <th class="text-center">PRICE</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>

@@ -3,18 +3,17 @@ title = "Variable Description"
 description = "Understand the crypto keywords we use and how we differientate them."
 +++
 
- The cryptocurrency market is at a nascent stage making definition of some keywords somewhat confusing for beginners.  
-We ate tropyc attempt to make crypto user's life easyer by delivering the fundamentals of crypto-economcis.
+The cryptocurrency market is at a nascent stage making definition of some keywords somewhat confusing for beginners.  
+We at tropyc attempt to make crypto users' life easier by delivering the fundamentals of crypto-economics.
 
-For the past decade, tokens and coins are often seen as interchangeable although some researchers, businesses, institutions and enthusiasts differentiate coins from tokens based on their functionalities and the utility they provide to their holders. Often, a coin is reffered to a token with solely payment attributes.
- 
+For the past decade, tokens and coins are often seen as interchangeable although some researchers, businesses, institutions and enthusiasts differentiate coins from tokens based on their functionalities and the utility they provide to their holders. Often, a coin is reffered to as a token with solely payment attributes.
+
 At this stage, there are no **official definitions of tokens, coins, initial coin offerings and tokensales.**
 
 Because we are at the beginning of the crypto economy, Tropyc has decided not to differentiate a token and a coin and therefore considers tokensale, initial coin offering and crowdsale as interchangeable.  
 Rather, our focus is to differentiate tokens on their function and the utility they provide to their holders.
 
-
-Below are definitions of every variable we list on our tokensale description page - mind that it is subject to change.
+Below are definitions of every variable we list on our tokensale description page - keep in mind that it is subject to change.
 
 ## Snapshot
 
@@ -28,18 +27,16 @@ Below are definitions of every variable we list on our tokensale description pag
 
 * **Type**: Either it is a **cryptocurrency** meaning its value is derived from the blockchain on which it is built on, or a **crypto asset** meaning its value is not derived from its blockchain.
 
-* **DEAL / TRUST**: Kindly refer to a [rating framework] (../rating-framework/).
+* **DEAL / TRUST**: Kindly refer to [rating framework](../rating-framework/).
 
 * **Soft / Hard cap**: Minimum/maximum total token supply valuation in either a cryptocurrency or in dollars, depending on the investment sought during the tokensale.  
 We are not evaluating the tokensale fundraising objective but rather the entire token supply.
-
 
 ## Concept
 
 * **Description**: one liner of the project, what it is and what it is trying to achieve.
 
 * **Features**: Value propositions of the project and unique selling points.
-
 
 ## Trust
 
@@ -53,10 +50,9 @@ We are not evaluating the tokensale fundraising objective but rather the entire 
 
 * **3rd party audit**: Whether the project has hired a third-party auditor for code.
 
-* **Multi-sig wallet**: Whether the project has put in place multi-sig wallet in order to secure funds from the tokensale.
+* **Multi-sig wallet**: Whether the project has put in place a multi-sig wallet in order to secure funds from the tokensale.
 
 * **Disbursement date**: Date when the token will be released and issued to investors.
-
 
 ## Token
 
@@ -64,17 +60,15 @@ We are not evaluating the tokensale fundraising objective but rather the entire 
 
 * **Consensus**: How the blockchain is kept secured. It can be Proof-of-Work, Proof-of-Stake, Proof-of-Service, Proof-of-Activity, Proof-of-Burn, Delegated Proof of Stake, Byzantine Fault Tolerance.
 
-* **Asset-backed**: Whether the token is considered as a tokenised assets.
+* **Asset-backed**: Whether the token is considered as a tokenised asset.
 
 * **Pre-mine**: Whether the token has been mined before the tokensale.
 
 * **Similar**: Tokens that have similar features and from the same industry.
 
-
 ## Deal
 
 Here we are splitting the total token supply distribution, in order to give a better understanding of how the deal is framed.
-
 
 ## Roadmap
 
@@ -84,9 +78,9 @@ Here we are splitting the total token supply distribution, in order to give a be
 
 * **Initial code**: Whether the project has proved that work has started.
 
-* **MVP**: Whether the project has released a working minimum viable product.
+* **MVP**: Whether the project has released a working Minimum Viable Product.
 
-* **Beta**: Whether the project has launched its platform in testing mode
+* **Beta**: Whether the project has launched its platform in testing mode.
 
 * **Open dev**: Whether the project has made its code public and let third party developers contribute to the project.
 
