@@ -9,7 +9,9 @@ toc = true
 
 ## The first cryptocurrency
 
-"Bitcoin is open-source money."
+<blockquote class="blockquote">
+  <p>"Bitcoin is open-source money."</p>
+</blockquote>
 
 You can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers). It is the first currency that operates safely and independently from government authority.
 Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to currencies controlled by central banks.

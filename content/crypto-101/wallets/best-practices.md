@@ -7,8 +7,8 @@ bref = "Wallets, Chapter II"
 toc = true
 +++
 
-<blockquote>
-<p>"In crypto, you're in control of your wealth, but this luxury comes with extra responsibilities."</p>
+<blockquote class="blockquote">
+  <p>"In crypto, you're in control of your wealth, but this luxury comes with extra responsibilities."</p>
 </blockquote>
 
 ## Set-up

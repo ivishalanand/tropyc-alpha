@@ -8,33 +8,28 @@ weight = 20
 image = "fork"
 +++
 
-
 The crypto world was struck by a rather troubling event on the 1st of August: Bitcoin split into two different currencies: Bitcoin original and Bitcoin Cash. How and why did this happen?
 
 ##  Scaling debate
 
-Scaling up the technology aspect of Bitcoin has always been the prime concern of Satoshi Nakamoto and Bitcoin Core developers. In order to make Bitcoin globally accessible and become a viable form of medium of exchange, each Bitcoin blocks need to accommodate every transaction sent to the network.
+Scaling up the technology aspect of Bitcoin has always been the prime concern of Satoshi Nakamoto and Bitcoin Core developers. In order to make Bitcoin globally accessible and become a viable form of medium of exchange, each Bitcoin blocks need to accommodate every transaction sent to the network.  
 Bitcoin blocks were initially set to 1 MB: every 10 minutes the Bitcoin blockchain can only accommodate 1 MB of transactions.  
 A major issue, since each transaction roughly weighs 250 bytes.  
-With exponential market penetration, the Bitcoin blockchain was quickly overrun by the increasing demand for transactions, which often leads to network congestion. 
+With exponential market penetration, the Bitcoin blockchain was quickly overrun by the increasing demand for transactions, which often leads to network congestion.  
 Rather than taking 10 minutes to issue a payment, some transactions could take up to a couple of hours to get confirmed.
 
 A quick fix to congestion is the introduction of "replace-by-fee" incentivization. If a transaction is pending due to a backlog, Bitcoin users are able to increase the transaction fees they pay, in order to incentivise the miners to select their transaction for the next block.  
 This practice is of course very profitable for miners but problematic for users as their fees increase proportionally to network adoption.
-
 
 This is the scaling debate. And there are only two solutions to solve this problem.
 
 * Increase the block size.
 * Reduce the transaction size.
 
-
 A simple analogy would be to compare the Bitcoin blockchain with a highway congested by heavy traffic :
 
 * You can either increase the number of lanes (block size).
 * Or force every car to drive at the same pace (transaction size).
-
-
 
 ## Implementing a solution: soft and hard forks
 
@@ -42,17 +37,15 @@ In order to implement a solution to a blockchain, you need to "fork" it. Forking
 
 In cryptocurrency, there are two ways of forking: _hard fork_ and _soft fork_. Both share the same goal of upgrading a piece of software.
 
-
 ### Hard fork
 
 * **Definition** - It sets up a new rule on the software that is not compatible with previous versions. In a blockchain context, nodes that did not install the upgrade will not be able to interact with the network until they implement the new hard fork rules.
 
-* **Implementation** - Nodes that have not upgraded will not be able to get any transactions signed until they follow the new rules implemented by the hard fork. In order to mine new blocks, or get transaction mined, nodes are **obliged** to install the update.
+* **Implementation** - Nodes that have not upgraded will not be able to get any transactions signed until they follow the new rules implemented by the hard fork. In order to mine new blocks, or get transaction mined, nodes are **forced** to install the update.
 
 * **Issues** - If a portion of the network decides not to install the hard fork update and keep on mining the old network, this results in a blockchain split.  
 As such, in a scenario where miners mine the original blockchain, developers support it and users transact on it, the old chain holds value and can keep on existing.  
-[The Ethereum DAO fork ] (/crypto101/ethereum/dao “DAO”) is a perfect example of a failed hard fork which created two different tokens that hold value: Ethereum and Ethereum Classic.
-
+[The Ethereum DAO fork](/crypto-101/ethereum/dao "DAO") is a perfect example of a failed hard fork which created two different tokens that hold value: Ethereum and Ethereum Classic.
 
 ### Soft fork
 
@@ -63,8 +56,6 @@ This is calculated by network adoption, a percentage of nodes following the same
 Depending on the rules of the soft fork, a consensus is reached if a majority of nodes agree to implement the soft fork, otherwise, the fork fails and the blockchain goes back to the old rules.
 
 * **Issues** - If a soft fork is adopted by only a minority of hash power, either the software upgrade fails or it can become a hard fork and the chain splits.
-
-
 
 ## Bitcoin fork
 
@@ -99,7 +90,6 @@ Cons
 SegWit is typically rejected by the mining community since their incentivisation can become drastically decreased.  
 It is important to note that SegWit does not "solve" the scaling debate permanently: if the Bitcoin network gets to grow even more, there might just be another network congestion.
 
-
 ### User Activated Soft Fork (UASF)
 
 Introduced by BIP 148 and designed by Bitcoin Core developers, this proposal upgrades the network through a soft fork.  
@@ -114,7 +104,6 @@ This raises a few issues:
 
 Because of this uncertainty, miners designed a contingency plan to mitigate the risk.
 
-
 ### User Activated Hard Fork (UAHF)
 
 Introduced by Bitmain, a Bitcoin mining pool, UAHF is the adoption of a new Bitcoin chain with an increased block size and without the implementation of SegWit.  
@@ -124,15 +113,13 @@ Because it is a hard fork, the new chain is not compatible with the older versio
 
 The UAHF occurred on the 1st of August 2017, and thus creating a new chain of Bitcoin. 
 
-Thus, Bitcoin Cash was born.
-
+Bitcoin Cash was born.
 
 ## Bitcoin cash
 
-
 ### Double Spending
 
-  Just like the Ethereum hard fork, **Bitcoin holders get the same amount of coins in Bitcoin Cash** only if they held their private keys at the time of the hard fork.
+Just like the Ethereum hard fork, **Bitcoin holders get the same amount of coins in Bitcoin Cash** only if they held their private keys at the time of the hard fork.
 
 Bitcoin solved the issue of double spending and immutability in digital money thanks to its cutting edge technology. However, such events raise questions on how Bitcoin and blockchain tech can mitigate the aforementioned. 
 
@@ -142,12 +129,10 @@ Also, it is not money for free, because when the split occurred, the sum of both
 The market decided Bitcoin Cash would have its own price tag and therefore a tangible value.  
 On the other hand, creating endless forks of Bitcoin would not result in the same price pattern as the market would most probably loose its credibility to Bitcoin's value proposition and select one main chain as the original one.
 
-
 ### Value
 
-  The moment miners invest their time, hardware and energy in generating new blocks, Bitcoin Cash has tangible value because miners are after all, just capitalists investing their resources in the hope of returns.   
+The moment miners invest their time, hardware and energy in generating new blocks, Bitcoin Cash has tangible value because miners are after all, just capitalists investing their resources in the hope of returns.  
 Furthermore, wallets, exchanges and even payment gateways have integrated Bitcoin Cash - only days after the UAHF.
-
 
 ### Features
 
@@ -156,19 +141,16 @@ Furthermore, wallets, exchanges and even payment gateways have integrated Bitcoi
 * Replace-by-fee feature is removed.
 * Proof-of-Work difficulty adjustment is faster.
 
-
-
 ## A new fork?
 
 After a successful split of the Bitcoin chain, there is still confusion on whether UASF BIP 148 will be adopted on the original chain.  
 
 In May 2017, the Digital Currency Group - a blockchain trust - proposed a solution to the scaling debate by implementing two additional technical features to Bitcoin through a hard fork proposal called SegWit2x:
 
-1 -  SegWit implementation through soft fork, with a mining consensus target of 80%.
-2 -  Increase in block size from 1 MB to 2 MB, 6 months after SegWit activation. 
+1. SegWit implementation through soft fork, with a mining consensus target of 80%.
+2. Increase in block size from 1 MB to 2 MB, 6 months after SegWit activation. 
 
-
-There are often misconceptions within the community, the Bitcoin Core project (community of developers behind Bitcoin) released a [memo] (https://bitcoincore.org/en/2017/08/18/btc1-misleading-statements/) to tackled any misleading information.
+There are often misconceptions within the community, the Bitcoin Core project (community of developers behind Bitcoin) released a [memo](https://bitcoincore.org/en/2017/08/18/btc1-misleading-statements/) to tackle any misleading information.
 
 As such SegWit2x and SegWit soft fork are two different proposals which are currently clashing. 
 
