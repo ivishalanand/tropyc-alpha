@@ -3,7 +3,7 @@ title = "Variable Description"
 description = "Understand the crypto keywords we use and how we differientate them."
 +++
 
-The cryptocurrency market is at a nascent stage making definition of some keywords somewhat confusing for beginners.  
+  The cryptocurrency market is at a nascent stage making definition of some keywords somewhat confusing for beginners.  
 We at tropyc attempt to make crypto users' life easier by delivering the fundamentals of crypto-economics.
 
 For the past decade, tokens and coins are often seen as interchangeable although some researchers, businesses, institutions and enthusiasts differentiate coins from tokens based on their functionalities and the utility they provide to their holders. Often, a coin is reffered to as a token with solely payment attributes.
@@ -69,6 +69,9 @@ We are not evaluating the tokensale fundraising objective but rather the entire 
 ## Deal
 
 Here we are splitting the total token supply distribution, in order to give a better understanding of how the deal is framed.
+In our opinion, this is the most important variable to comprehend before investing in a tokensale.  
+The DEAL tab will give you the valuation of the token supply, in cryptocurrencies and in fiat. You will understand how much is the cut of founders, early investors, advisors, pre-tokensale investors, future emissions and more.
+
 
 ## Roadmap
 

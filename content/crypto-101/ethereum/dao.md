@@ -75,7 +75,7 @@ The Ethereum foundation, the team of developers that both deployed the Ethereum 
     <div class="col text-center">
       {{< img src="crypto-101/icons/soft-fork.svg" class="img-fluid" alt="Soft fork" >}}
     </div>
-    <div class="col text-center">
+    <div class="col text-left">
       <h3>Soft fork</h3>
       <p>A soft fork would freeze the Ether held by the Child DAO and stolen by the hacker. This solution required consensus to deploy a smart contract (piece of code) that would blacklist the stolen funds. Because the network is decentralised, permissionless and immutable, the only way to add a new rule would have been to convince 51% of nodes to implement the change.</p>
     </div>

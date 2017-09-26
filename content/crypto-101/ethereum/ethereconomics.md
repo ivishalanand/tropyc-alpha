@@ -16,8 +16,9 @@ Developers and users pay transaction fees in Ether to run and operate decentrali
 
 It incentivises deployment of efficient DApps (less code, means less file size, means fewer fees) and creates an eco-system that rewards contributors.  
 
-Bottom line is: Bitcoin is nicknamed **digital gold**,  
-Ether, on the other hand, is considered as **digital oil**.
+Bottom line is:   
+* Bitcoin is nicknamed **digital gold**,  
+* Ether, on the other hand, is considered as **digital oil**.
 
 ## Consensus
 
