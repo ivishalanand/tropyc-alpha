@@ -9,29 +9,38 @@ image = "regulation"
 +++
 
 Money has been at the epicentre of our society for thousands of years: it helps us trade, settle debt and purchase goods and services.  
+
 Cryptocurrencies offer an attractive alternative to the conventional economy and monetary policies implemented by public institutions and central banks.  
+
 Let's face it, there is only a handful of government officials controlling the world money supply.
 
 ## The Good: money facilitates trade
 
 It all started with sea shell money, used exchange goods in Asia, Africa and some parts of Europe.  
+
 While this system was still up and running until the 18th century in some parts of Africa, large scale monetary systems quickly shifted to the precious metal standard. Rather than sea shells, money was based on commodities that were considered valuable by the masses.  
-Unlike barter-like methods of settlement, money helped communities to fix the value of goods and services to a common unit of reference.  
+Unlike barter-like methods of settlement, money helped communities to fix the value of goods and services to a common unit of reference.
+
 The introduction of the silver and gold standards helped to index the value of currencies to a fixed amount of precious metal. It helped streamline business practices and ease the process of trading – since everyone was aware of and compliant with this common metric of value. 
 
 ## The Bad: governments control the total supply of currencies
 
-After WWII, the Bretton Woods agreements of 1944 made the US dollar a global index against a fixed amount of gold: the dollar was therefore considered as the world reserve currency.  
-Non-reserve currency countries held a large portion of their reserve in US dollars for public intervention on exchange rates. Increasing pressure to devaluate the US Dollars led to the end of the Bretton Woods agreements in 1971.  
-Today, currencies follow a floating monetary system: they are traded electronically, based on basic rules of supply and demand. In this design, central banks may intervene by issuing or withdrawing currencies from the economy.  
+After WWII, the Bretton Woods agreements of 1944 made the US dollar a global index against a fixed amount of gold: the dollar was therefore considered as the world reserve currency.
+
+Non-reserve currency countries held a large portion of their reserve in US dollars for public intervention on exchange rates. Increasing pressure to devaluate the US Dollars led to the end of the Bretton Woods agreements in 1971.
+
+Today, currencies follow a floating monetary system: they are traded electronically, based on basic rules of supply and demand. In this design, central banks may intervene by issuing or withdrawing currencies from the economy.
+
 The latest major intervention was shortly after the global financial crisis, during the last quarter of 2008, when major central banks purchased 2.5 trillion dollars of government securities and toxic assets. 
 
-Government backed currencies are not indexed to any tangible assets: the market decides the price of each currency pairs.  
+Government backed currencies are not indexed to any tangible assets: the market decides the price of each currency pairs.
+
 There is no value behind a unit of US dollar, other than the fact that it is considered as legal tender by the government. Central banks control and monitor the price by either _reducing_ or _increasing_ the volume of currency supply in circulation.
 
 ### Reducing the volume of currencies
 
-Also known as “Quantitative tightening”, it is the process of decreasing the total volume of money in order to keep high inflation rates under control.   
+Also known as “Quantitative tightening”, it is the process of decreasing the total volume of money in order to keep high inflation rates under control.
+
 Central banks can sell government bonds, increase interest rates or sell public undertakings to the private sector.  
 It makes borrowing less attractive and saving a better opportunity.  
 After a quantitative tightening intervention, the value of one unit of fiat currency increases.
@@ -46,7 +55,8 @@ After a quantitative easing intervention, the value of one unit of fiat currency
 The former monetary policy has not been implemented much in the past decade, while the latter, “quantitive easing” is constantly leveraged by government and central banks.  
 It is one of the most popular forms of monetary intervention post-2008.  
 Its aim is to control inflation (price stability) and ensure healthy employment rates by targeting the overall money supply. However, the performance of an economy is not just correlated with domestic activity but also subject to external factors, for instance, the growth of other economies, changes in consumption or major events.   
-As such, Central banks and quantitative easing monetary policy can only impact the economy on a short term basis, since it does not have any influence on economic externalities.  
+As such, Central banks and quantitative easing monetary policy can only impact the economy on a short term basis, since it does not have any influence on economic externalities.
+
 A simple analogy would be to compare central banks and their policies with a doctor and his medication. If a patient comes in ill but with blurry and unknown symptoms, the doctor’s job is to cure his patient, or at least help him. He/She is going to prescribe drugs that might cure the illness in the short term but leave the patient with side effects.  
 While there is no secret recipe to keep prices stable and achieve full employment, central banks and public authorities attempt to cure the economy with quantitative easing - without hard proof of any long term positive impact.
 

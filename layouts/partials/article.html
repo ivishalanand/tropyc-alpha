@@ -8,10 +8,10 @@
 		<h3>
 			<a href="{{ .URL }}" title="{{ .Title }}">{{ .Title }}</a>
 			{{ range .Params.categories }}
-				<a href="/categories/{{ . | urlize }}" class="btn btn-sm btn-{{ . | lower }} float-right mx-2">{{ . | upper }}</a>
+				<a href="/categories/{{ . | urlize }}" class="btn btn-sm btn-{{ . | lower }} float-right mx-1">{{ . | upper }}</a>
 			{{ end }}
 		</h3>
-		<p class="date">{{ .Date | dateFormat "January 2, 2006" }}</p>
+		<div class="article-meta">{{ partial "article/meta" . }}</div>
 		<p>{{ .Description }}</p>
 	</div>
 </div>

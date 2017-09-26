@@ -44,17 +44,17 @@ Our intent is to make the ICO screening process less confusing and more transpar
   </thead>
   <tbody>
     <tr>
-      <td>A</td>
+      <td class="text-success">A</td>
       <td>Safe environment</td>
       <td>Strong project</td>
     </tr>
     <tr>
-      <td>B</td>
+      <td class="text-warning">B</td>
       <td>Questionable tokensale</td>
       <td>Average opportunity</td>
     </tr>
     <tr>
-      <td>C</td>
+      <td class="text-danger">C</td>
       <td>Risk of fraud</td>
       <td>Risky investment</td>
     </tr>
@@ -70,9 +70,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th class="">VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -105,11 +105,11 @@ Our intent is to make the ICO screening process less confusing and more transpar
 <table class="table table-striped">
   <thead>
     <tr class="text-center font-weight-bold">
-        <th>VARIABLE</th>
-        <th>DESCRIPTION</th>
-        <th>A</th>
-        <th>B</th>
-        <th>C</th>
+      <th>VARIABLE</th>
+      <th>DESCRIPTION</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -144,9 +144,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -181,9 +181,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -218,9 +218,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -257,9 +257,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -294,9 +294,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -331,9 +331,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>
@@ -368,9 +368,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
+      <th class="text-success">A</th>
+      <th class="text-warning">B</th>
+      <th class="text-danger">C</th>
     </tr>
   </thead>
   <tbody>

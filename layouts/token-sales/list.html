@@ -31,7 +31,7 @@
     <tbody>
       {{ range (.Data.Pages.ByParam "endDate").Reverse }}
         <tr>
-          <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "token-logos/%s-64.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
+          <td class="token-name" style="background-image: url('/images/{{ index $.Site.Data.images.hash (printf "tokensale-logos/%s-64.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
           <td>{{ partial "rating" .Params.trustRating }}</td>
           <td>{{ partial "rating" .Params.dealRating }}</td>
           <td>{{ .Params.hardCap }}</td>

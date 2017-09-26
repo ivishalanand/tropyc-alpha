@@ -14,17 +14,14 @@
 						<div class="picture">
 							<img src="/images/{{ index $.Site.Data.images.hash (printf "news/%s.png" .Params.image | urlize) }}" alt="{{ .Params.image }}">
 						</div>
-						<div class="article-meta">
-							<h3>
-							{{ .Title }}
+						<div class="article-info">
+							<h3>{{ .Title }}</h3>
 							{{ range .Params.categories }}
 								<div class="btn btn-sm btn-{{ . | lower }} float-right mx-2">{{ . }}</div>
 							{{ end }}
-							</h3>
-							<p>{{ .Date.Format "January 2, 2006" }}</p>
+		   				<div class="article-meta">{{ partial "article/meta" . }}</div>
 						</div>
 					</div>
-		   		<div class="article-time text-muted">{{ partial "article/meta" . }}</div>
 
 		      <div class="article-body content">
 		          {{.Content | safeHTML }}

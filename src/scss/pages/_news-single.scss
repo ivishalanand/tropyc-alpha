@@ -18,14 +18,14 @@
     }
 	}
 
-	.article-meta {
+	.article-info {
 		position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     color: #fff;
-    background: linear-gradient(rgba(0,0,0,0) 0,rgba(0,0,0,.002) 1.8%,rgba(0,0,0,.008) 4.8%,rgba(0,0,0,.021) 9%,rgba(0,0,0,.042) 13.9%,rgba(0,0,0,.075) 19.8%,rgba(0,0,0,.126) 27%,rgba(0,0,0,.194) 35%,rgba(0,0,0,.278) 43.5%,rgba(0,0,0,.382) 53%,rgba(0,0,0,.541) 66%,rgba(0,0,0,.738) 81%,#000 100%);
-    padding: 90px 20px 15px;
+    background: rgba(0,0,0,.6);
+    padding: 15px 20px 15px;
 
     h3 {
     	font-size: 32px;
@@ -33,9 +33,9 @@
     	text-shadow: 0 -1px 0 rgba(0,0,0,.65);
     }
 
-    p {
+    .article-meta {
     	font-size: 16px;
-    	color: $gray-600;
+    	color: $gray-400;
     }
 	}
 
