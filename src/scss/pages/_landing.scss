@@ -27,14 +27,23 @@
 	}
 }
 
-.customer-timeline {
-	margin: 40px 0 60px;
+.tropyc-what {
+
+	.tropyc-summary {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		text-align: center;
+		font-size: 1.5rem;
+		line-height: 2;
+		color: $gray-600;
+	}
 }
+
 
 .title {
 	margin-left: auto;
 	margin-right: auto;
-  margin-top: 80px;
+  margin-top: 120px;
   display: flex;
   width: 80%;
 
@@ -63,21 +72,29 @@
   }
 }
 
-.instructions, .funding-comparison {
+.top-title {
+	margin-top: 40px;
+}
+
+.tropyc-how, .tropyc-why {
 	margin: 40px 0 60px;
 }
 
-.funding-comparison {
+.tropyc-why {
 
-	h2 {
-		text-align: center;
-	}
+	.funding-title {
+		margin-bottom: 10px;
 
-	p {
-		font-family: "Montserrat";
-		text-align: center;
-		font-weight: 500;
-		font-size: 1.2rem;
+		h2 {
+			text-align: center;
+		}
+
+		p {
+			font-family: "Montserrat";
+			text-align: center;
+			font-weight: 500;
+			font-size: 1.2rem;
+		}
 	}
 
 	.point h2 {
@@ -97,11 +114,11 @@
 
 	h2 {
     margin: 15px 0;
-		font-size: 2rem;
+		font-size: 1.5rem;
     font-weight: 500;
     color: $gray-600;
   	@include media-breakpoint-down(sm) {
-			font-size: 1.5rem;
+			font-size: 1.2rem;
 		}
 	}
 
@@ -111,5 +128,6 @@
 		font-size: 1.1rem;
 		font-weight: 300;
 		text-align: justify;
+		font-family: "Montserrat";
 	}
 }

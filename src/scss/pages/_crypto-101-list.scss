@@ -1,9 +1,88 @@
-.crypto-101 {
+.crypto-all {
 	min-height: 1500px;
 	background: #ffffff;
 	background: -moz-linear-gradient(top, #ffffff 26%, theme-color("primary") 26%, theme-color("primary") 83%, #ffffff 83%);
 	background: -webkit-linear-gradient(top, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%,#ffffff 83%);
 	background: linear-gradient(to bottom, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%,#ffffff 83%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+	padding: 30px 0;
+
+	h1 {
+		margin-bottom: 120px;
+		color: theme-color("primary");
+	}
+
+	.section {
+		min-height: 550px;
+		padding: 1rem;
+		background: #FFF;
+
+		img {
+			height: 150px;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
+
+    ul {
+    	list-style: none;
+	    margin-bottom: 0;
+  		padding-left: 0;
+    }
+
+    li {
+			text-align: center;
+	    margin-top: 2rem;
+	    font-weight: 600;
+	    font-size: 1.1rem;
+	    margin-bottom: 2rem;
+	    font-family: "Montserrat";
+	    a {
+	    	color: $gray-600;
+	    }
+    }
+
+    .disabled {
+    	cursor: not-allowed;
+    	opacity: .65;
+    }
+	}
+
+	.seperator-header {
+		margin: 120px 0 90px;
+		color: #FFF;
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	.bitcoin-section, .how-to-section {
+		box-shadow: 0px 0px 8px 1px $yellow;
+	}
+
+	.wallets-section, .token-section {
+		position: relative;
+		z-index: 1;
+		box-shadow: 0px 0px 8px 1px $gray-600;
+			@include media-breakpoint-up(md) {
+				margin-top: -2rem;
+			}
+	}
+
+	.ethereum-section, .invest-section	{
+		box-shadow: 0px 0px 8px 1px $blue;
+	}
+
+	.premium-content {
+		margin-top: 3rem;
+		color: $gray-600;
+	}
+}
+
+.crypto-section {
+	min-height: 800px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 26%, theme-color("primary") 26%, theme-color("primary") 100%);
+	background: -webkit-linear-gradient(top, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%);
+	background: linear-gradient(to bottom, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
 	padding: 30px 0;
 

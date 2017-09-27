@@ -44,17 +44,17 @@ Our intent is to make the ICO screening process less confusing and more transpar
   </thead>
   <tbody>
     <tr>
-      <td class="text-success">A</td>
+      <td class="text-success font-weight-bold">A</td>
       <td>Safe environment</td>
       <td>Strong project</td>
     </tr>
     <tr>
-      <td class="text-warning">B</td>
+      <td class="text-warning font-weight-bold">B</td>
       <td>Questionable tokensale</td>
       <td>Average opportunity</td>
     </tr>
     <tr>
-      <td class="text-danger">C</td>
+      <td class="text-danger font-weight-bold">C</td>
       <td>Risk of fraud</td>
       <td>Risky investment</td>
     </tr>
