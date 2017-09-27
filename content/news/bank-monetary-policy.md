@@ -1,7 +1,7 @@
 +++
 title = "Bank and monetary policy : the Good, the Bad and the Ugly"
 date = 2017-08-30T18:35:39+02:00
-categories = ["ICO"]
+categories = ["BANK"]
 draft = false
 description = "Cryptocurrencies can become a fair and trustworthy financial instrument"
 weight = 10
