@@ -1,4 +1,4 @@
-baseURL = "https://tropyc.netlify.com"
+baseURL = "https://www.tropyc.co"
 languageCode = "en-us"
 title = "Tropyc"
 description = "Tropyc - Crypto Community"
@@ -13,7 +13,7 @@ disqusShortname = "tropyc"
   telegram = "Tropyc"
   facebook = "tropyc"
   twitter = "tropyc_crypto"
-  email = "tropyc.crypto@gmail.com"
+  email = "hello@tropyc.co"
 
 [[menu.main]]
     name = "News"
