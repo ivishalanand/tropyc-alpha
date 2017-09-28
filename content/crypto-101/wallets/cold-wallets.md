@@ -65,7 +65,7 @@ If you don't have the time or energy to build your own cold wallet, you can chec
       <td class="text-center align-middle">Screen</td>
       <td class="text-center align-middle">Yes</td>
       <td class="text-center align-middle">89€</td>
-      <td class="text-center align-middle"><a href="https://shop.trezor.io/" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="Cart" >}}</a></td>
+      <td class="text-center align-middle"><a href="https://shop.trezor.io?a=tropyc.co" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="Cart" >}}</a></td>
     </tr>
     <tr>
       <td class="text-center align-middle">{{< img src="crypto-101/wallet-pics/ledger-nano.png" class="img-fluid" alt="Ledger nano" >}}</td>
