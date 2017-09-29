@@ -1,0 +1,72 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div class="container">
+  <div class="hero">
+    <h1>{{ .Title }}</h1>
+    <p>
+      {{ .Params.bref | markdownify }}
+    </p>
+  </div>
+</div>
+{{ if .Sections }}
+	<div class="crypto-all">
+		<div class="container">
+			<div class="row no-gutters">
+				{{ range first 3 .Sections }}
+					<div class="col-xs-12 col-md-4">
+						<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
+							<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
+							<h2>{{ .Title }}</h2>
+							<ul>
+								{{ range .Data.Pages.ByDate }}
+								<li><a href="{{ .URL }}">{{ .Title }}</a></li>
+								{{ end }}
+							</ul>
+						</div>
+					</div>
+				{{ end }}
+			</div>
+			<h2 class="seperator-header">Go to 102.</h2>
+			<div class="row no-gutters">
+				{{ range last 3 .Sections }}
+					<div class="col-xs-12 col-md-4">
+						<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
+							<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
+							<h2>{{ .Title }}</h2>
+							<ul>
+								{{ range .Data.Pages.ByDate }}
+								<li><a class="disabled" href="#" disabled>{{ .Title }} <i class="fa fa-ticket" aria-hidden="true"></i></a></li>
+								{{ end }}
+							</ul>
+						</div>
+					</div>
+				{{ end }}
+			</div>
+			<p class="premium-content"><i class="fa fa-ticket" aria-hidden="true"></i> Premium Content - Go premium to access this content</p>
+		</div>
+	</div>
+{{ else }}
+	<div class="crypto-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
+						<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
+						<h2>{{ .Title }}</h2>
+						<ul>
+							{{ range .Data.Pages.ByDate }}
+							<li><a href="{{ .URL }}">{{ .Title }}</a></li>
+							{{ end }}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{{ end }}
+
+{{ end }}
+
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

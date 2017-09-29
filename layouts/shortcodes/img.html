@@ -1,3 +1,0 @@
-{{ with .Get "link"}}<a href="{{.}}">{{ end }}
-    <img src="/images/{{ index $.Site.Data.images.hash (.Get "src") }}" {{ with .Get "class" }}class="{{.}}"{{ end }} {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} />
-{{ if .Get "link"}}</a>{{ end }}
