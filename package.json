@@ -16,7 +16,9 @@
   },
   "private": true,
   "keywords": [
-    "crypto", "education", "consulting"
+    "crypto",
+    "education",
+    "consulting"
   ],
   "author": "Alexis Agostini",
   "license": "UNLICENSED",
@@ -55,6 +57,7 @@
     "postcss-import": "^10.0.0",
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
+    "typed.js": "^2.0.6",
     "url-loader": "^0.5.7",
     "webpack": "^2.6.0",
     "whatwg-fetch": "^1.0.0"
