@@ -1,0 +1,96 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div class="top-alert alert alert-info alert-dismissible text-center" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  Have a <strong>chat</strong> with us on <a href="https://t.me/Tropyc101" target="_blank" class="alert-link">Telegram</a> <i class="fa fa-telegram" aria-hidden="true"></i>
+</div>
+<div class="banner" style="background-image: linear-gradient(-180deg, rgba(0,101,168,0.1) 0%, rgba(0,36,61,0.2) 50%), url('/images/landing-page/background.png');">
+  <div class="banner-content">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+    {{ partial "newsletter-banner-form" . }}
+  </div>
+</div>
+<div class="title top-title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">What is Tropyc Premium ?</div>
+	<div class="titleborder"></div>
+</div>
+<div class="tropyc-what">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-10">
+				<h2 class="tropyc-summary">Tropyc premium makes things easier for anyone who’s interested in cryptoeconomics, from beginners to traders.</h2>
+			</div>
+		</div>
+		<div class="customer-timeline">
+			<img class="img-fluid d-block mx-auto" src="/images/landing-page/customer-timeline.png">
+		</div>
+	</div>
+</div>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">How it works ?</div>
+	<div class="titleborder"></div>
+</div>
+<div class="tropyc-how">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 d-flex flex-column justify-content-around">
+					<div class="step">
+						<h2>Step-by-step</h2>
+						<p>We're here to guide you with screenshots and customised support, whether to find your exchange, invest in an ICO or set-up your cold wallet.</p>
+					</div>
+					<div class="step">
+						<h2>Design your portfolio</h2>
+						<p>Together we'll build a portfolio that best suits your needs, risk aversion and future expectations - based on our token analysis.</p>
+					</div>
+					<div class="step">
+						<h2>ICOs scored</h2>
+						<p>Tropyc performs extensive due diligence on tokensales we choose to list. Get a detailed analysis of the best ICOs available on the market.</p>
+					</div>
+			</div>
+			<div class="col-sm-6">
+				<img class="img-fluid d-block mx-auto" src="/images/landing-page/phone.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="title">
+	<div class="titleborder"></div>
+	<div class="titlelabel">Why tokensales and ICOs ?</div>
+	<div class="titleborder"></div>
+</div>
+<div class="tropyc-why">
+	<div class="funding-title d-flex flex-column justify-content-center">
+		<h2><span class="text-danger">Startup funds raised</span> vs. <span class="text-success">Initial Coin Offerings</span></h2>
+		<p class="mt-2">in millions of dollars</p>
+	</div>
+	<div class="container funding-comparison-container">
+		<div class="row">
+			<div class="col-sm-6 align-self-center">
+				<img class="img-fluid mt-3" src="/images/landing-page/chart.png">
+			</div>
+			<div class="col-sm-6 d-flex flex-column justify-content-around">
+				<div class="point">
+					<h2>Revolution</h2>
+					<p>Tokensales raise more funds than startups as per the 1st of August 2017.</p>
+				</div>
+				<div class="point">
+					<h2>Tokenomics</h2>
+					<p>Check our database of tokens, we figured out their tokenomics just for you.</p>
+				</div>
+				<div class="point">
+					<h2>Rating</h2>
+					<p>Tropyc evaluates and filters tokensales before listing. We undertake a thorough analysis based on fundamentals.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ partial "newsletter-bleed" . }}
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
+

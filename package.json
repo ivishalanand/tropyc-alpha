@@ -1,30 +1,62 @@
 {
   "name": "tropyc",
   "version": "1.0.0",
-  "description": "This is the alpha of the Tropyc website.",
+  "description": "Tropyc is a crypto community that strives to help its members understand crypto and make better investments.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hugo": "gulp hugo",
+    "build": "gulp build",
+    "build-preview": "gulp build-preview",
+    "start": "gulp server",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tropyc-crypto/tropyc-alpha.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
+  "keywords": [
+    "crypto", "education", "consulting"
+  ],
+  "author": "Alexis Agostini",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/tropyc-crypto/tropyc-alpha/issues"
   },
   "homepage": "https://github.com/tropyc-crypto/tropyc-alpha#readme",
-  "devDependencies": {
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-hash": "^4.1.1",
-    "gulp-sass": "^3.1.0"
-  },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta"
+    "autoprefixer": "^7.1.4",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.10.2",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.11.6",
+    "bootstrap": "^4.0.0-beta",
+    "browser-sync": "^2.13.0",
+    "css-loader": "^0.28.2",
+    "eslint": "^3.1.1",
+    "eslint-plugin-import": "^1.11.1",
+    "exports-loader": "^0.6.3",
+    "file-loader": "^0.11.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.7",
+    "hugo-bin": "^0.12.0",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.6.0",
+    "whatwg-fetch": "^1.0.0"
   }
 }
