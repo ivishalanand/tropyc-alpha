@@ -85,7 +85,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
     </tr>
     <tr>
       <td>Split</td>
-      <td>Tokensale distribution are clearly defined, easy to understand and publicly available</td>
+      <td>Tokensale distribution is clearly defined, easy to understand and publicly available</td>
       <td>Transparent distribution</td>
       <td>Cloudy distribution</td>
       <td>Misleading distribution</td>
@@ -317,7 +317,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
     <tr>
       <td>Disruption</td>
       <td>Potential to disrupt markets at scale</td>
-      <td>Game-changer</td>
+      <td>Game changer</td>
       <td>Blurry prospects</td>
       <td>Low potential</td>
     </tr>
