@@ -9,26 +9,30 @@ image = "atomic-swap"
 +++
 
 
-Until the cryptocurrency world won’t facilitate decentralised exchanges, users will have to face a counter-intuitive truth: to trust third parties when swapping digital currencies.
+Until the cryptocurrency world won’t facilitate decentralised exchanges, users will have to face a counter-intuitive truth: to trust third parties when swapping digital currencies.  
 Exchanges are, at the end of the day, centralised and have been lacking innovation in the crypto space.   
 
 As everything is becoming permisionless and trustless, exchanges are still running behind as they are run by centralised entities.   
 
-In fact, an investor who stores his tokens on an exchange does not own them per se, but hold an I Owe U (IOU) from the exchange, in other words, a promise that an intermediary will issue the token once requested. (Learn more about IOU and wallet here)
+In fact, an investor who stores his tokens on an exchange does not own them per se, but holds an I Owe U (IOU) from the exchange, in other words, a promise that an intermediary will issue the token when requested.  
+(Learn more about IOU and wallet [here] (crypto-101/wallets/intro/))
 
-	Exchanges have arguably been considered the point of weakness in our industry because of hacks, controversies over market manipulation or intentional lags and delays. The crypto world will never be truly decentralised until we find a way to facilitate trustless token exchanges.
+Exchanges have arguably been considered the point of weakness in our industry because of hacks, controversies over market manipulation or intentional lags and delays.  
+The crypto world will never be truly decentralised until we find a way to facilitate trustless token exchanges.
 
-Introduced in 2013 by Tier Nolan, atomic cross-chain trading, aka atomic swaps might just be the solution. Thanks to the Lightning network, an off-chain scaling solution for blockchain, users can swap digital currencies instantly and securely. It is considered “atomic” because the trade either happens or not, without the space for any discrepancies. 
+Introduced in 2013 by Tier Nolan, _atomic cross-chain trading_, aka _atomic swaps_ might just be the solution. Thanks to the Lightning network, an off-chain scaling solution for blockchain, users can swap digital currencies instantly and securely.  
+It is considered “atomic” because the trade either happens or not, without the space for any discrepancies. 
 
-With this technology breakthrough, users do not need to trust any centralised entity or each other to swap currencies. 
+With this technology breakthrough, users do not need to trust any centralised entity or a peer to swap currencies. 
 
-Let’s illustrate this with a simple an example with Alice and Bob:
+
+Let’s illustrate this with a simple an example:
 
 •	Alice has 1 BTC and wants 20 LTC.
 •	Bob has 20 LTC and wants 1 BTC.
 •	Alice and Bob do not know each other and are afraid of exchange hacks.
 
-Rather than logging on Coinbase (hyperlink) or Shapeshift (hyperlink), Alice and Bob should set up an atomic cross-chain swap to guarantee the transaction occurs on the two networks.
+Rather than logging on [Coinbase] (https://www.coinbase.com/join/59abb5ab6c9e6700d36656d6) or [Shapeshift] (https://shapeshift.io), Alice and Bob should set up an atomic cross-chain swap to guarantee the transaction occurs on the two networks.
 
 1 – Alice and Bob issue a transaction on the Bitcoin and Litecoin blockchain.
 2 – Alice is able to claim the 20 LTC if she reveals a number that she only has access to.
@@ -53,9 +57,12 @@ It is worth noting that atomic swaps are currently at a development stage withou
 
 However, there are repositories available [here] (https://medium.com/decred/on-chain-atomic-swaps-bdb29fa2c92c) to conduct atomic swaps between Bitcoin, Litecoin and Decred.
 
-Atomic swaps only execute peer-to-peer trades and do not facilitate order book management and pricing. In fact, a fully-fledged decentralised trading solution would have to incorporate atomic swap with traditional features implemented on exchanges. 
+Atomic swaps only execute peer-to-peer trades and do not facilitate order book management and pricing.  
+In fact, a fully-fledged decentralised trading solution would have to incorporate atomic swap with traditional features implemented on exchanges. 
 
-Still this is major breakthrough for the cryptocurrency world as this event and the open-source repositories shared to community, enables transparent and private transactions and disintermediate the entire process.
+This is major breakthrough for the cryptocurrency world as the publishing of open-source repositories, enables transparent and private transactions and disintermediate the entire process.
+
+Promising time to be a cryptocurrency enthusiast !
 
 
 
