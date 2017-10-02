@@ -57,10 +57,10 @@ It is worth noting that atomic swaps are currently at a development stage withou
 
 However, there are repositories available [here] (https://medium.com/decred/on-chain-atomic-swaps-bdb29fa2c92c) to conduct atomic swaps between Bitcoin, Litecoin and Decred.
 
-Atomic swaps only execute peer-to-peer trades and do not facilitate order book management and pricing.  
-In fact, a fully-fledged decentralised trading solution would have to incorporate atomic swap with traditional features implemented on exchanges. 
+Atomic swaps only execute peer-to-peer trades and do not facilitate order book management and pricing. You will have to find a peer and negotiate with him before starting an atomic swap.  
+In fact, a fully-fledged decentralised trading solution would have to incorporate atomic swaps with an order book management and pleasant user experience before we can expect large scale trustless and peer-to-peer exchanges..
 
-This is major breakthrough for the cryptocurrency world as the publishing of open-source repositories, enables transparent and private transactions and disintermediate the entire process.
+This is major breakthrough for the cryptocurrency world, as the publishing of open-source repositories enables users to issue transparent and private transactions and disintermediate the entire process.
 
 Promising time to be a cryptocurrency enthusiast !
 
