@@ -5,7 +5,7 @@ categories = ["Tech"]
 draft = true
 description = "Atomic swaps disintermediate cryptocurrencies transactions"
 weight = 20
-image = ""
+image = "atomic-swap"
 +++
 
 
