@@ -67,6 +67,7 @@ On the other hand, Bitcoin future emission is planned, immutable and not control
 Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called *the blockchain*.
 Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
+
 <table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
@@ -99,11 +100,13 @@ Additionally, Bitcoin holders have the choice to dissociate their wealth and the
   </tbody>
 </table>
 
+
 ## Founder
 
 In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.
 Supported by a team of developers and managed by Satoshi, the Bitcoin protocol came to notice in 2011 in mainstream media.
 It is the most famous cryptocurrency and the largest one by market capitalisation. There are now over a thousand cryptocurrencies and crypto assets.
+
 
 <div class="container my-3">
   <div class="row align-items-center">
@@ -125,13 +128,16 @@ It is the most famous cryptocurrency and the largest one by market capitalisatio
   </div>
 </div>
 
+
 Bitcoin offers an alternative to our financial system: it removes the concept of a middleman in a monetary transaction.
 It is the same way we were able to send messages via e-mail without the need for a third party postal service.
 You can now do the same ... but with money.
 
+
 ## Features
 
 Let's review some of Bitcoin's core value propositions.
+
 
 <div class="container my-4">
   <div class="row align-items-center">
@@ -145,6 +151,7 @@ Let's review some of Bitcoin's core value propositions.
   </div>
 </div>
 
+
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col text-center">
@@ -156,6 +163,7 @@ Let's review some of Bitcoin's core value propositions.
     </div>
   </div>
 </div>
+
 
 <div class="container my-4">
   <div class="row align-items-center">
@@ -169,6 +177,7 @@ Let's review some of Bitcoin's core value propositions.
   </div>
 </div>
 
+
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col text-center">
@@ -181,6 +190,7 @@ Let's review some of Bitcoin's core value propositions.
   </div>
 </div>
 
+
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col text-left">
@@ -192,6 +202,7 @@ Let's review some of Bitcoin's core value propositions.
     </div>
   </div>
 </div>
+
 
 <div class="container my-4">
   <div class="row align-items-center">
@@ -216,6 +227,7 @@ Let's review some of Bitcoin's core value propositions.
     </div>
   </div>
 </div>
+
 
 <div class="container my-4">
   <div class="row align-items-center text-center">
