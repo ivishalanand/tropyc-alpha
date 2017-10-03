@@ -18,13 +18,14 @@ In fact, an investor who stores his tokens on an exchange does not own them per 
 (Learn more about IOU and wallet [here] (crypto-101/wallets/intro/))  
 
 Exchanges have arguably been considered the point of weakness in our industry because of hacks, controversies over market manipulation or intentional lags and delays.  
+
 The crypto world will never be truly decentralised until we find a way to facilitate trustless token exchanges.  
 
 Introduced in 2013 by Tier Nolan, _atomic cross-chain trading_, aka _atomic swaps_ might just be the solution. Thanks to the Lightning network, an off-chain scaling solution for blockchain, users can swap digital currencies instantly and securely.  
+
 It is considered “atomic” because the trade either happens or not, without the space for any discrepancies. 
 
 With this technology breakthrough, users do not need to trust any centralised entity or a peer to swap currencies.  
-
 
 Let’s illustrate this with a simple an example:
 
