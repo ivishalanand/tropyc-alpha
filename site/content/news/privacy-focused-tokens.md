@@ -95,7 +95,8 @@ The ZCash blockchain only reveals the time-stamp of a transaction without the am
 
 ## 4. PIVX
 
-The Private Instant Verifiable Transaction token is a fork from DASH that occurred in 2016. Rather than implementing a duo consensus Proof-of-Work and Proof-of-Service, PIVX is secured through Proof-of-Stake. As such, users can lock 10,000 of their PIVX and run a master node that will "stake" their coins in order to reach consensus on the blockchain.  
+The Private Instant Verifiable Transaction token is a fork from DASH that occurred in 2016. Rather than implementing a duo consensus Proof-of-Work and Proof-of-Service, PIVX is secured through Proof-of-Stake.   
+As such, users can lock 10,000 of their PIVX and run a master node that will "stake" their coins in order to reach consensus on the blockchain.  
 
 PIVX uses obfuscation, a mixing mechanism based on CoinJoin similar to DASH: inputs are gathered into one transaction and sent to multiple outputs. Theoretically, PIVX transactions can still be de-anonymised in the event of an attack or extensive blockchain analysis.
 
@@ -119,7 +120,7 @@ PIVX uses obfuscation, a mixing mechanism based on CoinJoin similar to DASH: inp
 Verge is an upcoming cryptocurrency that recently entered the market of privacy-focused tokens after a rebranding in 2016.  
 Launched in 2014 as DogeCoinDark, Verge is a Bitcoin fork built on 5 different PoW algorithms to make sure miners with different hardware set-ups can access the network.  
 
-It has a Tor and I2P integration as its Unique Selling Point: a feature that other cryptocurrencies do not promote as any individual can run a wallet on Tor in no time.
+It has a Tor and I2P integration as its Unique Selling Point: a feature that other cryptocurrencies do not promote as any individual can run a wallet on Tor in no time.  
 
 **Consensus:** Proof-of-Work (PoW)
 
@@ -162,7 +163,7 @@ As such, Komodo implemented a delayed-Proof-of-Work consensus mechanism on top o
 
 Launched as ShadowCoin in 2014, the project's roadmap has always been to release a decentralized peer-to-peer marketplace: a blockchain based Silkroad.  
 
-While it is a not a privacy-focused cryptocurrency per se, Particl offers Darkweb marketplace users the perfect platform to purchase goods and services stealthily. And let's be honest, this is one of the main utilities of leveraging online anonymity.
+While it is a not a privacy-focused cryptocurrency per se, Particl offers Darkweb marketplace users the perfect platform to purchase goods and services stealthily. And let's be honest, this is one of the main utilities of leveraging online anonymity.  
 
 **Consensus:** Proof-of-Stake (PoS).
 
