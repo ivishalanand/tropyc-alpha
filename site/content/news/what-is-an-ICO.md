@@ -14,36 +14,44 @@ _Disclaimer: Tropyc has decided to consider the words tokensales, initial coin o
 
 ### Definition
 
-An Initial Coin Offering is a new generation funding instrument. Organisations can raise funds, by issuing tokens to its investors in exchange for cryptocurrencies. This method has recently drawn a lot of attention: in July 2017, ICOs raised more funds than start-ups. As such, ventures now have access to capital at an earlier stage in their product lifecycle, from anywhere in the globe and without any minimum size ticket.  
+An Initial Coin Offering is a new generation funding instrument. Organisations can raise funds, by issuing tokens to its investors in exchange for cryptocurrencies. This method has recently drawn a lot of attention: in July 2017, ICOs raised more funds than start-ups.  
+As such, ventures now have access to capital at an earlier stage in their product lifecycle, from anywhere in the globe and without any minimum size ticket.  
+
 Viberate, a decentralised platform for the music industry, recently raised more than 14 million USD in cryptocurrencies in a record time of **4 minutes and 42 seconds**.
 
 ### Tokens
 
 Tokens are digital assets that are secured on a blockchain with cryptography. They are _supposed to_ give utility to its holders through a wide range of functions.  
+
 For instance, it can give access to a marketplace, prove stake in a project, act as a digital medium of exchange or even grant a right to vote.
 
 ## Game-changer
 
 Venture capitalists and angel investors purchase company shares at a certain valuation, hoping for long term returns after a new round of investment, an acquisition or an IPO.  
-In this system, the equity is illiquid until an exit occurs – this makes investment risky compared to other traditional securities, as the asset is locked for a certain amount of time.  
+
+In this system, the equity is illiquid until an exit occurs – this makes investment risky compared to other traditional securities, as the asset is locked for a certain amount of time.   
 Tokens issued through ICOs reduces some risks for investors while introducing new ones.
 
 ### Liquidity
 
 In conventional investments, assets are illiquid; they are difficult to quickly buy or sell, often because of hefty regulations or scarcity of potential buyers. On the other hand, ICOs release tokens at the end of the crowdfunding period and can be traded on exchanges, making the asset very liquid.  
+
 Because tokens are quickly disbursed after an ICO, investors can easily buy or sell ICO tokens with established cryptocurrencies such as Bitcoin or Ether.  
+
 Here, liquidity reduces substantially the investment risk from a timeline perspective as an exit is only a few clicks away.
 
 ### Accessible
 
-Venture capital investments have now become accessible to any type of investors irrespective of their net worth.  
+Venture capital investments have now become accessible to any type of investors irrespective of their net worth.   
+
 Usually, angel investing and venture capital start with a ticket of 100,000 USD; with ICOs, investors can chip in as low as 100 USD in a project.
 
 ### Utility
 
 Tokens represent more than a simple stake in a project, as their value is derived from their utility and functions.  
-Indeed, tokens are incorporated within a decentralised application to create much more than a venture: it builds an eco-system.  
-This idea is difficult to grasp, as digital tokens have very few active use-cases and are outside of the realm of today's regulatory framework.
+Indeed, tokens are incorporated within a decentralised application to create much more than a venture: it builds an eco-system.   
+
+This idea is difficult to grasp, as digital tokens have very few active use-cases and are outside of the realm of today's regulatory framework.  
 Imagine you can rent out your free hardware storage space, hire computational power to export a design, trade real estate assets digitally and buy goods on a peer-to-peer marketplace, all of that, without the need of a middle man.  
 These are exactly the types of projects that ICOs can introduce.
 
@@ -91,9 +99,13 @@ If an ICO token only provides a stake or equity into a project, the token is the
 
 While some countries offer a positive environment for tokensales and cryptocurrencies, especially tax havens (Gibraltar, Island of Jersey), others have openly banned them (China).
 
-Why? Because many tokensales are at the ideation stage, without any MVP and have not reached product market fit, and still manage to raise considerable funds in a matter of days.  
-Most of them are overvalued by providing misguided token distribution, others offer no tangible value to investors while a few are just blatant scams and Ponzi schemes.  
+Why?  
+
+Because many tokensales are at the ideation stage, without any MVP and have not reached product market fit, and still manage to raise considerable funds in a matter of days.  
+
+Most of them are overvalued by providing misguided token distribution, others offer no tangible value to investors while a few are just blatant scams and Ponzi schemes.   
 Moreover, there's one aspect that all ICOs and tokensales have in common: they are vulnerable to hacks and digital attacks.
 
 Initial Coin Offerings and Tokensales are without any doubt a massive innovation for crowd funding and venture capital. Unfortunately, too many of them turned out to be misguided, fraudulent and highly speculative.  
+
 When individuals are not protected, it's maybe time for the regulator to step in the market.
