@@ -5,8 +5,8 @@ description = "Hybrid intelligence for investment decision and asset Management.
 weight = 20
 draft = false
 
-trustRating = "A+"
-dealRating = "A+"
+trustRating = "A"
+dealRating = "+"
 softCap = "N/A"
 hardCap = "$15 M"
 platform = "Ethereum"
