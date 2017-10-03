@@ -6,7 +6,7 @@ weight = 20
 draft = false
 
 trustRating = "A"
-dealRating = "+"
+dealRating = "A"
 softCap = "N/A"
 hardCap = "$15 M"
 platform = "Ethereum"
