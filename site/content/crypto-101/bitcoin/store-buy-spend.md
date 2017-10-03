@@ -55,13 +55,13 @@ The act of "sending a bitcoin" requires 3 things :
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col text-left">
+    <div class="col-8 text-left">
       <h3>Public address</h3>
       <p>A public address stores Bitcoins and is used to send and receive funds. In other words, a public address serves as a cryptocurrency bank account.</p>
       <p>All the transaction information between public addresses is available to everyone, and accessible online on a decentralised ledger called the blockchain.</p>
       <p>Therefore, everyone knows how much Bitcoins a public address holds. Make sure to generate a new public address when someone pays you in Bitcoin, otherwise … he/she will know how much you have!</p>
     </div>
-    <div class="col text-center">
+    <div class="col-4 text-center">
       {{< img src="crypto-101/icons/public-address.svg" class="img-fluid" alt="Mailbox" >}}
     </div>
   </div>
@@ -69,10 +69,10 @@ The act of "sending a bitcoin" requires 3 things :
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col text-center">
+    <div class="col-4 text-center">
       {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="Private key" >}}
     </div>
-    <div class="col text-left">
+    <div class="co-8 text-left">
       <h3>Private key</h3>
       <p>Each public address is associated with a private key that unlocks the funds held on it.  In this sense, only the owner of funds stored in a public address has access to the associated private key.</p>
       <p>When a transaction is issued, the network performs a mathematical algorithm to verify whether the pair is correct. If a private key is made public then the funds are compromised - as anyone could issue a transaction.</p>
@@ -83,14 +83,14 @@ The act of "sending a bitcoin" requires 3 things :
 
 <div class="container my-4">
   <div class="row align-items-center">
-    <div class="col text-left">
+    <div class="col-8 text-left">
      	<h3>Password</h3>
       <p>Most wallets protect your private keys by encryption with a passphrase. In order to unlock the wallet and get access to private keys, you need to provide a password. Paper wallets are an exception, as they are to put it simply just a sheet of paper with both a private key and a public address. Technically speaking you do not need a password to issue a Bitcoin transaction but rather to unlock the access to private keys stored in a wallet.
       <p>Write down your private key / passphrase, keep it safe and make sure you have a back-up in case you lose it.</p>
       <p>Without backup, forgetting your wallet's password means losing access to your private keys and therefore your Bitcoins.</p>
       <p>In addition to passwords, you may set up 2-Factor Authentication on another device if you wish an extra layer of protection. </p>
     </div>
-    <div class="col text-center">
+    <div class="col-4 text-center">
       {{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="Password lock" >}}
     </div>
   </div>
