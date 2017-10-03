@@ -4,7 +4,7 @@ date = 2017-08-30T18:35:39+02:00
 categories = ["Bank"]
 draft = false
 description = "Cryptocurrencies can become a fair and trustworthy financial instrument"
-weight = 10
+weight = 20
 image = "regulation"
 +++
 
