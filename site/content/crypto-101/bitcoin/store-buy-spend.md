@@ -44,7 +44,7 @@ The act of "sending a bitcoin" requires 3 things :
     <div class="col">
      	{{< img src="crypto-101/icons/password.svg" class="img-fluid" alt="Password lock" >}}
      	<p class="font-weight-bold">Password</p>
-     	<p class="small">Optional. If you store your private keys in a wallet that is encrypted, in order to unlock it, you need to input a predefined password (a string of characters)</p>
+     	<p class="small">Optional. If you store your private keys in an encrypted wallet, you'll need to input a password to unlock it</p>
     </div>
   </div>
 </div>
@@ -106,7 +106,7 @@ The act of "sending a bitcoin" requires 3 things :
      <p>Regulators can also step in and freeze/seize funds.</p>
     </div>
     <div class="col">
-      <p>A single individual can store a private key and access funds digitally.</p>
+      <p>An individual can store private keys and access funds digitally.</p>
       <p>No need for an intermediary, and no one can seize funds without private keys.</p>
     </div>
   </div>
@@ -117,7 +117,7 @@ The act of "sending a bitcoin" requires 3 things :
 Owning Bitcoins has become easier by the day. 
 Now that you want to get hold of some bitcoins, here are several ways to purchase some.
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row align-items-center">
     <div class="col text-left">
      	<h3>Exchange</h3>
@@ -129,7 +129,7 @@ Now that you want to get hold of some bitcoins, here are several ways to purchas
   </div>
 </div>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row align-items-center">
     <div class="col text-center">
     	{{< img src="crypto-101/icons/atm.svg" class="img-fluid" alt="ATM" >}}
@@ -141,7 +141,7 @@ Now that you want to get hold of some bitcoins, here are several ways to purchas
   </div>
 </div>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row align-items-center">
     <div class="col text-left">
     	<h3>Over the counter</h3>
@@ -153,7 +153,7 @@ Now that you want to get hold of some bitcoins, here are several ways to purchas
   </div>
 </div>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row align-items-center">
     <div class="col text-center">
       {{< img src="crypto-101/icons/handshake.svg" class="img-fluid" alt="Handshake" >}}
@@ -177,7 +177,7 @@ Today, you can buy anything you want with Bitcoins.
      	<p>Shopify, Microsoft, Expedia to name a few.</p>
     </div>
     <div class="col text-center">
-    	{{< img src="crypto-101/icons/brands1.svg" class="img-fluid" alt="Microsoft Expedia Dell Shopify" >}}
+    	{{< img src="crypto-101/icons/brands1.png" class="img-fluid" alt="Microsoft Expedia Dell Shopify" >}}
     </div>
   </div>
 </div>
