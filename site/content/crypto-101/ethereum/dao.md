@@ -70,7 +70,7 @@ Some attempted to separate the funds by pitching a project to the DAO, but this 
 
 Smart contracts are autonomous agents, independent from any third party or centralised influence: once deployed, the code is the ultimate decision maker.  
 
-As such, the attacker was technically speaking, **_following the DAO rules_** (coded in smart contracts) that were introduced by the Ethereum Foundation team.  
+As such, the attacker was technically speaking, _following the DAO rules_ (coded in smart contracts) that were introduced by the Ethereum Foundation team.  
 
 According to the DAO and Ethereum network rules, this action was valid as it was coded within the smart contracts; however, for investors, it was clearly a programming mistake.  
 
