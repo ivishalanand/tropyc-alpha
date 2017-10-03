@@ -12,16 +12,20 @@ toc = true
 ### Conventional contracts
 
 Conventional contracts are agreements that define stakeholder relationships, would it be related to a transaction, inheritance or consumption.  
+
 Typically, valid standard contracts are enforceable by the law, meaning if you decide not to honour the terms of a contract, you are vulnerable to legal recourse.   
 
 However, you are not physically forced: there is always a trust factor to consider before entering a contractual relationship with a peer.  
+
 Going legal is at the end of the day an inefficient and resource draining exercise that (most) people would like to avoid. The current legal and judiciary system may resolve a litigation in a matter of years, sometimes decades in some jurisdictions.
 
 ### Smart contracts
 
 Smart contracts try to solve this issue by automating the terms of an agreement with a few lines of code.  
 They are computer programs that execute pre-defined contractual conditions, at a certain point of time, to ensure an agreement is ultimately honoured.  
-In other words, a smart contract is a programmed transaction protocol that runs desired operations depending on pre-defined scenarios. It does not have to be a legal contract per se, rather, it aims to minimise the risks of bad faith, make sure an agreement is honoured and automate tasks.  
+
+In other words, a smart contract is a programmed transaction protocol that runs desired operations depending on pre-defined scenarios.  
+It does not have to be a legal contract per se, rather, it aims to minimise the risks of bad faith, make sure an agreement is honoured and automate tasks.  
 
 Here’s a quick recap of the difference between both.
 
@@ -49,6 +53,7 @@ Here’s a quick recap of the difference between both.
  </div>
 
 Ethereum allows developers to smart code contracts on top of its blockchain using its programming language, Solidity.  
+
 Rather than “smart contracts” which is a term introduced in the 1990s, Ethereum refers to them as “automated agents” in its white paper, because it enables the issuance of large-scale computing operations between users and other smart contracts.
 
 ### Case study
@@ -111,6 +116,7 @@ Creating such interactions would typically require multiple steps:
 * Hold the money and disburse to the winner based on the above.
 
 Running smart contracts on the network has a cost, and it depends on the computing power required to execute it: this is when Ether transaction fees come in the picture.  
+
 The same way ERP and CRM automate supply chain and client communication, smart contracts can automate any real-life interaction.
 
 ### Ethereum Virtual Machine
@@ -124,6 +130,7 @@ The EVM has two main characteristics:
 * **Isolated:** code and smart contracts running on top of the EVM does not have access to other applications on the network.
 
 Every node on the network (computers connected) runs the EVM and regularly updates the Ethereum database.  
+
 Mind that this decentralised computation framework is far less efficient in terms of cost and speed than a traditional hardware set-up. 
 
 Still, it offers valuable benefits :
