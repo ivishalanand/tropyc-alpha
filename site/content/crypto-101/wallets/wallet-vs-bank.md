@@ -9,7 +9,8 @@ toc = false
 
 Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it offers an alternative monetary system to our economy: a decentralised one.
 
-In crypto, governments and central banks have no authority towards the issuance of additional currency. Both regulators and middlemen lose their respective influence in the equation. Banks have become redundant because now, you can become your own bank.
+In crypto, governments and central banks have no authority towards the issuance of additional currency. Both regulators and middlemen lose their respective influence in the equation.  
+Banks have become redundant because now, you can become your own bank.
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -25,7 +26,8 @@ In crypto, governments and central banks have no authority towards the issuance 
 
 ### Fiat
 
-Depositing funds into a bank account means trusting a centralised entity (banks) to hold your wealth. They have the power to freeze your account, put consumer limits or delay access to funds.
+Depositing funds into a bank account means trusting a centralised entity (banks) to hold your wealth.  
+They have the power to freeze your account, put consumer limits or delay access to funds.
 
 ### Crypto
 
@@ -52,7 +54,8 @@ Beware, when storing your Bitcoin on third-party wallets, you do not "own" a bit
 
 ### Fiat
 
-Merchants, banks and consumers can cancel a transaction after payment confirmation. The current payment infrastructure offers many safety nets in case something goes wrong, such as insurance for stolen cards or Electronic Payment Terminal's cancel feature.
+Merchants, banks and consumers can cancel a transaction after payment confirmation.  
+The current payment infrastructure offers many safety nets in case something goes wrong, such as insurance for stolen cards or Electronic Payment Terminal's cancel feature.
 
 However, refunds are sometimes not possible in the event of a mistake, especially during interbank wiring.
 
@@ -109,7 +112,8 @@ Be careful!
 
 Although cash remains the most private way to transact, it is only suitable for lower amounts. 
 
-On the other hand, electronic payments can handle higher amounts but record the identity of all the stakeholders engaged in the transaction. This leaves a trace that can be audited by financial institutions and governments.
+On the other hand, electronic payments can handle higher amounts but record the identity of all the stakeholders engaged in the transaction.  
+This leaves a trace that can be audited by financial institutions and governments.
 Furthermore, electronic payment systems are vulnerable to hacks and thefts.
 
 ### Crypto
