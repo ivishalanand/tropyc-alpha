@@ -9,8 +9,11 @@ image = "privacy"
 +++
 
 The major utility of cryptocurrencies has been to help users dissociate their identity from their financial behavior. While Bitcoin is not an _anonymous_ crypto but rather _pseudonymous_, it still is a more private form of money than fiat.  
-As such, Bitcoin boomed when the first online marketplace for illicit goods, Silkroad, started off. Users can order narcotics, fake identification papers and even weapons on such platforms via the dark web.  
+
+As such, Bitcoin boomed when the first online marketplace for illicit goods, Silkroad, started off. Users can order narcotics, fake identification papers and even weapons on such platforms via the dark web.   
+
 While Bitcoin’s intrinsic functions do not offer any anonymous features, Silkroad customers and the likes use tumblers or mixers located on the dark web to partially anonymize their transactions. By doing so, users have to trust a third party to shuffle their Bitcoins and re-issue them to a new public address.  
+
 This has never been an optimal service as it is not considered “trustless” or decentralized. Furthermore, some blockchain analysis experts affirm that "mixed" and "tumbled" Bitcoins can virtually be traced back to the original owner.  
 
 The rise of altcoins solved this issue, or at least offered a more attractive solution to the problem. Today, there are dozens of privacy-focused cryptocurrencies, some are integrated and widely utilized on dark web marketplaces.  
@@ -20,6 +23,7 @@ Let’s have a look at the main cryptocurrencies in the privacy-focused token ma
 ## 1. Monero
 
 Launched in April 2014 and forked from Bytecoin, Monero has established itself as the leading privacy focused cryptocurrency. It is based on the CryptoNote and Confidential Address protocol and uses ring confidential transactions to improve the security and privacy of its users.  
+
 As such, public addresses are shuffled with older addresses on the network to avoid any identififcation. In this system, it is virtually impossible for blockchain analysts to trace back a transaction and match an identity with a public address.  
 
 Monero developers intend to implement additional anonymity features onto the network such as Kovri, a router built on the Invisible Internet Project (I2P).
@@ -64,12 +68,15 @@ This protocol, once named Darksend, is now called PrivateSend and can be defined
 ## 3. ZCash
 
 Started in 2016 by a private company, Zcash enables the verification of private transactions through zero-knowledge proofs. This protocol secures the network while allowing users to stay anonymous.  
+
 Zcash is owned by a private company based out of the USA, but its code is still open-source and available for anyone to scrutinize.
-The implemented protocol, zk-SNARKS, allows the verification of transactions sent to the network despite being encrypted. The ZCash blockchain only reveals the time-stamp of a transaction without the amount, the sender and receiver's addresses.
+The implemented protocol, zk-SNARKS, allows the verification of transactions sent to the network despite being encrypted.  
+
+The ZCash blockchain only reveals the time-stamp of a transaction without the amount, the sender and receiver's addresses.
 
 **Consensus:** Proof-of-Work (PoW)
 
-**Green flasg**
+**Green flags**
 
 - Third party code audit.
 - Integrated with several merchants and with most of Darkweb marketplaces.
@@ -89,6 +96,7 @@ The implemented protocol, zk-SNARKS, allows the verification of transactions sen
 ## 4. PIVX
 
 The Private Instant Verifiable Transaction token is a fork from DASH that occurred in 2016. Rather than implementing a duo consensus Proof-of-Work and Proof-of-Service, PIVX is secured through Proof-of-Stake. As such, users can lock 10,000 of their PIVX and run a master node that will "stake" their coins in order to reach consensus on the blockchain.  
+
 PIVX uses obfuscation, a mixing mechanism based on CoinJoin similar to DASH: inputs are gathered into one transaction and sent to multiple outputs. Theoretically, PIVX transactions can still be de-anonymised in the event of an attack or extensive blockchain analysis.
 
 **Consensus:** Proof-of-Work (PoW)
@@ -110,6 +118,7 @@ PIVX uses obfuscation, a mixing mechanism based on CoinJoin similar to DASH: inp
 
 Verge is an upcoming cryptocurrency that recently entered the market of privacy-focused tokens after a rebranding in 2016.  
 Launched in 2014 as DogeCoinDark, Verge is a Bitcoin fork built on 5 different PoW algorithms to make sure miners with different hardware set-ups can access the network.  
+
 It has a Tor and I2P integration as its Unique Selling Point: a feature that other cryptocurrencies do not promote as any individual can run a wallet on Tor in no time.
 
 **Consensus:** Proof-of-Work (PoW)
@@ -132,6 +141,7 @@ It has a Tor and I2P integration as its Unique Selling Point: a feature that oth
 ## 6. Komodo
 
 Komodo is a fork of Zcash without the 20% mining reward to developers: rather than owned by a private firm, Komodo relies on a community of developers and is part of the SuperNET project.  
+
 As such, Komodo implemented a delayed-Proof-of-Work consensus mechanism on top of ZCash. The vision here is to enable assets to build their own blockchain and be secured by Komodo's consensus mechanism - an extra layer of protection just like with 2-FA. 
 
 **Consensus:** delayed-Proof-of-Work (dPoW)
@@ -150,7 +160,8 @@ As such, Komodo implemented a delayed-Proof-of-Work consensus mechanism on top o
 
 ## 7. Particl 
 
-Launched as ShadowCoin in 2014, the project's roadmap has always been to release a decentralized peer-to-peer marketplace: a blockchain based Silkroad.
+Launched as ShadowCoin in 2014, the project's roadmap has always been to release a decentralized peer-to-peer marketplace: a blockchain based Silkroad.  
+
 While it is a not a privacy-focused cryptocurrency per se, Particl offers Darkweb marketplace users the perfect platform to purchase goods and services stealthily. And let's be honest, this is one of the main utilities of leveraging online anonymity.
 
 **Consensus:** Proof-of-Stake (PoS).
