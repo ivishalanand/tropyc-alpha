@@ -18,7 +18,7 @@ This has never been an optimal service as it is not considered “trustless” o
 
 The rise of altcoins solved this issue, or at least offered a more attractive solution to the problem. Today, there are dozens of privacy-focused cryptocurrencies, some are integrated and widely utilized on dark web marketplaces.  
 
-Let’s have a look at the main cryptocurrencies in the privacy-focused token market and how they differentiate themselves.
+Let’s have a look at the main cryptocurrencies in the privacy-focused token market and how they differentiate themselves.  
 
 ## 1. Monero
 
@@ -26,7 +26,7 @@ Launched in April 2014 and forked from Bytecoin, Monero has established itself a
 
 As such, public addresses are shuffled with older addresses on the network to avoid any identififcation. In this system, it is virtually impossible for blockchain analysts to trace back a transaction and match an identity with a public address.  
 
-Monero developers intend to implement additional anonymity features onto the network such as Kovri, a router built on the Invisible Internet Project (I2P).
+Monero developers intend to implement additional anonymity features onto the network such as Kovri, a router built on the Invisible Internet Project (I2P).  
 
 **Consensus:** Proof-of-Work (PoW).
 
@@ -49,7 +49,7 @@ Monero developers intend to implement additional anonymity features onto the net
 
 Darkcoin rebranded itself to become "DASH" in 2014. It is a cryptocurrency that mixes coins from different senders into one single transaction with multiple recipients.  
 In other words, several inputs are gathered into one emission to several outputs.  
-This protocol, once named Darksend, is now called PrivateSend and can be defined by a decentralized mixing and tumbling service built on top of a cryptocurrency's blockchain.
+This protocol, once named Darksend, is now called PrivateSend and can be defined by a decentralized mixing and tumbling service built on top of a cryptocurrency's blockchain.  
 
 **Consensus:** Proof-of-Work & Proof-of-Service (PoW, PoSe).
 
@@ -70,7 +70,7 @@ This protocol, once named Darksend, is now called PrivateSend and can be defined
 Started in 2016 by a private company, Zcash enables the verification of private transactions through zero-knowledge proofs. This protocol secures the network while allowing users to stay anonymous.  
 
 Zcash is owned by a private company based out of the USA, but its code is still open-source and available for anyone to scrutinize.
-The implemented protocol, zk-SNARKS, allows the verification of transactions sent to the network despite being encrypted.  
+The implemented protocol, zk-SNARKS, allows the verification of transactions sent to the network despite being encrypted.   
 
 The ZCash blockchain only reveals the time-stamp of a transaction without the amount, the sender and receiver's addresses.
 
@@ -143,7 +143,7 @@ It has a Tor and I2P integration as its Unique Selling Point: a feature that oth
 
 Komodo is a fork of Zcash without the 20% mining reward to developers: rather than owned by a private firm, Komodo relies on a community of developers and is part of the SuperNET project.  
 
-As such, Komodo implemented a delayed-Proof-of-Work consensus mechanism on top of ZCash. The vision here is to enable assets to build their own blockchain and be secured by Komodo's consensus mechanism - an extra layer of protection just like with 2-FA. 
+As such, Komodo implemented a delayed-Proof-of-Work consensus mechanism on top of ZCash. The vision here is to enable assets to build their own blockchain and be secured by Komodo's consensus mechanism - an extra layer of protection just like with 2-FA.  
 
 **Consensus:** delayed-Proof-of-Work (dPoW)
 
