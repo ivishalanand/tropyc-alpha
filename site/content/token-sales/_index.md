@@ -5,8 +5,8 @@ description = ""
 weight = 10
 draft = false
 bref = """
-Check out our curated list of Initial Coin Offerings.  
-We've sorted out the fundamentals, just for you.
+Curated list of Initial Coin Offerings with fundamentals.  
+Check our [rating framework] (/rating-framework) and [variable description] (/variable-description)
 """
 toc = false
 +++
