@@ -72,7 +72,7 @@ The act of "sending a bitcoin" requires 3 things :
     <div class="col-4 text-center">
       {{< img src="crypto-101/icons/key.svg" class="img-fluid" alt="Private key" >}}
     </div>
-    <div class="co-8 text-left">
+    <div class="col-8 text-left">
       <h3>Private key</h3>
       <p>Each public address is associated with a private key that unlocks the funds held on it.  In this sense, only the owner of funds stored in a public address has access to the associated private key.</p>
       <p>When a transaction is issued, the network performs a mathematical algorithm to verify whether the pair is correct. If a private key is made public then the funds are compromised - as anyone could issue a transaction.</p>
