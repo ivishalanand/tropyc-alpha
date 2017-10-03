@@ -14,7 +14,10 @@ It is the single medium of interaction between the user and different cryptocurr
 
 In fact, digital wallets store _records of transactions_ between various public addresses. All that exists is the transaction history recorded on the blockchain.
 
-Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency account through cryptography. The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) and the associated unique private key. After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
+Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency account through cryptography.  
+The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) and the associated unique private key. 
+
+After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
 
 Technically speaking, no physical object or digital file “stores” Bitcoin or any cryptocurrencies.
 
@@ -71,16 +74,17 @@ When storing your cryptocurrencies on an online wallet, such as an exchange, you
 
 An IOU refers to “I owe you”: in the cryptocurrency world, either you have full control over your private keys, or you trust a third party to store them.
 
-Bitcoin is a technology breakthrough because it allows users to hold wealth by restricting the access to their private keys, without the need of an intermediary.
+Bitcoin is a technology breakthrough because it allows users to hold wealth by restricting the access to their private keys, without the need of an intermediary.  
+
 Trusting a third party in cryptocurrency is similar to the current centralised fiat economy.
 
-**WARNING! You do not own crypto-assets stored on exchanges and online wallets, you only own a promise that a third party will give you back your funds – nothing less, nothing more.**
+**WARNING!** You do not own crypto-assets stored on exchanges and online wallets, you only own a promise that a third party will give you back your funds – nothing less, nothing more.
 
 ### Hot
 
 Hot wallet owners have full ownership over their digital money, as they do not require to trust any third parties. As such, private keys are stored locally rather than on a middleman's system.
 
-However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers and viruses because they are connected to the internet.
+However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers and viruses because they are connected to the internet.  
 An attacker can still take hold of your private keys if you haven't secured them well on your device.
 
 ### Cold
