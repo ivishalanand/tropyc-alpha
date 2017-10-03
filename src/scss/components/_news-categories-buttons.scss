@@ -1,4 +1,4 @@
-.btn-altcoin, .btn-bitcoin, .btn-ico, .btn-guide, .btn-bank {
+.btn-altcoin, .btn-bitcoin, .btn-ico, .btn-guide, .btn-bank, .btn-tech {
 	color: #FFF;
 
 	&:hover {
@@ -19,9 +19,13 @@
 }
 
 .btn-guide {
-	background: $purple;
+	background: $cyan;
 }
 
 .btn-bank {
 	background: $orange;
+}
+
+.btn-tech {
+	background: $purple;
 }
