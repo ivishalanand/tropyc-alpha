@@ -1,6 +1,6 @@
 +++
 title = "What is an Initial Coin Offering ?"
-date = 2017-08-30T18:35:39+02:00
+date = 2017-09-28T18:35:39+02:00
 categories = ["ICO"]
 draft = false
 description = "ICOs raise more funds than startups: no more market entry barriers for crowd funding and investing."
