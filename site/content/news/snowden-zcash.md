@@ -4,7 +4,7 @@ date = 2017-10-03T20:07:03+02:00
 categories = ["Altcoin"]
 draft = false
 description = "Famous NSA whistleblower endorsed Digital Currency Group's machinery and bashed Monero"
-weight = 5
+weight = 10
 image = "snowden"
 +++
 
