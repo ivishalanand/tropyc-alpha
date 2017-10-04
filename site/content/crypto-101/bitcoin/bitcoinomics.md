@@ -28,10 +28,12 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 * Bitcoins are becoming more scarce.
 * Its monetary system is not inflationist like in fiat, but dis-inflationist
 
-<p class="text-center">Bitcoin is a new kind of money that holds different fundamentals.</p> 
+**Bitcoin is a new kind of money that holds different fundamentals.**
+
+
 <p class="text-center">Let's define its possible use cases as a form of money.</p>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/currency.svg" class="img-fluid" alt="Gold coins" >}}
@@ -54,7 +56,10 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 ## Functions of Bitcoin
 
 Everyone can use Bitcoin.  
-Unlike conventional currencies, most of Bitcoin holders are individuals rather than institutions. Although Bitcoin is appealing to new audiences by the day, would it be institutionalised investors or individuals, it's hard to estimate the proportion of household capital in the cryptocurrency economy.  
+
+Unlike conventional currencies, most of Bitcoin holders are individuals rather than institutions.  
+Although Bitcoin is appealing to new audiences by the day, would it be institutionalised investors or individuals, it's hard to estimate the proportion of household capital in the cryptocurrency economy.  
+
 Still, anyone can look up the amount of every public address on the blockchain: the data is free, accessible and transparent.
 
 <div class="container my-4">
@@ -106,11 +111,13 @@ It is important to note that in the cryptocurrency world, Bitcoin IS the unit of
 ### Medium of exchange
 
 The last and most important feature of money is the ability to transfer value from one peer to another. Bitcoin is a perfect medium of exchange thanks to its core features we reviewed in Chapter I.
+
 Bitcoin's fast, safe and low-cost transactions triggered the exponential demand for cryptocurrencies and made Bitcoin what it is today.  
 There is no doubt that digital currencies are outperforming conventional banking services in cross-border and high amount settlements.  
 As for domestic and low ticket transactions, debit and credit card as well as mobile money are all faster and cheaper for consumers.
 
 At first, Bitcoin as a medium of exchange started on the dark web. Its primary use was for settling payments on illegal marketplaces to order illicit goods. Bitcoin's ability to dissociate someone's identity with financial transactions made it the perfect "drug money".  
+
 Today, many well-reputable merchants have integrated Bitcoin as a form of payment.
 
 {{< img src="crypto-101/infographics/info-btc4-1.png" class="img-fluid" alt="Sending money overseas BTC vs USD" >}}
@@ -164,8 +171,10 @@ Cryptocurrency markets are open 24/7 non-stop on online exchanges: you can trade
     </div>
  </div>
 
-Bitcoin has pioneered digital money and is therefore witnessing tremendous growth. Thanks to its flexibility towards privacy, its peer-to-peer transactions, supply scarcity and hedging opportunity against the fiat economy, Bitcoin offers an attractive investment opportunity and fulfils to some extent the functions of money.
+Bitcoin has pioneered digital money and is therefore witnessing tremendous growth.  
+Thanks to its flexibility towards privacy, its peer-to-peer transactions, supply scarcity and hedging opportunity against the fiat economy, Bitcoin offers an attractive investment opportunity and fulfils to some extent the functions of money.
 
-Prices are not stable and very volatile compared to traditional currencies: it is not uncommon to witness a 50% price variation in a couple of weeks. A similar pattern in fiat currencies would shake up the global economy.
+Prices are not stable and very volatile compared to traditional currencies: it is not uncommon to witness a 50% price variation in a couple of weeks.   
+A similar pattern in fiat currencies would shake up the global economy.
 
 At first, the daily volume of exchange trades from fiat to cryptocurrency were ridicule, making cryptocurrencies illiquid. But Bitcoin has established itself as the leading cryptocurrency: it is now very liquid, however, the same cannot be said for other cryptocurrencies.

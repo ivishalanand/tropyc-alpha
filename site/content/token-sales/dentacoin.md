@@ -18,7 +18,7 @@ founded = "The Netherlands, 2017"
 
 features = """
 - Gathers dental specialists and patients onto one platform
-- Shifts paradighm from treatment to prevention by customised information
+- Shifts paradigm from treatment to prevention by providing customised information
 - Patient database to better understand the impact of specific treatment methods
 - Interactive aftercare mobile app, to educate users on best practices
 - Plans to implement a dental insurance scheme
