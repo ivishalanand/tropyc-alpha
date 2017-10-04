@@ -51,7 +51,12 @@ features = """
 
 [deal]
   [deal.info]
-    recap = "Funds will be used as follows: 35% Marketing, 20% development, 20% Legal, 15% Operations, 10% Community reward"
+    recap = "Funds will be used as follows: 
+    -35% Marketing 
+    -20% development 
+    -20% Legal 
+    -15% Operations
+    -10% Community reward"
   [deal.headers]
     cryptoHeader = "ETH"
   [deal.rows]
