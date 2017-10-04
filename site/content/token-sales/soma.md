@@ -14,7 +14,7 @@ industry = "Marketplace"
 currencyAccepted = "ETH"
 startDate = 2017-09-27
 endDate = 2017-11-14
-founded = "N/A, 2016"
+founded = "Finland, 2016"
 
 features = """
 - Users are able to trade physical items on a P2P marketplace.
