@@ -28,7 +28,7 @@ toc = true
 
 The main difference between fiat and Bitcoin is that the former can be printed without a limit while the latter is capped at 21 million.
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row">
     <div class="col text-center">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer USD dollars" >}}
@@ -40,7 +40,7 @@ The main difference between fiat and Bitcoin is that the former can be printed w
   </div>
  </div>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row">
     <div class="col text-left">
     	<h3>Mining Bitcoin</h3>
@@ -99,7 +99,8 @@ As such, mining Bitcoin and cryptocurrencies is a resource-draining activity tha
 
 A blockchain allows to have shared memory in a decentralized way. It serves as a publicly available and distributed digital ledger that records transactions.
 
-The Bitcoin blockchain is a series of blocks that holds transaction data of approximately 10 minutes of network activity. Miners are the ones creating new blocks by solving a mathematical formula. By doing so, the network rewards them with freshly mined Bitcoin.
+The Bitcoin blockchain is a series of blocks that holds transaction data of approximately 10 minutes of network activity. Miners are the ones creating new blocks by solving a mathematical formula.  
+By doing so, the network rewards them with freshly mined Bitcoin.
 
 {{< img src="crypto-101/infographics/info-btc3-1.png" class="img-fluid" alt="Password lock" >}}
 
@@ -130,14 +131,14 @@ Each block records the information of multiple transactions including:
   </div>
 </div>
 
-Each blockchain block stores every Bitcoin transactions that were created and confirmed by the network during a ten minute period.
+Each blockchain block stores every Bitcoin transactions that were created and confirmed by the network during a ten minute period.  
 Once a new block is mined, it is added to an immutable public distributed ledger; this is the blockchain: a chronological combination of data blocks.
 
 ## Consensus
 
 A transaction does not exist until recorded in a block. To keep the network safe and secure, miners have to reach a consensus before accepting a transaction.
 
-<div class="container my-4 text-center">
+<div class="container my-5 text-center">
   <div class="row">
     <div class="col">
       {{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="Pen signature document" >}}
@@ -157,7 +158,7 @@ A transaction does not exist until recorded in a block. To keep the network safe
   </div>
 </div>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row align-items-center">
     <div class="col-sm-6 col-md-4 text-center">
     	{{< img src="crypto-101/icons/signature.svg" class="img-fluid" alt="Pen signature document" >}}
@@ -175,7 +176,7 @@ A transaction does not exist until recorded in a block. To keep the network safe
   </div>
 </div>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row align-items-center">
     <div class="col-sm-6 col-md-8">
 	    <h3>Generate</h3>
@@ -191,7 +192,7 @@ A transaction does not exist until recorded in a block. To keep the network safe
   </div>
 </div>
 
-<div class="container my-4">
+<div class="container my-5">
   <div class="row align-items-center">
     <div class="col-sm-6 col-md-4 text-center">
     	{{< img src="crypto-101/icons/compete.svg" class="img-fluid" alt="Boxing gloves" >}}
@@ -205,7 +206,9 @@ A transaction does not exist until recorded in a block. To keep the network safe
 </div>
 
 As more miners compete for rewards, the hash problem gets tougher and tougher. This way, the difficulty to mine a block adjusts itself with the number of miners working.  
+
 Under the hood, the network sets every two weeks a new hash target value: miners need to solve the problem by providing a valid hash inferior to the target.  
+
 Retargeting makes hashing difficulty evolve with the number of miners connected to the network.
 
 ## Methodology
@@ -257,10 +260,13 @@ This ensures:
   </div>
 </div>
 
-Miners have to resolve a mathematical problem before getting rewarded by the network. If it takes more resources to solve a problem than to verify it, the system can be a Proof-of-Work economic measure.
+Miners have to resolve a mathematical problem before getting rewarded by the network.  
+If it takes more resources to solve a problem than to verify it, the system can be a Proof-of-Work economic measure.  
 Because the number of miners plugged on the Bitcoin network varies, the mining difficulty adjusts itself to the network.
 
-Every 2016 blocks, the mining difficulty changes so that the previous 2016 blocks mined would be mined in exactly two weeks from then. On average, 2016 blocks in two weeks represents one block every 10 minutes.
+Every 2016 blocks, the mining difficulty changes so that the previous 2016 blocks mined would be mined in exactly two weeks from then.
+
+On average, 2016 blocks in two weeks represents one block every 10 minutes.
 
 1. If more miners join the network, then the time to mine one single block reduces.
 2. If blocks are getting mined faster, then the mining difficulty will have to increase.

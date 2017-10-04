@@ -97,11 +97,6 @@
 		}
 	}
 
-	.point h2 {
-		text-align: left;
-		color: $gray-600;
-	}
-
 	.funding-comparison-container {
 
 		.row {
@@ -116,7 +111,7 @@
     margin: 15px 0;
 		font-size: 1.5rem;
     font-weight: 500;
-    color: $gray-600;
+    color: theme-color("primary");
   	@include media-breakpoint-down(sm) {
 			font-size: 1.2rem;
 		}
@@ -129,5 +124,6 @@
 		font-weight: 300;
 		text-align: justify;
 		font-family: "Montserrat";
+		color: $gray-600;
 	}
 }

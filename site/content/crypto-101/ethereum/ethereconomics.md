@@ -12,11 +12,13 @@ The Bitcoin network reaches network consensus on its electronic payment system b
 ## Purpose
 
 Just like with Bitcoin, the Ethereum blockchain relies on its own currency. Here, miners compete to earn Ether, Ethereum’s currency. While Bitcoin aspires to become the world’s currency, Ether has a different function: it is the “fuel” required to run decentralised computer programs.  
+
 Developers and users pay transaction fees in Ether to run and operate decentralised applications and smart contracts on the Ethereum network.  
 
 It incentivises deployment of efficient DApps (less code, means less file size, means fewer fees) and creates an eco-system that rewards contributors.  
 
 Bottom line is:   
+
 * Bitcoin is nicknamed **digital gold**,  
 * Ether, on the other hand, is considered as **digital oil**.
 
@@ -39,7 +41,9 @@ Rather than being capped at 21 million units, Ether has no fixed supply limit an
 * 2-3 Ether are sometimes rewarded to miners who generate a correct block which was not added to the chain.
 
 In this framework, 18 million Ether are added to the token supply per annum.  
+
 If this rate of generation stays permanent, the inflation will reduce every year and newly issued Ether would replace any tokens lost on the network (deleted wallets, incorrect address etc…).  
+
 However, Ethereum has switched to a Proof-of-Stake consensus: token supply fundamentals are expected to change but the overall Ether supply should not be _increased_, rather _decreased_ as per the founding team’s communication.
 
 On a short-term basis, Ether are "diluted" as the injection of 19 million units per annum has a significant impact on the total supply.  
@@ -48,6 +52,7 @@ Take into account these token economic fundamentals before investing into Ethere
 ## Transaction and wallets
 
 Just like Bitcoin, Ethereum provides a safe, fast and reliable transaction management system with a few different features.  
+
 Similarly to Bitcoin, Ethereum blocks hold a database of all transactions that occurred after the previous block.  
 Furthermore, the Ethereum blockchain issues a new block every 20-30 seconds, while Bitcoin and Litecoin blocks are generated every 10 and 2.5 minutes respectively.
 

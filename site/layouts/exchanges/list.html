@@ -25,33 +25,32 @@
    				</div>
       	</div>
         <div class="card-block">
-          <!-- <h2 class="card-title text-center">{{ .name }}</h2> -->
-          <div class="exchange-specs">
-            <div class="flex-row mb-2">
-            	<div class="flex-col-1">Payment</div>
-            	<div class="flex-col-2">{{ .payment }}</div>
+        	<div class="container exchange-specs">
+        		<div class="row mb-2">
+            	<div class="col-4">Payment</div>
+            	<div class="col-8">{{ .payment }}</div>
+        		</div>
+            <div class="row mb-2">
+            	<div class="col-4">Fiat</div>
+            	<div class="col-8">{{ .fiat }}</div>
             </div>
-            <div class="flex-row mb-2">
-            	<div class="flex-col-1">Fiat</div>
-            	<div class="flex-col-2">{{ .fiat }}</div>
+            <div class="row mb-2">
+            	<div class="col-4">Tokens</div>
+            	<div class="col-8">{{ .tokens }}</div>
             </div>
-            <div class="flex-row mb-2">
-            	<div class="flex-col-1">Tokens</div>
-            	<div class="flex-col-2">{{ .tokens }}</div>
+            <div class="row mb-2">
+            	<div class="col-4">Founded</div>
+            	<div class="col-8">{{ .founded }}</div>
             </div>
-            <div class="flex-row mb-2">
-            	<div class="flex-col-1">Founded</div>
-            	<div class="flex-col-2">{{ .founded }}</div>
+            <div class="row mb-2">
+            	<div class="col-4">Target</div>
+            	<div class="col-8">{{ .target }}</div>
             </div>
-            <div class="flex-row mb-2">
-            	<div class="flex-col-1">Target</div>
-            	<div class="flex-col-2">{{ .target }}</div>
+            <div class="row mb-2">
+            	<div class="col-4">Comments</div>
+            	<div class="col-8">{{ .comments }}</div>
             </div>
-            <div class="flex-row mb-2">
-            	<div class="flex-col-1">Comments</div>
-            	<div class="flex-col-2">{{ .comments }}</div>
-            </div>
-          </div>
+        	</div>
           <div class="text-center">
           	<a href="{{ .affiliateLink }}" target="_blank" class="btn btn-primary btn-lg mb-2">Go</a>
         	</div>

@@ -14,7 +14,7 @@
 .token-title {
   margin-top: 15px;
   font-size: 2rem;
-  color: #6f8691;
+  color: $gray-600;
 }
 
 .token-logo {
@@ -29,7 +29,7 @@
 
   h2 {
   	margin-bottom: 2rem;
-  	color: #6f8691;
+  	color: $gray-600;
   }
 }
 
@@ -63,7 +63,7 @@
   vertical-align: middle;
   font-size: 1.2rem;
   font-weight: 500;
-  color: #6f8691;
+  color: $gray-600;
 }
 
 .deal-table {
@@ -105,26 +105,12 @@
     border: 1px solid #DDD;
     padding: 20px 0;
     position: relative;
-
-    //   &::before {
-    //   content: "";
-    //   border: 2px solid #DDD;
-    //   border-radius: 50%;
-    //   width: 45px;
-    //   height: 45px;
-    //   position: absolute;
-    //   margin-left: auto;
-    //   margin-right: auto;
-    //   left: 0;
-    //   right: 0;
-    //   top: 35%;
-    // }
   }
 
   .roadmap-stage {
     font-size: 16px;
     font-weight: 400;
-    color: #6f8691;
+    color: $gray-600;
   }
 
   .roadmap-image {

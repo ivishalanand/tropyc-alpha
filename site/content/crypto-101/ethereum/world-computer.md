@@ -39,14 +39,15 @@ This methodology can be applied to every product and services. Ethereum aspires 
 
 ## World computer
 
-Bitcoin is the first use case of blockchain technology and has without any doubt disrupted the banking and financial services sector. However, Bitcoin is just one of the possible applications of a blockchain: the first cryptocurrencies acted as peer-to-peer digital currencies and were therefore limited to financial operations.
+Bitcoin is the first use case of blockchain technology and has without any doubt disrupted the banking and financial services sector.   However, Bitcoin is just one of the possible applications of a blockchain: the first cryptocurrencies acted as peer-to-peer digital currencies and were therefore limited to financial operations.  
+
 At this time, building decentralised blockchain applications required high skill sets in cryptography, computer science, economics and whatnot.
 
 Ethereum changed that.
 
 Ethereum is an open-source and decentralised software platform, built on a blockchain, which enables development of decentralised applications (DApps) on top of its infrastructure. 
 
-Thanks to Ethereum, developing DApps and issuing tokenised assets have become more accessible and less troublesome than building your own native blockchain.
+Thanks to Ethereum, developing DApps and issuing tokenised assets have become more accessible and less troublesome than building your own native blockchain.  
 The vision is to replace conventional applications - like the ones you can find on the AppStore or Google Play – with decentralised ones, that won’t be governed and controlled by any corporations or centralised entities. 
 
 In theory, no one will be able to control your information and behaviour as the system is considered “trustless” or "permissionless".
