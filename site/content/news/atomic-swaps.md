@@ -1,6 +1,6 @@
 +++
 title = "Atomic cross-chain swap will bring crypto to the next level"
-date = 2017-08-30T20:07:03+02:00
+date = 2017-10-02T20:07:03+02:00
 categories = ["Tech"]
 draft = false
 description = "Atomic swaps disintermediate cryptocurrencies transactions"
