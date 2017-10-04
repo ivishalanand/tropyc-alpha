@@ -116,7 +116,7 @@ Because of this uncertainty, miners designed a contingency plan to mitigate the 
 
 Introduced by Bitmain, a Bitcoin mining pool, UAHF is the adoption of a new Bitcoin chain with an increased block size and without the implementation of SegWit.  
 
-This proposal does not require any minimum hashing power from the network and any nodes that accept the underlying condition of UAHF is able to interact with the network.  
+This proposal does not require any minimum hashing power from the network and any node that accepts the underlying condition of UAHF is able to interact with the network.  
 
 UAHF is an alternative to Segwit as some stakeholders were not satisfied with the reduction of mining incentivisation and the separation of signatures from transaction data.  
 
