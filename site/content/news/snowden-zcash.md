@@ -3,7 +3,7 @@ title = "Edward Snowden cannot be always right"
 date = 2017-08-30T20:07:03+02:00
 categories = ["Altcoin"]
 draft = false
-description = "Famous NSA whistleblower took a endorsed Digital Currency Group's machinery and bashed Monero"
+description = "Famous NSA whistleblower took endorsed Digital Currency Group's machinery and bashed Monero"
 weight = 5
 image = "snowden"
 +++

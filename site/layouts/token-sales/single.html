@@ -113,7 +113,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active" id="deal" role="tabpanel">
-            <p>{{ .Params.deal.info.recap }}</p>
+            <p>{{ with .Params.deal.info.recap }}{{ . | markdownify }}{{ end }}</p>
             <table class="deal-table table table-sm">
               <thead>
                 <tr>
