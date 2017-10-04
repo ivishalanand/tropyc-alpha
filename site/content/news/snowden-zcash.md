@@ -59,7 +59,8 @@ A for-profit corporation handling a token does not seem fit to the decentralisat
 Compared to Monero, ZCash's token fundamentals are less attractive for users. As such, miners are taxed with a 20% fee from mining rewards disbursed to the founders for the next 4 years.  
 
 Furthermore, ZCash was set-up in closed doors in a trusted setup.  
-This means ZCash's blockchain is vulnerable to a back door if the genesis block private keys were not destroyed as advertised.  
+This means ZCash's blockchain is vulnerable to a back door if the genesis block private keys were not destroyed as advertised.
+
 ZCash token holders will always have to trust the founding team that nothing adverse happened during the token introduction, without any hard evidence to prove it.  
 In other words, there is no guarantee the US government or any other third party does not have a backdoor. 
 
