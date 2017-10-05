@@ -159,7 +159,7 @@ industry = "Prediction market"
 type = "Asset"
 description = "Prediction market built on top of Ethereum"
 
-[Steem]
+[steem]
 name = "Steem"
 year = "2016"
 industry = "Attention economy"

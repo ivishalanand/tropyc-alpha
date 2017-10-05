@@ -48,8 +48,7 @@ Example  = USD, GBP, EUR, INR, CNY
 ### Decentralised or crypto economy
 
 * Independent from any central banks, no one "owns" the Bitcoin network.
-* Rate of emission is fixed, transparent and immutable.
-<p>There will be 21 million Bitcoins, not more than that.</p>
+* Rate of emission is fixed, transparent and immutable. There will be 21 million Bitcoins, not more than that.
 * Users transact without the need of middle men or a third party.
 * Transactions are secured by encrypted digital signature and made possible by cryptography and algorithms.
 * Perfect transparency: everyone has access to every transaction that occurred on the network.
