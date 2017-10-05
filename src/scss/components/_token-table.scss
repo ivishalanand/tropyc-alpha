@@ -3,6 +3,10 @@
     display: table;
   }
 
+  th {
+  	cursor: pointer;
+  }
+
   th ,td {
     text-align: center;
     vertical-align: middle;
