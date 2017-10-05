@@ -59,6 +59,10 @@
 	    display: table-cell;
 	    vertical-align: middle;
 
+      @include media-breakpoint-down(sm) {
+    		display: none;
+			}
+
 	  	a {
 	    	position: relative;
 	    	display: block;
