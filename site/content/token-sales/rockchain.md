@@ -17,7 +17,7 @@ endDate = 2017-12-01
 founded = "France, 2017"
 
 features = """
-- Distributed file system, where all users become orchestrated of their respective datasets
+- Distributed file system and privacy-centric decentralized network for data processing
 - Distributed javascript engine that respects privacy on data nodes
 - Proof of computation where miners are incentivised to run data scripts
 """
