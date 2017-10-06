@@ -1,7 +1,7 @@
 +++
 title = "Bitcoin"
 date = 2017-08-02T16:50:40+02:00
-description = "Bitcoin description here"
+description = "Go through our beginner's guide to Bitcoin and the world of cryptocurrencies"
 weight = 1
 draft = false
 bref = ""
