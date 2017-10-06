@@ -17,7 +17,7 @@ endDate = 2017-12-01
 founded = "France, 2017"
 
 features = """
-- Distirbuted file system, where all users become orchestrated of their respective datasets
+- Distributed file system, where all users become orchestrated of their respective datasets
 - Distributed javascript engine that respects privacy on data nodes
 - Proof of computation where miners are incentivised to run data scripts
 """
@@ -29,6 +29,8 @@ features = """
   reddit = "https://www.reddit.com/r/rockchain/"
   github = "https://github.com/AlphaDinoRC/rockchain"
   medium = "https://medium.com/@alphadino/"
+  slack = "https://rockchain.slack.com"
+  
 
 [trust]
   stage = "pre-MVP"
