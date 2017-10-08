@@ -5,8 +5,8 @@ description = "Mobile money company based in South East Asia launching on blockc
 weight = 20
 draft = false
 
-trustRating = "A"
-dealRating = "B+"
+trustRating = "A-"
+dealRating = "A-"
 softCap = "$15 M"
 hardCap = "$30 M"
 platform = "Ethereum"
