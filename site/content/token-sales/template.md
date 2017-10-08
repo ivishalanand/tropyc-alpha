@@ -14,7 +14,7 @@ industry = ""
 currencyAccepted = ""
 startDate = yyyy-mm-dd
 endDate = yyyy-mm-dd
-founded = "Tropyc, 2016"
+founded = "xxxx, 2016"
 
 features = """
 - Feature 1
