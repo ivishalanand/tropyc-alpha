@@ -12,8 +12,8 @@ hardCap = ""
 platform = ""
 industry = ""
 currencyAccepted = ""
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = yyyy-mm-dd
+endDate = yyyy-mm-dd
 founded = "Tropyc, 2016"
 
 features = """
