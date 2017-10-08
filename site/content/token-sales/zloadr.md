@@ -14,7 +14,7 @@ industry = "Attention economy"
 currencyAccepted = "ETH"
 startDate = 2017-09-30
 endDate = 2017-10-31
-founded = "Tropyc, 2016"
+founded = "N/A, 2016"
 
 features = """
 - Content writers, editors, influencers and advertisers meet on one decentralised digital publishing platform
