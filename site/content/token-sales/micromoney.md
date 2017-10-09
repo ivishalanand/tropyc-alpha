@@ -19,8 +19,8 @@ founded = "Myanmar, 2015"
 features = """
 - Open Source Credit & Big Data Bureau that connects new customers to all existing financial services. 
 - Creditworthiness prediction of all customers based on ML, AI, Big Data and neural networks.
-- Registered over 95,000 unique users. over 90% of them was their first loan.
-- "Scalable franchise model" and loan collateral is not thoroughly explained
+- Registered more than 95,000 unique users, over 90% of them got disbursed their first loan.
+- "Scalable franchise model" and loan collateral is not thoroughly explained.
 """
 
 [links]
