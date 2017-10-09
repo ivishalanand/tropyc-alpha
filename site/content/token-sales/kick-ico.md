@@ -48,7 +48,7 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "calculation with the planned hard cap of 100,000 ETH"
+    cryptoHeader = "Calculation with the planned hard cap of 100,000 ETH."
   [deal.rows]
     [deal.rows.pretokensale]
       distribution = "Pre-tokensale"
