@@ -27,9 +27,18 @@
 	  	text-decoration: none;
 	  }
 
-	  img {
-	  	height: 40px;
-	  }
+		#brand-logo {
+		   background-image: url('/images/tropyc/tropyc-brand-day.png');
+		   height: 40px;
+		   width: 166px;
+		   background-size: cover;
+		   background-repeat: no-repeat;
+		   transition: background 0.5s ease-in-out;
+		}
+
+		#brand-logo:hover {
+		   background-image: url('/images/tropyc/tropyc-brand-night.png');
+		}
 	}
 }
 

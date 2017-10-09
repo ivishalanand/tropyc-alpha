@@ -14,7 +14,7 @@ industry = "Attention economy"
 currencyAccepted = "ETH"
 startDate = 2017-10-06
 endDate = 2017-10-20
-founded = "India, 2017"
+founded = "India/UK, 2017"
 
 features = """
 - Engages publishers, advertisers and target audience onto one single platform

@@ -5,7 +5,7 @@ description = "Offline and online poker gaming platform, team has experience in 
 weight = 20
 draft = false
 
-trustRating = "B+"
+trustRating = "B"
 dealRating = "B-"
 softCap = "N/A"
 hardCap = "340 K ETH"

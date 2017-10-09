@@ -12,8 +12,8 @@ hardCap = "N/A"
 platform = "Ethereum"
 industry = "Food and beverage"
 currencyAccepted = "ETH"
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = 2017-09-22
+endDate = 2017-10-20
 founded = "Japan, 2017"
 
 features = """

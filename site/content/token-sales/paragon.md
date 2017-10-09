@@ -48,6 +48,8 @@ features = """
   similar = "N/A"
 
 [deal]
+  [deal.info]
+    recap = "1 USD = 1 PRG"
   [deal.headers]
     cryptoHeader = "USD"
   [deal.rows]
@@ -55,12 +57,12 @@ features = """
       distribution = "Tokensale"
       cut = "50%"
       supply = "100,000,000"
-      cryptovalue = "41,666"
+      cryptovalue = "100,000,000"
     [deal.rows.futureTokensale]
       distribution = "Future Tokensale"
       cut = "25%"
       supply = "50,000,000"
-      cryptovalue = "216,666"
+      cryptovalue = "50,000,000"
     [deal.rows.reserve]
       distribution = "Reserve"
       cut = "20%"
