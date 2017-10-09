@@ -4,7 +4,7 @@ date = 2017-10-01T20:07:05+02:00
 categories = ["Altcoin"]
 draft = false
 description = "Increasing amount of cryptocurrencies are available to transact anonymously."
-weight = 20
+weight = 10
 image = "privacy"
 +++
 
