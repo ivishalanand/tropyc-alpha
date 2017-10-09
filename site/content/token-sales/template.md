@@ -12,8 +12,8 @@ hardCap = ""
 platform = ""
 industry = ""
 currencyAccepted = ""
-startDate = yyyy-mm-dd
-endDate = yyyy-mm-dd
+startDate = 2016-01-01
+endDate = 2016-01-02
 founded = "xxxx, 2016"
 
 features = """
