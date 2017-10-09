@@ -10,16 +10,16 @@ dealRating = "C"
 softCap = "$300 K"
 hardCap = "$20 M"
 platform = "Ethereum"
-industry = "Asset diversification"
+industry = "Index"
 currencyAccepted = "Eth"
 startDate = 2017-10-02
 endDate = 2017-12-31
 founded = "USA, 2017"
 
 features = """
-- Diversification opportunity in the very volatile and rich cryptocurrency market
-- Indexes the top coin based on objective and subjective variable powered by data analysis
-- Digital Index Coin is backed up by other currencies
+- Diversification opportunity in the very volatile and rich cryptocurrency market.
+- Indexes the top coin based on objective and subjective variable powered by data analysis.
+- Digital Index Coin is backed up by other currencies.
 
 """
 

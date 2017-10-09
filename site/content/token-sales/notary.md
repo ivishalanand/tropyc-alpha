@@ -12,8 +12,8 @@ hardCap = "$13.2 M"
 platform = "Ethereum Classic"
 industry = "Legal"
 currencyAccepted = "BTC, ETH"
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = 2017-10-10
+endDate = 2017-11-10
 founded = "Slovenia, 2017"
 
 features = """

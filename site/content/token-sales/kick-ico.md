@@ -7,13 +7,13 @@ draft = false
 
 trustRating = "A"
 dealRating = "B"
-softCap = "82.5 K ETH"
-hardCap = "165 K ETH"
+softCap = ""
+hardCap = "84 K ETH"
 platform = "Native"
 industry = "Crowdfunding"
 currencyAccepted = "ETH"
-startDate = 2017-08-01
-endDate = 2017-08-31
+startDate = 2017-08-29
+endDate = 2017-09-16
 founded = "Russia, 2017"
 
 features = """
@@ -48,7 +48,7 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    cryptoHeader = "Calculation with the planned hard cap of 100,000 ETH."
   [deal.rows]
     [deal.rows.pretokensale]
       distribution = "Pre-tokensale"

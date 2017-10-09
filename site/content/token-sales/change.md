@@ -6,7 +6,7 @@ weight = 20
 draft = false
 
 trustRating = "B"
-dealRating = "C+"
+dealRating = "B-"
 softCap = "N/A"
 hardCap = "500 M ETH"
 platform = "Ethereum"
