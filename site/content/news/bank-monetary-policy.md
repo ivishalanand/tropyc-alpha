@@ -5,7 +5,7 @@ categories = ["Bank"]
 draft = false
 description = "Cryptocurrencies can become a fair and trustworthy financial instrument"
 weight = 20
-image = "regulation"
+image = "bank-monetary-policy"
 +++
 
 Money has been at the epicentre of our society for thousands of years: it helps us trade, settle debt and purchase goods and services.  

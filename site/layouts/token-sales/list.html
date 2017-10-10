@@ -29,7 +29,7 @@
       </tr>
     </thead>
     <tbody>
-      {{ range .Data.Pages }}
+      {{ range (.Data.Pages.ByParam "endDate").Reverse }}
         <tr>
           <td class="token-name" style="background-image: url('/images/{{ (printf "tokensale-logos/%s-64.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
           <td>{{ partial "rating" .Params.trustRating }}</td>

@@ -5,7 +5,7 @@ categories = ["Bitcoin"]
 draft = false
 description = "Bitcoin Cash is a new software version of the original chain"
 weight = 20
-image = "fork"
+image = "what-the-fork"
 +++
 
 The crypto world was struck by a rather troubling event on the 1st of August: Bitcoin split into two different currencies: Bitcoin original and Bitcoin Cash. How and why did this happen?
