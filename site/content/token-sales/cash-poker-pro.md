@@ -13,7 +13,7 @@ platform = "Ethereum"
 industry = "Gaming"
 currencyAccepted = "BTC, ETH, WAVES, Fiat"
 startDate = 2017-10-26
-endDate = 2017-11-26
+endDate = 2017-11-18
 founded = "Cyprus, 2015"
 
 features = """
