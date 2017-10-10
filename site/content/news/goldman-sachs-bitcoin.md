@@ -8,27 +8,27 @@ weight = 10
 image = "goldman-sachs"
 +++
 
-Last month, JP Morgan CEO Jamie Dimon stated the first every created cryptocurrency might just be "a fraud" and "is worse than tulip bulbs." He further said that he would "fire in a second" any JP Morgan employees that would trade Bitcoin because it would be "stupid".
+Last month, JP Morgan CEO Jamie Dimon stated Bitcoin might just be "a fraud" and "is worse than tulip bulbs." He further said that he would "fire in a second" any JP Morgan employees that would trade Bitcoin because it would be "stupid".
 
 Criticism from America's leading investment bank has made the price of cryptocurrencies plumb but it quickly recovered weeks after the event.
 
-Goldman Sach, another mastodont in modern banking appears to take a whole different position on Bitcoin according to the [Wall Street Journal](https://www.wsj.com/articles/goldman-sachs-explores-a-new-world-trading-bitcoin-1506959128). As such, according to the rumour, Goldman Sachs is considering to open a trading office focused on cryptocurrencies in order to cater the increasing market demand from institutionalised clients. 
+Goldman Sachs, another heavyweight in modern banking appears to take a whole different position on Bitcoin according to the [Wall Street Journal](https://www.wsj.com/articles/goldman-sachs-explores-a-new-world-trading-bitcoin-1506959128). As such, according to the rumour, Goldman Sachs is considering opening a trading office focused on cryptocurrencies in order to cater the increasing market demand from institutionalised clients. 
 
-If it becomes confirmed, Goldman Sachs would become the first major financial institution to be directly involved in cryptocurrency investments.
+If it is confirms, Goldman Sachs would become the first major financial institution to be directly involved in cryptocurrency investments.
 
-Most established banks have been reluctant to the idea of introducing cryptocurrency focused services, mainly because of a lack of comprehensive regulatory frameworks and the hostility Bitcoin is to the banking world
+Most established banks have been reluctant to the idea of introducing cryptocurrency focused services, mainly because of a lack of comprehensive regulatory frameworks and the danger cryptocurrencies represent to the banking world.
 
 As such, in crypto, you are your own bank.
 
 Opening cryptocurrency operations could mean the issuance of a wide range of services, including:
 
-* Introduction of derivatives or Exchange Traded Fund.
+* Introduction of derivatives or Exchange Traded Funds.
 * Facilitation of Over The Counter markets.
 * Storage of cryptocurrencies and assets.
 
 "In response to client interest in digital currencies, we are exploring how best to serve them in this space" reported a Goldman Sachs spokesperson. 
 
-Morgan Stanley, another leading bank, also followed the same route as Goldman Sachs: rather than bashing cryptocurrencies like JP Morgan'S CEO, Morgan Stanley CEO came out of defence of bitcoin stating it was "more than just a fad".
+Morgan Stanley, another leading bank, also followed the same route as Goldman Sachs: rather than bashing cryptocurrencies like JP Morgan's CEO, Morgan Stanley's CEO came out in defence of bitcoin stating it was "more than just a fad".
 
 Fidelity Investments, one of the largest US-based retail investment house, integrated cryptocurrency tracking with Coinbase later in the year. 
 
