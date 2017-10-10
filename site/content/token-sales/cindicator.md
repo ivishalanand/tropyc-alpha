@@ -13,7 +13,7 @@ platform = "Ethereum"
 industry = "Asset management"
 currencyAccepted = "ETH"
 startDate = 2017-09-12
-endDate = 2017-10-12
+endDate = 2017-09-17
 founded = "Russia, 2015"
 
 features = """
