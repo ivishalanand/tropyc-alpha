@@ -17,7 +17,7 @@ endDate = 2017-11-14
 founded = "USA, 2017"
 
 features = """
-- Autonomous 'token-as-a-fund' without exit fees and minimum investment. Advice fee is 0.5% per annum
+- Autonomous 'token-as-a-fund' without exit fees and minimum investment. Advice fee is 0.5% per annum.
 - Tracks the performance of top 20 crypto tokens. 
 - Stored on a smart contract without the need of a middle man.
 - Expected to reach exchanges by January 2018 after test rebalancing.
