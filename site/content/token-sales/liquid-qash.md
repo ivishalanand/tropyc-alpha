@@ -19,7 +19,7 @@ founded = "Japan, 2014"
 features = """
 - Quoine's Liquid platform is built on top of the existing order book management system
 - Token will be used for financial settlements and transactions
-- Audited by one of the Big 4.
+- Audited by one of the Big 4
 - Product features will include automated trading strategies, “crowd-sourced” AI-driven algorithms and proprietary trading tools
 """
 
