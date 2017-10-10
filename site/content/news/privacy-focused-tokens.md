@@ -5,7 +5,7 @@ categories = ["Altcoin"]
 draft = false
 description = "Increasing amount of cryptocurrencies are available to transact anonymously."
 weight = 10
-image = "privacy"
+image = "privacy-focused-tokens"
 +++
 
 The major utility of cryptocurrencies has been to help users dissociate their identity from their financial behavior. While Bitcoin is not an _anonymous_ crypto but rather _pseudonymous_, it still is a more private form of money than fiat.  
