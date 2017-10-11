@@ -3,7 +3,7 @@ title = "Crypto20"
 date = 2017-08-13T17:30:02+02:00
 description = "Autonomous 'token-as-a-fund' that indexes the performance of the top 20 cryptocurrencies"
 weight = 20
-draft = true
+draft = false
 
 trustRating = "B"
 dealRating = "B+"
