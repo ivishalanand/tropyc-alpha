@@ -30,7 +30,7 @@
     	{{ $dataTokens := getJSON "https://api.coinmarketcap.com/v1/ticker/" }}
       {{ range $.Site.Data.tokens }}
 	        <tr>
-	          <td class="token-name" style="background-image: url('/images/{{ (printf "token-logos/%s.png" .name | urlize) }}');"><span class="label-emphasis">{{ .name }}</span></td>
+	          <td class="token-name" style="background-image: url('/images/{{ (printf "token-logos/%s.png" .name | urlize) }}');"><span>{{ .name }}</span></td>
 	          <td>{{ .year }}</td>
 	          {{ range where $dataTokens "name" .name }}
 	          	<td class="label-emphasis market-cap">${{ lang.NumFmt 0 .market_cap_usd }}</td>
