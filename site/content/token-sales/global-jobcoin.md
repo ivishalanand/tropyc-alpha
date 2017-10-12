@@ -12,14 +12,14 @@ hardCap = "200,000"
 platform = "Ethereum"
 industry = "Employment"
 currencyAccepted = "BTC, LTC, ETH, XRP"
-startDate = 2016-10-28
-endDate = 2016-12-08
+startDate = 2017-10-28
+endDate = 2017-12-06
 founded = "Switzerland, 2014"
 
 features = """
 - Existing off-blockchain product with users in 4 countries.
 - Currency to settle transactions between employer and short-term employee.
-- 1000+ recruitments per month, 1 million users
+- 1000+ recruitments per month, 1 million users.
 """
 
 [links]
@@ -28,8 +28,6 @@ features = """
   facebook = "https://www.facebook.com/globaljobcoin/"
   reddit = "https://www.reddit.com/r/Globaljobcoin/"
   github = "https://github.com/globaljobcoin/GJC/tree/master/contracts"
-  telegram = "civic"
-  slack = "civic"
   medium = "https://medium.com/@Globaljobcoin"
 
 [trust]
