@@ -5,7 +5,7 @@ require('datatables.net-bs4');
 $(document).ready(function(){
 	$.fn.dataTable.moment( 'DD/MM/YYYY' );
 
-  $('#markets').DataTable( {
+  $('#markets-table').DataTable( {
   	"lengthChange": false,
   	"pageLength": 100,
   	"order": [[ 2, 'desc' ]],
@@ -15,7 +15,7 @@ $(document).ready(function(){
     }
   });
 
-  $('#token-sales').DataTable( {
+  $('#token-sales-table').DataTable( {
   	"lengthChange": false,
   	"pageLength": 100,
   	"order": [[ 8, 'desc' ]],

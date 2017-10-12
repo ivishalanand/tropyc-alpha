@@ -1,52 +1,43 @@
 {{ define "title"}} {{ .Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
-<div class="container">
-  <div class="hero">
-    <h1>{{ .Title }}</h1>
-    <p>
-      {{ .Params.bref | markdownify }}
-    </p>
-  </div>
-  <div class="content">
-    {{ .Content }}
-  </div>
-</div>
 
-<div class="container tokens">
-  <table id="markets" class="token-table table table-responsive table-striped table-hover">
-    <thead>
-      <tr>
-        <th>Token</th>
-        <th>Year</th>
-        <th>Market Cap</th>
-        <th>Price</th>
-        <th>Industry</th>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-    	{{ $dataTokens := getJSON "https://api.coinmarketcap.com/v1/ticker/" }}
-      {{ range $.Site.Data.tokens }}
-	        <tr>
-	          <td class="token-name" style="background-image: url('/images/{{ (printf "token-logos/%s.png" .name | urlize) }}');"><span>{{ .name }}</span></td>
-	          <td>{{ .year }}</td>
-	          {{ range where $dataTokens "name" .name }}
-	          	<td class="label-emphasis market-cap">${{ lang.NumFmt 0 .market_cap_usd }}</td>
-	          	<td class="label-emphasis price">${{ lang.NumFmt 2 .price_usd }}</td>
-	          {{ else }}
-	          	<td class="label-emphasis">N/A</td>
-	          	<td class="label-emphasis">N/A</td>
-          	{{ end }}
-	          <td>{{ .industry }}</td>
-	          <td>{{ .type }}</td>
-	          <td class="token-description">{{ .description }}</td>
-	        </tr>
-      {{ end }}
-    </tbody>
-  </table>
+<div class="tokens">
+	<div class="container">
+	  <table id="markets-table" class="token-table table table-responsive table-striped table-hover">
+	    <thead>
+	      <tr>
+	        <th>Token</th>
+	        <th>Year</th>
+	        <th>Market Cap</th>
+	        <th>Price</th>
+	        <th>Industry</th>
+	        <th>Type</th>
+	        <th>Description</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	    	{{ $dataTokens := getJSON "https://api.coinmarketcap.com/v1/ticker/" }}
+	      {{ range $.Site.Data.tokens }}
+		        <tr>
+		          <td class="token-name" style="background-image: url('/images/{{ (printf "token-logos/%s.png" .name | urlize) }}');"><span>{{ .name }}</span></td>
+		          <td>{{ .year }}</td>
+		          {{ range where $dataTokens "name" .name }}
+		          	<td class="label-emphasis market-cap">${{ lang.NumFmt 0 .market_cap_usd }}</td>
+		          	<td class="label-emphasis price">${{ lang.NumFmt 2 .price_usd }}</td>
+		          {{ else }}
+		          	<td class="label-emphasis">N/A</td>
+		          	<td class="label-emphasis">N/A</td>
+	          	{{ end }}
+		          <td>{{ .industry }}</td>
+		          <td>{{ .type }}</td>
+		          <td class="token-description">{{ .description }}</td>
+		        </tr>
+	      {{ end }}
+	    </tbody>
+	  </table>
 
+	</div>
 </div>
 {{ partial "newsletter-bleed" . }}
 {{ end }}

@@ -3,26 +3,26 @@
 
 {{ define "main" }}
 
-<div class="container">
-  <div class="row">
-  	<div class="col-lg-8">
-	  	<div class="news">
+<div class="news">
+	<div class="container">
+	  <div class="row">
+	  	<div class="col-lg-8">
 
-  			{{ range first 1 .Pages.ByWeight }}
+				{{ range first 1 .Pages.ByWeight }}
 					{{ partial "article-featured" . }}
 				{{ end }}
 
-  			{{ range after 1 .Pages }}
+				{{ range after 1 .Pages }}
 		  		{{ partial "article" . }}
 				{{ end }}
 				<!-- <section>{{ partial "pagination" .}}</section> -->
 
-			</div>
-  	</div>
-  	<div class="col-lg-4 d-none d-lg-block">
-			{{ partial "news-sidebar" . }}
-  	</div>
-  </div>
+	  	</div>
+	  	<div class="col-lg-4 d-none d-lg-block">
+				{{ partial "news-sidebar" . }}
+	  	</div>
+	  </div>
+	</div>
 </div>
 
 {{ end }}
