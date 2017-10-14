@@ -12,7 +12,7 @@
 
 					<div class="article-hero">
 						<div class="picture">
-							<img src="/images/{{ (printf "news/%s.png" .Params.image | urlize) }}" alt="{{ .Params.image }}">
+							<img src="{{ (printf "%s" .Params.images | urlize) | relURL }}" alt="{{ .Params.title }}">
 						</div>
 						<div class="article-info">
 							<h3>{{ .Title }}</h3>

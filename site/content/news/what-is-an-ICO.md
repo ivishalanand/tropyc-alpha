@@ -5,7 +5,7 @@ categories = ["ICO"]
 draft = false
 description = "ICOs raise more funds than startups: no more market entry barriers for crowd funding and investing."
 weight = 20
-image = "what-is-an-ico"
+images = ["images/news/what-is-an-ico.png"]
 +++
 
 _Disclaimer: Tropyc has decided to consider the words tokensales, initial coin offerings and crowdsale interchangeable, read out why [here](/variable-description)._
