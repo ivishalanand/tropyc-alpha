@@ -1,12 +1,4 @@
-#markets-table_wrapper {
-	#markets-table_filter {
-		text-align: right;
-	}
-}
-
-#token-sales-table_wrapper {
-	#token-sales-table_filter {
-		text-align: right;
-	}
+#markets-table, #token-sales-table {
+	display: none;
 }
 

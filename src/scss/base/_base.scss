@@ -21,7 +21,12 @@
   }
 }
 
-.btn {
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
 	text-shadow: 0px 1px 1px #333;
 	min-width: 75px;
 	font-weight: 600;
