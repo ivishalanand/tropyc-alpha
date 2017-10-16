@@ -20,15 +20,10 @@
 	    	{{ $dataTokens := getJSON "https://api.coinmarketcap.com/v1/ticker/" }}
 	      {{ range $.Site.Data.tokens }}
 		        <tr>
-		          <td class="token-name" style="background-image: url('/images/{{ (printf "token-logos/%s.png" .name | urlize) }}');"><span>{{ .name }}</span></td>
+		          <td class="token-name" style="background-image: url('https://files.coinmarketcap.com/static/img/coins/64x64/{{ range where $dataTokens "name" .name }}{{ .id }}{{ end }}.png');">{{ .name }}</td>
 		          <td>{{ .year }}</td>
-		          {{ range where $dataTokens "name" .name }}
-		          	<td class="label-emphasis market-cap">${{ lang.NumFmt 0 .market_cap_usd }}</td>
-		          	<td class="label-emphasis price">${{ lang.NumFmt 2 .price_usd }}</td>
-		          {{ else }}
-		          	<td class="label-emphasis">N/A</td>
-		          	<td class="label-emphasis">N/A</td>
-	          	{{ end }}
+	          	<td class="label-emphasis market-cap"></td>
+	          	<td class="label-emphasis price"></td>
 		          <td>{{ .industry }}</td>
 		          <td>{{ .type }}</td>
 		          <td class="token-description">{{ .description }}</td>

@@ -1,27 +1,43 @@
 import 'moment';
 import './datetime-moment';
 var moment = require('moment');
+var numeral = require('numeral');
 require('datatables.net-bs4');
 require('datatables.net-buttons-bs4');
 
 $(document).ready(function(){
 	$.fn.dataTable.moment('DD/MM/YYYY');
 
-  $('#markets-table').DataTable( {
+  var marketsTable = $('#markets-table').DataTable( {
   	dom:
     "<'row'<'col-sm-3'l><'col-sm-6 text-center'><'col-sm-3 text-center'f>>" +
     "<'row'<'col-sm-12'tr>>" +
     "<'row'<'col-sm-5'i><'col-sm-7'p>>",
   	lengthChange: false,
   	pageLength: 100,
-  	order: [[ 2, 'desc' ]],
   	language: {
         search: '_INPUT_',
         searchPlaceholder: 'Search...'
-    },
-    initComplete: function(){
-        $("#markets-table").show();
     }
+  });
+
+  $.getJSON('https://api.coinmarketcap.com/v1/ticker/', function (data) {
+  	var coinData = data;
+	  marketsTable.rows().every( function (rowIdx, tableLoop, rowLoop) {
+	    var data = this.data();
+	    var cryptoName = data[0];
+	    var coinDataRow;
+	    for (var i = 0; i < coinData.length; i++) {
+	    	if (coinData[i].name == cryptoName) {
+	    		coinDataRow = coinData[i];
+	    	}
+	    }
+	    data[2] = numeral(coinDataRow.market_cap_usd).format('$0,0');
+	    data[3] = numeral(coinDataRow.price_usd).format('$0,0.00[0000]');
+	    this.data(data);
+		});
+		marketsTable.order([2, 'desc']).draw();
+		$("#markets-table").show();
   });
 
   var upcomingFilter = false;
