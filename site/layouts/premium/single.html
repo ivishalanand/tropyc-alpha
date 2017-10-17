@@ -2,134 +2,52 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-<!-- <div class="top-alert alert alert-info alert-dismissible text-center" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  Click <a href="http://eepurl.com/c4iP41" target="_blank" class="alert-link">here</a> for a 2 days <strong>free trial</strong>
-</div> -->
-<div class="premium-packs">
-  <div class="container">
-  	<div class="row no-gutters">
-  		<div class="col-xs-12 col-lg-4">
-  			<div class="premium-pack economy-pack d-flex flex-column justify-content-around align-items-center mb-3">
-  				<h2>Economy</h2>
-  				<p class="highlight">7/7 crypto analyst</p>
-  				<ul>
-						<li>- Crypto 102 content</li>
-						<li>- Portfolio design</li>
-					</ul>
-				  <a data-toggle="collapse" href="#collapseEconomy" aria-expanded="false" aria-controls="collapseEconomy">
-				    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> See more
-				  </a>
-					<div class="collapse" id="collapseEconomy">
-						<ul class="collapsed-list">
-							<li>- Introduction to crypto and bitcoin</li>
-							<li>- Purchase, manage and secure your assets</li>
-							<li>- Your risk, timeline and expected returns</li>
-						</ul>
-					</div>
-					<div class="price-details">
-						<h3>$149</h3>
-						<p class="small">3 months</p>
-  				</div>
-  				<form action="https://wt-1546b2a2cd9d040b9935724bcca1bcc0-0.run.webtask.io/premium-economy" method="POST" class="mb-2">
+<div class="premium">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-sm-8">
+				<div class="premium-details">
+					<h1>7/7 Crypto Analyst</h1>
+					<h2>Customised Support</h2>
+					<p>Personal advice, guides and insights whenever you need</p>
+					<h2>Portolio Design</h2>
+					<p>Help to design your portfolio and make better investments</p>
+					<h2>ICO Reports and Analysis</h2>
+					<p>Extra information to help you invest in the right ICOs</p>
+					<p class="small text-center">Available on your favorite channels</p>
+					<div class="premium-channels d-flex justify-content-around">
+						<img src="/images/social-media/telegram-icon.png">
+						<img src="/images/social-media/messenger-icon.png">
+						<img src="/images/social-media/skype-icon.png">
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="price-box">
+					<h3>$49</h3>
+					<p>USD / month</p>
+				</div>
+				<div class="price-buttons text-center">
+					<form action="https://wt-1546b2a2cd9d040b9935724bcca1bcc0-0.run.webtask.io/tropyc-premium" method="POST" class="my-3">
 					  <script
 					    src="https://checkout.stripe.com/checkout.js"
 					    class="stripe-button"
 					    data-key="pk_live_B9lxm0Ca2l6UWGIMsD6lhz2N"
 					    data-image="/images/tropyc/tropyc-logo.png"
 					    data-name="Tropyc Premium"
-					    data-description="Subscription - Economy - 3 Months"
-					    data-amount="14900"
+					    data-description="Subscription - 1 Month"
+					    data-amount="4900"
 					    data-locale="auto"
-					    data-panel-label="Buy Ticket"
-					    data-label="Buy Economy Ticket">
+					    data-panel-label="Buy Subscription"
+					    data-label="Pay with local currency">
 					  </script>
 					</form>
-					<a target="_blank" class="mb-3" rel="nofollow" href="https://coingate.com/pay/tropyc-economy"><img alt="CoinGate Payment Button" src="https://static.coingate.com/images/buttons/1.png" /></a>
-  			</div>
-  		</div>
-  		<div class="col-xs-12 col-lg-4">
-  			<div class="premium-pack business-pack d-flex flex-column justify-content-around align-items-center mb-3">
-  				<h2>Business</h2>
-  				<p class="highlight">All economy features</p>
-  				<ul>
-						<li>- 10 ICO reports / month</li>
-						<li>- Monthly portfolio rebalancing</li>
-					</ul>
-				  <a data-toggle="collapse" href="#collapseBusiness" aria-expanded="false" aria-controls="collapseBusiness">
-				    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> See more
-				  </a>
-					<div class="collapse" id="collapseBusiness">
-						<ul class="collapsed-list">
-							<li>- Detailed analysis of upcoming ICOs</li>
-							<li>- Fundamentals of tokens investment</li>
-							<li>- DIY cold wallet and Darkweb tutorials</li>
-						</ul>
-					</div>
-					<div class="price-details">
-						<h3>$249</h3>
-						<p class="small">6 months</p>
-  				</div>
-  				<form action="https://wt-1546b2a2cd9d040b9935724bcca1bcc0-0.run.webtask.io/premium-business" method="POST" class="mb-2">
-					  <script
-					    src="https://checkout.stripe.com/checkout.js"
-					    class="stripe-button"
-					    data-key="pk_live_B9lxm0Ca2l6UWGIMsD6lhz2N"
-					    data-image="/images/tropyc/tropyc-logo.png"
-					    data-name="Tropyc Premium"
-					    data-description="Subscription - Business - 6 Months"
-					    data-amount="24900"
-					    data-locale="auto"
-					    data-panel-label="Buy Ticket"
-					    data-label="Buy Business Ticket">
-					  </script>
-					</form>
-					<a target="_blank" class="mb-3" rel="nofollow" href="https://coingate.com/pay/tropyc-business"><img alt="CoinGate Payment Button" src="https://static.coingate.com/images/buttons/1.png" /></a>
-  			</div>
-  		</div>
-  		<div class="col-xs-12 col-lg-4">
-  			<div class="premium-pack first-class-pack d-flex flex-column justify-content-around align-items-center mb-3">
-  				<h2>First Class</h2>
-  				<p class="highlight">All business features</p>
-  				<ul>
-						<li>- All our ICO reports</li>
-						<li>- Fast-track check-in</li>
-					</ul>
-				  <a data-toggle="collapse" href="#collapseFirstClass" aria-expanded="false" aria-controls="collapseFirstClass">
-				    <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> See more
-				  </a>
-					<div class="collapse" id="collapseFirstClass">
-						<ul class="collapsed-list">
-							<li>- Mini 20 ICO reports per month</li>
-							<li>- High priority customer</li>
-							<li>- Alpha testing of tropyc 2.0</li>
-						</ul>
-					</div>
-					<div class="price-details">
-						<h3>$399</h3>
-						<p class="small">12 months</p>
-  				</div>
-  				<form action="https://wt-1546b2a2cd9d040b9935724bcca1bcc0-0.run.webtask.io/premium-first-class" method="POST" class="mb-2">
-					  <script
-					    src="https://checkout.stripe.com/checkout.js"
-					    class="stripe-button"
-					    data-key="pk_live_B9lxm0Ca2l6UWGIMsD6lhz2N"
-					    data-image="/images/tropyc/tropyc-logo.png"
-					    data-name="Tropyc Premium"
-					    data-description="Subscription - First Class - 12 Months"
-					    data-amount="39900"
-					    data-locale="auto"
-					    data-panel-label="Buy Ticket"
-					    data-label="Buy First Class Ticket">
-					  </script>
-					</form>
-					<a target="_blank" class="mb-3" rel="nofollow" href="https://coingate.com/pay/tropyc-first-class"><img alt="CoinGate Payment Button" src="https://static.coingate.com/images/buttons/1.png" /></a>
-  			</div>
-  		</div>
-  	</div>
-  </div>
+					<a target="_blank" class="my-3" rel="nofollow" href="https://coingate.com/pay/tropyc"><img alt="CoinGate Payment Button" src="https://static.coingate.com/images/buttons/1.png" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-{{ partial "newsletter-bleed" . }}
 
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}

@@ -2,11 +2,11 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-<div class="top-alert alert alert-info alert-dismissible text-center" role="alert">
+<div class="top-alert alert alert-secondary alert-dismissible text-center" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
   Have a <strong>chat</strong> with us on <a href="https://t.me/Tropyc101" target="_blank" class="alert-link">Telegram</a> <i class="fa fa-telegram" aria-hidden="true"></i>
 </div>
-<div class="banner" style="background-image: linear-gradient(-180deg, rgba(0,101,168,0.1) 0%, rgba(0,36,61,0.2) 50%), url('/images/landing-page/background.png');">
+<div class="banner" style="background-image: linear-gradient(-180deg, rgba(0,101,168,0.3) 0%, rgba(0,36,61,0.4) 50%), url('/images/landing-page/background.png');">
   <div class="banner-content">
     <h1>{{ .Title }}</h1>
     <p class="my-4"><span id="typed" class="my-5">{{ .Description }}</span></p>
@@ -90,7 +90,6 @@
 		</div>
 	</div>
 </div>
-{{ partial "newsletter-bleed" . }}
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}
 

@@ -101,7 +101,7 @@ $colors: (
 ) !default;
 
 $theme-colors: (
-  primary: #01BF86,
+  primary: #27ae60,
   secondary: $gray-600,
   success: $green,
   info: $blue,
@@ -221,7 +221,7 @@ $line-height-sm:         1.5 !default;
 $border-width: 1px !default;
 $border-color: $gray-200 !default;
 
-$border-radius:          .25rem !default;
+$border-radius:          .4rem !default;
 $border-radius-lg:       .3rem !default;
 $border-radius-sm:       .2rem !default;
 
@@ -263,7 +263,7 @@ $h6-font-size: 1rem !default;
 
 $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   "Montserrat";
-$headings-font-weight:   500 !default;
+$headings-font-weight:   400 !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
 
