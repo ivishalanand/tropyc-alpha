@@ -9,6 +9,7 @@ googleAnalytics = "UA-106154604-1"
 disqusShortname = "tropyc"
 
 [Params]
+	images = ["images/tropyc/tropyc-open-graph.png"]
   RSSLink = "/index.xml"
   author = "Tropyc"
   telegram = "Tropyc"

@@ -5,7 +5,7 @@ categories = ["Bitcoin"]
 draft = false
 description = "Rumors of Goldman Sachs entering bitcoin trading operations from official spokesperson"
 weight = 10
-image = "goldman-sachs"
+images = ["images/news/goldman-sachs.png"]
 +++
 
 Last month, JP Morgan CEO Jamie Dimon stated Bitcoin might just be "a fraud" and "is worse than tulip bulbs." He further said that he would "fire in a second" any JP Morgan employees that would trade Bitcoin because it would be "stupid".

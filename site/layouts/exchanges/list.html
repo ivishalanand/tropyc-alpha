@@ -1,64 +1,56 @@
 {{ define "title"}} {{ .Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
-<div class="container">
-  <div class="hero">
-    <h1>{{ .Title }}</h1>
-    <p>
-      {{ .Params.bref | markdownify }}
-    </p>
-  </div>
-  <div class="content">
-    {{ .Content }}
-  </div>
-</div>
-<div class="container-fluid exchanges">
-  <div class="row justify-content-center">
-  	{{ range sort .Site.Data.exchanges "weight" "asc" }}
-    <div class="col-md-6 col-xl-5">
-      <div class="exchange-card card card-outline-primary mb-3">
-      	<div class="card-header">
-    			<div class="exchange-logo" style="background-image: url('/images/{{ (printf "exchange-logos/%s.png" .name | urlize) }}')"></div>
-    			<h2 class="text-center">{{ .name }}</h2>
-    			<div class="corner-text {{ .cornerText | lower }}" style="background-image: url('/images/{{ (printf "exchange-feature/%s.svg" .cornerIcon | urlize) }}')">
-   				{{ .cornerText }}
-   				</div>
-      	</div>
-        <div class="card-block">
-        	<div class="container exchange-specs">
-        		<div class="row mb-2">
-            	<div class="col-4">Payment</div>
-            	<div class="col-8">{{ .payment }}</div>
-        		</div>
-            <div class="row mb-2">
-            	<div class="col-4">Fiat</div>
-            	<div class="col-8">{{ .fiat }}</div>
-            </div>
-            <div class="row mb-2">
-            	<div class="col-4">Tokens</div>
-            	<div class="col-8">{{ .tokens }}</div>
-            </div>
-            <div class="row mb-2">
-            	<div class="col-4">Founded</div>
-            	<div class="col-8">{{ .founded }}</div>
-            </div>
-            <div class="row mb-2">
-            	<div class="col-4">Target</div>
-            	<div class="col-8">{{ .target }}</div>
-            </div>
-            <div class="row mb-2">
-            	<div class="col-4">Comments</div>
-            	<div class="col-8">{{ .comments }}</div>
-            </div>
-        	</div>
-          <div class="text-center">
-          	<a href="{{ .affiliateLink }}" target="_blank" class="btn btn-primary btn-lg mb-2">Go</a>
-        	</div>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-  </div>
+
+<div class="exchanges">
+	<div class="container-fluid">
+	  <div class="row justify-content-center">
+	  	{{ range sort .Site.Data.exchanges "weight" "asc" }}
+	    <div class="col-md-6 col-xl-5">
+	      <div class="exchange-card card card-outline-primary mb-3">
+	      	<div class="card-header">
+	    			<div class="exchange-logo" style="background-image: url('/images/{{ (printf "exchange-logos/%s.png" .name | urlize) }}')"></div>
+	    			<h2 class="text-center">{{ .name }}</h2>
+	    			<div class="corner-text {{ .cornerText | lower }}" style="background-image: url('/images/{{ (printf "exchange-feature/%s.svg" .cornerIcon | urlize) }}')">
+	   				{{ .cornerText }}
+	   				</div>
+	      	</div>
+	        <div class="card-block">
+	        	<div class="container exchange-specs">
+	        		<div class="row mb-2">
+	            	<div class="col-4">Payment</div>
+	            	<div class="col-8">{{ .payment }}</div>
+	        		</div>
+	            <div class="row mb-2">
+	            	<div class="col-4">Fiat</div>
+	            	<div class="col-8">{{ .fiat }}</div>
+	            </div>
+	            <div class="row mb-2">
+	            	<div class="col-4">Tokens</div>
+	            	<div class="col-8">{{ .tokens }}</div>
+	            </div>
+	            <div class="row mb-2">
+	            	<div class="col-4">Founded</div>
+	            	<div class="col-8">{{ .founded }}</div>
+	            </div>
+	            <div class="row mb-2">
+	            	<div class="col-4">Target</div>
+	            	<div class="col-8">{{ .target }}</div>
+	            </div>
+	            <div class="row mb-2">
+	            	<div class="col-4">Comments</div>
+	            	<div class="col-8">{{ .comments }}</div>
+	            </div>
+	        	</div>
+	          <div class="text-center">
+	          	<a href="{{ .affiliateLink }}" target="_blank" class="btn btn-primary btn-lg mb-2">Go</a>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	    {{ end }}
+	  </div>
+	</div>
 </div>
 {{ partial "newsletter-bleed" . }}
 {{ end }}

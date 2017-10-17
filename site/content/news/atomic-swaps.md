@@ -5,7 +5,7 @@ categories = ["Tech"]
 draft = false
 description = "Atomic swaps disintermediate cross chain cryptocurrency transactions"
 weight = 20
-image = "atomic-swap"
+images = ["images/news/atomic-swap.png"]
 +++
 
 

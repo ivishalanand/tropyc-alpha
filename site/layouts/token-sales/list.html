@@ -1,52 +1,44 @@
 {{ define "title"}} {{ .Title}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
-<div class="container">
-  <div class="hero">
-    <h1>{{ .Title }}</h1>
-    <p>
-      {{ .Params.bref | markdownify }}
-    </p>
-  </div>
-  <div class="content">
-    {{ .Content }}
-  </div>
-</div>
-<div class="container token-sales">
 
-  <table id="token-sales" class="token-table table table-responsive table-striped table-hover">
-    <thead>
-      <tr>
-        <th>Token</th>
-        <th>Trust</th>
-        <th>Deal</th>
-        <th>Valuation</th>
-        <th>Cut</th>
-        <th>Platform</th>
-        <th>Industry</th>
-        <th>Start</th>
-        <th>End</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{ range (.Data.Pages.ByParam "endDate").Reverse }}
-        <tr>
-          <td class="token-name" style="background-image: url('/images/{{ (printf "tokensale-logos/%s-64.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
-          <td>{{ partial "rating" .Params.trustRating }}</td>
-          <td>{{ partial "rating" .Params.dealRating }}</td>
-          <td>{{ .Params.hardCap }}</td>
-          <td>{{ .Params.deal.rows.tokensale.cut }}</td>
-          <td>{{ .Params.platform }}</td>
-          <td>{{ .Params.industry }}</td>
-	        <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
-          <td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>
-        </tr>
-      {{ end }}
-    </tbody>
-  </table>
-  <p class="token-sales-disclaimer">We have an internal selection process to filter unattractive Tokensales.<br>
-  Listing is not endorsement - not to be considered as investment advice.</p>
+<div class="token-sales">
+	<div class="container">
 
+	  <table id="token-sales-table" class="token-table table table-responsive table-striped table-hover">
+	    <thead>
+	      <tr>
+	        <th>Token</th>
+	        <th>Trust</th>
+	        <th>Deal</th>
+	        <th>Valuation</th>
+	        <th>Cut</th>
+	        <th>Platform</th>
+	        <th>Industry</th>
+	        <th>Start</th>
+	        <th>End</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      {{ range (.Data.Pages.ByParam "endDate").Reverse }}
+	        <tr>
+	          <td class="token-name" style="background-image: url('/images/{{ (printf "tokensale-logos/%s-64.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
+	          <td>{{ partial "rating" .Params.trustRating }}</td>
+	          <td>{{ partial "rating" .Params.dealRating }}</td>
+	          <td>{{ .Params.hardCap }}</td>
+	          <td>{{ .Params.deal.rows.tokensale.cut }}</td>
+	          <td>{{ .Params.platform }}</td>
+	          <td>{{ .Params.industry }}</td>
+		        <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
+	          <td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>
+	        </tr>
+	      {{ end }}
+	    </tbody>
+	  </table>
+	  <p class="token-sales-disclaimer">We have an internal selection process to filter unattractive Tokensales.<br>
+	  Listing is not endorsement - not to be considered as investment advice.</p>
+
+	</div>
 </div>
 {{ partial "newsletter-bleed" . }}
 

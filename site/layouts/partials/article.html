@@ -1,7 +1,7 @@
 <div class="article">
 	<div class="picture">
 		<a href="{{ .URL }}" title="{{ .Title }}">
-			<img src="/images/{{ (printf "news/%s.png" .Params.image | urlize) }}" alt="{{ .Params.image }}">
+			<img src="{{ (printf "%s" .Params.images | urlize) | relURL }}" alt="{{ .Params.title }}">
 		</a>
 	</div>
 	<div class="article-info">
