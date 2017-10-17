@@ -1,5 +1,5 @@
 +++
-title = "Bitcoin.org warns about future hard fork, black lists CoinBase, Jaxx, Blockchain.info and more"
+title = "Bitcoin.org black lists CoinBase, Jaxx, Blockchain.info and more"
 date = 2017-10-15T18:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
@@ -16,7 +16,7 @@ It is stated that some businesses belonging to DGC's portfolio "are shifting the
 
 Bitcoin.org have decided not to list major DGC exchanges and products on their [exchange resource page](https://bitcoin.org/en/exchanges), including Coinbase, world's biggest bitcoin exchange. 
 
-Rather, Bitcoin.org is blaming them for manipulating public opinion and forcing the implementation of a "rushed and hasty upgrade which only has minority community support and has been thoroughly rejected by users and the technical community"
+Rather, Bitcoin.org is blaming them for manipulating public opinion and forcing the implementation of a "rushed and hasty upgrade which only has minority community support and has been thoroughly rejected by users and the technical community."
 
 
 ## Who owns Bitcoin.org?
@@ -47,23 +47,23 @@ https://twitter.com/Excellion/status/918181191727030272/photo/1
 
 ## Hard fork
 
-The intended outcome of the NYA is to double the block size limit by end of October. If so, the Bitcoin chain will split again, creating two Bitcoin blockchains :
+The intended outcome of the NYA is to double the block size limit by end of October. If so, the Bitcoin chain will split again, creating two Bitcoin blockchains:
 
-* Bitcoin original chain: SegWit
+* Bitcoin original chain: SegWit.
 * Bitcoin new 2x chain: SegWit and increased block size.
 
 Bitcoin.org and Core developers have warned users that many wallets and services owned by the Digital Currency Group are forcing users to consider Bitcoin 2x as the original chain - **which is factually incorrect**.
 
-The press release further warns that: "There is considerable mining power supporting the contentious hard fork"
+The press release further warns that: "There is considerable mining power supporting the contentious hard fork."
 
 This can be dangerous for users who do not hold their private key or store them in a mobile wallet.
 
-"Therefore storing any BTC on services such as Coinbase, Bitpay and Xapo is strongly not recommended. By storing BTC on these services, you could find that after the hard fork, your BTC has been renamed to something else or replaced entirely with the new altcoin. "
+"Therefore storing any BTC on services such as Coinbase, Bitpay and Xapo is strongly not recommended. By storing BTC on these services, you could find that after the hard fork, your BTC has been renamed to something else or replaced entirely with the new altcoin."
 
 
 ## Warning
 
-Bitcoin.org provided a list of 49 businesses that are promoting the contentious hard fork, including major companies like CoinBase, ShapeShift, Blockchain.info, Jaxx and Bitcoin.com
+Bitcoin.org provided a list of 49 businesses that are promoting the contentious hard fork, including major companies like CoinBase, ShapeShift, Blockchain.info, Jaxx and Bitcoin.com.
 
 If you store your Bitcoin on the referenced exchanges and wallets, your coins might be replaced with a new altcoin currency, implemented forcefully by a selected few players who have major stakes and power in the cryptocurrency industry.
 
@@ -82,7 +82,7 @@ More than ever, the Bitcoin community is split between two distinct parties :
 * Bitcoin.com and the Digital Currency Group (CoinDesk, CoinBase etc...) .
 
 
-Protect yourself against biased media and be sure to fully understand the implications of only following partial media houses such as CoinDesk and Bitcoin.com
+Protect yourself against biased media and be sure to fully understand the implications of only following partial media houses such as CoinDesk and Bitcoin.com.
 
 
 
