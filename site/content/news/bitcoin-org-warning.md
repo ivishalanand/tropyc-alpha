@@ -5,7 +5,7 @@ categories = ["Bitcoin"]
 draft = false
 description = "Bitcoin Core developers have condemned the promotion of an alternative Bitcoin by the Digital Currency Group and other stakeholders"
 weight = 10
-image = "bitcoin-org-warning"
+images = ["images/news/bitcoin-org-warning.png"]
 +++
 
 The Bitcoin.org web page released a statement titled "Beware of Bitcoin's possible incompatibility with some major services" on the 11th of October. 
@@ -18,7 +18,6 @@ Bitcoin.org have decided not to list major DGC exchanges and products on their [
 
 Rather, Bitcoin.org is blaming them for manipulating public opinion and forcing the implementation of a "rushed and hasty upgrade which only has minority community support and has been thoroughly rejected by users and the technical community."
 
-
 ## Who owns Bitcoin.org?
 
 The domain was first acquired by Satoshi Nakamoto and Martti Malmi, the first two Bitcoin developers.  
@@ -29,7 +28,6 @@ After 2013, Bitcoin.org became an informative and beginner's platform for any ne
 Today, the website is open-source and managed by Bitcoin Core developers and maintained via pull requests on GitHub.
 
 It is said, that any exchanges and wallets that name the new chain from the NYA "Bitcoin" will be removed from the website's repository.
- 
 
 ## New York Agreement
 
@@ -39,18 +37,17 @@ The agreement stipulated that 58 Bitcoin stakeholders would like to implement Se
 
 This agreement has often been depicted as an attempt to control Bitcoin and modify its features to best serve businesses and miners rather than the end users. 
 
-No Bitcoin Core developers ever accepted the proposed changes. 
+No Bitcoin Core developers ever accepted the proposed changes.  
 As such, the New York agreement is often referred to as a joke:
 
 https://twitter.com/Excellion/status/918181191727030272/photo/1
-
 
 ## Hard fork
 
 The intended outcome of the NYA is to double the block size limit by end of October. If so, the Bitcoin chain will split again, creating two Bitcoin blockchains:
 
-* Bitcoin original chain: SegWit.
-* Bitcoin new 2x chain: SegWit and increased block size.
+* Bitcoin original chain: SegWit
+* Bitcoin new 2x chain: SegWit and increased block size
 
 Bitcoin.org and Core developers have warned users that many wallets and services owned by the Digital Currency Group are forcing users to consider Bitcoin 2x as the original chain - **which is factually incorrect**.
 
@@ -58,8 +55,7 @@ The press release further warns that: "There is considerable mining power suppor
 
 This can be dangerous for users who do not hold their private key or store them in a mobile wallet.
 
-"Therefore storing any BTC on services such as Coinbase, Bitpay and Xapo is strongly not recommended. By storing BTC on these services, you could find that after the hard fork, your BTC has been renamed to something else or replaced entirely with the new altcoin."
-
+"Therefore we strongly advise against storing any BTC on services such as Coinbase, Bitpay and Xapo. By storing BTC on these services, you could find out that after the hard fork, your BTC has been renamed to something else or replaced entirely with the new altcoin."
 
 ## Warning
 
@@ -67,8 +63,7 @@ Bitcoin.org provided a list of 49 businesses that are promoting the contentious 
 
 If you store your Bitcoin on the referenced exchanges and wallets, your coins might be replaced with a new altcoin currency, implemented forcefully by a selected few players who have major stakes and power in the cryptocurrency industry.
 
-Furthermore, mobile wallet like Jaxx, or blockchain.info should not be considered a safe alternative to exchanges as "most mobile wallets depend on blindly trusting the longest chain produced by the miners [...] therefore the longest chain as seen by most mobile wallets may not be the true blockchain."
-
+Furthermore, mobile wallets like Jaxx, or blockchain.info should not be considered a safe alternative to exchanges as "most mobile wallets depend on blindly trusting the longest chain produced by the miners [...] therefore the longest chain as seen by most mobile wallets may not be the true blockchain."
 
 ## Rivalry
 
@@ -78,14 +73,7 @@ Evidence also suggests that Roger Ver has been trying to [sabotage the implement
 
 More than ever, the Bitcoin community is split between two distinct parties :
 
-* Bitcoin.org and the Core Bitcoin team: promotes SegWit without any block size change.
-* Bitcoin.com and the Digital Currency Group (CoinDesk, CoinBase etc...) .
-
+* Bitcoin.org and the Core Bitcoin team: promotes SegWit without any block size change
+* Bitcoin.com and the Digital Currency Group (CoinDesk, CoinBase etc...)
 
 Protect yourself against biased media and be sure to fully understand the implications of only following partial media houses such as CoinDesk and Bitcoin.com.
-
-
-
-
-
-
