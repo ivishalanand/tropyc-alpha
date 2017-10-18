@@ -1,6 +1,6 @@
 +++
 title = "Rating Framework"
-description = "Understand Tropyc's tokensale scoring sheet"
+description = "Understand Tropyc's tokensale scoring sheet."
 +++
 
 ## Definition
