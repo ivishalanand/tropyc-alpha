@@ -51,35 +51,33 @@ features = """
   [deal.info]
     recap = "Calculation based on hard cap."
   [deal.headers]
-    cryptoHeader = "USD"
+    valuationHeader = "USD"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "84%"
       supply = "50,400,000"
-      cryptovalue = "25,200,000"
+      value = "25,200,000"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "8%"
       supply = "4,800,000"
-      cryptovalue = "2,400,000"
-      fiatvalue = "15 M"
+      value = "2,400,000"
     [deal.rows.earlyInvestors]
       distribution = "Early investors"
       cut = "4%"
       supply = "2,400,000"
-      cryptovalue = "1,200,000"
+      value = "1,200,000"
     [deal.rows.futureEmission]
       distribution = "Bounty"
       cut = "4%"
       supply = "2,400,000"
-      cryptovalue = "1,200,000"
+      value = "1,200,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "60,000,000"
-      cryptovalue = "30,000,000"
-    
+      value = "30,000,000"
 
 [roadmap]
   website = true

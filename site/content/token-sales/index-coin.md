@@ -20,7 +20,6 @@ features = """
 - Diversification opportunity in the very volatile and rich cryptocurrency market.
 - Indexes the top coin based on objective and subjective variable powered by data analysis.
 - Digital Index Coin is backed up by other currencies.
-
 """
 
 [links]
@@ -48,28 +47,28 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    valuationHeader = "ETH"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "70%"
       supply = "140,000,000"
-      cryptovalue = "14,000,000"
+      value = "14,000,000"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "10%"
       supply = "20,000,000"
-      cryptovalue = "2,000,000"
+      value = "2,000,000"
     [deal.rows.dividends]
       distribution = "Dividends"
       cut = "20%"
       supply = "40,000,000"
-      cryptovalue = "4,000,000"
+      value = "4,000,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "200,000,000"
-      cryptovalue = "20,000,000"
+      value = "20,000,000"
 
 
 [roadmap]

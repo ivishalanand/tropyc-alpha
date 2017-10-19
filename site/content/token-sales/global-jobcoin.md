@@ -50,28 +50,28 @@ features = """
   [deal.info]
     recap = "Pre-ICO 50% Bonus"
   [deal.headers]
-    cryptoHeader = "ETH"
+    valuationHeader = "ETH"
   [deal.rows]
     [deal.rows.pretokensale]
       distribution = "Pre-tokensale"
       cut = "10%"
       supply = "10,000,000"
-      cryptovalue = "30,000"
+      value = "30,000"
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "60%"
       supply = "60,000,000"
-      cryptovalue = "110,000"
+      value = "110,000"
     [deal.rows.founders]
       distribution = "Organisation"
       cut = "30%"
       supply = "30,000,000"
-      cryptovalue = "60,000"
+      value = "60,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
-      cryptovalue = "200,000"
+      value = "200,000"
 
 [roadmap]
   website = true

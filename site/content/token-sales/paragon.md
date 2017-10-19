@@ -51,33 +51,33 @@ features = """
   [deal.info]
     recap = "1 USD = 1 PRG"
   [deal.headers]
-    cryptoHeader = "USD"
+    valuationHeader = "USD"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "50%"
       supply = "100,000,000"
-      cryptovalue = "100,000,000"
+      value = "100,000,000"
     [deal.rows.futureTokensale]
       distribution = "Future Tokensale"
       cut = "25%"
       supply = "50,000,000"
-      cryptovalue = "50,000,000"
+      value = "50,000,000"
     [deal.rows.reserve]
       distribution = "Reserve"
       cut = "20%"
       supply = "40,000,000"
-      cryptovalue = "40,000,000"
+      value = "40,000,000"
     [deal.rows.community]
       distribution = "Community"
       cut = "5%"
       supply = "10,000,000"
-      cryptovalue = "10,000,000"
+      value = "10,000,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "200,000,000"
-      cryptovalue = "200,000,000"
+      value = "200,000,000"
 
 [roadmap]
   website = true

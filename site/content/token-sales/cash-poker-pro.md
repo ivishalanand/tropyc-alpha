@@ -48,38 +48,38 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "ETH"
+    valuationHeader = "ETH"
   [deal.rows]
     [deal.rows.pretokensale]
       distribution = "Pre-tokensale"
       cut = "8%"
       supply = "8,000,000"
-      cryptovalue = "29,600"
+      value = "29,600"
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "60%"
       supply = "60,000,000"
-      cryptovalue = "216,666"
+      value = "216,666"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "12%"
       supply = "30,000,000"
-      cryptovalue = "40,800"
+      value = "40,800"
     [deal.rows.earlyInvestors]
       distribution = "Early Investors"
       cut = "10%"
       supply = "5,000,000"
-      cryptovalue = "34,000"
+      value = "34,000"
     [deal.rows.miners]
       distribution = "Miners"
       cut = "10%"
       supply = "10,000,000"
-      cryptovalue = "34,000"
+      value = "34,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
-      cryptovalue = "340,000"
+      value = "340,000"
 
 [roadmap]
   website = true

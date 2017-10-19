@@ -42,7 +42,7 @@
                 </div>
                 <div class="row mb-2">
                   <div class="col-5 label">Currency accepted</div>
-                  <div class="col-7">{{ .Params.currencyAccepted }}</div>
+                  <div class="col-7">{{ .Params.currencyaccepted }}</div>
                 </div>
                 <div class="row mb-2">
                   <div class="col-5 label">Founded</div>
@@ -76,11 +76,11 @@
               </div>
               <div class="row mb-3">
                 <div class="col-6 indicator-value">SOFT CAP</div>
-                <div class="col-6 indicator-rating">{{ .Params.softCap }}</div>
+                <div class="col-6 indicator-rating">{{ .Params.softcap }}</div>
               </div>
               <div class="row mb-3">
                 <div class="col-6 indicator-value">HARD CAP</div>
-                <div class="col-6 indicator-rating">{{ .Params.hardCap }}</div>
+                <div class="col-6 indicator-rating">{{ .Params.hardcap }}</div>
               </div>
             </div>
           </div>
@@ -113,14 +113,18 @@
 				<div class="tab-content">
 					<div class="tab-pane active" id="deal" role="tabpanel">
             <p>{{ with .Params.deal.info.recap }}{{ . | markdownify }}{{ end }}</p>
-            <table class="deal-table table table-sm">
+            <table id="deal-table" class="deal-table table table-sm text-center">
               <thead>
                 <tr>
                   <th></th>
                   <th>CUT</th>
                   <th>SUPPLY</th>
-                  <th>{{ .Params.deal.headers.cryptoHeader }}</th>
-                  <!-- <th>1 ETH</th> -->
+                  {{ if ne .Params.deal.headers.valuationheader "USD" }}
+										<th id="valuation-header">{{ .Params.deal.headers.valuationheader }}</th>
+                  	<th>USD</th>
+									{{ else }}
+										<th>USD</th>
+									{{ end }}
                 </tr>
               </thead>
               <tbody>
@@ -129,8 +133,12 @@
                   <td>{{ .distribution }}</td>
                   <td>{{ .cut }}</td>
                   <td>{{ .supply }}</td>
-                  <td>{{ .cryptovalue }}</td>
-                  <!-- <td>{{ .fiatvalue }}</td> -->
+                  {{ if ne $.Params.deal.headers.valuationheader "USD" }}
+										<td>{{ .value }}</td>
+										<td></td>
+									{{ else }}
+										<td>${{ .value }}</td>
+									{{ end }}
                 </tr>
                 {{ end }}
               </tbody>

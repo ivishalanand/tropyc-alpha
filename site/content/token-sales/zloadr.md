@@ -48,39 +48,38 @@ features = """
 
 [deal]
   [deal.headers]
-    cryptoHeader = "USD"
+    valuationHeader = "USD"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "60%"
       supply = "60,000,000"
-      cryptovalue = "18,600,000"
+      value = "18,600,000"
     [deal.rows.founders]
       distribution = "Team"
       cut = "25%"
       supply = "25,000,000"
-      cryptovalue = "7,750,000"
+      value = "7,750,000"
     [deal.rows.research]
       distribution = "Research"
       cut = "5%"
       supply = "5,000,000"
-      cryptovalue = "1,550,000"
+      value = "1,550,000"
     [deal.rows.development]
       distribution = "Development"
       cut = "4%"
       supply = "4,000,000"
-      cryptovalue = "1,240,000"
+      value = "1,240,000"
     [deal.rows.bounties]
       distribution = "Bounties"
       cut = "0.9%"
       supply = "900,000"
-      cryptovalue = "279,000"
+      value = "279,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
-      cryptovalue = "31,000,000"
-      fiatvalue = "100 M"
+      value = "31,000,000"
 
 [roadmap]
   website = true

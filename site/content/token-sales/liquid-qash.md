@@ -50,28 +50,28 @@ features = """
   [deal.info]
     recap = "Based on hard cap."
   [deal.headers]
-    cryptoHeader = "ETH"
+    valuationHeader = "ETH"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "50%"
       supply = "500,000,000"
-      cryptovalue = "500,000"
+      value = "500,000"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "20%"
       supply = "200,000,000"
-      cryptovalue = "200,000"
+      value = "200,000"
     [deal.rows.futureEmission]
       distribution = "Community future emission"
       cut = "30%"
       supply = "300,000,000"
-      cryptovalue = "300,000"
+      value = "300,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "1,000,000,000"
-      cryptovalue = "1,000,000"
+      value = "1,000,000"
 
 [roadmap]
   website = true

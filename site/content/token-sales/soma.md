@@ -61,23 +61,23 @@ features = """
   - 10% Community reward
   """
   [deal.headers]
-    cryptoHeader = "ETH"
+    valuationHeader = "ETH"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "90%"
       supply = "54,000,000"
-      cryptovalue = "108,000"
+      value = "108,000"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "10%"
       supply = "6,000,000"
-      cryptovalue = "12,000"
+      value = "12,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "60,000,000"
-      cryptovalue = "120,000"
+      value = "120,000"
 
 [roadmap]
   website = true

@@ -53,48 +53,48 @@ features = """
   [deal.info]
     recap = "Calculation based on hard cap, 98% of raised funds is for purchase of assets."
   [deal.headers]
-    cryptoHeader = "USD"
+    valuationHeader = "USD"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "87%"
       supply = "75,000,000"
-      cryptovalue = "75,000,000"
+      value = "75,000,000"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "7.5%"
       supply = "6,465,517"
-      cryptovalue = "6,465,517"
+      value = "6,465,517"
     [deal.rows.earlyInvestors]
       distribution = "Early investors"
       cut = "0.5%"
       supply = "431,034"
-      cryptovalue = "431,034"
+      value = "431,034"
     [deal.rows.marketing]
       distribution = "Marketing"
       cut = "2.5%"
       supply = "2,155,173"
-      cryptovalue = "2,155,173"
+      value = "2,155,173"
     [deal.rows.legal]
       distribution = "Legal"
       cut = "1%"
       supply = "862,069"
-      cryptovalue = "862,069"
+      value = "862,069"
     [deal.rows.security]
       distribution = "Security"
       cut = "1%"
       supply = "862,069"
-      cryptovalue = "862,069"
+      value = "862,069"
     [deal.rows.bounty]
       distribution = "Bounty"
       cut = "0.5%"
       supply = "431,034"
-      cryptovalue = "431,034"
+      value = "431,034"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "86,206,896"
-      cryptovalue = "86,206,896"
+      value = "86,206,896"
 
 [roadmap]
   website = true
