@@ -5,7 +5,7 @@ description = "Recommendation and community platform for the food and beverage i
 weight = 20
 draft = false
 
-trustRating = "A-"
+trustRating = "B"
 dealRating = "B-"
 softCap = "N/A"
 hardCap = "N/A"
@@ -48,6 +48,8 @@ features = """
   similar = "N/A"
 
 [deal]
+  [deal.info]
+    recap = "There is no set price for the SynchroCoin tokens, instead they will be divided based upon the total amount raised during the token crowdsale."
   [deal.headers]
     valuationHeader = "ETH"
   [deal.rows]
