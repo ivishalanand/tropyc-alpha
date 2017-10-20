@@ -46,7 +46,7 @@ features = """
 
 [deal]
   [deal.info]
-    recap = "Based on soft cap. ICO without a hard cap are vulnerable to overvaluation and fraud."
+    recap = "Based on soft cap. ICOs without a hard cap are vulnerable to overvaluation and fraud."
   [deal.headers]
     valuationHeader = "ETH"
   [deal.rows]
