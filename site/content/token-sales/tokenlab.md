@@ -6,7 +6,7 @@ weight = 20
 draft = false
 
 trustRating = "B+"
-dealRating = "B+"
+dealRating = "B-"
 softCap = "N/A"
 hardCap = "$10 M"
 platform = "Expanse & Ethereum"
@@ -14,7 +14,7 @@ industry = "Crowdfunding"
 currencyAccepted = "EXP, BTC, LTC, ETH"
 startDate = 2017-09-14
 endDate = 2017-11-30
-founded = "USA, 20116"
+founded = "USA, 2016"
 
 features = """
 - Crowdfunding product for tokens based on Expanse on top of Ethereum
@@ -49,7 +49,7 @@ features = """
 
 [deal]
   [deal.info]
-    recap = ""
+    recap = "Based on hard cap. Valuation increased drastically between exclusive and tokensale."
   [deal.headers]
     valuationHeader = "USD"
   [deal.rows]
