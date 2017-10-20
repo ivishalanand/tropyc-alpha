@@ -14,7 +14,7 @@ industry = "Crowdfunding"
 currencyAccepted = "EXP, BTC, LTC, ETH"
 startDate = 2017-09-14
 endDate = 2017-11-30
-founded = ""
+founded = "USA, 20116"
 
 features = """
 - Crowdfunding product for tokens based on Expanse on top of Ethereum
@@ -48,6 +48,8 @@ features = """
   similar = "KickICO, Neufund"
 
 [deal]
+  [deal.info]
+    recap = ""
   [deal.headers]
     valuationHeader = "USD"
   [deal.rows]
