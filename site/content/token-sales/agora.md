@@ -45,6 +45,8 @@ features = """
   similar = "Particl"
 
 [deal]
+  [deal.info]
+    recap = "Based on soft cap. ICO without a hard cap are vulnerable to overvaluation and fraud."
   [deal.headers]
     valuationHeader = "ETH"
   [deal.rows]
