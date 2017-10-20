@@ -5,16 +5,16 @@ description = "Real estate rental auction platform for landlords, tenants and re
 weight = 20
 draft = false
 
-trustRating = "B"
-dealRating = "C+"
+trustRating = "C+"
+dealRating = "C-"
 softCap = "$1 M"
 hardCap = "$20 M"
 platform = "Ethereum"
 industry = "Real estate"
 currencyAccepted = "ETH"
-startDate = 2017-09-18
-endDate = 2017-10-01
-founded = "Tropyc, 2016"
+startDate = 2017-11-25
+endDate = 2018-01-25
+founded = "N/A, 2017"
 
 features = """
 - Auction between all stakeholders of the real estate industry
@@ -48,29 +48,42 @@ features = """
   similar = "N/A"
 
 [deal]
+[deal.info]
+    recap = "Whitepaper and website suggests different information, calculation based on website."
   [deal.headers]
     valuationHeader = "USD"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
-      cut = "70%"
-      value = "14,000,000"
+      cut = "80%"
+      supply = "16,000,000"
+      value = "16,000"
     [deal.rows.founders]
       distribution = "Founders"
-      cut = "15%"
-      value = "3,000,000"
-    [deal.rows.reserve]
+      cut = "10%"
+      supply = "2,000,000"
+      value = "2,000"
+    [deal.rows.earlyInvestors]
+      distribution = "Advisors"
+      cut = "3%"
+      supply = "600,000"
+      value = "600"
+     [deal.rows.reserve]
       distribution = "Reserve"
-      cut = "12%"
-      value = "2,400,000"
+      cut = "4%"
+      supply = "800,000"
+      value = "800"
     [deal.rows.bounties]
       distribution = "Bounties"
       cut = "3%"
-      value = "600,000"
+      supply = "600,000"
+      value = "600"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
-      value = "20,000,000"
+      supply = "20,000,000"
+      value = "20,000"
+     
 
 [roadmap]
   website = true
