@@ -6,7 +6,7 @@ weight = 20
 draft = false
 
 trustRating = "B-"
-dealRating = "C"
+dealRating = "C-"
 softCap = "N/A"
 hardCap = "500 K ETH"
 platform = "Ethereum"
@@ -49,34 +49,36 @@ features = """
   similar = "Brave, Steemit"
 
 [deal]
+  [deal.info]
+    recap = "Calculated with 1ETH = 2,000 VUP"
   [deal.headers]
     valuationHeader = "ETH"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
       cut = "40%"
-      supply = "200,000"
-      value = ""
+      supply = "400,000,000"
+      value = "200,000"
     [deal.rows.founders]
       distribution = "Founders"
       cut = "40%"
-      supply = "200,000"
-      value = ""
+      supply = "400,000,000"
+      value = "200,000"
     [deal.rows.development]
       distribution = "Development"
       cut = "10%"
-      supply = "50,000"
-      value = ""
+      supply = "100,000,000"
+      value = "50,000"
     [deal.rows.legalEntity]
       distribution = "Legal entity"
       cut = "5%"
-      supply = "25,000"
-      value = ""
+      supply = "50,000,000"
+      value = "50,000"
     [deal.rows.affiliate]
       distribution = "Affiliate"
       cut = "5%"
-      supply = "25,000"
-      value = ""
+      supply = "50,000,000"
+      value = "50,000"
     [deal.rows.total]
       distribution = "Total"
       cut = "100%"
