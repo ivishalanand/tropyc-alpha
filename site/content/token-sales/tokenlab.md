@@ -49,7 +49,7 @@ features = """
 
 [deal]
   [deal.info]
-    recap = "Based on hard cap. Valuation increased drastically between exclusive and tokensale."
+    recap = "Based on hard cap. Valuation increased drastically between exclusive tokensale and tokensale."
   [deal.headers]
     valuationHeader = "USD"
   [deal.rows]

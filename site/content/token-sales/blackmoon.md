@@ -7,7 +7,7 @@ draft = false
 
 trustRating = "A"
 dealRating = "A"
-softCap = ""
+softCap = "N/A"
 hardCap = "$30 M"
 platform = "Ethereum"
 industry = "Crowdfunding"
