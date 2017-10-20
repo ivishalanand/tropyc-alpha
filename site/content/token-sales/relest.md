@@ -11,7 +11,7 @@ softCap = "$1 M"
 hardCap = "$20 M"
 platform = "Ethereum"
 industry = "Real estate"
-currencyAccepted = "ETH"
+currencyAccepted = "BTC, LTC, ETH"
 startDate = 2017-11-25
 endDate = 2018-01-25
 founded = "N/A, 2017"
@@ -51,7 +51,7 @@ features = """
 [deal.info]
     recap = "Whitepaper and website suggests different information, calculation based on website."
   [deal.headers]
-    valuationHeader = "USD"
+    valuationHeader = "ETH"
   [deal.rows]
     [deal.rows.tokensale]
       distribution = "Tokensale"
