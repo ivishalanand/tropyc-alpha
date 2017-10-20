@@ -1,7 +1,7 @@
 +++
 title = "Stack"
 date = 2017-08-13T17:30:02+02:00
-description = "Stake is a platform that will facilitate real-time cryptocurrency transactions at point of sale, between consumers and merchats."
+description = "STACK is a platform that will facilitate real-time cryptocurrency transactions at point of sale, between consumers and merchants."
 weight = 20
 draft = false
 
@@ -18,7 +18,7 @@ founded = "Switzerland, 2016"
 
 features = """
 - Creation of State channels between the customer and STACK. This provides real time transaction guarantees on the blockchain
-- Customers’ transactions will be funded through STK’s liquidity pool to make point of sale purchases instantly. 
+- Customers’ transactions will be funded through STK’s liquidity pool to make point of sale purchases instantly
 - STACK says it has partnered with an existing payment network that will allow the cryptocurrency wallet to be used at 39 million merchant locations. Video shows the logo of MasterCard.
 """
 

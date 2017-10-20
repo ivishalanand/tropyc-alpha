@@ -49,7 +49,7 @@ features = """
 
 [deal]
 [deal.info]
-    recap = "Whitepaper and website suggests different information, calculation based on website."
+    recap = "Whitepaper and website suggest different information, calculation based on website."
   [deal.headers]
     valuationHeader = "ETH"
   [deal.rows]
