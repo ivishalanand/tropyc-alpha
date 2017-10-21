@@ -7,8 +7,8 @@ draft = false
 
 trustRating = "A"
 dealRating = "B"
-softCap = "6,545"
-hardCap = "564,263"
+softCap = "6,545 ETH"
+hardCap = "564 K ETH "
 platform = "Ethereum"
 industry = "Retail payment"
 currencyAccepted = "ETH"
