@@ -17,8 +17,8 @@ endDate = 2017-12-21
 founded = "N/A, 2017"
 
 features = """
-- Decentralized DropDeck Token (DDD) serves 4 utilities: contribution/loan, score verification, contribution rewards, premium features.
-- Investors can either lend or contribute with royality financing to projects on the platform.
+- Decentralized DropDeck Token (DDD) serves 4 utilities: contribution/loan, score verification, contribution rewards, premium features
+- Investors can either lend or contribute to projects with either royalty or dead financing.
 - Ventures can seek funds and are scored by the community.
 - Contributors are rewarded for scoring projects.
 """
