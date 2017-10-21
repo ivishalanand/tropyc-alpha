@@ -83,7 +83,6 @@ features = """
       cut = "100%"
       supply = "20,000,000"
       value = "20,000"
-     
 
 [roadmap]
   website = true
