@@ -49,7 +49,7 @@ The intended outcome of the NYA is to double the block size limit by end of Octo
 * Bitcoin original chain: SegWit
 * Bitcoin new 2x chain: SegWit and increased block size
 
-Bitcoin.org and Core developers have warned users that many wallets and services owned by the Digital Currency Group are forcing users to consider Bitcoin 2x as the original chain - **which is factually incorrect**.
+Bitcoin.org and Core developers have warned users that many wallets and services owned by the Digital Currency Group are forcing users to consider Bitcoin 2x as the original chain. **Bitcoin Segwit2x is not the original chain.**
 
 The press release further warns that: "There is considerable mining power supporting the contentious hard fork."
 
