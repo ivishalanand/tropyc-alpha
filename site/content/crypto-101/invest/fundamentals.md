@@ -84,13 +84,13 @@ It is safe to avoid any investment opportunities that:
 
 #### Crypto terminology
 
-* *Fiat*: Money controlled and monitored by a central bank (dollar, euro, yen).
+* **Fiat**: Money controlled and monitored by a central bank (dollar, euro, yen).
 
-*  *Cryptocurrency*: Digital money that works on cryptography to secure transactions and create transparently additional units of the currency.
+*  **Cryptocurrency**: Digital money that works on cryptography to secure transactions and create transparently additional units of the currency.
 
-*  *Bitcoin*: First cryptocurrency.
+*  **Bitcoin**: First cryptocurrency created by Satoshi Nakamoto in 2009.
 
-*  *Altcoin*: Cryptocurrencies other than Bitcoin.
+*  **Altcoin**: Cryptocurrencies other than Bitcoin.
 
 #### Investment
 
