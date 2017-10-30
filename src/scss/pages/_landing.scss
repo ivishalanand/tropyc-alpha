@@ -10,7 +10,7 @@
 }
 
 .landing-hero {
-	margin: 100px 0 100px;
+	margin: 60px 0 80px;
 
 	h1 {
 		font-size: 3.5rem;
@@ -20,11 +20,54 @@
 	}
 
 	p {
+		max-width: 70%;
 		margin-bottom: 0;
 		font-size: 1.1rem;
 		color: $gray-600;
 	}
+
+	#landing-hero-image {
+		height: 350px;
+	}
 }
+
+.landing-features {
+	padding-bottom: 60px;
+	background: #f7f8fc;
+	position: relative;
+  overflow: hidden;
+
+	.curve {
+	  position: absolute;
+	  background: white;
+	  border-radius: 0 0 100% 100%;
+	  left: 0px;
+	  right: 0;
+	  top: -50%;
+	  bottom: 33%;
+	}
+
+	.feature-box {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		background: #fff;
+		padding: 1.5rem;
+    box-shadow: 0 10px 25px 0 rgba(49,49,93,0.1);
+    border-radius: 5px;
+		text-align: center;
+
+		img {
+			height: 100px;
+		}
+
+		h2 {
+			font-size: 1.2rem;
+			font-weight: 600;
+			margin-bottom: 1rem;
+		}
+	}
+}
+
 
 .bleed {
 	height: 250px;

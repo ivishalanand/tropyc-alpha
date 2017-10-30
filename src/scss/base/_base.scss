@@ -20,13 +20,22 @@
   }
 }
 
-.btn-default,
 .btn-primary,
+.btn-secondary,
 .btn-success,
-.btn-info,
+.btn-danger,
 .btn-warning,
-.btn-danger {
-	text-shadow: 0px 1px 1px #333;
+.btn-info,
+.btn-light,
+.btn-dark,
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-success,
+.btn-outline-danger,
+.btn-outline-warning,
+.btn-outline-info,
+.btn-outline-light,
+.btn-outline-dark {
 	min-width: 75px;
 	font-weight: 600;
 	font-family: "Nunito";
