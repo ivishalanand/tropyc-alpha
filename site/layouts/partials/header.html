@@ -9,7 +9,7 @@
 	  <div class="navbar-tropyc-right d-none d-lg-block">
 	    {{ $currentPage := . }}
 	    {{ range .Site.Menus.main }}
-	      <a href="{{ .URL }}" class="navbar-tropyc-item navbar-tropyc-link" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>{{ .Name }}</a>
+	      <a href="{{ .URL }}" class="navbar-tropyc-item navbar-tropyc-link {{ if  $currentPage.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
 	    {{end}}
 	    <a href="/premium/" class="btn btn-sm navbar-tropyc-button">Premium</a>
 	  </div>
@@ -21,7 +21,7 @@
 	      <ul class="dropdown-menu dropdown-menu-right navbar-tropyc-dropdown-menu">
 	        {{ $currentPage := . }}
 	        {{ range .Site.Menus.main }}
-	          <li><a href="{{ .URL }}" class="navbar-tropyc-item navbar-tropyc-link" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>{{ .Name }}</a></li>
+	          <li><a href="{{ .URL }}" class="navbar-tropyc-item navbar-tropyc-link {{ if  $currentPage.IsMenuCurrent "main" . }}active{{ end }}" >{{ .Name }}</a></li>
 	        {{end}}
 	        <li><a href="/premium/" class="navbar-tropyc-item navbar-tropyc-link">Premium</a></li>
 	      </ul>

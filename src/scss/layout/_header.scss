@@ -18,6 +18,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  .active {
+  	font-weight: 700;
+  	color: theme-color("primary");
+  }
 }
 
 /* Basic navbar item */
