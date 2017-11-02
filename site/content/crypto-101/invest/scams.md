@@ -1,6 +1,6 @@
 +++
 title = "Scams"
-date = 2017-08-02T15:20:40+02:00
+date = 2017-08-02T21:00:00+02:00
 description = "No one wants to get scammed, but truth is, crypto is filled with malicious agents. Follow our guide to minimise the risk of fraudulent attacks."
 draft = false
 bref = ""
