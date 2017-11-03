@@ -31,7 +31,7 @@ name = "Ripple"
 year = "2014"
 industry = "Interbank settlement"
 type = "Currency"
-description = "Hands with hands with leading financial institutions"
+description = "Centralised distributed ledger working with leading financial institutions"
 
 [nem]
 name = "NEM"
