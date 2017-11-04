@@ -42,7 +42,7 @@
 		          	</div>
 	          	</div>
 	          </td>
-	          <td>{{ .Params.hardCap }}</td>
+	          <td class="{{ .Params.deal.headers.valuationHeader }}">{{ .Params.deal.rows.total.value }}</td>
 	          <td>{{ .Params.deal.rows.tokensale.cut }}</td>
 		        <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
 	          <td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>

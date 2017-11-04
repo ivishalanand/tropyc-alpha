@@ -8,6 +8,8 @@ require('datatables.net-buttons-bs4');
 $(document).ready(function(){
 	$.fn.dataTable.moment('DD/MM/YYYY');
 
+	// Markets Table
+
   var marketsTable = $('#markets-table').DataTable( {
   	dom:
     "<'row'<'col-sm-12'f>>" +
@@ -21,27 +23,31 @@ $(document).ready(function(){
     }
   });
 
-  $.getJSON('https://api.coinmarketcap.com/v1/ticker/', function (data) {
-  	var coinData = data;
-	  marketsTable.rows().every( function (rowIdx, tableLoop, rowLoop) {
-	    var data = this.data();
+  if ($("#markets-table").length) {
+		$.getJSON('https://api.coinmarketcap.com/v1/ticker/', function (data) {
+	  	var coinData = data;
+		  marketsTable.rows().every( function (rowIdx, tableLoop, rowLoop) {
+		    var data = this.data();
 
-	  	var rowNode = this.node();
-	    var cryptoName = $(rowNode).find('#name')[0].innerText;
+		  	var rowNode = this.node();
+		    var cryptoName = $(rowNode).find('#name')[0].innerText;
 
-	    var coinDataRow;
-	    for (var i = 0; i < coinData.length; i++) {
-	    	if (coinData[i].name == cryptoName) {
-	    		coinDataRow = coinData[i];
-	    	}
-	    }
-	    data[2] = numeral(coinDataRow.market_cap_usd).format('$0,0');
-	    data[3] = numeral(coinDataRow.price_usd).format('$0,0.00[0000]');
-	    this.data(data);
-		});
-		marketsTable.order([2, 'desc']).draw();
-		$("#markets-table").show();
-  });
+		    var coinDataRow;
+		    for (var i = 0; i < coinData.length; i++) {
+		    	if (coinData[i].name == cryptoName) {
+		    		coinDataRow = coinData[i];
+		    	}
+		    }
+		    data[2] = numeral(coinDataRow.market_cap_usd).format('$0,0');
+		    data[3] = numeral(coinDataRow.price_usd).format('$0,0.00[0000]');
+		    this.data(data);
+			});
+			marketsTable.order([2, 'desc']).draw();
+			$("#markets-table").show();
+	  });
+  }
+
+  // Tokensales table
 
   var upcomingFilter = false;
 	var ongoingFilter = false;
@@ -126,4 +132,34 @@ $(document).ready(function(){
 		);
   	tokenSalesTable.draw();
   };
+
+  if ($("#token-sales-table").length) {
+		$.getJSON('https://api.coinmarketcap.com/v1/ticker/', function (data) {
+	  	var coinData = data;
+		  tokenSalesTable.rows().every( function (rowIdx, tableLoop, rowLoop) {
+		  	var data = this.data()
+		    var rowNode = this.node();
+		    var valuationCell = rowNode.cells[1];
+
+		    var currency = valuationCell.className;
+		    var amount = valuationCell.innerText;
+
+		    var coinDataRow;
+		    for (var i = 0; i < coinData.length; i++) {
+		    	if (coinData[i].symbol == currency) {
+		    		coinDataRow = coinData[i];
+		    	}
+		    }
+		    if (coinDataRow && amount) {
+		    	var cryptoValuation = numeral(data[1])._value;
+		    	var cryptoPrice = numeral(coinDataRow.price_usd)._value;
+		    	var valuationUSD = cryptoValuation * cryptoPrice;
+		    	valuationCell.innerText = numeral(valuationUSD).format('($0,0)');
+		    } else if (amount) {
+		    	valuationCell.innerText = numeral(amount).format('($0,0)');
+		    }
+		    valuationCell.style.display = 'table-cell';
+			});
+	  });
+  }
 });
