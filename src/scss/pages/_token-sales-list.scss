@@ -8,6 +8,12 @@
 	}
 
 	.token-sales-disclaimer {
-	  font-weight: 400;
+
+		p {
+			margin-bottom: 0;
+			text-align: center;
+			font-size: 80%;
+			color: $gray-600;
+		}
 	}
 }

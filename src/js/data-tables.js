@@ -12,7 +12,7 @@ $(document).ready(function(){
   	dom:
     "<'row'<'col-sm-12'f>>" +
     "<'row'<'col-sm-12'tr>>" +
-    "<'row'<'col-sm-5'i><'col-sm-7'p>>",
+    "<'row'<'col-sm-12'p>>",
   	lengthChange: false,
   	pageLength: 12,
   	language: {
@@ -55,7 +55,7 @@ $(document).ready(function(){
   	dom:
     "<'row'<'col-sm-6'f><'col-sm-6 text-right'B>>" +
     "<'row'<'col-sm-12'tr>>" +
-    "<'row'<'col-sm-5'i><'col-sm-7'p>>",
+    "<'row'<'col-sm-12'p>>",
     buttons: {
     	dom: {
     		button: {

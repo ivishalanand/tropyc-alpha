@@ -34,9 +34,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ## Interpretation
 
-<table class="table table-striped">
+<table class="table table-striped rf-interpretation-table">
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th></th>
       <th>TRUST</th>
       <th>DEAL</th>
@@ -44,17 +44,17 @@ Our intent is to make the ICO screening process less confusing and more transpar
   </thead>
   <tbody>
     <tr>
-      <td class="text-success font-weight-bold">A</td>
+      <td>A</td>
       <td>Safe environment</td>
       <td>Strong project</td>
     </tr>
     <tr>
-      <td class="text-warning font-weight-bold">B</td>
+      <td>B</td>
       <td>Questionable tokensale</td>
       <td>Average opportunity</td>
     </tr>
     <tr>
-      <td class="text-danger font-weight-bold">C</td>
+      <td>C</td>
       <td>Risk of fraud</td>
       <td>Risky investment</td>
     </tr>
@@ -65,14 +65,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Token
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
-      <th class="">VARIABLE</th>
+    <tr>
+      <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -102,14 +109,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Roadmap
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -139,14 +153,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Use-case
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -176,14 +197,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Safety
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -213,14 +241,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Team
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -252,14 +287,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Distribution
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -289,14 +331,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Economics
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -326,14 +375,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Awareness
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
@@ -363,14 +419,21 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Longevity
 
-<table class="table table-striped">
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 10%;">
+    <col style="width: 45%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+    <col style="width: 15%;">
+  </colgroup>
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr>
       <th>VARIABLE</th>
       <th>DESCRIPTION</th>
-      <th class="text-success">A</th>
-      <th class="text-warning">B</th>
-      <th class="text-danger">C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
     </tr>
   </thead>
   <tbody>
