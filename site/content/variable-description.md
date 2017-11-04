@@ -6,14 +6,18 @@ description = "Understand the crypto keywords we use and how we differientate th
   The cryptocurrency market is at a nascent stage making definition of some keywords somewhat confusing for beginners.  
 We at tropyc attempt to make crypto users' life easier by delivering the fundamentals of crypto-economics.
 
-For the past decade, tokens and coins are often seen as interchangeable although some researchers, businesses, institutions and enthusiasts differentiate coins from tokens based on their functionalities and the utility they provide to their holders. Often, a coin is reffered to as a token with solely payment attributes.
+For the past decade, tokens and coins are often seen as interchangeable although some researchers, businesses, institutions and enthusiasts differentiate coins from tokens based on their functionalities and the utility they provide to their holders.  
 
-At this stage, there are no **official definitions of tokens, coins, initial coin offerings and tokensales.**
+* a coin can operate independently, and his valued is derived from its blockchain.
+* a token is built on top of an existing blockchain and is not involved in the process of securing transactions.
 
-Because we are at the beginning of the crypto economy, Tropyc has decided not to differentiate a token and a coin and therefore considers tokensale, initial coin offering and crowdsale as interchangeable.  
+However, there are no **official definitions of tokens, coins, initial coin offerings and tokensales.**
+
+Because we are at the beginning of the crypto economy, Tropyc has decided _not_ to differentiate tokensale, initial coin offering, token generating event and crowdsale for now.  
 Rather, our focus is to differentiate tokens on their function and the utility they provide to their holders.
 
 Below are definitions of every variable we list on our tokensale description page - keep in mind that it is subject to change.
+
 
 ## Snapshot
 
@@ -32,11 +36,13 @@ Below are definitions of every variable we list on our tokensale description pag
 * **Soft / Hard cap**: Minimum/maximum total token supply valuation in either a cryptocurrency or in dollars, depending on the investment sought during the tokensale.  
 We are not evaluating the tokensale fundraising objective but rather the entire token supply.
 
+
 ## Concept
 
 * **Description**: one liner of the project, what it is and what it is trying to achieve.
 
 * **Features**: Value propositions of the project and unique selling points.
+
 
 ## Trust
 
@@ -54,6 +60,7 @@ We are not evaluating the tokensale fundraising objective but rather the entire 
 
 * **Disbursement date**: Date when the token will be released and issued to investors.
 
+
 ## Token
 
 * **Functions**: Functionalities of the token that gives value to its holders, for now, we have identified the following: access, fuel, currency, incentive, ownership, governance, asset-backed.
@@ -66,11 +73,14 @@ We are not evaluating the tokensale fundraising objective but rather the entire 
 
 * **Similar**: Tokens that have similar features and from the same industry.
 
+
 ## Deal
 
-Here we are splitting the total token supply distribution, in order to give a better understanding of how the deal is framed.
+Here we are splitting the total token supply distribution, in order to give a better understanding of how the deal is framed.  
 In our opinion, this is the most important variable to comprehend before investing in a tokensale.  
-The DEAL tab will give you the valuation of the token supply, in cryptocurrencies and in fiat. You will understand how much is the cut of founders, early investors, advisors, pre-tokensale investors, future emissions and more.
+
+The DEAL tab will give you the valuation of the token supply, in cryptocurrencies and in fiat.  
+You will understand how much is the cut of founders, early investors, advisors, pre-tokensale investors, future emissions and more.
 
 
 ## Roadmap
