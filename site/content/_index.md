@@ -1,4 +1,4 @@
 +++
 title = "Crypto made simple"
-description = "Crypto news, educational content, ICO reports and personal advising."
+description = "Crypto news, educational content, tokensale rating and personal support."
 +++
