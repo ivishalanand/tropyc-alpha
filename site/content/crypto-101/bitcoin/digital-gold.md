@@ -9,7 +9,7 @@ toc = true
 
 ## Open-source money
 
-With Bitcoin, you can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers).
+With Bitcoin, you can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers).  
 It is the first currency that operates safely and independently from government authority.
 
 Also known as "cryptocurrency", these new kinds of financial instruments offer an alternative to currencies controlled by central banks, as they are encrypted (and therefore secured) by cryptography.
@@ -59,12 +59,12 @@ Example  = Bitcoin, Litecoin, Ether, Monero etc ...
 You are obliged to trust a bank to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
 2. **Planned emission rate**
-Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...).
+Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...).  
 On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
 
 3. **Transparent disbursement**
-In fiat, we are not aware of how governments and large financial institutions spend freshly issued money.
-Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called *the blockchain*.
+In fiat, we are not aware of how governments and large financial institutions spend freshly issued money.  
+Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called *the blockchain*.  
 Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
 
@@ -103,10 +103,10 @@ Additionally, Bitcoin holders have the choice to dissociate their wealth and the
 
 ## Founder
 
-In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.
+In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.  
 Supported by a team of developers and managed by Satoshi, the Bitcoin protocol came to notice in 2011 in mainstream media.
 
-It is the most famous cryptocurrency and the largest one by market capitalisation.
+It is the most famous cryptocurrency and the largest one by market capitalisation.  
 Mind that there are now over a thousand cryptocurrencies and crypto assets.
 
 
@@ -131,7 +131,7 @@ Mind that there are now over a thousand cryptocurrencies and crypto assets.
 </div>
 
 
-Bitcoin offers an alternative to our financial system: it removes the concept of a middleman in a monetary transaction.
+Bitcoin offers an alternative to our financial system: it removes the concept of a middleman in a monetary transaction.  
 It is the same way we were able to send messages via e-mail without the need for a third party postal service.
 
 You can now do the same ... but with money.
