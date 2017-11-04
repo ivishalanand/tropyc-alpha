@@ -34,9 +34,9 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ## Interpretation
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
-    <tr class="text-center font-weight-bold">
+    <tr class="text-center">
       <th></th>
       <th>TRUST</th>
       <th>DEAL</th>
@@ -65,7 +65,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Token
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th class="">VARIABLE</th>
@@ -102,7 +102,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Roadmap
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
@@ -139,7 +139,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Use-case
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
@@ -176,7 +176,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Safety
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
@@ -213,7 +213,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Team
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
@@ -252,7 +252,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Distribution
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
@@ -289,7 +289,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Economics
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
@@ -326,7 +326,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Awareness
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
@@ -363,7 +363,7 @@ Our intent is to make the ICO screening process less confusing and more transpar
 
 ### Longevity
 
-<table class="table table-striped">
+<table class="table table-sm table-striped my-4">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>VARIABLE</th>
