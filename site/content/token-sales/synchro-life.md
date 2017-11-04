@@ -2,6 +2,7 @@
 title = "Synchro Life"
 date = 2017-08-13T17:30:02+02:00
 description = "Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear"
+bref = "Recommendation and community platform for the food and beverage industry"
 weight = 20
 draft = false
 

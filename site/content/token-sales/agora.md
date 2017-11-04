@@ -2,6 +2,7 @@
 title = "Agora"
 date = 2017-08-13T17:30:02+02:00
 description = "Agora's idea is to create a private and decentralised marketplace on top of the Ethereum blockchain. It is currently at the ideation stage and has not shared any relevant work nor experience to justify their ability to deliver"
+bref = "P2P e-commerce marketplace"
 weight = 20
 draft = false
 

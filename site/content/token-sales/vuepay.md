@@ -1,7 +1,8 @@
 +++
 title = "VuePay"
 date = 2017-08-13T17:30:02+02:00
-description = "P2P platform where advertisers can directly target potential customers using demographics variables such as age range, gender, parental status, household income, address, place of birth, level of education, etc."
+description = "Advertising platform with enhanced demographic analytics"
+bref = "Advertising platform with enhanced demographic analytics"
 weight = 20
 draft = false
 

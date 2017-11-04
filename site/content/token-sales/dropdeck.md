@@ -2,6 +2,7 @@
 title = "DropDeck"
 date = 2017-08-13T17:30:02+02:00
 description = "Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide."
+bref = "Royalty and debt financing platform"
 weight = 20
 draft = false
 

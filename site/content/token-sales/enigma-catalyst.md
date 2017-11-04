@@ -1,7 +1,8 @@
 +++
 title = "Enigma Catalyst"
 date = 2017-08-13T17:30:02+02:00
-description = "decentralised marketplace and platform that aggregates and monetises the distribution of data. Catalyst can enable investors design and sell successful cryptocurrency trading strategies."
+description = "Platform that aggregates and monetises the distribution of data between peers. Catalyst enables investors to design and sell successful cryptocurrency trading strategies."
+bref = "Data marketplace for data analysts, scientists and traders "
 weight = 20
 draft = false
 

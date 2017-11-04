@@ -1,7 +1,8 @@
 +++
 title = "Viberate"
 date = 2017-08-13T17:30:02+02:00
-description = "Viberate is music talent marketplace linking every stakeholders in the music and event industry. Artists, agent, bookers, venues and fans can all connect on a single end-to-end event management platform "
+description = "Product linking every stakeholders in the music and event industry: artists, agent, bookers, venues and fans"
+bref = "Product linking every stakeholders in the music and event industry: artists, agent, bookers, venues and fans"
 weight = 20
 draft = false
 

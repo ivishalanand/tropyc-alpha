@@ -2,6 +2,7 @@
 title = "Rockchain"
 date = 2017-08-13T17:30:02+02:00
 description = "Data infrastructure project built on top of Ethereum built to work with private data securely"
+bref = "Data infrastructure project built on top of Ethereum"
 weight = 20
 draft = false
 
@@ -30,7 +31,7 @@ features = """
   github = "https://github.com/AlphaDinoRC/rockchain"
   medium = "https://medium.com/@alphadino/"
   slack = "https://rockchain.slack.com"
-  
+
 
 [trust]
   stage = "pre-MVP"

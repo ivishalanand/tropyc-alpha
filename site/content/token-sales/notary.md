@@ -2,11 +2,12 @@
 title = "Notary"
 date = 2017-08-13T17:30:02+02:00
 description = "Mobile application which enables users to engage in contracts and agreements. Users can sign a contract at any time and place without the need of a third party."
+bref = "Mobile app helping individuals to build contracts and agreements"
 weight = 20
 draft = false
 
 trustRating = "B+"
-dealRating = "B-"
+dealRating = "B"
 softCap = "N/A"
 hardCap = "$13.2 M"
 platform = "Ethereum Classic"

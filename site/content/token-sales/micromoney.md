@@ -2,6 +2,7 @@
 title = "MicroMoney"
 date = 2017-08-13T17:30:02+02:00
 description = "Mobile money company based in South East Asia launching on blockchain technology. Enables users to perform peer-to-peer lending amongst the community"
+bref = "P2P lending platform in Asia"
 weight = 20
 draft = false
 
@@ -17,7 +18,7 @@ endDate = 2017-11-18
 founded = "Myanmar, 2015"
 
 features = """
-- Open Source Credit & Big Data Bureau that connects new customers to all existing financial services. 
+- Open Source Credit & Big Data Bureau that connects new customers to all existing financial services.
 - Creditworthiness prediction of all customers based on ML, AI, Big Data and neural networks.
 - Registered more than 95,000 unique users, over 90% of them got disbursed their first loan.
 - "Scalable franchise model" and loan collateral is not thoroughly explained.

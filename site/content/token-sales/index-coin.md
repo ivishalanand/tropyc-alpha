@@ -2,6 +2,7 @@
 title = "Index Coin"
 date = 2017-08-13T17:30:02+02:00
 description = "The Digital Currency Index Coin tracks the performance of the Top 30 Digital Currencies evaluated by their market cap and project scope, to enable users improved portfolio diversification."
+bref = "Tracks performance of top 30 cryptocurrencies"
 weight = 20
 draft = false
 

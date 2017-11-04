@@ -1,7 +1,8 @@
 +++
 title = "Zloadr"
 date = 2017-08-13T17:30:02+02:00
-description = "Zloadr is a viral news and media publishing platform that amplifies news worthy content with the help of influencers and bounty hunters."
+description = "News and media publishing platform for publishiers, editors, readers and more"
+bref = "News and media publishing platform for publishiers, editors, readers and more"
 weight = 20
 draft = false
 

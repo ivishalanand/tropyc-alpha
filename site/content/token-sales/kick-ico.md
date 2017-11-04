@@ -1,7 +1,8 @@
 +++
 title = "Kick ICO"
 date = 2017-08-13T17:30:02+02:00
-description = "KickICO is an end-to-end cryptocurrency marketplace with a working platform integrated on a blockchain"
+description = "Cryptocurrency fundraising platform integrated on a blockchain"
+bref = "Cryptocurrency fundraising platform with social and community based features"
 weight = 20
 draft = false
 
@@ -28,7 +29,7 @@ features = """
   reddit = "https://www.reddit.com/r/KickICO/"
   telegram = "https://t.me/kickico"
   github = "https://github.com/kickico"
-  
+
 
 [trust]
   stage = "Beta"

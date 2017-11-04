@@ -2,6 +2,7 @@
 title = "Change"
 date = 2017-08-13T17:30:02+02:00
 description = "Change aspires to become the global cryptocurrency bank, delivering traditional banking services such a payment cards, loans, wallet, insurance in a decentralised fashion"
+bref = "Next generation financial and banking services"
 weight = 20
 draft = false
 

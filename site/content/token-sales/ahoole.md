@@ -1,7 +1,8 @@
 +++
 title = "Ahoolee"
 date = 2017-08-13T17:30:02+02:00
-description = "ICO is over. Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoole's blockchain application"
+description = "Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoole's blockchain application"
+bref = "Product search engine platform"
 weight = 20
 draft = false
 

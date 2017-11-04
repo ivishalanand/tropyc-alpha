@@ -2,6 +2,7 @@
 title = "Stack"
 date = 2017-08-13T17:30:02+02:00
 description = "STACK is a platform that will facilitate real-time cryptocurrency transactions at point of sale, between consumers and merchants."
+bref = "Facilitates real-time cryptocurrency transactions at point of sale"
 weight = 20
 draft = false
 

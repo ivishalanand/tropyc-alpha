@@ -2,6 +2,7 @@
 title = "Soma"
 date = 2017-08-13T17:30:02+02:00
 description = "Decentralised social marketplace that facilitates trade of physical items amongst users"
+bref = "Marketplace for trade of physical items"
 weight = 20
 draft = false
 

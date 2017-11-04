@@ -2,6 +2,7 @@
 title = "Dentacoin"
 date = 2017-08-13T17:30:02+02:00
 description = "Blockchain solution for the global dental industry."
+brief = "Solution for the global dental industry"
 weight = 20
 draft = false
 

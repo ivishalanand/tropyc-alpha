@@ -2,6 +2,7 @@
 title = "Crypto20"
 date = 2017-08-13T17:30:02+02:00
 description = "Autonomous 'token-as-a-fund' that indexes the performance of the top 20 cryptocurrencies"
+bref = "Index of the top 20 cryptocurrencies"
 weight = 20
 draft = false
 
@@ -18,7 +19,7 @@ founded = "USA, 2017"
 
 features = """
 - Autonomous 'token-as-a-fund' without exit fees and minimum investment. Advice fee is 0.5% per annum.
-- Tracks the performance of top 20 crypto tokens. 
+- Tracks the performance of top 20 crypto tokens.
 - Stored on a smart contract without the need of a middle man.
 - Expected to reach exchanges by January 2018 after test rebalancing.
 """

@@ -2,6 +2,7 @@
 title = "Blackmoon"
 date = 2017-08-13T17:30:02+02:00
 description = "Asset management and crowdfunding platform that enables the creation and management of tokenised funds"
+bref = "Creation and management of tokenised funds"
 weight = 20
 draft = false
 
@@ -17,7 +18,7 @@ endDate = 2017-09-12
 founded = "USA, 2014"
 
 features = """
-- Users can create, develop, and manage tokenised investment funds with on platforma management tools. 
+- Users can create, develop, and manage tokenised investment funds with on platforma management tools.
 - Integration of fiat markets along with cryptocurrencies
 - Mission to create fully legally compliant tokenized funds ecosystem
 """

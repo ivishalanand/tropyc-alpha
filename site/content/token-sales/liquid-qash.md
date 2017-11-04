@@ -2,6 +2,7 @@
 title = "Liquid Qash"
 date = 2017-08-13T17:30:02+02:00
 description = "Global liquidity platform built by the Quoinex team on top of their order management system"
+bref = "Global liquidity platform built by Quoinex exchange"
 weight = 20
 draft = false
 

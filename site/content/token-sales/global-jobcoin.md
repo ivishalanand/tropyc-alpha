@@ -2,6 +2,7 @@
 title = "Global Jobcoin"
 date = 2017-08-13T17:30:02+02:00
 description = "A decentralized platform that enables the payment of services related to employment. Jobstoday already has a presence in Switzerland, Germany, Poland & Austria."
+bref = "Employment and job search curator in Europe"
 weight = 20
 draft = false
 

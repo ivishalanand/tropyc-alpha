@@ -1,7 +1,8 @@
 +++
 title = "Tokenlab"
 date = 2017-08-13T17:30:02+02:00
-description = "Fundraising platform in cryptocurrencies built on top of Expanse and Ethereum that combines investment and project pitching."
+description = "Fundraising platform in built on top of Expanse and Ethereum"
+bref = "Fundraising platform in built on top of Expanse and Ethereum"
 weight = 20
 draft = false
 
@@ -20,7 +21,7 @@ features = """
 - Crowdfunding product for tokens based on Expanse on top of Ethereum
 - Gathers investors and fund seekers on one single community platform
 - For each project launch, LAB token will have to be committed and burned
-- Total supply of token is only disbursed to investors. 
+- Total supply of token is only disbursed to investors.
 """
 
 [links]

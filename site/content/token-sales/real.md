@@ -2,6 +2,7 @@
 title = "REAL"
 date = 2017-08-13T17:30:02+02:00
 description = "Real Estate Asset Ledger is a blockchain crowdfunding platform that enables the investment into real assets by purchasing participations"
+bref = "Real estate crowdfunding platform"
 weight = 20
 draft = false
 
