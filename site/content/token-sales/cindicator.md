@@ -2,7 +2,7 @@
 title = "Cindicator"
 date = 2017-08-13T17:30:02+02:00
 description = "Hybrid intelligence for investment decision and asset management. Cindicator builds an infrastructre for data scientists, financial analysts and investors to make smarter decision, powered by machine learning systems."
-bref = Hybrid intelligence for investment decision and asset management
+bref = "Hybrid intelligence for investment decision and asset management"
 weight = 20
 draft = false
 

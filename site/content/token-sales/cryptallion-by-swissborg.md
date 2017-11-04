@@ -2,7 +2,7 @@
 title = "Cryptallion by Swissborg"
 date = 2017-08-13T17:30:02+02:00
 description = "Decentralized and professional ecosystem to manage a portfolio of crypto assets powered by the community, portofolio managers and new technologies."
-brief = "Crypto portfolio management and financial services"
+bref = "Crypto portfolio management and financial services"
 weight = 20
 draft = false
 
