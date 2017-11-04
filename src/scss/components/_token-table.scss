@@ -10,9 +10,7 @@
   th ,td {
     text-align: center;
     vertical-align: middle;
-    font-size: 14px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.25rem;
+    font-size: 0.8rem;
 
     a {
     	color: $gray-900;
@@ -22,21 +20,64 @@
     }
   }
 
-  .token-name {
+  td:first-child {
+  	width: 40%;
+  }
+
+  .token-data {
+  	display: flex;
+
+  	.image {
+	    width: 56px;
+	    height: 56px;
+	    padding: 2px;
+
+			a {
+				text-decoration: none;
+		    height: 50px;
+		    width: 50px;
+		    border-radius: 2px;
+		    background-repeat: no-repeat;
+		    background-position: center center;
+		    display: block;
+		    position: relative;
+		    background-size: 50px 50px;
+			}
+  	}
+
+  	.content {
+			text-align: left;
+			margin-left: 10px;
+
+  		p {
+		  	font-size: 0.8rem;
+		    line-height: 1.0;
+		    margin: 3px 0 0 0;
+  		}
+  	}
+  }
+
+  .markets-token-data {
     background: no-repeat 5px center;
     background-size: 40px;
-    padding-left: 50px !important;
-    font-weight: 600;
+    padding-left: 60px !important;
+    text-align: left;
 
-    a {
+    span {
     	font-weight: 600;
+    }
+
+    p {
+	  	font-size: 0.8rem;
+	    line-height: 1.0;
+	    margin: 3px 0 0 0;
     }
   }
 
- .rating {
- 	font-family: "Montserrat";
- 	font-weight: 600;
- }
+	.rating {
+		font-family: "Nunito";
+		font-weight: 600;
+	}
 
   .label-emphasis {
   	color: $blue;
@@ -49,11 +90,6 @@
   	a {
     	color: $gray-600;
     }
-  }
-
-  .token-description {
-    font-size: 12px;
-    text-align: justify;
   }
 
   .ico-ended {

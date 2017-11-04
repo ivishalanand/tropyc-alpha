@@ -3,34 +3,50 @@
 {{ define "main"}}
 
 <div class="token-sales">
-	<div class="container">
 
+	<div class="top-links">
+		<div class="container">
+			<div class="row my-5 text-center">
+				<div class="col-sm-4"><a href="/news/what-is-an-ico">What is an ICO?</a></div>
+				<div class="col-sm-4"><a href="/variable-description">Variable Description</a></div>
+				<div class="col-sm-4"><a href="/rating-framework">Rating Framework</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
 	  <table id="token-sales-table" class="token-table table table-responsive table-striped table-hover">
 	    <thead>
 	      <tr>
-	        <th>Token</th>
-	        <th>Trust</th>
-	        <th>Deal</th>
+	        <th class="text-left">ICO</th>
 	        <th>Valuation</th>
-	        <th>Cut</th>
-	        <th>Platform</th>
-	        <th>Industry</th>
+	        <th>% ICO</th>
 	        <th>Start</th>
 	        <th>End</th>
+	        <th>Trust</th>
+	        <th>Deal</th>
 	      </tr>
 	    </thead>
 	    <tbody>
 	      {{ range (.Data.Pages.ByParam "endDate").Reverse }}
 	        <tr>
-	          <td class="token-name" style="background-image: url('/images/{{ (printf "tokensale-logos/%s-64.png" .Title | urlize) }}');"><a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a></td>
-	          <td>{{ partial "rating" .Params.trustRating }}</td>
-	          <td>{{ partial "rating" .Params.dealRating }}</td>
+	          <td>
+	          	<div class="token-data">
+		          	<div class="image img-thumbnail">
+		          		<a href="{{ .URL }}" style="background-image: url('/images/{{ (printf "tokensale-logos/%s-64.png" .Title | urlize) }}');"></a>
+		          	</div>
+		          	<div class="content">
+		          		<a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a>
+		          		<p>{{ .Description }}</p>
+		          	</div>
+	          	</div>
+	          </td>
 	          <td>{{ .Params.hardCap }}</td>
 	          <td>{{ .Params.deal.rows.tokensale.cut }}</td>
-	          <td>{{ .Params.platform }}</td>
-	          <td>{{ .Params.industry }}</td>
 		        <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
 	          <td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>
+	          <td>{{ partial "rating" .Params.trustRating }}</td>
+	          <td>{{ partial "rating" .Params.dealRating }}</td>
 	        </tr>
 	      {{ end }}
 	    </tbody>

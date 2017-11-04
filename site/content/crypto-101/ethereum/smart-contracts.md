@@ -1,5 +1,5 @@
 +++
-title = "Smart Contracts"
+title = "3) Smart Contracts"
 date = 2017-08-02T17:16:29+02:00
 description = "Smart contracts are Ethereum's main value proposition: we are now able to automate interactions, relationships, disbursements with computer programs."
 draft = false

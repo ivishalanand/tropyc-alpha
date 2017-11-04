@@ -1,131 +1,62 @@
-.top-alert {
-	margin-bottom: 0;
-	border-radius: 0;
+.landing-hero {
+	margin: 60px 0 80px;
 
-	.close {
-		top: 0;
-		right: 1rem;
-		padding: 0;
-	}
-}
-
-.bleed {
-	height: 250px;
-	background: theme-color("primary");
-
-	h2 {
-		color: #FFF;
-		text-align: center;
-		line-height: 2;
-
-		@include media-breakpoint-up(lg) {
-	  	line-height: 2.5;
-	  	width: 50%;
-	  }
-	}
-}
-
-.tropyc-what {
-
-	.tropyc-summary {
-		margin-top: 3rem;
-		margin-bottom: 3rem;
-		text-align: center;
-		font-size: 1.5rem;
-		line-height: 2;
-		color: $gray-600;
-	}
-}
-
-
-.title {
-	margin-left: auto;
-	margin-right: auto;
-  margin-top: 120px;
-  display: flex;
-  width: 80%;
-
-	@include media-breakpoint-down(sm) {
-		width: 100%;
-	}
-
-  .titleborder {
-  	flex: 1;
-    border-top: 2px solid $yellow;
-    margin-top: 8px;
-  }
-
-  .titlelabel {
-  	line-height: 20px;
-  	margin: 0 80px;
-    color: $gray-600;
-    font-family: "Montserrat";
-    font-weight: 600;
-    text-transform: uppercase;
-
-  	@include media-breakpoint-down(sm) {
-			font-size: 1rem;
-			margin: 0 20px;
-		}
-  }
-}
-
-.top-title {
-	margin-top: 40px;
-}
-
-.tropyc-how {
-	margin: 40px 0 60px;
-
-	img {
-		max-height: 600px;
-	}
-}
-
-.tropyc-why {
-	margin: 40px 0 60px;
-
-	.funding-title {
-		margin-bottom: 10px;
-
-		h2 {
-			text-align: center;
-		}
-
-		p {
-			font-family: "Montserrat";
-			text-align: center;
-			font-weight: 500;
-			font-size: 1.2rem;
-		}
-	}
-
-	.funding-comparison-container {
-
-		.row {
-			min-height: 500px;
-		}
-	}
-}
-
-.step, .point {
-
-	h2 {
-    margin: 15px 0;
-		font-size: 1.5rem;
-    font-weight: 500;
-    color: theme-color("primary");
-  	@include media-breakpoint-down(sm) {
-			font-size: 1.2rem;
-		}
+	h1 {
+		font-size: 3.5rem;
+		margin-bottom: 1.5rem;
+		color: theme-color("primary");
+		line-height: 1.2;
 	}
 
 	p {
-		margin: 10px 0 10px 20px;
+		max-width: 54%;
+		margin-bottom: 0;
 		font-size: 1.1rem;
-		font-weight: 300;
-		text-align: justify;
-		font-family: "Montserrat";
 		color: $gray-600;
+	}
+
+	#landing-hero-image {
+		height: 350px;
+	}
+}
+
+.landing-features {
+	padding-bottom: 60px;
+	background: #f7f8fc;
+	position: relative;
+  overflow: hidden;
+
+	.curve {
+	  position: absolute;
+	  background: white;
+	  border-radius: 0 0 100% 100%;
+	  left: 0px;
+	  right: 0;
+	  top: -50%;
+	  bottom: 33%;
+	}
+
+	.feature-box {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		background: #fff;
+		padding: 1.5rem;
+    box-shadow: 0 10px 25px 0 rgba(49,49,93,0.1);
+    border-radius: 5px;
+		text-align: center;
+
+		img {
+			height: 100px;
+		}
+
+		h2 {
+			font-size: 1.2rem;
+			font-weight: 600;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			font-size: 0.9rem;
+		}
 	}
 }

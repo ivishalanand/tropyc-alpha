@@ -7,27 +7,28 @@
 	  <table id="markets-table" class="token-table table table-responsive table-striped table-hover">
 	    <thead>
 	      <tr>
-	        <th>Token</th>
+	        <th class="text-left">Token</th>
 	        <th>Year</th>
 	        <th>Market Cap</th>
 	        <th>Price</th>
 	        <th>Industry</th>
 	        <th>Type</th>
-	        <th>Description</th>
 	      </tr>
 	    </thead>
 	    <tbody>
 	    	{{ $dataTokens := getJSON "https://api.coinmarketcap.com/v1/ticker/" }}
 	      {{ range $.Site.Data.tokens }}
-		        <tr>
-		          <td class="token-name" style="background-image: url('https://files.coinmarketcap.com/static/img/coins/64x64/{{ range where $dataTokens "name" .name }}{{ .id }}{{ end }}.png');">{{ .name }}</td>
-		          <td>{{ .year }}</td>
-	          	<td class="label-emphasis market-cap"></td>
-	          	<td class="label-emphasis price"></td>
-		          <td>{{ .industry }}</td>
-		          <td>{{ .type }}</td>
-		          <td class="token-description">{{ .description }}</td>
-		        </tr>
+	        <tr>
+	          <td class="markets-token-data" style="background-image: url('https://files.coinmarketcap.com/static/img/coins/64x64/{{ range where $dataTokens "name" .name }}{{ .id }}{{ end }}.png');">
+	          	<span id="name">{{ .name }}</span>
+	          	<p>{{ .description }}</p>
+	          </td>
+	          <td>{{ .year }}</td>
+          	<td class="label-emphasis market-cap"></td>
+          	<td class="label-emphasis price"></td>
+	          <td>{{ .industry }}</td>
+	          <td>{{ .type }}</td>
+	        </tr>
 	      {{ end }}
 	    </tbody>
 	  </table>

@@ -1,45 +1,16 @@
 /* Main navbar */
 .navbar-tropyc {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   transition: all 0.3s ease;
   height: 70px;
-  padding: 0px 30px;
-  border-bottom: 1px solid #E2E8ED;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 /* Logo */
-.navbar-tropyc-brand {
-	> a {
-	  color: theme-color("primary");
-	  font-size: 24px;
-	  font-weight: bold;
-	  line-height: 50px;
-	  background: no-repeat 10px center;
-	  background-size: 50px;
-	  display: block;
-
-	  &:hover {
-	  	color: darken(theme-color("primary"), 5%);
-	  	text-decoration: none;
-	  }
-
-		#brand-logo {
-		   background-image: url('/images/tropyc/tropyc-brand-day.png');
-		   height: 40px;
-		   width: 166px;
-		   background-size: cover;
-		   background-repeat: no-repeat;
-		   transition: background 0.5s ease 3s;
-		}
-
-		#brand-logo:hover {
-		   background-image: url('/images/tropyc/tropyc-brand-night.png');
-		}
-	}
+.navbar-tropyc-brand img {
+	height: 40px;
 }
 
 /* Right section */
@@ -47,12 +18,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  .active {
+  	font-weight: 700;
+  	color: theme-color("primary");
+  }
 }
 
 /* Basic navbar item */
 .navbar-tropyc-item {
   cursor: pointer;
-  padding: 0 30px;
+  padding: 0 20px;
 	@include media-breakpoint-down(lg) {
   	padding: 0 20px;
   }
@@ -63,7 +39,7 @@
   color: $gray-700;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Montserrat";
+  font-family: "Nunito";
 }
 .navbar-tropyc-link:hover {
   color: theme-color("primary");
@@ -72,11 +48,10 @@
 
 /* Navbar Button */
 .navbar-tropyc-button {
-	text-shadow: 0px 1px 1px #333;
-	font-family: "Montserrat";
+	margin-left: 20px;
+	font-family: "Nunito";
 	border-radius: 0.4rem;
-	min-width: 150px;
-  font-size: 18px;
+	min-width: 100px;
   font-weight: 600;
   color: #fff;
   background-color: theme-color("primary");

@@ -4,7 +4,7 @@ date = 2017-10-15T18:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Bitcoin Core developers have condemned the promotion of an alternative Bitcoin by the Digital Currency Group and other stakeholders"
-weight = 10
+weight = 20
 images = ["images/news/bitcoin-org-warning.png"]
 +++
 

@@ -262,7 +262,7 @@ $h5-font-size: 1.1rem !default;
 $h6-font-size: 1rem !default;
 
 $headings-margin-bottom: ($spacer / 2) !default;
-$headings-font-family:   "Montserrat";
+$headings-font-family:   "Nunito";
 $headings-font-weight:   400 !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
@@ -311,8 +311,8 @@ $table-cell-padding:            .75rem !default;
 $table-cell-padding-sm:         .3rem !default;
 
 $table-bg:                      transparent !default;
-$table-accent-bg:               rgba($black,.02) !default;
-$table-hover-bg:                rgba($black,.05) !default;
+$table-accent-bg:               rgba($black,.01) !default;
+$table-hover-bg:                rgba($black,.04) !default;
 $table-active-bg:               $table-hover-bg !default;
 
 $table-border-width:            $border-width !default;
