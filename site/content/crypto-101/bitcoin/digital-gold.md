@@ -131,7 +131,7 @@ Mind that there are now over a thousand cryptocurrencies and crypto assets.
 </div>
 
 
-Bitcoin offers an alternative to our financial system: it removes the concept of a middleman in a monetary transaction.  
+Bitcoin offers an alternative to our financial system: it removes the concept of a middleman in a monetary transaction.
 It is the same way we were able to send messages via e-mail without the need for a third party postal service.
 
 You can now do the same ... but with money.
