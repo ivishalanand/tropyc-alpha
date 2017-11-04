@@ -10,11 +10,11 @@ $(document).ready(function(){
 
   var marketsTable = $('#markets-table').DataTable( {
   	dom:
-    "<'row'<'col-sm-3'l><'col-sm-6 text-center'><'col-sm-3 text-center'f>>" +
+    "<'row'<'col-sm-12'f>>" +
     "<'row'<'col-sm-12'tr>>" +
     "<'row'<'col-sm-5'i><'col-sm-7'p>>",
   	lengthChange: false,
-  	pageLength: 100,
+  	pageLength: 12,
   	language: {
         search: '_INPUT_',
         searchPlaceholder: 'Search...'
@@ -25,7 +25,10 @@ $(document).ready(function(){
   	var coinData = data;
 	  marketsTable.rows().every( function (rowIdx, tableLoop, rowLoop) {
 	    var data = this.data();
-	    var cryptoName = data[0];
+
+	  	var rowNode = this.node();
+	    var cryptoName = $(rowNode).find('#name')[0].innerText;
+
 	    var coinDataRow;
 	    for (var i = 0; i < coinData.length; i++) {
 	    	if (coinData[i].name == cryptoName) {
@@ -50,7 +53,7 @@ $(document).ready(function(){
 	})
 	.DataTable( {
   	dom:
-    "<'row'<'col-sm-3'l><'col-sm-6 text-center'B><'col-sm-3 text-center'f>>" +
+    "<'row'<'col-sm-6'f><'col-sm-6 text-right'B>>" +
     "<'row'<'col-sm-12'tr>>" +
     "<'row'<'col-sm-5'i><'col-sm-7'p>>",
     buttons: {
@@ -84,8 +87,8 @@ $(document).ready(function(){
       }]
     },
   	lengthChange: false,
-  	pageLength: 100,
-  	order: [[ 8, 'desc' ]],
+  	pageLength: 12,
+  	order: [[ 4, 'desc' ]],
   	language: {
       search: '_INPUT_',
       searchPlaceholder: 'Search...'
@@ -99,8 +102,8 @@ $(document).ready(function(){
   	$.fn.dataTable.ext.search.push(
 		  function( settings, data, dataIndex ) {
 				var todayDate = moment();
-		    var startDate = moment(data[7], 'DD/MM/YYYY');
-		    var endDate = moment( data[8], 'DD/MM/YYYY');
+		    var startDate = moment(data[3], 'DD/MM/YYYY');
+		    var endDate = moment( data[4], 'DD/MM/YYYY');
 
 		    if (upcomingFilter && ongoingFilter && doneFilter) {
 		    	return true;
