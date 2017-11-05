@@ -14,20 +14,17 @@ Cryptocurrencies offer an attractive alternative to the conventional economy and
 
 Let's face it, there is only a handful of government officials controlling the world money supply.
 
-
 ## The Good: money facilitates trade
 
-  It all started with sea shell money, used to exchange goods in Asia, Africa and some parts of Europe.  
+It all started with sea shell money, used to exchange goods in Asia, Africa and some parts of Europe. While this system was still up and running until the 18th century in some parts of Africa, large scale monetary systems quickly shifted to the precious metal standard. Rather than sea shells, money was based on commodities that were considered valuable by the masses.
 
-While this system was still up and running until the 18th century in some parts of Africa, large scale monetary systems quickly shifted to the precious metal standard. Rather than sea shells, money was based on commodities that were considered valuable by the masses.  
 Unlike barter-like methods of settlement, money helped communities to fix the value of goods and services to a common unit of reference.
 
 The introduction of the silver and gold standards helped to index the value of currencies to a fixed amount of precious metal. It helped streamline business practices and ease the process of trading – since everyone was aware of and compliant with this common metric of value. 
 
-
 ## The Bad: governments control the total supply of currencies
 
-  After WWII, the Bretton Woods agreements of 1944 made the US dollar a global index against a fixed amount of gold: the dollar was therefore considered as the world reserve currency.
+After WWII, the Bretton Woods agreements of 1944 made the US dollar a global index against a fixed amount of gold: the dollar was therefore considered as the world reserve currency.
 
 Non-reserve currency countries held a large portion of their reserve in US dollars for public intervention on exchange rates. Increasing pressure to devaluate the US Dollars led to the end of the Bretton Woods agreements in 1971.
 
@@ -39,7 +36,6 @@ Government backed currencies are not indexed to any tangible assets: the market 
 
 There is no value behind a unit of US dollar, other than the fact that it is considered as legal tender by the government. Central banks control and monitor the price by either _reducing_ or _increasing_ the volume of currency supply in circulation.
 
-
 ### Reducing the volume of currencies
 
 Also known as “Quantitative tightening”, it is the process of decreasing the total volume of money in order to keep high inflation rates under control.
@@ -47,7 +43,6 @@ Also known as “Quantitative tightening”, it is the process of decreasing the
 Central banks can sell government bonds, increase interest rates or sell public undertakings to the private sector.  
 It makes borrowing less attractive and saving a better opportunity.  
 After a quantitative tightening intervention, the value of one unit of fiat currency increases.
-
 
 ### Increasing the volume of currencies
 
@@ -75,7 +70,6 @@ An indirect monetary policy impacts the banking sector and their compliance. Fra
 A financial crisis occurs when this system fails and the total money supply does not expand.  
 In other words, if every deposit holder decides to withdraw their savings at the same time, **there is not enough money for everyone**.
 
-
 ## The ugly: “Too big to fail” banks 
 
 ### Direct : quantitative easing
@@ -100,7 +94,6 @@ Today, quantitative easing is the go-to monetary policy implemented by central b
 * Centralisation, a small group of people decides whether or not to inject money into the economy. 
 * Dilution, after an intervention, your money has less value since there is more money in the economy.
 
-
 ### Indirect : Reserve fractional banking
 
 After the global financial crisis, private banks were forced to increase their reserve requirements up to 10%. As such, increasing reserves takes money out of the economy, while reducing it, injects money into the economy.  
@@ -111,7 +104,6 @@ Depositors are being assured that their money is in safe hands, which is not tru
 Fractional reserve banking is therefore by nature **unstable** and gives private financial institutions control over total fiat supply. If they keep on lending deposits over and over, this increases the money supply and dilutes the value of a single unit of fiat.
 
 Most of the banks are insured and backed by central banks in case they are unable to disburse back deposits. This, in essence, creates a toxic incentivisation to banks: because they know their funds are backed by the regulator, they are free to take even more risks with their client's deposits.
-
 
 ## Cryptocurrencies: a hedging opportunity against the banking world
 
