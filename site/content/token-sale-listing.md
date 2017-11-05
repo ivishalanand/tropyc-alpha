@@ -25,7 +25,7 @@ description = "Submit the following form to get your token sale listed on Tropyc
         </div>
         <div class="form-group">
           <label for="name">ICO Name</label>
-          <input type="text" name="name" class="form-control form-control-sm" id="name">
+          <input type="text" name="name" class="form-control form-control-sm" id="name" required>
         </div>
         <div class="form-group">
           <label for="blockchain">Blockchain</label>
@@ -93,7 +93,7 @@ description = "Submit the following form to get your token sale listed on Tropyc
         </div>
         <div class="form-group">
           <label for="email">Contact Email</label>
-          <input type="email" name="_replyto" class="form-control form-control-sm" id="email" aria-describedby="emailHelp">
+          <input type="email" name="_replyto" class="form-control form-control-sm" id="email" aria-describedby="emailHelp" required>
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <input type="hidden" name="_subject" value="Token Sale Listing - New submission" />
