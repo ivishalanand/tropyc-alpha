@@ -1,7 +1,7 @@
 +++
-title = "ICO, TGE, Tokensale"
+title = "ICO, TGE, Token-sale"
 date = 2017-08-02T18:17:03+02:00
-description = "Tokensale and Initial Coin Offerinfs offer a new approach to fundraising. Here, we compared this revolutionary method with other financial instruments."
+description = "Token sale and Initial Coin Offerings offer a new approach to fundraising. Here, we compared this revolutionary method with other financial instruments."
 draft = false
 bref = ""
 toc = true

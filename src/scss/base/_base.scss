@@ -1,3 +1,7 @@
+label {
+	font-weight: 600;
+}
+
 .label {
 	font-size: 0.9rem;
 	font-family: "Nunito";
@@ -18,6 +22,10 @@
   p {
   	margin-top: 1rem;
   }
+}
+
+button {
+	cursor: pointer;
 }
 
 .btn-primary,
