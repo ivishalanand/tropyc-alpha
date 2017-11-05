@@ -15,10 +15,14 @@
 							<img src="{{ (printf "%s" .Params.images | urlize) | relURL }}" alt="{{ .Params.title }}">
 						</div>
 						<div class="article-info">
-							<h3>{{ .Title }}</h3>
-							{{ range .Params.categories }}
-								<div class="btn btn-sm btn-{{ . | lower }} float-right mx-2">{{ . | upper }}</div>
-							{{ end }}
+							<div class="d-flex">
+								<h3>{{ .Title }}</h3>
+								<div class="ml-auto">
+									{{ range .Params.categories }}
+										<div class="btn btn-{{ . | lower }} mx-2">{{ . | upper }}</div>
+									{{ end }}
+								</div>
+							</div>
 		   				<div class="article-meta">{{ partial "article/meta" . }}</div>
 						</div>
 					</div>
