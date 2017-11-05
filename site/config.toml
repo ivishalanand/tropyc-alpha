@@ -26,14 +26,6 @@ disqusShortname = "tropyc"
     weight = 20
     url = "/crypto-101/"
 [[menu.main]]
-    name = "Exchanges"
-    weight = 30
-    url = "/exchanges/"
-[[menu.main]]
-    name = "Markets"
-    weight = 40
-    url = "/markets/"
-[[menu.main]]
     name = "Token sales"
-    weight = 50
+    weight = 30
     url = "/token-sales/"

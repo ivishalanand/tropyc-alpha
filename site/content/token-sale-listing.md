@@ -3,14 +3,6 @@ title = "Token Sale Listing"
 description = "Submit the following form to get your token sale listed on Tropyc."
 +++
 
-<div class="w-75 mx-auto mb-5">
-  <p>There are 3 application types available:</p>
-  <ul>
-    <li><strong>Regular Application (Free)</strong> - Application is added to the queue and processed in due time.</li>
-    <li><strong>Priority Application ($50)</strong> - Application is fast-tracked and your token sale listed within 48 hours.</li>
-    <li><strong>Premium Application ($300)</strong> - Priority Application with higher visibility (top of the browsing section and premium styling) during the whole duration of your token sale.</li>
-  </ul>
-</div>
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-lg-6">
@@ -18,9 +10,9 @@ description = "Submit the following form to get your token sale listed on Tropyc
         <div class="form-group">
           <label for="applicationType">Type of Application</label>
           <select name="applicationType" class="form-control" id="applicationType">
-            <option>Regular Application (Free)</option>
-            <option>Priority Application ($50)</option>
-            <option>Premium Application ($300)</option>
+            <option>Regular - FREE</option>
+            <option>Fast track 48h - $50</option>
+            <option>1 Week high visibility - $100</option>
           </select>
         </div>
         <div class="form-group">
@@ -56,7 +48,6 @@ description = "Submit the following form to get your token sale listed on Tropyc
           <small id="totalSupplyHelp" class="form-text text-muted">If unlimited, enter 0</small>
         </div>
         <fieldset class="form-group">
-          <label>Supply Type</label>
           <div class="form-check">
             <label class="form-check-label">
               <input class="form-check-input" type="radio" name="supplyType" id="supplyType" value="Varying Supply" checked>
@@ -73,11 +64,11 @@ description = "Submit the following form to get your token sale listed on Tropyc
         <div class="form-group">
           <label for="industry">Industry</label>
           <input type="text" name="industry" class="form-control form-control-sm" id="industry" aria-describedby="industryHelp">
-          <small id="industryHelp" class="form-text text-muted">i.e. Business services, Entertainment, Banking, Media...</small>
+          <small id="industryHelp" class="form-text text-muted">i.e. Asset Managment, Attention Economy, Software, Banking, Media...</small>
         </div>
         <div class="form-group">
           <label for="about">About</label>
-          <textarea class="form-control form-control-sm" id="about" rows="6" placeholder="Tell us about your project"></textarea>
+          <textarea class="form-control form-control-sm" id="about" rows="6" placeholder="Tell us about your project in 50 to 200 words"></textarea>
         </div>
         <div class="form-group">
           <label for="websiteUrl">Website URL</label>
