@@ -4,7 +4,7 @@ date = 2017-10-10T18:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Rumors of Goldman Sachs entering bitcoin trading operations from official spokesperson"
-weight = 10
+weight = 20
 images = ["images/news/goldman-sachs.png"]
 +++
 

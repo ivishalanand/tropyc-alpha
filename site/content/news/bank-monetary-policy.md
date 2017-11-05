@@ -10,20 +10,17 @@ images = ["images/news/bank-monetary-policy.png"]
 
 Money has been at the epicentre of our society for thousands of years: it helps us trade, settle debt and purchase goods and services.  
 
-Cryptocurrencies offer an attractive alternative to the conventional economy and monetary policies implemented by public institutions and central banks.  
+Cryptocurrencies offer an attractive alternative to the conventional economy and monetary policies implemented by public institutions and central banks: they are transparent.
 
 Let's face it, there is only a handful of government officials controlling the world money supply.
 
-
 ## The Good: money facilitates trade
 
-It all started with sea shell money, used exchange goods in Asia, Africa and some parts of Europe.  
+It all started with sea shell money, used to exchange goods in Asia, Africa and some parts of Europe. While this system was still up and running until the 18th century in some parts of Africa, large scale monetary systems quickly shifted to the precious metal standard. Rather than sea shells, money was based on commodities that were considered valuable by the masses.
 
-While this system was still up and running until the 18th century in some parts of Africa, large scale monetary systems quickly shifted to the precious metal standard. Rather than sea shells, money was based on commodities that were considered valuable by the masses.  
 Unlike barter-like methods of settlement, money helped communities to fix the value of goods and services to a common unit of reference.
 
 The introduction of the silver and gold standards helped to index the value of currencies to a fixed amount of precious metal. It helped streamline business practices and ease the process of trading – since everyone was aware of and compliant with this common metric of value. 
-
 
 ## The Bad: governments control the total supply of currencies
 
@@ -57,10 +54,14 @@ After a quantitative easing intervention, the value of one unit of fiat currency
 The former monetary policy has not been implemented much in the past decade, while the latter, “quantitive easing” is constantly leveraged by government and central banks.  
 It is one of the most popular forms of monetary intervention post-2008.  
 
-Its aim is to control inflation (price stability) and ensure healthy employment rates by targeting the overall money supply. However, the performance of an economy is not just correlated with domestic activity but also subject to external factors, for instance, the growth of other economies, changes in consumption or major events.   
-As such, Central banks and quantitative easing monetary policy can only impact the economy on a short term basis, since it does not have any influence on economic externalities.
+Its aim is to control inflation (price stability) and ensure healthy employment rates by targeting the overall money supply.  
+However, the performance of an economy is not just correlated with domestic activity but also subject to external factors, for instance, the growth of other economies, changes in consumption or major events.   
 
-A simple analogy would be to compare central banks and their policies with a doctor and his medication. If a patient comes in ill but with blurry and unknown symptoms, the doctor’s job is to cure his patient, or at least help him. He/She is going to prescribe drugs that might cure the illness in the short term but leave the patient with side effects.  
+As such, Central banks and quantitative easing monetary policy can only impact the economy on a _short term basis_, since it does not have any influence on economic externalities.
+
+A simple analogy would be to compare central banks and their policies with a doctor and his medication.  
+If a patient comes in ill but with blurry and unknown symptoms, the doctor’s job is to cure his patient, or at least help him. He/She is going to prescribe drugs that might cure the illness in the short term but leave the patient with side effects.  
+
 While there is no secret recipe to keep prices stable and achieve full employment, central banks and public authorities attempt to cure the economy with quantitative easing - without hard proof of any long term positive impact.
 
 Quantitative easing and tightening are considered as “direct” involvement of the public sector in the economy.  
@@ -68,7 +69,6 @@ An indirect monetary policy impacts the banking sector and their compliance. Fra
 
 A financial crisis occurs when this system fails and the total money supply does not expand.  
 In other words, if every deposit holder decides to withdraw their savings at the same time, **there is not enough money for everyone**.
-
 
 ## The ugly: “Too big to fail” banks 
 
@@ -94,13 +94,12 @@ Today, quantitative easing is the go-to monetary policy implemented by central b
 * Centralisation, a small group of people decides whether or not to inject money into the economy. 
 * Dilution, after an intervention, your money has less value since there is more money in the economy.
 
-
 ### Indirect : Reserve fractional banking
 
-After the global financial crisis, private banks were forced to increase their reserve requirements up to 10%. As such, increasing reserves takes money out of the economy while reducing it injects money into the economy.  
+After the global financial crisis, private banks were forced to increase their reserve requirements up to 10%. As such, increasing reserves takes money out of the economy, while reducing it, injects money into the economy.  
 
-Deposits can virtually be lent multiple times and therefore multiple interests are earned on the same deposit. 
-Depositors are being assured that their money is in safe hands, which is not true: if every depositor claims back their assets at the same time, banks would not be able to disburse it back, as their reserves are too low to do so.  
+Deposits can virtually be lent multiple times and therefore multiple interests are earned on the same deposit.  
+Depositors are being assured that their money is in safe hands, which is not true: if every depositor claims back their assets _at the same time_, banks would not be able to disburse it back, as their reserves are too low to do so.  
 
 Fractional reserve banking is therefore by nature **unstable** and gives private financial institutions control over total fiat supply. If they keep on lending deposits over and over, this increases the money supply and dilutes the value of a single unit of fiat.
 
@@ -116,5 +115,3 @@ Cryptocurrencies offer a tangible alternative to fiat and the banking system :
 * There is currently no use-case of Reserve Fractional Banking - this does not mean it will not emerge in the upcoming years.
 
 Now that you better understand how the banking world works, maybe it's time to invest in cryptocurrencies?   
-
-Go Premium, we'll be here for you 7/7 !
