@@ -1,5 +1,5 @@
 +++
-title = "Wallet vs Bank"
+title = "Wallet vs bank"
 date = 2017-08-02T17:15:31+02:00
 description = "Understand the difference between traditional bank accounts and cryptocurrency wallets. Holding crypto means additional responsibility, so stay aware!"
 draft = false
