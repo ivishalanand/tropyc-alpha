@@ -75,9 +75,9 @@ Today, anyone can invest as low as $100 via cryptocurrency.
 Start-ups raising funds via an ICO / TGE have therefore a larger pool of investors compared with AA / VC.
 It introduces additional stakeholder engagement deliverables:
 
-* *Acquisition*: resource draining marketing campaign via digital media to attract potential investors.
-* *Support*: Once investors are hooked, teams need to set-up online support on instant messaging channels for any queries.
-* *Updates*: During and after the event, teams need to stay in touch with investors and communicate each milestone.
+* **Acquisition**: resource draining marketing campaign via digital media to attract potential investors.
+* **Support**: Once investors are hooked, teams need to set-up online support on instant messaging channels for any queries.
+* **Updates**: During and after the event, teams need to stay in touch with investors and communicate each milestone.
 
 We think that a project that fails to deliver the above should not be worthy of funds.
 

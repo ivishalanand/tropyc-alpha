@@ -1,7 +1,7 @@
 +++
 title = "Fundamentals"
 date = 2017-08-02T18:00:00+02:00
-description = ""
+description = "Want to invest in cryptocurrencies? It comes with a new set of rules and fundamentals: learn more on our detailled crypto investment series."
 draft = false
 bref = ""
 toc = true

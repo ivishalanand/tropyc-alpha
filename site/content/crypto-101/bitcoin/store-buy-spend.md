@@ -1,7 +1,7 @@
 +++
 title = "Store, Buy and Spend"
 date = 2017-08-02T16:00:00+02:00
-description = "Bitcoin is a form of digital money, get to know how to store your Bitcoin, buy them online and spend them on your favourite goods and services."
+description = "Bitcoin is a form of digital money, get to know how to store your Bitcoin, buy them online and spend them."
 draft = false
 bref = "Bitcoin, Chapter II"
 toc = true

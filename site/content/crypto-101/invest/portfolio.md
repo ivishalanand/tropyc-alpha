@@ -1,7 +1,7 @@
 +++
 title = "Portfolio"
 date = 2017-08-02T19:00:00+02:00
-description = ""
+description = "Learn how to build a customised cryptocurrency portfolio taillored to your needs. Here, we list all the variables to take into account when designing a high performance portfolio."
 draft = false
 bref = ""
 toc = true
