@@ -44,11 +44,12 @@
 	}
 
 	.feature-box {
+		position: relative;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
-		background: #fff;
+		background: #fcfcfc;
 		padding: 1.5rem;
-    box-shadow: 0 10px 25px 0 rgba(49,49,93,0.1);
+    box-shadow: 0 0 8px rgba(0,0,0,.2);
     border-radius: 5px;
 		text-align: center;
 
@@ -64,6 +65,21 @@
 
 		p {
 			font-size: 0.9rem;
+		}
+
+		a {
+		  position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  right: 0;
+		  width: 100%;
+		}
+
+		&:hover {
+			transition-timing-function: ease-out;
+    	transition-duration: .2s;
+    	transform: translateY(-4px);
+    	box-shadow: 0 14px 32px 0 rgba(0,0,0,.2);
 		}
 	}
 }
