@@ -1,5 +1,5 @@
 +++
-title = "4) Cold Wallets"
+title = "Cold Wallets"
 date = 2017-08-02T17:16:14+02:00
 description = "Check our review of cold wallets: from branded products to paper and Do It Yourself wallets."
 draft = false

@@ -1,5 +1,5 @@
 +++
-title = "4) Bitcoinomics"
+title = "Bitcoinomics"
 date = 2017-08-02T18:00:00+02:00
 description = "New kind of money means new economics: understand the fundamentals of bitcoin, its economics and how it differs from fiat currencies."
 draft = false
