@@ -1,30 +1,37 @@
-.crypto-all, .crypto-section {
+.crypto-101 {
 	margin: 20px 0 90px;
-}
 
-.crypto-all {
-	min-height: 1500px;
-	background: #ffffff;
-	background: -moz-linear-gradient(top, #ffffff 26%, theme-color("primary") 26%, theme-color("primary") 83%, #ffffff 83%);
-	background: -webkit-linear-gradient(top, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%,#ffffff 83%);
-	background: linear-gradient(to bottom, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%,#ffffff 83%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-	padding: 30px 0;
-
-	h1 {
-		margin-bottom: 120px;
-		color: theme-color("primary");
+	.sections-flex {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 
 	.section {
 		min-height: 550px;
+		min-width: 210px;
 		padding: 1rem;
-		background: #FFF;
+		background: #fcfcfc;
+		box-shadow: 0 0 8px rgba(0,0,0,.2);
+		border-radius: 5px;
+		text-align: center;
 
 		img {
-			height: 150px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-height: 100px;
 			margin-top: 1rem;
 			margin-bottom: 1rem;
+		}
+
+		span {
+			font-size: 0.8rem;
+			color: $gray-600;
+		}
+
+		h2 {
+			font-size: 1.75rem;
 		}
 
     ul {
@@ -34,123 +41,60 @@
     }
 
     li {
-			text-align: center;
 	    margin-top: 2rem;
-	    font-weight: 600;
 	    font-size: 1.1rem;
 	    margin-bottom: 2rem;
 	    font-family: "Nunito";
 	    a {
-	    	color: $gray-600;
+	    	color: $gray-900;
 	    }
     }
-
-    .disabled {
-    	cursor: not-allowed;
-    	opacity: .65;
-    }
 	}
 
-	.seperator-header {
-		margin: 70px 0 70px;
-		color: #FFF;
-		text-align: center;
-		font-size: 2.5rem;
+	.pages-flex {
+		display: flex;
+		flex-wrap: wrap;
 	}
 
-	.bitcoin-section, .how-to-section {
-		box-shadow: 0px 0px 8px 1px $yellow;
-	}
-
-	.wallets-section, .token-section {
+	.page {
 		position: relative;
-		z-index: 1;
-		box-shadow: 0px 0px 8px 1px $gray-600;
-			@include media-breakpoint-up(md) {
-				margin-top: -2rem;
-			}
-	}
-
-	.ethereum-section, .invest-section	{
-		box-shadow: 0px 0px 8px 1px $blue;
-	}
-
-	.info-content {
-		margin-top: 3rem;
-		color: $gray-600;
-	}
-}
-
-.crypto-section {
-	min-height: 800px;
-	background: #ffffff;
-	background: -moz-linear-gradient(top, #ffffff 26%, theme-color("primary") 26%, theme-color("primary") 100%);
-	background: -webkit-linear-gradient(top, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 83%);
-	background: linear-gradient(to bottom, #ffffff 26%,theme-color("primary") 26%,theme-color("primary") 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-	padding: 30px 0;
-
-	h1 {
-		margin-bottom: 120px;
-		color: theme-color("primary");
-	}
-
-	.section {
-		min-height: 550px;
+		min-height: 250px;
+		max-width: 300px;
+		margin: 1rem;
 		padding: 1rem;
-		background: #FFF;
+		background: #fcfcfc;
+		box-shadow: 0 0 8px rgba(0,0,0,.2);
+		border-radius: 5px;
+		text-align: center;
 
-		img {
-			height: 150px;
-			margin-top: 1rem;
-			margin-bottom: 1rem;
+		span {
+			font-size: 0.8rem;
+			color: $gray-600;
 		}
 
-    ul {
-    	list-style: none;
-	    margin-bottom: 0;
-  		padding-left: 0;
-    }
+		h2 {
+			font-size: 1.75rem;
+			margin-bottom: 2rem;
+		}
 
-    li {
-			text-align: center;
-	    margin-top: 2rem;
-	    font-weight: 600;
-	    font-size: 1.1rem;
-	    margin-bottom: 2rem;
-	    font-family: "Nunito";
-	    a {
-	    	color: $gray-600;
-	    }
-    }
+		p {
+			font-size: 0.8rem;
+			color: $gray-600;
+		}
 
-    .disabled {
-    	cursor: not-allowed;
-    	opacity: .65;
-    }
-	}
+		a {
+			position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  right: 0;
+		  width: 100%;
+		}
 
-	.seperator-header {
-		margin: 120px 0 90px;
-		color: #FFF;
-		text-align: center;
-		font-size: 2.5rem;
-	}
-
-	.bitcoin-section, .how-to-section {
-		box-shadow: 0px 0px 8px 1px $yellow;
-	}
-
-	.wallets-section, .token-section {
-		position: relative;
-		z-index: 1;
-		box-shadow: 0px 0px 8px 1px $gray-600;
-			@include media-breakpoint-up(md) {
-				margin-top: -2rem;
-			}
-	}
-
-	.ethereum-section, .invest-section	{
-		box-shadow: 0px 0px 8px 1px $blue;
+		&:hover {
+			transition-timing-function: ease-out;
+    	transition-duration: .2s;
+    	transform: translateY(-4px);
+    	box-shadow: 0 14px 32px 0 rgba(0,0,0,.2);
+		}
 	}
 }
