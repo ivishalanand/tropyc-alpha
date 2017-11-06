@@ -6,6 +6,10 @@
 		margin-bottom: 1.5rem;
 		color: theme-color("primary");
 		line-height: 1.2;
+
+		@include media-breakpoint-down(sm) {
+			font-size: 2.5rem;
+		}
 	}
 
 	p {
@@ -13,10 +17,13 @@
 		margin-bottom: 0;
 		font-size: 1.1rem;
 		color: $gray-600;
+		@include media-breakpoint-down(sm) {
+			max-width: 75%;
+		}
 	}
 
 	#landing-hero-image {
-		height: 350px;
+		max-height: 350px;
 	}
 }
 
