@@ -4,6 +4,10 @@
 	color: $gray-600;
 }
 
+strong {
+	font-weight: 600;
+}
+
 .content {
 	h2:not(:first-child) {
     margin-top: 3rem;
