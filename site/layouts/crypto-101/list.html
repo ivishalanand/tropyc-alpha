@@ -9,7 +9,7 @@
 				{{ range first 3 .Sections }}
 					<div class="col-xs-12 col-md-4">
 						<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
-							<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
+							<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.png" .Params.image) }}">
 							<h2>{{ .Title }}</h2>
 							<ul>
 								{{ range .Data.Pages.ByDate }}
@@ -25,7 +25,7 @@
 				{{ range last 3 .Sections }}
 					<div class="col-xs-12 col-md-4">
 						<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
-							<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
+							<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.png" .Params.image) }}">
 							<h2>{{ .Title }}</h2>
 							<ul>
 								{{ range .Data.Pages.ByDate }}
@@ -45,7 +45,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-6">
 					<div class="section {{ (printf "%s-section" .Title | urlize) }} d-flex flex-column justify-content-around align-items-center mb-3">
-						<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.svg" .Params.image) }}">
+						<img class="img-fluid" src="/images/{{ (printf "crypto-101/summary-icons/%s.png" .Params.image) }}">
 						<h2>{{ .Title }}</h2>
 						<ul>
 							{{ range .Data.Pages.ByDate }}
