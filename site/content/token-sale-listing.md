@@ -36,7 +36,7 @@ description = "Submit the following form to get your token sale listed on Tropyc
         </div>
         <div class="form-group">
           <label for="about">About</label>
-          <textarea class="form-control form-control-sm" id="about" rows="6" placeholder="Tell us about your project in 50 to 200 words"></textarea>
+          <textarea name="about" class="form-control form-control-sm" id="about" rows="6" placeholder="Tell us about your project in 50 to 200 words"></textarea>
         </div>
         <hr class="my-5">
         <h2 class="h3">Distribution</h2>
@@ -59,19 +59,8 @@ description = "Submit the following form to get your token sale listed on Tropyc
           </div>
         </fieldset>
         <div class="form-group">
-          <label for="premined">Units Pre-mined</label>
-          <input type="number" name="premined" class="form-control form-control-sm" id="premined" aria-describedby="preminedHelp">
-          <small id="preminedHelp" class="form-text text-muted">If none, enter 0</small>
-        </div>
-        <div class="form-group">
-          <label for="unitsSold">Units Sold</label>
-          <input type="number" name="unitsSold" class="form-control form-control-sm" id="unitsSold" aria-describedby="unitsSoldHelp">
-          <small id="unitsSoldHelp" class="form-text text-muted">Units sold during the sale. If unlimited, enter 0</small>
-        </div>
-        <div class="form-group">
-          <label for="totalSupply">Total Units Supply</label>
-          <input type="number" name="totalSupply" class="form-control form-control-sm" id="totalSupply" aria-describedby="totalSupplyHelp">
-          <small id="totalSupplyHelp" class="form-text text-muted">If unlimited, enter 0</small>
+          <label for="distribution">Distribution</label>
+          <textarea name="distribution" class="form-control form-control-sm" id="distribution" rows="6" placeholder="Detail your unit distribution, i.e. &#10; - Pre-ICO = 10,000,000 &#10; - ICO = 50,000,000 &#10; - Founders = 10,000,000 &#10; - ..."></textarea>
         </div>
         <div class="form-group">
           <label for="pricePerUnit">Price per unit (without bonus)</label>
@@ -79,7 +68,7 @@ description = "Submit the following form to get your token sale listed on Tropyc
         </div>
         <div class="form-group">
           <label for="unitOfAccount">Unit of account</label>
-          <input type="number" name="unitOfAccount" class="form-control form-control-sm" id="unitOfAccount" aria-describedby="unitOfAccountHelp">
+          <input type="text" name="unitOfAccount" class="form-control form-control-sm" id="unitOfAccount" aria-describedby="unitOfAccountHelp">
           <small id="unitOfAccountHelp" class="form-text text-muted">i.e. USD, BTC, ETH...</small>
         </div>
         <hr class="my-5">
@@ -89,8 +78,8 @@ description = "Submit the following form to get your token sale listed on Tropyc
           <input type="url" name="websiteUrl" class="form-control form-control-sm" id="websiteUrl" placeholder="https://website.com">
         </div>
         <div class="form-group">
-          <label for="about">Social Media Links</label>
-          <textarea class="form-control form-control-sm" id="about" rows="6" placeholder="URLs to Facebook, Twitter, Github..."></textarea>
+          <label for="socialLinks">Social Media Links</label>
+          <textarea name="socialLinks" class="form-control form-control-sm" id="socialLinks" rows="6" placeholder="URLs to Facebook, Twitter, Github..."></textarea>
         </div>
         <div class="form-group">
           <label for="email">Contact Email</label>
