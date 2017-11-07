@@ -9,9 +9,17 @@ toc = true
 
 ## VC and Angel Investors vs ICO
 
-At first glance, we can suggest that the ICO model may just replace Angel Investors and Venture Capitalists (AI/VC) in the coming years.  
-While ICOs do offer a new a way of raising funds for start-ups, they are structurally different from AI/VC.  
+At first glance, we can suggest that the ICO model may just replace Angel Investors and Venture Capitalists (AI/VC) in the coming years. 
+
+While ICOs do offer a new a way of raising funds for start-ups, they are structurally different from AI/VC. 
+
 ICO is a tool while AI/VC are stakeholders.
+
+Before going down to the nitty gritty, let's review how we define this rather new concept:
+
+* Tropyc has decided to use the term Initial Coin Offering (ICO), Initial Token Offering (ITO), Token Generating Event (TGE), token sale and crowdsale as _interchangeable_.
+* We saw the difference between tokens and coins in the previous chapter [here](../tokenisation), still we think that the market is not mature enough to battle over the names of similar fundraising techniques.
+
 
 Here’s a closer look at ICO features against Angel Investment and Venture Capital:
 
@@ -23,9 +31,9 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
       <th class="text-center">AA / VC</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="small">
     <tr>
-      <td colspan="3" class="table-secondary text-center">NATURE</td>
+      <td colspan="3" class="table-secondary text-center info">NATURE</td>
     </tr>
     <tr>
       <td class="text-left">Definition</td>
@@ -43,7 +51,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
       <td class="text-center">Low</td>
     </tr>
     <tr>
-      <td colspan="3" class="table-secondary text-center">ENTRY BARRIERS</td>
+      <td colspan="3" class="table-secondary text-center info">ENTRY BARRIERS</td>
     </tr>
     <tr>
       <td class="text-left">Set up costs</td>
@@ -61,7 +69,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
       <td class="text-center">Offline engagement</td>
     </tr>
     <tr>
-      <td colspan="3" class="table-secondary text-center">DEAL</td>
+      <td colspan="3" class="table-secondary text-center info">DEAL</td>
     </tr>
     <tr>
       <td class="text-left">Negotiation</td>

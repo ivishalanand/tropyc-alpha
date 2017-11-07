@@ -10,14 +10,15 @@ toc = true
 Bitcoin is the first digital token, with payment functions, built on a blockchain.
 Today, there are thousands of different tokens you can hold on a decentralised and secured network.
 
-## What is an Initial Coin Offering, Token Generating Event, token sale?
+## What is a token sale or ICO/ITO/TGE?
 
-No official definitions differentiate the three terms mentioned above. Therefore we decided to consider them, for now, as _interchangeable_.
+Token sales, Initial Coin Offering, Initiat Token Offering and Token Generating Event do not have official definitions to differentiate them.  
+Therefore we decided to consider them, for now, as _interchangeable_.
 
 No matter what, they represent new generation fundraising mechanisms, that operate without an intermediate in the process.
 
 * Bitcoin facilitates payment between two peers.
-* ICO/TGE/Tokensale facilitates fundraising between multiple peers.
+* ICO/ITO/TGE/Token sale facilitates fundraising between multiple peers.
 
 A company can raise funds by issuing a digital token to its investors, granting their holder with either a right, ownership or both.
 
@@ -34,7 +35,7 @@ There are no "official" crypto-economy definitions, but we propose:
 * Coin derive their value from the blockchain and can operate independently.
 * Tokens are built on top of an existing blockchain and are not involved in the process of reaching consensus.
 
-## What’s new in an ICO / TGE / Token sale?
+## What’s new in a token sale?
 
 In Venture Capital and Angel Investing, investors purchase ownership of a company in exchange for expected returns in the future, achieved during an exit – would it be an IPO, acquisition or merger.
 
