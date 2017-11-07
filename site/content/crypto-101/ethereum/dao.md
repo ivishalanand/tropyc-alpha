@@ -3,7 +3,7 @@ title = "DAO"
 date = 2017-08-02T17:16:36+02:00
 description = "Decentralised Autonomous Organisations offer an alternative to traditional asset management firms. However, The DAO was a failure and led to a major event in the crypto world: a chain split."
 draft = false
-bref = "Ethereum, Chapter IV"
+bref = "Ethereum, Part IV"
 toc = true
 +++
 

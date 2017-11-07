@@ -1,9 +1,9 @@
 +++
-title = "Tokenisation"
+title = "Digital asset"
 date = 2017-08-02T01:00:00+02:00
 description = "The world is getting tokenised and decentralised. Check out our beginner's crash course to tokensale and initial coin offerings in the crypto-economy."
 draft = false
-bref = ""
+bref = "Token, Part I"
 toc = true
 +++
 

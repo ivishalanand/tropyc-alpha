@@ -3,7 +3,7 @@ title = "Under the hood"
 date = 2017-08-02T17:00:00+02:00
 description = "Bitcoin offers a secure environment for transaction thanks to blockchain technology, here, you'll learn how the system works and what's under the hood."
 draft = false
-bref = "Bitcoin, Chapter III"
+bref = "Bitcoin, Part III"
 toc = true
 +++
 

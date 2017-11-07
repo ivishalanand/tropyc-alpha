@@ -3,7 +3,7 @@ title = "Classification"
 date = 2017-08-02T02:00:00+02:00
 description = "Tokens, coins, crypto... all of this can get confusing. Learn how every digital assets in the cryto-economy are differentiated amongst each other."
 draft = false
-bref = ""
+bref = "Token, Part II"
 toc = true
 +++
 

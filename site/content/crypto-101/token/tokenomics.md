@@ -3,7 +3,7 @@ title = "Tokenomics"
 date = 2017-08-02T16:17:39+02:00
 description = "Investing in a newly established token or coin can get overwhelming. New technology comes with new rules, here we discuss the fundamentals and economics of cryptocurrencies and digital assets."
 draft = false
-bref = ""
+bref = "Token, Part III"
 toc = true
 +++
 

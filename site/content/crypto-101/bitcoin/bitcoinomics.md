@@ -3,7 +3,7 @@ title = "Bitcoinomics"
 date = 2017-08-02T18:00:00+02:00
 description = "New kind of money means new economics: understand the fundamentals of bitcoin, its economy and how it differs from fiat currencies."
 draft = false
-bref = "Bitcoin, Chapter IV"
+bref = "Bitcoin, Part IV"
 toc = true
 +++
 

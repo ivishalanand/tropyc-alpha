@@ -3,7 +3,7 @@ title = "Management"
 date = 2017-08-02T20:00:00+02:00
 description = "Holding a cryptocurrency portfolio can get risky and stressful: learn basic strategies of portfolio management and rebalancing."
 draft = false
-bref = ""
+bref = "Invest, Part III"
 toc = true
 +++
 

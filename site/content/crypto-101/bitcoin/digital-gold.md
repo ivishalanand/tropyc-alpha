@@ -3,7 +3,7 @@ title = "Digital gold"
 date = 2017-08-02T15:00:00+02:00
 description = "Learn the fundamentals of Bitcoin, the first cryptocurrency, why it is a game changer and how it is different from fiat currencies."
 draft = false
-bref = "Bitcoin, Chapter I"
+bref = "Bitcoin, Part I"
 toc = true
 +++
 

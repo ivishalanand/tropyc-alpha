@@ -3,7 +3,7 @@ title = "Best practices"
 date = 2017-08-02T17:15:06+02:00
 description = "Bitcoins are stored in digital wallets, learn the basics of cryptography and the different types of wallets you can use."
 draft = false
-bref = "Wallets, Chapter II"
+bref = "Wallets, Part II"
 toc = true
 +++
 
