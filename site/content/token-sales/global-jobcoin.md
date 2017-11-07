@@ -24,12 +24,12 @@ features = """
 """
 
 [links]
-  website = "https://www.globaljobcoin.com/"
-  twitter = "https://twitter.com/globaljobcoin"
-  facebook = "https://www.facebook.com/globaljobcoin/"
-  reddit = "https://www.reddit.com/r/Globaljobcoin/"
-  github = "https://github.com/globaljobcoin/GJC/tree/master/contracts"
-  medium = "https://medium.com/@Globaljobcoin"
+  website = "https://www.globaljobcoin.com"
+  twitter = "globaljobcoin"
+  facebook = "globaljobcoin"
+  reddit = "Globaljobcoin"
+  github = "globaljobcoin"
+  medium = "Globaljobcoin"
 
 [trust]
   stage = "Working platform"

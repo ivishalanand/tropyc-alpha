@@ -26,10 +26,10 @@ features = """
 
 [links]
   website = "https://paragoncoin.com"
-  twitter = "https://twitter.com/paragoncoin"
-  facebook = "https://www.facebook.com/paragoncoin/"
-  reddit = "https://www.reddit.com/r/ParagonCoin/"
-  telegram = "https://t.me/joinchat/Clv-u0IXuCq2B0xvCIlRXw"
+  twitter = "paragoncoin"
+  facebook = "paragoncoin"
+  reddit = "ParagonCoin"
+  telegram = "joinchat/Clv-u0IXuCq2B0xvCIlRXw"
   github = ""
 
 [trust]

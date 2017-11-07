@@ -24,10 +24,10 @@ features = """
 """
 
 [links]
-  twitter = "https://twitter.com/viberate_com"
-  facebook = "https://www.facebook.com/viberateOFC/"
-  telegram = "https://t.me/joinchat/F-zenkQffjbGY7YqqSQl1w"
-  github = "https://github.com/viberate"
+  twitter = "viberate_com"
+  facebook = "viberateOFC"
+  telegram = ""
+  github = "viberate"
   website = "https://www.viberate.io"
 
 [trust]

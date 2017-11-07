@@ -25,12 +25,12 @@ features = """
 
 [links]
   website = "https://blackmooncrypto.com/"
-  twitter = "https://twitter.com/BlackmoonFG"
-  facebook = "https://www.facebook.com/blackmoonfg/"
-  reddit = "https://www.reddit.com/r/BlackMoonCrypto/"
-  telegram = "https://t.me/blackmooncrypto"
-  github = "https://github.com/blackmoonfg"
-  medium = "https://medium.com/blackmoon-crypto"
+  twitter = "BlackmoonFG"
+  facebook = "blackmoonfg"
+  reddit = "BlackMoonCrypto"
+  telegram = "blackmooncrypto"
+  github = "blackmoonfg"
+  medium = "blackmoon-crypto"
   slack = "https://blackmooncrypto.herokuapp.com/"
 
 [trust]

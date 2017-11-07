@@ -24,10 +24,10 @@ features = """
 
 [links]
   website ="https://www.enigma.co/"
-  twitter = "https://twitter.com/enigmaMPC"
-  reddit = "https://www.reddit.com/r/enigmacatalyst/"
-  telegram = "https://t.me/enigmacatalyst"
-  github = "https://github.com/enigmampc"
+  twitter = "enigmaMPC"
+  reddit = "enigmacatalyst"
+  telegram = "enigmacatalyst"
+  github = "enigmampc"
 
 [trust]
   stage = "Beta"

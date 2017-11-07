@@ -28,12 +28,12 @@ features = """
 
 [links]
   website = "https://dentacoin.com/"
-  twitter = "https://twitter.com/dentacoin?lang=en"
-  facebook = "https://www.facebook.com/dentacoin/"
-  reddit = "https://www.reddit.com/r/Dentacoin/"
-  telegram = "https://t.me/dentacoin"
-  github = "https://github.com/Dentacoin"
-  medium ="https://medium.com/@dentacoin/"
+  twitter = "dentacoin"
+  facebook = "dentacoin"
+  reddit = "Dentacoin"
+  telegram = "dentacoin"
+  github = "Dentacoin"
+  medium ="dentacoin"
 
 [trust]
   stage = "Alpha with listed tokens"

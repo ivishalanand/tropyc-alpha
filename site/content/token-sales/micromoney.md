@@ -25,12 +25,12 @@ features = """
 """
 
 [links]
-  website = "https://micromoney.io/"
-  twitter = "https://twitter.com/MicromoneyIO"
-  facebook = "https://www.facebook.com/micromoneymyanmar/"
-  github = "https://github.com/micro-money/prime"
-  telegram = "https://t.me/micromoneyico"
-  medium = "https://medium.com/@micromoney.io"
+  website = "https://micromoney.io"
+  twitter = "MicromoneyIO"
+  facebook = "micromoneymyanmar"
+  github = "micro-money"
+  telegram = "micromoneyico"
+  medium = "micromoney.io"
 
 [trust]
   stage = "Working platform"

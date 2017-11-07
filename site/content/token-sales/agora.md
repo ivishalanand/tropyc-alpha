@@ -25,9 +25,9 @@ features = """
 
 [links]
   website = "https://www.theagora.com"
-  twitter = "https://twitter.com/TheAgoraICO"
-  facebook = "https://www.facebook.com/TheAgoraICO/"
-  reddit = "https://www.reddit.com/r/TheAgoraMarketplace/"
+  twitter = "TheAgoraICO"
+  facebook = "TheAgoraICO"
+  reddit = "TheAgoraMarketplace"
 
 [trust]
   stage = "Ideation"

@@ -24,11 +24,11 @@ features = """
 
 [links]
   website = "https://www.kickico.com/"
-  twitter = "https://twitter.com/KICKICOplatform"
-  facebook = "https://www.facebook.com/kickicoplatform/"
-  reddit = "https://www.reddit.com/r/KickICO/"
-  telegram = "https://t.me/kickico"
-  github = "https://github.com/kickico"
+  twitter = "KICKICOplatform"
+  facebook = "kickicoplatform"
+  reddit = "KickICO"
+  telegram = "kickico"
+  github = "kickico"
 
 
 [trust]

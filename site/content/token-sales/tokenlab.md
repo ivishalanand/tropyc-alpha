@@ -26,11 +26,11 @@ features = """
 
 [links]
   website = "https://www.tokenlab.io/"
-  twitter = "https://twitter.com/ExpanseOfficial"
-  facebook = "https://www.facebook.com/ExpanseTech"
-  reddit = "https://www.reddit.com/r/ExpanseOfficial/"
-  telegram = "https://t.me/tokenlab"
-  github = "http://www.github.com/expanse-org/"
+  twitter = "ExpanseOfficial"
+  facebook = "ExpanseTech"
+  reddit = "ExpanseOfficial"
+  telegram = "tokenlab"
+  github = "expanse-org"
 
 [trust]
   stage = ""

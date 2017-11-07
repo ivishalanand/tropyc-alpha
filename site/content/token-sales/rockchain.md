@@ -25,12 +25,12 @@ features = """
 
 [links]
   website = "https://rockchain.org/token.html"
-  twitter = "https://twitter.com/alphadinos"
-  facebook = "https://www.facebook.com/Rockchain-1830244540626531/"
-  reddit = "https://www.reddit.com/r/rockchain/"
-  github = "https://github.com/AlphaDinoRC/rockchain"
-  medium = "https://medium.com/@alphadino/"
-  slack = "https://rockchain.slack.com"
+  twitter = "alphadinos"
+  facebook = "Rockchain.org"
+  reddit = "rockchain"
+  github = "AlphaDinoRC/rockchain"
+  medium = "alphadino"
+  slack = "rockchain"
 
 
 [trust]

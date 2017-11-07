@@ -26,9 +26,9 @@ features = """
 
 [links]
   website = "https://www.notary-platform.com/"
-  twitter = "https://twitter.com/PlatformNotary"
-  facebook = "https://www.facebook.com/NTRYplatform/"
-  medium = "https://medium.com/notary-platform"
+  twitter = "PlatformNotary"
+  facebook = "NTRYplatform"
+  medium = "notary-platform"
 
 [trust]
   stage = "Beta"

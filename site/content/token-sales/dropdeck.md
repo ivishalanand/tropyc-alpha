@@ -26,12 +26,12 @@ features = """
 
 [links]
   website = "https://dropdeck.io/"
-  twitter = "https://twitter.com/dropdeckio"
-  facebook = "https://www.facebook.com/dropdeck"
-  reddit = "https://www.reddit.com/r/DropDeck/"
-  github = "https://github.com/dropdeck"
-  telegram = "https://t.me/dropdeck"
-  medium = "https://medium.com/dropdeck"
+  twitter = "dropdeckio"
+  facebook = "dropdeck"
+  reddit = "DropDeck"
+  github = "dropdeck"
+  telegram = "dropdeck"
+  medium = "dropdeck"
 
 [trust]
   stage = "Ideation"

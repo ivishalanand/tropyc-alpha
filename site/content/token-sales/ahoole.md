@@ -25,9 +25,9 @@ features = """
 
 [links]
   website = "https://www.ahoole.com"
-  twitter = "https://twitter.com/Ahooleeman"
-  facebook = "https://www.facebook.com/ahooleeman/"
-  telegram = "https://t.me/ahooleecommunityeng"
+  twitter = "Ahooleeman"
+  facebook = "ahooleeman"
+  telegram = "ahooleecommunityeng"
 
 [trust]
   stage = "Alpha product"

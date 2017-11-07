@@ -26,11 +26,11 @@ features = """
 
 [links]
   website = "https://synchrolife.org"
-  twitter = "https://twitter.com/synchrocoin"
-  facebook = "https://www.facebook.com/synchrocoin/"
-  reddit = "https://www.reddit.com/r/SynchroCoin/"
-  telegram = "https://t.me/synchrolife"
-  github = "https://github.com/SynchroCoin"
+  twitter = "synchrocoin"
+  facebook = "synchrocoin"
+  reddit = "SynchroCoin"
+  telegram = "synchrolife"
+  github = "SynchroCoin"
 
 [trust]
   stage = "Launched"

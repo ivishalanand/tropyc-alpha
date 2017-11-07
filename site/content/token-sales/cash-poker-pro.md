@@ -25,11 +25,11 @@ features = """
 
 [links]
   website = "https://cashpokerpro.io/"
-  twitter = "https://twitter.com/CashPokPro"
-  facebook = "https://www.facebook.com/cashppro"
+  twitter = "CashPokPro"
+  facebook = "cashppro"
   reddit = ""
-  telegram = "https://t.me/cashpokerpro"
-  github = "https://github.com/cashpokerpro-dev/"
+  telegram = "cashpokerpro"
+  github = "cashpokerpro-dev"
 
 [trust]
   stage = "MVP"

@@ -26,13 +26,13 @@ features = """
 
 [links]
   website = "https://www.crypto20.com"
-  twitter = "https://twitter.com/CRYPTOtwenty"
-  facebook = "https://www.facebook.com/cryptotwenty/"
-  reddit = "https://www.reddit.com/r/cryptotwenty/"
-  github = "https://github.com/cryptotwenty"
-  telegram = "https://t.me/crypto20"
+  twitter = "CRYPTOtwenty"
+  facebook = "cryptotwenty"
+  reddit = "cryptotwenty"
+  github = "cryptotwenty"
+  telegram = "crypto20"
   slack = "https://cryptotwenty.slack.com"
-  medium = "https://medium.crypto20.com"
+  medium = "crypto20"
 
 [trust]
   stage = "Open code"

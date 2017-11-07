@@ -25,10 +25,10 @@ features = """
 
 [links]
   website = "https://www.real.markets/"
-  twitter = "https://twitter.com/real_token"
-  facebook = "https://www.facebook.com/realestateassetledger"
-  telegram = "https://t.me/joinchat/EuKMRkMXRcL6Rg5KUNQ4Mg"
-  github = "https://github.com/RealEstateAssetLedger/real_contract"
+  twitter = "real_token"
+  facebook = "realestateassetledger"
+  telegram = ""
+  github = "RealEstateAssetLedger"
 
 [trust]
   stage = "MVP"

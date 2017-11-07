@@ -25,10 +25,10 @@ features = """
 
 [links]
   website = "http://www.zloadr.com/"
-  twitter = "https://twitter.com/zloadr"
-  facebook = "https://www.facebook.com/zloadrmedia/"
-  reddit = "https://www.reddit.com/subreddits/search?q=Zloadr"
-  telegram = "https://telegram.me/Zloadr"
+  twitter = "zloadr"
+  facebook = "zloadrmedia"
+  reddit = ""
+  telegram = "Zloadr"
 
 
 [trust]

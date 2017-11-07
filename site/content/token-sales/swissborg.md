@@ -1,5 +1,5 @@
 +++
-title = "Cryptallion by Swissborg"
+title = "Swissborg"
 date = 2017-08-13T17:30:02+02:00
 description = "Decentralized and professional ecosystem to manage a portfolio of crypto assets powered by the community, portofolio managers and new technologies."
 bref = "Crypto portfolio management and financial services"
@@ -26,13 +26,13 @@ features = """
 
 [links]
   website = "https://swissborg.com/en/"
-  twitter = "https://twitter.com/swissborg"
-  facebook = "https://www.facebook.com/swissborg"
-  reddit = "https://www.reddit.com/user/swissborg"
-  github = "https://github.com/SwissBorg"
-  telegram = "https://t.me/swissborg"
-  slack = "https://swissborg.com/slackin/"
-  medium = "https://medium.com/swissborg"
+  twitter = "swissborg"
+  facebook = "swissborg"
+  reddit = "swissborg"
+  github = "SwissBorg"
+  telegram = "swissborg"
+  slack = ""
+  medium = "swissborg"
 
 [trust]
   stage = "MVP"

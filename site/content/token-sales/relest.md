@@ -26,11 +26,11 @@ features = """
 
 [links]
   website = "https://ico.relest.io/"
-  twitter = "https://twitter.com/relestio"
-  facebook = "https://www.facebook.com/relestio"
-  reddit = "https://www.reddit.com/user/Relestio"
-  telegram = "https://t.me/relest_eng"
-  github = "https://github.com/relest/rest/"
+  twitter = "relestio"
+  facebook = "relestio"
+  reddit = "Relestio"
+  telegram = "relest_eng"
+  github = "relest"
 
 [trust]
   stage = "pre-MVP"

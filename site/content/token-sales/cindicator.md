@@ -25,12 +25,12 @@ features = """
 """
 
 [links]
-  website = "https://www.civic.com"
-  twitter = "https://twitter.com/crowd_indicator"
-  facebook = "https://www.facebook.com/crowdindicator"
-  reddit = "https://www.reddit.com/r/Cindicator/"
-  telegram = "https://t.me/cindicator_news"
-  github = "https://github.com/cindicator"
+  website = "https://cindicator.com/"
+  twitter = "crowd_indicator"
+  facebook = "crowdindicator"
+  reddit = "Cindicator"
+  telegram = "cindicator_news"
+  github = "cindicator"
 
 [trust]
   stage = "Working platform"

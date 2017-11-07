@@ -26,9 +26,9 @@ features = """
 
 [links]
   website = "https://liquid.plus/"
-  twitter = "https://twitter.com/quoine_SG"
-  facebook = "https://www.facebook.com/QUOINE.SG/"
-  telegram = "https://t.me/QUOINE"
+  twitter = "quoine_SG"
+  facebook = "QUOINE.SG"
+  telegram = "QUOINE"
 
 
 [trust]

@@ -24,10 +24,10 @@ features = """
 
 [links]
   website = "https://neufund.org/"
-  twitter = "https://twitter.com/neufundorg"
-  facebook = "https://www.facebook.com/neufundorg/"
-  reddit = "https://www.reddit.com/r/neufund/"
-  github = "https://github.com/neufund"
+  twitter = "neufundorg"
+  facebook = "neufundorg"
+  reddit = "neufund"
+  github = "neufund"
 
 [trust]
   stage = "Beta"

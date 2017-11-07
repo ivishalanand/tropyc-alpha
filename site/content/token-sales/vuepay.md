@@ -25,13 +25,13 @@ features = """
 
 [links]
   website = "http://vuepay.co/"
-  twitter = "https://twitter.com/vuepay"
-  facebook = "https://www.facebook.com/VuePayICO/"
-  reddit = "https://www.reddit.com/r/NewICOs/comments/6p42yf/vuepay_is_a_digital_platform_which_runs_on_the/"
-  telegram = "https://t.me/joinchat/E0PjYA2Rlgx_Mr2FzY42KQ"
-  github = "https://github.com/vuepay/VuePay"
-  medium = "https://medium.com/@VuePay"
-  slack = "https://vuepayteam.slack.com/"
+  twitter = "vuepay"
+  facebook = "VuePayICO"
+  reddit = ""
+  telegram = ""
+  github = "vuepay"
+  medium = "VuePay"
+  slack = "vuepayteam"
 
 [trust]
   stage = "Ideation"

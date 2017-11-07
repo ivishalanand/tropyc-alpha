@@ -27,12 +27,12 @@ features = """
 
 [links]
   website = "https://soma.co/"
-  twitter = "https://twitter.com/SomaToken"
-  facebook = "https://www.facebook.com/socialmarketapp/"
-  github = "https://github.com/Soma-co"
-  telegram = "https://t.me/Somacommunity"
-  slack = "https://communityinviter.com/apps/somacommunity/somacommunity"
-  medium = "https://medium.com/@social_83855"
+  twitter = "SomaToken"
+  facebook = "socialmarketapp/"
+  github = "Soma-co"
+  telegram = "Somacommunity"
+  slack = ""
+  medium = ""
 
 [trust]
   stage = "Alpha"

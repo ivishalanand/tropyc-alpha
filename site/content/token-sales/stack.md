@@ -25,10 +25,10 @@ features = """
 
 [links]
   website = "https://stktoken.com"
-  twitter = "https://twitter.com/stktoken"
-  reddit = "https://www.reddit.com/r/STKToken/"
-  telegram = "https://t.me/stktoken"
-  medium = "https://medium.com/@STKtoken"
+  twitter = "stktoken"
+  reddit = "STKToken"
+  telegram = "stktoken"
+  medium = "STKtoken"
 
 [trust]
   stage = "MVP"
