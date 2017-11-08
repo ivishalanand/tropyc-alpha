@@ -2,21 +2,19 @@
 title = "Dummy"
 date = 2017-08-13T17:30:02+02:00
 description = ""
-bref = ""
+bref = "this text will show on ico-table"
 weight = 20
 draft = true
-
 
 startDate = 2016-01-01
 endDate = 2016-01-02
 trustRating = ""
 dealRating = ""
-subheader = ""
-snapshot = ""
+subheader = "4-8 words beneath the ico name"
 origin = "xxxx, 2016"
-industry = ""
-platform = ""
-currencyAccepted = ""
+industry = "Gaming"
+platform = "Etherum"
+currencyAccepted = "BTC, ETH, LTC"
 
 [links]
   website = "https://www.civic.com"
@@ -28,6 +26,7 @@ currencyAccepted = ""
   slack = "civic"
   medium = "civic"
   whitepaper = "civic"
+  youtube = ""
 
 [valuation]
   [valuation.info]
@@ -72,22 +71,18 @@ currencyAccepted = ""
       value = "3,330,000"
 
 [allocation]
-  [allocation.rows.development]
-    [allocation.rows]
-      stake = "Development"
-      cut = "5%"
-  [allocation.rows.legal]
-    [allocation.rows]
-      stake = "Legal"
-      cut = "15%"
-  [allocation.rows.operations]
-    [allocation.rows]
-      stake = "Operations"
-      cut = "50%"
-  [allocation.rows.team]
-    [allocation.rows]
-      stake = "Team"
-      cut = "10%"
+  [allocation.development]
+    stake = "Development"
+    cut = "5%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "15%  "
+  [allocation.operations]
+    stake = "Operations"
+    cut = "50%"
+  [allocation.team]
+    stake = "Team"
+    cut = "10%"
 
 
 [setUp]
@@ -111,8 +106,12 @@ currencyAccepted = ""
 
 
 [roadmap]
-  first =
-  second =
+  [roadmap.1]
+    quarter = "Q1 18"
+    milestone = "text"
+  [roadmap.2]
+    quarter = "Q1 18"
+    milestone = "text"
 
 [stage]
   website = true
@@ -125,7 +124,6 @@ currencyAccepted = ""
   community = false
   expansion = false
   profit = false
-
 +++
 
 
