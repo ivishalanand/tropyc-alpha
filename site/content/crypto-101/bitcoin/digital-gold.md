@@ -175,7 +175,7 @@ Let's review some of Bitcoin's core value propositions.
       <p>Only the ones having access to wallets own the Bitcoins stored in it, and no one else. On the other hand, funds stored in a traditional bank accounts are vulnerable to bank insolvency, freeze, seize and inflation.</p>
     </div>
     <div class="col text-center">
-      {{< img src="crypto-101/summary-icons/vault.svg" class="img-fluid" alt="Vault" >}}
+      {{< img src="crypto-101/icons/vault.svg" class="img-fluid" alt="Vault" >}}
     </div>
   </div>
 </div>
