@@ -2,7 +2,7 @@ baseURL = "https://www.tropyc.co"
 languageCode = "en-us"
 languageLang = "en"
 title = "Tropyc"
-description = "Tropyc - Crypto Community"
+description = "Crypto news, educational content, token sale(ICO) rating."
 Paginate = 3
 
 googleAnalytics = "UA-106154604-1"
