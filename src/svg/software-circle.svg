@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>software-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="software-circle">
+            <circle id="Oval-6" fill="#27AE60" cx="64" cy="64" r="64"></circle>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="26" y="26" width="77" height="77" rx="4"></rect>
+            <rect id="Rectangle" fill="#27AE60" x="30" y="47" width="69" height="5" rx="2.5"></rect>
+            <circle id="Oval" fill="#27AE60" cx="38.5" cy="38.5" r="2.5"></circle>
+            <circle id="Oval" fill="#27AE60" cx="46.5" cy="38.5" r="2.5"></circle>
+            <circle id="Oval" fill="#27AE60" cx="54.5" cy="38.5" r="2.5"></circle>
+        </g>
+    </g>
+</svg>

@@ -11,6 +11,7 @@ import webpackConfig from "./webpack.conf";
 import autoprefixer from "autoprefixer";
 import sass from "gulp-sass";
 import cssNano from "gulp-cssnano";
+import svgSprite from "gulp-svg-sprite";
 
 const browserSync = BrowserSync.create();
 
@@ -39,6 +40,21 @@ gulp.task("css", () => (
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
+
+// Create svg sprites
+gulp.task("svg", () =>
+  gulp.src("src/svg/*.svg")
+    .pipe(svgSprite({
+      mode: {
+        inline: true,
+        symbol: true
+      },
+      svg: {
+        xmlDeclaration: false,
+      }
+    }))
+    .pipe(gulp.dest("./site/layouts/partials"))
+);
 
 // Compile Javascript
 gulp.task("js", (cb) => {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="telegram">
+            <circle id="Oval" fill="#BDC3C7" cx="26" cy="26" r="26"></circle>
+            <path d="M21.9430303,37.0448485 C21.0775758,37.0448485 21.2242424,36.7163636 20.9260606,35.8945455 L18.3769697,27.5066667 L37.9854545,15.8727273" id="Shape" fill-rule="nonzero"></path>
+            <path d="M21.9430303,37.0448485 C22.6121212,37.0448485 22.9066667,36.7393939 23.2824242,36.3745455 L26.8472727,32.9115152 L22.3975758,30.2278788" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M22.3975758,30.2278788 L33.1733333,38.1890909 C34.4036364,38.8678788 35.2921212,38.5175758 35.5975758,37.0472727 L39.9854545,16.3769697 C40.4363636,14.5745455 39.3018182,13.76 38.1260606,14.2921212 L12.3636364,24.2278788 C10.6060606,24.9333333 10.6145455,25.9151515 12.0436364,26.3527273 L18.6557576,28.4133333 L33.9575758,18.7612121 C34.6787879,18.3248485 35.3430303,18.5587879 34.7987879,19.0424242" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

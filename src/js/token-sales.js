@@ -1,7 +1,7 @@
 var numeral = require('numeral');
 
-if ($('#valuation-header').length) {
-	var cryptoHeader = document.getElementById('valuation-header').innerHTML;
+if ($('#valuation-cell-header').length) {
+	var cryptoHeader = document.getElementById('valuation-cell-header').innerHTML;
 	var cryptoCurrency;
 	switch(cryptoHeader) {
     case 'ETH':
