@@ -26,6 +26,6 @@ disqusShortname = "tropyc"
     weight = 20
     url = "/crypto-101/"
 [[menu.main]]
-    name = "Token sales"
+    name = "ICOs - Token sales"
     weight = 30
     url = "/token-sales/"
