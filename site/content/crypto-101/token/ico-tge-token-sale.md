@@ -33,7 +33,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
   </thead>
   <tbody class="small">
     <tr>
-      <td colspan="3" class="table-secondary text-center info">NATURE</td>
+      <td colspan="3" class="table-info text-center">NATURE</td>
     </tr>
     <tr>
       <td class="text-left">Definition</td>
@@ -51,7 +51,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
       <td class="text-center">Low</td>
     </tr>
     <tr>
-      <td colspan="3" class="table-secondary text-center info">ENTRY BARRIERS</td>
+      <td colspan="3" class="table-info text-center">ENTRY BARRIERS</td>
     </tr>
     <tr>
       <td class="text-left">Set up costs</td>
@@ -69,7 +69,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
       <td class="text-center">Offline engagement</td>
     </tr>
     <tr>
-      <td colspan="3" class="table-secondary text-center info">DEAL</td>
+      <td colspan="3" class="table-info text-center">DEAL</td>
     </tr>
     <tr>
       <td class="text-left">Negotiation</td>

@@ -1,13 +1,12 @@
 +++
 title = "ICOs are dead, long live ICOs"
-date = 2017-10-02T20:07:03+02:00
+date = 2017-11-09T20:00:00+02:00
 categories = ["ICO"]
 draft = false
 description = "It's been almost a year ICOs have sky-rocketed and while there were many overvaluation and misconducts in the market, ICOs are still cutting-edge tech"
-weight = 20
+weight = 10
 images = ["images/news/icos-are-dead.png"]
 +++
-
 
 ## Tezos: a $232 million shit show
 
@@ -35,11 +34,11 @@ It turns out the protocol has often been referred by the tech community as "need
 
 For instance, Cornell professor Emin Gun Surer  (who turns out to be an advisor for Tezos) stated that Bancor has "one idea, that by itself I don’t think is sufficient".  
 He further said that Bancor's core technology is less efficient than manual market making. 
-Even Blockchain Capital co-founder Brock Pierce, who's a Bancor investor, reported that "Not everyone understands it".
+Even Blockchain Capital co-founder Brock Pierce, who's a Bancor investor, reported that "not everyone understands it".
 
-Still, the project value proposition is already in high demand according to Bancor, as 30-odd projects are planning to use the technology.
+Still, the product is already in high demand according to Bancor, as 30-odd projects are planning to use the technology.
 
-Bancor is facing issued listing its tokens on exchanges which ironically reduces the liquidity of the token, built to ... increase liquidity.
+Bancor is facing issues to list its tokens on exchanges which ironically reduces the liquidity of the token, built to ... increase liquidity.
 
 ## ICOs will change the world
 
@@ -49,20 +48,17 @@ Long gone are the golden days when investors could invest in ICOs (with attracti
 
 At this point, there was a scarcity of projects raising funds via cryptocurrencies.   
 Today, the market is booming regarding amounts of projects, but collapsing concerning investor's expected returns on investment.  
-We may expect a substantial amount of token to reach zero market capitalisation.
+We may expect a substantial amount of tokens to reach zero market capitalisation.
 
 But the technology has not changed a bit: anyone can issue digital assets and raise funds from anyone, without the need of a third party in the process. 
 
-More than issuing a security, ICOs and TGEs can grant rights to holders: for instance, governance in decision-making or access to a marketplace.  
-Today, the limits seem unimaginable in today's current scenario, acceptance rate, infrastructure and market penetration of cryptocurrencies.  
+More than issuing a security, ICOs and TGEs can grant rights to holders. For instance, tokens may facilitate governance in decision-making or give access to a marketplace.  
+The impact of digital assets on our economy can be complicated to conceptualise given the limited market penetration, acceptance rate and infrastructure of cryptocurrencies in today’s economy.
+
 At the least, ICOs and TGEs give a valuable alternative for projects to raise funds.
 
 Yes, there have been multiple failures in the ICO market, but such ground-breaking technology inevitably paves the way for future innovation and exciting disruption.  
 
-
 **Want to start investing in ICOs?** 
 
-Check out our curated list of projects [here](tropyc.co/token-sales), we sort the token distribution and rate every ICOs we chose to add on our website.
-
-
-
+Check out our curated list of projects [here](/token-sales), we sort the token distribution and rate every ICO we choose to add on our website.
