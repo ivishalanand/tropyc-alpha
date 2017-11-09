@@ -28,7 +28,8 @@
 					</div>
 
 		      <div class="article-body content">
-		          {{.Content | safeHTML }}
+		      	{{ partial "share-links" . }}
+		        {{.Content | safeHTML }}
 		      </div>
 
 	        <div class="article-footer text-muted">

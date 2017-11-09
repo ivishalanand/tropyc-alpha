@@ -23,7 +23,7 @@ The rich and famous cryptocurrency experts decided to implement two hard forks:
 * one in August (Bitcoin Cash)
 * another one in November (Bitcoin 2X)
 
-After the (successful) Bitcoin Cash chain split, the second one was supposed to be a compromise between SegWit and an increased in block size. As such, each _party_ would get its own chain.
+After the (successful) Bitcoin Cash chain split, the second one was supposed to be a compromise between SegWit and a block size increase. As such, each _party_ would get its own chain.
 
 However, let's be honest, the general Bitcoin audience has a low understanding of the technology nitty-gritty, especially when it comes to scaling. Only a selected few organisations have the power to educate (or influence) the general audience about this issue.
 
