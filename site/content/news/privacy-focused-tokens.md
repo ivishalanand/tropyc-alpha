@@ -4,7 +4,7 @@ date = 2017-10-30T20:07:05+02:00
 categories = ["Altcoin"]
 draft = false
 description = "Increasing amount of cryptocurrencies are available to transact anonymously."
-weight = 10
+weight = 20
 images = ["images/news/privacy-focused-tokens.png"]
 +++
 
