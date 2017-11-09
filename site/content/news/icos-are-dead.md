@@ -2,7 +2,7 @@
 title = "ICOs are dead, long live ICOs"
 date = 2017-11-09T20:00:00+02:00
 categories = ["ICO"]
-draft = false
+draft = true
 description = "It's been almost a year ICOs have sky-rocketed and while there were many overvaluation and misconducts in the market, ICOs are still cutting-edge tech"
 weight = 10
 images = ["images/news/icos-are-dead.png"]
