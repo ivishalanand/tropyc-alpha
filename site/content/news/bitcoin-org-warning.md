@@ -40,7 +40,7 @@ This agreement has often been depicted as an attempt to control Bitcoin and modi
 No Bitcoin Core developers ever accepted the proposed changes.  
 As such, the New York agreement is often referred to as a joke:
 
-https://twitter.com/Excellion/status/918181191727030272/photo/1
+{{< tweet 918181191727030272 >}}
 
 ## Hard fork
 
