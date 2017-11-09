@@ -4,7 +4,7 @@ date = 2017-11-09T18:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "It took 6 months for the initiators of the SegWit 2x propaganda to finally back off"
-weight = 20
+weight = 10
 images = ["images/news/bitcoin-hard-fork-irony.png"]
 +++
 
