@@ -1,109 +1,136 @@
 +++
 title = "Crypto20"
 date = 2017-08-13T17:30:02+02:00
-description = "Autonomous 'token-as-a-fund' that indexes the performance of the top 20 cryptocurrencies"
+description = "Autonomous 'token-as-a-fund' that indexes the performance of the top 20 cryptocurrencies."
 bref = "Index of the top 20 cryptocurrencies"
 weight = 20
 draft = false
 
-trustRating = "B"
-dealRating = "B+"
-softCap = "$2 M"
-hardCap = "$86 M"
-platform = "Ethereum"
-industry = "Index"
-currencyAccepted = "BTC, LTC, ETH"
 startDate = 2017-10-14
 endDate = 2017-11-14
-founded = "USA, 2017"
-
-features = """
-- Autonomous 'token-as-a-fund' without exit fees and minimum investment. Advice fee is 0.5% per annum.
-- Tracks the performance of top 20 crypto tokens.
-- Stored on a smart contract without the need of a middle man.
-- Expected to reach exchanges by January 2018 after test rebalancing.
-"""
+trustRating = "B+"
+dealRating = "B+"
+origin = "USA, 2017"
+industry = "Index"
+platform = "Ethereum"
+currencyAccepted = "BTC, LTC, ETH"
 
 [links]
   website = "https://www.crypto20.com"
   twitter = "CRYPTOtwenty"
-  facebook = "cryptotwenty"
-  reddit = "cryptotwenty"
-  github = "cryptotwenty"
-  telegram = "crypto20"
+  facebook = "CRYPTOtwenty"
+  reddit = "CRYPTOtwenty"
+  github = "CRYPTOtwenty"
+  telegram = "CRYPTO20"
+  medium = "CRYPTO20"
+  youtube = "WgodkB-mxDA"
   slack = "https://cryptotwenty.slack.com"
-  medium = "crypto20"
+  whitepaper = "https://static.crypto20.com/pdf/c20-whitepaper.pdf?_ga=2.54609698.822824360.1510249355-23526347.1510249355"
 
-[trust]
-  stage = "Open code"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = true
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = true
-  functions = "Index"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "IndexCoin"
-
-[deal]
-  [deal.info]
-    recap = "Calculation based on hard cap, 98% of raised funds is for purchase of assets."
-  [deal.headers]
-    valuationHeader = "USD"
-  [deal.rows]
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "USD"
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "87%"
       supply = "75,000,000"
       value = "75,000,000"
-    [deal.rows.founders]
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "7.5%"
       supply = "6,465,517"
       value = "6,465,517"
-    [deal.rows.earlyInvestors]
-      distribution = "Early investors"
+    [valuation.rows.earlyInvestors]
+      distribution = "Early Investors"
       cut = "0.5%"
       supply = "431,034"
       value = "431,034"
-    [deal.rows.marketing]
-      distribution = "Marketing"
+    [valuation.rows.marketing]
+      distribution = "marketing"
       cut = "2.5%"
       supply = "2,155,173"
       value = "2,155,173"
-    [deal.rows.legal]
+    [valuation.rows.legal]
       distribution = "Legal"
       cut = "1%"
       supply = "862,069"
       value = "862,069"
-    [deal.rows.security]
+    [valuation.rows.security]
       distribution = "Security"
       cut = "1%"
       supply = "862,069"
       value = "862,069"
-    [deal.rows.bounty]
+    [valuation.rows.bounty]
       distribution = "Bounty"
       cut = "0.5%"
       supply = "431,034"
       value = "431,034"
-    [deal.rows.total]
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "86,206,896"
       value = "86,206,896"
 
+[allocation]
+  [allocation.assets]
+    stake = "Assets"
+    cut = "98%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "2%"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Asset-backed Index"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "N/A"
+    competition = "Low"
+    entryBarrier = "Low"
+  [setUp.partnerships]
+    mainstreamMedia = true
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
+
 [roadmap]
+  [roadmap.test]
+    text = "Q1 18"
+    milestone = "text"
+  [roadmap.testy]
+    text = "Q1 18"
+    milestone = "text"
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
-  mvp = true
-  beta = true
-  openDev = true
-  launch = false
+  mvp = false
+  openDev = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Crypto 20**
+
+Autonomous 'token-as-a-fund' that indexes the performance of the top 20 cryptocurrencies
+
+**Functionality**
+
+* Autonomous 'token-as-a-fund' without exit fees and minimum investment. Advice fee is 0.5% per annum.
+* Tracks the performance of top 20 crypto tokens.
+* Stored on a smart contract without the need of a middle man.
+* Expected to reach exchanges by January 2018 after test rebalancing.

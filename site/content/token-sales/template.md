@@ -1,74 +1,73 @@
 +++
-title = "Dummy"
+title = "DropDeck"
 date = 2017-08-13T17:30:02+02:00
-description = ""
-bref = "this text will show on ico-table"
+description = "Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide."
+bref = "Royalty and debt financing platform"
 weight = 20
-draft = true
+draft = false
 
-startDate = 2016-01-01
-endDate = 2016-01-02
-trustRating = ""
-dealRating = ""
-subheader = "4-8 words beneath the ico name"
-origin = "xxxx, 2016"
-industry = "Gaming"
-platform = "Etherum"
-currencyAccepted = "BTC, ETH, LTC"
+startDate = 2017-11-21
+endDate = 2017-12-21
+trustRating = "B+"
+dealRating = "B"
+origin = "N/A, 2017"
+industry = "Crowdfunding, financing"
+platform = "Ethereum"
+currencyAccepted = "BTC, ETH"
 
 [links]
-  website = "https://www.civic.com"
-  twitter = "civic"
-  facebook = "civic"
-  reddit = "civic"
-  github = "civic"
-  telegram = "civic"
-  slack = "civic"
-  medium = "civic"
-  whitepaper = "civic"
+  website = "https://dropdeck.io"
+  twitter = "dropdeckio"
+  facebook = "dropdeck"
+  reddit = "DropDeck"
+  github = "dropdeck"
+  telegram = "dropdeck"
+  medium = "dropdeck"
   youtube = ""
+  slack = ""
+  whitepaper = ""
 
 [valuation]
   [valuation.info]
-    recap = "based on hard cap from whitepaper"
+    recap = "Based on hard cap."
   [valuation.headers]
-    valuationHeader = "ETH"
+    header = "ETH"
   [valuation.rows]
-    [valuation.rows.preICO]
-      distribution = "Pre sale"
-      cut = "12.5%"
-      supply = "25,000,000"
-      value = "41,666"
-    [valuation.rows.ICO]
-      distribution = "Sale"
-      cut = "65%"
-      supply = "130,000,000"
-      value = "216,666"
+    [valuation.rows.preIco]
+      distribution = "Pre-ICO"
+      cut = "50%"
+      supply = "n/a"
+      value = "99,999"
+    [valuation.rows.ico]
+      distribution = "ICO"
+      cut = "50%"
+      supply = "n/a"
+      value = "99,999"
     [valuation.rows.founders]
       distribution = "Founders"
-      cut = "15%"
-      supply = "30,000,000"
-      value = "50,000"
+      cut = "20%"
+      supply = "n/a"
+      value = "40,000"
     [valuation.rows.earlyInvestors]
-      distribution = "Early investors"
-      cut = "2.5%"
-      supply = "5,000,000"
-      value = "8,333"
-    [valuation.rows.affiliate]
-      distribution = "Affiliate"
+      distribution = "Early Investors"
+      cut = "20%"
+      supply = "n/a"
+      value = "40,000"
+    [valuation.rows.reserve]
+      distribution = "Reserves"
+      cut = "25%"
+      supply = "n/a"
+      value = "49,999"
+    [valuation.rows.reward]
+      distribution = "Rewards"
       cut = "5%"
-      supply = "10,000,000"
-      value = "16,666"
-    [valuation.rows.futureEmission]
-      distribution = "Future emission"
-      cut = "0%"
-      supply = "0"
-      value = "0"
+      supply = "n/a"
+      value = "9,999"
     [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
-      supply = "200,000,000"
-      value = "3,330,000"
+      supply = "n/a"
+      value = "199,998"
 
 [allocation]
   [allocation.development]
@@ -76,7 +75,7 @@ currencyAccepted = "BTC, ETH, LTC"
     cut = "5%"
   [allocation.legal]
     stake = "Legal"
-    cut = "15%  "
+    cut = "15%"
   [allocation.operations]
     stake = "Operations"
     cut = "50%"
@@ -84,33 +83,34 @@ currencyAccepted = "BTC, ETH, LTC"
     stake = "Team"
     cut = "10%"
 
-
 [setUp]
-  [setUp.relationships]
-    investorVerif = true
-    thirdAudit = true
-    cryptoInfluencer = false
-    smartMoneyInvestor = false
-    corporatePartner = false
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
   [setUp.token]
     type = "Primary"
     functions = "Currency, Incentive"
     consensus = "Proof-of-stake"
     premined = false
-    walletSupport = true
   [setUp.market]
-    competition = "High"
     similar = "N/A"
+    competition = "High"
     entryBarrier = "High"
-    exchangeListing = true
-
+  [setUp.partnerships]
+    mainstreamMedia = true
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
 
 [roadmap]
-  [roadmap.1]
-    quarter = "Q1 18"
+  [roadmap.test]
+    text = "Q1 18"
     milestone = "text"
-  [roadmap.2]
-    quarter = "Q1 18"
+  [roadmap.testy]
+    text = "Q1 18"
     milestone = "text"
 
 [stage]
@@ -126,4 +126,10 @@ currencyAccepted = "BTC, ETH, LTC"
   profit = false
 +++
 
+**Dropdeck**
 
+This is content coming from ICO
+
+**Functionality**
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus esse quasi libero sunt reprehenderit, nisi assumenda blanditiis earum sint dolor numquam aspernatur architecto voluptatem molestiae sapiente accusamus, rerum non.

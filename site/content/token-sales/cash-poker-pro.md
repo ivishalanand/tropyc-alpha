@@ -2,93 +2,128 @@
 title = "Cash Poker Pro"
 date = 2017-08-13T17:30:02+02:00
 description = "Offline and online poker gaming platform, team has experience in both online and offline poker services. Pre-tokensale to tokensale total token valuation increased ten fold in of 2 months"
-bref = "Poker game on a blockchain"
+bref = "Poker game application on a blockchain"
 weight = 20
 draft = false
 
-trustRating = "B"
-dealRating = "B-"
-softCap = "N/A"
-hardCap = "340 K ETH"
-platform = "Ethereum"
-industry = "Gaming"
-currencyAccepted = "BTC, ETH, WAVES, Fiat"
 startDate = 2017-10-26
 endDate = 2017-11-18
-founded = "Cyprus, 2015"
-
-features = """
-- online poker gaming platform based on blockchain
-- opportunity to play anonymously without any KYC
-
-"""
+trustRating = "B"
+dealRating = "B-"
+origin = "Cyprus, 2015"
+industry = "Gaming"
+platform = "Ethereum"
+currencyAccepted = "BTC, ETH, WAVES, fiat"
 
 [links]
   website = "https://cashpokerpro.io/"
   twitter = "CashPokPro"
   facebook = "cashppro"
-  reddit = ""
-  telegram = "cashpokerpro"
   github = "cashpokerpro-dev"
+  telegram = "cashpokerpro"
+  youtube = "tdk_RiTCHtw"
+  medium = "CashPokPro"
+  whitepaper = "https://cashpokerpro.io/whitepaper.pdf?v7"
 
-[trust]
-  stage = "MVP"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = true
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = false
-  functions = "Access, Currency, Incentive"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.pretokensale]
-      distribution = "Pre-tokensale"
+[valuation]
+  [valuation.info]
+    recap = Based on interview and whitepaper figures."
+  [valuation.headers]
+    header = "ETH"
+  [valuation.rows]
+    [valuation.rows.preIco]
+      distribution = "Pre-ICO"
       cut = "8%"
       supply = "8,000,000"
       value = "29,600"
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "60%"
       supply = "60,000,000"
       value = "216,666"
-    [deal.rows.founders]
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "12%"
-      supply = "30,000,000"
+      supply = "12,000,000"
       value = "40,800"
-    [deal.rows.earlyInvestors]
+    [valuation.rows.earlyInvestors]
       distribution = "Early Investors"
       cut = "10%"
-      supply = "5,000,000"
+      supply = "30,000,000"
       value = "34,000"
-    [deal.rows.miners]
+    [valuation.rows.miners]
       distribution = "Miners"
       cut = "10%"
       supply = "10,000,000"
       value = "34,000"
-    [deal.rows.total]
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
       value = "340,000"
 
+[allocation]
+  [allocation.development]
+    stake = "Development"
+    cut = "N/A"
+  [allocation.support]
+    stake = "Technical support"
+    cut = "N/A"
+  [allocation.marketing]
+    stake = "Marketing"
+    cut = "N/A"
+  [allocation.Placement]
+    stake = "Product placement"
+    cut = "N/A"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
+  [setUp.token]
+    type = "Primary"
+    functions = "Currency, Incentive"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "N/A"
+    competition = "High"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = false
+    corporatePartners = false
+    smartMoneyInvestors = false
+    cryptoInfluencers = false
+
 [roadmap]
+  [roadmap.test]
+    text = "Q1 18"
+    milestone = "text"
+  [roadmap.testy]
+    text = "Q1 18"
+    milestone = "text"
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = false
-  beta = false
   openDev = false
-  launch = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Cash Poker Pro**
+
+Offline and online poker gaming platform, team has experience in both online and offline poker services. Pre-tokensale to tokensale total token valuation increased ten fold in of 2 months.
+
+**Functionalities**
+
+- online poker gaming platform based on blockchain
+- opportunity to play anonymously without any KYC
