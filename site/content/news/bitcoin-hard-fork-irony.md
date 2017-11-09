@@ -23,16 +23,15 @@ The rich and famous cryptocurrency experts decided to implement two hard forks:
 * one in August (Bitcoin Cash)
 * another one in November (Bitcoin 2X)
 
-After the (successful) Bitcoin Cash chain split, the second one was supposed to be a compromise between SegWit and an increased in block size. As such each _party_ would get its own chain.
+After the (successful) Bitcoin Cash chain split, the second one was supposed to be a compromise between SegWit and an increased in block size. As such, each _party_ would get its own chain.
 
-However, let's be honest, the general Bitcoin audience has a low understanding of the technology nitty-gritty, especially when it comes to scaling. 
-In fact, only a selected few organisations have the power to educate (or influence) the general audience about this issue.
+However, let's be honest, the general Bitcoin audience has a low understanding of the technology nitty-gritty, especially when it comes to scaling. Only a selected few organisations have the power to educate (or influence) the general audience about this issue.
 
 Since it is a debate, people will naturally acknowledge "experts" based on the number of followers on social media, designation in a corporate or influence over mining infrastructure. 
 
 And when experts clash, like with SegWit1x vs SegWit2x (developers vs businesses), people take the side of the party with the most compelling arguments.
 
-As such, the scaling debate is **nothing less than a political campaign** within the Bitcoin community about a three letter ticker.  
+As such, the scaling debate is **nothing less than a political campaign** within the Bitcoin community, about a three letter ticker.  
 
 **The winner gets to decide which chain will be called BTC.**
 
