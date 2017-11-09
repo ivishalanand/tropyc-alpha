@@ -1,6 +1,6 @@
 +++
 title = "The Bitcoin hard fork irony"
-date = 2017-10-15T18:35:39+02:00
+date = 2017-11-09T18:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "It took 6 months for the initiators of the SegWit 2x propaganda to finally back off"
@@ -8,18 +8,18 @@ weight = 20
 images = ["images/news/bitcoin-hard-fork-irony.png"]
 +++
 
-The final solution to Bitcoin's scaling debate couldn't happen during a closed-door and invite-only ceremony.
+The final solution to Bitcoin's scaling debate couldn't happen during a closed-doors and invite-only ceremony.
 
 What happens when less than 60 stakeholders force a chain consensus on Bitcoin? 
 
-They abort mission.
+They abort mission...
 
 Introduced by the Digital Currency Group, the New York Agreement was drafted to reveal that a small group of businesses _finally_ found the solution to the never-ending Bitcoin scaling debate. 
-The rich and famous cryptocurrency experts decided to implement two hard forks: one in August (Bitcoin Cash) and in November (Bitcoin 2X).  
+The rich and famous cryptocurrency experts decided to implement two hard forks: one in August (Bitcoin Cash) and another one in November (Bitcoin 2X).  
 
 After the (successful) Bitcoin Cash chain split, Bitcoin faced a potential hard fork in mid-November with the controversial implementation of SegWit 2X. 
 
-It was supposed to be a comprise for users and miners to find common ground: each party would get its own chain.
+It was supposed to be a compromise for users and miners to find common ground: each party would get its own chain.
 
 However, only a few selected and successful organisations have the power to educate (or influence) the general audience about the scaling debate.
 
@@ -48,18 +48,18 @@ On the 8th of November, Digital Currency Groups' companies and other major busin
 
 ## The same people triggered the SegWit2X Futures mania
 
-An invite-only meeting led to the introduction of a **listed derivate** on cryptocurrency exchanges.  
+An invite-only meeting led to the introduction of a **listed derivative** on cryptocurrency exchanges.  
 For a month, investors happily traded SegWit2x Futures at a premium price, hoping the fork would happen as planned.
 
 After confirmation of the hard fork "cancellation" initiated first by DCG's CoinDesk, the price of futures dropped by an impressive 86%.
 
 {{< tweet 928410338973880321 >}}
 
-Who is to blame for the introduction of an unregulated security that witnessed price jumps from $600 to $1,100 and $150 in 3 weeks?
+Who is to blame for the introduction of an unregulated security that witnessed price jumps from $600 to $1,800 and then back to $150 in 3 weeks?
 
 Large ticket investors, (some have initiated and cancelled the hard fork) could have liquidated their position before announcing the end of the hard fork via their communication channels.  
 
-It is a classic case of information asymmetry or insider trading, where the average cryptocurrency investor cannot compete with the powerhouses.  
+It is a classic case of information asymmetry or insider trading where the average cryptocurrency investor cannot compete with the powerhouses.  
 
 ## Calling off a hard fork does not make sense
 
@@ -67,7 +67,7 @@ How can we stop a hard fork?
 
 If a handful of miners decide to split the chain and implement SegWit2X, **there will be a second chain no matter what.** 
 
-**Initiators** of the SegWit2X fork decided to cancel it by issuing articles on mainstream cryptocurrency media outlet: CoinDesk, Bitcoin.com or CoinTelegraph.
+**Initiators** of the SegWit2X fork decided to cancel it by issuing articles on mainstream cryptocurrency media outlets: CoinDesk, Bitcoin.com or CoinTelegraph.
 
 It all started with a [CoinDesk article](https://www.coindesk.com/2x-called-off-bitcoin-hard-fork-suspended-lack-consensus/) that announced the end of the hard fork via an attached [e-mail](https://lists.linuxfoundation.org/pipermail/bitcoin-segwit2x/2017-November/000685.html) from Mike Belshe, Wences Casares, Jihan Wu, Jeff Garzik, Peter Smith and Erik Voorhees - all historical Bitcoin entrepreneurs.
 
@@ -78,11 +78,5 @@ Launching and calling off the fork in closed doors is similar to a (failed) coup
 This rather odd event reminds us of the following:
 
 * Cryptocurrency media outlets have an agenda, impact prices astronomically, and report to a Bitcoin intelligentsia located at the top of the food chain.
-* Bitcoin, as a decentralised payment system, has become increasingly politicised and controlled by a handful of early investors and entrepreneurs.
+* Bitcoin as a decentralised payment system, has become increasingly politicised and controlled by a handful of early investors and entrepreneurs.
 * Bitcoin does need anyone to defend it; you can only defend your own perspective of Bitcoin.
-
-
-
-
- 
-
