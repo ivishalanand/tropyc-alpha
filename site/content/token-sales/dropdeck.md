@@ -72,31 +72,33 @@ currencyAccepted = "BTC, ETH"
     cut = "10%"
 
 [setUp]
-  [setUp.relationships]
+  [setUp.compliance]
     investorVerification = true
     thirdPartyAudit = true
-    cryptoInfluencers = false
-    smartMoneyInvestors = false
-    corporatePartners = false
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
   [setUp.token]
     type = "Primary"
     functions = "Currency, Incentive"
     consensus = "Proof-of-stake"
     premined = false
-    walletSupport = true
   [setUp.market]
-    competition = "High"
     similar = "N/A"
+    competition = "High"
     entryBarrier = "High"
-    exchangeListing = true
+  [setUp.partnerships]
+    cryptoInfluencers = false
+    smartMoneyInvestors = false
+    corporatePartners = false
 
 [roadmap]
   [roadmap.1]
-    quarter = "Q1 18"
-    milestone = "text"
+    period = "Q1 18"
+    milestone = "Token sale"
   [roadmap.2]
-    quarter = "Q1 18"
-    milestone = "text"
+    period = "Q1 18"
+    milestone = "MVP"
 
 [stage]
   website = true

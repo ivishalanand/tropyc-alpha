@@ -90,7 +90,7 @@
 			<div class="row">
 				<div class="col-lg-3 order-2 order-lg-1">
 					<div class="twitter-feed">
-						<a class="twitter-timeline" data-height="1000" data-chrome="nofooter" data-theme="light" data-link-color="#19CF86" href="https://twitter.com/{{ .Params.links.twitter }}">Tweets by relestio</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<a class="twitter-timeline" data-height="1000" data-chrome="nofooter" data-theme="light" data-link-color="#19CF86" href="https://twitter.com/{{ .Params.links.twitter }}">Tweets by {{ .Params.links.twitter }}</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>
 				</div>
 				<div class="col-lg-9 order-1 order-lg-2">
@@ -146,7 +146,6 @@
 					            </table>
 				            </div>
 			            </div>
-
 									<div class="col-lg-4">
 				            <div class="fund-allocation">
 				            	<div class="tab-content-header">
@@ -179,25 +178,219 @@
 						<div class="tab-pane fade" id="nav-set-up" role="tabpanel" aria-labelledby="nav-set-up-tab">
 							<div class="container">
 								<div class="row">
-									<div class="col-lg-4">
-										<div class="relationships">
+									<div class="col-md-6">
+										<div class="set-up-box compliance">
 											<div class="tab-content-header">Relationships</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Investor verification</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.relationships.investorVerification }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Third party audit</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.relationships.thirdPartyAudit }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
 										</div>
 									</div>
-									<div class="col-lg-4">
-										<div class="token">
+									<div class="col-md-6">
+										<div class="set-up-box trading">
+											<div class="tab-content-header">Trading</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Exchange listing</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.trading.exchangeListing }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Wallet support</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.trading.walletSupport }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="set-up-box token">
 											<div class="tab-content-header">Token</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Type</div>
+												</div>
+												<div class="col-6">
+													<div class="value">{{ .Params.setUp.token.type }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Functions</div>
+												</div>
+												<div class="col-6">
+													<div class="value">{{ .Params.setUp.token.functions }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Consensus</div>
+												</div>
+												<div class="col-6">
+													<div class="value">{{ .Params.setUp.token.consensus }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Premined</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.token.premine }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
 										</div>
 									</div>
-									<div class="col-lg-4">
-										<div class="market">
+									<div class="col-md-6">
+										<div class="set-up-box market">
 											<div class="tab-content-header">Market</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Similar</div>
+												</div>
+												<div class="col-6">
+													<div>{{ .Params.setUp.market.similar }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Competition</div>
+												</div>
+												<div class="col-6">
+													<div>{{ .Params.setUp.market.competition }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Entry barrier</div>
+												</div>
+												<div class="col-6">
+													<div>{{ .Params.setUp.market.entryBarrier }}</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="set-up-box partnerships">
+											<div class="tab-content-header">Partnerships</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Crytpo influencers</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.relationships.cryptoInfluencers }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Smart money investor</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.relationships.smartMoneyInvestors }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Corporate partnership</div>
+												</div>
+												<div class="col-6">
+													{{ if .Params.setUp.relationships.corporatePartners }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane fade" id="nav-timeline" role="tabpanel" aria-labelledby="nav-timeline-tab">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="tab-content-header">Roadmap</div>
+										<div class="roadmap-timeline">
+											{{ with .Params.roadmap }}
+												{{ range . }}
+											  <div class="roadmap-timeline-container">
+											    <div class="roadmap-timeline-content">
+											      <strong>{{ .period }}</strong>
+											      <p>{{ .milestone }}</p>
+											    </div>
+											  </div>
+											  {{ end }}
+										  {{ end }}
+										</div>
+									</div>
+									<div class="col-md-9">
+										<div class="tab-content-header">Stage of development</div>
+										<div class="development-timeline">
+											<div class="development-timeline-container">
+												<div class="stage">Ideation</div>
+												<div class="details">
+													<div>
+														{{ if .Params.stage.whitepaper }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Whitepaper
+													</div>
+													<div>
+														{{ if .Params.stage.website }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Website
+													</div>
+												</div>
+												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+											</div>
+											<div class="development-timeline-container">
+												<div class="stage">Ideation</div>
+												<div class="details">
+													<div>
+														{{ if .Params.stage.whitepaper }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Whitepaper
+													</div>
+													<div>
+														{{ if .Params.stage.website }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Website
+													</div>
+												</div>
+												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+											</div>
+											<div class="development-timeline-container">
+												<div class="stage">Ideation</div>
+												<div class="details">
+													<div>
+														{{ if .Params.stage.whitepaper }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Whitepaper
+													</div>
+													<div>
+														{{ if .Params.stage.website }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Website
+													</div>
+												</div>
+												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+											</div>
+											<div class="development-timeline-container">
+												<div class="stage">Ideation</div>
+												<div class="details">
+													<div>
+														{{ if .Params.stage.whitepaper }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Whitepaper
+													</div>
+													<div>
+														{{ if .Params.stage.website }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Website
+													</div>
+												</div>
+												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="tab-pane fade" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
 						</div>

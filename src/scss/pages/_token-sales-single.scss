@@ -172,36 +172,38 @@
 			margin-top: 10px;
 
 			.tab-content-header {
-				min-height: 50px;
-				margin-bottom: 1rem;
 				text-align: center;
 				font-family: "Nunito";
 				font-weight: 600;
-
-				p {
-					font-size: 0.75rem;
-					margin: 0;
-				}
 			}
 
 			#nav-financial {
-
-				.valuation {
-					margin-top: 10px;
-  				margin-right: 1rem;
-					padding-right: 1rem;
-
+				.col-lg-8:first-child {
 					@include media-breakpoint-up(lg) {
 						border-right: 1px solid $gray-300;
 					}
 				}
 
+				.tab-content-header {
+					min-height: 50px;
+					margin-bottom: 1rem;
+
+					p {
+						font-size: 0.75rem;
+						margin: 0;
+					}
+				}
+
+				.valuation {
+					margin-top: 10px;
+					padding-left: 1rem;
+					padding-right: 1rem;
+				}
+
 				.fund-allocation {
 					margin-top: 10px;
-
-					@include media-breakpoint-down(md) {
-						margin-top: 20px;
-					}
+					padding-left: 1rem;
+					padding-right: 1rem;
 				}
 
 				.financial-table {
@@ -233,19 +235,43 @@
 		}
 
 		#nav-set-up {
-			.relationships {
-				@include media-breakpoint-up(lg) {
-					border-right: 1px solid $gray-300;
+
+			.col-md-6 {
+				@include media-breakpoint-up(md) {
+					&:not(:last-child) {
+						border-bottom: 1px solid $gray-300;
+					}
+
+					&:nth-child(odd) {
+						border-right: 1px solid $gray-300;
+					}
 				}
 			}
 
-			.token {
-				@include media-breakpoint-up(lg) {
-					border-right: 1px solid $gray-300;
-				}
-			}
+			.set-up-box {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				padding-left: 1rem;
+				padding-right: 1rem;
 
-			.market {
+				.row {
+					margin-bottom: 0.5rem;
+				}
+
+				.col-6:first-child {
+					font-size: 0.8rem;
+				}
+
+				.col-6:nth-child(2) {
+					font-size: 0.9rem;
+					font-weight: 600;
+					text-align: center;
+				}
+
+				.icon {
+					height: 20px;
+					width: 20px;
+				}
 			}
 		}
 	}

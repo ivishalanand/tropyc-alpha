@@ -1,0 +1,66 @@
+/* The actual timeline (the vertical ruler) */
+.roadmap-timeline {
+	margin-top: 1rem;
+	position: relative;
+
+  /* The actual timeline (the vertical ruler) */
+	&:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: $gray-300;
+    top: 0;
+    bottom: 0;
+    left: 3%;
+	}
+
+	/* Container around content */
+	.roadmap-timeline-container {
+    padding: 17px 17px;
+    position: relative;
+    left: 5%;
+	}
+
+	/* The circles on the timeline */
+	.roadmap-timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    left: -16px;
+    background-color: white;
+    border: 4px solid theme-color("primary");
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+	}
+
+	/* Add arrows to the container (pointing left) */
+	.roadmap-timeline-container::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 20px;
+    width: 0;
+    z-index: 1;
+    left: 8px;
+    border: medium solid $gray-300;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent $gray-300 transparent transparent;
+	}
+
+	/* The actual content */
+	.roadmap-timeline-content {
+		max-width: 250px;
+    padding: 15px 15px;
+    position: relative;
+    border: 1px solid $gray-300;
+    border-radius: 6px;
+    font-size: 0.8rem;
+
+    p {
+    	margin-bottom: 0;
+    }
+	}
+}

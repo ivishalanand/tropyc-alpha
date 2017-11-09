@@ -3,9 +3,11 @@ label {
 }
 
 .label {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-family: "Nunito";
 	color: $gray-600;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 strong {
