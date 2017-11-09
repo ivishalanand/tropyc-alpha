@@ -88,6 +88,7 @@ currencyAccepted = "BTC, ETH"
     competition = "High"
     entryBarrier = "High"
   [setUp.partnerships]
+    mainstreamMedia = true
     cryptoInfluencers = false
     smartMoneyInvestors = false
     corporatePartners = false
