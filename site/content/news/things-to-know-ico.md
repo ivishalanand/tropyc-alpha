@@ -4,7 +4,7 @@ date = 2017-11-06T20:07:03+02:00
 categories = ["ICO"]
 draft = false
 description = "ICOs and token sales can get confusing, follow our tips before stepping in."
-weight = 10
+weight = 20
 images = ["images/news/things-to-know-ico.png"]
 +++
 
