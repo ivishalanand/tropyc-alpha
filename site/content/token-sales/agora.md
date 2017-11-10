@@ -16,7 +16,7 @@ platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
 
 [links]
-  website = "https://www.theagora.com"
+  website = "https://www.theagora.com/"
   twitter = "TheAgoraICO"
   facebook = "TheAgoraICO"
   reddit = "TheAgoraMarketplace"
@@ -45,7 +45,6 @@ currencyAccepted = "BTC, ETH"
       supply = "n/a"
       value = "199,998"
 
-
 [setUp]
   [setUp.compliance]
     investorVerification = false
@@ -67,14 +66,6 @@ currencyAccepted = "BTC, ETH"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = false
-
-[roadmap]
-  [roadmap.1]
-    quarter = "Q1 18"
-    milestone = "text"
-  [roadmap.2]
-    quarter = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

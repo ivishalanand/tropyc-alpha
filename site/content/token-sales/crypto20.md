@@ -16,7 +16,7 @@ platform = "Ethereum"
 currencyAccepted = "BTC, LTC, ETH"
 
 [links]
-  website = "https://www.crypto20.com"
+  website = "https://www.crypto20.com/"
   twitter = "CRYPTOtwenty"
   facebook = "CRYPTOtwenty"
   reddit = "CRYPTOtwenty"
@@ -102,14 +102,6 @@ currencyAccepted = "BTC, LTC, ETH"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

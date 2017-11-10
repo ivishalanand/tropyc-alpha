@@ -1,11 +1,12 @@
 +++
-title = "Zloard"
+title = "Zloadr"
 date = 2017-08-13T17:30:02+02:00
-description = ""News and media publishing platform for publishiers, editors, readers and more"
+description = "News and media publishing platform for publishiers, editors, readers and more"
 bref = "News and media publishing platform"
 weight = 20
 draft = false
 
+ticker = "ZDR"
 startDate = 2017-09-30
 endDate = 2017-10-31
 trustRating = "B-"
@@ -14,7 +15,6 @@ origin = "N/A, 2016"
 industry = "Attention Economy"
 platform = "Ethereum"
 currencyAccepted = "ETH"
-ticker = "ZDR"
 
 [links]
   website = "http://www.zloadr.com/"
@@ -62,7 +62,6 @@ ticker = "ZDR"
       supply = "100,000,000"
       value = "31,000,000"
 
-
 [setUp]
   [setUp.compliance]
     investorVerification = false
@@ -84,14 +83,6 @@ ticker = "ZDR"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

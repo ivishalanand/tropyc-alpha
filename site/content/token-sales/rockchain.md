@@ -17,7 +17,7 @@ currencyAccepted = "BTC, ETH"
 ticker = "ROK"
 
 [links]
-  website = "https://rockchain.org/token.html"
+  website = "https://rockchain.org/token.html/"
   twitter = "alphadinos"
   facebook = "Rockchain.org"
   reddit = "rockchain"
@@ -59,7 +59,7 @@ ticker = "ROK"
   [allocation.development]
     stake = "Rockchain Editions"
     cut = "76%"
-  allocation.development1]
+  [allocation.development1]
     stake = "Application"
     cut = "12%"
   [allocation.contingency]
@@ -99,14 +99,6 @@ ticker = "ROK"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = false
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

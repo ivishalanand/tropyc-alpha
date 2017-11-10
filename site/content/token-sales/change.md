@@ -96,15 +96,6 @@ currencyAccepted = "ETH"
     smartMoneyInvestors = true
     cryptoInfluencers = true
 
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
-
 [stage]
   website = true
   whitepaper = true

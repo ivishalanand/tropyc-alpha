@@ -27,7 +27,7 @@ currencyAccepted = "BTC, ETH, WAVES, fiat"
 
 [valuation]
   [valuation.info]
-    recap = Based on interview and whitepaper figures."
+    recap = "Based on interview and whitepaper figures."
   [valuation.headers]
     header = "ETH"
   [valuation.rows]
@@ -97,14 +97,6 @@ currencyAccepted = "BTC, ETH, WAVES, fiat"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = false
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

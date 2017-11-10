@@ -16,7 +16,7 @@ platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
 
 [links]
-  website = "https://dropdeck.io"
+  website = "https://dropdeck.io/"
   twitter = "dropdeckio"
   facebook = "dropdeck"
   reddit = "DropDeck"
@@ -97,14 +97,6 @@ currencyAccepted = "BTC, ETH"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = false
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

@@ -1,5 +1,5 @@
 +++
-title = "Liquid Quash"
+title = "Liquid Qash"
 date = 2017-08-13T17:30:02+02:00
 description = "Global liquidity platform built by the Quoinex team on top of their order management system."
 bref = "Global liquidity platform built by Quoinex exchange"
@@ -88,14 +88,6 @@ ticker = "QASH"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

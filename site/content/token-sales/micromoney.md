@@ -6,6 +6,7 @@ bref = "Royalty and debt financing platform"
 weight = 20
 draft = false
 
+ticker = "AMM"
 startDate = 2017-10-18
 endDate = 2017-11-18
 trustRating = "A-"
@@ -14,15 +15,13 @@ origin = "Myanmar, 2015"
 industry = "P2P lending"
 platform = "Ethereum"
 currencyAccepted = "BTC, LTC, ETH, DASH ..."
-ticker = "AMM"
 
 [links]
-  website = "https://micromoney.io"
+  website = "https://micromoney.io/"
   twitter = "MicromoneyIO"
   facebook = "micromoneymyanmar"
-  reddit = "DropDeck"
   github = "micro-money"
-  telegram = "micromoneyico""
+  telegram = "micromoneyico"
   medium = "micromoney.io"
   youtube = "0Y5IFRZlzvA"
   whitepaper = "https://www.micromoney.io/MicroMoney_whitepaper_ENG.pdf"
@@ -52,17 +51,12 @@ ticker = "AMM"
       distribution = "Bounty"
       cut = "4"
       supply = "2,400,000"
-      value = "1,200,000
+      value = "1,200,000"
     [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "n/a"
       value = "199,998"
-
-[allocation]
-  [allocation.na]
-    stake = "N/A"
-    cut = "N/A %"
 
 [setUp]
   [setUp.compliance]
@@ -85,14 +79,6 @@ ticker = "AMM"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

@@ -20,7 +20,6 @@ ticker = "SCT"
   website = "https://soma.co/"
   twitter = "somatoken"
   facebook = "socialmarketapp"
-  reddit = "DropDeck"
   github = "Soma-co"
   telegram = "Somacommunity"
   medium = "social_83855"
@@ -44,6 +43,7 @@ ticker = "SCT"
       cut = "10%"
       supply = "6,000,000"
       value = "12,000"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "60,000,000"
@@ -65,7 +65,6 @@ ticker = "SCT"
    [allocation.marketing]
     stake = "Marketing"
     cut = "35%"
-   
 
 [setUp]
   [setUp.compliance]
@@ -88,14 +87,6 @@ ticker = "SCT"
     corporatePartners = false
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

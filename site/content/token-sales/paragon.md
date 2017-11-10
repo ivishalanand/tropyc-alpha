@@ -17,7 +17,7 @@ currencyAccepted = "BTC, LTC, ETH, ETC, XMR ..."
 ticker = "PRG"
 
 [links]
-  website = "https://paragoncoin.com"
+  website = "https://paragoncoin.com/"
   twitter = "paragoncoin"
   facebook = "paragoncoin"
   reddit = "paragoncoin"
@@ -85,14 +85,6 @@ ticker = "PRG"
     corporatePartners = false
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

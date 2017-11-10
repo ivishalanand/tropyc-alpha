@@ -28,6 +28,12 @@
 				h1 {
 					font-size: 2rem;
 					font-weight: 700;
+
+					span {
+						margin-left: 1rem;
+						font-size: 0.9rem;
+						color: $gray-600;
+					}
 				}
 
 				h2 {
@@ -42,9 +48,14 @@
 			}
 
 			.ratings {
+				@include media-breakpoint-up(sm) {
+					margin-left: auto;
+				}
+
 				@include media-breakpoint-down(sm) {
-						margin-bottom: 1rem;
-					}
+					margin-bottom: 1rem;
+				}
+
 				.ratings-box {
 					display: flex;
 					border: 1px solid $gray-300;
@@ -137,21 +148,21 @@
 
 	.profile-content {
 		.twitter-feed {
-			margin-top: 15px;
+			margin-top: 40px;
 			border: 1px solid $gray-300;
 			border-radius: 0.25rem;
 		}
 
 		.tabs {
-			margin-top: 15px;
-			border-top: 1px solid $gray-300;
+			margin-top: 40px;
+			border-top: 2px solid theme-color("primary");
 
 			nav {
 				a {
 					flex: 1;
 					display: flex;
 					justify-content: center;
-					padding: .5rem 1rem;
+					padding: 1rem 1rem;
 					color: $gray-900;
 					text-align: center;
 					font-weight: 600;
@@ -174,6 +185,10 @@
 				a.active {
 					color: theme-color("primary");
 					border-bottom: 2px solid theme-color("primary");
+
+					.icon {
+						fill: theme-color("primary");
+					}
 				}
 
 				a.disabled {
@@ -184,8 +199,8 @@
 		}
 
 		.tab-content {
-			margin-top: 10px;
-			margin-bottom: 20px;
+			margin-top: 30px;
+			margin-bottom: 30px;
 
 			.tab-content-header {
 				text-align: center;
@@ -220,12 +235,19 @@
 					margin-top: 10px;
 					padding-left: 1rem;
 					padding-right: 1rem;
+
+					p {
+						font-size: 0.75rem;
+						color: $gray-600;
+						text-align: center;
+					}
 				}
 
 				.financial-table {
 					width: 100%;
     			max-width: 100%;
     			color: $gray-700;
+    			font-family: "Nunito";
 
     			th, td {
     				padding: 0.25rem;
@@ -236,7 +258,6 @@
 						font-size: 0.7rem;
 						text-align: left;
 						text-transform: uppercase;
-						font-family: "Nunito";
 					}
 
 					tbody {
@@ -270,6 +291,10 @@
 				padding-left: 1rem;
 				padding-right: 1rem;
 
+				.tab-content-header {
+					margin-bottom: 1rem;
+				}
+
 				.row {
 					margin-bottom: 0.5rem;
 				}
@@ -279,7 +304,7 @@
 				}
 
 				.col-6:nth-child(2) {
-					font-size: 0.9rem;
+					font-size: 0.8rem;
 					font-weight: 600;
 					text-align: center;
 				}

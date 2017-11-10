@@ -15,7 +15,7 @@
 				<div class="col-md-9 col-lg-9">
 					<div class="info-main">
 						<div class="details">
-							<h1>{{ .Title }}</h1>
+							<h1>{{ .Title }}<span>{{ with .Params.ticker }}{{ . }}{{ end }}</span></h1>
 							<h2>{{ .Params.bref }}</h2>
 							<p>{{ .Description }}</p>
 						</div>
@@ -63,7 +63,7 @@
 							<div>Currency accepted</div>
 							<div>{{ .Params.currencyaccepted }}</div>
 						</div>
-						<a href="{{ .Params.links.website }}/?utm_source=tropyc" target="_blank" class="btn btn-primary">GO TO ICO</a>
+						<a href="{{ .Params.links.website }}?utm_source=tropyc" target="_blank" class="btn btn-primary">GO TO ICO</a>
 					</div>
 					<div class="socials">
 						{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><svg class="icon"><use xlink:href="#twitter" /></svg></a>{{ end }}
@@ -72,7 +72,7 @@
             {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><svg class="icon"><use xlink:href="#github" /></a>{{ end }}
             {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><svg class="icon"><use xlink:href="#telegram" /></a>{{ end }}
             {{ if isset .Params.links "slack" }}<a href="{{ .Params.links.slack }}" target="_blank"><svg class="icon"><use xlink:href="#slack" /></a>{{ end }}
-            {{ if isset .Params.links "medium" }}<a href="https://medium.com/{{ .Params.links.medium }}" target="_blank"><svg class="icon"><use xlink:href="#medium" /></a>{{ end }}
+            {{ if isset .Params.links "medium" }}<a href="https://medium.com/@{{ .Params.links.medium }}" target="_blank"><svg class="icon"><use xlink:href="#medium" /></a>{{ end }}
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-9">
@@ -156,12 +156,12 @@
 					            </table>
 				            </div>
 			            </div>
-			            {{ with .Params.allocation }}
 										<div class="col-lg-4">
 					            <div class="fund-allocation">
 					            	<div class="tab-content-header">
 													<div>Fund Allocation</div>
 												</div>
+			            			{{ with .Params.allocation }}
 												<table class="financial-table">
 													<thead>
 														<tr>
@@ -178,9 +178,11 @@
 														{{ end }}
 													</tbody>
 												</table>
+			            			{{ else }}
+			            			<p>At the time of listing, this project did not communicate fund allocation.</p>
+			            			{{ end }}
 					            </div>
 				            </div>
-			            {{ end }}
 		            </div>
 		          </div>
 						</div>

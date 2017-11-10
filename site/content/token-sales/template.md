@@ -6,6 +6,7 @@ bref = "Royalty and debt financing platform"
 weight = 20
 draft = true
 
+ticker = "ENG"
 startDate = 2017-11-21
 endDate = 2017-12-21
 trustRating = "B+"
@@ -14,10 +15,9 @@ origin = "N/A, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
-ticker = "ENG"
 
 [links]
-  website = "https://dropdeck.io"
+  website = "https://dropdeck.io/"
   twitter = "dropdeck"
   facebook = "dropdeck"
   reddit = "DropDeck"
@@ -74,7 +74,7 @@ ticker = "ENG"
   [allocation.development]
     stake = "Development"
     cut = "5%"
-  allocation.marketing]
+  [allocation.marketing]
     stake = "Marketing"
     cut = "10%"
   [allocation.legal]
@@ -108,14 +108,6 @@ ticker = "ENG"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = false
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

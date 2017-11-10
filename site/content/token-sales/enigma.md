@@ -15,7 +15,6 @@ origin = "N/A, 2017"
 industry = "Data marketplace"
 platform = "Native"
 currencyAccepted = "BTC, ETH"
-ticker = "ENG"
 
 [links]
   website = "https://www.enigma.co/"
@@ -82,14 +81,6 @@ ticker = "ENG"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

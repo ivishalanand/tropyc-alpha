@@ -17,7 +17,7 @@ currencyAccepted = "BTC, LTC, ETH, XRP"
 ticker = "GJC"
 
 [links]
-  website = "https://globaljobcoin.com"
+  website = "https://globaljobcoin.com/"
   twitter = "globaljobcoin"
   facebook = "globaljobcoin"
   reddit = "globaljobcoin"
@@ -48,6 +48,7 @@ ticker = "GJC"
       cut = "30%"
       supply = "30,000,000"
       value = "60,000"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
@@ -97,14 +98,6 @@ ticker = "GJC"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

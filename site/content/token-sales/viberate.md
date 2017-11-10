@@ -6,6 +6,7 @@ bref = "Product linking every stakeholders in the music and event industry"
 weight = 20
 draft = false
 
+ticker = "VIB"
 startDate = 2017-09-05
 endDate = 2017-09-05
 trustRating = "A"
@@ -14,10 +15,9 @@ origin = "Solvenia, 2016"
 industry = "Music, Events"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
-ticker = "VIB"
 
 [links]
-  website = "https://www.viberate.io"
+  website = "https://www.viberate.io/"
   twitter = "viberate_com"
   facebook = "viberateOFC"
   github = "viberate"
@@ -65,16 +65,15 @@ ticker = "VIB"
   [allocation.development1]
     stake = "Product and management"
     cut = "15%"
-  allocation.development2]
+  [allocation.development2]
     stake = "Database expansion"
     cut = "15%"
-  allocation.marketing]
+  [allocation.marketing]
     stake = "Marketing"
     cut = "20%"
   [allocation.operations]
     stake = "Operations"
     cut = "10%"
-
 
 [setUp]
   [setUp.compliance]
@@ -97,14 +96,6 @@ ticker = "VIB"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

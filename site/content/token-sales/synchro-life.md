@@ -1,11 +1,12 @@
 +++
 title = "Synchro Life"
 date = 2017-08-13T17:30:02+02:00
-description = Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear"
+description = "Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear"
 bref = "Community platform for the food and beverage industry"
 weight = 20
 draft = false
 
+ticker = "SYC"
 startDate = 2017-09-22
 endDate = 2017-10-20
 trustRating = "B"
@@ -14,10 +15,9 @@ origin = "Japan, 2017"
 industry = "Food and beverage"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
-ticker = "SYC"
 
 [links]
-  website = "https://synchrolife.org"
+  website = "https://synchrolife.org/"
   twitter = "synchrocoin"
   facebook = "synchrocoin"
   reddit = "synchrocoin"
@@ -104,14 +104,6 @@ ticker = "SYC"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

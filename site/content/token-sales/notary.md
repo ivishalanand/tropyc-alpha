@@ -17,7 +17,7 @@ currencyAccepted = "BTC, ETH"
 ticker = "NTRY"
 
 [links]
-  website = "https://www.notary-platform.com"
+  website = "https://www.notary-platform.com/"
   twitter = "PlatformNotary"
   facebook = "NTRYplatform"
   medium = "notary-platform"
@@ -104,14 +104,6 @@ ticker = "NTRY"
     corporatePartners = true
     smartMoneyInvestors = false
     cryptoInfluencers = false
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

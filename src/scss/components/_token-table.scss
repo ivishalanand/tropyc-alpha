@@ -1,4 +1,6 @@
 .token-table {
+	font-family: "Nunito";
+
   th {
   	cursor: pointer;
   	text-transform: uppercase;
@@ -71,7 +73,6 @@
   }
 
 	.rating {
-		font-family: "Nunito";
 		font-weight: 600;
 		font-size: 1.25rem;
 	}

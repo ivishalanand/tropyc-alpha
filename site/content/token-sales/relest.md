@@ -17,7 +17,7 @@ currencyAccepted = "BTC, LTC, ETH"
 ticker = "REST"
 
 [links]
-  website = "https://ico.relest.io"
+  website = "https://ico.relest.io/"
   twitter = "relestio"
   facebook = "relestio"
   reddit = "relestio"
@@ -99,14 +99,6 @@ ticker = "REST"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

@@ -6,6 +6,7 @@ bref = "Advertising platform with enhanced demographic analytics"
 weight = 20
 draft = false
 
+ticker = "VUP"
 startDate = 2017-10-06
 endDate = 2017-10-20
 trustRating = "C+"
@@ -14,7 +15,6 @@ origin = "India/UK, 2017"
 industry = "Attention Eocnomy"
 platform = "Ethereum"
 currencyAccepted = "ETH"
-ticker = "VUP"
 
 [links]
   website = "http://vuepay.co/"
@@ -69,7 +69,6 @@ ticker = "VUP"
     stake = "N/A"
     cut = "N/A"
 
-
 [setUp]
   [setUp.compliance]
     investorVerification = false
@@ -91,14 +90,6 @@ ticker = "VUP"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

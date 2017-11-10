@@ -6,6 +6,7 @@ bref = "Crypto portfolio management and financial services"
 weight = 20
 draft = false
 
+ticker = "CSB"
 startDate = 2017-11-21
 endDate = 2017-12-21
 trustRating = "B+"
@@ -14,7 +15,6 @@ origin = "Switzerland, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
-ticker = "CSB"
 
 [links]
   website = "https://swissborg.com/en/"
@@ -43,7 +43,6 @@ ticker = "CSB"
       supply = "35,000,000"
       value = "350,000"
 
-
 [setUp]
   [setUp.compliance]
     investorVerification = true
@@ -65,14 +64,6 @@ ticker = "CSB"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

@@ -16,7 +16,7 @@ platform = "Ethereum"
 currencyAccepted = "ETH"
 
 [links]
-  website = "https://ahoolee.io"
+  website = "https://ahoolee.io/"
   twitter = "Ahooleeman"
   facebook = "Ahooleeman"
   telegram = "ahooleecommunityeng"
@@ -25,7 +25,7 @@ currencyAccepted = "ETH"
 
 [valuation]
   [valuation.info]
-    recap = "Based on whitepaper "cap"."
+    recap = "Based on whitepaper 'cap'."
   [valuation.headers]
     header = "USD"
   [valuation.rows]
@@ -60,7 +60,6 @@ currencyAccepted = "ETH"
       supply = "100,000,000"
       value = "13,700,000"
 
-
 [setUp]
   [setUp.compliance]
     investorVerification = false
@@ -82,14 +81,6 @@ currencyAccepted = "ETH"
     corporatePartners = false
     smartMoneyInvestors = false
     cryptoInfluencers = false
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true

@@ -34,7 +34,7 @@
 	          <td>
 	          	<div class="token-data">
 		          	<div class="image img-thumbnail">
-		          		<a href="{{ .URL }}" style="background-image: url('/images/{{ (printf "tokensale-logos/%s-64.png" .Title | urlize) }}');"></a>
+		          		<a href="{{ .URL }}" style="background-image: url('/images/{{ (printf "token-sale-logos/%s-64.png" .Title | urlize) }}');"></a>
 		          	</div>
 		          	<div class="content">
 		          		<a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a>
@@ -43,7 +43,7 @@
 	          	</div>
 	          </td>
 	          <td class="{{ .Params.deal.headers.valuationHeader }}">{{ .Params.valuation.rows.total.value }}</td>
-	          <td>{{ .Params.valuation.rows.tokensale.cut }}</td>
+	          <td>{{ .Params.valuation.rows.ico.cut }}</td>
 		        <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
 	          <td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>
 	          <td class="rating">{{ partial "rating" .Params.trustRating }}</td>

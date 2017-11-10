@@ -17,7 +17,7 @@ currencyAccepted = "ETH"
 ticker = "STK"
 
 [links]
-  website = "https://stktoken.com"
+  website = "https://stktoken.com/"
   twitter = "stktoken"
   facebook = "dropdeck"
   reddit = "stktoken"
@@ -95,14 +95,6 @@ ticker = "STK"
     corporatePartners = true
     smartMoneyInvestors = true
     cryptoInfluencers = true
-
-[roadmap]
-  [roadmap.test]
-    text = "Q1 18"
-    milestone = "text"
-  [roadmap.testy]
-    text = "Q1 18"
-    milestone = "text"
 
 [stage]
   website = true
