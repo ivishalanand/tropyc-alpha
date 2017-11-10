@@ -1,96 +1,138 @@
 +++
 title = "Synchro Life"
 date = 2017-08-13T17:30:02+02:00
-description = "Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear"
-bref = "Recommendation and community platform for the food and beverage industry"
+description = Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear"
+bref = "Community platform for the food and beverage industry"
 weight = 20
 draft = false
 
-trustRating = "B"
-dealRating = "B-"
-softCap = "N/A"
-hardCap = "N/A"
-platform = "Ethereum"
-industry = "Food and beverage"
-currencyAccepted = "ETH"
 startDate = 2017-09-22
 endDate = 2017-10-20
-founded = "Japan, 2017"
-
-features = """
-- Community reviews restaurants, engages on the platform and gets rewarded for their contribution
-- Personnal recommendations powered by artifical intelligence
-- Users can add restaurants, menu, upload comments, pictures, suggestions and more
-- Application has a revenue model and intends to charges a premium fee while providing a free version
-"""
+trustRating = "B"
+dealRating = "C+"
+origin = "Japan, 2017"
+industry = "Food and beverage"
+platform = "Ethereum"
+currencyAccepted = "BTC, ETH"
+ticker = "SYC"
 
 [links]
   website = "https://synchrolife.org"
   twitter = "synchrocoin"
   facebook = "synchrocoin"
-  reddit = "SynchroCoin"
+  reddit = "synchrocoin"
+  github = "synchrocoin"
   telegram = "synchrolife"
-  github = "SynchroCoin"
+  medium = "synchrocoin"
+  youtube = "qEqyH63tbQA"
+  whitepaper = "https://synchrolife.org/whitepaper.html"
 
-[trust]
-  stage = "Launched"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = false
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = false
-  functions = "Access, Incentive, Currency, Reward"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.info]
-    recap = "There is no set price for the SynchroCoin tokens, instead they will be divided based upon the total amount raised during the token crowdsale."
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+[valuation]
+  [valuation.info]
+    recap = "No price"
+  [valuation.headers]
+    header = "SYC"
+  [valuation.rows]
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "55%"
       supply = "55,000,000"
-    [deal.rows.founders]
+      value = "55,000,000"
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "9.5%"
       supply = "9,500,000"
-    [deal.rows.development]
+      value = "9,500,000"
+    [valuation.rows.development]
       distribution = "Development"
       cut = "9.5%"
       supply = "9,500,000"
-    [deal.rows.earlyInvestors]
-      distribution = "Early investors"
+      value = "9,500,000"
+    [valuation.rows.earlyInvestors]
+      distribution = "Early Investors"
       cut = "5%"
       supply = "5,000,000"
-    [deal.rows.reward]
+      value = "5,000,000"
+    [valuation.rows.reward]
       distribution = "Reward pool"
       cut = "20%"
       supply = "20,000,000"
-    [deal.rows.bounty]
+      value = "20,000,000"
+    [valuation.rows.bounty]
       distribution = "Bounty"
       cut = "1%"
       supply = "1,000,000"
-    [deal.rows.total]
+      value = "1,000,000"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
+      value = "100,000,000"
 
+[allocation]
+  [allocation.development]
+    stake = "Development"
+    cut = "40%"
+  [allocation.marketing]
+    stake = "Marketing"
+    cut = "30%"
+  [allocation.management]
+    stake = "Operations"
+    cut = "30%"
+  [allocation.team]
+    stake = "Team"
+    cut = "10%"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = false
+    thirdPartyAudit = false
+  [setUp.trading]
+    exchangeListing = false
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Access, Currency, Incentive"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "N/A"
+    competition = "Low"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = false
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
 
 [roadmap]
+  [roadmap.test]
+    text = "Q1 18"
+    milestone = "text"
+  [roadmap.testy]
+    text = "Q1 18"
+    milestone = "text"
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
-  mvp = true
-  beta = true
-  openDev = true
-  launch = true
-  community = true
+  mvp = false
+  openDev = false
+  beta = false
+  workingProduct = false
+  community = false
+  expansion = false
+  profit = false
 +++
+
+**Synchro Life**
+
+Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear
+
+**Functionality**
+
+* Community reviews restaurants, engages on the platform and gets rewarded for their contribution
+* Personnal recommendations powered by artifical intelligence
+* Users can add restaurants, menu, upload comments, pictures, suggestions and more
+* Application has a revenue model and intends to charges a premium fee while providing a free version

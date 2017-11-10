@@ -6,85 +6,123 @@ bref = "Facilitates real-time cryptocurrency transactions at point of sale"
 weight = 20
 draft = false
 
-trustRating = "A"
-dealRating = "B"
-softCap = "6,545 ETH"
-hardCap = "564 K ETH "
-platform = "Ethereum"
-industry = "Retail payment"
-currencyAccepted = "ETH"
 startDate = 2017-10-30
 endDate = 2017-11-24
-founded = "Switzerland, 2016"
-
-features = """
-- Creation of State channels between the customer and STACK. This provides real time transaction guarantees on the blockchain
-- Customers’ transactions will be funded through STK’s liquidity pool to make point of sale purchases instantly
-- STACK says it has partnered with an existing payment network that will allow the cryptocurrency wallet to be used at 39 million merchant locations. Video shows the logo of MasterCard.
-"""
+trustRating = "A"
+dealRating = "B"
+origin = "Switzerland, 2016"
+industry = "Financial services"
+platform = "Ethereum"
+currencyAccepted = "ETH"
+ticker = "STK"
 
 [links]
   website = "https://stktoken.com"
   twitter = "stktoken"
-  reddit = "STKToken"
+  facebook = "dropdeck"
+  reddit = "stktoken"
+  github = ""
   telegram = "stktoken"
-  medium = "STKtoken"
+  medium = "stktoken"
+  youtube = "FpqSaLjoF-w"
+  slack = ""
+  whitepaper = "https://stktoken.com/STK_whitepaper_en.pdf"
 
-[trust]
-  stage = "MVP"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = false
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = false
-  functions = "Currency, Access"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "Monaco, TenX, TokenCard"
-
-[deal]
-  [deal.info]
-    recap = "Calculation based on hard cap"
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "ETH"
+  [valuation.rows]
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "55%"
       supply = "550,000,000"
       value = "310,345"
-    [deal.rows.founders]
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "10%"
       supply = "100,000,000"
       value = "56,426"
-    [deal.rows.earlyInvestors]
-      distribution = "Early investors"
+    [valuation.rows.earlyInvestors]
+      distribution = "Early Investors"
       cut = "5%"
       supply = "50,000,000"
       value = "28,213"
-    [deal.rows.development]
+    [valuation.rows.development]
       distribution = "Operations"
       cut = "30%"
       supply = "300,000,000"
       value = "169,279"
-    [deal.rows.total]
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "1,000,000,000"
       value = "564,263"
 
+[allocation]
+  [allocation.development]
+    stake = "Development"
+    cut = "5%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "15%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "50%"
+  [allocation.team]
+    stake = "Team"
+    cut = "10%"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = false
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Currency, Access"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "Monaco, TenX, TokenCard"
+    competition = "High"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = true
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
+
 [roadmap]
+  [roadmap.test]
+    text = "Q1 18"
+    milestone = "text"
+  [roadmap.testy]
+    text = "Q1 18"
+    milestone = "text"
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = true
-  beta = false
   openDev = false
-  launch = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Stack**
+
+STACK is a platform that will facilitate real-time cryptocurrency transactions at point of sale, between consumers and merchants.
+
+**Functionality**
+
+* Creation of State channels between the customer and STACK. This provides real time transaction guarantees on the blockchain
+* Customers’ transactions will be funded through STK’s liquidity pool to make point of sale purchases instantly
+* STACK says it has partnered with an existing payment network that will allow the cryptocurrency wallet to be used at 39 million merchant locations. Video shows the logo of MasterCard.

@@ -6,74 +6,94 @@ bref = "Crypto portfolio management and financial services"
 weight = 20
 draft = false
 
-trustRating = "A"
-dealRating = "A"
-softCap = "35 K ETH"
-hardCap = "350 K ETH"
-platform = "Ethereum"
-industry = "Asset management"
-currencyAccepted = "ETH"
 startDate = 2017-11-21
 endDate = 2017-12-21
-founded = "Switzerland, 2017"
-
-features = """
-- Decentralised crypto wealth management solution for institutional investors as well as individuals
-- Multi-strategy opportunity : fund, tracker, loans etc...
-- Quarterly returns: 50% to investors, 40% reinvested to the fund & 10% to SwissBorg's DAO + management fees (1%)
-- No Bonus period and all the tokens are disbursed during the token generation event
-"""
+trustRating = "B+"
+dealRating = "B"
+origin = "Switzerland, 2017"
+industry = "Crowdfunding, financing"
+platform = "Ethereum"
+currencyAccepted = "BTC, ETH"
+ticker = "CSB"
 
 [links]
   website = "https://swissborg.com/en/"
   twitter = "swissborg"
   facebook = "swissborg"
   reddit = "swissborg"
-  github = "SwissBorg"
+  github = "swissborg"
   telegram = "swissborg"
-  slack = ""
   medium = "swissborg"
+  youtube = "KeJpu7NBqEU"
+  whitepaper = "https://swissborg.com/en/documents.html"
 
-[trust]
-  stage = "MVP"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = true
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = true
-  functions = "Currency, Incentive, Index"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "Melon, Iconomy"
-
-[deal]
-  [deal.info]
-    recap = "Based on hard cap"
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "ETH"
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "100%"
       supply = "35,000,000"
-      value = "350,000"
-    [deal.rows.total]
+      value = "35,000"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "35,000,000"
       value = "350,000"
 
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = false
+  [setUp.trading]
+    exchangeListing = false
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Currency, Incentive, Index"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "Iconomy, Melonport"
+    competition = "High"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = true
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
+
 [roadmap]
+  [roadmap.test]
+    text = "Q1 18"
+    milestone = "text"
+  [roadmap.testy]
+    text = "Q1 18"
+    milestone = "text"
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = true
+  openDev = true
   beta = false
-  openDev = false
-  launch = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Swissborg**
+
+Decentralized and professional ecosystem to manage a portfolio of crypto assets powered by the community, portofolio managers and new technologies.
+
+**Functionality**
+
+* Decentralised crypto wealth management solution for institutional investors as well as individuals
+* Multi-strategy opportunity : fund, tracker, loans etc...
+* Quarterly returns: 50% to investors, 40% reinvested to the fund & 10% to SwissBorg's DAO + management fees (1%)
+* No Bonus period and all the tokens are disbursed during the token generation event

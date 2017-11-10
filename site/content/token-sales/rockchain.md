@@ -6,22 +6,15 @@ bref = "Data infrastructure project built on top of Ethereum"
 weight = 20
 draft = false
 
-trustRating = "B+"
-dealRating = "A-"
-softCap = "18k ETH"
-hardCap = "100k ETH"
-platform = "Ethereum"
-industry = "Data storage"
-currencyAccepted = "ETH"
 startDate = 2017-11-01
 endDate = 2017-12-01
-founded = "France, 2017"
-
-features = """
-- Distributed file system and privacy-centric decentralized network for data processing
-- Distributed javascript engine that respects privacy on data nodes
-- Proof of computation where miners are incentivised to run data scripts
-"""
+trustRating = "A-"
+dealRating = "B+"
+origin = "France, 2017"
+industry = "Crowdfunding, financing"
+platform = "Ethereum"
+currencyAccepted = "BTC, ETH"
+ticker = "ROK"
 
 [links]
   website = "https://rockchain.org/token.html"
@@ -29,58 +22,111 @@ features = """
   facebook = "Rockchain.org"
   reddit = "rockchain"
   github = "AlphaDinoRC/rockchain"
-  medium = "alphadino"
+  telegram = "rockchain"
+  medium = "rockchain"
+  youtube = "57QIM8CNcgA"
   slack = "rockchain"
+  whitepaper = "https://rockchain.org/RockchainWhitePaper.pdf"
 
-
-[trust]
-  stage = "pre-MVP"
-  advisors = true
-  partners = false
-  teamIdentity = true
-  audit = false
-  wallet = false
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = false
-  functions = ""
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.pretokensale]
-      distribution = "Pre-tokensale"
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "ETH"
+  [valuation.rows]
+    [valuation.rows.preIco]
+      distribution = "Pre-ICO"
       cut = "19%"
       supply = "19,000,000"
       value = "23,750"
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "80%"
       supply = "80,000,000"
       value = "100,000"
-    [deal.rows.bounty]
+    [valuation.rows.bounty]
       distribution = "Bounty"
       cut = "1%"
-      supply = "1,250"
+      supply = "1,000,000"
       value = "1,250"
-    [deal.rows.total]
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
       value = "125,000"
 
+[allocation]
+  [allocation.development]
+    stake = "Rockchain Editions"
+    cut = "76%"
+  allocation.development1]
+    stake = "Application"
+    cut = "12%"
+  [allocation.contingency]
+    stake = "Contingency fund"
+    cut = "8%"
+  [allocation.marketing]
+    stake = "Marketing"
+    cut = "1%"
+  [allocation.event]
+    stake = "Events"
+    cut = "1%"
+  [allocation.audit]
+    stake = "Audit and reporting"
+    cut = "1%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "1%"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = false
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "N/A"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "N/A"
+    competition = "Low"
+    entryBarrier = "Mid"
+  [setUp.partnerships]
+    mainstreamMedia = false
+    corporatePartners = false
+    smartMoneyInvestors = false
+    cryptoInfluencers = false
+
 [roadmap]
+  [roadmap.test]
+    text = "Q1 18"
+    milestone = "text"
+  [roadmap.testy]
+    text = "Q1 18"
+    milestone = "text"
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = false
-  beta = false
   openDev = false
-  launch = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Rockchain**
+
+TData infrastructure project built on top of Ethereum built to work with private data securely
+
+**Functionality**
+
+* Distributed file system and privacy-centric decentralized network for data processing
+* Distributed javascript engine that respects privacy on data nodes
+* Proof of computation where miners are incentivised to run data scripts

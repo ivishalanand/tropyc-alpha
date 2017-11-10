@@ -14,10 +14,11 @@ origin = "N/A, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
+ticker = "ENG"
 
 [links]
   website = "https://dropdeck.io"
-  twitter = "dropdeckio"
+  twitter = "dropdeck"
   facebook = "dropdeck"
   reddit = "DropDeck"
   github = "dropdeck"
@@ -73,6 +74,9 @@ currencyAccepted = "BTC, ETH"
   [allocation.development]
     stake = "Development"
     cut = "5%"
+  allocation.marketing]
+    stake = "Marketing"
+    cut = "10%"
   [allocation.legal]
     stake = "Legal"
     cut = "15%"
@@ -85,13 +89,13 @@ currencyAccepted = "BTC, ETH"
 
 [setUp]
   [setUp.compliance]
-    investorVerification = true
-    thirdPartyAudit = true
+    investorVerification = false
+    thirdPartyAudit = false
   [setUp.trading]
-    exchangeListing = true
-    walletSupport = true
+    exchangeListing = false
+    walletSupport = false
   [setUp.token]
-    type = "Primary"
+    type = "Secondary"
     functions = "Currency, Incentive"
     consensus = "Proof-of-stake"
     premined = false
@@ -100,10 +104,10 @@ currencyAccepted = "BTC, ETH"
     competition = "High"
     entryBarrier = "High"
   [setUp.partnerships]
-    mainstreamMedia = true
-    corporatePartners = true
-    smartMoneyInvestors = true
-    cryptoInfluencers = true
+    mainstreamMedia = false
+    corporatePartners = false
+    smartMoneyInvestors = false
+    cryptoInfluencers = false
 
 [roadmap]
   [roadmap.test]
