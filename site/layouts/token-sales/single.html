@@ -7,12 +7,12 @@
 	<div class="profile-header">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-md-3 col-lg-3">
 					<div class="image">
 						<img src="/images/{{ (printf "token-sale-logos/%s-256.png" .Title | urlize) }}">
 					</div>
 				</div>
-				<div class="col-lg-9">
+				<div class="col-md-9 col-lg-9">
 					<div class="info-main">
 						<div class="details">
 							<h1>{{ .Title }}</h1>
@@ -34,8 +34,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-3">
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-3">
 					<div class="info-secondary">
 						<div class="date-box">
 							<div class="info-row">
@@ -75,7 +75,7 @@
             {{ if isset .Params.links "medium" }}<a href="https://medium.com/{{ .Params.links.medium }}" target="_blank"><svg class="icon"><use xlink:href="#medium" /></a>{{ end }}
 					</div>
 				</div>
-				<div class="col-lg-9">
+				<div class="col-md-6 col-lg-9">
 					{{ if isset .Params.links "youtube" }}
 					<div class="video">
 						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{.Params.links.youtube}}?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -87,27 +87,37 @@
 	</div>
 	<div class="profile-content">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 order-2 order-lg-1">
+			<div class="row justify-content-center">
+				<div class="col-sm-8 col-lg-3 order-2 order-lg-1">
 					<div class="twitter-feed">
 						<a class="twitter-timeline" data-height="1000" data-chrome="nofooter" data-theme="light" data-link-color="#19CF86" href="https://twitter.com/{{ .Params.links.twitter }}">Tweets by {{ .Params.links.twitter }}</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>
 				</div>
-				<div class="col-lg-9 order-1 order-lg-2">
+				<div class="col-12 col-lg-9 order-1 order-lg-2">
 					<div class="tabs">
 						<nav class="nav" role="tablist">
-							<a class="active" id="nav-financial-tab" data-toggle="tab" href="#nav-financial" role="tab" aria-controls="nav-financial" aria-selected="true">Financial</a>
-							<a id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">About</a>
-							<a id="nav-set-up-tab" data-toggle="tab" href="#nav-set-up" role="tab" aria-controls="nav-set-up" aria-selected="false">Set-up</a>
-							<a id="nav-timeline-tab" data-toggle="tab" href="#nav-timeline" role="tab" aria-controls="nav-timeline" aria-selected="false">Timeline</a>
-							<a id="nav-team-tab" data-toggle="tab" href="#nav-team" role="tab" aria-controls="nav-team" aria-selected="false">Team</a>
-							<a id="nav-whitepaper-tab" {{ if isset .Params.links "whitepaper" }} href="{{ .Params.links.whitepaper }}" target="_blank" {{ else }}class="disabled" data-toggle="tooltip" data-placement="top" title="No available whitepaper"{{ end }}>Whitepaper</a>
+							<a class="active" id="nav-financial-tab" data-toggle="tab" href="#nav-financial" role="tab" aria-controls="nav-financial" aria-selected="true">
+							<svg class="icon"><use xlink:href="#chart" /></svg>Financial
+							</a>
+							<a id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">
+							<svg class="icon"><use xlink:href="#bulb" /></svg> About
+							</a>
+							<a id="nav-set-up-tab" data-toggle="tab" href="#nav-set-up" role="tab" aria-controls="nav-set-up" aria-selected="false">
+							<svg class="icon"><use xlink:href="#gear" /></svg> Set-up
+							</a>
+							<a id="nav-timeline-tab" data-toggle="tab" href="#nav-timeline" role="tab" aria-controls="nav-timeline" aria-selected="false">
+							<svg class="icon"><use xlink:href="#time" /></svg> Timeline
+							</a>
+							<!-- <a id="nav-team-tab" data-toggle="tab" href="#nav-team" role="tab" aria-controls="nav-team" aria-selected="false">Team</a> -->
+							<a id="nav-whitepaper-tab" {{ if isset .Params.links "whitepaper" }} href="{{ .Params.links.whitepaper }}" target="_blank" {{ else }}class="disabled" data-toggle="tooltip" data-placement="top" title="No available whitepaper"{{ end }}>
+							<svg class="icon"><use xlink:href="#document" /></svg> Whitepaper
+							</a>
 						</nav>
 					</div>
 					<div class="tab-content">
 						<div class="tab-pane fade show active" id="nav-financial" role="tabpanel" aria-labelledby="nav-financial-tab">
 							<div class="container">
-								<div class="row">
+								<div class="row justify-content-center">
 									<div class="col-lg-8">
 										<div class="valuation">
 											<div class="tab-content-header">
@@ -146,29 +156,31 @@
 					            </table>
 				            </div>
 			            </div>
-									<div class="col-lg-4">
-				            <div class="fund-allocation">
-				            	<div class="tab-content-header">
-												<div>Fund Allocation</div>
-											</div>
-											<table class="financial-table">
-												<thead>
-													<tr>
-														<th>Stake</th>
-														<th>Cut</th>
-													</tr>
-												</thead>
-												<tbody>
-													{{ range .Params.allocation }}
-													<tr>
-														<td>{{ .stake }}</td>
-														<td>{{ .cut }}</td>
-													</tr>
-													{{ end }}
-												</tbody>
-											</table>
+			            {{ with .Params.allocation }}
+										<div class="col-lg-4">
+					            <div class="fund-allocation">
+					            	<div class="tab-content-header">
+													<div>Fund Allocation</div>
+												</div>
+												<table class="financial-table">
+													<thead>
+														<tr>
+															<th>Stake</th>
+															<th>Cut</th>
+														</tr>
+													</thead>
+													<tbody>
+														{{ range . }}
+														<tr>
+															<td>{{ .stake }}</td>
+															<td>{{ .cut }}</td>
+														</tr>
+														{{ end }}
+													</tbody>
+												</table>
+					            </div>
 				            </div>
-			            </div>
+			            {{ end }}
 		            </div>
 		          </div>
 						</div>
@@ -186,7 +198,7 @@
 													<div>Investor verification</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.relationships.investorVerification }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.investorVerification }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 											<div class="row">
@@ -194,7 +206,7 @@
 													<div>Third party audit</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.relationships.thirdPartyAudit }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.thirdPartyAudit }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 										</div>
@@ -207,7 +219,7 @@
 													<div>Exchange listing</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.trading.exchangeListing }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.trading.exchangeListing }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 											<div class="row">
@@ -215,7 +227,7 @@
 													<div>Wallet support</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.trading.walletSupport }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.trading.walletSupport }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 										</div>
@@ -252,7 +264,7 @@
 													<div>Premined</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.token.premine }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.token.premine }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 										</div>
@@ -294,7 +306,7 @@
 													<div>Crypto influencers</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.relationships.cryptoInfluencers }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.cryptoInfluencers }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 											<div class="row">
@@ -302,7 +314,7 @@
 													<div>Mainstream media</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.relationships.mainstreamMedia }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.mainstreamMedia }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 											<div class="row">
@@ -310,7 +322,7 @@
 													<div>Smart money investor</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.relationships.smartMoneyInvestors }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.smartMoneyInvestors }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 											<div class="row">
@@ -318,7 +330,7 @@
 													<div>Corporate partners</div>
 												</div>
 												<div class="col-6">
-													{{ if .Params.setUp.relationships.corporatePartners }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }}
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.corporatePartners }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 										</div>
@@ -328,95 +340,100 @@
 						</div>
 						<div class="tab-pane fade" id="nav-timeline" role="tabpanel" aria-labelledby="nav-timeline-tab">
 							<div class="container">
-								<div class="row">
-									<div class="col-md-3">
-										<div class="tab-content-header">Roadmap</div>
-										<div class="roadmap-timeline">
-											{{ with .Params.roadmap }}
-												{{ range . }}
-											  <div class="roadmap-timeline-container">
-											    <div class="roadmap-timeline-content">
-											      <strong>{{ .period }}</strong>
-											      <p>{{ .milestone }}</p>
-											    </div>
-											  </div>
-											  {{ end }}
-										  {{ end }}
+								<div class="row justify-content-center">
+									{{ with .Params.roadmap }}
+										<div class="col-md-4">
+											<div class="tab-content-header">Roadmap</div>
+												<div class="roadmap-timeline">
+														{{ range . }}
+													  <div class="roadmap-timeline-container">
+													    <div class="roadmap-timeline-content">
+													      <strong>{{ .period }}</strong>
+													      <p>{{ .milestone }}</p>
+													    </div>
+													  </div>
+													  {{ end }}
+												</div>
 										</div>
-									</div>
-									<div class="col-md-9">
+								  {{ end }}
+									<div class="col-md-8">
 										<div class="tab-content-header">Stage of development</div>
 										<div class="development-timeline">
 											<div class="development-timeline-container">
 												<div class="stage">Ideation</div>
 												<div class="details">
 													<div>
-														{{ if .Params.stage.whitepaper }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Whitepaper
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.whitepaper }}#yes{{ else }}#no{{ end }}" /></svg> Whitepaper
 													</div>
 													<div>
-														{{ if .Params.stage.website }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Website
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.website }}#yes{{ else }}#no{{ end }}" /></svg> Website
 													</div>
 												</div>
-												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.whitepaper) (.Params.stage.website) }}class="active"{{ end }} xlink:href="#bulb-circle" /></svg>
 											</div>
 											<div class="development-timeline-container">
 												<div class="stage">Development</div>
 												<div class="details">
 													<div>
-														{{ if .Params.stage.initialCode }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Initial Code
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.initialCode }}#yes{{ else }}#no{{ end }}" /></svg> Initial Code
 													</div>
 													<div>
-														{{ if .Params.stage.mvp }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} MVP
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.mvp }}#yes{{ else }}#no{{ end }}" /></svg> MVP
 													</div>
 												</div>
-												<svg class="stage-icon"><use xlink:href="#bulb-circle" /></svg>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.initialCode) (.Params.stage.mvp) }}class="active"{{ end }} xlink:href="#code-circle" /></svg>
 											</div>
 											<div class="development-timeline-container">
 												<div class="stage">Test</div>
 												<div class="details">
 													<div>
-														{{ if .Params.stage.openDev }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Open dev
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.openDev }}#yes{{ else }}#no{{ end }}" /></svg> Open dev
 													</div>
 													<div>
-														{{ if .Params.stage.beta }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Beta
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.beta }}#yes{{ else }}#no{{ end }}" /></svg> Beta
 													</div>
 												</div>
-												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.openDev) (.Params.stage.beta) }}class="active"{{ end }} xlink:href="#gear-circle" /></svg>
 											</div>
 											<div class="development-timeline-container">
 												<div class="stage">Launch</div>
 												<div class="details">
 													<div>
-														{{ if .Params.stage.workingProduct }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Working product
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.workingProduct }}#yes{{ else }}#no{{ end }}" /></svg> Working product
 													</div>
 													<div>
-														{{ if .Params.stage.community }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Community
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.community }}#yes{{ else }}#no{{ end }}" /></svg> Community
 													</div>
 												</div>
-												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.workingProduct) (.Params.stage.community) }}class="active"{{ end }} xlink:href="#software-circle" /></svg>
 											</div>
 											<div class="development-timeline-container">
 												<div class="stage">Growth</div>
 												<div class="details">
 													<div>
-														{{ if .Params.stage.expansion }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Expansion
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.expansion }}#yes{{ else }}#no{{ end }}" /></svg> Expansion
 													</div>
 													<div>
-														{{ if .Params.stage.profit }}<svg class="icon"><use xlink:href="#yes" /></svg>{{ else }}<svg class="icon"><use xlink:href="#no" /></svg>{{ end }} Profit
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.profit }}#yes{{ else }}#no{{ end }}" /></svg> Profit
 													</div>
 												</div>
-												<svg class="stage-icon"><use xlink:href="#bulb" /></svg>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.expansion) (.Params.stage.profit) }}class="active"{{ end }} xlink:href="#rocket-circle" /></svg>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
-						</div>
+						<!-- <div class="tab-pane fade" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
+						</div> -->
 					</div>
 				</div>
 			</div>
+			{{ if .Site.DisqusShortname }}
+			  <div class="disqus">
+			      {{ template "_internal/disqus.html" . }}
+			  </div>
+		  {{ end }}
 		</div>
 	</div>
 </div>

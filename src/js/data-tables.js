@@ -98,9 +98,6 @@ $(document).ready(function(){
   	language: {
       search: '_INPUT_',
       searchPlaceholder: 'Search...'
-    },
-    initComplete: function(){
-        $("#token-sales-table").show();
     }
   });
 

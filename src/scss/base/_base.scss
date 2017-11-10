@@ -52,3 +52,19 @@ button {
 	font-weight: 600;
 	font-family: "Nunito";
 }
+
+svg {
+	fill: #D8D8D8;
+
+	#yes {
+		fill: $green;
+	}
+
+	#no {
+		fill: $red;
+	}
+
+	path {
+		fill: inherit;
+	}
+}

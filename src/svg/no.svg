@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>no</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="no" fill-rule="nonzero" fill="#E74C3C">
-            <path d="M52,26 C52,40.3602494 40.3582964,52 25.998047,52 C11.6397506,52 0,40.3582964 0,26 C0,11.6377976 11.6417036,0 25.998047,0 C40.3582964,0 52,11.6377976 52,26 Z M35.8840231,20.3597987 L31.7417562,16.2175317 L26.1679561,21.8811688 L20.5941561,16.2175317 L16.4518891,20.3597987 L22.1018553,26.0136708 L16.4557951,31.753474 L20.4769774,35.7805153 L26.1679561,30.0856306 L31.8589349,35.7805153 L35.8840231,31.753474 L30.2340569,26.0136708 L35.8840231,20.3597987 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>
+<svg width="52" height="52" xmlns="http://www.w3.org/2000/svg"><path d="M52 26c0 14.36-11.642 26-26.002 26C11.64 52 0 40.358 0 26 0 11.638 11.642 0 25.998 0 40.358 0 52 11.638 52 26zm-16.116-5.64l-4.142-4.142-5.574 5.663-5.574-5.663-4.142 4.142 5.65 5.654-5.646 5.74 4.021 4.027 5.691-5.695 5.69 5.695 4.026-4.028-5.65-5.74 5.65-5.653z" fill-rule="nonzero" fill="#E74C3C"/></svg>

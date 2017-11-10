@@ -17,6 +17,10 @@
 		.info-main {
 			margin-top: 30px;
 			display: flex;
+			justify-content: center;
+			@include media-breakpoint-down(sm) {
+				flex-wrap: wrap-reverse;
+			}
 
 			.details {
 				margin-right: 1rem;
@@ -38,6 +42,9 @@
 			}
 
 			.ratings {
+				@include media-breakpoint-down(sm) {
+						margin-bottom: 1rem;
+					}
 				.ratings-box {
 					display: flex;
 					border: 1px solid $gray-300;
@@ -137,11 +144,13 @@
 
 		.tabs {
 			margin-top: 15px;
+			border-top: 1px solid $gray-300;
 
 			nav {
 				a {
-					display: block;
 					flex: 1;
+					display: flex;
+					justify-content: center;
 					padding: .5rem 1rem;
 					color: $gray-900;
 					text-align: center;
@@ -152,6 +161,12 @@
 
 					&:hover {
 						color: theme-color("primary");
+					}
+
+					.icon {
+						height: 20px;
+						width: 20px;
+						margin-right: 1rem;
 					}
 
 				}
@@ -170,6 +185,7 @@
 
 		.tab-content {
 			margin-top: 10px;
+			margin-bottom: 20px;
 
 			.tab-content-header {
 				text-align: center;
@@ -178,9 +194,9 @@
 			}
 
 			#nav-financial {
-				.col-lg-8:first-child {
+				.col-lg-4 {
 					@include media-breakpoint-up(lg) {
-						border-right: 1px solid $gray-300;
+						border-left: 1px solid $gray-300;
 					}
 				}
 
@@ -274,153 +290,11 @@
 				}
 			}
 		}
+
+		#nav-timeline {
+			.active {
+				fill: theme-color("primary");
+			}
+		}
 	}
 }
-
-// .token-detail-content {
-//   margin-top: 45px;
-// }
-
-// .token-id {
-//   margin-bottom: 30px;
-//   text-align: center;
-
-//    @include media-breakpoint-down(md) {
-//     text-align: left;
-//   }
-// }
-
-// .token-title {
-//   margin-top: 15px;
-//   font-size: 1.5rem;
-//   color: $gray-600;
-// }
-
-// .token-logo {
-//   height: 70px;
-// }
-
-// .token-overview {
-//   margin-bottom: 25px;
-//   padding: 20px;
-//   border: 1px solid #DDD;
-//   border-radius: .25rem;
-
-//   h2 {
-//   	margin-bottom: 2rem;
-//   	color: $gray-600;
-//   }
-// }
-
-// .token-description {
-// 	margin-bottom: 50px;
-
-//   .tab-content {
-//     padding: 20px;
-//     border: solid #DDD;
-//     border-width: 0 1px 1px 1px;
-//     border-bottom-left-radius: .25rem;
-//     border-bottom-right-radius: .25rem;
-//   }
-
-//   .nav-link {
-//     background-color: #EFEFEF;
-//     border-color: #DDD;
-//   }
-// }
-
-// .indicator-value {
-//   text-align: center;
-//   vertical-align: middle;
-//   font-size: 1.2rem;
-//   font-weight: 400;
-//   color: #6f8691;
-// }
-
-// .indicator-rating {
-//   text-align: center;
-//   vertical-align: middle;
-//   font-size: 1.2rem;
-//   font-weight: 500;
-//   color: $gray-600;
-// }
-
-// .deal-table {
-//   @include media-breakpoint-down(sm) {
-//     display: block;
-//     width: 100%;
-//     overflow-x: auto;
-//   }
-
-//   th {
-//   	border-top: none;
-//   }
-
-//   tbody > tr:last-child td {
-//     border-width: 2px;
-//   }
-
-//   .tokensale-row {
-// 		color: $green;
-//   }
-
-//   .total-row {
-//   	font-weight: 600;
-//   }
-// }
-
-// .roadmap {
-//   display: flex;
-//   height: 300px;
-
-//   @include media-breakpoint-down(sm) {
-//     flex-direction: column;
-//     height: 900px;
-//   }
-
-//   .roadmap-ideation, .roadmap-mvp, .roadmap-test, .roadmap-growth {
-//     flex: 25%;
-//     text-align: center;
-//     border: 1px solid #DDD;
-//     padding: 20px 0;
-//     position: relative;
-//   }
-
-//   .roadmap-stage {
-//     font-size: 16px;
-//     font-weight: 400;
-//     color: $gray-600;
-//   }
-
-//   .roadmap-image {
-//   	position: absolute;
-//   	margin-left: auto;
-//   	margin-right: auto;
-//   	left: 0;
-//     right: 0;
-//     top: 30%;
-//   	height: 80px;
-//   }
-
-//   .roadmap-bottom-left {
-//     position: absolute;
-//     left: 10%;
-//     bottom: 10%;
-//     font-size: 14px;
-
-//     @include media-breakpoint-only(md) {
-//       font-size: 12px;
-//     }
-//   }
-
-//   .roadmap-bottom-right {
-//     position: absolute;
-//     right: 10%;
-//     bottom: 10%;
-//     font-size: 14px;
-
-//     @include media-breakpoint-only(md) {
-//       font-size: 12px;
-//     }
-//   }
-// }

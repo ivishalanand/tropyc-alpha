@@ -93,14 +93,6 @@ currencyAccepted = "BTC, ETH"
     smartMoneyInvestors = false
     corporatePartners = false
 
-[roadmap]
-  [roadmap.1]
-    period = "Q1 18"
-    milestone = "Token sale"
-  [roadmap.2]
-    period = "Q1 18"
-    milestone = "MVP"
-
 [stage]
   website = true
   whitepaper = true

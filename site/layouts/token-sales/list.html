@@ -21,7 +21,7 @@
 	      <tr>
 	        <th class="text-left">ICO</th>
 	        <th>Valuation</th>
-	        <th>ICO/Total</th>
+	        <th>% ICO</th>
 	        <th>Start</th>
 	        <th>End</th>
 	        <th>Trust</th>
@@ -46,8 +46,8 @@
 	          <td>{{ .Params.valuation.rows.tokensale.cut }}</td>
 		        <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
 	          <td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>
-	          <td>{{ partial "rating" .Params.trustRating }}</td>
-	          <td>{{ partial "rating" .Params.dealRating }}</td>
+	          <td class="rating">{{ partial "rating" .Params.trustRating }}</td>
+	          <td class="rating">{{ partial "rating" .Params.dealRating }}</td>
 	        </tr>
 	      {{ end }}
 	    </tbody>

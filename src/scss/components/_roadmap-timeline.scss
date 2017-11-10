@@ -11,14 +11,14 @@
     background-color: $gray-300;
     top: 0;
     bottom: 0;
-    left: 3%;
+    left: 9%;
 	}
 
 	/* Container around content */
 	.roadmap-timeline-container {
     padding: 17px 17px;
     position: relative;
-    left: 5%;
+    left: 11%;
 	}
 
 	/* The circles on the timeline */
@@ -30,7 +30,7 @@
     right: -17px;
     left: -16px;
     background-color: white;
-    border: 4px solid theme-color("primary");
+    border: 4px solid $green;
     top: 15px;
     border-radius: 50%;
     z-index: 1;

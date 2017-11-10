@@ -1,10 +1,7 @@
 .token-table {
-  @include media-breakpoint-up(lg) {
-    display: table;
-  }
-
   th {
   	cursor: pointer;
+  	text-transform: uppercase;
   }
 
   th ,td {
@@ -76,6 +73,7 @@
 	.rating {
 		font-family: "Nunito";
 		font-weight: 600;
+		font-size: 1.25rem;
 	}
 
   .label-emphasis {
@@ -89,13 +87,5 @@
   	a {
     	color: $gray-600;
     }
-  }
-
-  .ico-ended {
-  	padding: 1rem 3rem;
-  	border: 1px solid $gray-200;
-  	border-radius: 10px;
-  	background: $gray-100;
-  	color: $blue;
   }
 }
