@@ -1,6 +1,6 @@
 +++
 title = "Privacy focused tokens: a review"
-date = 2017-10-30T20:07:05+02:00
+date = 2017-11-11T20:07:05+02:00
 categories = ["Altcoin"]
 draft = false
 description = "Increasing amount of cryptocurrencies are available to transact anonymously."
