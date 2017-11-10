@@ -4,20 +4,21 @@ date = 2017-08-13T17:30:02+02:00
 description = "Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide."
 bref = "Royalty and debt financing platform"
 weight = 20
-draft = false
+draft = true
 
 startDate = 2017-11-21
 endDate = 2017-12-21
-trustRating = "B"
+trustRating = "B+"
 dealRating = "B"
 origin = "N/A, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
+ticker = "ENG"
 
 [links]
   website = "https://dropdeck.io"
-  twitter = "dropdeckio"
+  twitter = "dropdeck"
   facebook = "dropdeck"
   reddit = "DropDeck"
   github = "dropdeck"
@@ -25,7 +26,7 @@ currencyAccepted = "BTC, ETH"
   medium = "dropdeck"
   youtube = ""
   slack = ""
-  whitepaper = "https://drive.google.com/file/d/0B-ngm-zezrFQaHNxaHZWTnNNMTA/view"
+  whitepaper = ""
 
 [valuation]
   [valuation.info]
@@ -33,6 +34,11 @@ currencyAccepted = "BTC, ETH"
   [valuation.headers]
     header = "ETH"
   [valuation.rows]
+    [valuation.rows.preIco]
+      distribution = "Pre-ICO"
+      cut = "50%"
+      supply = "n/a"
+      value = "99,999"
     [valuation.rows.ico]
       distribution = "ICO"
       cut = "50%"
@@ -40,6 +46,11 @@ currencyAccepted = "BTC, ETH"
       value = "99,999"
     [valuation.rows.founders]
       distribution = "Founders"
+      cut = "20%"
+      supply = "n/a"
+      value = "40,000"
+    [valuation.rows.earlyInvestors]
+      distribution = "Early Investors"
       cut = "20%"
       supply = "n/a"
       value = "40,000"
@@ -62,29 +73,29 @@ currencyAccepted = "BTC, ETH"
 [allocation]
   [allocation.development]
     stake = "Development"
-    cut = "55%"
-  [allocation.marketing]
+    cut = "5%"
+  allocation.marketing]
     stake = "Marketing"
-    cut = "20%"
-  [allocation.operations]
-    stake = "Operations"
     cut = "10%"
   [allocation.legal]
     stake = "Legal"
+    cut = "15%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "50%"
+  [allocation.team]
+    stake = "Team"
     cut = "10%"
-  [allocation.buffer]
-    stake = "Buffer"
-    cut = "5%"
 
 [setUp]
   [setUp.compliance]
-    investorVerification = true
-    thirdPartyAudit = true
+    investorVerification = false
+    thirdPartyAudit = false
   [setUp.trading]
-    exchangeListing = true
-    walletSupport = true
+    exchangeListing = false
+    walletSupport = false
   [setUp.token]
-    type = "Primary"
+    type = "Secondary"
     functions = "Currency, Incentive"
     consensus = "Proof-of-stake"
     premined = false
@@ -94,8 +105,8 @@ currencyAccepted = "BTC, ETH"
     entryBarrier = "High"
   [setUp.partnerships]
     mainstreamMedia = false
-    corporatePartners = true
-    smartMoneyInvestors = true
+    corporatePartners = false
+    smartMoneyInvestors = false
     cryptoInfluencers = false
 
 [roadmap]
@@ -121,11 +132,8 @@ currencyAccepted = "BTC, ETH"
 
 **Dropdeck**
 
-Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide.
+This is content coming from ICO
 
 **Functionality**
 
-* Decentralized DropDeck Token (DDD) serves 4 utilities: contribution/loan, score verification, contribution rewards, premium features
-* Investors can either lend or contribute to projects with either royalty or dead financing.
-* Ventures can seek funds and are scored by the community.
-* Contributors are rewarded for scoring projects.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus esse quasi libero sunt reprehenderit, nisi assumenda blanditiis earum sint dolor numquam aspernatur architecto voluptatem molestiae sapiente accusamus, rerum non.
