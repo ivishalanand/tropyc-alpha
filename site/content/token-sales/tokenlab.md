@@ -6,6 +6,7 @@ bref = "Fundraising platform in built on top of Expanse and Ethereum"
 weight = 20
 draft = false
 
+ticker = "LAB"
 startDate = 2017-09-14
 endDate = 2017-11-30
 trustRating = "B-"
@@ -14,7 +15,6 @@ origin = "USA, 2016"
 industry = "Crowdfunding"
 platform = "Expanse & Ethereum"
 currencyAccepted = "BTC, LTC, ETH, EXP"
-ticker = "LAB"
 
 [links]
   website = "https://www.tokenlab.io/"

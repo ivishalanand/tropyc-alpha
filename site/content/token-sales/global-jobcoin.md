@@ -6,6 +6,7 @@ bref = "Employment and job search curator in Europe"
 weight = 20
 draft = false
 
+ticker = "GJC"
 startDate = 2017-10-28
 endDate = 2017-12-06
 trustRating = "A"

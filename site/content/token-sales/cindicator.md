@@ -6,6 +6,7 @@ bref = "Hybrid intelligence for crypto asset management"
 weight = 20
 draft = false
 
+ticker = "CND"
 startDate = 2017-09-12
 endDate = 2017-09-17
 trustRating = "A"

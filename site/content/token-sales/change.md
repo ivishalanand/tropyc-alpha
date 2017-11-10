@@ -6,6 +6,7 @@ bref = "Next generation financial and banking services"
 weight = 20
 draft = false
 
+ticker = "CAG"
 startDate = 2017-09-16
 endDate = 2017-12-21
 trustRating = "A-"

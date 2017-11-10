@@ -6,6 +6,7 @@ bref = "Solution for the global dental industry."
 weight = 20
 draft = false
 
+ticker = "DCN"
 startDate = 2017-10-01
 endDate = 2017-11-01
 trustRating = "B+"

@@ -6,6 +6,7 @@ bref = "Real estate rental auction platform"
 weight = 20
 draft = false
 
+ticker = "REST"
 startDate = 2017-11-25
 endDate = 2018-01-25
 trustRating = "C+"
@@ -14,7 +15,6 @@ origin = "N/A, 2017"
 industry = "Real Estate"
 platform = "Ethereum"
 currencyAccepted = "BTC, LTC, ETH"
-ticker = "REST"
 
 [links]
   website = "https://ico.relest.io/"

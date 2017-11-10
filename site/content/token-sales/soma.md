@@ -6,6 +6,7 @@ bref = "Marketplace for trade of physical items"
 weight = 20
 draft = false
 
+ticker = "SCT"
 startDate = 2017-09-27
 endDate = 2017-11-14
 trustRating = "A-"
@@ -14,7 +15,6 @@ origin = "Finaland, 2016"
 industry = "Marketplace"
 platform = "Ethereum"
 currencyAccepted = "ETH"
-ticker = "SCT"
 
 [links]
   website = "https://soma.co/"

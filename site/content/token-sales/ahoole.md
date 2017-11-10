@@ -6,6 +6,7 @@ bref = "Product search engine platform"
 weight = 20
 draft = false
 
+ticker = "AHT"
 startDate = 2017-08-28
 endDate = 2017-09-11
 trustRating = "A-"

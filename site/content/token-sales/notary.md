@@ -6,15 +6,15 @@ bref = "App helping individuals to build contracts and agreements"
 weight = 20
 draft = false
 
+ticker="NTRY"
 startDate = 2017-10-10
 endDate = 2017-10-20
-trustRating = "B"
-dealRating = "B-"
+trustRating = "B-"
+dealRating = "C"
 origin = "Slovenia, 2017"
 industry = "Legal"
 platform = "Ethereum Classic"
 currencyAccepted = "BTC, ETH"
-ticker = "NTRY"
 
 [links]
   website = "https://www.notary-platform.com/"

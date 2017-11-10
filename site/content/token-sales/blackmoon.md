@@ -6,6 +6,7 @@ bref = "Creation and management of tokenised funds"
 weight = 20
 draft = false
 
+ticker = "BMC"
 startDate = 2017-09-11
 endDate = 2017-09-12
 trustRating = "A+"

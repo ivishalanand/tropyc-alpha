@@ -122,7 +122,7 @@ currencyAccepted = "BTC, ETH"
   profit = false
 +++
 
-**Dropdeck**
+**NameofICO**
 
 This is content coming from ICO
 

@@ -6,6 +6,7 @@ bref = "Data infrastructure project built on top of Ethereum"
 weight = 20
 draft = false
 
+ticker = "ROK"
 startDate = 2017-11-01
 endDate = 2017-12-01
 trustRating = "A-"
@@ -14,7 +15,6 @@ origin = "France, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
-ticker = "ROK"
 
 [links]
   website = "https://rockchain.org/token.html/"

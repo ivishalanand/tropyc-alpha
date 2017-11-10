@@ -6,6 +6,7 @@ bref = "Cryptocurrency fundraising platform with social and community based feat
 weight = 20
 draft = false
 
+ticker = "KICK"
 startDate = 2017-11-21
 endDate = 2017-12-21
 trustRating = "B"

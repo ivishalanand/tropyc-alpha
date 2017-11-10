@@ -6,6 +6,7 @@ bref = "Cannabis project for medical industry facilitating co-working spaces"
 weight = 20
 draft = false
 
+ticker = "PRG"
 startDate = 2017-09-15
 endDate = 2017-10-15
 trustRating = "B+"
@@ -14,7 +15,6 @@ origin = "USA, 2017"
 industry = "Cannabis"
 platform = "Ethereum"
 currencyAccepted = "BTC, LTC, ETH, ETC, XMR ..."
-ticker = "PRG"
 
 [links]
   website = "https://paragoncoin.com/"

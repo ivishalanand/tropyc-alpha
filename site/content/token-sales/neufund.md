@@ -5,6 +5,7 @@ description = "Equity and legal fundraising platform that let investors stay in 
 weight = 20
 draft = true
 
+ticker = "ETO"
 trustRating = "A+"
 dealRating = "A+"
 softCap = "N/A"

@@ -6,6 +6,7 @@ bref = "Global liquidity platform built by Quoinex exchange"
 weight = 20
 draft = false
 
+ticker = "QASH"
 startDate = 2017-11-06
 endDate = 2017-11-09
 trustRating = "A"
@@ -93,16 +94,16 @@ ticker = "QASH"
   website = true
   whitepaper = true
   initialCode = true
-  mvp = false
-  openDev = false
-  beta = false
-  workingProduct = false
-  community = false
+  mvp = true
+  openDev = true
+  beta = true
+  workingProduct = true
+  community = true
   expansion = false
   profit = false
 +++
 
-**Dropdeck**
+**Liquid Qash**
 
 Global liquidity platform built by the Quoinex team on top of their order management system
 

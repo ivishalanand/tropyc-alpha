@@ -6,6 +6,7 @@ bref = "Poker game application on a blockchain"
 weight = 20
 draft = false
 
+ticker = "CASH"
 startDate = 2017-10-26
 endDate = 2017-11-18
 trustRating = "B"

@@ -6,6 +6,7 @@ bref = "Facilitates real-time cryptocurrency transactions at point of sale"
 weight = 20
 draft = false
 
+ticker = "STK"
 startDate = 2017-10-30
 endDate = 2017-11-24
 trustRating = "A"
@@ -14,7 +15,6 @@ origin = "Switzerland, 2016"
 industry = "Financial services"
 platform = "Ethereum"
 currencyAccepted = "ETH"
-ticker = "STK"
 
 [links]
   website = "https://stktoken.com/"

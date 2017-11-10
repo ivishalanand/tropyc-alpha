@@ -6,6 +6,7 @@ bref = "P2P e-commerce marketplace"
 weight = 20
 draft = false
 
+ticker = "AGO"
 startDate = 2017-08-04
 endDate = 2017-10-04
 trustRating = "C+"

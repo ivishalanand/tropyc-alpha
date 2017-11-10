@@ -6,6 +6,7 @@ bref = "Royalty and debt financing platform"
 weight = 20
 draft = false
 
+ticker = "DDD"
 startDate = 2017-11-21
 endDate = 2017-12-21
 trustRating = "B"

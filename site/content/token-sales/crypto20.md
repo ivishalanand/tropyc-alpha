@@ -6,6 +6,7 @@ bref = "Index of the top 20 cryptocurrencies"
 weight = 20
 draft = false
 
+ticker = "C20"
 startDate = 2017-10-14
 endDate = 2017-11-14
 trustRating = "B+"
