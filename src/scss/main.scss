@@ -7,7 +7,6 @@
 @import 'base/base';
 @import 'base/fonts';
 @import 'base/tables';
-@import 'components/banner';
 @import 'components/hero';
 @import 'components/token-table';
 @import 'components/exchange-card';
@@ -20,6 +19,8 @@
 @import 'components/news-categories-buttons';
 @import 'components/data-tables';
 @import 'components/rating-framework-tables';
+@import 'components/roadmap-timeline';
+@import 'components/development-timeline';
 @import 'pages/landing';
 @import 'pages/news-list';
 @import 'pages/news-single';

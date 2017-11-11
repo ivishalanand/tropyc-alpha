@@ -3,300 +3,440 @@
 
 {{ define "main" }}
 
-<div class="token-detail-content">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-lg-2 d-none d-lg-block">
-				<div class="token-id">
-          <img class="img-fluid img-thumbnail" src="/images/{{ (printf "tokensale-logos/%s-128.png" .Title | urlize) }}">
-					<h1 class="token-title">{{.Title }}</h1>
-				</div>
-			</div>
-
-			<div class="col-lg-10">
-				<div class="token-overview">
-					<div class="token-id d-lg-none">
-						<h1 class="token-title">{{.Title }}</h1>
-						<img class="token-logo img-thumbnail" src="/images/{{ (printf "tokensale-logos/%s-128.png" .Title | urlize) }}">
+<div class="token-sale-single">
+	<div class="profile-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-lg-3">
+					<div class="image">
+						<img src="/images/{{ (printf "token-sale-logos/%s-256.png" .Title | urlize) }}">
 					</div>
-					<h2>Snapshot</h2>
-          <div class="row">
-            <div class="col-sm-7">
-            	<div class="container">
-                <div class="row mb-2">
-                  <div class="col-5 label">Start</div>
-                  <div class="col-7">{{ .Params.startdate | dateFormat "02/01/2006" }}</div>
-                </div>
-                <div class="row mb-2">
-                  <div class="col-5 label">End</div>
-                  <div class="col-7">{{ if ((.Params.enddate).After now) }}{{ .Params.enddate | dateFormat "02/01/2006" }}{{ else }}<span class="text-info">{{ .Params.enddate | dateFormat "02/01/2006" }} (ICO has ended)</span>{{ end }}</div>
-                </div>
-                <div class="row mb-2">
-                  <div class="col-5 label">Platform</div>
-                  <div class="col-7">{{ .Params.platform }}</div>
-                </div>
-                <div class="row mb-2">
-                  <div class="col-5 label">Industry</div>
-                  <div class="col-7">{{ .Params.industry }}</div>
-                </div>
-                <div class="row mb-2">
-                  <div class="col-5 label">Currency accepted</div>
-                  <div class="col-7">{{ .Params.currencyaccepted }}</div>
-                </div>
-                <div class="row mb-2">
-                  <div class="col-5 label">Founded</div>
-                  <div class="col-7">{{ .Params.founded }}</div>
-                </div>
-                <div class="row">
-			            <div class="col-5 label">Links</div>
-			            <div class="col-7">
-			              {{ if isset .Params.links "website" }}<a href="{{ .Params.links.website }}" target="_blank">Website</a>{{ end }}
-				          	<div class="token-social-links my-2">
-				              {{ if isset .Params.links "twitter" }}<a href="{{ .Params.links.twitter }}" target="_blank" class="mx-1"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>{{ end }}
-				              {{ if isset .Params.links "facebook" }}<a href="{{ .Params.links.facebook }}" target="_blank" class="mx-1"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>{{ end }}
-				              {{ if isset .Params.links "reddit" }}<a href="{{ .Params.links.reddit }}" target="_blank" class="mx-1"><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></a>{{ end }}
-				              {{ if isset .Params.links "github" }}<a href="{{ .Params.links.github }}" target="_blank" class="mx-1"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>{{ end }}
-				              {{ if isset .Params.links "telegram" }}<a href="{{ .Params.links.telegram }}" target="_blank" class="mx-1"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>{{ end }}
-				              {{ if isset .Params.links "slack" }}<a href="{{ .Params.links.slack }}" target="_blank"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>{{ end }}
-				              {{ if isset .Params.links "medium" }}<a href="{{ .Params.links.medium }}" target="_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>{{ end }}
+				</div>
+				<div class="col-md-9 col-lg-9">
+					<div class="info-main">
+						<div class="details">
+							<h1>{{ .Title }}<span>{{ with .Params.ticker }}{{ . }}{{ end }}</span></h1>
+							<h2>{{ .Params.bref }}</h2>
+							<p>{{ .Description }}</p>
+						</div>
+						<div class="ratings">
+							<div class="ratings-box">
+								<div class="rating">
+									<div class="rating-name">Trust</div>
+									<div class="rating-mark">{{ partial "rating" .Params.dealrating }}</div>
+								</div>
+								<div class="rating">
+									<div class="rating-name">Deal</div>
+									<div class="rating-mark">{{ partial "rating" .Params.trustrating }}</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-3">
+					<div class="info-secondary">
+						<div class="date-box">
+							<div class="info-row">
+								<div>Start</div>
+								<div>{{ .Params.startdate | dateFormat "02/01/2006" }}</div>
+							</div>
+							<div class="info-row">
+								<div>End</div>
+								<div>{{ .Params.enddate | dateFormat "02/01/2006" }}</div>
+							</div>
+						</div>
+						<div class="info-row">
+							<div>Origin</div>
+							<div>{{ .Params.origin }}</div>
+						</div>
+						<div class="info-row">
+							<div>Industry</div>
+							<div>{{ .Params.industry }}</div>
+						</div>
+						<div class="info-row">
+							<div>Platform</div>
+							<div>{{ .Params.platform }}</div>
+						</div>
+						<div class="info-row">
+							<div>Currency accepted</div>
+							<div>{{ .Params.currencyaccepted }}</div>
+						</div>
+						<a href="{{ .Params.links.website }}?utm_source=tropyc" target="_blank" class="btn btn-primary">GO TO ICO</a>
+					</div>
+					<div class="socials">
+						{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><svg class="icon"><use xlink:href="#twitter" /></svg></a>{{ end }}
+            {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank"><svg class="icon"><use xlink:href="#facebook" /></a>{{ end }}
+            {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><svg class="icon"><use xlink:href="#reddit" /></a>{{ end }}
+            {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><svg class="icon"><use xlink:href="#github" /></a>{{ end }}
+            {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><svg class="icon"><use xlink:href="#telegram" /></a>{{ end }}
+            {{ if isset .Params.links "slack" }}<a href="{{ .Params.links.slack }}" target="_blank"><svg class="icon"><use xlink:href="#slack" /></a>{{ end }}
+            {{ if isset .Params.links "medium" }}<a href="https://medium.com/@{{ .Params.links.medium }}" target="_blank"><svg class="icon"><use xlink:href="#medium" /></a>{{ end }}
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-9">
+					{{ if isset .Params.links "youtube" }}
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{.Params.links.youtube}}?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="profile-content">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-sm-8 col-lg-3 order-2 order-lg-1">
+					<div class="twitter-feed">
+						<a class="twitter-timeline" data-height="1000" data-chrome="nofooter" data-theme="light" data-link-color="#19CF86" href="https://twitter.com/{{ .Params.links.twitter }}">Tweets by {{ .Params.links.twitter }}</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+				<div class="col-12 col-lg-9 order-1 order-lg-2">
+					<div class="tabs">
+						<nav class="nav" role="tablist">
+							<a class="active" id="nav-financial-tab" data-toggle="tab" href="#nav-financial" role="tab" aria-controls="nav-financial" aria-selected="true">
+							<svg class="icon"><use xlink:href="#chart" /></svg>Financial
+							</a>
+							<a id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">
+							<svg class="icon"><use xlink:href="#bulb" /></svg> About
+							</a>
+							<a id="nav-set-up-tab" data-toggle="tab" href="#nav-set-up" role="tab" aria-controls="nav-set-up" aria-selected="false">
+							<svg class="icon"><use xlink:href="#gear" /></svg> Set-up
+							</a>
+							<a id="nav-timeline-tab" data-toggle="tab" href="#nav-timeline" role="tab" aria-controls="nav-timeline" aria-selected="false">
+							<svg class="icon"><use xlink:href="#time" /></svg> Timeline
+							</a>
+							<!-- <a id="nav-team-tab" data-toggle="tab" href="#nav-team" role="tab" aria-controls="nav-team" aria-selected="false">Team</a> -->
+							<a id="nav-whitepaper-tab" {{ if isset .Params.links "whitepaper" }} href="{{ .Params.links.whitepaper }}" target="_blank" {{ else }}class="disabled" data-toggle="tooltip" data-placement="top" title="No available whitepaper"{{ end }}>
+							<svg class="icon"><use xlink:href="#document" /></svg> Whitepaper
+							</a>
+						</nav>
+					</div>
+					<div class="tab-content">
+						<div class="tab-pane fade show active" id="nav-financial" role="tabpanel" aria-labelledby="nav-financial-tab">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-8">
+										<div class="valuation">
+											<div class="tab-content-header">
+												<div>Valuation</div>
+												<p>{{ with .Params.valuation.info.recap }}{{ . | markdownify }}{{ end }}</p>
+											</div>
+					            <table id="valuation-table" class="financial-table">
+					              <thead>
+					                <tr>
+					                  <th>Stake</th>
+					                  <th>Cut</th>
+					                  <th>Supply</th>
+					                  {{ if ne .Params.valuation.headers.header "USD" }}
+															<th id="valuation-cell-header">{{ .Params.valuation.headers.header }}</th>
+					                  	<th>USD</th>
+														{{ else }}
+															<th>USD</th>
+														{{ end }}
+					                </tr>
+					              </thead>
+					              <tbody>
+					              	{{ range .Params.valuation.rows }}
+					                <tr class="{{ .distribution | urlize }}-row">
+					                  <td>{{ .distribution }}</td>
+					                  <td>{{ .cut }}</td>
+					                  <td>{{ .supply }}</td>
+					                  {{ if ne $.Params.valuation.headers.header "USD" }}
+															<td>{{ .value }}</td>
+															<td></td>
+														{{ else }}
+															<td>${{ .value }}</td>
+														{{ end }}
+					                </tr>
+					                {{ end }}
+					              </tbody>
+					            </table>
 				            </div>
-			          	</div>
-			          </div>
-              </div>
-            </div>
-            <div class="col-sm-5 d-flex flex-column justify-content-center">
-              <div class="row mb-3">
-                <div class="col-6 indicator-value">DEAL</div>
-                <div class="col-6 indicator-rating text-warning">{{ partial "rating" .Params.dealrating }}</div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-6 indicator-value">TRUST</div>
-                <div class="col-6 indicator-rating text-success">{{ partial "rating" .Params.trustrating }}</div>
-              </div>
-            </div>
-          </div>
+			            </div>
+										<div class="col-lg-4">
+					            <div class="fund-allocation">
+					            	<div class="tab-content-header">
+													<div>Fund Allocation</div>
+												</div>
+			            			{{ with .Params.allocation }}
+												<table class="financial-table">
+													<thead>
+														<tr>
+															<th>Stake</th>
+															<th>Cut</th>
+														</tr>
+													</thead>
+													<tbody>
+														{{ range . }}
+														<tr>
+															<td>{{ .stake }}</td>
+															<td>{{ .cut }}</td>
+														</tr>
+														{{ end }}
+													</tbody>
+												</table>
+			            			{{ else }}
+			            			<p>At the time of listing, this project did not communicate fund allocation.</p>
+			            			{{ end }}
+					            </div>
+				            </div>
+		            </div>
+		          </div>
+						</div>
+						<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+							{{ .Content | safeHTML }}
+						</div>
+						<div class="tab-pane fade" id="nav-set-up" role="tabpanel" aria-labelledby="nav-set-up-tab">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="set-up-box compliance">
+											<div class="tab-content-header">Relationships</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Investor verification</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.investorVerification }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Third party audit</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.thirdPartyAudit }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="set-up-box trading">
+											<div class="tab-content-header">Trading</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Exchange listing</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.trading.exchangeListing }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Wallet support</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.trading.walletSupport }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="set-up-box token">
+											<div class="tab-content-header">Token</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Type</div>
+												</div>
+												<div class="col-6">
+													<div class="value">{{ .Params.setUp.token.type }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Functions</div>
+												</div>
+												<div class="col-6">
+													<div class="value">{{ .Params.setUp.token.functions }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Consensus</div>
+												</div>
+												<div class="col-6">
+													<div class="value">{{ .Params.setUp.token.consensus }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Premined</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.token.premine }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="set-up-box market">
+											<div class="tab-content-header">Market</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Similar</div>
+												</div>
+												<div class="col-6">
+													<div>{{ .Params.setUp.market.similar }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Competition</div>
+												</div>
+												<div class="col-6">
+													<div>{{ .Params.setUp.market.competition }}</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Entry barrier</div>
+												</div>
+												<div class="col-6">
+													<div>{{ .Params.setUp.market.entryBarrier }}</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="set-up-box partnerships">
+											<div class="tab-content-header">Partnerships</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Crypto influencers</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.cryptoInfluencers }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Mainstream media</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.mainstreamMedia }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Smart money investor</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.smartMoneyInvestors }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-6">
+													<div>Corporate partners</div>
+												</div>
+												<div class="col-6">
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.corporatePartners }}#yes{{ else }}#no{{ end }}" /></svg>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-timeline" role="tabpanel" aria-labelledby="nav-timeline-tab">
+							<div class="container">
+								<div class="row justify-content-center">
+									{{ with .Params.roadmap }}
+										<div class="col-md-4">
+											<div class="tab-content-header">Roadmap</div>
+												<div class="roadmap-timeline">
+														{{ range . }}
+													  <div class="roadmap-timeline-container">
+													    <div class="roadmap-timeline-content">
+													      <strong>{{ .period }}</strong>
+													      <p>{{ .milestone }}</p>
+													    </div>
+													  </div>
+													  {{ end }}
+												</div>
+										</div>
+								  {{ end }}
+									<div class="col-md-8">
+										<div class="tab-content-header">Stage of development</div>
+										<div class="development-timeline">
+											<div class="development-timeline-container">
+												<div class="stage">Ideation</div>
+												<div class="details">
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.whitepaper }}#yes{{ else }}#no{{ end }}" /></svg> Whitepaper
+													</div>
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.website }}#yes{{ else }}#no{{ end }}" /></svg> Website
+													</div>
+												</div>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.whitepaper) (.Params.stage.website) }}class="active"{{ end }} xlink:href="#bulb-circle" /></svg>
+											</div>
+											<div class="development-timeline-container">
+												<div class="stage">Development</div>
+												<div class="details">
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.initialCode }}#yes{{ else }}#no{{ end }}" /></svg> Initial Code
+													</div>
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.mvp }}#yes{{ else }}#no{{ end }}" /></svg> MVP
+													</div>
+												</div>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.initialCode) (.Params.stage.mvp) }}class="active"{{ end }} xlink:href="#code-circle" /></svg>
+											</div>
+											<div class="development-timeline-container">
+												<div class="stage">Test</div>
+												<div class="details">
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.openDev }}#yes{{ else }}#no{{ end }}" /></svg> Open dev
+													</div>
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.beta }}#yes{{ else }}#no{{ end }}" /></svg> Beta
+													</div>
+												</div>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.openDev) (.Params.stage.beta) }}class="active"{{ end }} xlink:href="#gear-circle" /></svg>
+											</div>
+											<div class="development-timeline-container">
+												<div class="stage">Launch</div>
+												<div class="details">
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.workingProduct }}#yes{{ else }}#no{{ end }}" /></svg> Working product
+													</div>
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.community }}#yes{{ else }}#no{{ end }}" /></svg> Community
+													</div>
+												</div>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.workingProduct) (.Params.stage.community) }}class="active"{{ end }} xlink:href="#software-circle" /></svg>
+											</div>
+											<div class="development-timeline-container">
+												<div class="stage">Growth</div>
+												<div class="details">
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.expansion }}#yes{{ else }}#no{{ end }}" /></svg> Expansion
+													</div>
+													<div>
+														<svg class="icon"><use xlink:href="{{ if .Params.stage.profit }}#yes{{ else }}#no{{ end }}" /></svg> Profit
+													</div>
+												</div>
+												<svg class="stage-icon"><use {{ if and (.Params.stage.expansion) (.Params.stage.profit) }}class="active"{{ end }} xlink:href="#rocket-circle" /></svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="tab-pane fade" id="nav-team" role="tabpanel" aria-labelledby="nav-team-tab">
+						</div> -->
+					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="ml-auto col-lg-10">
-			<div class="token-description">
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs nav-justified flex-column flex-sm-row" role="tablist">
-				  <li class="nav-item">
-				    <a class="flex-sm-fill nav-link active" data-toggle="tab" href="#deal" role="tab">DEAL</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="flex-sm-fill nav-link" data-toggle="tab" href="#concept" role="tab">CONCEPT</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="flex-sm-fill nav-link" data-toggle="tab" href="#trust" role="tab">TRUST</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="flex-sm-fill nav-link" data-toggle="tab" href="#token" role="tab">TOKEN</a>
-				  </li>
-          <li class="nav-item">
-            <a class="flex-sm-fill nav-link" data-toggle="tab" href="#roadmap" role="tab">ROADMAP</a>
-          </li>
-				</ul>
-
-				<!-- Tab panes -->
-				<div class="tab-content">
-					<div class="tab-pane active" id="deal" role="tabpanel">
-            <p>{{ with .Params.deal.info.recap }}{{ . | markdownify }}{{ end }}</p>
-            <table id="deal-table" class="deal-table table table-sm text-center">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>CUT</th>
-                  <th>SUPPLY</th>
-                  {{ if ne .Params.deal.headers.valuationheader "USD" }}
-										<th id="valuation-header">{{ .Params.deal.headers.valuationheader }}</th>
-                  	<th>USD</th>
-									{{ else }}
-										<th>USD</th>
-									{{ end }}
-                </tr>
-              </thead>
-              <tbody>
-              	{{ range .Params.deal.rows }}
-                <tr class="{{ .distribution | urlize }}-row">
-                  <td>{{ .distribution }}</td>
-                  <td>{{ .cut }}</td>
-                  <td>{{ .supply }}</td>
-                  {{ if ne $.Params.deal.headers.valuationheader "USD" }}
-										<td>{{ .value }}</td>
-										<td></td>
-									{{ else }}
-										<td>${{ .value }}</td>
-									{{ end }}
-                </tr>
-                {{ end }}
-              </tbody>
-            </table>
-          </div>
-
-				  <div class="tab-pane" id="concept" role="tabpanel">
-				  	<div class="label">Description</div>
-						<p>{{ .Description }}</p>
-				  	<div class="label">Features</div>
-				  	<p>{{ .Params.features | markdownify }}</p>
-				  </div>
-
-				  <div class="tab-pane" id="trust" role="tabpanel">
-				  	<div class="container">
-		          <div class="row mb-2">
-		            <div class="col-6 label">Stage of the project</div>
-		            <div class="col-6">{{ .Params.trust.stage }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Team identity</div>
-		            <div class="col-6">{{ if .Params.trust.teamidentity }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Partners</div>
-		            <div class="col-6">{{ if .Params.trust.partners }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Advisors</div>
-		            <div class="col-6">{{ if .Params.trust.advisors }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">3rd party audit</div>
-		            <div class="col-6">{{ if .Params.trust.audit }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Multi-sig wallet</div>
-		            <div class="col-6">{{ if .Params.trust.multisigwallet }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Disbursement date</div>
-		            <div class="col-6">{{ .Params.trust.disbursementdate }}</div>
-		          </div>
-	          </div>
-          </div>
-
-				  <div class="tab-pane" id="token" role="tabpanel">
-	          <div class="container">
-		          <div class="row mb-2">
-		            <div class="col-6 label">Functions</div>
-		            <div class="col-6">{{ .Params.token.functions }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Consensus</div>
-		            <div class="col-6">{{ .Params.token.consensus }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Asset-backed</div>
-		            <div class="col-6">{{ if .Params.token.assetbacked }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Pre-Mined</div>
-		            <div class="col-6">{{ if .Params.token.premined }}<i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-lg" aria-hidden="true"></i>{{ end }}</div>
-		          </div>
-		          <div class="row mb-2">
-		            <div class="col-6 label">Similar</div>
-		            <div class="col-6">{{ .Params.token.similar }}</div>
-		          </div>
-	          </div>
-          </div>
-
-          <div class="tab-pane" id="roadmap" role="tabpanel">
-            <div class="roadmap">
-              <div class="roadmap-ideation">
-                <div class="roadmap-stage">IDEATION</div>
-                {{ if and .Params.roadmap.website .Params.roadmap.whitepaper }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/ideation-green.svg">
-                {{ else }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/ideation-mono.svg">
-                {{ end }}
-                <div class="roadmap-bottom-left">
-                  <div>
-                    {{ if .Params.roadmap.website }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  Website
-                </div>
-                <div class="roadmap-bottom-right">
-                  <div>
-                    {{ if .Params.roadmap.whitepaper }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  Whitepaper
-                </div>
-              </div>
-              <div class="roadmap-mvp">
-                <div class="roadmap-stage">MVP</div>
-                {{ if and .Params.roadmap.initialcode .Params.roadmap.mvp }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/mvp-green.svg">
-                {{ else }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/mvp-mono.svg">
-                {{ end }}
-                <div class="roadmap-bottom-left">
-                  <div>
-                    {{ if .Params.roadmap.initialcode }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  Initial Code
-                </div>
-                <div class="roadmap-bottom-right">
-                  <div>
-                    {{ if .Params.roadmap.mvp }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  MVP
-                </div>
-              </div>
-              <div class="roadmap-test">
-                <div class="roadmap-stage">TEST</div>
-                {{ if and .Params.roadmap.beta .Params.roadmap.opendev }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/test-green.svg">
-                {{ else }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/test-mono.svg">
-                {{ end }}
-                <div class="roadmap-bottom-left">
-                  <div>
-                    {{ if .Params.roadmap.beta }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  Beta
-                </div>
-                <div class="roadmap-bottom-right">
-                  <div>
-                    {{ if .Params.roadmap.opendev }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  Open dev
-                </div>
-              </div>
-              <div class="roadmap-growth">
-                <div class="roadmap-stage">GROWTH</div>
-                {{ if and .Params.roadmap.launch .Params.roadmap.community }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/growth-green.svg">
-                {{ else }}
-                	<img class="roadmap-image" src="/images/roadmap-tokensale/growth-mono.svg">
-                {{ end }}
-                <div class="roadmap-bottom-left">
-                  <div>
-                    {{ if .Params.roadmap.launch }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  Launch
-                </div>
-                <div class="roadmap-bottom-right">
-                  <div>
-                    {{ if .Params.roadmap.community }}<i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>{{ else }}<i class="fa fa-square-o fa-2x" aria-hidden="true"></i>{{ end }}
-                  </div>
-                  Community
-                </div>
-              </div>
-            </div>
-          </div>
-
-				</div>
-			</div>
-
 			{{ if .Site.DisqusShortname }}
-        <article>
-            {{ template "_internal/disqus.html" . }}
-        </article>
-      {{ end }}
+			  <div class="disqus">
+			      {{ template "_internal/disqus.html" . }}
+			  </div>
+		  {{ end }}
 		</div>
-
 	</div>
 </div>
 

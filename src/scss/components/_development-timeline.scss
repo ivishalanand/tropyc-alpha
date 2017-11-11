@@ -1,0 +1,57 @@
+/* The actual timeline (the vertical ruler) */
+.development-timeline {
+	margin-top: 1rem;
+	position: relative;
+
+	/* The actual timeline (the vertical ruler) */
+	&:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: $gray-300;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+	}
+
+	.development-timeline-container {
+		position: relative;
+		display: flex;
+		min-height: 100px;
+		align-items: center;
+
+		.stage {
+			flex: 1;
+			font-weight: 600;
+			font-family: "Nunito";
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		/* The stage icon on the timeline */
+		.stage-icon {
+	    position: absolute;
+	    width: 50px;
+	    height: 50px;
+	    right: 50%;
+	    left: 50%;
+	    top: 15px;
+	    z-index: 1;
+	    margin-left: -24px;
+	    background: #fff;
+		}
+
+		.details {
+			flex: 1;
+
+			div {
+				margin-left: 25%;
+			}
+
+			.icon {
+				height: 20px;
+				width: 20px;
+			}
+		}
+	}
+}

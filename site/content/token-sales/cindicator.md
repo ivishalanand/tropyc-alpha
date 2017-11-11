@@ -1,96 +1,125 @@
 +++
 title = "Cindicator"
 date = 2017-08-13T17:30:02+02:00
-description = "Hybrid intelligence for investment decision and asset management. Cindicator builds an infrastructre for data scientists, financial analysts and investors to make smarter decision, powered by machine learning systems."
-bref = "Hybrid intelligence for investment decision and asset management"
+description = "Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide."
+bref = "Hybrid intelligence for crypto asset management"
 weight = 20
 draft = false
 
-trustRating = "A"
-dealRating = "A"
-softCap = "N/A"
-hardCap = "$15 M"
-platform = "Ethereum"
-industry = "Asset management"
-currencyAccepted = "ETH"
+ticker = "CND"
 startDate = 2017-09-12
 endDate = 2017-09-17
-founded = "Russia, 2015"
-
-features = """
-- investment and asset management platform powered by a community of scientists, artifical intelligence and machine learning systems
-- collaborative and distributed prediction market platform
-- users are able to make predictions and forecasts on markets and earn rewards if correct.
-- tokensale open to verified investors
-"""
+trustRating = "A"
+dealRating = "A-"
+origin = "Russia, 2015"
+industry = "Prediction"
+platform = "Ethereum"
+currencyAccepted = "ETH"
 
 [links]
-  website = "https://www.civic.com"
-  twitter = "https://twitter.com/crowd_indicator"
-  facebook = "https://www.facebook.com/crowdindicator"
-  reddit = "https://www.reddit.com/r/Cindicator/"
-  telegram = "https://t.me/cindicator_news"
-  github = "https://github.com/cindicator"
+  website = "https://cindicator.com/"
+  twitter = "crowd_indicator"
+  facebook = "crowdindicator"
+  reddit = "Cindicator"
+  github = "Cindicator"
+  telegram = "cindicator_chat"
+  youtube = "hizEuGomMaY"
+  medium = "cindicator"
+  whitepaper = "https://cindicator.com/Cindicator_WhitePaper_en.pdf"
 
-[trust]
-  stage = "Working platform"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = true
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = false
-  functions = "Access, Currency, Incentive"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "Augur, Gnosis"
-
-[deal]
-  [deal.headers]
-    valuationHeader = "USD"
-  [deal.rows]
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "USD"
+  [valuation.rows]
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "75%"
       supply = "1,125,000,000"
       value = "11,250,000"
-    [deal.rows.founders]
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "20%"
       supply = "300,000,000"
       value = "3,000,000"
-    [deal.rows.earlyInvestors]
-      distribution = "Early investors"
+    [valuation.rows.earlyInvestors]
+      distribution = "Early Investors"
       cut = "3.8%"
       supply = "57,000,000"
       value = "570,000"
-    [deal.rows.reward]
+    [valuation.rows.reward]
       distribution = "Reward"
       cut = "1%"
       supply = "15,000,000"
-      value = "150,000"
-    [deal.rows.currentUsers]
+      value = "15,000"
+    [valuation.rows.currentUsers]
       distribution = "Current forecasters"
       cut = "0.2%"
-      supply = "3,000,000"
-      value = "30,000"
-    [deal.rows.total]
+      supply = "15,000,000"
+      value = "150,000"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "1,500,000,000"
       value = "15,000,000"
 
+[allocation]
+  [allocation.development]
+    stake = "Development"
+    cut = "5%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "15%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "50%"
+  [allocation.team]
+    stake = "Team"
+    cut = "10%"
 
-[roadmap]
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Access, Incentive"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "Augur, Gnosis"
+    competition = "Mid"
+    entryBarrier = "Mid"
+  [setUp.partnerships]
+    mainstreamMedia = true
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = true
+  openDev = true
   beta = true
-  openDev = false
-  launch = false
+  workingProduct = true
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Cindicator**
+
+Hybrid intelligence for investment decision and asset management. Cindicator builds an infrastructre for data scientists, financial analysts and investors to make smarter decision, powered by machine learning systems.
+
+**Functionality**
+
+* investment and asset management platform powered by a community of scientists, artifical intelligence and machine learning systems
+* collaborative and distributed prediction market platform
+* users are able to make predictions and forecasts on markets and earn rewards if correct.
+* tokensale open to verified investors

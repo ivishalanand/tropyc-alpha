@@ -6,87 +6,119 @@ bref = "Royalty and debt financing platform"
 weight = 20
 draft = false
 
-trustRating = "B+"
-dealRating = "B"
-softCap = "59,998 ETH"
-hardCap = "199,998 ETH"
-platform = "Ethereum"
-industry = "Crowdfunding, financing"
-currencyAccepted = "BTC, ETH"
+ticker = "DDD"
 startDate = 2017-11-21
 endDate = 2017-12-21
-founded = "N/A, 2017"
-
-features = """
-- Decentralized DropDeck Token (DDD) serves 4 utilities: contribution/loan, score verification, contribution rewards, premium features
-- Investors can either lend or contribute to projects with either royalty or dead financing.
-- Ventures can seek funds and are scored by the community.
-- Contributors are rewarded for scoring projects.
-"""
+trustRating = "B"
+dealRating = "B"
+origin = "N/A, 2017"
+industry = "Crowdfunding, financing"
+platform = "Ethereum"
+currencyAccepted = "BTC, ETH"
 
 [links]
   website = "https://dropdeck.io/"
-  twitter = "https://twitter.com/dropdeckio"
-  facebook = "https://www.facebook.com/dropdeck"
-  reddit = "https://www.reddit.com/r/DropDeck/"
-  github = "https://github.com/dropdeck"
-  telegram = "https://t.me/dropdeck"
-  medium = "https://medium.com/dropdeck"
+  twitter = "dropdeckio"
+  facebook = "dropdeck"
+  reddit = "DropDeck"
+  github = "dropdeck"
+  telegram = "dropdeck"
+  medium = "dropdeck"
+  youtube = ""
+  slack = ""
+  whitepaper = "https://drive.google.com/file/d/0B-ngm-zezrFQaHNxaHZWTnNNMTA/view"
 
-[trust]
-  stage = "Ideation"
-  advisors = true
-  partners = false
-  teamIdentity = true
-  audit = false
-  wallet = true
-  disbursementDate = "7 to 31 days after ICO"
-
-[token]
-  assetBacked = false
-  functions = "Currency, Incentive"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.info]
-    recap = "Calculation based on hard cap."
-  [deal.headers]
-    valuationHeader = "ETH"
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "ETH"
+  [valuation.rows]
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "50%"
       supply = "n/a"
       value = "99,999"
-    [deal.rows.founders]
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "20%"
       supply = "n/a"
       value = "40,000"
-    [deal.rows.reserve]
+    [valuation.rows.reserve]
       distribution = "Reserves"
       cut = "25%"
       supply = "n/a"
       value = "49,999"
-    [deal.rows.Reward]
+    [valuation.rows.reward]
       distribution = "Rewards"
       cut = "5%"
       supply = "n/a"
       value = "9,999"
-    [deal.rows.total]
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "n/a"
       value = "199,998"
 
-[roadmap]
+[allocation]
+  [allocation.development]
+    stake = "Development"
+    cut = "55%"
+  [allocation.marketing]
+    stake = "Marketing"
+    cut = "20%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "10%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "10%"
+  [allocation.buffer]
+    stake = "Buffer"
+    cut = "5%"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
+  [setUp.token]
+    type = "Primary"
+    functions = "Currency, Incentive"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "N/A"
+    competition = "High"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = false
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = false
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = false
-  beta = false
   openDev = false
-  launch = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Dropdeck**
+
+Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide.
+
+**Functionality**
+
+* Decentralized DropDeck Token (DDD) serves 4 utilities: contribution/loan, score verification, contribution rewards, premium features
+* Investors can either lend or contribute to projects with either royalty or dead financing.
+* Ventures can seek funds and are scored by the community.
+* Contributors are rewarded for scoring projects.

@@ -1,84 +1,117 @@
 +++
-title = "REAL"
+title = "Real"
 date = 2017-08-13T17:30:02+02:00
 description = "Real Estate Asset Ledger is a blockchain crowdfunding platform that enables the investment into real assets by purchasing participations"
 bref = "Real estate crowdfunding platform"
 weight = 20
 draft = false
 
-trustRating = "A+"
-dealRating = "C-"
-softCap = "$10 M"
-hardCap = "$12 M"
-platform = "Ethereum"
-industry = "Real estate"
-currencyAccepted = "ETH"
+ticker = "REAL"
 startDate = 2017-08-29
 endDate = 2017-09-30
-founded = "Singapore, 2017"
-
-features = """
-- real estate asset-backed token
-- crowdfunding platform for real estate investment
-- reduces the ticket size of investment
-"""
+trustRating = "B+"
+dealRating = "C-"
+origin = "Singapore, 2017"
+industry = "Real Estate"
+platform = "Ethereum"
+currencyAccepted = "ETH"
 
 [links]
   website = "https://www.real.markets/"
-  twitter = "https://twitter.com/real_token"
-  facebook = "https://www.facebook.com/realestateassetledger"
-  telegram = "https://t.me/joinchat/EuKMRkMXRcL6Rg5KUNQ4Mg"
-  github = "https://github.com/RealEstateAssetLedger/real_contract"
+  twitter = "real_token"
+  facebook = "realestateassetledger"
+  reddit = "DropDeck"
+  github = "RealEstateAssetLedger"
+  telegram = "realplatform"
+  medium = "real_token"
+  youtube = "9NaAq_HM_LA"
+  slack = ""
+  whitepaper = "https://www.real.markets/static/wp/en/REAL_Whitepaper.pdf"
 
-[trust]
-  stage = "MVP"
-  advisors = true
-  partners = false
-  teamIdentity = true
-  audit = false
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = true
-  functions = "Currency, Incentive"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
-      cut = "51%"
-      supply = "50,000,000"
-      value = "100,000"
-    [deal.rows.founders]
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "ETH"
+  [valuation.rows]
+    [valuation.rows.preIco]
+      distribution = "Pre-ICO"
+      cut = "50%"
+      supply = "n/a"
+      value = "99,999"
+    [valuation.rows.ico]
+      distribution = "ICO"
+      cut = "50%"
+      supply = "n/a"
+      value = "99,999"
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "20%"
-      supply = "19,607,843"
-      value = "39,215"
-    [deal.rows.reserve]
-      distribution = "Reserve"
-      cut = "29%"
-      supply = "28,431,372"
-      value = "56,863"
-    [deal.rows.total]
+      supply = "n/a"
+      value = "40,000"
+    [valuation.rows.earlyInvestors]
+      distribution = "Early Investors"
+      cut = "20%"
+      supply = "n/a"
+      value = "40,000"
+    [valuation.rows.reserve]
+      distribution = "Reserves"
+      cut = "25%"
+      supply = "n/a"
+      value = "49,999"
+    [valuation.rows.reward]
+      distribution = "Rewards"
+      cut = "5%"
+      supply = "n/a"
+      value = "9,999"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
-      supply = "98,039,215"
-      value = "196,078"
+      supply = "n/a"
+      value = "199,998"
 
 
-[roadmap]
+[setUp]
+  [setUp.compliance]
+    investorVerification = false
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Asset-backed, Currency, Incentive"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "LAtoken"
+    competition = "Low"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = false
+    corporatePartners = false
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = false
-  beta = false
   openDev = false
-  launch = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Real**
+
+Real Estate Asset Ledger is a blockchain crowdfunding platform that enables the investment into real assets by purchasing participations
+
+**Functionality**
+
+* real estate asset-backed token
+* crowdfunding platform for real estate investment
+* reduces the ticket size of investment

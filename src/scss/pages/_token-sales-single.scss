@@ -1,147 +1,325 @@
-.token-detail-content {
-  margin-top: 45px;
-}
+.token-sale-single {
+	margin-bottom: 60px;
 
-.token-id {
-  margin-bottom: 30px;
-  text-align: center;
+	.profile-header {
+		.image {
+			margin-top: 30px;
 
-   @include media-breakpoint-down(md) {
-    text-align: left;
-  }
-}
+			img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 100%;
+    		max-height: 150px;
+			}
+		}
 
-.token-title {
-  margin-top: 15px;
-  font-size: 1.5rem;
-  color: $gray-600;
-}
+		.info-main {
+			margin-top: 30px;
+			display: flex;
+			justify-content: center;
+			@include media-breakpoint-down(sm) {
+				flex-wrap: wrap-reverse;
+			}
 
-.token-logo {
-  height: 70px;
-}
+			.details {
+				margin-right: 1rem;
 
-.token-overview {
-  margin-bottom: 25px;
-  padding: 20px;
-  border: 1px solid #DDD;
-  border-radius: .25rem;
+				h1 {
+					font-size: 2rem;
+					font-weight: 700;
 
-  h2 {
-  	margin-bottom: 2rem;
-  	color: $gray-600;
-  }
-}
+					span {
+						margin-left: 1rem;
+						font-size: 0.9rem;
+						color: $gray-600;
+					}
+				}
 
-.token-description {
-	margin-bottom: 50px;
+				h2 {
+					font-size: 1.2rem;
+					color: $gray-700;
+				}
 
-  .tab-content {
-    padding: 20px;
-    border: solid #DDD;
-    border-width: 0 1px 1px 1px;
-    border-bottom-left-radius: .25rem;
-    border-bottom-right-radius: .25rem;
-  }
+				p {
+					color: $gray-600;
+					font-size: 0.8rem;
+				}
+			}
 
-  .nav-link {
-    background-color: #EFEFEF;
-    border-color: #DDD;
-  }
-}
+			.ratings {
+				@include media-breakpoint-up(sm) {
+					margin-left: auto;
+				}
 
-.indicator-value {
-  text-align: center;
-  vertical-align: middle;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: #6f8691;
-}
+				@include media-breakpoint-down(sm) {
+					margin-bottom: 1rem;
+				}
 
-.indicator-rating {
-  text-align: center;
-  vertical-align: middle;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: $gray-600;
-}
+				.ratings-box {
+					display: flex;
+					border: 1px solid $gray-300;
+					border-radius: 0.25rem;
+					padding: 0.75rem 0;
+					font-family: "Nunito";
+					text-align: center;
 
-.deal-table {
-  @include media-breakpoint-down(sm) {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-  }
+					.rating {
+						padding: 0 1rem;
 
-  th {
-  	border-top: none;
-  }
+						.rating-name {
+							font-size: 1.25rem;
+							font-weight: 700;
+							text-transform: uppercase;
+						}
 
-  tbody > tr:last-child td {
-    border-width: 2px;
-  }
+						.rating-mark {
+							font-size: 3rem;
+							font-weight: 800;
+						}
 
-  .tokensale-row {
-		color: $green;
-  }
+						&:first-child {
+							border-right: 1px solid $gray-300;
+						}
+					}
+				}
+			}
+		}
 
-  .total-row {
-  	font-weight: 600;
-  }
-}
+		.info-secondary {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 15px;
+			border: 1px solid $gray-300;
+			border-radius: 0.25rem;
+			padding: 2rem;
+			font-weight: 600;
 
-.roadmap {
-  display: flex;
-  height: 300px;
+			.date-box {
+				display: flex;
 
-  @include media-breakpoint-down(sm) {
-    flex-direction: column;
-    height: 900px;
-  }
+				.info-row:first-child {
+					margin-right: 2rem;
+				}
+			}
 
-  .roadmap-ideation, .roadmap-mvp, .roadmap-test, .roadmap-growth {
-    flex: 25%;
-    text-align: center;
-    border: 1px solid #DDD;
-    padding: 20px 0;
-    position: relative;
-  }
+			.info-row {
+				margin-bottom: 0.5rem;
 
-  .roadmap-stage {
-    font-size: 16px;
-    font-weight: 400;
-    color: $gray-600;
-  }
+				div:first-child {
+					font-size: 0.7rem;
+					text-transform: uppercase;
+					font-family: "Nunito";
+					color: $gray-600;
+				}
 
-  .roadmap-image {
-  	position: absolute;
-  	margin-left: auto;
-  	margin-right: auto;
-  	left: 0;
-    right: 0;
-    top: 30%;
-  	height: 80px;
-  }
+				div:nth-child(2) {
+					font-size: 0.8rem;
+				}
+			}
 
-  .roadmap-bottom-left {
-    position: absolute;
-    left: 10%;
-    bottom: 10%;
-    font-size: 14px;
+			a {
+				margin-top: 0.5rem;
+				width: 100%;
+			}
+		}
 
-    @include media-breakpoint-only(md) {
-      font-size: 12px;
-    }
-  }
+		.socials {
+			margin-top: 1rem;
+			text-align: center;
 
-  .roadmap-bottom-right {
-    position: absolute;
-    right: 10%;
-    bottom: 10%;
-    font-size: 14px;
+			.icon {
+				height: 25px;
+				width: 25px;
+			}
+		}
 
-    @include media-breakpoint-only(md) {
-      font-size: 12px;
-    }
-  }
+		.video {
+			margin-top: 15px;
+			width: 100%;
+			border-radius: 0.25rem;
+
+			iframe {
+				width: 100%;
+				height: 400px;
+			}
+		}
+	}
+
+	.profile-content {
+		.twitter-feed {
+			margin-top: 40px;
+			border: 1px solid $gray-300;
+			border-radius: 0.25rem;
+		}
+
+		.tabs {
+			margin-top: 40px;
+			border-top: 2px solid theme-color("primary");
+
+			nav {
+				a {
+					flex: 1;
+					display: flex;
+					justify-content: center;
+					padding: 1rem 1rem;
+					color: $gray-900;
+					text-align: center;
+					font-weight: 600;
+					font-size: 0.9rem;
+					text-decoration: none;
+					font-family: "Nunito";
+
+					&:hover {
+						color: theme-color("primary");
+					}
+
+					.icon {
+						height: 20px;
+						width: 20px;
+						margin-right: 1rem;
+					}
+
+				}
+
+				a.active {
+					color: theme-color("primary");
+					border-bottom: 2px solid theme-color("primary");
+
+					.icon {
+						fill: theme-color("primary");
+					}
+				}
+
+				a.disabled {
+					cursor: not-allowed;
+					opacity: 0.8;
+				}
+			}
+		}
+
+		.tab-content {
+			margin-top: 30px;
+			margin-bottom: 30px;
+
+			.tab-content-header {
+				text-align: center;
+				font-family: "Nunito";
+				font-weight: 600;
+			}
+
+			#nav-financial {
+				.col-lg-4 {
+					@include media-breakpoint-up(lg) {
+						border-left: 1px solid $gray-300;
+					}
+				}
+
+				.tab-content-header {
+					min-height: 50px;
+					margin-bottom: 1rem;
+
+					p {
+						font-size: 0.75rem;
+						margin: 0;
+					}
+				}
+
+				.valuation {
+					margin-top: 10px;
+					padding-left: 1rem;
+					padding-right: 1rem;
+				}
+
+				.fund-allocation {
+					margin-top: 10px;
+					padding-left: 1rem;
+					padding-right: 1rem;
+
+					p {
+						font-size: 0.75rem;
+						color: $gray-600;
+						text-align: center;
+					}
+				}
+
+				.financial-table {
+					width: 100%;
+    			max-width: 100%;
+    			color: $gray-700;
+    			font-family: "Nunito";
+
+    			th, td {
+    				padding: 0.25rem;
+    			}
+
+					thead tr th {
+						padding-bottom: 1rem;
+						font-size: 0.7rem;
+						text-align: left;
+						text-transform: uppercase;
+					}
+
+					tbody {
+						font-size: 0.9rem;
+					}
+				}
+			}
+		}
+
+		#nav-about {
+			font-size: 0.9rem;
+		}
+
+		#nav-set-up {
+
+			.col-md-6 {
+				@include media-breakpoint-up(md) {
+					&:not(:last-child) {
+						border-bottom: 1px solid $gray-300;
+					}
+
+					&:nth-child(odd) {
+						border-right: 1px solid $gray-300;
+					}
+				}
+			}
+
+			.set-up-box {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				padding-left: 1rem;
+				padding-right: 1rem;
+
+				.tab-content-header {
+					margin-bottom: 1rem;
+				}
+
+				.row {
+					margin-bottom: 0.5rem;
+				}
+
+				.col-6:first-child {
+					font-size: 0.8rem;
+				}
+
+				.col-6:nth-child(2) {
+					font-size: 0.8rem;
+					font-weight: 600;
+					text-align: center;
+				}
+
+				.icon {
+					height: 20px;
+					width: 20px;
+				}
+			}
+		}
+
+		#nav-timeline {
+			.active {
+				fill: theme-color("primary");
+			}
+		}
+	}
 }

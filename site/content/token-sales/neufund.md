@@ -5,10 +5,9 @@ description = "Equity and legal fundraising platform that let investors stay in 
 weight = 20
 draft = true
 
+ticker = "ETO"
 trustRating = "A+"
 dealRating = "A+"
-softCap = "N/A"
-hardCap = "N/A"
 platform = "Native"
 industry = "crowdfunding"
 currencyAccepted = ""
@@ -16,18 +15,12 @@ startDate = 2017-10-01
 endDate = 2017-10-31
 founded = "Germany, 2017"
 
-features = """
-- Equity and legal crowdfunding marketplace
-- ICBM let token holders stay in control over their capital
-- Allows any kind of companies raise funds
-"""
-
 [links]
   website = "https://neufund.org/"
-  twitter = "https://twitter.com/neufundorg"
-  facebook = "https://www.facebook.com/neufundorg/"
-  reddit = "https://www.reddit.com/r/neufund/"
-  github = "https://github.com/neufund"
+  twitter = "neufundorg"
+  facebook = "neufundorg"
+  reddit = "neufund"
+  github = "neufund"
 
 [trust]
   stage = "Beta"

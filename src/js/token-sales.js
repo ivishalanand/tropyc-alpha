@@ -1,7 +1,7 @@
 var numeral = require('numeral');
 
-if ($('#valuation-header').length) {
-	var cryptoHeader = document.getElementById('valuation-header').innerHTML;
+if ($('#valuation-cell-header').length) {
+	var cryptoHeader = document.getElementById('valuation-cell-header').innerHTML;
 	var cryptoCurrency;
 	switch(cryptoHeader) {
     case 'ETH':
@@ -15,7 +15,7 @@ if ($('#valuation-header').length) {
 	}
   $.getJSON(`https://api.coinmarketcap.com/v1/ticker/${cryptoCurrency}/`, function (data) {
     var baseValue = data[0].price_usd;
-		$('#deal-table tbody tr').each(function(){
+		$('#valuation-table tbody tr').each(function(){
 			var cells = $(this).find('td')
 	    var cryptoValue = numeral(cells[3].innerHTML);
 	    var fiatValue = cryptoValue.multiply(baseValue)

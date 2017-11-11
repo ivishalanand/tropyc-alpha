@@ -1,103 +1,131 @@
 +++
-title = "Dummy"
+title = "DropDeck"
 date = 2017-08-13T17:30:02+02:00
-description = ""
-bref = ""
+description = "Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide."
+bref = "Royalty and debt financing platform"
 weight = 20
 draft = true
 
-trustRating = ""
-dealRating = ""
-softCap = ""
-hardCap = ""
-platform = ""
-industry = ""
-currencyAccepted = ""
-startDate = 2016-01-01
-endDate = 2016-01-02
-founded = "xxxx, 2016"
-
-features = """
-- Feature 1
-- Feature 2
-- Feature 3
-"""
+ticker = "ENG"
+startDate = 2017-11-21
+endDate = 2017-12-21
+trustRating = "B+"
+dealRating = "B"
+origin = "N/A, 2017"
+industry = "Crowdfunding, financing"
+platform = "Ethereum"
+currencyAccepted = "BTC, ETH"
 
 [links]
-  website = "https://www.civic.com"
-  twitter = "civic"
-  facebook = "civic"
-  reddit = "civic"
-  github = "civic"
-  telegram = "civic"
-  slack = "civic"
-  medium = ""
+  website = "https://dropdeck.io/"
+  twitter = "dropdeck"
+  facebook = "dropdeck"
+  reddit = "DropDeck"
+  github = "dropdeck"
+  telegram = "dropdeck"
+  medium = "dropdeck"
+  youtube = ""
+  slack = ""
+  whitepaper = ""
 
-[trust]
-  stage = ""
-  advisors = true
-  partners = false
-  teamIdentity = true
-  audit = false
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = false
-  functions = "Currency, Incentive"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.info]
-    recap = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.pretokensale]
-      distribution = "Pre-tokensale"
-      cut = "12.5%"
-      supply = "25,000,000"
-      value = "41,666"
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
-      cut = "65%"
-      supply = "130,000,000"
-      value = "216,666"
-    [deal.rows.founders]
+[valuation]
+  [valuation.info]
+    recap = "Based on hard cap."
+  [valuation.headers]
+    header = "ETH"
+  [valuation.rows]
+    [valuation.rows.preIco]
+      distribution = "Pre-ICO"
+      cut = "50%"
+      supply = "n/a"
+      value = "99,999"
+    [valuation.rows.ico]
+      distribution = "ICO"
+      cut = "50%"
+      supply = "n/a"
+      value = "99,999"
+    [valuation.rows.founders]
       distribution = "Founders"
-      cut = "15%"
-      supply = "30,000,000"
-      value = "50,000"
-    [deal.rows.earlyInvestors]
-      distribution = "Early investors"
-      cut = "2.5%"
-      supply = "5,000,000"
-      value = "8,333"
-    [deal.rows.affiliate]
-      distribution = "Affiliate"
+      cut = "20%"
+      supply = "n/a"
+      value = "40,000"
+    [valuation.rows.earlyInvestors]
+      distribution = "Early Investors"
+      cut = "20%"
+      supply = "n/a"
+      value = "40,000"
+    [valuation.rows.reserve]
+      distribution = "Reserves"
+      cut = "25%"
+      supply = "n/a"
+      value = "49,999"
+    [valuation.rows.reward]
+      distribution = "Rewards"
       cut = "5%"
-      supply = "10,000,000"
-      value = "16,666"
-    [deal.rows.futureEmission]
-      distribution = "Future emission"
-      cut = "0%"
-      supply = "0"
-      value = "0"
-    [deal.rows.total]
+      supply = "n/a"
+      value = "9,999"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
-      supply = "200,000,000"
-      value = "3,330,000"
+      supply = "n/a"
+      value = "199,998"
 
-[roadmap]
+[allocation]
+  [allocation.development]
+    stake = "Development"
+    cut = "5%"
+  [allocation.marketing]
+    stake = "Marketing"
+    cut = "10%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "15%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "50%"
+  [allocation.team]
+    stake = "Team"
+    cut = "10%"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = false
+    thirdPartyAudit = false
+  [setUp.trading]
+    exchangeListing = false
+    walletSupport = false
+  [setUp.token]
+    type = "Secondary"
+    functions = "Currency, Incentive"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "N/A"
+    competition = "High"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = false
+    corporatePartners = false
+    smartMoneyInvestors = false
+    cryptoInfluencers = false
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = false
-  beta = false
   openDev = false
-  launch = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**NameofICO**
+
+This is content coming from ICO
+
+**Functionality**
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus esse quasi libero sunt reprehenderit, nisi assumenda blanditiis earum sint dolor numquam aspernatur architecto voluptatem molestiae sapiente accusamus, rerum non.

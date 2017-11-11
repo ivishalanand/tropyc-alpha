@@ -1,91 +1,107 @@
 +++
 title = "Ahoolee"
 date = 2017-08-13T17:30:02+02:00
-description = "Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoole's blockchain application"
+description = "Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoolee's blockchain application"
 bref = "Product search engine platform"
 weight = 20
 draft = false
 
-trustRating = "A"
-dealRating = "B-"
-softCap = "$1 M"
-hardCap = "$3.75 M"
-platform = "Ethereum"
-industry = "Search engine"
-currencyAccepted = "ETH"
+ticker = "AHT"
 startDate = 2017-08-28
 endDate = 2017-09-11
-founded = "Russia, 2017"
-
-features = """
-- decentralised product search engine
-- global product indexing
-- price analysis and comparison tool
-"""
+trustRating = "A-"
+dealRating = "B-"
+origin = "Russia, 2017"
+industry = "Search engine"
+platform = "Ethereum"
+currencyAccepted = "ETH"
 
 [links]
-  website = "https://www.ahoole.com"
-  twitter = "https://twitter.com/Ahooleeman"
-  facebook = "https://www.facebook.com/ahooleeman/"
-  telegram = "https://t.me/ahooleecommunityeng"
+  website = "https://ahoolee.io/"
+  twitter = "Ahooleeman"
+  facebook = "Ahooleeman"
+  telegram = "ahooleecommunityeng"
+  youtube = "HNhm3L2w7Aw"
+  whitepaper = "https://drive.google.com/file/d/0Bz8GOnrPq_i-SGk5a1Jxbld2TGs/view"
 
-[trust]
-  stage = "Alpha product"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = false
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = true
-  functions = "Currency, Access, Incentive"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.headers]
-    valuationHeader = "USD"
-  [deal.rows]
-    [deal.rows.pretokensale]
-      distribution = "Pre-tokensale"
+[valuation]
+  [valuation.info]
+    recap = "Based on whitepaper 'cap'."
+  [valuation.headers]
+    header = "USD"
+  [valuation.rows]
+    [valuation.rows.preIco]
+      distribution = "Pre ICO"
       cut = "10%"
-      supply = "375,000"
-      value = "4,545"
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+      supply = "10,000,000"
+      value = "200,000"
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "25%"
-      supply = "937,500"
-      value = "11,364"
-    [deal.rows.founders]
+      supply = "2,500,000"
+      value = "3,750,000"
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "15%"
-      supply = "562,500"
-      value = "6,818"
-    [deal.rows.futureTokensale]
-      distribution = "Future tokensale"
+      supply = "15,000,000"
+      value = "2,250,000"
+    [valuation.rows.futureIco]
+      distribution = "Future ICO"
       cut = "30%"
-      supply = "1,125,000"
-      value = "13,635"
-    [deal.rows.futureEmission]
-      distribution = "Future emission"
+      supply = "30,000,000"
+      value = "4,500,000"
+    [valuation.rows.futureEmission]
+      distribution = "Future Emission"
       cut = "20%"
       supply = "20,000,000"
-      value = "750,000"
-    [deal.rows.total]
+      value = "3,000,000"
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "100,000,000"
-      value = "3,750,000"
+      value = "13,700,000"
 
-[roadmap]
+[setUp]
+  [setUp.compliance]
+    investorVerification = false
+    thirdPartyAudit = false
+  [setUp.trading]
+    exchangeListing = false
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Access, Currency, Incentive"
+    consensus = "Proof-of-stake"
+    premined = true
+  [setUp.market]
+    similar = "N/A"
+    competition = "Low"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = false
+    corporatePartners = false
+    smartMoneyInvestors = false
+    cryptoInfluencers = false
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
   mvp = true
   openDev = false
-  launch = false
+  beta = false
+  workingProduct = false
   community = false
+  expansion = false
+  profit = false
 +++
+
+**Ahoolee**
+
+Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoolee's blockchain application.
+
+**Functionalities**
+
+* decentralised product search engine
+* global product indexing
+* price analysis and comparison tool

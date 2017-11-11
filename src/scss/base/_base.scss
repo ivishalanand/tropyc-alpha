@@ -3,9 +3,11 @@ label {
 }
 
 .label {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-family: "Nunito";
 	color: $gray-600;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 strong {
@@ -49,4 +51,20 @@ button {
 	min-width: 75px;
 	font-weight: 600;
 	font-family: "Nunito";
+}
+
+svg {
+	fill: #D8D8D8;
+
+	#yes {
+		fill: $green;
+	}
+
+	#no {
+		fill: $red;
+	}
+
+	path {
+		fill: inherit;
+	}
 }

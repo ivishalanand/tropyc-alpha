@@ -1,11 +1,13 @@
-#markets-table, #token-sales-table {
-	display: none;
-}
-
 #token-sales-table {
 	tbody tr {
 		td:nth-child(2) {
 			display: none;
 		}
+	}
+}
+
+.dataTables_filter {
+	@include media-breakpoint-down(sm) {
+		float: right;
 	}
 }

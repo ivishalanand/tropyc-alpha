@@ -1,86 +1,114 @@
 +++
 title = "Liquid Qash"
 date = 2017-08-13T17:30:02+02:00
-description = "Global liquidity platform built by the Quoinex team on top of their order management system"
+description = "Global liquidity platform built by the Quoinex team on top of their order management system."
 bref = "Global liquidity platform built by Quoinex exchange"
 weight = 20
 draft = false
 
-trustRating = "A+"
-dealRating = "B+"
-softCap = "50 K ETH"
-hardCap = "1 M ETH"
-platform = "Ethereum"
-industry = "Financial services"
-currencyAccepted = "ETH"
+ticker = "QASH"
 startDate = 2017-11-06
-endDate = 2017-12-06
-founded = "Japan, 2014"
-
-features = """
-- Quoine's Liquid platform is built on top of the existing order book management system
-- Token will be used for financial settlements and transactions
-- Audited by one of the Big 4
-- Product features will include automated trading strategies, “crowd-sourced” AI-driven algorithms and proprietary trading tools
-"""
+endDate = 2017-11-09
+trustRating = "A"
+dealRating = "B+"
+origin = "Japan, 2014"
+industry = "Financial services"
+platform = "Ethereum"
+currencyAccepted = "ETH"
 
 [links]
   website = "https://liquid.plus/"
-  twitter = "https://twitter.com/quoine_SG"
-  facebook = "https://www.facebook.com/QUOINE.SG/"
-  telegram = "https://t.me/QUOINE"
+  twitter = "quoine_SG"
+  facebook = "quoine.sg"
+  reddit = "QASH"
+  telegram = "quoine"
+  medium = "QUOINE"
+  youtube = "Q5mvYnammC0"
+  whitepaper = "https://s3-ap-southeast-1.amazonaws.com/liquid-site/quoine-liquid_v1.9.pdf"
 
-
-[trust]
-  stage = "Working platform"
-  advisors = true
-  partners = true
-  teamIdentity = true
-  audit = true
-  wallet = true
-  disbursementDate = "End of ICO"
-
-[token]
-  assetBacked = false
-  functions = "Currency, Access"
-  premined = false
-  consensus = "Proof-of-Stake"
-  similar = "N/A"
-
-[deal]
-  [deal.info]
+[valuation]
+  [valuation.info]
     recap = "Based on hard cap."
-  [deal.headers]
-    valuationHeader = "ETH"
-  [deal.rows]
-    [deal.rows.tokensale]
-      distribution = "Tokensale"
+  [valuation.headers]
+    header = "ETH"
+  [valuation.rows]
+    [valuation.rows.ico]
+      distribution = "ICO"
       cut = "50%"
       supply = "500,000,000"
       value = "500,000"
-    [deal.rows.founders]
+    [valuation.rows.founders]
       distribution = "Founders"
       cut = "20%"
       supply = "200,000,000"
       value = "200,000"
-    [deal.rows.futureEmission]
-      distribution = "Community future emission"
+    [valuation.rows.futureEmission]
+      distribution = "Future emission"
       cut = "30%"
       supply = "300,000,000"
       value = "300,000"
-    [deal.rows.total]
+    [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "1,000,000,000"
       value = "1,000,000"
 
-[roadmap]
+[allocation]
+  [allocation.liquidity]
+    stake = "Liquidity"
+    cut = "50%"
+  [allocation.development]
+    stake = "Product development"
+    cut = "20%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "15%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "15%"
+
+[setUp]
+  [setUp.compliance]
+    investorVerification = true
+    thirdPartyAudit = true
+  [setUp.trading]
+    exchangeListing = true
+    walletSupport = true
+  [setUp.token]
+    type = "Secondary"
+    functions = "Currency, Access"
+    consensus = "Proof-of-stake"
+    premined = false
+  [setUp.market]
+    similar = "Bancor"
+    competition = "Mid"
+    entryBarrier = "High"
+  [setUp.partnerships]
+    mainstreamMedia = true
+    corporatePartners = true
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
+
+[stage]
   website = true
   whitepaper = true
   initialCode = true
-  mvp = false
-  beta = false
-  openDev = false
-  launch = false
-  community = false
+  mvp = true
+  openDev = true
+  beta = true
+  workingProduct = true
+  community = true
+  expansion = false
+  profit = false
 +++
+
+**Liquid Qash**
+
+Global liquidity platform built by the Quoinex team on top of their order management system
+
+**Functionality**
+
+* Quoine's Liquid platform is built on top of the existing order book management system
+* Token will be used for financial settlements and transactions
+* Audited by one of the Big 4
+*  Product features will include automated trading strategies, “crowd-sourced” AI-driven algorithms and proprietary trading tools
