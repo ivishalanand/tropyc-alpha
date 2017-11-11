@@ -46,7 +46,7 @@ currencyAccepted = "BTC, LTC, ETH, XRP"
     [valuation.rows.organisation]
       distribution = "Organisation"
       cut = "30%"
-      supply = "30,000,000"
+      supply = "30000000"
       value = "60,000"
     [valuation.rows.total]
       distribution = "Total"

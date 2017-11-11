@@ -1,4 +1,4 @@
 +++
-title = "Insights and ratings for cryptocurrency"
-description = "Crypto news, educational content, token sale(ICO) rating."
+title = "Cryptocurrency insights and ICO ratings"
+description = "Crypto news, educational content, ICO - token sale rating."
 +++
