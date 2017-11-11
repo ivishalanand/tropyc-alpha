@@ -15,7 +15,6 @@ origin = "Russia, 2017"
 industry = "Crowdfunding"
 platform = "Ethereum"
 currencyAccepted = "ETH"
-ticker = "KICK"
 
 [links]
   website = "https://www.kickico.com/"

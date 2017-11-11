@@ -6,6 +6,7 @@ bref = "Real estate crowdfunding platform"
 weight = 20
 draft = false
 
+ticker = "REAL"
 startDate = 2017-08-29
 endDate = 2017-09-30
 trustRating = "B+"
@@ -14,7 +15,6 @@ origin = "Singapore, 2017"
 industry = "Real Estate"
 platform = "Ethereum"
 currencyAccepted = "ETH"
-ticker = "REAL"
 
 [links]
   website = "https://www.real.markets/"

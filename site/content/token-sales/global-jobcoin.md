@@ -15,7 +15,6 @@ origin = "Switzerland, 2014"
 industry = "Employment"
 platform = "Ethereum"
 currencyAccepted = "BTC, LTC, ETH, XRP"
-ticker = "GJC"
 
 [links]
   website = "https://globaljobcoin.com/"

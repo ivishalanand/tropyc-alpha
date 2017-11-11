@@ -8,20 +8,12 @@ draft = true
 ticker = "ETO"
 trustRating = "A+"
 dealRating = "A+"
-softCap = "N/A"
-hardCap = "N/A"
 platform = "Native"
 industry = "crowdfunding"
 currencyAccepted = ""
 startDate = 2017-10-01
 endDate = 2017-10-31
 founded = "Germany, 2017"
-
-features = """
-- Equity and legal crowdfunding marketplace
-- ICBM let token holders stay in control over their capital
-- Allows any kind of companies raise funds
-"""
 
 [links]
   website = "https://neufund.org/"

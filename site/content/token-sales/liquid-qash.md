@@ -15,7 +15,6 @@ origin = "Japan, 2014"
 industry = "Financial services"
 platform = "Ethereum"
 currencyAccepted = "ETH"
-ticker = "QASH"
 
 [links]
   website = "https://liquid.plus/"
