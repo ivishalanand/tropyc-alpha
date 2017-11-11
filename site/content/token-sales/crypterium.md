@@ -1,16 +1,14 @@
 +++
 title = "Crypterium"
 date = 2017-08-13T17:30:02+02:00
-description = "The Crypterium Cryptobank will be a first step in satisfying this demand. It will be made available for
-download via the IOS or android marketplace and is planning to be ready-to-use on mobile devices
-immediately."
+description = "The Crypterium Cryptobank will be a first step in satisfying this demand. It will be made available for download via the IOS or android marketplace and is planning to be ready-to-use on mobile devices immediately."
 bref = "Revolutionary digital cryptobank"
 weight = 20
 draft = false
 
 ticker = "CRPT"
 startDate = 2017-10-31
-endDate = 2018-13-01
+endDate = 2018-01-13
 trustRating = "B+"
 dealRating = "B"
 origin = "Estonia, 2017"
@@ -32,7 +30,7 @@ currencyAccepted = "BTC, ETH"
   [valuation.info]
     recap = "Based on hard cap."
   [valuation.headers]
-    header = "ETH"
+    header = "USD"
   [valuation.rows]
     [valuation.rows.ico]
       distribution = "ICO"
