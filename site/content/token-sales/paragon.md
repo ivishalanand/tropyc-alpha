@@ -24,7 +24,7 @@ currencyAccepted = "BTC, LTC, ETH, ETC, XMR ..."
   github = "paragon-coin"
   telegram = "joinchat/Bvx800IXuCoe-QGoLXoVlQ"
   medium = "paragoncoin"
-  youtube = "or2e0Kkfo8"
+  youtube = "-or2e0Kkfo8"
   whitepaper = "https://paragoncoin.com/whitepaper.pdf"
 
 [valuation]
