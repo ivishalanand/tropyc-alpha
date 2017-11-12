@@ -18,7 +18,7 @@ currencyAccepted = "ETH"
 
 [links]
   website = "https://about.ethlend.io/"
-  twitter = "ETHLend"
+  twitter = "ETHLend1"
   facebook = "ETHLend"
   reddit = "ETHLend"
   github = "ETHLend"

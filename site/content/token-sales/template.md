@@ -4,7 +4,7 @@ date = 2017-08-13T17:30:02+02:00
 description = ""
 bref = "Royalty and debt financing platform"
 weight = 20
-draft = 
+draft = true
 
 ticker = "ENG"
 startDate = 2017-11-21
