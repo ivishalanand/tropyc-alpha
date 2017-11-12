@@ -2,9 +2,43 @@
 	margin: 20px 0 90px;
 
 	.top-links {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+
 		a {
+			flex: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			font-weight: 600;
-			color: $blue;
+			font-size: 0.9rem;
+			padding: 1rem;
+			border: 1px solid $gray-300;
+			background: #fff;
+			color: $gray-600;
+
+			.icon {
+				height: 30px;
+				width: 30px;
+				margin-right: 0.5rem;
+			}
+
+			&:first-child {
+				border-radius: 0.25rem 0 0 0.25rem;
+			}
+
+			&:last-child {
+				border-radius: 0 0.25rem 0.25rem 0;
+			}
+
+			&:hover {
+				color: theme-color("primary");
+
+				.icon {
+					fill: theme-color("primary");
+				}
+			}
 		}
 	}
 

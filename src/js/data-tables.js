@@ -6,7 +6,7 @@ require('datatables.net-bs4');
 require('datatables.net-buttons-bs4');
 
 $(document).ready(function(){
-	$.fn.dataTable.moment('DD/MM/YYYY');
+	$.fn.dataTable.moment('DD MMM YY');
 
 	// Markets Table
 
@@ -92,6 +92,10 @@ $(document).ready(function(){
         }
       }]
     },
+    columnDefs: [
+    	{ targets: [7], visible: false}
+    ],
+    orderFixed: [ 7, 'asc' ],
   	lengthChange: false,
   	pageLength: 12,
   	order: [[ 4, 'desc' ]],
@@ -105,8 +109,8 @@ $(document).ready(function(){
   	$.fn.dataTable.ext.search.push(
 		  function( settings, data, dataIndex ) {
 				var todayDate = moment();
-		    var startDate = moment(data[3], 'DD/MM/YYYY');
-		    var endDate = moment( data[4], 'DD/MM/YYYY');
+		    var startDate = moment(data[3], 'DD MMM YY');
+		    var endDate = moment( data[4], 'DD MMM YY');
 
 		    if (upcomingFilter && ongoingFilter && doneFilter) {
 		    	return true;
@@ -148,6 +152,7 @@ $(document).ready(function(){
 		    	}
 		    }
 		    if (coinDataRow && amount) {
+		    	console.log(data)
 		    	var cryptoValuation = numeral(data[1])._value;
 		    	var cryptoPrice = numeral(coinDataRow.price_usd)._value;
 		    	var valuationUSD = cryptoValuation * cryptoPrice;

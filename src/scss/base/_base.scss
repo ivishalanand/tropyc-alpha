@@ -56,15 +56,9 @@ button {
 svg {
 	fill: #D8D8D8;
 
-	#yes {
-		fill: $green;
-	}
-
-	#no {
-		fill: $red;
-	}
-
-	path {
-		fill: inherit;
+	#bulb-circle, #bulb, #chart, #chip, #code-circle, #document, #gear-circle, #gear, #rocket-circle, #software-circle, #star, #time {
+		path {
+			fill: inherit;
+		}
 	}
 }

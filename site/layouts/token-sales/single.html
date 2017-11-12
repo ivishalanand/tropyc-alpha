@@ -76,11 +76,14 @@
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-9">
-					{{ if isset .Params.links "youtube" }}
 					<div class="video">
+					{{ if isset .Params.links "youtube" }}
 						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{.Params.links.youtube}}?rel=0" frameborder="0" allowfullscreen></iframe>
-					</div>
 					{{ end }}
+					{{ if isset .Params.links "vimeo" }}
+						<iframe src="https://player.vimeo.com/video/{{.Params.links.vimeo}}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					{{ end }}
+					</div>
 				</div>
 			</div>
 		</div>

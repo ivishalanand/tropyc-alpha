@@ -46,6 +46,18 @@
 			text-align: left;
 			margin-left: 10px;
 
+			a {
+				display: flex;
+				align-items: center;
+				font-weight: 600;
+
+				.icon {
+  				height: 20px;
+  				width: 20px;
+  				margin-right: 0.25rem;
+  			}
+			}
+
   		p {
 		  	font-size: 0.8rem;
 		    line-height: 1.0;
@@ -73,13 +85,8 @@
 
 	.rating {
 		font-weight: 600;
-		font-size: 1.25rem;
+		font-size: 1.1rem;
 	}
-
-  .label-emphasis {
-  	color: $blue;
-    font-weight: 600;
-  }
 
   .token-social-links {
     min-width: 70px;

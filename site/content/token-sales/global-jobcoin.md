@@ -5,6 +5,7 @@ description = "A decentralized platform that enables the payment of services rel
 bref = "Employment and job search curator in Europe"
 weight = 20
 draft = false
+premium = true
 
 ticker = "GJC"
 startDate = 2017-10-28

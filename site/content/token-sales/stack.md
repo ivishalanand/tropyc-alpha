@@ -5,6 +5,7 @@ description = "STACK is a platform that will facilitate real-time cryptocurrency
 bref = "Facilitates real-time cryptocurrency transactions at point of sale"
 weight = 20
 draft = false
+premium = true
 
 ticker = "STK"
 startDate = 2017-10-30

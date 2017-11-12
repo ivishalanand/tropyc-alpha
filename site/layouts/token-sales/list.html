@@ -4,14 +4,13 @@
 
 <div class="token-sales">
 
-	<div class="top-links">
-		<div class="container">
-			<div class="row my-5 text-center">
-				<div class="col-sm-3"><a href="/news/what-is-an-ico">What is an ICO?</a></div>
-				<div class="col-sm-3"><a href="/variable-description">Variable Description</a></div>
-				<div class="col-sm-3"><a href="/rating-framework">Rating Framework</a></div>
-				<div class="col-sm-3"><a href="/token-sale-listing">List your token sale</a></div>
-			</div>
+	<div class="container">
+		<div class="top-links">
+			<a href="/news/what-is-an-ico"><svg class="icon"><use xlink:href="#chip" /></svg> Token sale course</a>
+			<a href="/news/things-to-know-ico"><svg class="icon"><use xlink:href="#bulb" /></svg> 8 things to know</a>
+			<a href="/variable-description"><svg class="icon"><use xlink:href="#gear" /></svg> Variable Description</a>
+			<a href="/rating-framework"><svg class="icon"><use xlink:href="#document" /></svg>Rating Framework</a>
+			<a href="/token-sale-listing"><svg class="icon"><use xlink:href="#star" /></svg>Apply for listing</a>
 		</div>
 	</div>
 
@@ -19,13 +18,14 @@
 	  <table id="token-sales-table" class="token-table table table-responsive table-striped table-hover">
 	    <thead>
 	      <tr>
-	        <th class="text-left">ICO</th>
+	        <th>ICO</th>
 	        <th>Valuation</th>
 	        <th>% ICO</th>
 	        <th>Start</th>
 	        <th>End</th>
 	        <th>Trust</th>
 	        <th>Deal</th>
+	        <th>Type</th>
 	      </tr>
 	    </thead>
 	    <tbody>
@@ -37,17 +37,18 @@
 		          		<a href="{{ .URL }}" style="background-image: url('/images/{{ (printf "token-sale-logos/%s-64.png" .Title | urlize) }}');"></a>
 		          	</div>
 		          	<div class="content">
-		          		<a href="{{ .URL }}" class="label-emphasis">{{ .Title }}</a>
+		          		<a href="{{ .URL }}">{{ if .Params.premium }}<svg class="icon"><use xlink:href="#flame" /></svg>{{ end }}{{ .Title }}</a>
 		          		<p>{{ .Params.bref }}</p>
 		          	</div>
 	          	</div>
 	          </td>
 	          <td class="{{ .Params.valuation.headers.header }}">{{ .Params.valuation.rows.total.value }}</td>
 	          <td>{{ .Params.valuation.rows.ico.cut }}</td>
-		        <td>{{ .Params.startDate | dateFormat "02/01/2006" }}</td>
-	          <td>{{ .Params.endDate | dateFormat "02/01/2006" }}</td>
+		        <td>{{ .Params.startDate | dateFormat "02 Jan 06" }}</td>
+	          <td>{{ .Params.endDate | dateFormat "02 Jan 06" }}</td>
 	          <td class="rating">{{ partial "rating" .Params.trustRating }}</td>
 	          <td class="rating">{{ partial "rating" .Params.dealRating }}</td>
+	          <td>{{ if .Params.premium }}Premium{{ else }}Regular{{ end }}</td>
 	        </tr>
 	      {{ end }}
 	    </tbody>

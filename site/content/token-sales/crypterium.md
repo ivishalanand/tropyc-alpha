@@ -23,7 +23,7 @@ currencyAccepted = "BTC, ETH"
   reddit = "crypterium"
   telegram = "crypterium"
   medium = "crypterium_io"
-  youtube = "v=GfLNTEcBTfI"
+  youtube = "GfLNTEcBTfI"
   whitepaper = "https://crypterium.io/wp/index.html?v=1.09"
 
 [valuation]
