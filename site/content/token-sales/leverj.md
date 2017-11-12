@@ -17,7 +17,7 @@ platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
 
 [links]
-  website = "https://dropdeck.io/"
+  website = "https://leverj.io/"
   twitter = "Leverj_io"
   facebook = "leverj.io"
   reddit = "Leverj/"
