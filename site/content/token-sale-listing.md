@@ -20,6 +20,20 @@ description = "Submit the following form to get your token sale listed on Tropyc
           <label for="name">ICO Name</label>
           <input type="text" name="name" class="form-control form-control-sm" id="name" required>
         </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label for="startDate">Start date</label>
+              <input type="date" name="startDate" class="form-control form-control-sm" id="startDate" required>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label for="endDate">End date</label>
+              <input type="date" name="endDate" class="form-control form-control-sm" id="endDate" required>
+            </div>
+          </div>
+        </div>
         <div class="form-group">
           <label for="country">Country</label>
           <input type="text" name="country" class="form-control form-control-sm" id="country">
@@ -27,12 +41,12 @@ description = "Submit the following form to get your token sale listed on Tropyc
         <div class="form-group">
           <label for="blockchainTokenType">Blockchain and token type</label>
           <input type="text" name="blockchainTokenType" class="form-control form-control-sm" id="blockchainTokenType" aria-describedby="blockchainTokenTypeHelp">
-          <small id="blockchainTokenTypeHelp" class="form-text text-muted">i.e. Ethereum, ERC20</small>
+          <small id="blockchainTokenTypeHelp" class="form-text text-muted">i.e. Native, Ethereum ERC20, NEO, Waves</small>
         </div>
         <div class="form-group">
           <label for="industry">Industry</label>
           <input type="text" name="industry" class="form-control form-control-sm" id="industry" aria-describedby="industryHelp">
-          <small id="industryHelp" class="form-text text-muted">i.e. Asset Managment, Attention Economy, Software, Banking, Media...</small>
+          <small id="industryHelp" class="form-text text-muted">i.e. Asset managment, Attention economy, Software, Media...</small>
         </div>
         <div class="form-group">
           <label for="about">About</label>
@@ -47,14 +61,14 @@ description = "Submit the following form to get your token sale listed on Tropyc
         <fieldset class="form-group">
           <div class="form-check">
             <label class="form-check-label">
-              <input class="form-check-input" type="radio" name="supplyType" id="supplyType" value="Varying Supply" checked>
-              Varying Supply
+              <input class="form-check-input" type="radio" name="supplyType" id="supplyType" value="Varying total supply" checked>
+              Varying total supply
             </label>
           </div>
           <div class="form-check">
             <label class="form-check-label">
-              <input class="form-check-input" type="radio" name="supplyType" id="supplyType" value="Limited/Fixed Supply">
-              Limited/Fixed Supply
+              <input class="form-check-input" type="radio" name="supplyType" id="supplyType" value="Limited/fixed total supply">
+              Limited/fixed total supply
             </label>
           </div>
         </fieldset>
@@ -63,13 +77,9 @@ description = "Submit the following form to get your token sale listed on Tropyc
           <textarea name="distribution" class="form-control form-control-sm" id="distribution" rows="6" placeholder="Detail your unit distribution, i.e. &#10; - Pre-ICO = 10,000,000 &#10; - ICO = 50,000,000 &#10; - Founders = 10,000,000 &#10; - ..."></textarea>
         </div>
         <div class="form-group">
-          <label for="pricePerUnit">Price per unit (without bonus)</label>
-          <input type="number" name="pricePerUnit" class="form-control form-control-sm" id="pricePerUnit">
-        </div>
-        <div class="form-group">
-          <label for="unitOfAccount">Unit of account</label>
-          <input type="text" name="unitOfAccount" class="form-control form-control-sm" id="unitOfAccount" aria-describedby="unitOfAccountHelp">
-          <small id="unitOfAccountHelp" class="form-text text-muted">i.e. USD, BTC, ETH...</small>
+          <label for="hardCap">Hard cap of the sale</label>
+          <input type="text" name="hardCap" class="form-control form-control-sm" id="hardCap" aria-describedby="hardCapHelp" placeholder="$20,000,000 or 60,000 ETH">
+          <small id="hardCapHelp" class="form-text text-muted">This is the hardcap on the ICO and not the hardcap on the token total supply</small>
         </div>
         <hr class="my-5">
         <h2 class="h3">Links</h2>
