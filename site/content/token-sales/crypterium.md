@@ -63,6 +63,31 @@ currencyAccepted = "BTC, ETH"
       supply = "300 000 000"
       value = "47,000,000"
 
+[allocation]
+  [allocation.dev1]
+    stake = "1 - Wallet"
+    cut = "$3 mn"
+  [allocation.dev2]
+    stake = "2 - Mobile bank"
+    cut = "$8 mn"
+  [allocation.dev3]
+    stake = "3 - Cryptoacquiring solutions"
+    cut = "$15.5 mn"
+  [allocation.dev4]
+    stake = "4 - Global infrastructure"
+    cut = "$28 mn"
+  [allocation.dev5]
+    stake = "5 - Licensed banking services"
+    cut = "$31 mn"
+  [allocation.dev6]
+    stake = "6 - Open API"
+    cut = "$34.5 mn"
+  [allocation.dev7]
+    stake = "7 - Complementary services"
+    cut = "$36.5 mn"
+  [allocation.dev8]
+    stake = "8 - Credit Token Technology"
+    cut = "$47 mn"
 
 [setUp]
   [setUp.compliance]

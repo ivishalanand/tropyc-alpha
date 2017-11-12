@@ -1,6 +1,6 @@
 +++
 title = "ICOs are dead, long live ICOs"
-date = 2017-11-09T20:00:00+02:00
+date = 2017-11-12T20:00:00+02:00
 categories = ["ICO"]
 draft = true
 description = "It's been almost a year ICOs have sky-rocketed and while there were many overvaluation and misconducts in the market, ICOs are still cutting-edge tech"
@@ -38,7 +38,10 @@ Even Blockchain Capital co-founder Brock Pierce, who's a Bancor investor, report
 
 Still, the product is already in high demand according to Bancor, as 30-odd projects are planning to use the technology.
 
-Bancor is facing issues to list its tokens on exchanges which ironically reduces the liquidity of the token, built to ... increase liquidity.
+An increasing amount of projects raising funds via ICOs have been collaborating with Bancor as "liquidity partners".  
+While Bancor has not met its pricing expectation in the past, if more projects commit to leverage the technology in the future, BNT might become a promising opportunity.
+
+However, Bancor is still facing issues to list its tokens on exchanges which ironically reduces the liquidity of the token, built to ... increase liquidity.
 
 ## ICOs will change the world
 
@@ -55,7 +58,7 @@ But the technology has not changed a bit: anyone can issue digital assets and ra
 More than issuing a security, ICOs and TGEs can grant rights to holders. For instance, tokens may facilitate governance in decision-making or give access to a marketplace.  
 The impact of digital assets on our economy can be complicated to conceptualise given the limited market penetration, acceptance rate and infrastructure of cryptocurrencies in today’s economy.
 
-At the least, ICOs and TGEs give a valuable alternative for projects to raise funds.
+At the least, ICOs and TGEs give a valuable alternative for projects to find funds.
 
 Yes, there have been multiple failures in the ICO market, but such ground-breaking technology inevitably paves the way for future innovation and exciting disruption.  
 

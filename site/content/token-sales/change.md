@@ -8,7 +8,7 @@ draft = false
 
 ticker = "CAG"
 startDate = 2017-09-16
-endDate = 2017-12-21
+endDate = 2017-10-16
 trustRating = "A-"
 dealRating = "B-"
 origin = "Singapore, 2017"
