@@ -5,79 +5,26 @@
 	thead tr {
 		th {
 			font-size: 1.1rem;
-			text-align: center;
+      padding: .5rem;
 		}
 
 		th:nth-child(3) {
 			color: $green;
 		}
-
-		th:nth-child(4) {
-			color: $yellow;
-		}
-
-		th:nth-child(5) {
-			color: $red;
-		}
 	}
 
 	tbody tr {
 		td {
 			font-size: 0.9rem;
+      padding: .5rem;
 		}
 
 		td:first-child {
 			font-weight: 600;
-			text-align: center;
 		}
 
-		td:nth-child(n+3) {
-			color: $gray-600;
-			text-align: center;
-		}
-	}
-}
-
-.rf-interpretation-table {
-	margin-top: 4rem;
-	margin-bottom: 5rem;
-
-	thead tr {
-		th {
-			font-size: 1.1rem;
-			text-align: center;
-		}
-	}
-
-	tbody tr {
-		td {
-			text-align: center;
-			font-size: 0.9rem;
+		td:nth-child(3) {
 			color: $gray-600;
 		}
-
-		td:first-child {
-			font-size: 1.1rem;
-			font-weight: 600;
-		}
 	}
-
-	tr:first-child {
-		td:first-child {
-			color: $green;
-		}
-	}
-
-	tr:nth-child(2) {
-		td:first-child {
-			color: $yellow;
-		}
-	}
-
-	tr:nth-child(3) {
-		td:first-child {
-			color: $red;
-		}
-	}
-
 }
