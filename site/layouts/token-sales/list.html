@@ -45,7 +45,11 @@
 	          <td>{{ .Params.valuation.rows.ico.cut }}</td>
 		        <td>{{ .Params.startDate | dateFormat "02 Jan 06" }}</td>
 	          <td>{{ .Params.endDate | dateFormat "02 Jan 06" }}</td>
-	          <td class="rating">{{ .Params.rating }}</td>
+	          {{ if ne .Params.rating "N/A" }}
+	          	<td data-order="{{ .Params.rating }}" class="rating">{{ .Params.rating }}%</td>
+	          {{ else }}
+	          	<td data-order="0" class="rating">N/A</td>
+	          {{ end }}
 	          <td>{{ if .Params.premium }}Premium{{ else }}Regular{{ end }}</td>
 	        </tr>
 	      {{ end }}
