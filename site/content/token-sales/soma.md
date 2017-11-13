@@ -9,9 +9,8 @@ draft = false
 ticker = "SCT"
 startDate = 2017-09-27
 endDate = 2017-11-14
-trustRating = "A-"
-dealRating = "A-"
-origin = "Finaland, 2016"
+Rating = "87%"
+origin = "Finland, 2016"
 industry = "Marketplace"
 platform = "Ethereum"
 currencyAccepted = "ETH"
@@ -68,11 +67,11 @@ currencyAccepted = "ETH"
 
 [setUp]
   [setUp.compliance]
-    investorVerification = false
+    investorVerification = true
     thirdPartyAudit = false
   [setUp.trading]
     exchangeListing = false
-    walletSupport = false
+    walletSupport = true
   [setUp.token]
     type = "Secondary"
     functions = "Access, Currency, Incentive"

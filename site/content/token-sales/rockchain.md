@@ -10,15 +10,14 @@ premium = true
 ticker = "ROK"
 startDate = 2017-11-01
 endDate = 2017-12-01
-trustRating = "A-"
-dealRating = "B+"
+Rating = "85%"
 origin = "France, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
 
 [links]
-  website = "https://rockchain.org/token.html/"
+  website = "https://rockchain.org/"
   twitter = "alphadinos"
   facebook = "Rockchain.org"
   reddit = "rockchain"

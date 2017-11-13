@@ -9,8 +9,7 @@ draft = false
 ticker = "CRPT"
 startDate = 2017-10-31
 endDate = 2018-01-13
-trustRating = "B+"
-dealRating = "B"
+Rating = "N/A"
 origin = "Estonia, 2017"
 industry = "Financial services"
 platform = "Ethereum"
@@ -102,7 +101,7 @@ currencyAccepted = "BTC, ETH"
     consensus = "Proof-of-stake"
     premined = false
   [setUp.market]
-    similar = "TenX, Change..."
+    similar = "TenX, Change, Monaco"
     competition = "High"
     entryBarrier = "High"
   [setUp.partnerships]

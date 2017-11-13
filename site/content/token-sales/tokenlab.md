@@ -9,8 +9,7 @@ draft = false
 ticker = "LAB"
 startDate = 2017-09-14
 endDate = 2017-11-30
-trustRating = "B-"
-dealRating = "C-"
+Rating = "50%"
 origin = "USA, 2016"
 industry = "Crowdfunding"
 platform = "Expanse & Ethereum"
@@ -23,7 +22,6 @@ currencyAccepted = "BTC, LTC, ETH, EXP"
   reddit = "ExpanseOfficial"
   github = "expanse-org"
   telegram = "tokenlab"
-  medium = "tokenlab"
   youtube = "rOB7mAIuja8"
 
 

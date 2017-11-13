@@ -7,10 +7,9 @@ weight = 20
 draft = false
 
 ticker = "KICK"
-startDate = 2017-11-21
-endDate = 2017-12-21
-trustRating = "B"
-dealRating = "C+"
+startDate = 2017-08-29
+endDate = 2017-09-16
+Rating = "63%"
 origin = "Russia, 2017"
 industry = "Crowdfunding"
 platform = "Ethereum"

@@ -9,8 +9,7 @@ draft = false
 ticker = "AMM"
 startDate = 2017-10-18
 endDate = 2017-11-18
-trustRating = "A-"
-dealRating = "A-"
+Rating = "94%"
 origin = "Myanmar, 2015"
 industry = "P2P lending"
 platform = "Ethereum"
@@ -36,27 +35,27 @@ currencyAccepted = "BTC, LTC, ETH, DASH ..."
       distribution = "ICO"
       cut = "84%"
       supply = "50,400,000"
-      value = "25,200,000"
+      value = "30,000,000"
     [valuation.rows.founders]
       distribution = "Founders"
       cut = "8%"
       supply = "4,800,000"
-      value = "2,400,000"
+      value = "2,857,142"
     [valuation.rows.earlyInvestors]
       distribution = "Early Investors"
       cut = "4%"
       supply = "2,400,000"
-      value = "1,200,000"
+      value = "1,428,571"
     [valuation.rows.bounty]
       distribution = "Bounty"
       cut = "4"
       supply = "2,400,000"
-      value = "1,200,000"
+      value = "1,428,571"
     [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
-      supply = "n/a"
-      value = "199,998"
+      supply = "60,000,000"
+      value = "35,714,285"
 
 [setUp]
   [setUp.compliance]

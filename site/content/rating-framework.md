@@ -87,7 +87,7 @@ Our rating system is not an endorsement to projects and is not to be considered 
     </tr>
     <tr>
       <td>Vesting period</td>
-      <td>Funds are locked for a certain period of time</td>
+      <td>Funds raised are locked for a certain period of time</td>
       <td>12%</td>
     </tr>
     <tr>
@@ -229,18 +229,13 @@ Our rating system is not an endorsement to projects and is not to be considered 
   </thead>
   <tbody>
     <tr>
-      <td>Incubator</td>
-      <td>Team has been incubated by a famous start-up incubator</td>
+      <td>Relevant corporate</td>
+      <td>Project has corporate parntnerships relevant to their solution</td>
       <td>25%</td>
     </tr>
     <tr>
       <td>Mainstream media</td>
       <td>Mainstream media houses have talked about the project</td>
-      <td>25%</td>
-    </tr>
-    <tr>
-      <td>Crypto-investment fund</td>
-      <td>Institutional investors in the cryptocurrency space are backing the project</td>
       <td>20%</td>
     </tr>
     <tr>
@@ -249,9 +244,14 @@ Our rating system is not an endorsement to projects and is not to be considered 
       <td>20%</td>
     </tr>
     <tr>
+      <td>Crypto-investment fund</td>
+      <td>Institutional investors in the cryptocurrency space are backing the project</td>
+      <td>20%</td>
+    </tr>
+    <tr>
       <td>Crypto news</td>
       <td>Cryptocurrency blog and news community have been talking about the project</td>
-      <td>10%</td>
+      <td>15%</td>
     </tr>
   </tbody>
 </table>

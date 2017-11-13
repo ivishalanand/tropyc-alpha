@@ -9,8 +9,7 @@ draft = false
 ticker = "CASH"
 startDate = 2017-10-26
 endDate = 2017-11-18
-trustRating = "B"
-dealRating = "B-"
+Rating = "73%"
 origin = "Cyprus, 2015"
 industry = "Gaming"
 platform = "Ethereum"
@@ -79,8 +78,8 @@ currencyAccepted = "BTC, ETH, WAVES, fiat"
 
 [setUp]
   [setUp.compliance]
-    investorVerification = true
-    thirdPartyAudit = true
+    investorVerification = false
+    thirdPartyAudit = false
   [setUp.trading]
     exchangeListing = true
     walletSupport = true

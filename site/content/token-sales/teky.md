@@ -1,23 +1,22 @@
 +++
 title = "Teky"
 date = 2017-08-13T17:30:02+02:00
-description = "Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide."
+description = "Decentralised e-commerce and education platform focused on Asian markets"
 bref = "Decentralised e-commerce paltform"
 weight = 20
-draft = true
+draft = false
 
 ticker = "TKC"
 startDate = 2017-11-11
 endDate = 2018-01-14
-trustRating = "B-"
-dealRating = "C+"
+Rating = "85%"
 origin = "Seychelles, 2016"
 industry = "e-commerce"
 platform = "Ethereum"
 currencyAccepted = "BTC, ETH, LTC"
 
 [links]
-  website = "https://ico.tekycorp.com//"
+  website = "https://ico.tekycorp.com/"
   twitter = "Tekyico"
   facebook = "Tekyico"
   reddit = "Tekyico"
