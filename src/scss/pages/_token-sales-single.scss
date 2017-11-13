@@ -47,41 +47,17 @@
 				}
 			}
 
-			.ratings {
-				@include media-breakpoint-up(sm) {
-					margin-left: auto;
-				}
+			.rating {
+				border: 1px solid $gray-300;
+				border-radius: 0.25rem;
+				padding: 0 0.5rem;
+				font-family: "Nunito";
+				text-align: center;
+				font-size: 3rem;
+				font-weight: 700;
 
 				@include media-breakpoint-down(sm) {
 					margin-bottom: 1rem;
-				}
-
-				.ratings-box {
-					display: flex;
-					border: 1px solid $gray-300;
-					border-radius: 0.25rem;
-					padding: 0.75rem 0;
-					font-family: "Nunito";
-					text-align: center;
-
-					.rating {
-						padding: 0 1rem;
-
-						.rating-name {
-							font-size: 1.25rem;
-							font-weight: 700;
-							text-transform: uppercase;
-						}
-
-						.rating-mark {
-							font-size: 3rem;
-							font-weight: 800;
-						}
-
-						&:first-child {
-							border-right: 1px solid $gray-300;
-						}
-					}
 				}
 			}
 		}

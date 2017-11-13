@@ -19,17 +19,8 @@
 							<h2>{{ .Params.bref }}</h2>
 							<p>{{ .Description }}</p>
 						</div>
-						<div class="ratings">
-							<div class="ratings-box">
-								<div class="rating">
-									<div class="rating-name">Trust</div>
-									<div class="rating-mark">{{ partial "rating" .Params.dealrating }}</div>
-								</div>
-								<div class="rating">
-									<div class="rating-name">Deal</div>
-									<div class="rating-mark">{{ partial "rating" .Params.trustrating }}</div>
-								</div>
-							</div>
+						<div>
+							<div class="rating">{{ .Params.rating }}</div>
 						</div>
 					</div>
 				</div>

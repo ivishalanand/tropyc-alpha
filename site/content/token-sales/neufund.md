@@ -6,7 +6,7 @@ weight = 20
 draft = true
 
 ticker = "E"
-Rating = "N/A"
+rating = "N/A"
 platform = "Native"
 industry = "crowdfunding"
 currencyAccepted = ""

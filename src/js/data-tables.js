@@ -93,9 +93,9 @@ $(document).ready(function(){
       }]
     },
     columnDefs: [
-    	{ targets: [7], visible: false}
+    	{ targets: [6], visible: false}
     ],
-    orderFixed: [ 7, 'asc' ],
+    orderFixed: [ 6, 'asc' ],
   	lengthChange: false,
   	pageLength: 12,
   	order: [[ 4, 'desc' ]],

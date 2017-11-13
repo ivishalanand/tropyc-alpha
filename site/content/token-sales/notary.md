@@ -9,7 +9,7 @@ draft = false
 ticker="NTRY"
 startDate = 2017-10-10
 endDate = 2017-10-20
-Rating = "N/A"
+rating = "N/A"
 origin = "Slovenia, 2017"
 industry = "Legal"
 platform = "Ethereum Classic"
@@ -126,4 +126,4 @@ Mobile application which enables users to engage in contracts and agreements. Us
 * Legal contract generation on the blockchain
 * Creates a timestamp which will prove the time of origin of the digital document
 * Proves the content of a digital document.
-* Plans on incoporating their contract via Ethereum Classic's smart contract protocol
+* Plans on incorporating their contract via Ethereum Classic's smart contract protocol

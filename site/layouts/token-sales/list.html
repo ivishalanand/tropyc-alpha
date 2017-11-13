@@ -23,8 +23,7 @@
 	        <th>% ICO</th>
 	        <th>Start</th>
 	        <th>End</th>
-	        <th>Trust</th>
-	        <th>Deal</th>
+	        <th>Rating</th>
 	        <th>Type</th>
 	      </tr>
 	    </thead>
@@ -46,8 +45,7 @@
 	          <td>{{ .Params.valuation.rows.ico.cut }}</td>
 		        <td>{{ .Params.startDate | dateFormat "02 Jan 06" }}</td>
 	          <td>{{ .Params.endDate | dateFormat "02 Jan 06" }}</td>
-	          <td class="rating">{{ partial "rating" .Params.trustRating }}</td>
-	          <td class="rating">{{ partial "rating" .Params.dealRating }}</td>
+	          <td class="rating">{{ .Params.rating }}</td>
 	          <td>{{ if .Params.premium }}Premium{{ else }}Regular{{ end }}</td>
 	        </tr>
 	      {{ end }}
