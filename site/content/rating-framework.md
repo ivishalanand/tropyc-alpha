@@ -5,7 +5,7 @@ description = "Understand Tropyc's tokensale scoring sheet."
 
 ## Definition
 
-Tropyc rates tokensales based on two marks: TRUST and DEAL.  
+Tropyc rates ICO and token sales based on the information that is provided by the team seeking to raise funds.  
 
 The TRUST mark evaluates the risk of fraud and assesses the project’s credibility to go through a fundraising round.  
 It is divided into 5 sub-marks :

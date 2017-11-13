@@ -197,13 +197,13 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div class="set-up-box compliance">
-											<div class="tab-content-header">Relationships</div>
+											<div class="tab-content-header">Compliance</div>
 											<div class="row">
 												<div class="col-6">
 													<div>Investor verification</div>
 												</div>
 												<div class="col-6">
-													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.investorVerification }}#yes{{ else }}#no{{ end }}" /></svg>
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.compliance.investorVerification }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 											<div class="row">
@@ -211,7 +211,7 @@
 													<div>Third party audit</div>
 												</div>
 												<div class="col-6">
-													<svg class="icon"><use xlink:href="{{ if .Params.setUp.relationships.thirdPartyAudit }}#yes{{ else }}#no{{ end }}" /></svg>
+													<svg class="icon"><use xlink:href="{{ if .Params.setUp.compliance.thirdPartyAudit }}#yes{{ else }}#no{{ end }}" /></svg>
 												</div>
 											</div>
 										</div>
@@ -278,6 +278,14 @@
 										<div class="set-up-box market">
 											<div class="tab-content-header">Market</div>
 											<div class="row">
+                        <div class="col-6">
+                          <div>Industry</div>
+                        </div>
+                        <div class="col-6">
+                          <div>{{ .Params.industry }}</div>
+                        </div>
+                      </div>
+                      <div class="row">
 												<div class="col-6">
 													<div>Similar</div>
 												</div>
