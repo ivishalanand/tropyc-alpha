@@ -90,7 +90,7 @@ description = "Get your project listed on tropyc for free"
         <h2 class="h3 text-center bg-primary p-2 text-white my-5">LINKS</h2>
         <div class="form-group">
           <label for="websiteUrl">Website URL</label>
-          <input type="url" name="websiteUrl" class="form-control form-control-sm" id="websiteUrl" placeholder="https://website.com">
+          <input type="text" name="websiteUrl" class="form-control form-control-sm" id="websiteUrl" placeholder="https://website.com">
         </div>
         <div class="form-group">
           <label for="socialLinks">Social Media Links</label>
