@@ -4,19 +4,58 @@ description = "Understand how we rate the ICOs we chose to list on our platform"
 +++
 
 Tropyc rates ICO and token sales based on the information they chose to release. 
-
 The rating framework evaluates the risk of fraud and assesses the project's credibility to go through a fundraising round.
+
+**Our rating system is not an endorsement to projects and is not to be considered by any means as investment, accounting or legal advice.**
 
 It is divided into six sub-marks:
 
-* **TEAM**: Founding team is professional and fit to raise funds.
-* **SAFETY**: Ability to create a responsible environment for investment.
-* **PRESENTATION**: Quality of project appearance and how well it is perceived.
-* **FINANCIAL**: Delivery of commercial and financial information of the project.
-* **PARTNERSHIP**: Existing relationships with valuable stakeholders.
-* **COMMUNICATION**: Ability to market the project efficiently and facilitate communication with the community.
-
-Our rating system is not an endorsement to projects and is not to be considered by any means as investment, accounting or legal advice.
+<table class="table table-striped rf-table">
+  <colgroup>
+    <col style="width: 30%;">
+    <col style="width: 50%;">
+    <col style="width: 20%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>VARIABLE</th>
+      <th>DESCRIPTION</th>
+      <th>WEIGHT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Team</td>
+      <td>Founding team is professional and fit to raise funds</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>Safety</td>
+      <td>Ability to create a responsible environment for investment</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>Presentation</td>
+      <td>Quality of project appearance and how well it is perceived</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>Financial</td>
+      <td>Delivery of commercial and financial information of the project</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>Partnership</td>
+      <td>Existing relationships with valuable stakeholders</td>
+      <td>15%</td>
+    </tr>
+    <tr>
+      <td>Communication</td>
+      <td>Ability to market the project efficiently and facilitate communication with the community</td>
+      <td>10%</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Team
 
