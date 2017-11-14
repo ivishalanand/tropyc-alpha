@@ -1,6 +1,6 @@
 +++
 title = "ICO / Token Sale Listing"
-description = "Submit the following form to get your project listed on tropyc for free"
+description = "Get your project listed on tropyc for free"
 +++
 
 <div class="container">
