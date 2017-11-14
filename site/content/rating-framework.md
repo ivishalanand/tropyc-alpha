@@ -230,7 +230,7 @@ Our rating system is not an endorsement to projects and is not to be considered 
   <tbody>
     <tr>
       <td>Relevant corporate</td>
-      <td>Project has corporate parntnerships relevant to their solution</td>
+      <td>Project has corporate partnerships relevant to their solution</td>
       <td>25%</td>
     </tr>
     <tr>
@@ -240,7 +240,7 @@ Our rating system is not an endorsement to projects and is not to be considered 
     </tr>
     <tr>
       <td>Tech advisor</td>
-      <td>Relevant technical talent are advising the projecte</td>
+      <td>Relevant technical talent are advising the project</td>
       <td>20%</td>
     </tr>
     <tr>
