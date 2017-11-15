@@ -1,5 +1,5 @@
 +++
-title = "Ponzi"
+title = "Bitcoin is no Ponzi, here's what a real Ponzi looks like"
 date = 2017-11-15T20:00:00+02:00
 categories = ["REGULATION"]
 draft = false
@@ -56,11 +56,11 @@ Bitconnect offers 1% daily compounded interest to bag holders - something unsust
 On the 14th of the November, the UK Registrar of Companies has threatened to shut down Bitconnect operations according to a [press release](https://beta.companieshouse.gov.uk/company/10278342/filing-history).   
 The Ponzi has two months to prove it's not a Ponzi. Tough task.
 
-Want to know how to identify scams in the cryptocurrency market? Have a look at our [content chapter about scams](www.tropyc.co/crypto-101/invest/scams).
+Want to know how to identify scams in the cryptocurrency market? Have a look at the [4th chapter of our investment series "scams"](www.tropyc.co/crypto-101/invest/scams).
 
 For the time being, here are three video gems from BitConnect we handpicked for you.  
 
-Enjoy!
+Enjoy! (and stay safe)
 
 **BitConnect Thailand conference troll**
 {{< youtube kbR1SXIje1U >}}
