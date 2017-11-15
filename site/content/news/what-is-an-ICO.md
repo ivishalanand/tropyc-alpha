@@ -89,7 +89,7 @@ Finally, analyse the market of the product advertised.
 
 We strongly advise you to go through the ICO's white paper before investing: it is a summary document that explains the business model, ICO fundamentals and the product features.
 
-_At tropyc, we try our best to ease up the screening process of ICOs by providing you with the fundamentals of every tokensale we choose to list. You can have customised advice and detailed tokensale rating reports by booking your [Premium tickets](/premium "Go Premium")._
+_At tropyc, we try our best to ease up the screening process of ICOs by providing you with the fundamentals of every tokensale we choose to list._
 
 ## Regulation
 

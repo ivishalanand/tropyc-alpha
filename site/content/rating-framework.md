@@ -85,8 +85,8 @@ It is divided into six sub-marks:
       <td>20%</td>
     </tr>
     <tr>
-      <td>Linkedin</td>
-      <td>Hyperling to their Linkedin page</td>
+      <td>LinkedIn</td>
+      <td>Hyperlink to their LinkedIn page</td>
       <td>20%</td>
     </tr>
     <tr>
@@ -358,11 +358,3 @@ Listing and / or analysis of ICOs, token sales and other fundraising seeking pro
 * are not investment, accounting or legal advice.
 
 Please conduct your own research before entering an investment position.
-
-
-
-
-
-
-
-
