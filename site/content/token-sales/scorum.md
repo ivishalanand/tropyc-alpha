@@ -17,9 +17,8 @@ currencyAccepted = "BTC, ETH"
 
 [links]
   website = "https://scorumcoins.com/en-us/"
-  twitter = "scorum"
-  facebook = "scorum"
-  reddit = "scorum"
+  twitter = "SCORUM_en"
+  facebook = "SCORUM.COMMUNITY"
   github = "scorum"
   telegram = "scorum"
   medium = "scorum"
