@@ -1,15 +1,15 @@
 +++
 title = "Guts"
 date = 2017-08-13T17:30:02+02:00
-description = ""
-bref = "smart ticket solution"
+description = " The solution is a blockchain based event ticketing protocol that will make exorbitant secondary market ticket prices and ticket fraud occurrences of the past. The protocol will offer these features while providing absolute transparency for all users."
+bref = "Smart ticket solution"
 weight = 20
 draft = false
 
 ticker = "GET"
 startDate = 2017-11-15
 endDate = 2017-12-13
-rating = "N/A"
+rating = "82"
 origin = "The Netherlands"
 industry = "Media and entertainment"
 platform = "Ethereum"

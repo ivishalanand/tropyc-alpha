@@ -9,7 +9,7 @@ draft = false
 ticker = "MIRA"
 startDate = 2017-11-27
 endDate = 2017-11-29
-rating = "N/A"
+rating = "70"
 origin = "Singapore, 2017"
 industry = "Finance"
 platform = "Ethereum"
@@ -86,7 +86,7 @@ currencyAccepted = "BTC, LTC, ETH, DASH"
     thirdPartyAudit = false
   [setUp.trading]
     exchangeListing = false
-    walletSupport = false
+    walletSupport = true
   [setUp.token]
     type = "Secondary"
     functions = "Currency, Fuel"

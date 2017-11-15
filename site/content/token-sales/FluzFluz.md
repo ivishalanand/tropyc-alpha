@@ -9,7 +9,7 @@ draft = false
 ticker = "FLUZ"
 startDate = 2017-12-11
 endDate = 2017-12-21
-rating = "N/A"
+rating = "90"
 origin = "Columbia"
 industry = "Consumer Network"
 platform = "Ethereum"
@@ -70,7 +70,7 @@ currencyAccepted = "BTC, ETH"
     walletSupport = true
   [setUp.token]
     type = "Secondary"
-    functions = "Incentive"
+    functions = "Access"
     consensus = "Proof-of-stake"
     premined = false
   [setUp.market]
