@@ -49,7 +49,7 @@ However, this does not mean ALL cryptocurrencies are not Ponzi schemes.
 Let's talk about BitConnect, the coin without any innovation of such except an aggressive affiliation strategy and marketing campaigns.  
 Bitconnect offers 1% daily compounded interest to bag holders - something unsustainable without the injection of fresh capital in the system, as Vitalik Buterin reminded.
 
-{{< tweet 92623694823836057 >}}
+{{< tweet 926236948238360576 >}}
 
 On the 14 of the November, the UK Registrar of Companies has threatened to shut down Bitconnect operations according to a [press release](https://beta.companieshouse.gov.uk/company/10278342/filing-history).   
 The Ponzi has two months to prove it's not a Ponzi. Tough task.
