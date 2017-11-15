@@ -12,8 +12,5 @@ Take a look at our resources, we made sure any crypto enthusiasts will find his 
 
 -	Get the latest news.
 -	Introduction to cryptocurrency.
--	Find an exchange.
--	Follow market performance.
+-	Insights and analyses.
 -	Assess Initial Coin Offerings.
-
-Additionally, we deploy a team of analysts 7/7 that will answer any of your queries, support you in crypto related operations and conduct customised portfolio assessments.

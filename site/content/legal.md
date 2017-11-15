@@ -47,15 +47,7 @@ We shall not be liable to you or to any third-party for any modification, price 
 
 ## SECTION 5 - PRODUCTS AND SERVICES
 
-Tropyc does not give any investment advice, all of our consultation, insights and research should only be considered as educational content.
-
-Tropyc premium is available exclusively online through the website. Our product offers 7/7 chat through third party instant messaging applications. We reserve the right at any time to modify the platform where communication occurs without notice and are not liable for any discrepancies occurring on the messaging application.
-
-Having access to a cryptocurrency analyst throughout the week does not entitle you to spam our teams - we reserve the right not to answer every of your queries if Tropyc considers them as inappropriate, illegal or repetitive.
-
-7/7 live chat services are not to be considered as fully assured: we may not be able to connect with you every single day, although it is our genuine intent to do so.
-
-Every Tropyc premium account is limited to one single individual, we reserve the right to cancel a subscription if we come to notice that one subscription is being used by more than one individual.
+Tropyc does not give any investment advice, all of our insights and research should only be considered as educational content.
 
 We reserve the right but are not obligated, to limit the sales of our products or services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis.  
 

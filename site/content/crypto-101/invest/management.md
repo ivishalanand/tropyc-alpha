@@ -244,8 +244,6 @@ My 25 EUR investment became a 100 EUR investment.
 Because I reached my target for month 4 on month 2, I'll have to sell 50 EUR worth of ExampleCoin.  
 In this scenario, I'll sell 50 EUR worth of ExampleCoin.
 
-Want to get your own VCA strategy? Go Premium, and we will build a customised financial model tailored to your needs.
-
 Cryptocurrencies and digital tokens might just change the world, or at least have a lasting impact on our economy.
 Many of them will underperform their expectations, face harsh competition - just like any other start-up.
 

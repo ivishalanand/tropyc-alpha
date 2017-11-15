@@ -86,7 +86,7 @@ It is divided into six sub-marks:
     </tr>
     <tr>
       <td>LinkedIn</td>
-      <td>Hyperlink to Linkedin profiles</td>
+      <td>Hyperlink to LinkedIn profiles</td>
       <td>20%</td>
     </tr>
     <tr>
@@ -358,11 +358,3 @@ Listing and / or analysis of ICOs, token sales and other fundraising seeking pro
 * are not investment, accounting or legal advice.
 
 Please conduct your own research before entering an investment position.
-
-
-
-
-
-
-
-

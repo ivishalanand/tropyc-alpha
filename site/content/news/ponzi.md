@@ -1,7 +1,7 @@
 +++
-title = "ICOs are dead, long live ICOs"
-date = 2017-11-12T20:00:00+02:00
-categories = ["REGULATION"]
+title = "Bitcoin is no Ponzi, here's what a real Ponzi looks like"
+date = 2017-11-15T20:00:00+02:00
+categories = ["Bank"]
 draft = false
 description = "Another major bank compared Bitcoin to a Ponzi scheme spreading the usual FUD. While bitcoin is not Ponzi, turns out cryptocurrency does gather a few pyramid scheme."
 weight = 10
@@ -21,10 +21,12 @@ Maybe because it's not?
   
 Instead, the focus is often on price volatility and access to illicit goods via the deep web.
 
-DBS CIO is hardly the first reputed banking official to spread FUD on the cryptocurrency market, as JP Morgan CEO Dimon said Bitcoin was "worse than tulip bulbs" and that it "will blow up".
+DBS CIO is hardly the first reputed banking official to spread FUD on the cryptocurrency market, as JP Morgan CEO Dimon said, Bitcoin was "worse than tulip bulbs" and that it "will blow up".
 
-Cryptocurrencies are changing the landscape of financial services, and let's be honest with ourselves; the banking world won't play it fair.  
-Why?  
+Cryptocurrencies are changing the landscape of financial services, and let's be honest with ourselves; the banking world won't play it fair.
+
+Why?
+
 Blockchain-tech has reduced the transaction fees and costs of access to financial services considerably, creating a substantial threat to established banks.
 
 The same way Expedia disrupted the travel industry, and Uber is changing how we commute; cryptocurrencies will reshape the banking world.
@@ -44,21 +46,21 @@ As such, an increasing amount of countries have planned to introduce their own c
 
 While Bitcoin is not a Ponzi scheme, but rather, the first decentralised financial system with a _terribly unfair_ distribution (before the first Bitcoin media press release in 2010, 3 million coins were already minted).
 
-However, this does not mean ALL cryptocurrencies are not Ponzi schemes.  
+However, some cryptocurrencies are _proper_ Ponzi schemes.  
 
 Let's talk about BitConnect, the coin without any innovation of such except an aggressive affiliation strategy and marketing campaigns.  
 Bitconnect offers 1% daily compounded interest to bag holders - something unsustainable without the injection of fresh capital in the system, as Vitalik Buterin reminded.
 
-{{< tweet 92623694823836057 >}}
+{{< tweet 926236948238360576 >}}
 
-On the 14 of the November, the UK Registrar of Companies has threatened to shut down Bitconnect operations according to a [press release](https://beta.companieshouse.gov.uk/company/10278342/filing-history).   
+On the 14th of November, the UK Registrar of Companies has threatened to shut down Bitconnect operations according to a [press release](https://beta.companieshouse.gov.uk/company/10278342/filing-history).   
 The Ponzi has two months to prove it's not a Ponzi. Tough task.
 
-Want to know how to identify scams in the cryptocurrency market? Have a look at our [Invest, Chapter 4](www.tropyc.co/crypto-101/invest/scams)
+Want to know how to identify scams in the cryptocurrency market? Have a look at the [4th chapter of our investment series "scams"](www.tropyc.co/crypto-101/invest/scams).
 
 For the time being, here are three video gems from BitConnect we handpicked for you.  
 
-Enjoy!
+Enjoy! (and stay safe)
 
 **BitConnect Thailand conference troll**
 {{< youtube kbR1SXIje1U >}}
