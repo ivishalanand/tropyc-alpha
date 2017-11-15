@@ -1,7 +1,7 @@
 +++
 title = "Bitcoin is no Ponzi, here's what a real Ponzi looks like"
 date = 2017-11-15T20:00:00+02:00
-categories = ["REGULATION"]
+categories = ["Bank"]
 draft = false
 description = "Another major bank compared Bitcoin to a Ponzi scheme spreading the usual FUD. While bitcoin is not Ponzi, turns out cryptocurrency does gather a few pyramid scheme."
 weight = 10
@@ -53,7 +53,7 @@ Bitconnect offers 1% daily compounded interest to bag holders - something unsust
 
 {{< tweet 926236948238360576 >}}
 
-On the 14th of the November, the UK Registrar of Companies has threatened to shut down Bitconnect operations according to a [press release](https://beta.companieshouse.gov.uk/company/10278342/filing-history).   
+On the 14th of November, the UK Registrar of Companies has threatened to shut down Bitconnect operations according to a [press release](https://beta.companieshouse.gov.uk/company/10278342/filing-history).   
 The Ponzi has two months to prove it's not a Ponzi. Tough task.
 
 Want to know how to identify scams in the cryptocurrency market? Have a look at the [4th chapter of our investment series "scams"](www.tropyc.co/crypto-101/invest/scams).
