@@ -85,8 +85,8 @@ It is divided into six sub-marks:
       <td>20%</td>
     </tr>
     <tr>
-      <td>Linkedin</td>
-      <td>Hyperling to their Linkedin page</td>
+      <td>LinkedIn</td>
+      <td>Hyperlink to Linkedin profiles</td>
       <td>20%</td>
     </tr>
     <tr>

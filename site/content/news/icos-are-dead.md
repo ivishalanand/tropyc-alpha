@@ -4,7 +4,7 @@ date = 2017-11-12T20:00:00+02:00
 categories = ["ICO"]
 draft = false
 description = "It's been almost a year ICOs have sky-rocketed and while there were many overvaluation and misconducts in the market, ICOs are still cutting-edge tech"
-weight = 10
+weight = 20
 images = ["images/news/icos-are-dead.png"]
 +++
 
