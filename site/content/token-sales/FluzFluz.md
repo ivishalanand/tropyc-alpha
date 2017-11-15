@@ -1,7 +1,7 @@
 +++
 title = "FluzFluz"
 date = 2017-08-13T17:30:02+02:00
-description = ""
+description = "One of the first off-the-chain projects potentially introducing millions of people to the concept of a cash back consumer network. Already built relationships with global and local brands and are now acting as a market place between their business and the end consumer based on our digital gift mechanism."
 bref = "Make money as others shop"
 weight = 20
 draft = false

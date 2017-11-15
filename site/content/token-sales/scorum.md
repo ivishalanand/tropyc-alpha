@@ -1,15 +1,15 @@
 +++
 title = "Scorum"
 date = 2017-08-13T17:30:02+02:00
-description = ""
+description = "Scorum’s economic model is based on three independent revenue streams: internal advertising, partner programs and earnings from photo database. Our core belief at Scorum is that the success of our cryptocurrency is based on support by the real economy."
 bref = "Sports social media"
 weight = 20
 draft = false
 
 ticker = "SCR"
 startDate = 2018-01-14
-endDate = 2017-02-11
-rating = "83%"
+endDate = 2018-02-11
+rating = "83"
 origin = "Belarus, 2017"
 industry = "Sports"
 platform = "Native"

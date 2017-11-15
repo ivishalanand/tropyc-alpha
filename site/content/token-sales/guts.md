@@ -42,7 +42,7 @@ currencyAccepted = "BTC, ETH"
       cut = "30%"
       supply = "27,000,000"
       value = "12,804,877"
-    [valuation.rows.stability.fund]
+    [valuation.rows.stabilityFund]
       distribution = "Stability Fund"
       cut = "14%"
       supply = "12,600,000"
