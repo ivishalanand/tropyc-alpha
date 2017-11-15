@@ -20,7 +20,7 @@
 							<p>{{ .Description }}</p>
 						</div>
 						<div>
-							<div class="rating">{{ .Params.rating }}</div>
+							<div class="rating">{{ if ne .Params.rating "N/A" }}{{ .Params.rating }}%{{ else }}{{ .Params.rating }}{{ end }}</div>
 						</div>
 					</div>
 				</div>
@@ -55,15 +55,15 @@
 							<div>{{ .Params.currencyaccepted }}</div>
 						</div>
 						<a href="{{ .Params.links.website }}?utm_source=tropyc" target="_blank" class="btn btn-primary">GO TO ICO</a>
-					</div>
-					<div class="socials">
-						{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><svg class="icon"><use xlink:href="#twitter" /></svg></a>{{ end }}
-            {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank"><svg class="icon"><use xlink:href="#facebook" /></a>{{ end }}
-            {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><svg class="icon"><use xlink:href="#reddit" /></a>{{ end }}
-            {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><svg class="icon"><use xlink:href="#github" /></a>{{ end }}
-            {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><svg class="icon"><use xlink:href="#telegram" /></a>{{ end }}
-            {{ if isset .Params.links "slack" }}<a href="{{ .Params.links.slack }}" target="_blank"><svg class="icon"><use xlink:href="#slack" /></a>{{ end }}
-            {{ if isset .Params.links "medium" }}<a href="https://medium.com/@{{ .Params.links.medium }}" target="_blank"><svg class="icon"><use xlink:href="#medium" /></a>{{ end }}
+						<div class="socials">
+							{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><svg class="icon"><use xlink:href="#twitter" /></svg></a>{{ end }}
+	            {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank"><svg class="icon"><use xlink:href="#facebook" /></a>{{ end }}
+	            {{ if isset .Params.links "reddit" }}<a href="https://www.reddit.com/r/{{ .Params.links.reddit }}" target="_blank"><svg class="icon"><use xlink:href="#reddit" /></a>{{ end }}
+	            {{ if isset .Params.links "github" }}<a href="https://github.com/{{ .Params.links.github }}" target="_blank"><svg class="icon"><use xlink:href="#github" /></a>{{ end }}
+	            {{ if isset .Params.links "telegram" }}<a href="https://t.me/{{ .Params.links.telegram }}" target="_blank"><svg class="icon"><use xlink:href="#telegram" /></a>{{ end }}
+	            {{ if isset .Params.links "slack" }}<a href="{{ .Params.links.slack }}" target="_blank"><svg class="icon"><use xlink:href="#slack" /></a>{{ end }}
+	            {{ if isset .Params.links "medium" }}<a href="https://medium.com/@{{ .Params.links.medium }}" target="_blank"><svg class="icon"><use xlink:href="#medium" /></a>{{ end }}
+						</div>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-9">

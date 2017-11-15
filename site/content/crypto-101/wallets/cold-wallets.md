@@ -98,8 +98,6 @@ If you don't have the time or energy to build your own cold wallet, you can chec
 
 Making your own cold wallet is not as complicated as it sounds. Do It Yourself cold wallets let you build a network of cold wallets at minimal costs. All you need is a pen drive, a computer and to follow clinically a few steps. 
 
-[Go Premium](/premium "Premium"): you'll get a handy guide and our team will be there 7/7 to support you.
-
 ## Paper wallets
 
 Similarly, you can print your own cold wallet on paper. It holds all the necessary information to access cryptocurrencies on a sheet of paper: a public address and a private key.
