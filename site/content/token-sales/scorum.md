@@ -2,14 +2,14 @@
 title = "Scorum"
 date = 2017-08-13T17:30:02+02:00
 description = "Scorum’s economic model is based on three independent revenue streams: internal advertising, partner programs and earnings from photo database. Our core belief at Scorum is that the success of our cryptocurrency is based on support by the real economy."
-bref = "Sports social media"
+bref = "Sports media platform"
 weight = 20
 draft = false
 
 ticker = "SCR"
 startDate = 2018-01-14
 endDate = 2018-02-11
-rating = "83"
+rating = "87"
 origin = "Belarus, 2017"
 industry = "Sports"
 platform = "Native"
@@ -88,9 +88,9 @@ currencyAccepted = "BTC, ETH"
   website = true
   whitepaper = true
   initialCode = true
-  mvp = false
-  openDev = false
-  beta = false
+  mvp = true
+  openDev = true
+  beta = true
   workingProduct = false
   community = false
   expansion = false
@@ -172,6 +172,7 @@ Scorum's commission-free sports betting exchange is fully capable of potentially
 replacing traditional betting platforms. Within Scorum, users can quickly and
 easily bet against each other without having to pay any commission or extra
 fees.  
+
 It’s worth noting that the betting exchange is not a source of income for the
 Scorum platform and acts solely as a marketing tool that stimulates growth of
 the Scorum Coins cryptocurrency. Furthermore, Scorum provides the betting

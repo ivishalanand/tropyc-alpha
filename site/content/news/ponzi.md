@@ -4,7 +4,7 @@ date = 2017-11-15T20:00:00+02:00
 categories = ["Bank"]
 draft = false
 description = "Another major bank compared Bitcoin to a Ponzi scheme, spreading the usual FUD. While Bitcoin is no Ponzi, turns out the cryptocurrency market does gather a few pyramid schemes."
-weight = 10
+weight = 20
 images = ["images/news/ponzi.png"]
 +++
 
