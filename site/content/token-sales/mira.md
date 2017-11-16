@@ -32,34 +32,49 @@ currencyAccepted = "BTC, LTC, ETH, DASH"
   [valuation.rows]
     [valuation.rows.preIco]
       distribution = "Pre-ICO"
-      cut = "10.7%"
+      cut = "10.72%"
       supply = "3,300,000"
-      value = "2,743,658"
-    [valuation.rows.ico]
-      distribution = "ICO"
-      cut = "67.4%"
-      supply = "20,700,000"
-      value = "17,282,483"
+      value = "1,980,000"
+    [valuation.rows.ico1]
+      distribution = "ICO Bonus 1"
+      cut = "14.62%"
+      supply = "4,500,000"
+      value = "3,150,000"
+    [valuation.rows.ico2]
+      distribution = "ICO Bonus 2"
+      cut = "14.62%"
+      supply = "4,500,000"
+      value = "3,600,000"
+    [valuation.rows.ico3]
+      distribution = "ICO Bonus 3"
+      cut = "14.62%"
+      supply = "4,500,000"
+      value = "4,050,000"
+    [valuation.rows.ico4]
+      distribution = "ICO Bonus 4"
+      cut = "23,39%"
+      supply = "7,200,000"
+      value = "7,200,000"
     [valuation.rows.founders]
       distribution = "Founders"
       cut = "15%"
       supply = "4,615,500"
-      value = "3,846,250"
+      value = "4,615,500"
     [valuation.rows.reserve]
       distribution = "Reserves"
-      cut = "25%"
-      supply = "7,692,500"
-      value = "6,410,416.5"
+      cut = "6%"
+      supply = "1,846,200"
+      value = "1,846,200"
     [valuation.rows.bounties]
       distribution = "Bounty"
       cut = "1%"
       supply = "307,700"
-      value = "256,416"
+      value = "307,700"
     [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "30,770,000"
-      value = "25,641,666"
+      value = "26,749,400"
 
 [allocation]
   [allocation.development]

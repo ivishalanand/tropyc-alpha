@@ -101,13 +101,13 @@ currencyAccepted = "BTC, ETH"
   website = true
   whitepaper = true
   initialCode = true
-  mvp = false
-  openDev = false
-  beta = false
-  workingProduct = false
-  community = false
-  expansion = false
-  profit = false
+  mvp = true
+  openDev = true
+  beta = true
+  workingProduct = true
+  community = true
+  expansion = true
+  profit = true
 +++
 
 **GUTS Tickets**

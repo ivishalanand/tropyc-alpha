@@ -8,7 +8,7 @@ draft = false
 
 ticker = "FLUZ"
 startDate = 2017-12-11
-endDate = 2017-12-21
+endDate = 2017-12-30
 rating = "90"
 origin = "Columbia"
 industry = "Consumer Network"

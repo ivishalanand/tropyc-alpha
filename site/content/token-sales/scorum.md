@@ -5,6 +5,7 @@ description = "Scorum’s economic model is based on three independent revenue s
 bref = "Sports media platform"
 weight = 20
 draft = false
+premium = true
 
 ticker = "SCR"
 startDate = 2018-01-14

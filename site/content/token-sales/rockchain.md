@@ -5,7 +5,7 @@ description = "Data infrastructure project built on top of Ethereum built to wor
 bref = "Data infrastructure project built on top of Ethereum"
 weight = 20
 draft = false
-premium = true
+premium = false
 
 ticker = "ROK"
 startDate = 2017-11-01
