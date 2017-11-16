@@ -5,7 +5,6 @@ description = "We turn Bitcoin into securities so banks can handle crypto curren
 bref = "We help banks buy bitcoin"
 weight = 20
 draft = false
-premium = true
 
 ticker = "CABS"
 startDate = 2017-11-27

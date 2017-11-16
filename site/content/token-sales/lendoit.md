@@ -1,7 +1,7 @@
 +++
 title = "Lendoit"
 date = 2017-08-13T17:30:02+02:00
-description = ""
+description = "Lendoit🏅 is decentralized P2P lending marketplace platform based on Ethereum, which connects borrowers and lenders from around the world using the advantages of Smart Contracts and the Blockchain technology."
 bref = "Royalty and debt financing platform"
 weight = 20
 draft = false
@@ -112,8 +112,6 @@ currencyAccepted = "BTC, ETH"
 
 
 **Functionality**
-
-Lendoit🏅 is decentralized P2P lending marketplace platform based on Ethereum, which connects borrowers and lenders from around the world using the advantages of Smart Contracts and the Blockchain technology.  
 
 Loans can be given in any of the ERC20 currencies. The platform provides all the elements a lending market needs to function, namely: professional scoring and verification APIs for each country, a loan marketplace, where lenders bid interest rates on loan applications and a default market where failed loans can be traded.  
 
