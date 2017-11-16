@@ -1,14 +1,14 @@
 +++
 title = "What leaders need to understand about cryptocurrency"
 date = 2017-11-16T20:07:03+02:00
-categories = ["BANK"]
+categories = ["Bank"]
 draft = false
 description = "As most of the societal decision-making is made by only a handful of leaders - whether they are elected officials, bureaucrats or industry captains - leaders also struggle to understand how cryptocurrencies and blockchain technology work."
 weight = 10
 images = ["images/news/what-leaders-need-to-understand.png"]
 +++
 
-The cryptocurrency market has surged at an impressive rate the last year, booming from $17bn to $220bn YTD.
+The cryptocurrency market has surged at an impressive rate the last year, booming from $17bn to $220bn Year To Date.
 
 The thing is, blockchain technology may get confusing for less tech-savvy individuals, as the barriers to understanding it are incredibly high.
 
@@ -23,7 +23,7 @@ Instead, we should comprehend that blockchain, bitcoin and cryptocurrencies are 
 
 ## Crypto does not need you
 
-As long as one computer (running node) is plugged on the blockchain, cryptocurrencies will run effectively.
+As long as one computer (running node) is plugged in the blockchain, cryptocurrencies will run effectively.
 
 With the latest Bitcoin Cash hard fork and SegWit 2x controversy, now more than ever, one needs to understand that Bitcoin (and any other crypto) does not need anyone, does not need help to defend it as one can only defend its own perspective of a chain.
 
@@ -68,20 +68,21 @@ Unlike the current central bank system, cryptocurrencies have a transparent, con
 Between 1968 and 1973, US President R.Nixon dissolved the dollar's convertibility and ended the Bretton Woods agreement after concerns over dollar overvaluation. 
 
 Till date, currencies are floating freely without any index or commodity backing it.  
-Coupled with the introduction of [reserve fractional banking, quantitive easing](../bank-monetary-policy/) and the quadrillion dollar derivative industry, cryptocurrencies provides tangible tools for anyone to scrutinise the crypto-economy.
+Coupled with the introduction of [reserve fractional banking, quantitive easing](../bank-monetary-policy/) and the quadrillion dollar derivative industry, cryptocurrencies provides a better environment along with tangible tools for anyone to scrutinise the economy.
 
 In the current system, only leaders at central banks and financial institutions have access to public accounts, transaction history and emission rates.
 
 In crypto, you have visibility over both transactions and emission rate.
 
 
-## Every industry needs disruption, now it's time for banks.
+## Every industry needs disruption, now it's time for banks
 
 It's no surprise that banks, like any sensible economic agent, will join ship sooner or later.
 
-Some financial institutions have already started to trade cryptocurrency, and even CME, the largest derivatives marketplace,  is planning to launch Bitcoin Futures by mid-December. 
+Some financial institutions have already started to trade cryptocurrency, and even CME, the largest derivatives marketplace, is planning to launch Bitcoin Futures by mid-December. 
 
-The on-going cryptocurrency market entry is only confined to trading and speculation: retail products related to cryptocurrency are yet to be introduced to the wider audience.
+At the moment, institutions entering the cryptocurrency market are confined to trading and speculation.  
+They are yet to introduce any cryptocurrency financial products for retail customers.
 
 But this won't happen anytime soon. 
 
