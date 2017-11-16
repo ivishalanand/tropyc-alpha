@@ -75,7 +75,6 @@ currencyAccepted = "BTC, ETH"
     stake = "Business Development"
     cut = "15%"
 
-
 [setUp]
   [setUp.compliance]
     investorVerification = true
