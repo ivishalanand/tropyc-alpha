@@ -2,7 +2,7 @@
 title = "NeuFund"
 date = 2017-08-13T17:30:02+02:00
 description = "All funds gathered during the ICBM still belong to Investors who make individual decisions which Equity​ ​Token​ ​Offering​ to fund at a later date. Neufund is a community-owned fundraising platform. It acts as a bridge between the investment world and the blockchain space."
-bref = "Next-gen equity and legal fundraising platform. Investors still hold the funds"
+bref = "Next-gen equity and legal fundraising platform. Investors still hold their funds"
 weight = 20
 draft = false
 premium = true
@@ -40,7 +40,7 @@ currencyAccepted = "ETH"
       supply = "750,000,000"
       value = "260,769,230"
     [valuation.rows.founders]
-      distribution = "Founders also invest money"
+      distribution = "Platform"
       cut = "50%"
       supply = "750,000,000"
       value = "260,769,230"
