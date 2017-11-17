@@ -31,7 +31,7 @@ currencyAccepted = "BTC, LTC, ETH, DASH"
     header = "USD"
   [valuation.rows]
     [valuation.rows.preIco]
-      distribution = "Pre-ICO"
+      distribution = "ICO Pre-sale"
       cut = "10.72%"
       supply = "3,300,000"
       value = "1,980,000"
