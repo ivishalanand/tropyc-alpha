@@ -1,6 +1,6 @@
 +++
-title = "20 asian banks set to launch blockchain conglomerate in 2019"
-date = 2017-11-11T20:07:03+02:00
+title = "20 asian banks set to launch blockchain conglomerate by 2019"
+date = 2017-11-17T20:07:03+02:00
 categories = ["Bank"]
 draft = false
 description = "Singapore and Hong Kong regulators have announced a new blockchain powered parntership involving 20 Asian banks"
@@ -8,7 +8,7 @@ weight = 10
 images = ["images/news/singapore-hongkong-conglomerate.png"]
 +++
 
-During the Singapore Fintech Festival, members of Singapore and Hong Kong have announced the creation of a blockchain partnership between twenty-odd banks, according to the [Business Times] (http://www.businesstimes.com.sg/government-economy/20-banks-likely-to-join-frenemy-trade-pact-between-hong-kong-and-singapore).
+During the Singapore Fintech Festival, members of Singapore and Hong Kong have announced the creation of a blockchain partnership between twenty-odd banks, according to the [Business Times](http://www.businesstimes.com.sg/government-economy/20-banks-likely-to-join-frenemy-trade-pact-between-hong-kong-and-singapore).
 
 Promoted by the Monetary Authority of Singapore (financial regulator), the Global Trade Connectivity Network will introduce new interbank partnerships by 2019.  
 The multi-trillion conglomerate is expected to leverage distributed ledger technology to streamline banking settlement and data transmission.
