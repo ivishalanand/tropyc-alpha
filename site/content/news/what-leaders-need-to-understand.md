@@ -4,7 +4,7 @@ date = 2017-11-16T20:07:03+02:00
 categories = ["Bank"]
 draft = false
 description = "As most of the societal decision-making is made by only a handful of leaders - whether they are elected officials, bureaucrats or industry captains - they also struggle to understand how cryptocurrencies and blockchain technology work."
-weight = 10
+weight = 20
 images = ["images/news/what-leaders-need-to-understand.png"]
 +++
 
