@@ -13,7 +13,7 @@ rating = "94"
 origin = "Seychelles, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"
-currencyAccepted = "BTC, ETH"
+currencyAccepted = "ETH"
 
 [links]
   website = "https://leverj.io/"

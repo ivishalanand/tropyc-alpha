@@ -36,8 +36,8 @@ currencyAccepted = "BTC, ETH"
       cut = "40%"
       supply = "400,000,000"
       value = "25,000,000"
-    [valuation.rows.founders]
-      distribution = "Founders"
+    [valuation.rows.partners]
+      distribution = "Partners"
       cut = "30%"
       supply = "300,000,000"
       value = "18,000,000"
