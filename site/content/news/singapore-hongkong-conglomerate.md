@@ -4,7 +4,7 @@ date = 2017-11-17T20:07:03+02:00
 categories = ["Bank"]
 draft = false
 description = "Singapore and Hong Kong regulators have announced a new blockchain powered parntership involving 20 Asian banks"
-weight = 10
+weight = 20
 images = ["images/news/singapore-hongkong-conglomerate.png"]
 +++
 

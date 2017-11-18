@@ -1,7 +1,7 @@
 +++
 title = "What leaders need to understand about cryptocurrency"
 date = 2017-11-16T20:07:03+02:00
-categories = ["Bank"]
+categories = ["Altcoin"]
 draft = false
 description = "As most of the societal decision-making is made by only a handful of leaders - whether they are elected officials, bureaucrats or industry captains - they also struggle to understand how cryptocurrencies and blockchain technology work."
 weight = 20

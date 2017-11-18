@@ -1,7 +1,7 @@
 +++
 title = "Bitcoin is no Ponzi, here's what a real Ponzi looks like"
 date = 2017-11-15T20:00:00+02:00
-categories = ["Bank"]
+categories = ["Bitcoin"]
 draft = false
 description = "Another major bank compared Bitcoin to a Ponzi scheme, spreading the usual FUD. While Bitcoin is no Ponzi, turns out the cryptocurrency market does gather a few pyramid schemes."
 weight = 20
