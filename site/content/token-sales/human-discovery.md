@@ -9,7 +9,7 @@ draft = false
 ticker = "HBY"
 startDate = 2017-11-22
 endDate = 2018-12-07
-rating = "84"
+rating = "91"
 origin = "Russia, 2013"
 industry = "Data, psychometrics, social"
 platform = "Ethereum"
@@ -62,7 +62,22 @@ currencyAccepted = "BTC, ETH"
       supply = "100,000,000"
       value = "37,500,000"
 
-
+[allocation]
+  [allocation.development]
+    stake = "Development"
+    cut = "50%"
+  [allocation.legal]
+    stake = "Legal"
+    cut = "3%"
+  [allocation.operations]
+    stake = "Operations"
+    cut = "17%"
+  [allocation.marketing]
+    stake = "Team"
+    cut = "25%"
+  [allocation.reserve]
+    stake = "Value Protection Reserve"
+    cut = "5%"
 
 [setUp]
   [setUp.compliance]
