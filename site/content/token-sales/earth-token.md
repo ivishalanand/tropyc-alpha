@@ -52,10 +52,10 @@ currencyAccepted = "BTC, ETH"
 [allocation]
   [allocation.development]
     stake = "Natural Asset Exchange"
-    cut = "34 ETH"
+    cut = "50%"
   [allocation.marketing]
     stake = "Strategic Acquisitions Investment Fund"
-    cut = "34 ETH"
+    cut = "50%"
 
 [setUp]
   [setUp.compliance]
@@ -95,3 +95,32 @@ currencyAccepted = "BTC, ETH"
 **Earth Token**
 
 Stakeholders will also be able to package assets with value added services to create customized offerings catering to new market segments, expanding the overall market and creating additional wealth for all participants.
+
+**Demand Side Solutions**
+
+The solutions described below serve to drive demand for Natural Assets via the provision of our unique environmental sustainability solutions. Our technology enables our clients to address climate change adaptation, and create differentiated value that helps them build brand equity & increase market share.
+
+* Carbon Mitigation
+
+Together with supply-side partners, we have enabled organizations of all sizes to compensate for negative effects on the environment resulting from their business operations, since 2009.
+
+Our technology platforms and business models allow clients to identify and apportion environmental impacts and mitigation efforts to specific activities associated with producing a product or providing a service.
+
+Once mitigation mechanisms and associated costs have been determined, our solution allows clients to engage their customers in their efforts, distributing the burden and opportunity of being environmentally responsible with all that want to participate, extending the reach and increasing the impact of those efforts across their value chain.
+
+* Climate Neutral Fuel
+
+Our Climate Neutral Fuel solution is a turnkey approach to fuel management that increases the operational efficiency of internal combustion equipment, such as vehicles, generators and other assets vital to business and industry.
+
+Combining proven technologies with asset monitoring and management capabilities results in increased fuel efficiency, reduced fuel costs and reduction in harmful emissions associated with the combustion of fuel. An integrated mitigation mechanism also allows customers to compensate for residual emissions.
+
+Customers typically experience a net financial gain by deploying our Climate Neutral Fuel solution resulting in savings they could use to fund additional environmental sustainability efforts.
+
+* Waste to Energy
+
+Waste-to-energy is the process of generating energy from primary waste materials by creating synthetic fuels from those materials and using that fuel to create energy.
+
+In conjunction with a strategic business partner, we provide gasification plants capable of converting carbon-containing feedstock such as biomass, coal or municipal solid waste into synthetic gas (Syngas).
+
+The Syngas produced is a clean, dry, flexible fuel which can be burned to create heat and electricity. It can also be passed through different catalysts to produce fluids such as alcohols and transportation fuels, including clean burning diesel, or used to supply pure hydrogen gas which could be used across multiple applications in various industries.
+
