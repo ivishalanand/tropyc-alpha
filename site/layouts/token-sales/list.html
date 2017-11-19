@@ -36,7 +36,7 @@
 		          		<a href="{{ .URL }}" style="background-image: url('/images/{{ (printf "token-sale-logos/%s-64.png" .Title | urlize) }}');"></a>
 		          	</div>
 		          	<div class="content">
-		          		<a href="{{ .URL }}">{{ if .Params.premium }}<svg class="icon"><use xlink:href="#flame" /></svg>{{ end }}{{ .Title }}</a>
+		          		<a href="{{ .URL }}">{{ if isset .Params "premium" }}<svg class="icon"><use xlink:href="#flame" /></svg>{{ end }}{{ .Title }}</a>
 		          		<p>{{ .Params.bref }}</p>
 		          	</div>
 	          	</div>
@@ -50,7 +50,7 @@
 	          {{ else }}
 	          	<td data-order="0" class="rating">N/A</td>
 	          {{ end }}
-	          <td>{{ if .Params.premium }}Premium{{ else }}Regular{{ end }}</td>
+	          <td>{{ if .Params.premium }}{{ .Params.premium }}{{ else }}0{{ end }}</td>
 	        </tr>
 	      {{ end }}
 	    </tbody>

@@ -5,12 +5,12 @@ description = "All funds gathered during the ICBM still belong to Investors who 
 bref = "Next-gen equity and legal fundraising platform. Investors still hold their funds"
 weight = 20
 draft = false
-premium = true
+premium = 1
 
 ticker = "NEU"
 startDate = 2017-11-12
 endDate = 2017-12-17
-rating = "95"
+rating = "92"
 origin = "Germany, 2017"
 industry = "Crowdfunding, financing"
 platform = "Ethereum"

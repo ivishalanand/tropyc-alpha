@@ -56,7 +56,7 @@ $(document).ready(function(){
     columnDefs: [
     	{ targets: [6], visible: false}
     ],
-    orderFixed: [ 6, 'asc' ],
+    orderFixed: [ 6, 'desc' ],
   	lengthChange: false,
   	pageLength: 12,
   	order: [[ 4, 'desc' ]],
