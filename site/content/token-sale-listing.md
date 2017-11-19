@@ -101,6 +101,23 @@ description = "Get your project listed on tropyc for free"
           <input type="email" name="_replyto" class="form-control form-control-sm" id="email" aria-describedby="emailHelp" required>
           <small id="emailHelp" class="form-text text-muted">We will contact you for further information</small>
         </div>
+        <hr class="my-5">
+        <fieldset class="form-group">
+          <label for="collaboration">Do you want to collaborate with tropyc on social media?</label>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="collaboration" id="collaboration" value="Yes">
+              Yes
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="collaboration" id="collaboration" value="No">
+              No
+            </label>
+          </div>
+        </fieldset>
+        <hr class="my-5">
         <input type="hidden" name="_subject" value="Token Sale Listing - New submission" />
         <button type="submit" class="btn btn-primary d-block mx-auto">Submit Application</button>
       </form>
