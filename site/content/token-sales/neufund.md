@@ -5,7 +5,6 @@ description = "All funds gathered during the ICBM still belong to Investors who 
 bref = "Next-gen equity and legal fundraising platform. Investors still hold their funds"
 weight = 20
 draft = false
-premium = 1
 
 ticker = "NEU"
 startDate = 2017-11-12

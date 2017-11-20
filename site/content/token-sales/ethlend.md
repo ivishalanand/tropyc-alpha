@@ -5,6 +5,7 @@ description = "ETHLend offers a fully decentralized peer to peer lending Smart C
 bref = "Democratizing Lending Using Ethereum"
 weight = 20
 draft = false
+premium = 1
 
 ticker = "LEND"
 startDate = 2017-11-25
