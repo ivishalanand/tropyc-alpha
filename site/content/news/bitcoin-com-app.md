@@ -34,5 +34,3 @@ Roger Ver has often utilised his website as a [propaganda tool](https://www.bitc
 
 {{< img src="news/bitcoin-com-pic-3.png" class="img-fluid my-5" alt="Bitcoin's many shitcoin" >}}
 
-
-
