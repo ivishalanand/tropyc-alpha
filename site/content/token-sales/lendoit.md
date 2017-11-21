@@ -37,7 +37,7 @@ currencyAccepted = "BTC, ETH"
       cut = "12.5%"
       supply = "125,000,000"
       value = "10,000"
-    [valuation.rows.preico]
+    [valuation.rows.ico]
       distribution = "ICO"
       cut = "47.5%"
       supply = "475,000,000"
