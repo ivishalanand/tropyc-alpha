@@ -8,7 +8,7 @@ draft = false
 
 ticker = "HBY"
 startDate = 2017-11-22
-endDate = 2018-12-07
+endDate = 2017-12-07
 rating = "91"
 origin = "Russia, 2013"
 industry = "Data, psychometrics, social"
