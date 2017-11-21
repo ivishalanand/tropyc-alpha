@@ -9,7 +9,7 @@ draft = false
 ticker = "LOAN"
 startDate = 2017-12-13
 endDate = 2018-01-13
-rating = "N/A"
+rating = "98"
 origin = "Isreal, 2017"
 industry = "lending"
 platform = "Ethereum"
@@ -32,16 +32,11 @@ currencyAccepted = "BTC, ETH"
   [valuation.headers]
     header = "ETH"
   [valuation.rows]
-    [valuation.rows.preico]
-      distribution = "ICO"
-      cut = "12.5%"
-      supply = "125,000,000"
-      value = "10,000"
     [valuation.rows.ico]
-      distribution = "ICO"
-      cut = "47.5%"
-      supply = "475,000,000"
-      value = "40,000"
+      distribution = "Investors"
+      cut = "60%"
+      supply = "600,000,000"
+      value = "50,000"
     [valuation.rows.founders]
       distribution = "Team"
       cut = "15%"
