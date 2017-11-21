@@ -7,7 +7,7 @@ weight = 20
 draft = false
 
 ticker = "LOAN"
-startDate = 2017-11-21
+startDate = 2017-12-13
 endDate = 2018-01-13
 rating = "N/A"
 origin = "Isreal, 2017"
@@ -30,33 +30,38 @@ currencyAccepted = "BTC, ETH"
   [valuation.info]
     recap = "Missing information"
   [valuation.headers]
-    header = "USD"
+    header = "ETH"
   [valuation.rows]
-    [valuation.rows.ico]
+    [valuation.rows.preico]
       distribution = "ICO"
-      cut = "60%"
-      supply = "600,000,000"
-      value = "n/a"
+      cut = "12.5%"
+      supply = "125,000,000"
+      value = "10,000"
+    [valuation.rows.preico]
+      distribution = "ICO"
+      cut = "47.5%"
+      supply = "475,000,000"
+      value = "40,000"
     [valuation.rows.founders]
       distribution = "Team"
       cut = "15%"
       supply = "150,000,000"
-      value = "n/a"
+      value = "12,500"
    [valuation.rows.development]
       distribution = "Development"
       cut = "10%"
       supply = "100,000,000"
-      value = "n/a"
+      value = "8333,33"
    [valuation.rows.bounty]
       distribution = "Bounty"
       cut = "15%"
       supply = "150,000,000"
-      value = "n/a"
+      value = "12,500"
     [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "1,000,000,000"
-      value = "n/a"
+      value = "83,333.33"
 
 [allocation]
   [allocation.development]

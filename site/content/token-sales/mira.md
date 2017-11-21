@@ -9,7 +9,7 @@ draft = false
 ticker = "MIRA"
 startDate = 2017-11-27
 endDate = 2017-11-29
-rating = "70"
+rating = "74"
 origin = "Singapore, 2017"
 industry = "Finance"
 platform = "Ethereum"
@@ -21,7 +21,7 @@ currencyAccepted = "BTC, LTC, ETH, DASH"
   facebook = "OfficialMiraLab"
   telegram = "Mirachat"
   medium = "MiraLab"
-  youtube = "rMl_o81_I7I"
+  youtube = "HQvtrQriNzY"
   whitepaper = "https://miralab.io/Mira_WhitePaper_EN.pdf"
 
 [valuation]
