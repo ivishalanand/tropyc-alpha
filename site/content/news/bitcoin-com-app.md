@@ -1,6 +1,6 @@
 +++
 title = "Bitcoin.com attempts to trick users"
-date = 2017-11-29T20:07:03+02:00
+date = 2017-11-20T20:07:03+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Latest Bitcoin.com apple application lures users to choose the an altcoin, Bitcoin Cash, over the legacy Bitcoin chain"

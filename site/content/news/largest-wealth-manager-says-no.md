@@ -4,7 +4,7 @@ date = 2017-11-18T20:00:00+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "UBS AG Group, a Swiss-based financial service company, denied plans to enter the cryptocurrency market anytime soon. "
-weight = 10
+weight = 20
 images = ["images/news/largest-wealth-manager-says-no.png"]
 +++
 
