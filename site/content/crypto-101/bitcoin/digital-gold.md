@@ -9,6 +9,8 @@ toc = true
 
 ## Open-source money
 
+>""Writing a description for this thing for general audiences is bloody hard. There's nothing to relate it to." – Satoshi Nakamoto, creator of Bitcoin"
+
 With Bitcoin, you can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers).  
 It is the first currency that operates safely and independently from government authority.
 
@@ -16,9 +18,9 @@ Also known as "cryptocurrency", these new kinds of financial instruments offer a
 
 To put it simply, Bitcoin is the first decentralised financial system that works.
 
-<p class="font-weight-bold text-center mt-4">There are now two distinct economies:</p>
+<p class="font-weight-bold text-center mt-5">There are now two distinct economies:</p>
 
-<div class="container mt-5 my-4">
+<div class="container my-1">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/fiat-economy.svg" class="img-fluid" alt="Printer Dollar" >}}
@@ -46,29 +48,31 @@ Example  = USD, GBP, EUR, INR, CNY
 ### Decentralised or crypto economy
 
 * Independent from any central banks, no one "owns" the Bitcoin network.
-* Rate of emission is fixed, transparent and immutable. There will be 21 million Bitcoins, not more than that.
+* Rate of emission is fixed, transparent and immutable. Bitcoin issue will be no more than 21 million.
 * Users transact without the need of middle men or a third party.
 * Transactions are secured by encrypted digital signature and made possible by cryptography and algorithms.
 * Perfect transparency: everyone has access to every transaction that occurred on the network.
 * Flexible privacy: you can choose to store your wealth anonymously.
 Example  = Bitcoin, Litecoin, Ether, Monero etc ...
 
-<p class="font-weight-bold text-center mt-4"> We can identify three main differences between them:</p>
+<p class="font-weight-bold text-center mt-5"> Four reasons why cryptocurrencies are superior to fiat.</p>
 
-1. **Trusting third party**
+1. **Trusting third party**  
 You are obliged to trust a bank to hold your wealth in fiat currencies, whereas with Bitcoin, you are the sole owner of your digital coins and do not have to trust anyone to store them.
 
-2. **Planned emission rate**
+2. **Planned emission rate**  
 Central banks regulate their respective currencies and have the power to inflate or dilute the total supply. (FED in the USA, ECB in Europe, BOE in the UK, RBI in India etc...).  
 On the other hand, Bitcoin future emission is planned, immutable and not controlled by a centralised authority.
 
-3. **Transparent disbursement**
+3. **Transparent disbursement**  
 In fiat, we are not aware of how governments and large financial institutions spend freshly issued money.  
 Bitcoin addresses this issue by storing every single transaction on a distributed ledger, available to anyone called *the blockchain*.  
-Additionally, Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
+
+4. **Private transactions**  
+Bitcoin holders have the choice to dissociate their wealth and their identity - something not possible with a traditional bank account as Know Your Customer (KYC) requirements are strict.
 
 
-<table class="table table-sm table-striped my-4">
+<table class="table table-sm table-striped my-5">
   <thead>
     <tr class="text-center font-weight-bold">
       <th>FEATURES</th>
