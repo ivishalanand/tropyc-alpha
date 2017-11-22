@@ -3,8 +3,8 @@ title = "Bitcoin.com attempts to trick users"
 date = 2017-11-29T20:07:03+02:00
 categories = ["Bitcoin"]
 draft = false
-description = "Latest Bitcoin.com apple application lures users to choose the an altcoin, Bitcoin Cash, over the legacy Bitcoin chain"
-weight = 10
+description = "Latest Bitcoin.com apple application lures users to choose an altcoin, Bitcoin Cash, over the legacy Bitcoin chain"
+weight = 20
 images = ["images/news/bitcoin-com-app.png"]
 +++
 
