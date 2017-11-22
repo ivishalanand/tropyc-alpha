@@ -16,7 +16,7 @@ platform = "Ethereum"
 currencyAccepted = "BTC, ETH"
 
 [links]
-  website = "https://lendoit.com"
+  website = " https://lendoit.com?refid=3102"
   twitter = "Lend0it"
   facebook = "Lend0it"
   reddit = "Lendoit"

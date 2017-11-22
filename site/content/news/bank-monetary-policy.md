@@ -1,6 +1,6 @@
 +++
 title = "Bank and monetary policy : the Good, the Bad and the Ugly"
-date = 2017-09-30T18:35:39+02:00
+date = 2017-11-21T18:35:39+02:00
 categories = ["Bank"]
 draft = false
 description = "Cryptocurrencies can become a fair and trustworthy financial instrument"
