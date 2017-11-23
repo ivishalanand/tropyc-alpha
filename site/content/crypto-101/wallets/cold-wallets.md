@@ -11,7 +11,7 @@ Cold wallets protect your Bitcoin and tokens from online threats. In fact, your 
 
 This level of security is achieved only when private keys are generated **and** stored in an offline environment.
 
-Here all the different cold wallets:
+Here are all the different cold wallets:
 
 <div class="container">
   <div class="row text-center">

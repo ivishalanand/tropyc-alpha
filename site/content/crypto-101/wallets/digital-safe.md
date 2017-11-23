@@ -12,19 +12,18 @@ toc = true
 Cryptocurrency wallets let you receive, spend and monitor your assets securely on a software program by interacting with the blockchain. 
 It is the single medium of interaction between the user and different cryptocurrency blockchains.
 
-In fact, digital wallets store _records of transactions_ between various public addresses. All that exists is the transaction history recorded on the blockchain.
-
+All that exists is the transaction history recorded on the blockchain.  
 Behind the scenes, the sender proves to the network that he is the owner of a cryptocurrency account through cryptography.  
 The sender needs to sign off a transaction, by providing both the blockchain public address (where the funds are stored) and the associated unique private key. 
 
 After the network verifies the pair is correct, the transaction is recorded, and the two public address balances are updated.
 
-Technically speaking, no physical object or digital file “stores” Bitcoin or any cryptocurrencies.
+Technically speaking, no physical object or digital file “stores” Bitcoin or any cryptocurrency.
 
 * You cannot say “this computer or this file has bitcoins”.
 * But you can say "this computer or this file stores a private key that gives me access to Bitcoins."
 
-<div class="container my-4">
+<div class="container my-5">
   {{< img src="crypto-101/infographics/info-wal1-1.png" class="img-fluid" alt="From wallet to blockchain" >}}
   <div class="row text-center">
     <div class="col">
@@ -45,7 +44,7 @@ Now that we understand what wallets do and how they work, let's review their cat
 
 There are three different types of wallets, all of which will give you a different level of control, security and user experience.
 
-<div class="container my-4 align-items-center">
+<div class="container mt-4 align-items-center">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="Online wallet" >}}
@@ -85,17 +84,15 @@ Trusting a third party in cryptocurrency is similar to the current centralised f
 Hot wallet owners have full ownership over their digital money, as they do not require to trust any third parties. As such, private keys are stored locally rather than on a middleman's system.
 
 However, although hot wallets enjoy improved safety features, a hot wallet (desktop or mobile) is still vulnerable to hackers and viruses because they are connected to the internet.  
-An attacker can still take hold of your private keys if you haven't secured them well on your device.
+An attacker can still take hold of your private keys if they have not been firmly secured on your device.
 
 ### Cold
 
-Finally, cold wallets store cryptocurrencies and assets in an “offline” system also known as "air-gapped". They are never connected to the web making it impossible to compromise remotely if the system has been correctly setup.
+Finally, cold wallets store cryptocurrencies and assets in an “offline” system also known as "air-gapped". As they are never connected to the web, it makes it impossible to compromise them online, if the system has been correctly set up. However, they are still vulnerable to physical threats!
 
 This level of security is possible only when private keys are generated **and** stored in an offline environment.
 
-You can either make your DIY cold wallet or follow our hard wallet product reviews [here](../cold-wallets "Cold Wallets").
-
-<table class="table table-sm table-striped my-4">
+<table class="table table-sm table-striped my-5">
   <thead>
     <tr class="text-center font-weight-bold">
       <th> </th>
@@ -125,3 +122,6 @@ You can either make your DIY cold wallet or follow our hard wallet product revie
     </tr>
   </tbody>
 </table>
+
+  
+You can either make your DIY cold wallet or follow our branded product reviews on [Wallets - Part IV](../cold-wallets "Cold Wallets").

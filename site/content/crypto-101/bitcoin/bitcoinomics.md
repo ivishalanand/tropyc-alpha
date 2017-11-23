@@ -9,16 +9,16 @@ toc = true
 
 Bitcoin and cryptocurrencies follow a decentralised economic model: unlike the process of printing money, Bitcoins' issuance rate is transparent, immutable and fair.
 
-<p class="font-weight-bold text-center">Bitcoin supply emission rate</p>
+<p class="font-weight-bold text-center mt-5">Bitcoin supply emission rate</p>
 
-{{< img src="crypto-101/charts/chart-btc-supply.png" class="img-fluid" alt="Bitcoin emission rate" >}}
+{{< img src="crypto-101/charts/chart-btc-supply.png" class="img-fluid mb-5" alt="Bitcoin emission rate" >}}
 
-Bitcoin emission rate is known to everyone: the number of freshly minted Bitcoins per block decreases with time.  
-Every ten minutes, the blockchain records the number of new bitcoins created and to whom it is rewarded.
+Bitcoin has a fixed and controlled supply. The rate of Bitcoin creation decreased with time, to converge towards a 21 million total supply.  
+Every ten minutes, the blockchain records the number of new bitcoins created and to who it is rewarded.
 
-<p class="font-weight-bold text-center">Bitcoin rewards per blocks</p>
+<p class="font-weight-bold text-center mt-5">Bitcoin rewards per blocks</p>
 
-{{< img src="crypto-101/charts/chart-btc-reward.png" class="img-fluid" alt="Bitcoin incentives per block" >}}
+{{< img src="crypto-101/charts/chart-btc-reward.png" class="img-fluid mb-5" alt="Bitcoin incentives per block" >}}
 
 Miners earn their return on investment both on transactions fees and new Bitcoins added to the total supply. As the mining incentivisation stays constant, transaction fees increase over time while block rewards are inversely correlated.  
 
@@ -30,10 +30,9 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 
 **Bitcoin is a new kind of money that holds different fundamentals.**
 
+<p class="text-center mt-5">Let's define its utility as a form of money.</p>
 
-<p class="text-center">Let's define its possible use cases as a form of money.</p>
-
-<div class="container my-5">
+<div class="container my-3">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/currency.svg" class="img-fluid" alt="Gold coins" >}}
@@ -69,12 +68,12 @@ Still, anyone can look up the amount of every public address on the blockchain: 
       <p class="font-weight-bold mt-2">Store of wealth</p>
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="Coin swapping" >}}
-      <p class="font-weight-bold mt-2">Medium of exchange</p>
-    </div>
-    <div class="col">
       {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="Bag of money" >}}
       <p class="font-weight-bold mt-2">Unit of account</p>
+    </div>
+    <div class="col">
+      {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="Coin swapping" >}}
+      <p class="font-weight-bold mt-2">Medium of exchange</p>
     </div>
   </div>
  </div>
@@ -90,7 +89,7 @@ Nicknamed the “digital gold” by Nathaniel Popper, Bitcoin holds similar char
 Unless a considerable share of the population perceives Bitcoin as an efficient store of wealth (just like gold), defining it as _efficient_ is debatable and controversial.  
 Bitcoin's prices have soared since its existence, therefore assessing its efficiency should always be relative to another class of assets.
 
-Amid unstable economy, fast-paced globalisation and new technology breakthroughs, no one can point an item and declare with high certainty: “This is and always will be a great store of wealth” - the same applies to Bitcoin.
+Amid unstable economy, fast-paced globalisation and new technology breakthroughs, no one can point to an item and declare with reasonnable certainty that “this is and always will be a great store of wealth” - the same applies to Bitcoin.
 
 ### Unit of account
 
@@ -104,25 +103,25 @@ The above illustrates the state of the economy of World Bank Group participants 
 
 Cryptocurrencies are still infamous globally compared to established government-backed currencies: they are not a good unit of account to value our economy because prices of goods and services in Bitcoin are unstable.
 
-However, it does not mean cryptocurrencies cannot fulfil this role in the future; it has all the required features to do so.
+However, it does not mean that cryptocurrencies cannot fulfil this role in the future; they have all the required features to do so.
 
-It is important to note that in the cryptocurrency world, Bitcoin IS the unit of account, as every alt coins are priced in BTC and not in USD.
+It is important to note that in the cryptocurrency world, Bitcoin IS the unit of account, as every cryptocurrencies are priced in BTC and not in USD.
 
 ### Medium of exchange
 
-The last and most important feature of money is the ability to transfer value from one peer to another. Bitcoin is a perfect medium of exchange thanks to its core features we reviewed in Chapter I.
+The last and most important feature of money is the ability to transfer value from one peer to another. Bitcoin is a perfect medium of exchange thanks to its core features as reviewed in Chapter I.
 
-Bitcoin's fast, safe and low-cost transactions triggered the exponential demand for cryptocurrencies and made Bitcoin what it is today.  
-There is no doubt that digital currencies are outperforming conventional banking services in cross-border and high amount settlements.  
+Bitcoin's fast, safe and low-cost transactions triggered the exponential demand for cryptocurrencies and made Bitcoin what it is today. There is no doubt that digital currencies are outperforming conventional banking services in cross-border and high amount settlements.  
+
 As for domestic and low ticket transactions, debit and credit card as well as mobile money are all faster and cheaper for consumers.
 
-At first, Bitcoin as a medium of exchange started on the dark web. Its primary use was for settling payments on illegal marketplaces to order illicit goods. Bitcoin's ability to dissociate someone's identity with financial transactions made it the perfect "drug money".  
+Originally, Bitcoin as a medium of exchange started on the dark web. Its primary use was to settle payments for illicit goods on illegal marketplaces. Bitcoin's ability to dissociate someone's identity with financial transactions made it the perfect "drug money".  
 
 Today, many well-reputable merchants have integrated Bitcoin as a form of payment.
 
-{{< img src="crypto-101/infographics/info-btc4-1.png" class="img-fluid" alt="Sending money overseas BTC vs USD" >}}
+{{< img src="crypto-101/infographics/info-btc4-1.png" class="img-fluid my-3" alt="Sending money overseas BTC vs USD" >}}
 
-<div class="container my-3">
+<div class="container my-5">
   <div class="row text-center">
     <div class="col">
       {{< img src="crypto-101/icons/store-of-wealth.svg" class="img-fluid" alt="Pile of gold" >}}
@@ -130,15 +129,15 @@ Today, many well-reputable merchants have integrated Bitcoin as a form of paymen
       <p class="small">Yes to hedge against the fiat economy and alt coins.</p>
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="Coin swapping" >}}
+      {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="Coin swapping" >}}
       <p class="font-weight-bold mt-2">Unit of account</p>
-      <p class="small">Yes for cross-border, mid to high amount, and private transactions.</p>
-      <p class="small">No for low amount and domestic payments.</p>
+      <p class="small">Yes for the cryptocurrency eco-system. Still volatile for our economy.</p>
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/unit-of-account.svg" class="img-fluid" alt="Bag of money" >}}
+      {{< img src="crypto-101/icons/exchange.svg" class="img-fluid" alt="Bag of money" >}}
       <p class="font-weight-bold mt-2">Medium of exchanges</p>
-      <p class="small">Yes for the cryptocurrency eco-system. Still volatile for our economy.</p>
+      <p class="small">Yes for cross-border or mid to high amount or private transactions.</p>
+      <p class="small">No for low amount or domestic payments.</p>
     </div>
   </div>
  </div>
@@ -174,7 +173,7 @@ Cryptocurrency markets are open 24/7 non-stop on online exchanges: you can trade
 Bitcoin has pioneered digital money and is therefore witnessing tremendous growth.  
 Thanks to its flexibility towards privacy, its peer-to-peer transactions, supply scarcity and hedging opportunity against the fiat economy, Bitcoin offers an attractive investment opportunity and fulfils to some extent the functions of money.
 
-Prices are not stable and very volatile compared to traditional currencies: it is not uncommon to witness a 50% price variation in a couple of weeks.   
+The Bitcon to dollar pair witnesses substantial volatility compared to fiat currency exchange pairs: it is not uncommon to witness a 50% price variation on Bitcoin in a couple of weeks.     
 A similar pattern in fiat currencies would shake up the global economy.
 
-At first, the daily volume of exchange trades from fiat to cryptocurrency were ridicule, making cryptocurrencies illiquid. But Bitcoin has established itself as the leading cryptocurrency: it is now very liquid, however, the same cannot be said for other cryptocurrencies.
+At first, the daily volume of exchange trades from fiat to cryptocurrency was ridiculous, making cryptocurrencies illiquid. But Bitcoin has established itself as the leading cryptocurrency: it is now extremely liquid, however, the same cannot be said for other cryptocurrencies.
