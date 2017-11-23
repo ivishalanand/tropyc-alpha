@@ -11,13 +11,13 @@ toc = true
 
 ### Conventional contracts
 
-Conventional contracts are agreements that define stakeholder relationships, would it be related to a transaction, inheritance or consumption.  
+Conventional contracts are agreements that define stakeholder relationships, be it related to a transaction, inheritance or consumption.  
 
-Typically, valid standard contracts are enforceable by the law, meaning if you decide not to honour the terms of a contract, you are vulnerable to legal recourse.   
+Typically, valid standard contracts are enforceable by law, meaning if you decide not to honour the terms of a contract, you are vulnerable to legal recourse.   
 
 However, you are not physically forced: there is always a trust factor to consider before entering a contractual relationship with a peer.  
 
-Going legal is at the end of the day an inefficient and resource draining exercise that (most) people would like to avoid. The current legal and judiciary system may resolve a litigation in a matter of years, sometimes decades in some jurisdictions.
+Going legal is at the end of the day an inefficient and resource draining exercise that (most) people would like to avoid. The current legal and judiciary system may take years to resolve a litigation, and sometimes decades in some jurisdictions.
 
 ### Smart contracts
 
@@ -87,7 +87,7 @@ At this point, there are 3 possible outcomes:
     </div>
     <div class="col">
       {{< img src="crypto-101/icons/no.svg" class="img-fluid" alt="No" >}}
-      <p class="font-weight-bold">C. Bob refuses to pay out</p>
+      <p class="font-weight-bold">C. Bob refuses to pay up</p>
     </div>
   </div>
 </div>
@@ -126,12 +126,12 @@ At the epicentre of the Ethereum network sits the Ethereum Virtual Machine (EVM)
 
 The EVM has two main characteristics:
 
-* **Turing complete:** meaning it can, in theory, be used to solve any computation problem. Developers can create programs with various coding languages such as Solidity(JavaScript), Serpent(Python) or LLL(Lisp).
-* **Isolated:** code and smart contracts running on top of the EVM does not have access to other applications on the network.
+* **Turing complete:** meaning it can, in theory, be used to solve any computation problem. Developers can create programs with various coding languages such as Solidity (JavaScript), Serpent (Python) or LLL (Lisp).
+* **Isolated:** code and smart contracts running on top of the EVM do not have access to other applications on the network.
 
 Every node on the network (computers connected) runs the EVM and regularly updates the Ethereum database.  
 
-Mind that this decentralised computation framework is far less efficient in terms of cost and speed than a traditional hardware set-up. 
+Note that this decentralised computation framework is far less efficient in terms of cost and speed than a traditional hardware set-up. 
 
 Still, it offers valuable benefits :
 
@@ -139,8 +139,8 @@ Still, it offers valuable benefits :
 * High-level of fault tolerance.
 * Immutable and censorship-resistant database.
 
-Furthermore, Ethereum and its EVM are value-agnostic: developers are the ones deciding how to use the platform. While Bitcoin is suited for peer-to-peer payments, Ethereum can automate interactions between stakeholders and coordinate community actions on its network.   
+Furthermore, Ethereum and its EVM are value-agnostic: developers are the ones deciding how to use the platform (not the opposite!). While Bitcoin is suited for peer-to-peer payments, Ethereum can automate interactions between stakeholders and coordinate community actions on its network.   
 
-Using code, we can now design any types of operations between peers, like scheduling a payout to an investor, giving a voting right to stakeholders within an organisation or coordinating a peer-to-peer online marketplace.  
+Using code, we can now design any type of operations between peers, like scheduling a payout to an investor, giving a voting right to stakeholders within an organisation or coordinating a peer-to-peer online marketplace.  
 
 Bitcoin changed the payment industry, Ethereum can very well change any industry where trust, immutability and security are important.

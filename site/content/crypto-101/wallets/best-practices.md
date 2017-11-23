@@ -7,7 +7,7 @@ bref = "Wallets, Part II"
 toc = true
 +++
 
-<blockquote class="blockquote">
+<blockquote class="blockquote my-5">
   <p>"In crypto, you're in control of your wealth, but this luxury comes with extra responsibilities."</p>
 </blockquote>
 
@@ -18,7 +18,7 @@ We advise you to set up at least two wallets:
 * One hot wallet for daily expenses, that should not hold a huge chunk of your capital.
 * One cold wallet to store the rest of your crypto assets.
 
-Always use your hot wallet when transacting with the outside. We advise you to make your cold wallet only interact with your own wallets for an extra layer of security.
+Always use your hot wallet when transacting with the outside. We advise you to make your cold wallet only interact with your personnal wallets for an extra layer of security.
 
 Picture your hot wallet as your current account and cold wallet as your savings accounts.
 
@@ -49,13 +49,13 @@ Because the blockchain is transparent, make sure to never share a public address
 
 It is important to generate new public addresses for every transaction; otherwise, the person you transact with will match the public address' balance with your identity.
 
-{{< img src="crypto-101/infographics/info-wal2-1.png" class="img-fluid" alt="Public address single use" >}}
+{{< img src="crypto-101/infographics/info-wal2-1.png" class="img-fluid my-3" alt="Public address single use" >}}
 
 Since the blockchain tracks all transactions, sharing used public addresses for payment means sharing your account balance to a third party.
 
 ## Encryption
 
-Setting up a wallet password is mandatory if you want to store your crypto safely. Be sure your password follows the below features:
+Setting up a wallet password is mandatory if you want to store your crypto safely. Be sure your password follows the undermentioned:
 
 * **Length**: minimum of 12 characters.
 * **Unique**: never been used before.
@@ -66,20 +66,20 @@ Under the 2-FA framework, you have to present two components of authentication t
 
 In most cases, a 2-FA encryption will work with a smartphone: you can access your wallet (or any encrypted account) only after entering your password (knowledge) successfully and insert a code generated from a mobile app (possession).
 
-**WARNING! SMS-based 2-FA is not considered safe, use certified applications.**
+**WARNING! SMS-based 2-FA is not considered safe, use only certified applications.**
 
-{{< img src="crypto-101/infographics/info-wal2-2.png" class="img-fluid" alt="Build digital vault" >}}
+{{< img src="crypto-101/infographics/info-wal2-2.png" class="img-fluid my-3" alt="Build digital vault" >}}
 
 ## Centralisation
 
 It's best to avoid storing all of your money in one bank account : the same applies with crypto and wallets (hot or cold).  
-Similarly, you do not want to keep your backup and password next to your wallet in case something happens.
+Similarly, you do not want to keep your backup and password next to your wallet.
 
 It's best to set up several crypto transaction management systems like the below.
 
-{{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid" alt="Wallet like bank account" >}}
+{{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid mt-3" alt="Wallet like bank account" >}}
 
-<div class="container my-4">
+<div class="container">
   <div class="row text-center">
     <div class="col">
       <p class="font-weight-bold mt-2">Cold wallet</p>
@@ -114,7 +114,7 @@ It's best to set up several crypto transaction management systems like the below
     <div class="col col-sm-6 col-md-8 text-left">
     <h2>Multisignature</h2>
      <p>Multi-sig addresses give the ability to share ownership of a Bitcoin address between several users by having up to 15 associated private keys.</p>
-     <p>In order to send coins out of the wallet, the transactions require signature from multiple private key holders, depending on how it has been set up.</p>
+     <p>In order to use a wallet, transactions require signatures from multiple private key holders, depending on how it has been set up.</p>
      <p>This feature can add an extra layer of protection if you want to share the wallet ownership with other parties. Ideal for a family or a business account.</p>
     </div>
     <div class="col col-sm-6 col-md-4 text-center">

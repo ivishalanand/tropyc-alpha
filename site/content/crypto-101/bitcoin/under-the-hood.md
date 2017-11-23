@@ -26,7 +26,7 @@ toc = true
 
 ## Mining
 
-The main difference between fiat and Bitcoin is that the former can be printed without a limit while the latter is capped at 21 million.
+The main difference between fiat and Bitcoin is that the former can be printed without a limit while the latter is capped at 21 million units
 
 <div class="container my-5">
   <div class="row">
@@ -52,7 +52,7 @@ The main difference between fiat and Bitcoin is that the former can be printed w
   </div>
  </div>
 
-Cryptocurrencies were once price based on the prerequisite costs needed to run the network or mining costs.
+Initially, Bitcoin's price was indexed on the prerequisite costs needed to run the network or mining costs.
 As such, mining Bitcoin and cryptocurrencies is a resource-draining activity that requires investment from the fiat economy.
 
 <div class="container my-4">
@@ -131,7 +131,7 @@ Each block records the information of multiple transactions including:
   </div>
 </div>
 
-Each blockchain block stores every Bitcoin transactions that were created and confirmed by the network during a ten minute period.  
+Each blockchain block stores every Bitcoin transaction that was created and confirmed by the network during a ten minute period.  
 Once a new block is mined, it is added to an immutable public distributed ledger; this is the blockchain: a chronological combination of data blocks.
 
 ## Consensus
@@ -184,7 +184,7 @@ A transaction does not exist until recorded in a block. To keep the network safe
 	    <p>The block's data is then converted into a hash by miners.</p>
 	    <p>A hash is a fixed-length string that holds large amounts of data.</p>
 	    <p>Each block has a unique hash because it has a unique set of data. Changing one variable in the data will change the hash.</p>
-	    <p>This way, the network knows if a fake transaction was inserted in a previous block because each block's hash is part of the formula that generates a new block.</p>
+	    <p>This way, the network knows if a fake transaction has been inserted in a previous block because each block's hash is part of the formula that generates a new block.</p>
     </div>
     <div class="col-sm-6 col-md-4 text-center">
    		{{< img src="crypto-101/icons/generate.svg" class="img-fluid" alt="Production line" >}}
