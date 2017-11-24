@@ -1,8 +1,8 @@
 +++
 title = "Caviar"
 date = 2017-08-13T17:30:02+02:00
-description = "Crypto and real wstate in one token"
-bref = "Invest in Caviar, and earn Ether. Caviar gives you access to a diversified basket of real estate and cryptocurrencies, powered by an algorithmic model"
+description = "Invest in Caviar, and earn Ether. Caviar gives you access to a diversified basket of real estate and cryptocurrencies, powered by an algorithmic model"
+bref = "Crypto and real estate in one token"
 weight = 20
 draft = false
 
