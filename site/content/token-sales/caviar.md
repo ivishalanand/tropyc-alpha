@@ -11,7 +11,7 @@ startDate = 2017-11-28
 endDate = 2018-01-31
 rating = "91"
 origin = "USA, 2013"
-industry = "Real Estate"
+industry = "Fintech & Real Estate"
 platform = "Ethereum"
 currencyAccepted = "ETH"
 
@@ -42,7 +42,7 @@ currencyAccepted = "ETH"
       supply = "52,941,176"
       value = "3,529,412"
     [valuation.rows.bounties]
-      distribution = "bounties"
+      distribution = "Bounties"
       cut = "3%"
       supply = "13,235,294"
       value = "882,353"
