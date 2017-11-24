@@ -11,7 +11,7 @@ Cryptocurrencies have emerged as a new type of asset class for investors. Today,
 
 Market capitalisation can range from several billion dollars to less than one hundred thousand dollars. As the market is unregulated and relatively new, prices are very volatile and can lead to dramatic fluctuations.
 
-When a new technology disrupts markets at scale, it often comes with new rules and fundamentals to follow.
+When a new technology disrupts markets at scale, it often results in new rules and fundamentals.
 
 ## Fundamentals
 
@@ -55,7 +55,7 @@ It is essential to fully understand the token eco-system and competitors before 
 
 Projects can sometimes issue more than one token, making it confusing for end users. Be sure to understand what are the specific functions and how they interact with each other.
 
-Last but not least, a token that only holds payment functions would be competing with high capitalisation and established cryptocurrency tokens such as Bitcoin, Litecoin, Ripple or Monero. Fierce competition.
+Last but not least, a token that only holds payment functions would be competing with high capitalisation and established cryptocurrency tokens such as Bitcoin, Litecoin, Ripple or Monero. This means fierce competition.
 
 #### Fraud, scams, Ponzi schemes, multi-level marketing schemes
 
@@ -65,13 +65,13 @@ With cryptocurrency, you are not protected against fraud and scams, because no o
 
 Once you withdraw money from your accounts, there is no turning back. It is your responsibility to manage your tokens well, so be careful about fraudulent projects.
 
-It is safe to avoid any investment opportunities that:
+It is recommended to avoid any investment opportunities that:
 
-* Guarantees high returns in no time or promises to become the next Bitcoin. Often leverages website banners and social media campaigns with catchy headlines.
+* Guarantee high returns in no time at all, promise to become the next Bitcoin or use website banners and social media campaigns with catchy headlines.
 
-* Does not promote token utility and does not advertise any technology-driven Unique Selling Point.
+* Do not promote token utility and do not advertise any innovative Unique Selling Point.
 
-* Promoted via other investors that share referral links on social media. Multi-level marketing schemes rely on contributors to get new investors onboard via attractive bonuses - strategy derived from pyramid and Ponzi schemes.
+* Are advertised by other investors that share referral links on social media. Multi-level marketing schemes rely on contributors to get new investors onboard via attractive bonuses - a strategy derived from pyramid and Ponzi schemes.
 
 * Shared by an unknown individual on social media platform (direct message, group). Avoid any direct communication with outsiders as they promote Ponzi, MLM schemes or attempt to attack your system via phishing and malware attacks.
 
@@ -85,7 +85,7 @@ It is safe to avoid any investment opportunities that:
 
 * **Bitcoin**: First cryptocurrency created by Satoshi Nakamoto in 2009
 
-* **Altcoin**: Cryptocurrencies other than Bitcoin
+* **Altcoin**: All cryptocurrency other than Bitcoin
 
 #### Investment
 
@@ -105,7 +105,7 @@ It is safe to avoid any investment opportunities that:
 
 * **Circulating token supply**: Number of tokens that are mined and available to use. Bitcoin circulating token supply in 2017 is around 16-17 million.
 
-* **Total token supply**: Maximum number of tokens that will ever exist whether it is in the present or the future. Bitcoin total token supply is 21 million.
+* **Total token supply**: Maximum number of tokens that will ever exist whether it is in the present or the future. Bitcoin total token supply is capped at 21 million.
 
 ### c) Time
 
@@ -128,11 +128,11 @@ Depending on the exchanges, there are approximately a dozen cryptocurrencies you
 * **Bitcoin or Ethereum to altcoins.**
 Most of the cryptocurrencies are priced in Bitcoin and Ethereum.
 
-Navigating between both markets can become trivial, but it is essential to keep track of every entry and exit price so that you can assess the performance of your positions and portfolio.
+Navigating between both markets can become tricky, but it is essential to keep track of every entry and exit price so that you can assess the performance of your positions and portfolio.
 
 ### e) Price (liquidity, volatility)
 
-* **Volatility:**  Cryptocurrency trading can become very stressful once you fully comprehend how prices are unstable. It is not uncommon to witness a 50% jump or pull down in price in a matter of a few hours.
+* **Volatility:**  Cryptocurrency trading can become very stressful once you fully comprehend how prices can be unstable. It is not uncommon to witness a 50% jump or pull down in price in a matter of a few hours.
 
 * **Liquidity:** Smaller market capitalisation tokens do not have enough volume for regular trading.
 In this scenario, it is sometimes difficult to exit a position.
@@ -144,7 +144,7 @@ Often acknowledged as the primary indicator to evaluate the crypto economy, mark
 
 It can get misleading as the _total_ token supply often differs from the _circulating_ supply.
 
-In a scenario where tokens are pre-mined and held by the founding team, the _circulating_ supply could only represent a fraction of the _total_ supply: the eco-system valuation can, therefore, reach absurd valuations.
+In a scenario where tokens are pre-mined and held by the founding team, the _circulating_ supply may only represent a fraction of the _total_ supply: the eco-system valuation can, therefore, reach absurd valuations.
 
 For instance, the circulating token supply of Gnosis, a decentralised prediction market application, represented one-tenth of the total token supply during its initial coin offering.
 
@@ -158,11 +158,11 @@ With cryptocurrencies, the inflation rate is (for most projects) codified and tr
 
 The crypto-economy is often described as decentralised and permissionless, meaning users do not have to trust any third party when interacting with applications.
 
-However, before a token is floating, users need to trust that the founding team introduced the token fairly and that project development will meet targets.
+However, before a token is floated, users need to trust that the founding team has introduced the token fairly and that project development will meet targets.
 
 It is not uncommon to witness extreme variations between the fundamentals of a project (stage, market) and the market valuation.
 
-Investors need to assess a few key points before chipping in:
+Investors need to assess a few key points before buying in:
 
 * Are developers active and aspire to improve the products?
 * Does the token provide utility to its holders?
@@ -197,16 +197,12 @@ It will help you design a portfolio customised to your investment profile.
 Cryptocurrency investments can become very volatile, while you can make healthy profits overnight, you are not immune to incurring substantial losses.
 
 Define your risk matrix and to what extent you are willing to enter less established investments.
-
 Are you risk averse or risk-taking?
-
 Your portfolio should illustrate your mindset towards risk.
 
 ### c) Timeline
 
-Each investment has an entry and an exit.
-
-It is crucial for investors to understand when they expect to lock their profit.
+Each investment has an entry and an exit. It is crucial for investors to understand when they plan to close their position and lock in their profits.
 
 Timelines should also be diversified and depend on your level of involvement.
 
@@ -217,4 +213,4 @@ Still, try to stick to your areas of expertise and to an industry you comprehend
 
 If you enjoy trading, focus on floating tokens, on the other hand, if you like assessing products maybe ICO investing is a better option.
 
-At tropyc we like to differentiate tokens by industry (gaming, prediction, cloud storage), if you come from an industry with a high cryptocurrency penetration why not invest in the token you deem best fit to disrupt your industry at scale?
+It is more suitable to differentiate tokens by industry (gaming, prediction, cloud storage), if you come from an industry with a high cryptocurrency penetration why not invest in the token you deem best fit to disrupt your industry at scale?
