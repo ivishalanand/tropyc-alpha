@@ -7,11 +7,9 @@ bref = "Invest, Part II"
 toc = true
 +++
 
-Even if you comprehend the ever-changing fundamentals of cryptocurrencies, investing in this space is still _extremely_ risky.
+Even if you comprehend the ever-changing fundamentals of cryptocurrencies, investing in this space is still _extremely_ risky. Be sure only to invest what you can afford to lose, and stay focused on tokens that have (or will have) utility to their end users.
 
-Be sure only to invest what you can afford to lose, and stay focused on tokens that have (or will have) utility to their end users.
-
-Before we start, let's go through a gentle reminder of the risks you are taking when investing in crypto and how to mitigate them.
+Before we start, let's go through a gentle reminder of the risks you are taking when investing in the crypto economy and how to mitigate them.  
 Second, we'll showcase strategies that can help you design a well-performing portfolio.
 
 ## Risk
@@ -29,18 +27,18 @@ Cybersecurity is a field that is constantly evolving, and you might just never a
 
 **Solution**
 
-However, you can disincentivise hackers to attack you with wallet _compartmentalisation_.
+However, you can disincentivise hackers to attack you with **_wallet compartmentalisation_**.
 
 Wallet compartmentalisation means creating transaction management systems that are never correlated to each other regarding online web exposure.
 
 In other words, if you have three wallet systems, a hacker would take time to spread his attack from one system to another.
 
-One wallet system would comprise of, for instance, one cold, two hot, and two online wallets (exchange).  
-If you compartmentalise two wallet systems, this would mean that none of the two wallets systems can be traced back to the other one (hardware, software, password, transactions).
+One wallet system would be comprised of, for instance, one cold, two hot, and two online wallets (for instance, altcoin exchanges).  
+If you compartmentalise two wallet systems, this would mean that neither of the two wallets systems can be traced back to the other one (hardware, software, password, transactions).
 
-If a hacker compromises one system, it should be _difficult_ for him to break another one.
+If a hacker compromises one system, it would be _difficult_ for him to break the other.
 
-Protecting your cryptocurrencies and assets starts with:
+Protecting your cryptocurrencies and assets starts with the following:
 
 * Store most of your wealth on cold wallets.
 * Add an extra layer of protection for hot and online wallets with 2-factor authentification (why not try FIDO U2F standard).
@@ -49,7 +47,7 @@ Protecting your cryptocurrencies and assets starts with:
 
 This might sound Jason Bourne-esque, but better be safe than sorry!
 
-If you want to learn about wallets and storing your crypto securely, kindly refer to the second part of our crypto 101 series [here](/crypto-101/wallets/intro/).
+If you want to learn about wallets and storing your crypto securely, kindly refer to the [second part of our crypto 101 series](/crypto-101/wallets/intro/).
 
 ### Exchanges are unsafe
 
@@ -65,7 +63,7 @@ Furthermore, it can get cumbersome to track your portfolio in different exchange
 * **Fiat to crypto:** Accepts fiat as a deposit and is often restricted to a selected few cryptocurrencies such as Bitcoin, Ether and Litecoin.  
 _Extensive Know Your Customer (KYC) and Anti-Money Laundering (AML) compliance_
 
-* **Crypto to Crypto:** Lists any tokens, but does not accept fiat deposits.  
+* **Crypto to Crypto:** Lists every digital assets and does not accept fiat deposits.  
 _Poor or no KYC/AML_
 
 * **P2P facilitation:** Community platform that matches buyers and sellers. Acts like an over the counter. Available in Bitcoin and Ethereum.  
@@ -80,7 +78,7 @@ If something averse happens to the exchange, you'll still have some crypto avail
 
 * Protect yourself against attackers and lock your account with 2-factor authentification.
 
-* Stay alert to the exchange threat and understand that hackers have targeted them and stolen millions of dollars in the past. It can happen again.
+* Understand that hackers have targeted exchanges and stolen millions of dollars in the past. It can happen again.
 
 ### Volatility in price can make me lose everything
 
@@ -133,7 +131,7 @@ Today, depending on the jurisdiction, ICOs and tokens are either unregulated or 
 
 **Solution**
 
-* Understand the utility of a token before chipping in.  
+* Understand the utility of a token before investing.
 Never invest in technology you do not understand.  
 Even if the technology appears to be advanced, the token's founding team should be able to explain it in _simple_ words.
 

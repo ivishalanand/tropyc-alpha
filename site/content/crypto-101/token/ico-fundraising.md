@@ -1,5 +1,5 @@
 +++
-title = "ICO, TGE, token-sale"
+title = "ICO and fundraising"
 date = 2017-08-02T18:17:03+02:00
 description = "Token sale and Initial Coin Offerings offer a new approach to fundraising. Here, we compared this revolutionary method with other financial instruments."
 draft = false
@@ -15,15 +15,9 @@ While ICOs do offer a new a way of raising funds for start-ups, they are structu
 
 ICO is a tool while AI/VC are stakeholders.
 
-Before going down to the nitty gritty, let's review how we define this rather new concept:
-
-* Tropyc has decided to use the term Initial Coin Offering (ICO), Initial Token Offering (ITO), Token Generating Event (TGE), token sale and crowdsale as _interchangeable_.
-* We saw the difference between tokens and coins in the previous chapter [here](../tokenisation), still we think that the market is not mature enough to battle over the names of similar fundraising techniques.
-
-
 Here’s a closer look at ICO features against Angel Investment and Venture Capital:
 
-<table class="table table-sm">
+<table class="table table-sm my-5">
   <thead>
     <tr class="text-center">
       <th class="text-left">FEATURES</th>
@@ -33,7 +27,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
   </thead>
   <tbody class="small">
     <tr>
-      <td colspan="3" class="table-info text-center">NATURE</td>
+      <td colspan="3" class="table-info text-center font-weight-bold">NATURE</td>
     </tr>
     <tr>
       <td class="text-left">Definition</td>
@@ -51,7 +45,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
       <td class="text-center">Low</td>
     </tr>
     <tr>
-      <td colspan="3" class="table-info text-center">ENTRY BARRIERS</td>
+      <td colspan="3" class="table-info text-center font-weight-bold">ENTRY BARRIERS</td>
     </tr>
     <tr>
       <td class="text-left">Set up costs</td>
@@ -69,7 +63,7 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
       <td class="text-center">Offline engagement</td>
     </tr>
     <tr>
-      <td colspan="3" class="table-info text-center">DEAL</td>
+      <td colspan="3" class="table-info text-center font-weight-bold">DEAL</td>
     </tr>
     <tr>
       <td class="text-left">Negotiation</td>
@@ -99,80 +93,85 @@ Here’s a closer look at ICO features against Angel Investment and Venture Capi
   </tbody>
 </table>
 
-Raising through VCs and AIs gives access to not only capital but also market expertise, mentorship and network in exchange of a stake in the company.
+Raising through VCs and AIs gives access not only to capital but also to market expertise, mentorship and network, in exchange for a stake in the company.
 
-There are many ways to raise funds, here we compare all financial instruments:
+There are many ways to raise funds, here we compare all the financial instruments:
 
-<table class="table table-sm table-condensed">
+<table class="table table-sm my-5 small">
   <thead>
     <tr class="font-weight-bold text-center">
       <th class="text-left">INSTRUMENTS</th>
       <th>STAGE</th>
       <th>BACKERS</th>
-      <th>TICKET SIZE</th>
-      <th>LIQUID</th>
       <th>INPUT</th>
       <th>OUTPUT</th>
+      <th>SIZE</th>
+      <th>LIQUID</th>
     </tr>
   </thead>
   <tbody>
     <tr class="text-center">
       <td class="text-left">Angel Investing</td>
-      <td>Early stage</td>
+      <td>Early</td>
       <td>High net-worth individuals</td>
-      <td>High</td>
-      <td>No</td>
       <td>Funds, mentorship</td>
       <td>Equity</td>
+      <td>High</td>
+      <td>No</td>
     </tr>
     <tr class="text-center">
       <td class="text-left">Venture capital</td>
-      <td>Early and mid stage</td>
+      <td>Early and mid</td>
       <td>Private equity</td>
-      <td>High</td>
-      <td>No</td>
       <td>Funds, mentorship</td>
       <td>Equity, debt</td>
+      <td>High</td>
+      <td>No</td>
+    </tr>
     <tr class="text-center">
       <td class="text-left">Crowdfunding</td>
-      <td>Early and mid stage</td>
+      <td>Early and mid</td>
       <td>Anyone</td>
-      <td>Low</td>
-      <td>No</td>
       <td>Funds</td>
       <td>Equity, debt</td>
+      <td>Low</td>
+      <td>No</td>
+    </tr>
     <tr class="text-center">
       <td class="text-left">Mergers and Acquisition</td>
-      <td>Mid to late stage</td>
+      <td>Mid to late</td>
       <td>Private equity, corporates</td>
+      <td>Funds</td>
+      <td>Equity</td>
       <td>High</td>
       <td>No</td>
-      <td>Funds</td>
-      <td>Equity</td>
+    </tr>
     <tr class="text-center">
       <td class="text-left">Bond</td>
-      <td>Any stage</td>
+      <td>Any</td>
       <td>Banks, corporates</td>
-      <td>High</td>
-      <td>Depends</td>
       <td>Funds</td>
       <td>Debt</td>
+      <td>High</td>
+      <td>Depends</td>
+    </tr>
     <tr class="text-center">
       <td class="text-left">Initial Public Offering</td>
-      <td>Late stage</td>
+      <td>Late</td>
       <td>Anyone</td>
-      <td>Low</td>
-      <td>Yes</td>
       <td>Funds</td>
       <td>Equity</td>
-    <tr class="text-center">
-      <td class="text-left">ICO, TGE, Tokensale</td>
-      <td>Any stage</td>
-      <td>Anyone</td>
       <td>Low</td>
       <td>Yes</td>
+    </tr>
+    <tr class="text-center">
+      <td class="text-left">ICO, TGE, Tokensale</td>
+      <td>Any</td>
+      <td>Anyone</td>
       <td>Funds</td>
       <td>Equity and rights</td>
+      <td>Low</td>
+      <td>Yes</td>
     </tr>
   </tbody>
 </table>
@@ -182,21 +181,21 @@ The ICO model introduces a new method to raise funds and offers considerable ben
 ICOs are more flexible funding tools: projects can raise funds at any stage, from anyone, as long as they are crypto savvy.  
 From the investor’s perspective, there are minimal nominal requirements and lock-in period.
 
-However, it is important to highlight some limitations: launching an ICO drains resources and does not give access to mentorship or network. Furthermore, there are considerable security risks in the cryptocurrency space for both ends.
+However, it is important to highlight some limitations: launching an ICO drains resources and does not give access to mentorship or network. Furthermore, there are considerable security risks in the cryptocurrency space for both investors and fundraisers.
 
 ## ICO Conventions
 
 Introducing a digital token has become less resource draining thanks to the emergence of blockchain development platforms.  
 Today, anyone can launch an ICO with minimal programming skills, a website and a marketing campaign.
 
-To attract investors and reduce the fear of fraud, ICOs need to share extensive information about the token’s utility, economics, market, stage of development and roadmap.
+Projects need to share extensive information about the token’s utility, economics, market, stage of development and roadmap in order to create a trustworthy environment for investors.
 
 ### Market, product and disruption
 
 Decentralised projects have to publish their source code for the public to scrutinise.  
-Not only the code needs to be available to anyone, but the founding team should also be able to explain the technology to its audience, in simple words, so that even the less tech-savvy can comprehend the product.
+Not only the code needs to be available to everyone, but the founding team should also be able to explain the technology in simple words, so that even the less tech-savvy can comprehend the product.
 
-Furthermore, since a tokensale is the introduction of a product, investors should expect some market analysis in the proposal, including the size, competition and disruption opportunity.
+Furthermore, since an ICO is the introduction of a product, investors should expect some market analysis in the proposal, including the size, competition and disruption opportunity.
 
 ### Tokenomics
 
@@ -212,10 +211,10 @@ Investors should expect transparency in the following:
 ### Project stage and roadmap
 
 Some ICOs have managed to raise substantial funds without even issuing a prototype.  
-As ICOs become more mainstream, this practice will hopefully fade out. Evaluating the market capitalisation of an idea does not always make sense.
+As ICOs become more mainstream, this practice will hopefully fade out. Giving a valuation of an "idea" without a product or prototype does not make sense.
 
 The founding team needs to disclose the current stage of development and project roadmap rigorously.  
-It can help investors feel confident about the project’s ability to fulfill its mission and therefore galvanise investments.
+This will help investors feel confident about the project’s ability to fulfill its mission and consequently galvanise investments.
 
 ### Investor relation & communication
 

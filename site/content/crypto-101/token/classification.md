@@ -14,11 +14,11 @@ It is not uncommon for ICOs with more than one token, to differentiate "security
 
 Overall, the sum of all the tokens secured by the same blockchain is called a _token eco-system_.
 
-Projects typically document their token eco-system on a scientific paper known as "whitepaper".
+Projects typically document their token eco-system on a scientific paper known as a "whitepaper".
 
-## Types of crypto
+## Types of digital assets
 
-There are two types of digital assets in the crypto and blockchain economy.
+There are two types of assets in the crypto and blockchain economy.
 
 ### Native
 
@@ -34,9 +34,8 @@ Examples of native coins: Bitcoin, Litecoin, Ether, Monero.
 
 Tokens are not built on their own blockchain.
 
-At first, cryptocurrency developers had to create new blockchains for new projects, a process that required a broad array of skills including cryptography, advanced computer science and mathematics.
+At first, developers had to create new blockchains for new projects, a process that required a broad array of skills including cryptography, advanced computer science, game theory, mathematics and more.
 
-Today, there are many blockchains, protocols and platforms with easy to use software development kits that facilitate the issuance of new tokens.  
 Rather than building everything from scratch, developers are provided with a safe environment for tokens to be deployed and mature.
 
 Examples of blockchain platforms: Ethereum, Neo, Waves, Omni  
@@ -44,8 +43,8 @@ Examples of secondary tokens: Gnosis, Bancor
 
 ## Functions
 
-Digital assets issued during a ICO/TGE/token-sale can have many functions.
-Here we present potential token functions but keep in mind that they are a very new concept.
+Digital assets issued during an ICO can have many functions.
+Here we present potential token functions, but keep in mind that they are a very new concept.
 Today, their potential is far from being fully exploited.
 
 ### Medium of exchange
@@ -65,7 +64,7 @@ For instance, by holding a fictive token called TRADE, you may be able to access
 
 ### Ownership
 
-Centralised financial exchanges help investors facilitate the purchase and sale of instruments such as stocks, bonds or derivatives.  Tokens can also transfer value but without a third party involved in the middle.
+Centralised financial exchanges help investors facilitate the purchase and sale of instruments such as stocks, bonds or derivatives. Tokens could theoritically transfer stock without a broker.
 
 Moreover, investing in a start-up might suggest a cumbersome legal and financial process before the issuance of a shareholder agreement.
 
@@ -82,25 +81,25 @@ Generally, a token with incentive functions also holds medium of exchange functi
 
 ### Fuel
 
-Just like Ether is considered as “digital fuel”, many other tokens can have similar functionalities.
-Smart contract development platforms require “fuel” to send and run lines of code on a decentralised virtual machine (computer plugged on the network).
+Just like Ether is considered as “digital oil”, other tokens can share similar functionnalities and be used to pay for computational resources.
+For instance, smart contract development platforms require “fuel” to send and run lines of code on a decentralised virtual machine (computer plugged on the network).
 
-Fuel tokens incentivise developers to deploy efficient code (long code requires more fuel) and reduce spamming and attacks.
+Fuel tokens incentivise developers to deploy efficient code (long code requires more fuel), reduce spamming and attacks.
 
 ### Governance
 
 Decentralised Autonomous Organisation can automate interactions and establish new relationships between stakeholders.
-As such, a token can grant to its holders the power to vote and streamline any decision-making process in an organisation.
+As such, a token can grant its holders the power to vote and streamline any decision-making process in an organisation.
 
-For instance, asset management DAOs can issue tokens to its investors, depending on how much they chipped in.
+For instance, asset management DAOs can issue tokens in proportion to investment.  
 Token holders can then vote for projects they believe worth investing. Of course, their “vote weights” are pre-determined by the DAO rules, coded in a smart contract.
 
 ### Community
 
-Similar to governing functions, tokens can help stakeholders interact amongst each other within a tokenised eco-system focused on content curation.
+Similar to governing functions, tokens can help stakeholders interact amongst each other within a tokenised eco-system focused for instance on curating pictures or blogs.
 
-For instance, decentralised social media applications can grant the ability to readers to reward publishers and content creators fairly with a token.
-Such tokens could also facilitate digital media operations such as likes, shares or comments.
+For instance, decentralised social media applications can grant the ability to readers to reward publishers and content creators fairly with tokens.  
+Such tokens could also facilitate digital media activities such as likes, shares or comments.
 
 ### Asset-backed
 
@@ -109,10 +108,9 @@ Asset-backed tokens are similar to “I Owe You” (I Owe You) financial instrum
 In a blockchain context, a token can represent an asset that can be claimed from the token issuer.
 For instance, one unit of the fictive token GOLD can represent one ounce of gold, and be exchanged digitally between stakeholders without actually moving anything physically.
 
-Asset-backed tokens make immovable assets _digitally transferable_, however, the token has value only if it can be exchanged with the asset easily.
-This process requires thorough due diligence and monitoring, as fraudulent projects could easily deny claims on assets.
+Asset-backed tokens make immovable assets _digitally transferable_, however, the token has value only if it can be easily exchanged for the asset. This process requires thorough due diligence and monitoring, as fraudulent projects could easily deny claims on assets.
 
-For instance, if the token GOLD does not facilitate a rapid and easy way to claim a pre-determined physical amount of gold, the token loses its utility.
+For instance, if the token GOLD does not facilitate a rapid and easy way to claim a pre-determined physical amount of gold, the token loses its utility.  
 It becomes an asset-backed token backed by … nothing.
 
 ### Donation
@@ -124,4 +122,5 @@ In this scenario, these tokens would be useful for compliance and audit purposes
 Tokens can hold a combination of the above functions. We recommend you to fully understand both the token eco-system and the functions of the tokens before purchasing any.
 
 The most conventional and easy to grasp tokens are “ownership” ones.
-However, such digital assets are considered by many jurisdictions as a security and therefore are regulated by legal frameworks.  It is not because most of them are unregulated today that they will stay unregulated tomorrow.
+However, such digital assets are considered by many jurisdictions as a security and therefore are regulated by legal frameworks.  
+It is not because the majority are unregulated today, that they will remain unregulated tomorrow.
