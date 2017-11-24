@@ -9,7 +9,7 @@ draft = false
 ticker = "SGN"
 startDate = 2017-11-22
 endDate = 2017-12-22
-rating = "N/A"
+rating = "90"
 origin = "Czech Republic, 2017"
 industry = "Data science marketplace"
 platform = "Ethereum"
@@ -103,12 +103,18 @@ currencyAccepted = "ETH"
 
 **Why are we doing this?**
 
-We no longer want to rely on our gut while trading crypto trading currencies. We are well aware of the power that lies in machine learning, and we want to use it for human profit.
+We no longer want to rely on our gut while trading crypto trading currencies. We are well aware of the power that lies in machine learning, and we want to use it for human profit.  
 The idea behind Signals is based on modular framework, written in Microsoft .NET technology using C# language, which we have developed for monitoring cryptocurrencies movements by using various combinations of indicators.
-Now we are working to extend this framework where developers could monetize their indicators. We strive to connect data science developers with crypto traders and empower crypto traders with state of the art algorithms from the data science community, which will allow them to optimize their profits.
-The visual interface of Signals is called Strategy Builder. This interface will allow you to assemble a automated trading strategy out of trading indicators without any programming skills. Anyone will be able to backtest his/her trading strategy on historical data. Once properly optimized, a trading strategy can be connected to crypto exchange so the user can optimize his/her profits. We’ll offer an option to receive a notification or set automatic Buy/Sell signal when prices surge.)
+Now we are working to extend this framework where developers could monetize their indicators. We strive to connect data science developers with crypto traders and empower crypto traders with state of the art algorithms from the data science community, which will allow them to optimize their profits.  
+
+The visual interface of Signals is called Strategy Builder.  
+This interface will allow you to assemble a automated trading strategy out of trading indicators without any programming skills.  
+Anyone will be able to backtest his/her trading strategy on historical data. Once properly optimized, a trading strategy can be connected to crypto exchange so the user can optimize his/her profits.  
+
+We’ll offer an option to receive a notification or set automatic Buy/Sell signal when prices surge).
 The Strategy Builder is connected to our custom marketplaces for trading indicators, strategies, and data.
-Indicators Marketplace (Developers will be able to upload their own algorithms and wrap them in user-friendly components, so-called indicators).
+Indicators Marketplace (Developers will be able to upload their own algorithms and wrap them in user-friendly components, so-called indicators).  
+
 Strategy Marketplace (Any user a who is confident about his trading strategy will be able to offer it for copy trading.)
 Data Marketplace (Users and external vendors will be able to monetize their unique data sets by offering them to others.)
 Additionally, the Signals platform will offer social network features in order to connect cryptotraders with the developers and the data science community.
@@ -116,5 +122,6 @@ If you’re interested how we’re progressing and what is still ahead of us, pl
 
 **How can you help make it possible?**
 
-We’re raising funds via an SGN token two-phase sale. Signals (SGN) token is a standard ERC20 token and can be stored and transferred using the generic Ethereum wallet. 75 million tokens (50% of all generated tokens) will be offered in a two-phase token sale. Approximately 2 million units offered during the pre-sale which will start on November 22 at 14:00 UTC.
+We’re raising funds via an SGN token two-phase sale. Signals (SGN) token is a standard ERC20 token and can be stored and transferred using the generic Ethereum wallet. 75 million tokens (50% of all generated tokens) will be offered in a two-phase token sale. Approximately 2 million units offered during the pre-sale which will start on November 22 at 14:00 UTC.  
+
 SGN token owners will not only hold a part of the Signals Network success but also will be able to assemble their crypto-trading models based on premium indicators developed by data science community, perform complex machine learning experiments using a super computer on historical data, or rent and copy-trade other successful strategies in Signals marketplace.
