@@ -42,7 +42,7 @@ currencyAccepted = "ETH"
       cut = "20%"
       supply = "30,000,000"
       value = "10,000,000"
-    [valuation.rows.]
+    [valuation.rows.reserve]
       distribution = "Company reserve"
       cut = "18%"
       supply = "27,000,000"
