@@ -1,6 +1,6 @@
 +++
-title = "ICO / Token Sale Listing"
-description = "Get your project listed on tropyc for free"
+title = "Get listed for free"
+description = "Project raising funds via an ICO/tokensale can get their project listed on tropyc to increase their visibility"
 +++
 
 <div class="container">
@@ -132,7 +132,7 @@ description = "Get your project listed on tropyc for free"
         </fieldset>
         <hr class="my-5">
         <input type="hidden" name="_subject" value="Token Sale Listing - New submission" />
-        <button type="submit" class="btn btn-primary d-block mx-auto">Submit Application</button>
+        <button type="submit" class="btn btn-primary d-block mx-auto">Publish Project</button>
       </form>
     </div>
   </div>

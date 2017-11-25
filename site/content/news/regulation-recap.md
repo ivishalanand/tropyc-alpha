@@ -1,5 +1,5 @@
 +++
-title = "Different central banks prepare different cryptocurrency regulation"
+title = "Recap: financial regulation"
 date = 2017-11-25T20:07:03+02:00
 categories = ["Bank"]
 draft = false
