@@ -1,16 +1,15 @@
 +++
 title = "Different central banks prepare different cryptocurrency regulation"
 date = 2017-11-25T20:07:03+02:00
-categories = ["BANK"]
+categories = ["Bank"]
 draft = false
 description = "Many financial regulators have expressed their plans to regulate cryptocurrencies, here's a recap of the situation in 7 countries"
 weight = 10
 images = ["images/news/regulation-recap.png"]
 +++
 
-
-Country-specific central banks all have their way of handling the blockchain and cryptocurrency revolution, whether they are all-embracing or on the defensive side.  
-As the last week, has been full of announcements from financial regulators, here's a recap of the situation:
+Country-specific central banks all have their own way of handling the blockchain and cryptocurrency revolution, whether they are all-embracing or on the defensive side.  
+As the last week has been full of announcements from financial regulators, here's a recap of the situation:
 
 ## Zimbabwe says Bitcoin is not legal
 
@@ -18,8 +17,8 @@ Shortly after the resignation of 92-year-old president Robert Mugabe, Reserve Ba
 
 >"In terms of Bitcoin, as far as we are concerned, it is not actually legal. In Southern Africa, what we have done as regulators, we have said that we will allow this in our markets".
 
-The RBZ approach has been around prevention and advising the people to undertake cautionary steps before entering the cryptocurrency investment.  
-The Bitcoin mania was introduced in mid-July 2015 by the MMM Ponzi scheme, where over 60,000 investors lost their capital.
+The RBZ approach has been around prevention and advising the people to undertake cautionary steps before entering the cryptocurrency market.  
+The Bitcoin mania was introduced in mid-July 2015 by the <a href="https://en.wikipedia.org/wiki/MMM_(Ponzi_scheme_company)" target="_blank">MMM Ponzi scheme</a>, where over 60,000 investors lost their capital.
 
 ## Malaysia focused on criminal activities
 
@@ -39,7 +38,7 @@ Securities and Exchange Commission (SEC) commissioner Emilio Aquino told during 
 
 The objective is to align with global legislation as depicted in the US, Hong Kong or Thailand to consider digital assets securities.
 
-Furthermore, Aquino revealed a collaboration between the regulator and the central bank to licensing of exchanges. In fact, a couple of domestic cryptocurrency exchanges have already registered with the government, but are still restricted
+Furthermore, Aquino revealed a collaboration between the regulator and the central bank regarding licensing of exchanges. In fact, a couple of domestic cryptocurrency exchanges have already registered with the government, but are still restricted
 
 ## For the Swiss, Bitcoin is more investment than currency
 
@@ -48,7 +47,6 @@ Swiss National Bank Chairman Thomas Jordan stated local central bank is working 
 He further stated that he sees Bitcoin (and cryptocurrencies) "more as an investment than a form of currency", <a href="https://www.reuters.com/article/us-swiss-snb/snbs-jordan-sees-crypto-currencies-as-more-of-investment-than-currency-idUSKBN1DN1ZM" target="_blank"> a Reuters report says</a>.
 
 While Switzerland is still investigating about a possible implementation of cryptocurrencies in their monetary policy, Jordan admitted that they "can potentially strongly affect the financial system".
-
 
 ## Singapore expands scope of Payment Bill to cryptocurrencies
 

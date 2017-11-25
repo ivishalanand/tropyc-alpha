@@ -38,9 +38,9 @@ description = "Get your project listed on tropyc for free"
           </div>
         </div>
         <div class="form-group">
-          <label for="country">Origin</label>
-          <input type="text" name="origin" class="form-control form-control-sm" id="country" aria-describedby="countryHelp">
-          <small id="countryHelp" class="form-text text-muted">i.e. Singapore 2017, USA 2014</small>
+          <label for="origin">Origin</label>
+          <input type="text" name="origin" class="form-control form-control-sm" id="origin" aria-describedby="originHelp">
+          <small id="originHelp" class="form-text text-muted">i.e. Singapore 2017, USA 2014</small>
         </div>
         <div class="form-group">
           <label for="blockchainTokenType">Blockchain and token type</label>
@@ -53,8 +53,8 @@ description = "Get your project listed on tropyc for free"
           <small id="industryHelp" class="form-text text-muted">i.e. Asset managment, Attention economy, Software, Media</small>
         </div>
         <div class="form-group">
-          <label for="oneLine">One liner</label>
-          <textarea name="oneLine" class="form-control form-control-sm" id="oneLine" rows="1" placeholder="Describe your project up to 10 words"></textarea>
+          <label for="oneLiner">One liner</label>
+          <textarea name="oneLiner" class="form-control form-control-sm" id="oneLiner" rows="2" placeholder="Describe your project up to 10 words"></textarea>
         </div>
         <div class="form-group">
           <label for="about">About</label>
@@ -68,9 +68,9 @@ description = "Get your project listed on tropyc for free"
           <small id="tickerHelp" class="form-text text-muted">i.e. BTC for Bitcoin, ETH for Ethereum, XXX for your ICO</small>
         </div>
         <div class="form-group">
-          <label for="ticker">Accepted currencies</label>
-          <input type="text" name="acceptedCurrency" class="form-control form-control-sm" id="acceptedCurrency">
-          <small id="tickerHelp" class="form-text text-muted">i.e. BTC for Bitcoin, ETH for Ethereum, XXX for your ICO</small>
+          <label for="acceptedCurrencies">Accepted currencies</label>
+          <input type="text" name="acceptedCurrencies" class="form-control form-control-sm" id="acceptedCurrencies">
+          <small id="acceptedCurrencies" class="form-text text-muted">i.e. BTC, ETH, USD</small>
         </div>
         <fieldset class="form-group">
           <div class="form-check">
