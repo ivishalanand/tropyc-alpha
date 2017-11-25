@@ -1,10 +1,10 @@
 +++
 title = "A summary of Bitfinex and Tether's case"
-date = 2017-11-22T20:07:03+02:00
+date = 2017-11-23T20:07:03+02:00
 categories = ["Bank"]
 draft = false
 description = "itFinex has been hacked for the third time in three years, revealing cloudy financial practices"
-weight = 10
+weight = 20
 images = ["images/news/summary-bitfinex.png"]
 +++
 

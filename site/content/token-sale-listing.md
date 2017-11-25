@@ -38,9 +38,9 @@ description = "Get your project listed on tropyc for free"
           </div>
         </div>
         <div class="form-group">
-          <label for="country">Country</label>
-          <input type="text" name="country" class="form-control form-control-sm" id="country" aria-describedby="countryHelp">
-          <small id="countryHelp" class="form-text text-muted">i.e. Singapore, USA</small>
+          <label for="country">Origin</label>
+          <input type="text" name="origin" class="form-control form-control-sm" id="country" aria-describedby="countryHelp">
+          <small id="countryHelp" class="form-text text-muted">i.e. Singapore 2017, USA 2014</small>
         </div>
         <div class="form-group">
           <label for="blockchainTokenType">Blockchain and token type</label>
@@ -53,6 +53,10 @@ description = "Get your project listed on tropyc for free"
           <small id="industryHelp" class="form-text text-muted">i.e. Asset managment, Attention economy, Software, Media</small>
         </div>
         <div class="form-group">
+          <label for="oneLine">One liner</label>
+          <textarea name="oneLine" class="form-control form-control-sm" id="oneLine" rows="1" placeholder="Describe your project up to 10 words"></textarea>
+        </div>
+        <div class="form-group">
           <label for="about">About</label>
           <textarea name="about" class="form-control form-control-sm" id="about" rows="6" placeholder="Tell us more about your project"></textarea>
         </div>
@@ -61,7 +65,12 @@ description = "Get your project listed on tropyc for free"
         <div class="form-group">
           <label for="ticker">Units Ticker</label>
           <input type="text" name="ticker" class="form-control form-control-sm" id="ticker">
-          <small id="tickerHelp" class="form-text text-muted">i.e. BTC, ETH, LTC</small>
+          <small id="tickerHelp" class="form-text text-muted">i.e. BTC for Bitcoin, ETH for Ethereum, XXX for your ICO</small>
+        </div>
+        <div class="form-group">
+          <label for="ticker">Accepted currencies</label>
+          <input type="text" name="acceptedCurrency" class="form-control form-control-sm" id="acceptedCurrency">
+          <small id="tickerHelp" class="form-text text-muted">i.e. BTC for Bitcoin, ETH for Ethereum, XXX for your ICO</small>
         </div>
         <fieldset class="form-group">
           <div class="form-check">
@@ -84,7 +93,11 @@ description = "Get your project listed on tropyc for free"
         <div class="form-group">
           <label for="hardCap">Hard cap of the sale</label>
           <input type="text" name="hardCap" class="form-control form-control-sm" id="hardCap" aria-describedby="hardCapHelp" placeholder="$20,000,000 or 60,000 ETH">
-          <small id="hardCapHelp" class="form-text text-muted">Hardcap on the ICO and not on the token total supply. If no hard cap, type 0</small>
+          <small id="hardCapHelp" class="form-text text-muted">Hardcap on the ICO, not on the token total supply. If no hard cap, type 0</small>
+        </div>
+        <div class="form-group">
+          <label for="allocation">Fund allocation</label>
+          <textarea name="allocation" class="form-control form-control-sm" id="allocation" rows="6" placeholder="How will you spend the funds?, i.e. &#10; - Product development = 50% &#10; - Marketing = 20% &#10; - HR = 10% &#10; - ..."></textarea>
         </div>
         <hr class="my-5">
         <h2 class="h3 text-center bg-primary p-2 text-white my-5">LINKS</h2>
