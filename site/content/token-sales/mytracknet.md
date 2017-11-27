@@ -28,7 +28,7 @@ currencyAccepted = "BTC, ETH, LTC, WAV"
   [valuation.info]
     recap = "Based on hard cap."
   [valuation.headers]
-    header = "ETH"
+    header = "USD"
   [valuation.rows]
     [valuation.rows.ico]
       distribution = "pre-ICO"
@@ -36,7 +36,7 @@ currencyAccepted = "BTC, ETH, LTC, WAV"
       supply = "20,000,000"
       value = "1,200,000"
     [valuation.rows.futureico]
-      distribution = "Unknown"
+      distribution = "ICO"
       cut = "70%"
       supply = "70,000,000"
       value = "4,200,000"
@@ -53,7 +53,7 @@ currencyAccepted = "BTC, ETH, LTC, WAV"
     [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
-      supply = 100,000,000"
+      supply = "100,000,000"
       value = "6,000,000"
 
 [allocation]
