@@ -13,7 +13,7 @@ rating = "91"
 origin = "USA"
 industry = "Gaming"
 platform = "Ethereum"
-currencyAccepted = "ETH, USD (SAFT)"
+currencyAccepted = "ETH"
 
 [links]
   website = "https://tokensale.gizer.io"
@@ -102,8 +102,8 @@ currencyAccepted = "ETH, USD (SAFT)"
   mvp = true
   openDev = true
   beta = true
-  workingProduct = false
-  community = false
+  workingProduct = true
+  community = true
   expansion = false
   profit = false
 +++
