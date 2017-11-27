@@ -7,8 +7,8 @@ weight = 20
 draft = false
 
 ticker = "FLUZ"
-startDate = 2017-12-11
-endDate = 2017-12-30
+startDate = 2018-01-18
+endDate = 2018-02-22
 rating = "90"
 origin = "Columbia"
 industry = "Consumer Network"
@@ -23,7 +23,7 @@ currencyAccepted = "BTC, ETH"
   github = "fluzfluz"
   telegram = "fluzfluz"
   medium = "fluzfluz"
-  youtube = "hDAdaIQO-Og&t=5s"
+  youtube = "hDAdaIQO-Og"
   slack = "fluzfluz"
   whitepaper = "https://ico.fluzfluz.com/docs/ICO-Fluz-Fluz-Whitepaper.pdf"
 
