@@ -7,36 +7,20 @@ bref = "Invest, Part III"
 toc = true
 +++
 
-Once you designed your cryptocurrency portfolio, you might want to make some changes: whether by opening or closing positions.
-
-In fact, investing is about locking profits or at least minimising your losses - so don't leave your portfolio idle for more than you initially expected, otherwise you might get some surprises.
-
-Remember, no matter what, no trader or algorithm will have the secret recipe to determine by how much the cryptocurrency market will grow (or any market for that matter).
-
-On one side, prices are incredibly volatile compared to conventional markets, and on the other, innovation has been so extreme that cutting-edge blockchain technology is continuously being introduced which may just make some of the recently issued tokens obsolete.
-
-Here's an introduction to portfolio management and rebalancing strategies. This guide should not be considered as investment advice, but instead, as a narrative to educate cryptocurrency enthusiasts about investment strategies.
-
 ## Best Practices
 
-No matter what, because of the volatile nature of the cryptocurrency market, the primary objective here - besides making profits - is to protect yourself from the risks of cryptocurrency while investing the least amount of time.
-
-Here we compiled a list of best practices when investing in the cryptocurrency market.
-
-### Fund allocation
-
-Understand how to manage your funds, depending on your profile and market involvement.
+One of the primary objectives- besides making profits - is to protect yourself from the volatility of the cryptocurrency market, while investing the least amount of time.
 
 #### Investing versus Trading
 
 Investing and Trading are two different approaches to wealth creation in the cryptocurrency market.
-The former considers profitability as a long-term objective, while the latter has a shorter lifespan.
+The former considers profitability as a long-term objective, whilest the latter has a shorter lifespan.
 
 Investing has a long-term outlook and determines a portfolio based on your risk and timeline expectations to create wealth in the future. You may either invest in floating tokens or newly introduced ones via ICOs / tokensales.
 
 Trading is more about seeking quick opportunities by opening positions with a short lifespan. As the cryptocurrency prices move swiftly, trading can create or dismantle wealth at a faster pace than investing.
 
-In general, investing is more about analysing fundamentals, while trading is about investigating market behaviours.
+In general, investing is more about analysing fundamentals, whereas trading is about investigating market behaviours.
 
 Overall, do not stick to one strategy: **always keep a balanced portfolio of investing and trading**.
 
@@ -44,24 +28,24 @@ Overall, do not stick to one strategy: **always keep a balanced portfolio of inv
 
 Pouring money into the cryptocurrency market does not necessarily mean always _owning_ cryptocurrencies or assets.
 
-As such we recommend always to own a small proportion of your portfolio in fiat, this will reduce your exposition to price volatility.
-In the event of market crashes, you might want to start buying more cryptocurrencies at a lower price.
+Own a small proportion of your portfolio in fiat, it will reduce exposition to price volatility.  
+In the event of a market crash, you might want to start buying more cryptocurrencies at a lower price.
 
 Consider it as an emergency reserve, which varies based on the state of the market, your risk aversion and trading operations.
 
 ### Position, stop loss, take profit
 
-Most of the traders have more losing trades than winning trades, but manage to have a profitable portfolio.
+Most traders have more losing trades than winning trades, but manage to have a profitable portfolio.
 
-Losing trades should incur a minimal loss while winning trades should get a high return on investment.
+Losing trades should incur a minimal loss whilest winning trades should get a high return on investment.
 
-You can bet the price will go up by opening a _long position_ or that the price will go down by opening a _short position_.
+You can bet on the price going up by opening a _long position_ or that on price going down by opening a _short position_.
 
-However, before entering a position, it is essential to understand when to close it in both scenarios: whether in profit or loss.
-As such, set your position targets either from a time or price perspective - and stick to them.
+Before entering a position, it is essential to understand when to close it in both scenarios, profit or loss.
+As such, set your targets either from a time or price perspective - and stick to them.
 
-A smart way to set-up your positions is to automate your exit depending on market fluctuations.
-As such, most of the exchanges offer Stop Loss and Take Profit trade operations on their platform.
+A smart way to set-up your positions is to automate your exit depending on market fluctuations.  
+Most of the exchanges offer Stop Loss and Take Profit trade operations on their platforms.
 
 * **Stop Loss:** order to sell/buy an asset to minimise losses.
   * Long: triggered when the price goes below a pre-defined price.
@@ -73,17 +57,16 @@ As such, most of the exchanges offer Stop Loss and Take Profit trade operations 
 
 In some cases, i.e. swing trading or position trading, you may want to let your positions run without target as long as you are making gains.
 
-**"Cut your losses short and let your winners run."**
+"Cut your losses short and let your winners run."
 
 ### Unit of account
 
-In the previous chapter,we saw that there were two different units of account: _crypto to fiat_ and _crypto to crypto_.
+There are two different units of account: _crypto to fiat_ and _crypto to crypto_.
 
 #### Keep it simple
 
 Newcomers might get confused with moving from fiat priced assets to Bitcoin or Ethereum priced assets.
-At first, keep it simple and avoid switching from fiat to crypto units of account multiple times.
-You might lose track of your performance in the process.
+At first, keep it simple and avoid switching from fiat to crypto units: you might lose track of your performance in the process.
 
 When investing in the crypto/crypto unit of account, the primary goal **is to grow faster than Bitcoin or Ethereum does in fiat.**
 
@@ -95,21 +78,15 @@ It is not uncommon to see a steep variation of prices in the same assets.
 
 For instance, consider the following triangular arbitrage opportunity:
 
-* A fiat exchange lists the price of Bitcoin at 1,000 EUR.
+* An exchange lists the price of Bitcoin at 1,000 EUR and ExampleCoin at 110 EUR.
 
-* Another exchange lists the price of ExampleCoin at 0.1 Bitcoin.
+* Another one lists the price of ExampleCoin at 0.1 Bitcoin.
 
-* The same exchange lists the price of ExampleCoin at 110 EUR.
-
-If you buy 1 Bitcoin at 1,000 EUR sell it off for ExampleCoins priced at 0.1 Bitcoin, you will get 10 ExampleCoins.  
-Finally, you can sell them at 110 EUR each to lock a total profit of 100 EUR.
-
+With 1,000 EUR, you can buy a Bitcoin, trade it for 10 Example coin and sell them of for 110 EUR until the market readjusts.  
 Arbitrage trading can be very profitable if well operated, however, before stepping in, don't forget to take into account trading and transaction fees (both exchange and network).
 
-Still, we advise you to arbitrage only on an extremely short-term basis. Otherwise, you might overexpose your portfolio to steep price variation.
-
+Still, we advise you to arbitrage only on an extremely short-term basis. Otherwise, you might overexpose your portfolio to steep price variation.  
 A long-term triangular arbitrage position is an uncontrolled risk.  
-It's a bit like rolling the dice, so be careful!
 
 #### Stick to pairs that make sense
 

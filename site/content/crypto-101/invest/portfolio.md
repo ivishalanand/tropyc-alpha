@@ -142,87 +142,35 @@ Kindly refer to the third part of this chapter "Diversification".
 
 **Problem**
 
-If you are reading these lines you might be thinking like us: blockchain and digital tokens are the next web revolution and shaping a new kind of decentralised economy.
-
-However, we are still at a very nascent stage, and nothing is guaranteed: cryptocurrencies might not end well - or at least a huge chunk of them might become irrelevant.
+We are still at an early stage in cryptocurrency, since the market is in testing mode, most assets might become obsolete.
 
 With all the price volatility, hacking risks and fraudulent investment opportunities, cryptocurrency investors are vulnerable to lose their capital in a short amount of time.  
 Inversely, prices might go through the roof and return considerable profits.
 
 On one hand, cryptocurrencies have introduced new financial instruments to investors, but on the other hand, they also come with substantial risks.
 
-Having the opportunity to transact in the flourishing decentralised economy and keeping control over your capital comes with new externalities that might just make your day a little bit more stressful and a bit more exciting.
+Having the opportunity to transact in the flourishing decentralised economy and keeping control over your capital comes with a new set of externalities that might just make your day a little bit more stressful and a bit more exciting.
 
 **Solution**
 
-It's not because you entered the crypto market that you have to change your investment behaviour and decisions.
+It's not because you have entered the crypto market that you have to change your investment behaviour and decision making.
 
-Furthermore, if you set up your wallets as explained in our [second tutorial](/crypto-101/wallets), this will reduce probability of a digital attack.
+If you set up your wallets as explained in [chapter two](../crypto-101), this will reduce probability of a digital attack.
 
-But remember: _scared money makes no money!_
 
 ## Set-up
 
-Okay, now that you know the fundamentals and understand the risk of investing in crypto, it's high time to get our hands dirty.
 
-### Savings
 
-First things first: how much money are you supposed to invest in crypto?
+As Xapo's CEO Wences Casares [said](https://forum.bitcoin.com/ama-ask-me-anything/i-am-wences-casares-co-founder-ceo-of-xapo-ask-me-anything-t2025-30.html)  
 
-As Xapo's CEO Wences Casares said [here](https://forum.bitcoin.com/ama-ask-me-anything/i-am-wences-casares-co-founder-ceo-of-xapo-ask-me-anything-t2025-30.html)
-"I always tell them (my family) that the second most stupid thing they could do right now is to own an amount of bitcoins they cannot afford to lose and the most stupid thing they could do would be not to own any."
+>"I always tell them (my family) that the second most stupid thing they could do right now is to own an amount of bitcoins they cannot afford to lose and the most stupid thing they could do would be not to own any."
 
-Well, as a reminder, we are no financial advisors, but we can still give you a ballpark figure.
 
-1. Start with how much you are willing to save from your monthly income. We can't help you with that, but try to save as much as you can!
-
-2. Once you figured out how much you are willing to save, the below matrix may help you understand your level of risk aversion based on how much of your savings you want to allocate to the cryptocurrency market.
-
-<table class="table table-sm table-striped">
-  <thead>
-    <tr class="text-center font-weight-bold">
-      <th class="text-center">Crypto / Savings</th>
-      <th class="text-center">Profile</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="text-center">0 - 5%</td>
-      <td class="text-center">Prudent</td>
-    </tr>
-    <tr>
-      <td class="text-center">5 - 10%</td>
-      <td class="text-center">Moderate</td>
-    </tr>
-    <tr>
-      <td class="text-center">20 - 30%</td>
-      <td class="text-center">Controlled</td>
-    </tr>
-    <tr>
-      <td class="text-center">30 - 50%</td>
-      <td class="text-center">High exposition</td>
-    </tr>
-    <tr>
-      <td class="text-center">50 - 100%</td>
-      <td class="text-center">Over exposition</td>
-    </tr>
-  </tbody>
-</table>
-
-### Wallets and storage
-
-Don't rush into cryptocurrency!  
-Just like sending an e-mail, working on spreadsheets or navigating the world wide web, you need to learn basic skills before adventuring yourself in the crypto world.
-
-Get the technical literacy to know how to secure your tokens, send them across and build your transaction systems.
-
-Only then, you can start your voyage into the crypto world.
-
+Before you start, get the technical literacy to know how to secure your tokens, send them across wallets and build your transaction systems.  
 Just like in the real world, you'll have to set up savings and current account in cryptocurrency.
 
-This is how we like to divide our crypto wealth :
-
-<table class="table table-sm table-striped">
+<table class="table table-sm my-5 table-striped">
   <thead>
     <tr class="text-center font-weight-bold">
       <th class="text-center">Account</th>
@@ -245,29 +193,11 @@ This is how we like to divide our crypto wealth :
   </tbody>
 </table>
 
-### When to buy
+Then document yourself on what's happening in the space before you start diversifying.  
+Modern portfolio strategy is an investment strategy based on asset diversification: you don't have to put all your eggs in one basket.
+Your portolio's level of diversification should illustrate your risk appetite.
 
-**Basics**
-
-Here, we are stating the obvious: if you want to make a profit _buy low_ and _sell high_, not rocket science.  
-Avoid entering a position when prices are unstable or going parabolic.
-
-**Automated and periodic investment**
-
-A smart way to invest in cryptocurrency, if charting and trading is not your thing, is to follow a planned periodic investment mechanism.  
-Here, you need to invest periodically, the same amount of money.  
-For instance, you can invest 50$ in Bitcoin and 50$ in Ethereum every Saturday morning when you wake up!
-
-## Diversification
-
-At tropyc,  we follow an investment strategy based on asset diversification also known as _modern portfolio strategy_. This way, you won't have to put all your eggs in one basket.
-
-You can still focus, for instance, on a handful of industries; but bottom line is that your portolio's level of diversification should illustrate your risk appetite.
-
-At first, keep it simple, invest in established cryptocurrencies that you think will have utility and value in the future (no "shitcoins"!).
-Afterwards, you can start diversifying your portfolio and enter riskier investments.
-
-We identified all the variables to take into account when building a customised and diversified portfolio.
+Here are some variables to take into account when building a customised and diversified portfolio.
 
 ### Markets (fiat versus Bitcoin)
 
@@ -275,55 +205,68 @@ There are currently two units of account in the cryptocurrency economy:
 
 **Fiat to crypto**
 
-Only established and high market capitalisation tokens are listed with fiat currencies.
-Because exchanges could be somewhat liable for selling securities in a future legal framework, they tend to carefully review any cryptocurrencies before introducing them to USD and EUR markets.
+Only established and high market capitalisation tokens are listed with fiat currencies, less than fifty. A majority of the remaining thousand tokens are priced in Bitcoin and Ether.
 
-Still, most of the exchanges stay under the radar by only selling Bitcoin, Litecoin and Ethereum.
+Most of the fiat to crypto exchanges only sell Bitcoin, Litecoin and Ethereum.
 
-_Investing in crypto with fiat means betting the price of a unit of crypto will raise_
+_Investing in crypto with fiat means betting the price of a unit of crypto will increase_
 
 **BTC / ETH to crypto**
 
 Every single token is priced in Bitcoin, and a majority are also priced in Ether.
 
-A jump in fiat price of Bitcoin or Ether will suddenly increase the market capitalisation of every token that is solely listed on exchanges.
+A jump in fiat price of Bitcoin or Ether will suddenly increase the market capitalisation of every token.
 
-For instance, if Ether goes from $250 to $500 per unit, tokens listed in Ether will see their market capitalisation double in the same amount of time, _ceteris paribus_.  
+For instance, if Ether goes from $250 to $500 per unit, tokens listed in Ether will see their market capitalisation double in the same amount of time.
 In this scenario, this would create a downward pressure (sell) on altcoins.
 
 _Investing in an altcoin with Bitcoin or Ether implies that the price of the altcoin will increase faster than the price of Bitcoin or Ether in fiat._
 
-### Industry
+### Market
 
-Cryptocurrencies are disrupting every industry at scale with the blockchain decentralisation drive.  
-An easy way to build your portfolio is to diversify it according to industries.  
-For instance, here are a few tokens classified by their industries:
+An easy way to build your portfolio is to diversify it according to market and product:
 
-* Smart Contract: Ethereum, NEO
-* Gaming: FirstBlood, Gaming credits, Round
-* Asset Management: Iconomi, Melon
-* Attention economy: Basic Attention Token, Steemit, Synereo
-* Prediction: Augur, Gnosis
-* Privacy-focused: Monero, ZCash, Verge
-
-Rather than diversifying your portfolio in every single industry, invest in the ones that you feel will have large-scale adoption in a short matter of time.
+<table class="table table-sm my-5 table-striped">
+  <tbody>
+    <tr>
+      <td class="text-center">Smart contract</td>
+      <td class="text-center">Ethereum, NEO</td>
+    </tr>
+    <tr>
+      <td class="text-center">Asset management</td>
+      <td class="text-center">Iconomi, Melon</td>
+    </tr>
+    <tr>
+      <td class="text-center">Gaming</td>
+      <td class="text-center">GamingCredits, FirstBlood</td>
+    </tr>
+    <tr>
+      <td class="text-center">Attention economy</td>
+      <td class="text-center">Basic Attention Token, Steemit</td>
+    </tr>
+    <tr>
+      <td class="text-center">Prediction market</td>
+      <td class="text-center">Augur, Gnosis</td>
+    <tr>
+      <td class="text-center">Privacy-focused</td>
+      <td class="text-center">Monero, ZCash</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Capitalisation level
 
 The crypto market offers large market cap tokens as well as "penny" tokens with a minuscule total token supply valuation.
-
 Naturally, the larger the market capitalisation, the more established it is considered by the market.
 
-However, do not forget to evaluate tokens based both on _total supply_ and _circulating supply_.
+It is important to evaluate tokens based both on _total supply_ and _circulating supply_.
 
-Additionally, a large market capitalisation does not necessarily mean an investment is less risky: the price can drop from higher and dilute your position.
+Additionally, a large market capitalisation does not necessarily mean an investment is less risky: the price can drop and dilute your position.
 
 * HIGH: Top 20-30 tokens
 * MID: Tokens with a valuation of more than $50-$100 million
 * LOW: newly introduced tokens with low valuations
 * ICO: Tokens about to be launched by their founders
-
-A strong cryptocurrency portfolio should reflect the current state of the economy and be a healthy mix of ICOs, low, middle and high capitalisation tokens.
 
 ### Token generation
 
@@ -337,28 +280,16 @@ Bitcoin and Litecoin amongst other first-generation tokens provide the same util
 **2nd gen: Smart contract development**
 
 The second generation, pioneered by Ethereum, enables the development of smart contracts on top of a blockchain.  
-More than settling financial transactions, the second generation allows the programming and automation of interactions and facilitates the access to blockchain technology.
+More than settling financial transactions, the second generation facilitates the access to blockchain technology, supplies a cryptographic and mining environment, and allows software to mature.
 
 **3rd gen: Decentralised applications and tokenised assets**
 
 The third generation relates to tokens that are built on top of an existing blockchain.  
-Rather than building a new blockchain from scratch, these tokens leverage already existing platforms to build an application on top of it.
-This generation should become the front-end of the decentralisation drive that cryptocurrencies are introducing.
+Rather than building a new blockchain from scratch, these tokens leverage already existing platforms to build an application on top of them.
 
 ### Consensus
 
-Cryptocurrencies started off with Proof-of-Work consensus where miners invest hardware, energy and time as the resource-draining activities to secure the network and reach distributed consensus.
+Cryptocurrencies started off with Proof-of-Work consensus where miners invested hardware, energy and time to secure the network and reach distributed consensus.
 
-Alternatively, Proof-of-Stake consensus enables token holders to stake their capital to verify transactions and earn rewards out of it.
-
+Alternatively, Proof-of-Stake consensus enables token holders to stake their capital to verify transactions and earn rewards from.
 Other consensus protocols include Federated Byzantine Agreement, Proof-of-Service or Proof-of-Burn.
-
-There is no optimal consensus protocol yet as the crypto world is still at an early stage, so rather than focusing on only one consensus, make sure you have a stake in a few.
-
-### Location
-
-The same way you would not invest in stocks located in the same country, try to invest in cryptocurrency based on where their operations or most of their users are located.
-
-NEO is a smart contract development blockchain based in China, while OmiseGO caters the payment industry in South East Asia.
-
-Accumulating tokens from China might expose you to unnecessary risk, in the event that China's regulators decide to ban Bitcoin for example.
