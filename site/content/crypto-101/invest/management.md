@@ -97,11 +97,11 @@ For instance, consider the following triangular arbitrage opportunity:
 
 * A fiat exchange lists the price of Bitcoin at 1,000 EUR.
 
-* Another exchange lists the price of ExampleCoin at 0.01 Bitcoin.
+* Another exchange lists the price of ExampleCoin at 0.1 Bitcoin.
 
 * The same exchange lists the price of ExampleCoin at 110 EUR.
 
-If you buy 1 Bitcoin at 1,000 EUR sell it off for ExampleCoins priced at 0.01 Bitcoin, you will get 10 ExampleCoins.
+If you buy 1 Bitcoin at 1,000 EUR sell it off for ExampleCoins priced at 0.1 Bitcoin, you will get 10 ExampleCoins.  
 Finally, you can sell them at 110 EUR each to lock a total profit of 100 EUR.
 
 Arbitrage trading can be very profitable if well operated, however, before stepping in, don't forget to take into account trading and transaction fees (both exchange and network).
