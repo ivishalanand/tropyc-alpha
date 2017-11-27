@@ -7,7 +7,7 @@ weight = 20
 draft = false
 
 ticker = "GZR"
-startDate = 2017-11-24
+startDate = 2017-11-30
 endDate = 2017-12-27
 rating = "91"
 origin = "USA"
