@@ -1,7 +1,7 @@
 +++
 title = "Gizer"
 date = 2017-08-13T17:30:02+02:00
-description = "bridges the gap between the entire gaming community - Gamers, Hosts, Freelance Services, Businesses and Venues. Gizer provides opportunity to each party by connecting them through the various social interactions, events, services, and products on the Gizer platform."
+description = "Bridges the gap between the entire gaming community - Gamers, Hosts, Freelance Services, Businesses and Venues. Gizer provides opportunity to each party by connecting them through the various social interactions, events, services, and products on the Gizer platform."
 bref = "Mobile eSports and social marketplace"
 weight = 20
 draft = false
@@ -9,7 +9,7 @@ draft = false
 ticker = "GZR"
 startDate = 2017-11-30
 endDate = 2017-12-27
-rating = "91"
+rating = "95"
 origin = "USA"
 industry = "Gaming"
 platform = "Ethereum"
@@ -76,7 +76,7 @@ currencyAccepted = "ETH"
 [setUp]
   [setUp.compliance]
     investorVerification = true
-    thirdPartyAudit = false
+    thirdPartyAudit = true
   [setUp.trading]
     exchangeListing = false
     walletSupport = true
