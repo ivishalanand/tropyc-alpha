@@ -28,13 +28,13 @@ In June, "buy bitcoin" levelled up and in October, it finally surpassed stock an
 
 Consumer market's interest in cryptocurrencies keeps on growing. New tech-savvy individuals are entering the market en masse.
 
-### 2) CoinBase has more users than Schwab
+### 2) Coinbase has more users than Schwab
 
 {{< img src="news/bitcoin-push-pull1.png" class="img-fluid my-1" alt="CoinBase vs Schwab users" >}}
 
 **Fact**
 
-Bitcoin exchange Coinbase reported 11.7 million client account, one million more than second largest brokerage firm by assets, Charles Schwab. 
+Bitcoin exchange Coinbase reported 11.7 million client accounts, one million more than second largest brokerage firm by assets, Charles Schwab. 
 
 **Analysis**
 
@@ -51,7 +51,7 @@ Furthermore, a precious metal equity fund, Old Mutual Gold and Silver Fund, has 
 
 **Analysis**
 
-Institutional money has _already_ jumped on the cryptocurrency wagon, even the one focused on traditional securities.  
+Institutional money has _already_ jumped on the cryptocurrency wagon, even those focused on traditional securities.  
 With Bitcoin derivatives, corporates will have increased access to short positions.
 
 
