@@ -5,7 +5,7 @@ description = "EARTH  Token  cryptocurrency  provides  a unique opportunity to t
 bref = "Natural asset exchange blockchain platform"
 weight = 10
 draft = false
-premium = 2
+premium = 3
 
 ticker = "EARTH"
 startDate = 2017-11-17

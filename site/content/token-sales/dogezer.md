@@ -5,6 +5,7 @@ description = "Platform that allows team members to be product investors by inve
 bref = "Invest in products you love"
 weight = 20
 draft = false
+premium = 2
 
 ticker = "DGZ"
 startDate = 2018-01-15
