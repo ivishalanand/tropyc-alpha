@@ -83,8 +83,8 @@ currencyAccepted = "ETH"
   [setUp.partnerships]
     mainstreamMedia = false
     corporatePartners = true
-    smartMoneyInvestors = false
-    cryptoInfluencers = false
+    smartMoneyInvestors = true
+    cryptoInfluencers = true
 
 [stage]
   website = true
