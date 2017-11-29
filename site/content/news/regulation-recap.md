@@ -4,7 +4,7 @@ date = 2017-11-25T20:07:03+02:00
 categories = ["Bank"]
 draft = false
 description = "Many financial regulators have expressed their plans to regulate cryptocurrencies, here's a recap of the situation in 7 countries"
-weight = 10
+weight = 20
 images = ["images/news/regulation-recap.png"]
 +++
 
