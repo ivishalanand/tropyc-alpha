@@ -83,7 +83,7 @@ Many use cases for cryptocurrency have been presented in the last twelve months,
 * **Social acceptance**: the people need to understand the technology, consider it superior to the current one, and adopt it in their day to day life.
 * **Regulation**: the shift should also be political and societal, where public institutions will have to consider cryptocurrency in the existing legal framework.
 * **Technical standards**: smart contracts and decentralised applications have no on-boarding standards, maintenance protocols and struggle to achieve organisational transformation at scale.
-* **Infrastructure**: the market has drastically matured in the last years, but there is still insufficient infrastructure for it to go to the next level. <a href=https://medium.com/@FEhrsam/the-dapp-developer-stack-the-blockchain-industry-barometer-8d55ec1c7d4 target=_blank>Scalable computation, file storage and external data</a> are amongst the domain falling behind in terms of development.
+* **Infrastructure**: the market has drastically matured in the last years, but there is still insufficient infrastructure for it to go to the next level. <a href=https://medium.com/@FEhrsam/the-dapp-developer-stack-the-blockchain-industry-barometer-8d55ec1c7d4 target=_blank>Scalable computation, file storage and external data</a> are amongst the domains falling behind in terms of development.
 
 To summarise, a price tag should not define the level of market adoption.
 
