@@ -4,7 +4,7 @@ date = 2017-11-28T18:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Bitcoin finally reached the $10,000 price tag, achieving a market capitalisation of $167.5 mn. What keeps it from going even further?"
-weight = 10
+weight = 20
 images = ["images/news/bitcoin-push-pull.png"]
 +++
 
