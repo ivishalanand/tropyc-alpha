@@ -5,12 +5,11 @@ description = "EARTH  Token  cryptocurrency  provides  a unique opportunity to t
 bref = "Natural asset exchange blockchain platform"
 weight = 10
 draft = false
-premium = 3
 
 ticker = "EARTH"
 startDate = 2017-11-17
 endDate = 2017-12-15
-rating = "96"
+rating = "9.6"
 origin = "Mauritius, 2009"
 industry = "Asset management"
 platform = "Ethereum"
