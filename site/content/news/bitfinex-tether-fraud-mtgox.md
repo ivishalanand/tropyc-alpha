@@ -1,14 +1,14 @@
 +++
-title = "Bitfinex and Tether, a MtGox in the making?"
+title = "Bitfinex and Tether, a ticking bomb?"
 date = 2017-12-01T18:35:39+02:00
 categories = ["Bank"]
 draft = false
-description = "Can Bitfinex and Tether challenge MtGox's status as the most prominent cryptocurrency meltdown in history?"
+description = "Can the Bitfinex and Tether become the most prominent cryptocurrency meltdown in history?"
 weight = 10
 images = ["images/news/bitfinex-tether-fraud-mtgox.png"]
 +++
 
-The rise Bitcoin has placed Bitfinex and Tether under the spotlight. The infamous collaboration of an unregulated Bitcoin exchange with an unredeemable dollar-backed token may shake up the global (crypto) economy, <a href=https://www.tropyc.co/news/summary-bitfinex/ target=_blank>after signs of fraudulent activities</a>.
+The rise of Bitcoin has placed Bitfinex and Tether under the spotlight. The infamous collaboration of an unregulated Bitcoin exchange with an unredeemable dollar-backed token may shake up the global (crypto) economy, <a href=https://www.tropyc.co/news/summary-bitfinex/ target=_blank>after signs of fraudulent activities</a>.
 
 Can Bitfinex and Tether challenge MtGox's status as the most prominent cryptocurrency meltdown in history?
 
