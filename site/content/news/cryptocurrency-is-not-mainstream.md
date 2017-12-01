@@ -4,7 +4,7 @@ date = 2017-11-29T18:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Many have stated that Bitcoin reaching an all-time high above $10,000 is the sign of a new transitional period for the cryptocurrency market. Have cryptocurrencies become mainstream?"
-weight = 10
+weight = 20
 images = ["images/news/cryptocurrency-is-not-mainstream.png"]
 +++
 
