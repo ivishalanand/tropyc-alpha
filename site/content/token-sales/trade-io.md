@@ -9,7 +9,7 @@ draft = false
 ticker = "TIO"
 startDate = 2017-07-12
 endDate = 2018-04-01
-rating = "85"
+rating = "8.5"
 origin = "Switzerland, 2017"
 industry = "Finance"
 platform = "Ethereum"
@@ -32,7 +32,7 @@ currencyAccepted = "BTC, ETH, USD"
   [valuation.rows]
     [valuation.rows.ico]
       distribution = "ICO"
-      cut = "55%%"
+      cut = "55%"
       supply = "275,000,000"
       value = "135,000,000"
     [valuation.rows.founders]
