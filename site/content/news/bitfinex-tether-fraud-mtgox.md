@@ -8,7 +8,7 @@ weight = 10
 images = ["images/news/bitfinex-tether-fraud-mtgox.png"]
 +++
 
-The rise and rise of Bitcoin have placed Bitfinex and Tether under the spotlight.   The infamous collaboration of an unregulated Bitcoin exchange with an unredeemable dollar-backed token may shake up the global crypto-economy, <a href=https://www.tropyc.co/news/summary-bitfinex/ target=_blank>after signs of fraudulent activities</a>.
+The rise and rise of Bitcoin have placed Bitfinex and Tether under the spotlight. The infamous collaboration of an unregulated Bitcoin exchange with an unredeemable dollar-backed token may shake up the global crypto-economy, <a href=https://www.tropyc.co/news/summary-bitfinex/ target=_blank>after signs of fraudulent activities</a>.
 
 Can Bitfinex and Tether challenge MtGox's status as the most prominent cryptocurrency meltdown in history?
 
@@ -30,8 +30,8 @@ Today, Bitfinex allegedly shares the same bank account than CEX.io, a polish exc
 
 ## Tether has no responsibility
 
-Tether has been marketed as dollar backed digital assets and introduced in most altcoin exchange as "USDT".  
-For high-intensity penny altcoin trade, USDT is a quick way to trade on fiat markets, via unregulated exchanges. The token instantly had traction amongst traders because of the ability to enter positions in fiat without any KYC compliance.
+Tether has been marketed as a dollar backed digital asset and introduced in most altcoin exchanges as "USDT".  
+For high-intensity penny altcoin traders, USDT is a quick way to trade on fiat markets, via unregulated exchanges. The token instantly had traction amongst traders because of the ability to enter positions in fiat without any KYC compliance.
 
 Tether's website stipulates the following:
 
@@ -39,7 +39,7 @@ Tether's website stipulates the following:
 "Every tether is always backed 1-to-1 by traditionnal currency"
 
 * **Transparent**  
-"Our reserve are published daily and subject to frequent professional audits"
+"Our reserve holdings are published daily and subject to frequent professional audits"
 
 {{< img src="news/summary-bitfinex2.png" class="img-fluid my-4" alt="Tethers are not monetary instrument as per Tether" >}}  
 
@@ -74,9 +74,9 @@ Today's Tether market capitalisation is reaching an impressive $750 million, up 
 
 Theoretically, Bitfinex and Tether should have 
 
-* attract investors to pour in $100,000,000 million
-* convince them to trust Tether, only days after a major security breach
-* route funds to a new bank account, unavailable from public scrutiny
+* attracted investors to pour in $100,000,000
+* convinced them to trust Tether, only days after a major security breach
+* routed funds to a new bank account, unavailable from public scrutiny
 
 However, Bitfinex admitted to selling Tether for cryptocurrency and not dollars.  
 The 1:1 dollar to tether ratio is untrue.  
@@ -84,11 +84,11 @@ The 1:1 dollar to tether ratio is untrue.
 Issuance of new USDT has become a centralised emission of an unbacked "dollar-backed" virtual currency, by a financial entity with banking restrictions.
 
 
-## Bitfinex' trade engine crashed
+## Bitfinex's trade engine crashed
 
-Bitifinex users can margin trade on most crypto/USDT pair.  
+Bitfinex users can margin trade on most crypto/USDT pairs.  
 Coincidentally, a flash crash occurred during the emission of these 100 million USDT, on multiple markets including Bitcoin, Ether and NEO to name a few.  
-It started a series of liquidation among margin traders on Bitfinex.
+It started a series of liquidations among margin traders on Bitfinex.
 
 {{< img src="news/bitfinex-tether-fraud-mtgox2.png" class="img-fluid my-4" alt="NEO went from $40 to $4" >}} 
 
@@ -97,7 +97,7 @@ A quick glance at <a href=https://www.reddit.com/r/bitfinex/ target=_true>r/Bitf
 
 ## Tether's volume is non-sensical
 
-In addition, Tether is supposed to provide "fiat liquidity" to most altcoin exchange including Poloniex and Bittrex.  
+In addition, Tether is supposed to provide "fiat liquidity" to altcoin exchanges including Poloniex and Bittrex.  
 Thing is, Tether has been trading at a volume far superior to its market capitalisation.
 
 {{< img src="news/bitfinex-tether-fraud-mtgox3.png" class="img-fluid my-4" alt="Volume is twice as big as market cap" >}}  
@@ -114,7 +114,7 @@ There are allegations, if not evidence, of Bitcoin price manipulation from the B
 
 {{< youtube 7LlCKQjwmFM >}}
 
-{{< img src="news/summary-bitfinex5.png" class="img-fluid my-4" alt="correlation between ned Tether and bitcoin price jump" >}}  
+{{< img src="news/bitfinex-tether-fraud-mtgox5.png" class="img-fluid my-4" alt="correlation between new Tether and bitcoin price jump" >}} 
 
 With increased awareness within the cryptocurrency community and mainstream media, Tether will not be able to continue to issue unbacked tokens in an unregulated environment for long. 
 
@@ -125,5 +125,3 @@ There are many ways how the vicious circle can end, including:
 * Decrease in value of the digital asset USDT
 
 As long as their operations stay hidden from the regulator, and the market prices remain at par, Tether could virtually keep on printing new tokens unchallenged.
-
-
