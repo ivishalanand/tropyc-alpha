@@ -93,6 +93,9 @@ It started a series of liquidations among margin traders on Bitfinex.
 The price of NEO went from $40 to $4 in a matter of hours.  
 A quick glance at <a href=https://www.reddit.com/r/bitfinex/ target=_true>r/Bitfinex</a> will tell you that users aren't happy about it, to say the least.
 
+{{< img src="news/bitfinex-tether-fraud-mtgox6.png" class="img-fluid my-4" alt="Reddit thread filled up with complaints" >}}  
+
+
 ## Tether's volume is non-sensical
 
 Tether has been trading at a volume far superior to its market capitalisation.
