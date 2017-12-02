@@ -3,7 +3,7 @@ title = "Bitfinex and Tether, a ticking bomb?"
 date = 2017-12-01T18:35:39+02:00
 categories = ["Bank"]
 draft = false
-description = "Can the Bitfinex and Tether become the most prominent cryptocurrency meltdown in history?"
+description = "Can the Bitfinex and Tether clan become the most prominent cryptocurrency meltdown in history?"
 weight = 10
 images = ["images/news/bitfinex-tether-fraud-mtgox.png"]
 +++
