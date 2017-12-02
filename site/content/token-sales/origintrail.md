@@ -9,7 +9,7 @@ draft = false
 ticker = "TRAC"
 startDate = 2018-01-15
 endDate = 2018-02-12
-rating = "8.7"
+rating = "9.1"
 origin = "Slovenia, 2014"
 industry = "Supply chain"
 platform = "Ethereum"
@@ -94,7 +94,7 @@ currencyAccepted = "ETH"
 [setUp]
   [setUp.compliance]
     investorVerification = true
-    thirdPartyAudit = false
+    thirdPartyAudit = true
   [setUp.trading]
     exchangeListing = false
     walletSupport = true
