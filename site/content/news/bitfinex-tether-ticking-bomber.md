@@ -4,7 +4,7 @@ date = 2017-12-01T18:35:39+02:00
 categories = ["Bank"]
 draft = false
 description = "Can the Bitfinex and Tether clan become the most prominent cryptocurrency meltdown in history?"
-weight = 10
+weight = 20
 images = ["images/news/bitfinex-tether-fraud-mtgox.png"]
 +++
 
