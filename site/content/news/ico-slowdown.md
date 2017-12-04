@@ -14,7 +14,7 @@ This summer, three projects, Tezos, Bancor and Filecoin have raised $600 million
 
 * Tezos is in the middle of a financial and legal crisis.
 * Bancor is witnessing a two-fold decrease in valuation.
-* Filecoin is still illiquid for investors, even after six months.
+* Filecoin is still illiquid for investors.
 
 Six months down the line, only a handful of projects have raised more than $100 million.  
 With regulation expected to step up in the coming months, projects at a pre-product market fit stage might not be able to reach the same valuations than the ones of this summer.
@@ -34,7 +34,7 @@ The data should be interpreted with caution, as a substantial amount of ICOs has
 
 ## New tech means new rules
 
-Thanks to this new-gen financial instrument, founders can quickly raise funds via cryptocurrencies: an alternative to venture capital.
+Thanks to this new-gen financial instrument, founders can quickly raise funds via cryptocurrencies. It is an alternative to venture capital.
 
 However, the process comes with new challenges for projects:
 
@@ -46,17 +46,18 @@ However, the process comes with new challenges for projects:
 
 ## ICOs are competing with previous ones
 
-ICOs turn traditionally illiquid investments into liquid ones, by the issuance of digital assets to investors. Therefore, projects going through an ICO round have two types of competition:
+ICOs turn traditionally illiquid investments into liquid ones, by issuing digital assets to investors.  
+Therefore, projects going through an ICO round have two types of competition:
 
 * Projects seeking investment during the same period.
-* Projects who have already closed an ICO round and have liquid assets listed on exchanges.
+* Projects who have already closed an ICO round and have tokens listed on exchanges.
 
 After an ICO round, digital assets issued are liquid, as they can be transferred easily from peer-to-peer.  
-Rather than purchasing a token on the primary market (ICO) that holds substantial risk (defective smart contract, fraud), investors can purchase more "mature" tokens on the secondary market (exchange).
+Rather than purchasing tokens on the primary market (ICO) which holds substantial risks (defective smart contract, fraud), investors can purchase more "mature" tokens on the secondary market (exchange).
 
-From an investor's perspective, there are lower risks of entering a position in a token that is already listed on exchanges, with a transparent and market-driven valuation.
+From an investor's perspective, there are lower risks of entering a position in a token that is already listed on exchanges, as the valuation is transparent and market-driven.
 
-As such, investing in ICOs remains relatively risky, primarily because of the _caveat emptor_ principle: "the ICO way or the highway", aka the golden rule of ICO investment.  
+As such, investing in ICOs remains relatively risky, primarily because of the _caveat emptor_ principle, aka the golden rule of ICO investment: "it's the ICO way or the highway".  
 Projects set their valuation themselves, without any round of negotiation with investors.
 
 Before purchasing tokens via an ICO, prospective investors need to understand the token distribution, the total token supply valuation, the product stage of development, the project roadmap and the team's capability amongst other factors.
