@@ -40,13 +40,13 @@ However, the process comes with new challenges for projects:
 
 * ICOs are resource draining and need hefty investments for marketing, legal and technology purposes.
 * Mitigation of cybersecurity risks requires expertise in smart contract development and third-party audits.
-* Rather than meeting dozens of Venture Capitalists, projects have to reach to hundreds of thousands of prospective investors, in order to builg a pool of investors of 5,000 or more.
+* Rather than meeting dozens of Venture Capitalists, projects have to reach to hundreds of thousands of prospective investors, in order to build a pool of investors of 5,000 or more.
 * Teams need to set-up effective and 24/7 investor relations on instant-messaging applications such as Slack or Telegram, to facilitate customised support.
 * As the market is currently unregulated, ICOs may be subject to security law shortly. Failure to provide evidence of compliance will impact valuation negatively.
 
 ## ICOs are competing with previous ones
 
-ICOs turns illiquid investment, liquid, by the issuance of digital assets to investors. Therefore, projects going through an ICO round have two types of competition:
+ICOs turn traditionally illiquid investments into liquid ones, by the issuance of digital assets to investors. Therefore, projects going through an ICO round have two types of competition:
 
 * Projects seeking investment during the same period.
 * Projects who have already closed an ICO round and have liquid assets listed on exchanges.
@@ -56,11 +56,11 @@ Rather than purchasing a token on the primary market (ICO) that holds substantia
 
 From an investor's perspective, there are lower risks of entering a position in a token that is already listed on exchanges, with a transparent and market-driven valuation.
 
-As such, investing in ICO remains relatively risky, primarily because of the _caveat emptor_ principle: "the ICO way or the highway", aka the golden rule of ICO investment.  
+As such, investing in ICOs remains relatively risky, primarily because of the _caveat emptor_ principle: "the ICO way or the highway", aka the golden rule of ICO investment.  
 Projects set their valuation themselves, without any round of negotiation with investors.
 
 Before purchasing tokens via an ICO, prospective investors need to understand the token distribution, the total token supply valuation, the product stage of development, the project roadmap and the team's capability amongst other factors.
 
 
-<a href=www.tropyc.co/token-sales target=_blank>Check out our curated list of rated ICOs, along with their fundamentals</a>
+<a href=/token-sales target=_blank>Check out our curated list of rated ICOs, along with their fundamentals</a>
 
