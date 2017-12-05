@@ -80,7 +80,7 @@ currencyAccepted = "BTC, ETH"
     exchangeListing = false
     walletSupport = true
   [setUp.token]
-    type = "Secondary"
+    type = "ERC-20"
     functions = "Currency, Incentive"
     consensus = "Proof-of-stake"
     premined = false
@@ -101,8 +101,8 @@ currencyAccepted = "BTC, ETH"
   mvp = true
   openDev = true
   beta = true
-  workingProduct = false
-  community = false
+  workingProduct = true
+  community = true
   expansion = false
   profit = false
 +++
