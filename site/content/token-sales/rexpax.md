@@ -17,7 +17,7 @@ currencyAccepted = "ETH"
 
 [links]
   website = "https://rexpax.com"
-  twitter = "rexpax"
+  twitter = "rexpaxcom"
   facebook = "rexpaxcom"
   reddit = "rexpax"
   github = "rexpax"
