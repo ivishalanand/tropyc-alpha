@@ -4,7 +4,7 @@ date = 2017-12-04T20:07:05+02:00
 categories = ["ICO"]
 draft = false
 description = "After the ICO hype of last summer, the market is currently witnessing lower traction levels"
-weight = 10
+weight = 20
 images = ["images/news/ico-slowdown.png"]
 +++
 
