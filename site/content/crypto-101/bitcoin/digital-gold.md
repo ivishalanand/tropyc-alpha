@@ -107,11 +107,15 @@ Bitcoin holders have the choice to dissociate their wealth and their identity - 
 
 ## Founder
 
-In 2008, Bitcoin was invented and mathematically proven by an anonymous author nicknamed “Satoshi Nakamoto”.  
-Supported by a team of developers and managed by Satoshi, the Bitcoin protocol only came to notice in 2011, after an article in a technology web journal.
+>"I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party..." - Satoshi Nakamoto.
 
-It is the most famous cryptocurrency and the largest one by market capitalisation.  
-Note that there are now over a thousand cryptocurrencies and crypto assets.
+"Satoshi Nakamoto" is the name used by the inventor or the group of inventors who created Bitcoin and managed its early development. Satoshi's last communication was around 2013 via a forum post.
+
+In 2008, Satoshi Nakamoto published "Bitcoin: A Peer-to-Peer Electronic Cash System", and introduced to the world the concept of decentralised money. In 2009, Bitcoin launched.
+
+The Bitcoin protocol only came to notice to a wider audience in 2010, when Slashdot published a piece on the new technology.
+
+Bitcoin is the most famous cryptocurrency and the largest one by market capitalisation. Today, there are over a thousand cryptocurrencies and digital assets.
 
 
 <div class="container my-3">
