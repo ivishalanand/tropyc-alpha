@@ -48,7 +48,7 @@
 	          {{ if ne .Params.rating "N/A" }}
 	          	<td data-order="{{ .Params.rating }}" class="rating text-center">{{ partial "rating" .Params.rating }}</td>
 	          {{ else }}
-	          	<td data-order="0" class="rating">N/A</td>
+	          	<td data-order="0" class="rating text-center">N/A</td>
 	          {{ end }}
 	          <td>{{ if .Params.premium }}{{ .Params.premium }}{{ else }}0{{ end }}</td>
 	        </tr>
