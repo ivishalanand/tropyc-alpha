@@ -4,7 +4,7 @@ date = 2017-12-07T20:00:00+02:00
 categories = ["Bank"]
 draft = false
 description = "Slovenia-based cloud miner confirmed they were the victim of a cyber theft of 4,500 Bitcoin. Could the theft come from the inside?"
-weight = 10
+weight = 20
 images = ["images/news/nicehash.png"]
 +++
 
