@@ -35,18 +35,18 @@ However, many start-ups have decided to change slightly the language, shifting t
 
 Therefore we have decided to consider them, for now, as _interchangeable_, until an official legal statement from a major regulator.
 
-ICO and Bitcoin have therefore different functions: 
+## What’s new in an ICO?
+
+ICO and Bitcoin have different functions: 
 
 * Bitcoin facilitates payment between two peers.
 * ICO/ITO/TGE/Token sale facilitate fundraising between multiple peers.
 
 The technology has drawn a lot of attention in mainstream media by 2016, mainly because of its ability to help early-stage ventures raise considerable funds in cryptocurrencies.
 
-## What’s new in an ICO?
+Investors purchase ownership of a company in exchange for expected returns in the future. Returns occur after an exit, it can be an IPO, acquisition or merger.
 
-In Venture Capital and Angel Investing, investors purchase ownership of a company in exchange for expected returns in the future. Returns occur after an exit, it can be an IPO, acquisition or merger.
-
-However, in conventional startup investments, equity is illiquid until the exit occurs – this makes a start-up investment risky compared to other traditional securities.
+In conventional startup investments, equity is illiquid until the exit occurs – this makes a start-up investment risky compared to other traditional securities.
 
 ### Liquid
 
@@ -67,18 +67,3 @@ For instance, if a start-up needed to raise half a million dollars, only wealthy
 Digital assets may offer more than company ownership, as depicted in the Venture Capital model.
 
 They can hold a multitude of functions such as voting rights, claims to physical assets or access to a private marketplace as long as it can be programmed and stored on a digital device.
-
-## Why should I care?
-
-Just like Bitcoin facilitates peer-to-peer payment services, ICOs offer a decentralised approach to fundraising.
-
-You can invest as you much as you want in a project without any time constraints.
-
-Of course, the real innovation here resides in issuing a token that provides a set of diverse functions to its holder, more than just representing a simple stake in a project or venture.
-
-For instance, mutual funds can issue tokens to their investors with this technology.  
-More than a venture, mutual funds can create an entire decentralised eco-system where investors can track their capital, have a voting power over the whole pool and much more.
-
-It can get complicated to conceptualise as digital tokens have very few active use-cases and are outside of the realm of regulatory policy.
-
-Overall, this new investment instrument has become possible because of blockchain’s disruptive technology and its application of cryptography.

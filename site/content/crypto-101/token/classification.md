@@ -7,14 +7,10 @@ bref = "Token, Part II"
 toc = true
 +++
 
-Decentralised projects along with their digital assets can be tricky to comprehend, as they can hold different functions and be distributed in various ways - sometimes unfairly.
+Decentralised projects and their digital assets can be tricky to comprehend, as tokens can hold different functions and be distributed in many ways (sometimes unfairly). The founding team documents the economics of their project on their "whitepaper", but no common standards exist.
 
-In some cases, decentralised applications issue multiple assets - each of them holding different functions that enable various types of interactions.  
-It is not uncommon for ICOs with more than one token, to differentiate "security" tokens (gives ownership in the company) and "utility" tokens (grants a right to its holder).
+Decentralised applications sometimes issue multiple assets - each of them holding different functions that enable various types of interactions. In this case, it is not uncommon to design "security" tokens (regulated) and "utility" tokens (grants a right).
 
-Overall, the sum of all the tokens secured by the same blockchain is called a _token eco-system_.
-
-Projects typically document their token eco-system on a scientific paper known as a "whitepaper".
 
 ## Types of digital assets
 
