@@ -1,0 +1,7 @@
+{{ if ge . 9 }}
+<span class="bg-success p-2 rounded text-white">{{ . }}</span>
+{{ else if and (ge . 6) (lt . 9) }}
+<span class="bg-warning p-2 rounded text-white">{{ . }}</span>
+{{ else }}
+<span class="bg-danger p-2 rounded text-white">{{ . }}</span>
+{{ end }}
