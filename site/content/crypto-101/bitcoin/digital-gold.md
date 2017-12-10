@@ -178,7 +178,7 @@ Let's review some of Bitcoin's core value propositions.
   <div class="row align-items-center">
     <div class="col text-left">
       <h3>Safe</h3>
-      <p>Bitcoins stored in wallets are all only accesible to their owners. On the other hand, funds stored in a traditional bank accounts are vulnerable to bank insolvency, freeze, seize and inflation.</p>
+      <p>Bitcoins stored in wallets are all only accessible to their owners. On the other hand, funds stored in a traditional bank accounts are vulnerable to bank insolvency, freeze, seize and inflation.</p>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/vault.svg" class="img-fluid" alt="Vault" >}}
@@ -194,7 +194,7 @@ Let's review some of Bitcoin's core value propositions.
     </div>
     <div class="col text-left">
       <h3>Cheap</h3>
-      <p>There are no brokers or third party agents involved in the process, making the transaction fees considerably lower and more straightforward than in fiat.</p>
+      <p>There are no brokers or third party agents involved in the process, making the transaction fees considerably lower and more straightforward than with fiat.</p>
     </div>
   </div>
 </div>
@@ -204,7 +204,7 @@ Let's review some of Bitcoin's core value propositions.
   <div class="row align-items-center">
     <div class="col text-left">
       <h3>Global</h3>
-      <p>Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees...</p>
+      <p>Just like the internet, bitcoin has no borders and belongs to no country. Geography is never taken into account in transaction fees.</p>
     </div>
     <div class="col text-center">
       {{< img src="crypto-101/icons/global.svg" class="img-fluid" alt="Earth spinning" >}}

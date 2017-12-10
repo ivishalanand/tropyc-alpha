@@ -32,7 +32,7 @@ The rate of mining Bitcoin is predictable and known to everyone on the network.
 
 Bitcoin is a new kind of financial instrument that holds different fundamentals than conventional asset classes.
 
-As Bitcoin is relatively new, financial regulators have not defined its nature thoroughly. Here we offer three different interpretation of Bitcoin.
+As Bitcoin is relatively new, financial regulators have not defined its nature thoroughly. Here we offer three different interpretations of Bitcoin.
 
 <div class="container my-3">
   <div class="row text-center">

@@ -77,7 +77,7 @@ Always verify the public address before making a transaction; otherwise, your Bi
   </div>
 </div>
 
-### Fiat economy
+### Fiat
 
 Card issuers, payment gateways, insurance and merchants are very open to refunding a transaction if something adverse happens. 
 It is not only about solving discrepancies but also part of improving customer service.  
@@ -99,7 +99,7 @@ It is your responsibility to store your Bitcoins and cryptocurrencies safely in 
     </div>
     <div class="col-md-9 text-left">
       <h2>Privacy</h2> 
-      <p class="font-italic">Can you dettach your identity from your financial behaviour?</p> 
+      <p class="font-italic">Can you detach your identity from your financial behaviour?</p> 
     </div>
   </div>
 </div>
@@ -201,7 +201,7 @@ A Bitcoin transaction takes 10 minutes to get recorded into a block, verified an
 Not the best scenario for merchants: waiting this amount of time to get the money cleared out creates a considerable risk for them.  
 On the other hand, clients cannot wait 10 minutes at the till.
 
-However, new cryptocurrencies and blockchain startups have been very innovative in the space and are offering lower tansaction time in order to solve Bitcoin's block time issue.
+However, new cryptocurrencies and blockchain startups have been very innovative in the space and are offering lower transaction time in order to solve Bitcoin's block time issue.
 
 <div class="container mt-5">
   <div class="row align-items-center">

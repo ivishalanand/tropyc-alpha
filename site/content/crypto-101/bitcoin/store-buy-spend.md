@@ -159,7 +159,7 @@ Purchasing Bitcoin has become easier by the day, thanks its exponential market p
     </div>
     <div class="col text-left">
     	<h3>Peer-to-peer</h3>
-     	At the end of the day ARE digital cash! Therefore you can exchange Bitcoins with fiat and vice versa, as long as you trust your transactor. There are risks of exchanging currencies with someone you do not know (physical attack, counterfeit ...), the same applies with cryptocurrencies.
+     	At the end of the day cryptocurrencies ARE a form of digital cash! Therefore you can exchange Bitcoins with fiat and vice versa, as long as you trust your transactor. There are risks of exchanging currencies with someone you do not know (physical attack, counterfeit ...), the same applies with cryptocurrencies.
     </div>
   </div>
 </div>

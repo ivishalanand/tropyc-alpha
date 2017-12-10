@@ -8,19 +8,19 @@ toc = true
 +++
 
 <blockquote class="blockquote my-5">
-  <p>"In crypto, you're in control of your wealth, but this luxury comes with extra responsibilities."</p>
+  <p>"In crypto, you're in control of your wealth, but this luxury comes with a security responsibility."</p>
 </blockquote>
 
 ## Set-up
 
-We advise you to set up at least two wallets:
+Managing crypto-wealth starts with setting up two wallets:
 
 * One hot wallet for daily expenses, that should not hold a huge chunk of your capital.
 * One cold wallet to store the rest of your crypto assets.
 
-Always use your hot wallet when transacting with the outside. We advise you to make your cold wallet only interact with your personnal wallets for an extra layer of security.
+Hot wallets are the epicentre of wallet management system. They interact with both the outside world and offline storage. On the other hand, cold wallets should exclusively interact with hot wallets.
 
-Picture your hot wallet as your current account and cold wallet as your savings accounts.
+In personal finance, hot wallets are current accounts and cold wallets are savings accounts.
 
 <div class="container my-4">
   <div class="row text-center">
@@ -37,7 +37,7 @@ Picture your hot wallet as your current account and cold wallet as your savings 
     <div class="col">
       {{< img src="crypto-101/icons/wallet-online.svg" class="img-fluid" alt="Online wallet" >}}
       <p class="font-weight-bold mt-2">Online wallet</p>
-      <p class="small text">Short term</p>
+      <p class="small text">Purse</p>
     </div>
   </div>
 </div>
@@ -45,7 +45,7 @@ Picture your hot wallet as your current account and cold wallet as your savings 
 ## Cryptography pair
 
 A wallet can generate an unlimited amount of private key and public address combinations. However, a wallet (and its password) does not need to be generated for every pair.  
-Because the blockchain is transparent, make sure to never share a public address that has already been shared with a third party.
+Because the blockchain is transparent, one should avoid re-utilising a public address as its balance is available online.
 
 It is important to generate new public addresses for every transaction; otherwise, the person you transact with will match the public address' balance with your identity.
 
@@ -63,7 +63,6 @@ Setting up a wallet password is mandatory if you want to store your crypto safel
 
 A good idea for extra security is to use Multiple Factor Authentication, an additional layer of protection for your account. There are three different authentication factors:  _knowledge_, _possession_ and _inherence_.  
 Under the 2-FA framework, you have to present two components of authentication to access your account.  
-
 In most cases, a 2-FA encryption will work with a smartphone: you can access your wallet (or any encrypted account) only after entering your password (knowledge) successfully and insert a code generated from a mobile app (possession).
 
 **WARNING! SMS-based 2-FA is not considered safe, use only certified applications.**
@@ -72,10 +71,8 @@ In most cases, a 2-FA encryption will work with a smartphone: you can access you
 
 ## Centralisation
 
-It's best to avoid storing all of your money in one bank account : the same applies with crypto and wallets (hot or cold).  
-Similarly, you do not want to keep your backup and password next to your wallet.
-
-It's best to set up several crypto transaction management systems like the below.
+It's best to avoid storing 100% of capital in one bank account, and the same applies with cryptocurrency.
+You do not want to keep everything in one wallet or in one place.
 
 {{< img src="crypto-101/infographics/info-wal2-3.png" class="img-fluid mt-3" alt="Wallet like bank account" >}}
 
@@ -103,8 +100,8 @@ It's best to set up several crypto transaction management systems like the below
     </div>
     <div class="col col-sm-6 col-md-8 text-left">
       <h2>Back-up</h2>
-      <p>In case your wallet gets deleted, corrupted, lost or mislaid, you will lose access to your private keys. It means you'll lose access to all of your crypto stored in your public addresses! </p>
-      <p>Back up your wallet by making a copy of your private keys in case something happens to your system. Store them offline and somewhere safe.</p>
+      <p>The security of a wallet is as good as the device that holds it. In other words, if the device is lost, corrupted or broken, there is no way out.It means you'll lose access to all of your crypto stored in your public addresses! </p>
+      <p>Backing up a wallet (private keys) is a good idea to prevent any unnecessary loss. In many cases, access to private keys can be as easy as holding a pen drive in hand; henceforth threats also exist in the "physical world."</p>
     </div>
   </div>
 </div>
@@ -112,10 +109,10 @@ It's best to set up several crypto transaction management systems like the below
 <div class="container my-4">
   <div class="row align-items-center">
     <div class="col col-sm-6 col-md-8 text-left">
-    <h2>Multisignature</h2>
-     <p>Multi-sig addresses give the ability to share ownership of a Bitcoin address between several users by having up to 15 associated private keys.</p>
+    <h2>Multi-signature</h2>
+     <p>Multi-sig addresses give the ability to share ownership over a cryptocurrency wallet between several users.</p>
      <p>In order to use a wallet, transactions require signatures from multiple private key holders, depending on how it has been set up.</p>
-     <p>This feature can add an extra layer of protection if you want to share the wallet ownership with other parties. Ideal for a family or a business account.</p>
+     <p>This feature adds an extra layer of protection for cold storage.</p>
     </div>
     <div class="col col-sm-6 col-md-4 text-center">
       {{< img src="crypto-101/icons/multi-sig.svg" class="img-fluid" alt="Multiple private keys" >}}

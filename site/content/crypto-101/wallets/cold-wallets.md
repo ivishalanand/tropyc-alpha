@@ -81,7 +81,7 @@ If you don't have the time or energy to build your own cold wallet, you can chec
       <td class="text-center align-middle">Screen</td>
       <td class="text-center align-middle">No</td>
       <td class="text-center align-middle">$99</td>
-      <td class="text-center align-middle"><a href="https://www.keepkey.com/" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="Cart" >}}</a></td>
+      <td class="text-center align-middle"><a href="http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=2566" target="_blank">{{< img src="crypto-101/wallet-pics/cart.svg" class="img-fluid" alt="Cart" >}}</a></td>
     </tr>
     <tr>
       <td class="text-center align-middle">{{< img src="crypto-101/wallet-pics/open-dime.png" class="img-fluid" alt="Open dime" >}}</td>
