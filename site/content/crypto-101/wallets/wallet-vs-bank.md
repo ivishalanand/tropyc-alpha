@@ -9,8 +9,7 @@ toc = false
 
 Bitcoin is the first cryptocurrency ever conceptualised, first and foremost it offers an alternative monetary system to our economy: a decentralised one.
 
-In crypto, governments and central banks have no authority towards the issuance of additional currency. Both regulators and middlemen lose their respective influence in the equation.  
-Banks have become redundant because now, you can become your own bank.
+In the crypto-economy, governments and central banks have no authority on the issuance of additional currency. Furthermore, certain private banking services have witnessed a drastic decrease in cost, including cross-border payment or access to investment accounts.Not all financial retail services are available in the crypto-economy, insurance or lending to name a few.
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -26,19 +25,18 @@ Banks have become redundant because now, you can become your own bank.
 
 ### Fiat
 
-Depositing funds into a bank account means trusting a centralised entity (banks) to hold your wealth.  
-They have the power to freeze your account, put consumer limits or delay access to funds.
+Depositing funds into a bank account means trusting a centralised entity (banks) to hold  one's wealth.Banks have the power to freeze accounts, put consumer limits or delay access to funds.
 
 ### Crypto
 
-In cryptocurrency, you have the flexibility to either:
+In cryptocurrency, there's the flexibility to either
 
-* Keep full control of your capital
-* Trust a third party to store your capital
+* Keep full control of capital
+* Trust a third party to store capital
 
-A cold wallet lets you store your cryptocurrencies offline where it can be surveyed, whilest an online wallet gives you a similar centralised experience as to banks.
+Cold wallet store cryptocurrencies offline whilst online wallets give a similar centralised experience as the banking system. Cold and hot wallets are as secure as the device they are installed on.
 
-Beware, when storing your Bitcoin on third-party wallets, you do not "own" a bitcoin, but an "IOU": you assume the third party is trustworthy enough, to send you your Bitcoin when requested!
+Storing cryptocurrencies on online wallets means owning an I Owe You.
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -54,16 +52,15 @@ Beware, when storing your Bitcoin on third-party wallets, you do not "own" a bit
 
 ### Fiat
 
-Merchants, banks and consumers can cancel a transaction after payment confirmation.  
-The current payment infrastructure offers many safety nets in case something goes wrong, such as insurance for stolen cards or Electronic Payment Terminal's cancel feature.
+Merchants, banks and consumers can cancel a transaction after payment confirmation.The current payment infrastructure offers many safety nets in case something goes wrong, such as insurances for stolen cards or the cancel feature on Electronic Payment Terminal.
 
 However, refunds are sometimes not possible in the event of a mistake, especially during interbank wiring.
 
 ### Crypto
 
-There is no rewinding back once a transaction is signed, verified and confirmed. The blockchain is **immutable**: there is no way to cancel a transaction. In this sense, the network is _non-repudiable_.
+There is no rewinding back once a transaction is signed, verified and confirmed. The blockchain is **immutable**: there is no way to cancel a transaction. In this sense, the network is *non-repudiable*.
 
-Always verify the public address before making a transaction; otherwise, your Bitcoins will be lost forever. Also, when interacting with merchants and vendors, go through an escrow service: it adds a layer of protection to ensure the service/good is delivered.
+It is crucial to double check public addresses before confirming transaction as an incorrect address would result in loss of funds.
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -79,18 +76,17 @@ Always verify the public address before making a transaction; otherwise, your Bi
 
 ### Fiat
 
-Card issuers, payment gateways, insurance and merchants are very open to refunding a transaction if something adverse happens. 
-It is not only about solving discrepancies but also part of improving customer service.  
-The fiat economy offers several layers of protection against scams, fraud and mistakes.
+Card issuers, payment gateways, insurance and merchants are very open to refunding a transaction if something adverse happens. It is not only about merely solving discrepancies but also part of improving customer service.  
+The fiat economy offers several services against scams, fraud and mistakes.
 
 This being said, wiring cash to an incorrect bank account might result in a loss of money, and cash is always at the mercy of physical attacks.
 
 ### Crypto
 
-The cryptocurrency network is very new and attracts many opportunists. There are many scams and frauds in this ecosystem that target new comers.
+The cryptocurrency market is filled with scams and frauds that target the new comer. For more information, check out our 
+<a href=https://tropyc.co/crypto-101/invest/scams target=_blank>scam article.</a>
 
-It is your responsibility to store your Bitcoins and cryptocurrencies safely in a digital wallet. Your crypto portfolio is vulnerable to theft if you have not secured it well.
-
+The user holds the responsibility to store its cryptocurrencies safely in a digital wallet. As such, wallets are more vulnerable to digital attacks than bank accounts.
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -106,19 +102,17 @@ It is your responsibility to store your Bitcoins and cryptocurrencies safely in 
 
 ### Fiat
 
-Although cash remains the most private way to transact, it is only suitable for low amounts. 
+Although cash remains the most private way to transact, it is only suitable for low amounts. On the other hand, electronic payments can handle higher amounts but record the identity of all the stakeholders engaged in the transaction.
 
-On the other hand, electronic payments can handle higher amounts but record the identity of all the stakeholders engaged in the transaction.  
-This leaves a trace that can be audited by financial institutions and governments.
-Furthermore, electronic payment systems are vulnerable to hacks and thefts.
+Bank transfer leave a trace that can be audited by financial institutions and governments and are vulnerable to hacks and thefts.
 
 ### Crypto
 
-The Bitcoin blockchain has imperfect knowledge of a user's identity, meaning public addresses are not easily linked back to an individual's identity.
+The Bitcoin blockchain has imperfect knowledge of a user’s identity, meaning public addresses are not easily linked back to an individual’s identity.
 
 Users have the flexibility to detach their financial behaviour from their identity if they want to stay private.
 
-Centralised tools, such as tumbler and mixers, can increase the difficulty of tracing back Bitcoins to an individual. Moreover, privacy-focused cryptocurrencies have recently emerged and can help users achieve full anonymity, check out one of our reviews [here](https://www.tropyc.co/news/privacy-focused-tokens/).
+Centralised tools, such as tumbler and mixers, can increase the difficulty of tracing back Bitcoins to an individual. Moreover, privacy-focused cryptocurrencies have recently emerged and can help users achieve full anonymity (Monero for instance), check out one of our reviews [here](https://www.tropyc.co/news/privacy-focused-tokens/).
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -189,19 +183,17 @@ As Bitcoin's market penetration is going up, Bitcoins are becoming more and more
 
 ### Fiat
 
-International card issuers such as Visa or MasterCard handle hundreds of millions of transactions per day. When purchasing a good or service through them, the payment is fast, secure and quite cheap.
+International card issuers such as Visa or MasterCard handle hundreds of millions of transactions per day.Purchasing a good or services is fast, secure and cheap.
 
-Speed = seconds
-
-Fees = 0 to 2%
+* Speed = in a matter of seconds
+* Fees = 2-5% for merchants and a fee for consumers. 
 
 ### Crypto
 
-A Bitcoin transaction takes 10 minutes to get recorded into a block, verified and added to the blockchain. 
-Not the best scenario for merchants: waiting this amount of time to get the money cleared out creates a considerable risk for them.  
-On the other hand, clients cannot wait 10 minutes at the till.
+A Bitcoin transaction takes 10 minutes to get recorded into a block, verified and added to the blockchain.  
+Not the best scenario for merchants: waiting this amount of time to get the money cleared out creates a considerable risk for them.On the other hand, clients cannot wait 10 minutes at the till.
 
-However, new cryptocurrencies and blockchain startups have been very innovative in the space and are offering lower transaction time in order to solve Bitcoin's block time issue.
+However, new cryptocurrencies and blockchain startups have been very innovative in the space and are offering lower transaction time or escrow services in order to solve Bitcoin’s block time issue.
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -219,15 +211,14 @@ However, new cryptocurrencies and blockchain startups have been very innovative 
 
 The current payment technology, SWIFT, can take up to 7 days to execute a payment and massive costs can be incurred. In addition, banks often charge (hidden) fees and commissions on the conversion rate.
 
-When an international transaction occurs, money can be in transit for several days. This is due to interbank settlement processes, where the money has to be wired to several banks before arrival.
+When an international transaction occurs, money can be in transit for several days. This is due to interbank settlement processes: the money has to be wired to several banks before arrival.
 
 ### Crypto
 
 The Bitcoin network is perfect for cross border transactions and settlements. You can transfer value overseas at a minimal cost and very quickly.
 
-Speed = 10 min
-
-Fees = would not go above 10 USD.
+* Speed = Bitcoin 10 min, Ripples
+* Fees = would not go above 10 USD
 
 <div class="container mt-5">
   <div class="row align-items-center">
@@ -243,20 +234,20 @@ Fees = would not go above 10 USD.
 
 ### Fiat
 
-Fiat currencies are considered legal tender, meaning they are legally recognised by public institutions to settle financial obligations between parties.
+Fiat currencies are considered legal tender, meaning they are legally recognised by public institutions to settle financial obligations between parties:
 
 There are rules to follow when handling fiat money: trespassing them can lead to legal recourse.
 
-* Pay tax on your income and wealth.
-* Abstain from purchasing illegal goods and services.
-* Settle financial obligation if contractually agreed upon.
+* Pay tax on your income and wealth
+* Abstain from purchasing illegal goods and services
+* Settle financial obligation if contractually agreed upon
 
 ### Crypto
 
-Depending on the country, Bitcoin has different legal statuses. While some countries like Bangladesh or Bolivia banned the use of Bitcoin, Japan decided in 2017 to declare it as legal tender.
+Depending on the country, Bitcoin and cryptocurrencies have different legal statuses. While some countries like Bangladesh or Bolivia banned the use of Bitcoin, Japan decided in 2017 to declare it as legal tender.
 
 Bitcoin has historically been affiliated with online drug trafficking and money laundering activities because of its privacy features and ease of settling cross-border payments. 
 
-Still, the majority the countries have no solid legal framework put in place for digital currencies. The lack of regulation is somewhat beneficial as it does not hamper any innovation in the industry. However, some money laundering activities and illegal transactions might be occurring on the network of well established cryptocurrencies.
+Still, the majority the countries have no solid legal framework put in place for digital currencies. The lack of regulation is somewhat beneficial as it does not hamper any innovation in the industry. However, money laundering activities and illegal transactions might be occurring on the network of well established cryptocurrencies.
 
 In the same way that the Internet was at first unregulated, cryptocurrencies enjoy a grey zone legal status in most countries.

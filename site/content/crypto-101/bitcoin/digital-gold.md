@@ -9,7 +9,7 @@ toc = true
 
 ## Open-source money
 
->""Writing a description for this thing for general audiences is bloody hard. There's nothing to relate it to." – Satoshi Nakamoto, creator of Bitcoin"
+>Writing a description for this thing for general audiences is bloody hard. There's nothing to relate it to." – Satoshi Nakamoto, creator of Bitcoin
 
 With Bitcoin, you can send money - digitally and securely - without relying on a third party (bank, payment gateway, card issuers).  
 It is the first currency that operates safely and independently from government authority.

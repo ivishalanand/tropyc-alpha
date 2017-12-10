@@ -20,12 +20,12 @@ Here are all the different cold wallets:
       <p class="font-weight-bold mt-2">Branded wallets</p>
     </div>
     <div class="col">
-      {{< img src="crypto-101/icons/wallet-diy.svg" class="img-fluid" alt="Wallet DIY" >}}
-      <p class="font-weight-bold mt-2">Do it yourself</p>
-    </div>
-    <div class="col">
       {{< img src="crypto-101/icons/wallet-paper.svg" class="img-fluid" alt="Wallet paper" >}}
       <p class="font-weight-bold mt-2">Paper wallets</p>
+    </div>
+    <div class="col">
+      {{< img src="crypto-101/icons/wallet-diy.svg" class="img-fluid" alt="Wallet DIY" >}}
+      <p class="font-weight-bold mt-2">Do it yourself</p>
     </div>
   </div>
 </div>
@@ -94,10 +94,6 @@ If you don't have the time or energy to build your own cold wallet, you can chec
   </tbody>
 </table>
 
-## Do It Yourself
-
-Making your own cold wallet is not as complicated as it sounds. Do It Yourself cold wallets let you build a network of cold wallets at minimal costs. All you need is a pen drive, a computer and to follow clinically a few steps. 
-
 ## Paper wallets
 
 Similarly, you can print your own cold wallet on paper. It holds all the necessary information to access cryptocurrencies on a sheet of paper: a public address and a private key.
@@ -113,3 +109,7 @@ Create your Bitcoin or Litecoin address in 5 simple steps.
 Congrats, you are now the proud owner of a paper wallet!  
 
 For obvious reasons, paper cold wallets are less durable than hardware cold wallets, so be sure to store them in a dry place.
+
+## Do It Yourself
+
+Making your own cold wallet is not as complicated as it sounds. Do It Yourself cold wallets let you build a network of cold wallets at minimal costs. All you need is a pen drive, a computer and to follow clinically a few steps. 
