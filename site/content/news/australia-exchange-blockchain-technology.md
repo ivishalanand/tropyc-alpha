@@ -4,7 +4,7 @@ date = 2017-11-20T20:07:03+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Australia stock exchange is the first exchange to implement distributed ledger technology"
-weight = 10
+weight = 20
 images = ["images/news/australia-exchange-blockchain.png"]
 +++
 

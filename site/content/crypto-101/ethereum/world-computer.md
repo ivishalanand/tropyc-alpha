@@ -9,28 +9,28 @@ toc = true
 
 ## Centralisation of internet
 
-Ethereum addresses one of the core issues of the web today: trusting third parties.  
-The same way Bitcoin is disrupting financial services, Ethereum addresses one of the internet’s core issue: centralisation.
+Ethereum addresses one of the core issues of the web today: trusting third parties.   
+The same way Bitcoin is disrupting financial services, Ethereum addresses the issue of internet centralisation. 
+
 Let’s first have a look at how today's web operates compared with a decentralised model:
 
 {{< img src="crypto-101/infographics/info-eth1-1.png" class="img-fluid" alt="Centralised vs decentralised internet" >}}
 
-The current world wide web framework stores most of the data locally. In other words, when you visit a website you trust a third party to 
+The current world wide web framework stores most of the data locally. In other words, when you visit a website you trust a third party to
 
 * Securely store your information (payment details, browsing history, passwords, identity)
 * Keep it safe from attacks (hacks, leaks)
 * Avoid using it for illegal commercial purposes (sell to third parties)
 
-The problem here is that there are no ways of monitoring how your information is handled, if it is safe or not, and whether a third party tries to deceive you.
-The NSA Snowden case and Wikileaks hack are just examples of what can happen to your personal information.
+The problem here is that there are no ways of monitoring how user information is handled, if it is safe or not, and whether a third party uses data maliciously. The NSA Snowden case and Wikileaks hack are just examples of what can happen to personal information.
 
-A decentralised system utilises nodes (computers connected to the network) to validate transactions, instead of centralised “cloud” servers owned by a third party.  
+A decentralised system utilises nodes (computers connected to the network) to validate transactions, instead of centralised “cloud” servers owned by a third party.
 
 It creates a permissionless eco-system where end-users do not have to trust one single entity. Rather, the information is cryptographically secured and distributed amongst all the participants of the network that verify its authenticity and record it on the blockchain.
 
-Today we store our data on the cloud, on internet company servers such as Google Drive, Dropbox, Amazon or Box.  
+Today we store our data on the cloud, on internet company servers such as Google Drive, Dropbox, Amazon or Box.
 
-Let's compare both models of online storage:
+Let’s compare both models of online storage:
 
 {{< img src="crypto-101/infographics/info-eth1-2.png" class="img-fluid" alt="Cloud storage example" >}}
 
@@ -57,19 +57,19 @@ How?
 
 Ethereum is famous for introducing programming tools on top of its blockchain to make developer’s life easier.
 
-* **Smart contracts**:  
+* **Smart contracts**  
 Programs that can run transparently, in a trustless environment without any middleman. In other words, with smart contracts, you can program stakeholder relationships and automate interactions between them.
 
-* **Tokensale and Initial Coin Offering infrastructure**:   
+* **Tokensale and Initial Coin Offering infrastructure**  
 Simplified framework to issue tokens, design the economics (supply, mining) and plan the crowdfunding exercise (timeline, amount sought).
 
-* **Decentralised Autonomous Organisation (DAO)**:  
+* **Decentralised Autonomous Organisation (DAO)**  
 Automation of stakeholder relationships within an organisation, powered by smart contracts. For instance, it can grant a voting right, distribute profits or manage assets.
 
-* **Decentralised browsers**:   
+* **Decentralised browsers**  
 The internet will be decentralised and requires a new type of browser.
 
-* **Programming language**:  
+* **Programming language**  
 Solidity is Ethereum's programming language that can deploy DApps and smart contracts on the network. Ethereum gathers a community of developers that shares libraries, frameworks and examples of smart contract.
 
 ## Team
@@ -78,4 +78,4 @@ How did a decentralised world computer developed on a blockchain manage to go so
 
 The Ethereum Network is being developed and maintained by the Ethereum Foundation a non-profit based (legally) in Switzerland.
 
-In 2013, Vitalik Buterin, 19, first proposed Ethereum as a decentralised mining-cum-software development platform. Although he is not the Executive Director of the foundation, he quickly became the young face of the Ethereum revolution. 
+In 2013, Vitalik Buterin, 19, first proposed Ethereum as a decentralised mining-cum-software development platform. Although he is not the Executive Director of the foundation, he quickly became the young face of the blockchain and smart contract development revolution.

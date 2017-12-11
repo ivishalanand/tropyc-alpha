@@ -56,17 +56,17 @@ Ethereum allows developers to smart code contracts on top of its blockchain usin
 
 Rather than “smart contracts” which is a term introduced in the 1990s, Ethereum refers to them as “automated agents” in its white paper, because it enables the issuance of large-scale computing operations between users and other smart contracts.
 
-### Case study
+## Case study
 
 It might be hard to conceptualise at first so let’s have a look at a real-life smart contract use-case:
 
-#### Assumptions
+### Assumptions
 
 Alice and Bob decide to bet a fraction of their savings on the occurrence of an event.  
 Alice wins the bet **if** the S&P 500 reaches its lowest 10-year performance in the next month.  
 If the condition isn't met within 15 days, Bob loses.  
 
-#### Conventional agreement
+### Conventional agreement
 
 1. Alice and Bob enter an agreement (handshake, contract).
 2. They decide that the loser will pay the winner after the event.
@@ -97,7 +97,7 @@ In a conventional agreement, we can therefore affirm that:
 * Alice and Bob have to track the event manually.
 * Bob might breach the agreement.
 
-#### Smart contract
+### Smart contract
 
 1. Alice and Bob create a smart contract that automates the terms of the agreement and tracks S&P performance.
 2. Both send the money to the smart contract that will release the funds, either at the end of the month, or when S&P reaches the predefined metric.
@@ -119,7 +119,7 @@ Running smart contracts on the network has a cost, and it depends on the computi
 
 The same way ERP and CRM automate supply chain and client communication, smart contracts can automate any real-life interaction.
 
-### Ethereum Virtual Machine
+## Ethereum Virtual Machine
 
 Ethereum allows its users to set different kinds of operations: not just limited to monetary transactions like with Bitcoin.  
 At the epicentre of the Ethereum network sits the Ethereum Virtual Machine (EVM), the environment for smart contract development and execution.  
