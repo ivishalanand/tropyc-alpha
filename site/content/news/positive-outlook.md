@@ -18,7 +18,7 @@ On the eve of CBOE Bitcoin futures launch, the cryptocurrency market capitalisat
 
 ## Bitcoin dominance unaffected
 
-Bitcoin drove total cryptocurrency market capitalisation when its price reduces from $18,000 on Friday to below $14,000 on Sunday. Over the weekend, Bitcoin dominance stagnated around the 62% mark.
+Bitcoin drove total cryptocurrency market capitalisation when its price reduced from $18,000 on Friday to below $14,000 on Sunday. Over the weekend, Bitcoin dominance stagnated around the 62% mark.
 
 {{< img src="news/positive-outlook2.png" class="img-fluid my-4" alt="Bitcoin dominance index stagnated over the weekend" >}}  
 
