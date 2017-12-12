@@ -199,7 +199,7 @@ Your portolio's level of diversification should illustrate your risk appetite.
 
 Here are some variables to take into account when building a customised and diversified portfolio.
 
-### Markets (fiat versus Bitcoin)
+### Unit of account
 
 There are currently two units of account in the cryptocurrency economy:
 
@@ -222,7 +222,7 @@ In this scenario, this would create a downward pressure (sell) on altcoins.
 
 _Investing in an altcoin with Bitcoin or Ether implies that the price of the altcoin will increase faster than the price of Bitcoin or Ether in fiat._
 
-### Market
+### Industry
 
 An easy way to build your portfolio is to diversify it according to market and product:
 

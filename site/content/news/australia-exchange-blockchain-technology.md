@@ -1,6 +1,6 @@
 +++
 title = "Australia implements blockchain-based stock exchange"
-date = 2017-11-20T20:07:03+02:00
+date = 2017-12-09T20:07:03+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Australia stock exchange is the first exchange to implement distributed ledger technology"

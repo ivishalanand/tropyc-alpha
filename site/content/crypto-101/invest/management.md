@@ -9,9 +9,9 @@ toc = true
 
 ## Best Practices
 
-One of the primary objectives- besides making profits - is to protect yourself from the volatility of the cryptocurrency market, while investing the least amount of time.
+One of the primary objectives of investing - besides making profits - is to protect yourself from the volatility of the cryptocurrency market, while investing the least amount of time.
 
-#### Investing versus Trading
+### Investing versus Trading
 
 Investing and Trading are two different approaches to wealth creation in the cryptocurrency market.
 The former considers profitability as a long-term objective, whilest the latter has a shorter lifespan.
@@ -24,7 +24,7 @@ In general, investing is more about analysing fundamentals, whereas trading is a
 
 Overall, do not stick to one strategy: **always keep a balanced portfolio of investing and trading**.
 
-#### Fiat and Crypto
+### Fund allocation
 
 Pouring money into the cryptocurrency market does not necessarily mean always _owning_ cryptocurrencies or assets.
 
@@ -79,14 +79,13 @@ It is not uncommon to see a steep variation of prices in the same assets.
 For instance, consider the following triangular arbitrage opportunity:
 
 * An exchange lists the price of Bitcoin at 1,000 EUR and ExampleCoin at 110 EUR.
-
 * Another one lists the price of ExampleCoin at 0.1 Bitcoin.
 
 With 1,000 EUR, you can buy a Bitcoin, trade it for 10 Example coin and sell them of for 110 EUR until the market readjusts.  
 Arbitrage trading can be very profitable if well operated, however, before stepping in, don't forget to take into account trading and transaction fees (both exchange and network).
 
-Still, we advise you to arbitrage only on an extremely short-term basis. Otherwise, you might overexpose your portfolio to steep price variation.  
-A long-term triangular arbitrage position is an uncontrolled risk.  
+Still, we advise you to arbitrage only on an extremely short-term basis. Otherwise, you might overexpose your portfolio to steep price variations.  
+A long-term triangular arbitrage position means taking an uncontrolled risk.  
 
 #### Stick to pairs that make sense
 
@@ -95,23 +94,23 @@ An increasing amount of tokens have been introduced on top of smart contract dev
 Rather than trading them against Bitcoin, stick to currencies that are intrinsically connected. Trading an Ethereum blockchain against Bitcoin might overcomplicate your analysis.
 
 For instance, let's have a look at the decentralised predictive market applications: Augur and Gnosis. Both of them are built on top of Ethereum; therefore they have nothing to do with Bitcoin.  
-A logical pair would be against Ether and not Bitcoin.
+It would be logical to trade them against Ether and not Bitcoin.
 
 Trading against Bitcoin creates vulnerabilities to your portfolio whenever there are sharp price swings.
 
 ### Stay informed
 
-News traders try to predict how markets behave after a news release. Making investment decisions based on announcements can become troublesome, as many cryptocurrency focused media outlets are inaccurate or have an agenda.
+News traders try to predict how markets behave after a news release. Making investment decisions based on announcements can become troublesome, as many cryptocurrency focused media outlets have an agenda to promote projects.
 
 For instance, Bitcoin guru Roger Ver owns Bitcoin.com while the Digital Currency Group, a fund that has a stake in ZCash and CoinBase to name a few, also has a stake in CoinDesk.
 
-Many mainstream media houses promote FUD around Bitcoin and the cryptocurrency market, defining it as a Ponzi or a bubble.
+Many mainstream media houses engage in FUD misinformation around Bitcoin and the cryptocurrency market, defining it as a Ponzi or a bubble.
 
-Stay aware of what's happening as it might give you a hedge against the market, but be sure to diversify your sources and indicators as below:
+Stay aware of what's happening as it might give you a hedge against the market, but be sure to diversify your sources and indicators as following:
 
 #### Charts
 
-Nothing like good old price charts to build up your analysis and forecasts.
+Nothing like price charts to build forecasts and analysis.
 
 Keep in mind that _past performance does not guarantee future results_: a bullish trend can quickly shift into a bearish one!
 
@@ -119,17 +118,17 @@ Keep in mind that _past performance does not guarantee future results_: a bullis
 
 The famous saying "Buy the rumour, sell the news" is quite self-explanatory. When news is released, markets _have already moved in accordance to the news_.
 
-You should follow cryptocurrency media houses (Tropyc!, CoinTelegraph, CoinDesk to name a few), financial news (Reuters, Bloomberg, FT) as well as mainstream media (NYT, Forbes) and cross-check information from these different sources.
+You should follow cryptocurrency media houses (tropyc, CoinTelegraph, CoinDesk to name a few), financial news (Reuters, Bloomberg, FT) as well as mainstream media (NYT, Forbes) and cross-check information from these different sources.
 
-Keep an eye out for official press releases from developing teams of assets in which you invest. Staying aware and reactive might help you take advantage of this information and make a profitable trade.
+Keep an eye out for official press releases from projects. Staying aware and reactive might help you take advantage of information and make profitable trades.
 
 #### Technical indicators
 
-Various indicators can help you shape your analysis and make better investment decisions.
+Various indicators can help shaping analysis and making better investment decisions.
 
 Cryptocurrency traders utilise various indicators including moving averages, RSI and Ichimoku clouds to predict future price movements.
 
-Technical analysis is unfortunately outside of the scope of this article (although we intend to add a guide series soon!).
+Technical analysis is unfortunately outside of the scope of this article (although we intend to add a guide series soon).
 
 ## Strategy
 
@@ -158,7 +157,7 @@ The main benefit is that, in the long term and depending on your timeline, your 
 
 ### Value Cost Averaging
 
-Value Cost Averaging (VCA) strategies are a safe way to invest in cryptocurrencies while protecting yourself from its dramatic price variations.
+Value Cost Averaging (VCA) strategies are a safe way to invest in cryptocurrencies whilst staying protected against dramatic price variations.
 
 This method works on slow and steady investments with minimal involvement from the investor.  
 With VCA, investors can protect themselves from market fluctuations and low diversification while reducing monitoring time.
@@ -173,7 +172,7 @@ First, start by planning the fundamentals of your future investments:
 2. During how much time do you want to spread your investment?
 3. What are the cryptocurrencies and digital tokens you find worth the money?
 
-For instance, you may want to invest 2,000 EUR during 10 months, on a monthly basis, in the following markets:
+For instance, you may want to invest 2,000 EUR over 10 months, on a monthly basis, in the following markets:
 
 * Established payment (Bitcoin, Litecoin)
 * Interbank settlement (Ripple, Stellar)
@@ -184,7 +183,7 @@ For instance, you may want to invest 2,000 EUR during 10 months, on a monthly ba
 * Privacy & private marketplace (Monero, Particl)
 * Attention economy (Steemit, Basic Attention Token)
 
-If you select one of each, after 10 months, you'll invest a maximum of 250 EUR per token at 25 EUR per token per month.
+If you select one of each, over 10 months, you'll invest a maximum of 250 EUR per token at 25 EUR per token per month.
 
 #### Rebalancing
 
@@ -193,7 +192,7 @@ In this example, the average value of each token should increase by 25 EUR per m
 * a change in the assets' price
 * the purchase of additional units
 
-In other words, regardless of the price of one token, you have to invest 25 EUR the first month, 50 EUR the second month, 100 EUR the fourth month and so on, until reaching 250 EUR the tenth month.
+In other words, regardless of the price of one token, you have to invest 25 EUR the first month, 50 EUR the second month, 75 EUR the third month and so on, until reaching 250 EUR the tenth month (25 EUR per month over ten months).
 
 **1. Month 1**
 
@@ -203,9 +202,9 @@ Invest 25 EUR in "ExampleCoin" at a price of 1 EUR = 1 ExampleCoin
 
 Depending on the price of ExampleCoin and following VCA strategy you will either buy or sell ExampleCoin.
 
-* Price drop: 1 EUR = 2 ExampleCoin
+* Price drop: 1 EUR = 2 ExampleCoins
 
-My 25 EUR investment got wrecked down to 12.5 EUR.  
+My 25 EUR investment went down to 12.5 EUR.  
 I need to spend an extra 12.5 EUR to get back to my month 1 target and 25 EUR for month 2 target.  
 In this scenario, I'll spend 37.5 EUR.
 
@@ -219,7 +218,7 @@ In this scenario, I'll spend 0 EUR.
 
 My 25 EUR investment became a 100 EUR investment.  
 Because I reached my target for month 4 on month 2, I'll have to sell 50 EUR worth of ExampleCoin.  
-In this scenario, I'll sell 50 EUR worth of ExampleCoin.
+In this scenario, I'll sell 50 EUR worth of ExampleCoins.
 
 Cryptocurrencies and digital tokens might just change the world, or at least have a lasting impact on our economy.
 Many of them will underperform their expectations, face harsh competition - just like any other start-up.
