@@ -3,7 +3,7 @@ title = "Privacy focused tokens: a review"
 date = 2017-11-11T20:07:05+02:00
 categories = ["Altcoin"]
 draft = false
-description = "Increasing amount of cryptocurrencies are available to transact anonymously."
+description = "A non-technical review of privacy-focused cryptocurrencies"
 weight = 20
 images = ["images/news/privacy-focused-tokens.png"]
 +++

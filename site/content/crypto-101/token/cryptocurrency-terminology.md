@@ -27,7 +27,7 @@ Therefore a token is built **_on top of_** a coin.
 ## What is an ICO?
 
 An Initial Coin Offering (ICO) is a new generation fundraising mechanism that operates without the need of an intermediary.  
-Inviduals and organisations can both raise funds and invest via cryptocurrencies without a broker.
+Individuals and organisations can both raise funds and invest via cryptocurrencies without a broker.
 
 The term "ICO" has become the most prevalent terminology in the industry to qualify a decentralised crowdsale - although some introduce "tokens" rather than "coins". 
 

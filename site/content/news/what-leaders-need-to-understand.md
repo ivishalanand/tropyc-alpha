@@ -16,10 +16,7 @@ This chart sums up well the situation:
 
 {{< tweet 829421449760866304 >}}
 
-As most of the societal decision-making is made by only a handful of leaders - whether they are elected officials, bureaucrats or industry captains - they also struggle to understand how cryptocurrencies and blockchain technology work.
-
-Expecting them to forecast the impact of this disruptive technology is of no use.  
-Instead, we should comprehend that blockchain, bitcoin and cryptocurrencies are not a technology, **they are a cultural paradigm shift**.
+Blockchain, bitcoin and cryptocurrencies are not a technology, **they are a cultural paradigm shift**.
 
 ## Crypto does not need you
 
