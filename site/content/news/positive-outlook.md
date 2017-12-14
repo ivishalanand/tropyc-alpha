@@ -4,7 +4,7 @@ date = 2017-12-11T10:07:03+02:00
 categories = ["Altcoin"]
 draft = false
 description = "After a significant downturn over the weekend, the cryptocurrency market is continuing its bull run after the introduction of Bitcoin futures."
-weight = 10
+weight = 20
 images = ["images/news/positive-outlook.png"]
 +++
 
