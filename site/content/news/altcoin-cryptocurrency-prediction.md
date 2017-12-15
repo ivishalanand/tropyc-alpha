@@ -4,7 +4,7 @@ date = 2017-12-14T10:35:39+02:00
 categories = ["Altcoin"]
 draft = false
 description = "Although there's been a frenzy in trading Bitcoin and Litecoin last month, there are clear signals that altcoins are gaining popularity amongst the crypto investment community."
-weight = 10
+weight = 20
 images = ["images/news/news-discount.png"]
 +++
 
