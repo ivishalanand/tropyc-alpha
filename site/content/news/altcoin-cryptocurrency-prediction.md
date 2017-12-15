@@ -3,7 +3,7 @@ title = "2018: which altcoins to gain mainstream notice?"
 date = 2017-12-14T10:35:39+02:00
 categories = ["Altcoin"]
 draft = false
-description = "Although there's been a frenzy in trading Bitcoin an Litecoin last month, there are clear signals that altcoins are gaining popularity amongst the crypto investment community."
+description = "Although there's been a frenzy in trading Bitcoin and Litecoin last month, there are clear signals that altcoins are gaining popularity amongst the crypto investment community."
 weight = 10
 images = ["images/news/news-discount.png"]
 +++
@@ -12,7 +12,7 @@ We have witnessed tremendous growth in the cryptocurrency market this year, with
 The "Big Three" valuation increased by 2,100% from $16.4 to $36 billion in less than twelve months.
 
 In the same period, the proportion of BTC, ETH, LTC out of the total cryptocurrency market capitalisation, decreased from 92% to 71% indicating a growing demand for smaller capitalisation cryptocurrencies.
-Although there's been a frenzy in trading Bitcoin an Litecoin last month, it is clear signal that altcoins are gaining popularity amongst the crypto investment community.
+Although there's been a frenzy in trading Bitcoin and Litecoin last month, it is a clear signal that altcoins are gaining popularity amongst the crypto investment community.
 
 ## Private medium of exchange
 
@@ -26,7 +26,6 @@ The crypto-economy is still under development with its infrastructure missing a 
 
 Products in distributed computation (Golem), decentralised exchange (0x), internet of things (Iota) and file storage (Filecoin, Storj) should gain traction if they keep their community up to date.
 
-
 ## Region-specific
 
 Cryptocurrency has become ubiquitious and cosmopolitan with every local market representing a decent share of transaction volume. Asia, USA, Europe and Russia will create their own "captain of the industry".
@@ -34,4 +33,4 @@ Smart contract development platform NEO from China, open payment application Omi
 
 ## ICOs
 
-2017 has been a pivotal year for Initial Coin Offerings with some project valuation reaching as high as three hundred million dollars. Ease of access to token sale documentation and data will trigger substantial growth for seed funding via cryptocurrency.
+2017 has been a pivotal year for Initial Coin Offerings with some project valuations reaching as high as three hundred million dollars. Ease of access to token sale documentation and data will trigger substantial growth for seed funding via cryptocurrency.
