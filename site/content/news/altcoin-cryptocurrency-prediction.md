@@ -9,7 +9,7 @@ images = ["images/news/news-discount.png"]
 +++
 
 We have witnessed tremendous growth in the cryptocurrency market this year, with Bitcoin, Ethereum and recently Litecoin leading the way.
-The "Big Three" valuation increased by 2,100% from $16.4 to $36 billion in less than twelve months.
+The "Big Three" valuation increased by 2,100% from $16.4 to $360 billion in less than twelve months.
 
 In the same period, the proportion of BTC, ETH, LTC out of the total cryptocurrency market capitalisation, decreased from 92% to 71% indicating a growing demand for smaller capitalisation cryptocurrencies.
 Although there's been a frenzy in trading Bitcoin and Litecoin last month, it is a clear signal that altcoins are gaining popularity amongst the crypto investment community.
