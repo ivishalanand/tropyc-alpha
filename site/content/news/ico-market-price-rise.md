@@ -34,7 +34,7 @@ Market dynamics have shifted drastically in the past couple of months:
 
 No matter what, ICOs cannot expect capital to come "passively" like before, but rather to actively seek an audience in line with the project's mission and vision, whether they are thousands of investors or a handful of high net worth cryptocurrency hodlers.
 
-To do so, projects have to implement marketing strategies focusing on collective investment pools or institutionalised investors, but their respective needs drastically differ. Institutions expect face to face interactions, while collective pools require a 24/7 chat service.
+To do so, projects can target either collective investment pools or institutionalised investors, each having different set of needs. Institutions expect face to face interactions, while collective pools require a 24/7 chat service.
 
 The means to attract investment from large funds are more conventional than targeting smaller ticket-size investors who sometimes act more emotionally than logically.
 
@@ -51,11 +51,12 @@ The increased attention towards the "captains of crypto", Bitcoin, Litecoin, and
 
 The sudden rise in Bitcoin price creates a sell pressure on every altcoin, including freshly liquid ICOs. As the capitalisation of Bitcoin increases, altcoins saw their BTC capitalisation shrink at impressive rates. 
 
-The dilution may have created a risk-averse environment amongst investors: why invest in ICOs if hodling major cryptocurrencies result in unprecedented returns? 
+The dilution may have created an ICO risk-averse environment amongst investors:  
+Why invest in tokensales if hodling major cryptocurrencies result in unprecedented returns? 
 
-ICOs that occurred before last month's price pump have made handsome profits from their initial investment. The increment reduces cash constraints for them but creates an even more competitive landscape for future ICOs.
+ICOs that occurred before last month's price pump have made handsome profits from their round of investment. The increment reduces cash constraints for early players but creates an even more competitive landscape for future ICOs.
 
-Upcoming projects have to communicate their value proposition effectively to a targeted audience and remain flexible to investor's communication expactations.  
-Long gone are the days where investors are merely looking to "flip" their tokens once ICO hit the exchange.
+That being said, attracting investors from outside the cryptocurrency realm should not be that difficult. New ICOs can benefit from the hype and give the opportunity to anyone to take part in a decentralised venture.  
+The complexity here is in targeting an audience and providing services in line with their investment expectations.  
 
-
+Long gone are the days where investors are merely looking to "flip" their tokens once they hit the exchange. To attract capital, ICOs have to invest in their operations, deploy fantastic community management and create a responsible, regulated and elegant environment for investment.
