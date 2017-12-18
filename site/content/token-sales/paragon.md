@@ -58,10 +58,6 @@ currencyAccepted = "BTC, LTC, ETH, ETC, XMR ..."
       supply = "200,000,000"
       value = "200,000,000"
 
-[allocation]
-  [allocation.na]
-    stake = "N/A"
-    cut = "5%"
 
 [setUp]
   [setUp.compliance]

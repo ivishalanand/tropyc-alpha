@@ -54,11 +54,6 @@ currencyAccepted = "BTC, ETH"
       supply = "150,000,000"
       value = "90,000,000"
 
-[allocation]
-  [allocation.na]
-    stake = "Not communicated"
-    cut = "100%"
-
 [setUp]
   [setUp.compliance]
     investorVerification = false
