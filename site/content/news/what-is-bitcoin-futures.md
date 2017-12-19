@@ -18,7 +18,7 @@ It is an agreement to buy or sell an asset or commodity at a price defined today
 They are multiple advantages to futures contracts including:
 
 * ability to own Bitcoin without baring the cybersecurity risk of holding them.
-* absence of interaction with centralised cryptocurrency exchanges that can crash or get hacked.
+* absence of interaction with centralised crypto-exchanges that can crash or get hacked.
 * opportunity to trade Bitcoin on regulated marketplaces which reduces the risk of government intervention in the long run.
 * increase market penetration of cryptocurrency to a broader audience, including investors looking to diversify their portfolio or markets where Bitcoin is illegal
 * increase liquidity which may reduce volatility and arbitrage opportunity.
@@ -53,7 +53,7 @@ Regarding regulated exchanges, CBOE and CME's contract slightly differ, so here 
 Regulated exchanges settle futures in cash and not in Bitcoin. 
  
 Purchasing a CBOE futures contract for, let's say, $20,000, would require $8,800 in an account, before being able to open any position.  
-After three months, the price drops to $10,000 per unit: the seller does not have to send a Bitcoin. Instead, he settles in cash the price difference, so that the buyer can purchase one.
+After three months, if the price drops to $10,000 per unit: the seller does not have to send a Bitcoin. Instead, he settles in cash the price difference, so that the buyer can purchase one.
 
 ## Futures, now what?
 
