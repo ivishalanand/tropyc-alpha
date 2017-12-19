@@ -4,7 +4,7 @@ date = 2017-12-15T10:07:03+02:00
 categories = ["ICO"]
 draft = false
 description = "The increased attention towards the captains of crypto, Bitcoin, Litecoin, and Ripple to name a few, has undoubtedly negatively impacted ICO investment as a whole."
-weight = 10
+weight = 20
 images = ["images/news/news-chess.png"]
 +++
 

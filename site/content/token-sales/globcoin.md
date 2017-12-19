@@ -56,22 +56,22 @@ currencyAccepted = "ETH, BTC, USD"
 [allocation]
   [allocation.development]
     stake = "Development"
-    cut = "%"
+    cut = "TBA"
   [allocation.marketing]
     stake = "Marketing"
-    cut = "%"
+    cut = "TBA"
   [allocation.partnerships]
     stake = "Partnerships"
-    cut = "%"
+    cut = "TBA"
   [allocation.operations]
     stake = "Operations"
-    cut = "%"
+    cut = "TBA"
   [allocation.legal]
     stake = "Legal and licencing"
-    cut = "%"
+    cut = "TBA"
   [allocation.ip]
     stake = "Intellectual property"
-    cut = "%"
+    cut = "TBA"
   [allocation.legalSupport]
     stake = "Protection of investor's right"
     cut = "5%"
