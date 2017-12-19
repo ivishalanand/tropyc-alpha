@@ -17,18 +17,18 @@ It is an agreement to buy or sell an asset or commodity at a price defined today
 
 They are multiple advantages to futures contracts including:
 
-* ability to own Bitcoin without baring the cybersecurity risk of holding them.
-* absence of interaction with centralised crypto-exchanges that can crash or get hacked.
-* opportunity to trade Bitcoin on regulated marketplaces which reduces the risk of government intervention in the long run.
-* increase market penetration of cryptocurrency to a broader audience, including investors looking to diversify their portfolio or markets where Bitcoin is illegal
-* increase liquidity which may reduce volatility and arbitrage opportunity.
+* Ability to own Bitcoin without baring the cybersecurity risk of holding them.
+* Absence of interaction with centralised crypto-exchanges that can crash or get hacked.
+* Opportunity to trade Bitcoin on regulated marketplaces which reduces the risk of government intervention in the long run.
+* Increase market penetration of cryptocurrency to a broader audience, including investors looking to diversify their portfolio or markets where Bitcoin is illegal.
+* Increase liquidity which may reduce volatility and arbitrage opportunity.
 
 
 ## Where to purchase a future contract?
 
 Bitcoin futures have been available for a while now, on unregulated exchanges such as BitMEX or OKCoin.
 
-Regarding regulated exchanges, CBOE and CME's contract slightly differ, so here is a comparative analysis:
+Regarding regulated exchanges, CBOE and CME's contracts slightly differ, so here is a comparative analysis:
 
 ### Chicago Board Options Exchange
 
@@ -37,16 +37,16 @@ Regarding regulated exchanges, CBOE and CME's contract slightly differ, so here 
 3. Settlement price: 4 PM (EST) on Gemini
 4. Settlement date: Each of the next three months
 5. Settlement day:  Two days before the third Friday of settlement month
-6. Volatility break: if 10% and 20% price variation, then 2-minute break
+6. Volatility break: 10% and 20% price variations trigger a 2-minute break
 
 ### Chicago Mercantile Exchange
 
 1. Contract size: 5 Bitcoin
 2. Collateral required: 35%
-3. Settlement price: CME Bitcoin rate (Weighted average of prices Bitstamp, GDAX, itBit and Kraken)
+3. Settlement price: CME Bitcoin rate (Weighted average of prices from Bitstamp, GDAX, itBit and Kraken)
 4. Settlement date: March, June, September, December
 5. Settlement day:  Last Friday of settlement month
-6. Volatility break: if 7%, 13% and 20% price variation, then 2-minute break (above 20%, it shuts down for the day)
+6. Volatility break: 7%, 13% and 20% price variations trigger a 2-minute break (above 20%, it shuts down for the day)
 
 ## What happens at the end of a future contract?
 

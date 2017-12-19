@@ -9,7 +9,7 @@ draft = false
 ticker = "GCP"
 startDate = 2018-01-08
 endDate = 2018-01-31
-rating = "9.1"
+rating = "9.4"
 origin = "Switzerland, 2017"
 industry = "Financial services"
 platform = "Ethereum"
@@ -56,24 +56,24 @@ currencyAccepted = "ETH, BTC, USD"
 [allocation]
   [allocation.development]
     stake = "Development"
-    cut = "TBA"
+    cut = "51%"
   [allocation.marketing]
     stake = "Marketing"
-    cut = "TBA"
+    cut = "15%"
   [allocation.partnerships]
-    stake = "Partnerships"
-    cut = "TBA"
+    stake = "Partnerships (exchanges, platforms)"
+    cut = "5%"
   [allocation.operations]
-    stake = "Operations"
-    cut = "TBA"
+    stake = "Operations: salaries, rent"
+    cut = "15%"
   [allocation.legal]
     stake = "Legal and licencing"
-    cut = "TBA"
+    cut = "4%"
   [allocation.ip]
     stake = "Intellectual property"
-    cut = "TBA"
+    cut = "5%"
   [allocation.legalSupport]
-    stake = "Protection of investor's right"
+    stake = "Protection of investor's right and legal support"
     cut = "5%"
 
 
