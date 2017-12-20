@@ -5,7 +5,6 @@ description = "Gladius can facilitate the creation of the extremely fault tolera
 bref = "Decentralized DDoS Mitigation and CDN Service Marketplace"
 weight = 20
 draft = false
-premium = 2
 
 ticker = "GLA"
 startDate = 2017-11-24
