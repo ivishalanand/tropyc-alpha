@@ -1,16 +1,15 @@
 +++
 title = "About Us"
-description = "Tropyc is an independent news, research and advisory house committed to deliver impartial fundamentals of cryptocurrency to a wider audience."
-bref = "Tropyc is an independent news, research and advisory house committed to deliver impartial fundamentals of cryptocurrency to a wider audience."
+description = "Crypto is hard, Tropyc makes it easy by listing initial coin offering and cryptocurrency fundamentals and publishing news, insights and education"
+bref = "Crypto is hard, Tropyc makes it easy by listing initial coin offering and cryptocurrency fundamentals and publishing news, insights and education"
 +++
 
-Bitcoin, blockchain, cryptocurrency, digital tokens, smart contracts, initial coin offerings: all of this is very new and can sometimes get confusing.
+Our mission at tropyc is to make things easier for anyone who’s interested in the cryptocurrency and token economy. By listing initial coin offerings fundamentals, we strive to simplify the process of screening investment opportunities in the market.
 
-At tropyc, our mission is to make things easier for anyone who’s interested in this exciting space.
+Tropyc is a tool to help crypto-enthusiasts assess and compare ICO projects, understand cryptocurrency fundamentals and stay up to date with blockchain news.
 
-Take a look at our resources, we made sure any crypto enthusiasts will find his fix:
+Our resources include:
 
--	Get the latest news.
--	Introduction to cryptocurrency.
--	Insights and analyses.
--	Assess Initial Coin Offerings.
+- ICO listing and rating
+- Cryptocurrency guides
+- News and insights
