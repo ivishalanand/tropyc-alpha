@@ -21,8 +21,6 @@ On the 5th of December, the cloud miner stated its service is currently "under m
 
 The next day, NiceHash released a press release on <a href=https://www.reddit.com/r/NiceHash/comments/7i0s6o/official_press_release_statement_by_nicehash/ target=_blank>/r/NiceHash</a> confirming they were the victim of a cyber attack.
 
-
-
 ## Could it be an inside job?
 
 We'll most probably never know, but there is always a possibility of faking a hack.  

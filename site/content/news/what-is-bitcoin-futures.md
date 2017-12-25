@@ -4,7 +4,7 @@ date = 2017-12-19T10:35:39+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "Bitcoin futures launched on Chicago Mercantile Exchange's (CME) financial derivative marketplace on Sunday evening, a week after their introduction on smaller competitor Chicago Board Options Exchange (CBOE)."
-weight = 10
+weight = 20
 images = ["images/news/news-what-is-bitcoin-futures.png"]
 +++
 
