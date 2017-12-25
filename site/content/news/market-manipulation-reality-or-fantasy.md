@@ -50,7 +50,7 @@ After a severe correction, BCH has been trading at a 25% premium.
 
 {{< img src="news/news-bitcoin-market-manipulation-reality-or-fantasy2.png" class="img-fluid my-3" alt="Bitcoin Cash price soared by 25% after Coinbase introduced the coin on its platform" >}}
 
-Coinbase felt obliged to stall trading operations when a wave of critics called for “insider trading” within one of Digital Currency Group’s (DCG) flagship company. At the same time, BTC dropped sharply, reducing the market capitalisation gap between both Bitcoin chains. This can come across as shady, since DCG orchestrated the Bitcoin Cash chain split during the New York Agreement in May.
+Coinbase felt obliged to stall trading operations when a wave of critics called for “insider trading” within one of Digital Currency Group’s (DCG) flagship company. At the same time, BTC dropped sharply, reducing the market capitalisation gap between both chains. This can come across as shady, since DCG orchestrated the Bitcoin Cash chain split during the New York Agreement in May.
 
 {{< tweet 943359412248473600 >}}
 
@@ -78,9 +78,10 @@ Owners of massive amounts of cryptocurrency are known as “whales”, investors
 For instance, on November 12th, a holder moved 25,000 BTC to an exchange wallet – at the time it was worth $160 million.  
 
 According to Aaron Brown, former managing director at AQR Capital Management, 40% of Bitcoin are perhaps held by 1,000 users. Kyle Samani, managing partner at Multicoin Capital, thinks there are a few hundred individuals that own a large proportion of Bitcoin and "they all probably can call each other, and they probably have".
-The level of market concentration may lead to artificial price variations where such whales can coordinate and orchestrate a buy or a sell market run.
+
+The level of concentration may lead to artificial price variations where such whales can coordinate and orchestrate a buy or a sell market run.
 
 > “As in any asset class, large individual holders and large institutional holders can and do collude to manipulate price. In cryptocurrency, such manipulation is extreme because of the youth of these markets and the speculative nature of the assets." Ari Paul, co-founder BlockTower Capital
 
 Due to its relatively young age, the cryptocurrency market is manipulated in several ways, especially since it is unregulated.  
-But the concept of manipulation should be relative and compared to conventional markets. Thinking stock and bond markets are not manipulated could come across, in all honesty, as naïve.
+But the concept of manipulation should be relative and compared to conventional markets. Thinking stock and bond markets are not manipulated could come across, let's be honest, as naïve.
