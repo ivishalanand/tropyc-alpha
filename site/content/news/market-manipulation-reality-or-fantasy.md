@@ -3,15 +3,15 @@ title = "Market manipulation: reality or fantasy?"
 date = 2017-12-25T18:00:00+02:00
 categories = ["Bitcoin"]
 draft = false
-description = "With the increased awareness towards cryptocurrency from mainstream media, regulators and institutionalised investors, many have suggested the market remains heavily manipulated, if not controlled by a handful of stakeholders. Is it true?"
+description = "After the rapidly increasing awareness of cryptocurrency to mainstream media, regulators and institutionalised investors, many have suggested that the market remains heavily manipulated, if not controlled by a handful of stakeholders. Can it be true?"
 weight = 10
 images = ["images/news/news-bitcoin-market-manipulation-reality-or-fantasy.png"]
 +++
 
-The impressive rise of the cryptocurrency market capitalisation followed by a dramatic correction has left newcomers shocked about the underlying volatility.  
+The impressive rise of the cryptocurrency market capitalisation followed by a dramatic correction has left newcomers shocked about price volatility.  
 50% price swings over a short period (weeks if not days) aren't uncommon for experienced market watchers and crypto enthusiasts.
 
-However, with the increased awareness to cryptocurrency from mainstream media, regulators and institutionalised investors, many have suggested that the market remains heavily manipulated, if not controlled by a handful of stakeholders. 
+After the rapidly increasing awareness of cryptocurrency to mainstream media, regulators and institutionalised investors, many have suggested that the market is heavily manipulated, if not controlled by a handful of stakeholders. 
 
 *Can these allegations turn out to be true?*  
 
