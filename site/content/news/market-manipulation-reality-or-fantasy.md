@@ -4,7 +4,7 @@ date = 2017-12-25T18:00:00+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "After the rapidly increasing awareness of cryptocurrency to mainstream media, regulators and institutionalised investors, many have suggested that the market remains heavily manipulated, if not controlled by a handful of stakeholders. Can it be true?"
-weight = 10
+weight = 20
 images = ["images/news/news-bitcoin-market-manipulation-reality-or-fantasy.png"]
 +++
 
