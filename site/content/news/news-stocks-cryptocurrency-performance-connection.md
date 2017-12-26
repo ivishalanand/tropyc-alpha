@@ -3,12 +3,12 @@ title = "Are stocks connected to cryptocurrency performance?"
 date = 2017-12-26T17:07:03+02:00
 categories = ["BANK"]
 draft = false
-description = ""
+description = "The introduction of cryptocurrency related derivatives on regulated markets has created two mutually exclusive and collaboratively exhaustive investment environments for institutions. Are they correlated?"
 weight = 10
 images = ["images/news/news-stocks-cryptocurrency-performance-connection.png"]
 +++
 
-The cryptocurrency market has reached a new milestone this year, stepping one foot into the realm of mainstream finance, after the introduction of Bitcoin futures contracts in major derivatives marketplace.
+The cryptocurrency market has reached a new milestone this year, stepping one foot into the realm of mainstream finance, after the introduction of Bitcoin futures contracts in major derivatives marketplaces.
 
 Institutionalised investors are gaining interest in the market, although it has often been labelled as a "get rich quickly" scheme.  
 
@@ -26,9 +26,9 @@ Wells Fargo's equity strategy division head implied such scenario is highly prob
 
 ## Cryptocurrency valuation is a drop in the ocean
 
-Well, this just a "theory", because turns out the cryptocurrency market capitalisation is worth peanuts compared to the global finance market.
+Well, this is just a "theory", because it turns out the cryptocurrency market capitalisation is worth peanuts compared to the global finance market.
 
-Sure, Bitcoin reached an impressive all-time high, topping $20,000 per unit and leading our industry to a $600 billion market capitalisation. But the gold market capitalisation is worth at $7.2 trillion, as per Thomson Reuters’ GFMS Gold survey 2017; this is twelve times more than cryptocurrencies.
+Sure, Bitcoin reached an impressive all-time high, topping $20,000 per unit and leading our industry to a $600 billion market capitalisation. But the gold market capitalisation is worth $7.2 trillion, as per Thomson Reuters’ GFMS Gold survey 2017; this is twelve times more than cryptocurrencies.
 
 To put things in more perspective, Apple is valued at $880 billion, and the derivatives market is estimated (on the higher end) at $1.2 quadrillion.
 
@@ -38,6 +38,6 @@ Even if an increased interest in cryptocurrency leads to a selling pressure on s
 
 Interestingly, cryptocurrency and conventional financial markets have become complementary. Since the crypto-economy is an alternative to our banking system, cryptocurrencies are hedging tools against traditional securities and vice-versa.
 
-Taking a step back, the introduction of cryptocurrency related derivatives on regulated markets has created two mutually exclusive and collaboratively exhaustive investment environment for institutions. How both economies will perform against each other is yet to be observed, but it is certain that one environment is a hedge against the other.
+Taking a step back, the introduction of cryptocurrency related derivatives on regulated markets has created two mutually exclusive and collaboratively exhaustive investment environments for institutions. How both economies will perform against each other is yet to be observed, but it is certain that one environment is a hedge against the other.
 
 
