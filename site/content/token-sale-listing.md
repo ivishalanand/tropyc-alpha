@@ -15,8 +15,8 @@ description = "Project raising funds via an ICO/tokensale can get their project 
           <label for="applicationType">Type of Application</label>
           <select name="applicationType" class="form-control" id="applicationType">
             <option>Regular - FREE</option>
-            <option>Fast track 48h - 0.01 BTC</option>
-            <option>1 week high visibility - 0.05 BTC</option>
+            <option>Fast track 48h - $30</option>
+            <option>1 week high visibility - $120</option>
           </select>
         </div>
         <div class="form-group">
