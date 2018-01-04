@@ -3,41 +3,38 @@ title = "Weekly altcoin review #1: Asset management"
 date = 2017-12-30T10:35:39+02:00
 categories = ["Altcoin"]
 draft = false
-description = "Introducing our first cryptocurrency industry specific review, helping crypto-enthusiasts better understand how diversified is the token economy"
+description = "Introducing our first cryptocurrency industry specific review focused on digital asset management, helping crypto-enthusiasts better understand how diversified is the token economy"
 weight = 10
 images = ["images/news/news-cryptocurrency-asset-management-review.png"]
 +++
 
 Introducing the first edition of our weekly alternative cryptocurrency review, where we describe and compare digitals assets of the same industry.
 
-We hope this review will provide insights to cryptocurrency enthusiasts interested in discovering industry-specific coins and tokens. 
+We hope this review will provide insights to cryptocurrency enthusiasts interested in discovering coins and tokens by industry rather than valuation.
 
 Here, we will be focusing on *digital asset management platforms* that considers tokens and coins as investment vehicles. 
 
-With hedge fund performance declining  by 0.1% on average in November, as per the <a href=https://www.bloomberg.com/news/articles/2017-12-07/hedge-fund-performance-slipped-in-november-as-the-market-rose target=_blank>Hedge Fund Research</a>, blockchain technology offers tangible solutions regarding cost-efficiency and governance
+With hedge fund performance declining by 0.1% on average in November, as per the <a href=https://www.bloomberg.com/news/articles/2017-12-07/hedge-fund-performance-slipped-in-november-as-the-market-rose target=_blank>Hedge Fund Research</a>, blockchain powered hedge funds might offer tangible solutions regarding cost-efficiency and governance inefficiencies in conventional markets.
 
-Today, we'll compare four different tokens that intend to disrupt mainstream finance at scale.
+Today, we'll compare five different tokens that intend to disrupt mainstream finance at scale:
 
-(Note that projects are listed in alphabetical order)
-
-## Iconomi 
+## Iconomi: digital asset management platform 
 
 ### Concept
 
 Launched in Slovenia, Iconomi raised $10 million in September via a public initial coin offering on the release of ICN tokens.
-At the foundation of Iconomi, sits Digital Asset Arrays (DAA) a combination of several digital assets. As such, asset management can create their own financial products powered by the Iconomi Digital Asset Management Platform, a centralised web application.
+At the foundation of Iconomi, sits Digital Asset Arrays (DAA) a portfolio of coins and tokens. As such, asset managers can create their financial products powered by the Iconomi Digital Asset Management Platform, a centralised web application.
 
-1. On the one hand, investors have access to a diversified array of assets, that can be designed by risk adversity or investment style.
-2. On the other hand, users can become DAA managers and offer investment opportunities to a wider audience by creating their own array of assets. DAA managers earn fees from the inflow of capital performance of their product.
+1. Investors have access to a diversified array of assets, that can be designed per risk adversity or investment style.
+2. On the other hand, users can become DAA managers and offer investment opportunities to a broader audience by creating their own array of assets. DAA managers earn fees from the inflow of capital performance of their product.
 
-On the day of writing, Iconomi only offers DAAs built by institutions such as Colombus Capital's Pinta (CCP) and Blockchain Index (BCX)  and is yet to allow "common" users build their own asset array.
+On the day of writing, Iconomi only offers DAAs built by institutions such as Colombus Capital's Pinta (CCP) and Blockchain Index (BCX)  and is yet to allow "common" users create their own asset array.
 
 ### Token
 
-The ICONOMI eco-system offers two types of tokens:
-
-1. ICN, the token of the ICONOMI network are bought back and burned by existing and profitable DAAs. It will have more utility once the DAA platform is finalised: managers will pay inceptions fees in ICN.
-2. DAA tokens derive their value from the underlying assets backing the DAA. As such, they are asset-backed.
+The ICONOMI eco-system offers two types of assets:
+1. ICN, the token of the ICONOMI network, which is repurchased and burned by existing and profitable DAAs. It will have more utility once the DAA platform is finalised, as managers will pay inceptions fees in ICN.
+2. DAA tokens derive their value from the underlying assets backing the DAA - therefore, they are asset-backed.
 
 ### Roadmap
 
@@ -46,11 +43,11 @@ The ICONOMI eco-system offers two types of tokens:
 
 ### Analysis
 
-* **Status**: MVP + Users
-* **Pros**: Working product with users
+* **Status**: Working product with users
+* **Pros**: User-centered design and easy-to-use
 * **Cons**: ICN might pass the Howie test + platform is centralised
 
-## Melon Port
+## Melon Port: protocol for decentralised hedge funds.
 
 ### Concept
 
@@ -58,8 +55,8 @@ Unlike ICONOMI, Mellon is a **decentralised**, blockchain powered, digital asset
 
 Today, Melon Port is built on top of Ethereum, but the founding team announced they intend to convert the protocol blockchain agnostic, meaning Melon should not be exclusive to Ethereum.
 
-The mission resides in facilitating the design, management and operations of decentralised hedge funds. Users can interact with Melon via its Portal, a graphical user interface allowing asset management, investment and redemption.
-Smart contracts allow the design of flexible hedge funds with any type of relationships between investors and managers.
+The mission resides in facilitating the design, management and operations of decentralised hedge funds. Users can interact with Melon via its Portal, a graphical user interface allowing asset management, investment and redemption.  
+Smart contracts allow the design of flexible hedge funds with any kind of relationships between investors and managers.
 
 As Melon Port is decentralised, users are not required to trust any third party in any hedge fund related process, including the Melon team.
 
@@ -78,25 +75,102 @@ The Melon Protocol and Portal are expected to be deployed on the main network by
 ### Analysis
 
 * **Status**: Pre-MVP, development stage
-* **Pros**: Blockchain-powered platform disrupting a multi-billion dollar industry.
+* **Pros**: Blockchain-powered platform disrupting a multi-billion dollar industry and facilitating tokenised hedge funds
 * **Cons**: Dependencies to other projects + high cybersecurity risk and exposure to faulty smart contracts
 
-## Numerai
+## Numerai: Hedge fund run by artificial intelligence
 
 ### Concept
 
+Numerai is an Artificial Intelligence (AI), and Machine Learning (ML) powered hedge fund, where data scientists around the world contribute to the knowledge and performance of the hedge fund.
+It is an AI protocol that will connect data scientists and their contribution to mainstream finance, including the stock market.
+
+The application incentivises scientists to contribute and build a world-class prediction model on a decentralised and AI-powered hedge fund.
+
 ### Token
+
+Numerai introduced its cryptographic token on the Ethereum blockchain in February 2016, three months after the project's inception. Numeraire facilitates a commerce between finance scientists and experts creates compatibility between collaboration and self-interest in a competitive market and a zero-sum game.
+
+The process goes a follows:
+
+1. Scientist submits a prediction by staking NMR through a smart contract.
+2. If the predictions are accurate, the scientist earns more NMR, if not, the staked tokens are destroyed.
+
+As such Numerai's digital asset grants the access to a staking tournament on the main network.
 
 ### Roadmap
 
+Today, Numerai is not a decentralised hedge fund per se, as mainstream finance is not built on a blockchain. The team intends to roll out an entirely open-source version of their application where anyone could contribute to development and improvement.
+
+Furthermore, the founding team has planned:
+
+* **Q1 18**: Reputation system for contributors
+* **Q2 18**: Computational power marketplace integrated with Numeraire and Ethereum smart contracts.
+* **Q4 18**: API design, for any artificial intelligence built for capital management
+
 ### Analysis
 
-## Blackmoon crypto
+* **Status**: Working product with centralised specifications
+* **Pros**: Numerai did not undertake any controversial initial coin offering. The first tokens were issued to the 12,000 active contributors userbase.
+* **Cons**: Centralised web application. Staking tokens before issuing predictions to the network might be a too risky trade-off for data scientists.
+
+## Cindicator: Hybrid intelligence for asset management
 
 ### Concept
 
+Cindicator introduced a collective and hybrid intelligence platform for asset management powered both by AI and ML data models and a community of traders, scientists and analysts.  
+Funds invest based on the average of answers provided by the hybrid network of forecasters, optimised by AI and ML.
+
+Both Numerai and Cindicator deploy an army of data scientists and analysts to maximise capital gains.  
+Their data model diverges on how the community interacts amongst each other: 
+
+* Numerai organises a tournament via staking and synthesises model in a meta one. Analysts collaborate.
+* Cindicator facilitates hybrid intelligence with users answering questions and an AI model built on top. Analysts compete.
+
+After wrong predictions, Cindicator's model incentivises users negatively by lower public ratings rather than burning the amount staked.
+
 ### Token
+
+The totality of Cindicator tokens has been issued during the initial sale event in September. Holding CND gives access to market predictions and indicators generated by the model.
 
 ### Roadmap
 
+* Marketing campaign: grow the userbase by targeting the investment fund market and increase the number of forecasts per user.
+* Analytical products: improve asset coverage of both traditional and crypto markets. Introduce ICO analysis, NLP, robo-advising and arbitrage products.
+* Hybrid intelligence: train data model and introduce new incentives to develop a symbiotic and effective collective asset management mind.
+
 ### Analysis
+
+* **Status**: Working product with centralised specifications.
+* **Pros**: Hybrid intelligence gathers both community, and AI/ML insights + UI/UX and question design are of high calibre.
+* **Cons**: Access to services by owning a certain amount of CDN requires constant recalibration and a centralised authority.
+
+## Blackmoon crypto: Hedge fund in crypto and fiat
+
+### Concept
+
+Just like Numerai and Cindicator, Blackmoon crypto is a digital forecasting and asset management platform. Blackmoon started as an investment management firm in 2014, providing financial services to institutional players. In 2015, the company launched a lending marketplace in three European countries and reached seven countries the next year.  
+Launched in 2017, the Blackmoon crypto platform provides access to both crypto and fiat markets to investors while distributing profits of fund management income to the token holders.
+
+The software provides investment managers and users the opportunity to design, manage and invest in tokenised funds.
+
+### Token
+
+The BMC token is used to pay several fees to the network including:
+
+* Users: fund structuring, maintenance and transaction fee
+* Investment managers: management and performance fee.
+
+### Roadmap
+
+* Launch of a high yield fixed fiat in the alternative lending fund, designed by the Blackmoon crypto team.
+* ICO and cryptocurrency fund.
+* In 2019, introduction of stock market fiat, venture capital and managed crypto funds.
+
+### Analysis
+
+* **Status**: Pre-launch, no tokenised fund yet.
+* **Pros**: Ability to create a mixed crypto/fiat fund + High focus on compliance and future regulation.
+* **Cons**: Product is not fully operational + vulnerable to regulation.
+
+*We'll be happy to review a token industry of your choice. Kindly drop us an e-mail on hello@tropyc.co with your preference.*
