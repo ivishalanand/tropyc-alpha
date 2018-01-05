@@ -1,6 +1,6 @@
 +++
 title = "Weekly altcoin review #1: Asset management"
-date = 2018-01-05T10:35:39+02:00
+date = 2018-01-04T10:35:39+02:00
 categories = ["Altcoin"]
 draft = false
 description = "Introducing our first cryptocurrency industry specific review focused on digital asset management, helping crypto-enthusiasts better understand how diversified is the token economy"
