@@ -8,11 +8,11 @@ weight = 10
 images = ["images/news/news-cryptocurrency-asset-management-review.png"]
 +++
 
-Introducing the first edition of our weekly alternative cryptocurrency review, where we describe and compare digitals assets of the same industry.
+Introducing the first edition of our weekly alternative cryptocurrency review, where we describe and compare digital assets of the same industry.
 
 We hope this review will provide insights to cryptocurrency enthusiasts interested in discovering coins and tokens by industry rather than valuation.
 
-Here, we will be focusing on *digital asset management platforms* that considers tokens and coins as investment vehicles. 
+Here, we will be focusing on *digital asset management platforms* that consider tokens and coins as investment vehicles. 
 
 With hedge fund performance declining by 0.1% on average in November, as per the <a href=https://www.bloomberg.com/news/articles/2017-12-07/hedge-fund-performance-slipped-in-november-as-the-market-rose target=_blank>Hedge Fund Research</a>, blockchain powered hedge funds might offer tangible solutions regarding cost-efficiency and governance inefficiencies in conventional markets.
 
@@ -22,18 +22,19 @@ Today, we'll compare five different tokens that intend to disrupt mainstream fin
 
 ### Concept
 
-Launched in Slovenia, Iconomi raised $10 million in September via a public initial coin offering on the release of ICN tokens.
-At the foundation of Iconomi, sits Digital Asset Arrays (DAA) a portfolio of coins and tokens. As such, asset managers can create their financial products powered by the Iconomi Digital Asset Management Platform, a centralised web application.
+Launched in Slovenia, Iconomi raised $10 million in September via a public initial coin offering of ICN tokens.  
+At the foundation of Iconomi, sits Digital Asset Arrays (DAA) a portfolio of coins and tokens. As such, asset managers can create their financial products on Iconomi's Digital Asset Management Platform, a centralised web application.
 
 1. Investors have access to a diversified array of assets, that can be designed per risk adversity or investment style.
-2. On the other hand, users can become DAA managers and offer investment opportunities to a broader audience by creating their own array of assets. DAA managers earn fees from the inflow of capital performance of their product.
+2. On the other hand, users can become DAA managers and offer investment opportunities to a broader audience by creating their own array of assets. DAA managers earn fees from the inflow of capital and high performance of their product.
 
-On the day of writing, Iconomi only offers DAAs built by institutions such as Colombus Capital's Pinta (CCP) and Blockchain Index (BCX)  and is yet to allow "common" users create their own asset array.
+On the day of writing, Iconomi only offers DAAs built by institutions such as Colombus Capital's Pinta (CCP) and Blockchain Index (BCX) and is yet to allow "common" users to create their own asset array.
 
 ### Token
 
 The ICONOMI eco-system offers two types of assets:
-1. ICN, the token of the ICONOMI network, which is repurchased and burned by existing and profitable DAAs. It will have more utility once the DAA platform is finalised, as managers will pay inceptions fees in ICN.
+
+1. ICN, the token of the ICONOMI network, which is repurchased and burned by existing and profitable DAAs. It will have more utility once the DAA platform is finalised, as managers will pay inception fees in ICN.
 2. DAA tokens derive their value from the underlying assets backing the DAA - therefore, they are asset-backed.
 
 ### Roadmap
@@ -51,9 +52,9 @@ The ICONOMI eco-system offers two types of assets:
 
 ### Concept
 
-Unlike ICONOMI, Mellon is a **decentralised**, blockchain powered, digital asset management protocol. Because it is decentralised, Melon holds technical dependencies to various infrastructure systems such as smart contract development platforms.
+Unlike ICONOMI, Melon is a **decentralised**, blockchain powered, digital asset management protocol. Because it is decentralised, Melon holds technical dependencies to various infrastructure systems such as smart contract development platforms.
 
-Today, Melon Port is built on top of Ethereum, but the founding team announced they intend to convert the protocol blockchain agnostic, meaning Melon should not be exclusive to Ethereum.
+Today, Melon Port is built on top of Ethereum, but the founding team announced they intend to make the protocol blockchain agnostic: Melon should not be exclusive to Ethereum.
 
 The mission resides in facilitating the design, management and operations of decentralised hedge funds. Users can interact with Melon via its Portal, a graphical user interface allowing asset management, investment and redemption.  
 Smart contracts allow the design of flexible hedge funds with any kind of relationships between investors and managers.
@@ -69,29 +70,30 @@ The MLN token holds two sets of functionalities :
 
 ### Roadmap
 
-Oyente, one of Melon' side project, enables smart contract bug reports and programming analysis. The initiative can help Melon mitigate one of its core underlying risk: cybersecurity and faulty smart contracts.
+Oyente, one of Melon' side project, helps developers build safe and secure smart contracts thanks to its bug reports and analysis tools. The initiative may help Melon mitigate one of its core underlying risk: cybersecurity and faulty smart contracts.  
 The Melon Protocol and Portal are expected to be deployed on the main network by the first quarter of 2019. 
 
 ### Analysis
 
 * **Status**: Pre-MVP, development stage
 * **Pros**: Blockchain-powered platform disrupting a multi-billion dollar industry and facilitating tokenised hedge funds
-* **Cons**: Dependencies to other projects + high cybersecurity risk and exposure to faulty smart contracts
+* **Cons**: Dependencies on other projects + high cybersecurity risk and exposure to faulty smart contracts
 
 ## Numerai: Hedge fund run by artificial intelligence
 
 ### Concept
 
-Numerai is an Artificial Intelligence (AI), and Machine Learning (ML) powered hedge fund, where data scientists around the world contribute to the knowledge and performance of the hedge fund.
-It is an AI protocol that will connect data scientists and their contribution to mainstream finance, including the stock market.
+Numerai is an Artificial Intelligence (AI), and Machine Learning (ML) powered hedge fund, where data scientists around the world contribute to the knowledge and performance of the hedge fund.  
+It is an AI protocol that will connect data science models from contributors to mainstream finance, including the stock market.
 
 The application incentivises scientists to contribute and build a world-class prediction model on a decentralised and AI-powered hedge fund.
 
 ### Token
 
-Numerai introduced its cryptographic token on the Ethereum blockchain in February 2016, three months after the project's inception. Numeraire facilitates a commerce between finance scientists and experts creates compatibility between collaboration and self-interest in a competitive market and a zero-sum game.
+Numerai introduced its cryptographic token called Numeraire on the Ethereum blockchain in February 2016, three months after the project's inception.  
+Numeraire facilitates a commerce between finance experts and creates compatible environment between collaboration and self-interest in a zero-sum game and competitive market.
 
-The process goes a follows:
+The process goes as follows:
 
 1. Scientist submits a prediction by staking NMR through a smart contract.
 2. If the predictions are accurate, the scientist earns more NMR, if not, the staked tokens are destroyed.
