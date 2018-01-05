@@ -120,16 +120,16 @@ Furthermore, the founding team has planned:
 
 ### Concept
 
-Cindicator introduced a collective and hybrid intelligence platform for asset management powered both by AI and ML data models and a community of traders, scientists and analysts.  
-Funds invest based on the average of answers provided by the hybrid network of forecasters, optimised by AI and ML.
+Cindicator introduced a collective and hybrid intelligence platform for asset management powered both by AI/ML data models and a community of traders, scientists and analysts.  
+Funds invest based on the average of answers provided by the hybrid network of forecasters and optimised by AI and ML.
 
 Both Numerai and Cindicator deploy an army of data scientists and analysts to maximise capital gains.  
 Their data model diverges on how the community interacts amongst each other: 
 
-* Numerai organises a tournament via staking and synthesises model in a meta one. Analysts collaborate.
-* Cindicator facilitates hybrid intelligence with users answering questions and an AI model built on top. Analysts compete.
+* Numerai organises a tournament via staking and synthesises all the models in a meta one. Analysts collaborate.
+* Cindicator facilitates hybrid intelligence with users answering questions and an AI model built on top of that. Analysts compete.
 
-After wrong predictions, Cindicator's model incentivises users negatively by lower public ratings rather than burning the amount staked.
+After wrong predictions, Cindicator's model incentivises users negatively by lowering public ratings rather than burning the amount staked.
 
 ### Token
 
@@ -139,13 +139,13 @@ The totality of Cindicator tokens has been issued during the initial sale event 
 
 * Marketing campaign: grow the userbase by targeting the investment fund market and increase the number of forecasts per user.
 * Analytical products: improve asset coverage of both traditional and crypto markets. Introduce ICO analysis, NLP, robo-advising and arbitrage products.
-* Hybrid intelligence: train data model and introduce new incentives to develop a symbiotic and effective collective asset management mind.
+* Hybrid intelligence: train data model and introduce new incentives to develop a symbiotic and collective asset management mind.
 
 ### Analysis
 
 * **Status**: Working product with centralised specifications.
 * **Pros**: Hybrid intelligence gathers both community, and AI/ML insights + UI/UX and question design are of high calibre.
-* **Cons**: Access to services by owning a certain amount of CDN requires constant recalibration and a centralised authority.
+* **Cons**: Access to services by owning a certain amount of CDN requires constant "manual" recalibration and therefore a centralised authority.
 
 ## Blackmoon crypto: Hedge fund in crypto and fiat
 
