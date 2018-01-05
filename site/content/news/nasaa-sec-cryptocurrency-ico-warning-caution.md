@@ -1,6 +1,6 @@
 +++
 title = "American regulators remind investors to approach ICO with care"
-date = 2018-01-04T18:35:39+02:00
+date = 2018-01-05T18:35:39+02:00
 categories = ["Bank"]
 draft = false
 description = "As the cryptocurrency market continues to hit the mainstream media headlines, two of US' financial regulators invited investors to stay cautious about the emerging market."
