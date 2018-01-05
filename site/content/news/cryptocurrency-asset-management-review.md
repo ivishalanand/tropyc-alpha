@@ -48,7 +48,7 @@ The ICONOMI eco-system offers two types of assets:
 * **Pros**: User-centered design and easy-to-use
 * **Cons**: ICN might pass the Howie test + platform is centralised
 
-## Melon Port: protocol for decentralised hedge funds.
+## Melon Port: protocol for decentralised hedge funds
 
 ### Concept
 
