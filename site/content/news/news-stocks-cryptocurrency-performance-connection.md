@@ -4,7 +4,7 @@ date = 2017-12-26T17:07:03+02:00
 categories = ["BANK"]
 draft = false
 description = "The introduction of cryptocurrency related derivatives on regulated markets has created two mutually exclusive and collaboratively exhaustive investment environments for institutions. Are they correlated?"
-weight = 10
+weight = 20
 images = ["images/news/news-stocks-cryptocurrency-performance-connection.png"]
 +++
 
