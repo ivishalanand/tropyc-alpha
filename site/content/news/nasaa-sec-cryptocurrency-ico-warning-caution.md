@@ -1,5 +1,5 @@
 +++
-title = "American regulator remind investors to approach ICO with care"
+title = "American regulators remind investors to approach ICO with care"
 date = 2018-01-04T18:35:39+02:00
 categories = ["Bank"]
 draft = false
@@ -12,7 +12,7 @@ images = ["images/news/nasaa-sec-cryptocurrency-ico-warning-caution.png"]
 
 As the cryptocurrency market continues to hit the mainstream media headlines, two of US' financial regulators invited investors to stay cautious about the emerging market.
 
-A North American Securities Administrators Association (NASAA) survey showcased that 94% of state and provincial regulators thought there was a "high risk of fraud" in the cryptocurrency market.
+The North American Securities Administrators Association (NASAA) survey showcased that 94% of state and provincial regulators thought there was a "high risk of fraud" in the cryptocurrency market.
 
 NASAA first alerted investors about ICOs and crypto-related investments in 2014 via a <a href=http://www.nasaa.org/44073/nasaa-reminds-investors-approach-cryptocurrencies-initial-coin-offerings-cryptocurrency-related-investment-products-caution/ target=_blank>statement</a> and developed an animated video on the underlying risks of the industry in 2017. 
 
@@ -28,7 +28,7 @@ More importantly, the SEC reminded investors that ICO promoters are selling secu
 
 ## Concerns and red flags of fraud
 
-The NASAA shared a five cryptocurrency concerns along with five red flags that are signs of fraud.
+The NASAA shared five cryptocurrency concerns along with five red flags that are signs of fraud:
 
 ### Concerns
 
@@ -48,7 +48,7 @@ The NASAA shared a five cryptocurrency concerns along with five red flags that a
 
 ## Upcoming regulation?
 
-Statements of two of US' most prominent regulator is indicative of an increasing focus by the government towards the cryptocurrency market in general. 
+Statements of two of US' most prominent regulators is indicative of an increasing government focus to monitor the cryptocurrency market.
 
 As the industry continues to grow and hit new milestones, cryptocurrencies should attract even more newcomers and fresh capital. Uneducated investors are at the mercy of fraud or theft: such scenario will likely trigger a wave of regulations throughout the world.
 
