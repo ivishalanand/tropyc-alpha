@@ -79,7 +79,7 @@ The Melon Protocol and Portal are expected to be deployed on the main network by
 * **Pros**: Blockchain-powered platform disrupting a multi-billion dollar industry and facilitating tokenised hedge funds
 * **Cons**: Dependencies on other projects + high cybersecurity risk and exposure to faulty smart contracts
 
-## Numerai: Hedge fund run by artificial intelligence
+## Numerai: hedge fund run by artificial intelligence
 
 ### Concept
 
@@ -116,7 +116,7 @@ Furthermore, the founding team has planned:
 * **Pros**: Numerai did not undertake any controversial initial coin offering. The first tokens were issued to the 12,000 active contributors userbase.
 * **Cons**: Centralised web application. Staking tokens before issuing predictions to the network might be a too risky trade-off for data scientists.
 
-## Cindicator: Hybrid intelligence for asset management
+## Cindicator: hybrid intelligence for asset management
 
 ### Concept
 
@@ -147,7 +147,7 @@ The totality of Cindicator tokens has been issued during the initial sale event 
 * **Pros**: Hybrid intelligence gathers both community, and AI/ML insights + UI/UX and question design are of high calibre.
 * **Cons**: Access to services by owning a certain amount of CDN requires constant "manual" recalibration and therefore a centralised authority.
 
-## Blackmoon crypto: Hedge fund in crypto and fiat
+## Blackmoon crypto: hedge fund in crypto and fiat
 
 ### Concept
 
