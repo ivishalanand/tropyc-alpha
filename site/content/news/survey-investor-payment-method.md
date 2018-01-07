@@ -16,7 +16,7 @@ Results showcase that many of these new generation investors purchase digital as
 
 When asked what best described their method of payment to purchase cryptocurrencies, respondents stated the following:
 
-{{< img src="news/survey-investor-payment-method1.png" class="img-fluid my-3" alt="Bitfinex's landing page" >}}
+{{< img src="news/survey-investor-payment-method1.png" class="img-fluid my-3" alt="Survey results on method of payment for purchasing bitcoin" >}}
 
 * 18.6% by ACH bank transfer
 * 13.4% by bank wire

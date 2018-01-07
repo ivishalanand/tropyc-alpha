@@ -4,7 +4,7 @@ date = 2018-01-04T10:35:39+02:00
 categories = ["Altcoin"]
 draft = false
 description = "Introducing our first cryptocurrency industry specific review focused on digital asset management, helping crypto-enthusiasts better understand how diversified is the token economy"
-weight = 10
+weight = 20
 images = ["images/news/news-cryptocurrency-asset-management-review.png"]
 +++
 
@@ -12,13 +12,19 @@ Introducing the first edition of our weekly alternative cryptocurrency review, w
 
 We hope this review will provide insights to cryptocurrency enthusiasts interested in discovering coins and tokens by industry rather than valuation.
 
+
 Here, we will be focusing on *digital asset management platforms* that consider tokens and coins as investment vehicles. 
 
 With hedge fund performance declining by 0.1% on average in November, as per the <a href=https://www.bloomberg.com/news/articles/2017-12-07/hedge-fund-performance-slipped-in-november-as-the-market-rose target=_blank>Hedge Fund Research</a>, blockchain powered hedge funds might offer tangible solutions regarding cost-efficiency and governance inefficiencies in conventional markets.
 
 Today, we'll compare five different tokens that intend to disrupt mainstream finance at scale:
 
-## Iconomi: digital asset management platform 
+<div class="text-center">
+  {{< img src="news/iconomi.png" class="img-fluid" alt="Iconomi" >}}
+</div>
+<div class="text-center">
+  <h2>Iconomi: digital asset management platform </h2>
+</div>
 
 ### Concept
 
@@ -48,7 +54,13 @@ The ICONOMI eco-system offers two types of assets:
 * **Pros**: User-centered design and easy-to-use
 * **Cons**: ICN might pass the Howie test + platform is centralised
 
-## Melon Port: protocol for decentralised hedge funds
+<div class="text-center">
+  {{< img src="news/melon-port.png" class="img-fluid" alt="Melon Port" >}}
+</div>
+<div class="text-center">
+  <h2>Melon Port: protocol for decentralised hedge funds</h2>
+</div>
+
 
 ### Concept
 
@@ -79,7 +91,13 @@ The Melon Protocol and Portal are expected to be deployed on the main network by
 * **Pros**: Blockchain-powered platform disrupting a multi-billion dollar industry and facilitating tokenised hedge funds
 * **Cons**: Dependencies on other projects + high cybersecurity risk and exposure to faulty smart contracts
 
-## Numerai: hedge fund run by artificial intelligence
+<div class="text-center">
+  {{< img src="news/numerai.png" class="img-fluid" alt="Numerai" >}}
+</div>
+<div class="text-center">
+  <h2>Numerai: hedge fund run by artificial intelligence</h2>
+</div>
+
 
 ### Concept
 
@@ -116,7 +134,13 @@ Furthermore, the founding team has planned:
 * **Pros**: Numerai did not undertake any controversial initial coin offering. The first tokens were issued to the 12,000 active contributors userbase.
 * **Cons**: Centralised web application. Staking tokens before issuing predictions to the network might be a too risky trade-off for data scientists.
 
-## Cindicator: hybrid intelligence for asset management
+<div class="text-center">
+  {{< img src="news/cindicator.png" class="img-fluid" alt="Cindicator" >}}
+</div>
+<div class="text-center">
+  <h2>Cindicator: hybrid intelligence for asset management</h2>
+</div>
+
 
 ### Concept
 
@@ -147,7 +171,12 @@ The totality of Cindicator tokens has been issued during the initial sale event 
 * **Pros**: Hybrid intelligence gathers both community, and AI/ML insights + UI/UX and question design are of high calibre.
 * **Cons**: Access to services by owning a certain amount of CDN requires constant "manual" recalibration and therefore a centralised authority.
 
-## Blackmoon crypto: hedge fund in crypto and fiat
+<div class="text-center">
+  {{< img src="news/blackmoon.png" class="img-fluid" alt="Blackmoon crypto" >}}
+</div>
+<div class="text-center">
+  <h2>Blackmoon crypto: hedge fund in crypto and fiat</h2>
+</div>
 
 ### Concept
 
