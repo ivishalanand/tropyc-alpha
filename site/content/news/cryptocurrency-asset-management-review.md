@@ -22,8 +22,7 @@ Today, we'll compare five different tokens that intend to disrupt mainstream fin
 <div class="text-center">
   {{< img src="news/iconomi.png" class="img-fluid" alt="Iconomi" >}}
 </div>
-<div class="text-center">
-  <h2>Iconomi: digital asset management platform </h2>
+  <h2 class="text-center">Iconomi: digital asset management platform </h2>
 </div>
 
 ### Concept
