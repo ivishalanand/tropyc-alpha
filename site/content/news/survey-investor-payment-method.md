@@ -16,13 +16,13 @@ Results showcase that many of these new generation investors purchase digital as
 
 When asked what best described their method of payment to purchase cryptocurrencies, respondents stated the following:
 
+{{< img src="news/survey-investor-payment-method1.png" class="img-fluid my-3" alt="Bitfinex's landing page" >}}
+
 * 18.6% by ACH bank transfer
 * 13.4% by bank wire
 * 33.6% by debit card
 * 18.2% by credit card
 * 16.2% other
-
-
 
 Amongst those who purchase with credit cards (18.1%), the survey asked respondents whether they paid off their outstanding balance:
 
