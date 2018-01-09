@@ -4,7 +4,7 @@ date = 2018-01-07T14:07:03+02:00
 categories = ["Bitcoin"]
 draft = false
 description = "672 Bitcoin investors were surveyed to better understand the relationship between personal finance and cryptocurrency speculation."
-weight = 10
+weight = 20
 images = ["images/news/survey-investor-payment-method.png"]
 +++
 
