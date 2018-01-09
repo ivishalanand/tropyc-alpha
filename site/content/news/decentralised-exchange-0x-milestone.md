@@ -10,7 +10,7 @@ images = ["images/news/decentralised-exchange-0x-milestone.png"]
 
 Decentralised exchanges (DEX) are a critical piece of the crypto-economy infrastructure, that is still (unfortunately) far away from mainstream use.
 
-Today, a majority of blockchain projects, introduced via initial coin offerings, are dependent on the release of DEX before they can launch their product.
+Today, a majority of blockchain projects, introduced via initial coin offerings, are dependent on the release of DEX before they can launch a working product.
 
 While a wave of "decentralised exchanges" have been released in 2017, only a selected few facilitate such transactions. Just like any other blockchain project, it can get confusing to assess the stage of development, leaving space for product-less tokens in the market.
 
