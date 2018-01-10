@@ -8,7 +8,7 @@ draft = false
 
 ticker = "KCY"
 startDate = 2018-02-01
-endDate = 2017-03-01
+endDate = 2017-04-01
 rating = "9.4"
 origin = "Malta"
 industry = "Event-marketing"
