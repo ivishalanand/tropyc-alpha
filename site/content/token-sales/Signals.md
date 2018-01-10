@@ -7,8 +7,8 @@ weight = 20
 draft = false
 
 ticker = "SGN"
-startDate = 2017-11-22
-endDate = 2017-12-22
+startDate = 2018-02-26
+endDate = 2018-03-26
 rating = "9.0"
 origin = "Czech Republic, 2017"
 industry = "Data science marketplace"
