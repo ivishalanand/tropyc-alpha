@@ -54,7 +54,7 @@
 							<div>Currency accepted</div>
 							<div>{{ .Params.currencyaccepted }}</div>
 						</div>
-						<a href="{{ .Params.links.website }}?utm_source=tropyc" target="_blank" class="btn btn-primary">GO TO ICO</a>
+						<a href="{{ .Params.links.website }}?utm_source=tropyc" target="_blank" class="btn btn-primary" onclick="trackOutboundLink('{{ .Params.links.website }}'); return false;">GO TO ICO</a>
 						<div class="socials">
 							{{ if isset .Params.links "twitter" }}<a href="https://twitter.com/{{ .Params.links.twitter }}" target="_blank"><svg class="icon"><use xlink:href="#twitter" /></svg></a>{{ end }}
 	            {{ if isset .Params.links "facebook" }}<a href="https://www.facebook.com/{{ .Params.links.facebook }}" target="_blank"><svg class="icon"><use xlink:href="#facebook" /></a>{{ end }}
