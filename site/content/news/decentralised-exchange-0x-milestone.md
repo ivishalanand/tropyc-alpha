@@ -4,7 +4,7 @@ date = 2018-01-09T20:00:39+02:00
 categories = ["Altcoin"]
 draft = false
 description = "0x, one of the leading DEX protocol accommodated large scale decentralised exchanges, reaching a volume of $1 million on the 5th of January and over $10 million on the 9th."
-weight = 10
+weight = 20
 images = ["images/news/decentralised-exchange-0x-milestone.png"]
 +++
 
