@@ -5,7 +5,6 @@ description = "Decentralized Architecture for a Democratic Internet (DADI) is a 
 bref = "New era of cloud computing services, powered by blockchain technology"
 weight = 20
 draft = false
-premium = 3
 
 ticker = "DADI"
 startDate = 2018-01-22

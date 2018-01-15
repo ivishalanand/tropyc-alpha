@@ -5,7 +5,6 @@ description = "OriginTrail enables seamless data sharing along any supply chain.
 bref = "First purpose built-protocol for supply chains based on blockchain"
 weight = 20
 draft = false
-premium = 2
 
 ticker = "TRAC"
 startDate = 2018-01-15
