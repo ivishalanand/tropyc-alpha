@@ -121,7 +121,7 @@ currencyAccepted = "ETH"
   profit = true
 +++
 
-**NameofICO**
+**Livetree Adept**
 
 LiveTree is an established, revenue positive, socially responsible crowdfunding company based in London, UK.  
 
