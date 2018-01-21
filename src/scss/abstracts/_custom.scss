@@ -481,14 +481,14 @@ $custom-file-border-radius: $input-border-radius !default;
 $custom-file-box-shadow:    $input-box-shadow !default;
 $custom-file-button-color:  $custom-file-color !default;
 $custom-file-button-bg:     $input-group-addon-bg !default;
-$custom-file-text: (
-  placeholder: (
-    en: "Choose file..."
-  ),
-  button-label: (
-    en: "Browse"
-  )
-) !default;
+// $custom-file-text: (
+//   placeholder: (
+//     en: "Choose file..."
+//   ),
+//   button-label: (
+//     en: "Browse"
+//   )
+// ) !default;
 
 
 // Form validation
