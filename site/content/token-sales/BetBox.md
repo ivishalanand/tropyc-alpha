@@ -97,10 +97,3 @@ currencyAccepted = "ETH, BTC"
   expansion = false
   profit = false
 +++
-
-**BetBox**
-
-We combine fully-automated and scalable AI technology, deep neural networks and machine learning with a performing infrastructure architecture and a data-driven approach, to develop sophisticated trading models for the sports betting market. 
-
-Our token is called BETX and its value will depend on the net performance fee revenue share paid to token's holder each quarter.  
-Each holder of BetBox (BETX) tokens will be entitled to a referral commission.  This will be constituted of 20% OF NET TRANSACTION REVENUE earned by BetBox. The Fund will pay to BetBox a performance fee equal to 30% of any returns and BetBox will SHARE ITS PERFORMANCE FEE (80:20).

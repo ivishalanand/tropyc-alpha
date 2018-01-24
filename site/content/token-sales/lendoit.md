@@ -109,22 +109,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-
-**Functionality**
-
-Loans can be given in any of the ERC20 currencies. The platform provides all the elements a lending market needs to function, namely: professional scoring and verification APIs for each country, a loan marketplace, where lenders bid interest rates on loan applications and a default market where failed loans can be traded.  
-
-The Lendoit Smart Loan Contract also offers important functions like syndicated loans and the ability to sell a loan to another lender if needed.
-
-How we differ from competing projects? > Many projects try to create P2P lending platforms on the Blockchain, and this is a sign of where the market is going, but most of the projects apply faulty implementing approaches.  
-
-Our approach is unique and different and unlike others, Lendoit is the only platform which does NOT take collaterals.  
-In the world of micro-loans, managing collaterals is not sensible - it’s like lending $USD by using €EUR as collateral.  
-
-Lendoit platform combines 4 different efficient methods to mitigate the chances of our lenders to lose their money:
-
-* 3rd party professional scoring/verification local companies
-* Smart Compensation Fund
-* Collectors Market where default debts can be sold
-* Syndicated Loans.

@@ -106,11 +106,3 @@ currencyAccepted = "BTC, ETH, LTC, WAV"
   expansion = false
   profit = false
 +++
-
-**NameofICO**
-
-MyTrackNet aims to create the only network that will resolve the everyday need of finding lost items, pets or even people!  
-
-To create a powerful and robust network with large and dense geographical coverage we need your help!  
-
-To ensure that you will be satisfied with the network all the time, we have designed a unique and satisfying reward mechanism that will reward you for your contribution and give you the ability to reward others to help you when you lose something.

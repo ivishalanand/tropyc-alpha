@@ -110,10 +110,3 @@ currencyAccepted = "ETH, ETC, USD"
   expansion = false
   profit = false
 +++
-
-**Gladius**
-
-By leveraging the blockchain to allow communication between computers, and a pay as you go marketplace, Gladius can facilitate the creation of the extremely fault tolerant and inexpensive pools tailored to a client’s specific needs.  
-
-Aside from just filtering traffic, these pools will be able to accelerate content as well.  
-Those paying hundreds of thousands of dollars for a service they never fully utilize can start paying for only exactly what they use - and for much less.

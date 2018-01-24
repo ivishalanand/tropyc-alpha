@@ -91,14 +91,3 @@ currencyAccepted = "BTC, LTC, ETH, DASH ..."
   expansion = true
   profit = true
 +++
-
-**Micromoney**
-
-Mobile money company based in South East Asia launching on blockchain technology. Enables users to perform peer-to-peer lending amongst the community
-
-**Functionality**
-
-* Open Source Credit & Big Data Bureau that connects new customers to all existing financial services.
-* Creditworthiness prediction of all customers based on ML, AI, Big Data and neural networks.
-* Registered more than 95,000 unique users, over 90% of them got disbursed their first loan.
-* "Scalable franchise model" and loan collateral is not thoroughly explained.

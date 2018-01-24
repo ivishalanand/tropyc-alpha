@@ -105,17 +105,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**ETHLend**
-
-ETHLend offers a fully decentralized peer to peer lending Smart Contract which runs on the Ethereum blockchain and uses digital tokens as collateral.
-
-**Functionality**
-
-ETHLend.io introduces decentralized lending on Ethereum network by using ERC-20 compatible tokens or Ethereum Name Service (ENS) domains as a collateral.
-
-ETHLend solves the problem on reducing the loss of loan capital on default. On healthy loan relationships the loan is paid back.
-
-However, the pseudo-anonymous nature of Ethereum blockchain network opens the possibility to avoid repayment of the loan since the lender might not have all the necessary details of the borrower to enforce the debt in the borrower's jurisdiction.
-
-Moreover, enforcement in a decentralized environment, where the parties can be from any part of the world, might not be efficient. ETHLend provides decentralized solutions to avoid loss of capital and to make one true global lending market available.

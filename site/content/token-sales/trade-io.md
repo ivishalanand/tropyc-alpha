@@ -119,19 +119,3 @@ currencyAccepted = "BTC, ETH, USD"
   expansion = false
   profit = false
 +++
-
-**Trade.io**
-
-Trade Token is a utility token that enables frictionless transactions of a wide range of assets on the trade.io exchange whilst also acting as a medium of exchange and a store of value.  
-
-You can use Trade Token to participate in the trade.io shared liquidity pool and receive daily payouts (or debits in the case of losses) to your trade.io wallet in fiat and cryptocurrency.  
-
-Through investment banking activity the firm is offering, which means assisting companies to get “tokenized” or listed on the trade.io platform incurring transaction & placement fees, Trade Token will essentially become the ONLY cryptocurrency with real world value as participating companies will have locked real-world assets in order to receive Trade Tokens in exchange.  
-
-In the future, holders may also be able to use the Trade Token to purchase new issues and IPOs/ ICOs on our trade.io exchange.  
-
-Activation of Liquidity Pool will require proper licensing or regulatory approval.
-
-Discover trade.io and participate in our mission to democratize the financial markets. We have already raised over $11 million in funds during PRE-ICO, which allows us to complete the buildout of the first-ever blockchain-based trading platform and of our exchange, through which other upcoming ICOs can launch.
-
-If you haven't already contributed, this is your last chance to be part of the revolutionary movement to use distributed technologies for the distribution of wealth. Sign up today and be the first to contribute on 7th December for the ICO launch.

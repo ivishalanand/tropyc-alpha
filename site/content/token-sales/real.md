@@ -104,13 +104,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Real**
-
-Real Estate Asset Ledger is a blockchain crowdfunding platform that enables the investment into real assets by purchasing participations
-
-**Functionality**
-
-* real estate asset-backed token
-* crowdfunding platform for real estate investment
-* reduces the ticket size of investment

@@ -102,14 +102,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**VuePay**
-
-Advertising platform with enhanced demographic analytics.
-
-
-**Functionality**
-
-* Engages publishers, advertisers and target audience onto one single platform
-* Audience is rewarded in tokens to view adverts
-* Promotes transparency in revenue share from the advertising industry

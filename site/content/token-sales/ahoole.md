@@ -94,13 +94,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Ahoolee**
-
-Decentralised product search engine platform to compare price of goods on the internet. Users will be able to find all the merchants selling a product and compare prices on Ahoolee's blockchain application.
-
-**Functionalities**
-
-* decentralised product search engine
-* global product indexing
-* price analysis and comparison tool

@@ -109,12 +109,3 @@ currencyAccepted = "BTC, ETH"
   expansion = true
   profit = true
 +++
-
-**GUTS Tickets**
-
-A smart ticketing solution with a proven track record, paying clients, valuable and sustainable partnerships and impressive team to fight ticket fraud and disgraceful prices in the secondary ticketing market launches token with guaranteed price floor.
-
-
-**Functionality**
-
-The Guaranteed Entrance Token (GET)-protocol, initiated by GUTS Tickets, is a smart ticketing protocol that will facilitate the sale of tickets by issuing smart tickets to wallet addresses on the blockchain. Our vision is that end-users do not need any technical knowledge in order to use the platform. With this in mind, GUTS has facilitated several events with its application over the last year and has actually sold thousands of real-world tickets in The Netherlands.

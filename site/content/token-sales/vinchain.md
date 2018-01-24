@@ -115,17 +115,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Vinchain**
-
-VinChain offers a solution to reliability of the technical vehicle condition information of the purchased vehicle by leveraging the power of blockchain technology. 
-
-The VinChain project unites all data providers and gives the user a complete, uninterrupted vehicle record; all without the disadvantages of a centralized database. Consumers can also significantly increase the value of their vehicles at the time of the sale by contributing to the repository of data on the blockchain with help of vehicle tracking devices.  
-
-VinChain is a decentralized network that allows you to store VIN data on the blockchain, which guarantees complete data invariability. You can pay for requests on the blockchain with VinChain tokens, afterwhich the tokens will be distributed between information providers depending on the value of the provided information to the community. 
-
-**Why is this project important?**
-
-* No one will be able to forge information
-* With accurate vehicle information the roads will be safer all over the world
-* It will create a trust-based community for dealers, united by the idea to make the market transparent to customers

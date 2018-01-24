@@ -95,22 +95,3 @@ currencyAccepted = "BTC, ETH"
   expansion = true
   profit = true
 +++
-
-**FluzFluz**
-
-One of the first off-the-chain projects potentially introducing millions of people to the concept of a cash back consumer network. Already built relationships with global and local brands and are now acting as a market place between their business and the end consumer based on our digital gift mechanism.
-
-**Functionality**
-
-Fluz Fluz disrupts the traditional shopping experience through an alternate, more rewarding avenue.  
-In the Fluz Fluz consumer network model, all participants make money, thereby creating high consumer stickiness and a sustainable business model.
-
-Fluz Fluz’s stickiness is derived fromthe fact that network members (akaFluzzers) can generate significant cash back rewards through their everyday household purchases and the purchases of their extended social network.  
-
-FluzFluz operates as an instantaneous digital retail code marketplace where consumption codes can be redeemed at retail POS, and generate Fluz points for the purchaser and their participating upstream network.  
-
-In our binary network model each Fluzzer’s network can grow up to 65,535 members through 15 downline network levels.  
-
-The total cash back is split 50/50 between the
-purchasing Fluzzer and the participating
-upstream network

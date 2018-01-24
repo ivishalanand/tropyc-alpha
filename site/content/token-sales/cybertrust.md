@@ -97,15 +97,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Functionality**
-
-LA Luxembourg-based financial services company, CyberTrust is about to launch an ICO for their CABS utility token. They come from the investment banking community and are offering “securitization as a service” for crypto assets.  Though the US-based Grayscale fund does offer securitized bitcoins, no-one currently provides flexible demand-driven securitization. One CABS token allows holders to securitize one bitcoin.  
-
-Buyers purchasing Grayscale shares quoted on the OTCQX exchange currently have to pay a premium of over $3000 for one bitcoin. By comparison, one CyberTrust token can be purchased at the ICO for approximately $180, which is less the 6% of that. In other words, token buyers have a potential 16-20x upside.  
-
-We will be sending a press release in a couple of days but wanted to give you a heads up and an opportunity to offer unique content to your readership.  
-
-CyberTrust’s structure aims to open up a wide range of crypto assets to the institutional investors, offering titled and auditable Global Crypto Notes (GCNs) as a traditional investment vehicle in collaboration with Ernst & Young as an auditor. CyberTrust will offer accredited investors crypto-linked asset backed derivatives not only linked to bitcoin, but also to other leading cryptocurrencies such as Ethereum and Bitcoin Cash. Importantly, Global Crypto Notes will give their owners a legal claim to their assets, a critical feature which raw crypto doesn’t offer.  
-
-The CABS (‘crypto asset-backed securitization’) token permits also provides the basis for a wide range of new derivative products that are expected to be in high demand once they become available.

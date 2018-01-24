@@ -90,9 +90,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Cryptelo**
-
-Cryptelo provides world-class, security-first data transfer, collaboration, versioning, and storage services.  
-
-Using Cryptelo, organizations that must collaborate on sensitive data can enjoy the benefits of easy-to-use cloud or onsite storage and collaboration tools, in a completely secure environment that no 3rd party can access.

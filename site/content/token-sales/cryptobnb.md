@@ -122,11 +122,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**CryptoBnB**
-
-CryptoBnB is built on the power of CryptoDnA ™ - personalized smartcontracts that utilizes personal home rental information to enhance rental experiences for hosts and travellers.  
-
-It is the first smart machine learning blockchain wallet that enhances trust levels from smartconstracts to keep learning about travelers and properties through AI and IPFS big data layer.  
-
-CryptoBnB reduces renter’s property search time by predicting their preferences and enhance ROI for hosts and property owners through secure reviews and payments.

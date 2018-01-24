@@ -88,12 +88,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Enigma**
-
-Platform that aggregates and monetises the distribution of data between peers. Catalyst enables investors to design and sell successful cryptocurrency trading strategies.
-
-**Functionality**
-
-* financial data marketplace
-* trading strategy and content platform

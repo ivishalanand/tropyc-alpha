@@ -101,12 +101,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Stampify**
-
-Stampify uses the blockchain’s distributed ledgers as the vehicle of new-generation corporate governance.  
-The ambition is to build a community of connected and trusted organizations working together to make it grow, to streamline relationships between members – and create a frictionless business world.  
-
-Organizations using Stampify will enter a community of new-generation, blockchain-governed companies, using a dedicated cryptocurrency whose tokens will be available for purchase during our crowdsale in January 2018.  
-
-STAMPs holders will be members of the global collective community of companies embracing the new-generation business governance, and later the global business exchange through a business-specific currency for community-based markets

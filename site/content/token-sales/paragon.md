@@ -93,14 +93,3 @@ currencyAccepted = "BTC, LTC, ETH, ETC, XMR ..."
   expansion = false
   profit = false
 +++
-
-**Parangon**
-
-Paragon introduces both an online and offline cannabis platform that will gather cannabis enthusiasts, track the lifecycle of products and incorporate US regulation compliance and medical industry processes onto its blockchain. Funds will be initially spent on real estate.
-
-**Functionality**
-
-* blockchain that tracks the life-cycle of cannabis, from prescription, production to dispensary
-* compliant with US regulator and medical process
-* plans to open co-working spaces for the community
-* offline and online retail store for cannabis based productsLaudantium natus esse quasi libero sunt reprehenderit, nisi assumenda blanditiis earum sint dolor numquam aspernatur architecto voluptatem molestiae sapiente accusamus, rerum non.

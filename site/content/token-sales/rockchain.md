@@ -111,13 +111,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Rockchain**
-
-TData infrastructure project built on top of Ethereum built to work with private data securely
-
-**Functionality**
-
-* Distributed file system and privacy-centric decentralized network for data processing
-* Distributed javascript engine that respects privacy on data nodes
-* Proof of computation where miners are incentivised to run data scripts

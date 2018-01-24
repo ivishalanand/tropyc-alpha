@@ -110,12 +110,3 @@ currencyAccepted = "BTC, ETH, WAVES, fiat"
   expansion = false
   profit = false
 +++
-
-**Cash Poker Pro**
-
-Offline and online poker gaming platform, team has experience in both online and offline poker services. Pre-tokensale to tokensale total token valuation increased ten fold in of 2 months.
-
-**Functionalities**
-
-- online poker gaming platform based on blockchain
-- opportunity to play anonymously without any KYC

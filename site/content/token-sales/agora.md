@@ -79,13 +79,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**The Agora**
-
-Agora's idea is to create a private and decentralised marketplace on top of the Ethereum blockchain. It is currently at the ideation stage and has not shared any relevant work nor experience to justify their ability to deliver
-
-**Functionalities**
-
-* decentralised peer-to-peer marketplace
-* conects sellors and buyers on e-commerce platform
-* token holders will earn an incentives from the transaction fees

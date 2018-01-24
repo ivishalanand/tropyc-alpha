@@ -86,19 +86,3 @@ currencyAccepted = "BTC, ETH, WAV"
   expansion = false
   profit = false
 +++
-
-**BlueInvest**
-
-We are a company created with the express purpose of disrupting the several markets by re-thinking
-and providing a new solution to the way in which this markets work.  
-
-Real Estate, DApp development, CryptoMarket and Mining Farms. 
-
-We will accomplish this objective by taking control of this processes from beginning to end,
-encompassing the selection, construction, sales, borrower financing and maintenance of our assets.  
-
-Blueinvest will utilize blockchain technology to crowdfund its operations by introducing the BlueToken,
-and creating both organic and external demand for BlueToken within the Blueinvest business model.  
-
-
-This enables Blueinvest to create an environment where all investors win every time: i.e for Real Estate, with a new property being built and renting within the Blueinvest ecosystem

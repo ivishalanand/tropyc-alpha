@@ -106,11 +106,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**KickCity**
-
-Project proposes a socially viral model for event marketing, where the vendor achieves maximum result because an unlimited number of people are rewarded for promoting his events and the attendees also get rewarded for being loyal to the platform. Every user, event, and ticket have unique ID which is registered on blockchain.
- 
-**It Works Like This**
-
-Each event has a marketing pool where vendors can allocate KCY tokens for reward-based marketing. Once the campaign is launched, any user can click on the event and smart contract generates a unique link for the user. The User can then share this link with his friends on social media and get rewarded when there is a conversion (ticket sales or registration). Smart contracts track all transactions and automatically distribute reward transparently.

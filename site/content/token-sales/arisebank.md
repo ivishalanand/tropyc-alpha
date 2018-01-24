@@ -106,23 +106,3 @@ currencyAccepted = "BTC, ETH, DOGE, DASH, LTC, USD"
   expansion = false
   profit = false
 +++
-
-**AriseBank**
-
-We present the first decentralized banking platform. While the main purpose of AriseBank is to
-operate in a truly decentralized format, users can also operate in a semi-decentralized format,
-where fiat currencies, traditional banking services, debit cards and credit cards can be utilized
-alongside AriseBank’s many cryptocurrency services. AriseBank isn’t just an idea, it is already
-working and currently being tested in BETA by customers around the globe. Our platform is
-already integrated with over 700 cryptocurrencies and has more platform features than any
-other cryptocurrency software currently available on the market. 
-
-First, we will outline the entire aBank banking platform and its features throughout multiple
-chapters, how we utilize our large set of developer tools and our growing network of Sunrise
-APIs and SDKs to help back the aBank platform’s decentralized network. We also introduce a
-new way of adhering to KYC regulations, while also keeping customer data private and secure
-with AriseID and how AriseBank is still able to offer AriseCard and other services, even in this
-decentralized landscape. This whitepaper also offers details in relation to the ongoing
-AriseCoin ICO and how AriseCoin works alongside the AriseBank platform to accomplish our
-true mission of ending the reign of the Federal Reserve and killing poverty at its core.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium natus esse quasi libero sunt reprehenderit, nisi assumenda blanditiis earum sint dolor numquam aspernatur architecto voluptatem molestiae sapiente accusamus, rerum non.

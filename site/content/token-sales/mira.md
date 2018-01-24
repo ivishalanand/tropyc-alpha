@@ -128,13 +128,3 @@ currencyAccepted = "BTC, LTC, ETH, DASH"
   expansion = false
   profit = false
 +++
-
-**Mira**
-
-Mira is a software suite for buying, storing and sending cryptocurrencies in an easy and convenient way.
-
-**Functionality**
-
-The key element of the service is MiraBox, the encrypted container file, that can store one or multiple types of tokens off-chain, providing better protection for savings than any third-party storage, like exchanges or wallets.
-Mira is a software suite for buying, storing and sending cryptocurrencies in an easy and convenient way.
-The key element of the service is MiraBox, the encrypted container file, that can store one or multiple types of tokens off-chain, providing better protection for savings than any third-party storage, like exchanges or wallets.

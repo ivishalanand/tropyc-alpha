@@ -110,14 +110,3 @@ currencyAccepted = "BTC, LTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Relest**
-
-Real estate rental auction platform for landlords, tenants and realtors at the ideation phase. The product plans to introduce several features such as 3D viewing, direct payment and data-driven optimal price.
-
-**Functionality**
-
-- Auction between all stakeholders of the real estate industry
-- Plans to introduce 360 online visits, user chat, auto-generated leases and more
-- Data powered optimal market price
-- Opportunity to pay rent in cryptocurrency with integrated fiat bank transfers

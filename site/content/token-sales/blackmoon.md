@@ -88,13 +88,3 @@ currencyAccepted = "BTC, LTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Blackmoon Crypto**
-
-Asset management and crowdfunding platform that enables the creation and management of tokenised funds".
-
-**Functionalities**
-
-- Users can create, develop, and manage tokenised investment funds with on platforma management tools.
-- Integration of fiat markets along with cryptocurrencies
-- Mission to create fully legally compliant tokenized funds ecosystem

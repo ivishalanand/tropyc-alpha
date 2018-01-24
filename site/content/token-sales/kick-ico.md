@@ -111,12 +111,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Kick ICO**
-
-Cryptocurrency fundraising platform with social and community based features
-
-**Functionality**
-
-* crowdfunding and crowdinvesting platform for projects and venture
-* cryptocurrency fund reserved by the Bancor network

@@ -119,15 +119,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**DADI, the Decentralized Architecture for a Democratic Internet**
-
-Unlike existing centralized cloud services, DADI implements a fog computing structure - a decentralized pool of devices, all of which are connected to the Internet.
-
-With DADI there is no single authority that regulates computing resource distribution. The platform uses cost-efficient fog computing organized by a Decentralized Autonomous Organization (DAO) rather than a centralized cloud structure, removing the need to pay in advance for private and monopolized cloud computing platforms such as Amazon Web Services (AWS), Microsoft Azure and Google Cloud.
-
-DADI’s web services are organized around a microservices architecture that provides a series of intelligent apps for building digital products.
-
-Every digital product is powered by web services. And every business using the web will have the option to build on DADI’s platform at a price point unimaginable today. Moreover, all Internet users will be able to use DADI to generate passive income by providing their computational resources for rent.
-
-DADI represents a radical overhaul of the cloud computing sector. Its mission is to uphold the founding principles of the Web by democratizing computational power.

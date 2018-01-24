@@ -122,16 +122,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Crypterium**
-
-Revolutionary digital cryptobank.
-
-**Functionality**
- 
-- 100% mobile and worldwide available.
-- One place for crypto coins & regular money 
-- More than 42 million stores around the world available contactless via NFC protocol, QR codes, ApplePay & AndroidPay
-- Currency exchange and borderless transfers
-- Credit token - blockchain lending technology and in-built blockchain scoring platform
-- Open API for developers and сryptocurrency acquiring solutions for merchants

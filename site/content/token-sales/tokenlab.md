@@ -87,14 +87,3 @@ currencyAccepted = "BTC, LTC, ETH, EXP"
   expansion = false
   profit = false
 +++
-
-**Tokenlab**
-
-Fundraising platform in built on top of Expanse and Ethereum
-
-**Functionality**
-
-* Crowdfunding product for tokens based on Expanse on top of Ethereum
-* Gathers investors and fund seekers on one single community platform
-* For each project launch, LAB token will have to be committed and burned
-* Total supply of token is only disbursed to investors.

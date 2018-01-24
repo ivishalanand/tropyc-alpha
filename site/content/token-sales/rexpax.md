@@ -109,10 +109,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Sharing Economy**
-is the project’s philosophy solving the problem of things’ availability. This model provides an active interaction between people with common interests and allows you to profit from items without having to own them.
-
-**Blockchain**
-is designed to solve the problems of sharing economy, which gives rise to a new economy, since the basis of blockchain and sharing economy of mutual consumption are of the same values and principles of work. Thanks to Blockchain and Rexpax platform, we can move on to a more efficient and secure resources’ distribution.
-

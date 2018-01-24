@@ -107,13 +107,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Functionality**
-
-We combine Github, Upwork, Slack, Jira, Dropbox, Google Docs in one product.
-We add financial system into the mix with ability to create coins for your project.
-You create your software project on our platform and pay your team with these coins, OR
-You work on a product and earn coins - which is a share of product ownership / revenue.
-
-There are also multiple other uses of the product possible, such as: replacing plethora of tools currently used in an established company; a platform similar to freelance job market; ICOs’ execution platform and so on
-

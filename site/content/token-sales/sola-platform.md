@@ -109,12 +109,3 @@ currencyAccepted = "BTC, ETH, LTC, BTS, DASH"
   expansion = false
   profit = false
 +++
-
-**Sola platform**
-
-
-Sola is a decentralized social network that spreads users content imitating the viral distribution model and pays them for it. It works on user-hosted distributed nodes, IPFS and Ethereum blockchain.
-
-The first phase of the project was launched in 2014 under the name “Plague” to research new methods of spreading information. The second phase, called “Sola” (social layer), implements business model and decentralization.  
-
-Sola is a mobile-first product with more than 650,000 users (for a comparison, Steemit have 430,000 users) with iOS and Android apps and a desktop web client.

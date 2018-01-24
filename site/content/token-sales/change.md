@@ -108,13 +108,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Change bank**
-
-Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide.
-
-**Functionalities**
-
-* Cryptocurrency payment card
-* Mobile and global crypto wallet with in built KYC
-* Financial services marketplace : insurance, loans etc…

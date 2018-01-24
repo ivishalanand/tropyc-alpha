@@ -100,10 +100,3 @@ currencyAccepted = "ETH"
   expansion = true
   profit = true
 +++
-
-**Caviar**
-
-Caviar is a dual-purpose token and crowdfunding platform that seeks to reduce investment volatility (“beta”) while capturing higher than average rates of return (“alpha”).  
-
-Caviar will achieve these goals by combining investments in fast-appreciating crypto-assets with income-generating short-term loans, backed by real estate in the United States.  
-By re-allocating funds between crypto and real estate markets, Caviar aims to provide income and growth via dual market exposure in a single token.

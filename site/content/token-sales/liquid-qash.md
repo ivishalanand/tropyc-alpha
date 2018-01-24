@@ -100,14 +100,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Liquid Qash**
-
-Global liquidity platform built by the Quoinex team on top of their order management system
-
-**Functionality**
-
-* Quoine's Liquid platform is built on top of the existing order book management system
-* Token will be used for financial settlements and transactions
-* Audited by one of the Big 4
-*  Product features will include automated trading strategies, “crowd-sourced” AI-driven algorithms and proprietary trading tools

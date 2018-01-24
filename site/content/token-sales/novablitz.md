@@ -106,21 +106,3 @@ currencyAccepted = "ETH"
   expansion = true
   profit = true
 +++
-
-**NovaBlitz Token**
-
-Nova Token holders earn new cards through proof of stake. Stake your NVT on a game, and when the game releases new cards, you’ll earn copies of them based on the amount of NVT you stake. And because these are tokens on the blockchain, you own them, and can:
-
-* Play with them
-* Sell them to other players
-
-Distribution of cards is based on proof of stake. A minimum NVT holding is required, and the more NVT you stake, the more copies of each card you'll receive.
-
-**Tournament**
-
-On-demand tournaments, hosted entirely by the Nova Platform, with no chance of cheating or fraud. Players and game developers can both run tournaments. Organizers earn NVT for running tournaments. Players receive NVT as prizes.
-
-* REAL PRIZES: Entry fees and prizes are in Nova Tokens.
-* PLAYER-RUN: Players can organize tournaments 100% within the system.
-* SPECIAL EVENTS: Game developers can run their own tournaments and give out additional prizes.
-* SECURE: Tournaments are run on the blockchain, to eliminate any chance of fraud.

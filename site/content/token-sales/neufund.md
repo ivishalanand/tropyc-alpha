@@ -92,37 +92,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**NeuFund**
-
-Introducing an Initial Capital Building Mechanism which is NOT an ICO.
-
-
-**Functionnalities**
-
-Operator does not get any “free” or “pre-allocated” Neumarks nor does it receive any Ether or Euro during ​Initial Capital Building​. This approach makes Operator interests and incentives perfectly aligned with interests of the platform, as is the intention behind Neufund’s mode.
-
-Using our legal and technical infrastructure, startups and established companies alike can legally issue a new type of asset we call tokenized equity.  
-
-We achieve this by formally linking traditional contracts with Ethereum smart contracts through mutual reference and code correspondence.  
-
-Once these shares are created, anyone can invest into the company issuing them and verify the company’s claims by checking smart contracts and transaction data on the
-public ledger. 
-
-The result is a primary market for real world, technologically enhanced equivalents to shares – “equity tokens” – that aim to be as liquid as cryptocurrency. By joining the platform and bringing their fiat currency on-chain, users gain access to this
-market.  
-
-In this way, Neufund also functions as a powerful mechanism for onboarding off-chain investors and companies to the crypto economy.
-Companies can thus raise funds from investors in their existing network, as well as any cryptocurrency holder, or via the capital pool on the Neufund platform dedicated for funding. Once a company has successfully completed a campaign and issued their equity
-tokens, Neufund provides an easy-to-use user interface for interacting with shareholders.  
-
-It is possible to hold votes for legally binding resolutions, issue updates and reports, open further fundraising rounds, enable secondary trading of equity tokens, and perform other functions necessary for responsible corporate governance. 
-
-
-In order for the described components to work and the system to sustain itself, Neufund is designed to be a true token economy. Its value is reflected by a protocol token called
-Neumark, which participants earn by committing capital to the platform.  
-
-This essentially allows people to economically own the ecosystem, a powerful incentive for investors to bootstrap the platform and grow it with further investment.  
-
-Neumarks are an attractive
-asset: they entitle their holders to revenues from platform fees for ETOs (Equity Token Offerings) taking place on Neufund, as well as economic benefit from a platform portfolio pool holding a small amount of every ETO ever conducted.

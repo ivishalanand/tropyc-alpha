@@ -117,16 +117,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Dentacoin**
-
-Blockchain solution for the global dental industry.
-
-**Functionality**
-
-* Gathers dental specialists and patients onto one platform
-* Shifts paradigm from treatment to prevention by providing customised information
-* Patient database to better understand the impact of specific treatment methods
-* Interactive aftercare mobile app, to educate users on best practices
-* Plans to implement a dental insurance scheme
-* Total token supply valuation is at $1bn

@@ -99,15 +99,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Soma, the social marketplace**
-
-Decentralised social marketplace that facilitates trade of physical items amongst users
-
-**Functionality**
-
-* Users are able to trade physical items on a P2P marketplace.
-* Extensive contribution incentivises users by rewarding them with tokens
-* Social media tools built on the platform: sharing, liking, commenting, following
-* Pending patent for their Interactive Item Card. It facilitates item information and social acceptance into one card.
-* Heads up to the team for their transparent and well communicated ICO.

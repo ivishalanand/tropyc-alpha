@@ -116,9 +116,3 @@ currencyAccepted = "BTC, ETH, USD"
   expansion = false
   profit = false
 +++
-
-**CEDEX**
-
-Cedex is removing the three main obstacles (lack of transparency, liquidity and fungibility) the CEDEX (CErtified Blockchain Based Diamond EXchange) will disrupt the way diamonds are currently perceived.  
-
-Using innovative propriety technological solutions – including emerging blockchain technology – CEDEX will create an open and transparent marketplace in which anyone will be able to liquidate diamonds or invest in diamonds as a new financial asset class.

@@ -102,11 +102,4 @@ currencyAccepted = "BTC, ETH"
   profit = false
 +++
 
-**Artex**
-
-Artex is a platform which will establish the historical record of art objects – both digital images,and items of cultural and historical importance.  
-
-We will unite dealers, galleries, art critics, photographers, collectors, investors, and exhibitors on a single platform. 
-
-
 

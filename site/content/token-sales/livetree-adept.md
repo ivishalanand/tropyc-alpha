@@ -120,11 +120,3 @@ currencyAccepted = "ETH"
   expansion = true
   profit = true
 +++
-
-**Livetree Adept**
-
-LiveTree is an established, revenue positive, socially responsible crowdfunding company based in London, UK.  
-
-Over the last two years,  has captured 5% of the UK crowdfunding market (in the film and content category) and forged partnerships with several leading names in entertainment, including the British Film Institute Future Film, the Screen Arts Institute, Kent Film Office, Film London and 20 organizations.  
-
-LiveTree has compiled a contact directory  of 14,000 companies and thousands of individuals who work across film, TV and content creation.

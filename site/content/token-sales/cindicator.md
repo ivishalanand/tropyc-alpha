@@ -111,14 +111,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Cindicator**
-
-Hybrid intelligence for investment decision and asset management. Cindicator builds an infrastructre for data scientists, financial analysts and investors to make smarter decision, powered by machine learning systems.
-
-**Functionality**
-
-* investment and asset management platform powered by a community of scientists, artifical intelligence and machine learning systems
-* collaborative and distributed prediction market platform
-* users are able to make predictions and forecasts on markets and earn rewards if correct.
-* tokensale open to verified investors

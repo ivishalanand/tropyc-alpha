@@ -88,11 +88,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Totum**
-
-Earn by playing
-
-**Functionality**
-
-Decentralized gaming blockchain, which will allow any player to earn in the gaming industry. Totum allows you to turn any internal logic of a browser, online or mobile game into a liquid crypto tool.

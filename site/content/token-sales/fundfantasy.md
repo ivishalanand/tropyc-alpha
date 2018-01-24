@@ -108,18 +108,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**FundFantasy**
-
-FundFantasy, A social gaming platform powered by blockchain technology featuring peer-to-peer, provably-fair simulated investing contests, where users compete for prizes by crafting the ultimate portfolio.
-
-Real world financial trading is fraught with rigged risks for retail investors. Brokerage houses and advisors have long steered these inexperienced gamblers into questionable investments that overwhelmingly benefit agents as opposed to small investors. There is now a way for retail investors to be treated fairly, satisfy their desire for profit and feel the rush of online financial trading.
-
-**Choose a contest**
-Choose from a variety of different contests: Head-to-head, Multipliers, Winner-takes-all and more. Top-heavy contests will make sure winners get hefty prizes. Contests vary in duration and can range from 1 hour to a full month. Free contests are also available.
-
-**Create a portfolio**
-Users can choose assets from various asset classes including stocks, commodities, cryptocurrencies, and fiat currencies. Choose how much to invest and simply select the direction of the price, up or down.
-
-**Win Large Prizes**
-The FundFantasy platform will run using FundTokens (FUNDZ) - the FundFantasy payment currency. FUNDZ can also be used to purchase entry tickets to contests that pay out in other currencies such as BTC, ETH and more.

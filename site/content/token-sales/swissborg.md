@@ -76,14 +76,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Swissborg**
-
-Decentralized and professional ecosystem to manage a portfolio of crypto assets powered by the community, portofolio managers and new technologies.
-
-**Functionality**
-
-* Decentralised crypto wealth management solution for institutional investors as well as individuals
-* Multi-strategy opportunity : fund, tracker, loans etc...
-* Quarterly returns: 50% to investors, 40% reinvested to the fund & 10% to SwissBorg's DAO + management fees (1%)
-* No Bonus period and all the tokens are disbursed during the token generation event

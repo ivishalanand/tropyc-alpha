@@ -95,13 +95,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Zloadr**
-
-News and media publishing platform
-
-**Functionality**
-
-* Content writers, editors, influencers and advertisers meet on one decentralised digital publishing platform
-* Business accepts both fiat and cryptocurrency and sells access to marketplace on a monthly subsicription
-* Publishers can encrypto their content, transfer ownserhip, earn royaltees

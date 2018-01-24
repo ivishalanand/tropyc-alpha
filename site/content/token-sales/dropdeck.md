@@ -110,14 +110,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Dropdeck**
-
-Royalty and debt financing platform smart-contract and token-incentivized mechanism to evaluate and fund businesses worldwide.
-
-**Functionality**
-
-* Decentralized DropDeck Token (DDD) serves 4 utilities: contribution/loan, score verification, contribution rewards, premium features
-* Investors can either lend or contribute to projects with either royalty or dead financing.
-* Ventures can seek funds and are scored by the community.
-* Contributors are rewarded for scoring projects.

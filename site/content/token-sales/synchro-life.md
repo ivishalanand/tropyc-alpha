@@ -116,14 +116,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Synchro Life**
-
-Recommendation and community platform for the food and beverage industry. Valuation is dynamic and therefore unclear
-
-**Functionality**
-
-* Community reviews restaurants, engages on the platform and gets rewarded for their contribution
-* Personnal recommendations powered by artifical intelligence
-* Users can add restaurants, menu, upload comments, pictures, suggestions and more
-* Application has a revenue model and intends to charges a premium fee while providing a free version

@@ -108,13 +108,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Viberate**
-
-Product linking every stakeholders in the music and event industry: artists, agent, bookers, venues and fans
-
-**Functionality**
-
-* Artist and event database system
-* Marketplace between stakeholders
-* Musician profile with their work

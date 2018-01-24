@@ -110,13 +110,3 @@ currencyAccepted = "BTC, LTC, ETH, XRP"
   expansion = true
   profit = true
 +++
-
-**Global Jobcoin**
-
-A decentralized platform that enables the payment of services related to employment. Jobstoday already has a presence in Switzerland, Germany, Poland & Austria.
-
-**Functionality**
-
-* Existing off-blockchain product with users in 4 countries.
-* Currency to settle transactions between employer and short-term employee.
-* 1000+ recruitments per month, 1 million users.

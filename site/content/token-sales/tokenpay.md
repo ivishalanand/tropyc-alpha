@@ -114,30 +114,3 @@ currencyAccepted = "BTC"
   expansion = false
   profit = false
 +++
-
-
-TokenPay is a blockchain project that incorporates Bitcoin cryptographic
-technology with advanced security and privacy features. Additionally,
-TokenPay is building out a platform that combines banking and a closed-end
-private exchange. This enables wider adoption of the coin via consumer and
-merchant services. Developing a TokenPay coin and the infrastructure to
-support its everyday seamless use is a crucial step.
-
-
-**Why did TokenPay base its Blockchain off of Bitcoin?**
-
-
-In 2008, Satoshi Nakamoto released the whitepaper and source code of the
-Bitcoin blockchain. Nakamoto’s goal was to create a digital currency. One
-which was not centralized by a government or a federal reserve. It is open
-source and allows other cryptographers to improve upon the code. As of 2017,
-various developers have produced many different cryptocurrencies. All claim
-to have superior technology. However, Bitcoin still dominates the market.
-Nevertheless, the risk of newer blockchains are prone to security and privacy
-risks. This is a risk TokenPay is not willing to assume given the critical nature of the application. TokenPay has combined the most secure privacy and security
-features ever released by leveraging its unique blockchain with a combination
-of the core Bitcoin source coupled with legacy proven, secure and
-privacy-focused features.
-
-
-

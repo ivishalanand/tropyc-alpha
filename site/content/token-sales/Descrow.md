@@ -104,15 +104,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**Functionality**
-
-Descrow key aspects are:
-
-Secured collection, storage and distribution of the funds and avoiding of unforeseen losses.
-
-The platform splits up the project finance into the stages with temporary blocking of the funds designated for the further stages.
-
-Voting as a way of evaluation of the feasibility of the project on every stage. The investor is allowed to finance the project at any moment in full while the amount of tokens he selected is transferred to him.
-
-All uninvested funds are indemnified from the startup cancelation. The reserve fund within the Descrow platform is used for partial compensation of investor’s funds contributed during ICO.

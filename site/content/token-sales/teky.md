@@ -115,26 +115,3 @@ currencyAccepted = "BTC, ETH, LTC"
   expansion = false
   profit = false
 +++
-
-**Teky**
-
-Decentralised e-commerce paltform
-
-**Functionality**
-
-
-* Overview
-
-Teky is an e-retailer of smart technology toys & courses to empower the present and future generation by technology, to improve their competitive capacity beyond robotic workforce and artificial intelligence.  
-
-TEKY was founded in June 2016 by the leading and reputed professionals in 3 main industries including Technology, E-Commerce, and Education, whose startups were invested by eBay.
-
-
-* Eco-system
-
-E-commerce  
-MEK.store is specialising in smart-tech toys and the gadget market available for all ages, aimed at global market;
-
-Education & E-learning
-TEKY is a Technology Academy for the children from 4 to 17 years old in 3 main categories including Programming & Application Development, Robotics & Engineering, and 3D Technology & Multimedia at its Lab chains, school partners, franchisees, and e-learning platform
-

@@ -100,12 +100,3 @@ currencyAccepted = "BTC, ETH"
   expansion = false
   profit = false
 +++
-
-**CommerceBlock**
-
-CommerceBlock is a public blockchain infrastructure company
-
-**Functionality**
-
-We are building the first technology platform to bring a combination of trust minimized trade, decentralized contract execution, on-chain derivatives and asset backed token issuance to public blockchains.
-

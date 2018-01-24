@@ -111,13 +111,3 @@ currencyAccepted = "ETH"
   expansion = false
   profit = false
 +++
-
-**Leverj**
-
-This is content coming from ICO
-
-**Functionality**
-
-Leverj focuses on derivatives trading and the supporting ecosystem. We plan to build an ecosystem of features that will enable institutions to move into the cryptocurrency world.  
-
-Leverj decentralizes the most security critical features of derivatives trading by implementing them in smart contracts.
