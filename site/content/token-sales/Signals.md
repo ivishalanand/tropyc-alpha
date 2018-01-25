@@ -5,6 +5,7 @@ description = "Discover, create and monetize cryptocurrency trading strategies d
 bref = "Data science marketplace powered by hybrid intelligence "
 weight = 20
 draft = false
+premium = 2
 
 ticker = "SGN"
 startDate = 2018-02-26

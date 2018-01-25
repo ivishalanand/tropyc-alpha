@@ -1,14 +1,14 @@
 +++
 title = "Rexpax"
 date = 2017-08-13T17:30:02+02:00
-description = "Rexpax is going to become world's largest platform for sharing items with neighbors and people living nearby. You distribute all your home items into digital shelves and rooms so that your neighbors feel free to borrow or rent them from you."
-bref = "World's first home online"
+description = "Rexpax facilitates peer-to-peer exchange of goods between people liviing nearby. Users can convert their physical items into digital shelves and room, and are able to sell or rent them to other platform users."
+bref = "The global decentralised home"
 weight = 20
 draft = false
 
 ticker = "REXX"
-startDate = 2017-12-05
-endDate = 2017-12-11
+startDate = 2018-03-20
+endDate = 2018-04-20
 rating = "9.0"
 origin = "Belarus, 2014"
 industry = "Sharing economy"
@@ -34,29 +34,29 @@ currencyAccepted = "ETH"
   [valuation.rows]
     [valuation.rows.ico]
       distribution = "ICO"
-      cut = "60%"
-      supply = "1,260,000,000"
-      value = "27,000"
+      cut = "70%"
+      supply = "1,470,000,000"
+      value = "3,750"
     [valuation.rows.motivation]
       distribution = "Motivation fund"
-      cut = "30%"
-      supply = "630,000,000"
-      value = "13,500"
+      cut = "20%"
+      supply = "420,000,000"
+      value = "1,071.4"
     [valuation.rows.team]
       distribution = "Team"
       cut = "6%"
       supply = "126,000,000"
-      value = "2,700"
+      value = "321.4"
     [valuation.rows.reserve]
-      distribution = "Bounty"
+      distribution = "Advisory"
       cut = "4%"
       supply = "84,000,000"
-      value = "1,800"
+      value = "214.3"
     [valuation.rows.total]
       distribution = "Total"
       cut = "100%"
       supply = "2,100,000,000"
-      value = "45,000"
+      value = "5,357"
 
 [allocation]
   [allocation.development]
