@@ -7,8 +7,8 @@ weight = 20
 draft = false
 
 ticker = "FUNDS"
-startDate = 2018-01-05
-endDate = 2018-03-05
+startDate = 2018-02-05
+endDate = 2018-03-25
 rating = "7.6"
 origin = "Gibraltar, 2017"
 industry = "Online gaming, fintech"
