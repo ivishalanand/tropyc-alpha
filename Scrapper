@@ -1,0 +1,56 @@
+setwd("C:/Users/vishal/Desktop/Tropyc/ICO bench")
+library(dplyr)
+library(rvest)
+library(XML)
+
+
+#creating a dataframe to store the name of the ico, the website, raised amount, preico time and the ico time.
+m <- data.frame(name=character(),site=character(),raised=character(),PreICO_Time=character(),ICO_Time=character())
+#reading the website from the csv file which contains a list of all the websites  in one single column.
+website<-read.csv("websites.csv")
+time<-c("preico time","ICO time")
+
+
+
+#scrappig the webbsit
+for(i in 1:nrow(website))
+{
+  tryCatch({
+    
+    #fetching url
+    url<-website[i,1]
+    
+    #extracting  name and a site
+    name<-as.character(gsub("<.*?>", "",read_html(as.character(url)) %>%  html_node('h1')))
+    site<-(read_html(as.character(url)) %>%  html_nodes('.www') %>%  html_attr('href'))[1]
+    
+    #extracting whether they have a raised amount or not? 
+    raised<-gsub("\n","",read_html(as.character(url)) %>%  html_nodes('.raised')%>%html_text(trim=T))
+    if(identical(raised,character(0))==TRUE)
+      raised="NA" 
+    
+    #time1 is preico time2 is ico time
+     sale<-gsub("   ","",read_html(as.character(url)) %>%  html_nodes('.expand label')%>%html_text(trim=T))
+      dates<-gsub("   ","",read_html(as.character(url)) %>%  html_nodes('.expand small')%>%html_text(trim=T))
+      if(identical(sale,character(0))==TRUE)
+        {
+        time[1]<-c("NA")
+        time[2]<-c("NA")
+        } else if(sale[1]=="ICO Time")
+      {
+        time[2]<-dates[1]
+        time[1]<-dates[2]
+      }else
+      {
+        time[1]<-dates[1]
+        time[2]<-dates[2]
+      }
+    #creating a temporary dataframe
+    temp<-data.frame(cbind(name,site,raised,time[1],time[2]))
+    #binding the dataframe into one single dataframe
+    m<-rbind(m,temp)
+    print.default(i)
+    #catching any error if it occurs
+  }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+  
+}
